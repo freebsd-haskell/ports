@@ -1,0 +1,32 @@
+# New ports collection makefile for:	xmonad-contrib
+# Date created:		2008-01-23
+# Whom:		Matthieu Guegan <matt.guegan@free.fr>
+#
+# $FreeBSD: ports/x11-wm/hs-xmonad-contrib/Makefile,v 1.19 2010/05/24 21:52:43 pgj Exp $
+#
+
+PORTNAME=	xmonad-contrib
+PORTVERSION=	0.9.2
+CATEGORIES=	x11-wm haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Third party tiling algorithms, configurations and scripts to xmonad
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+USE_HACKAGE=	mtl xmonad>=0.9.1 X11>=1.5 utf8-string
+USE_XORG=	x11
+
+OPTIONS=	XFT "Enable Xft support for fonts" On
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
+.include <bsd.port.options.mk>
+
+.if defined(WITH_XFT)
+CONFIGURE_ARGS+=	--flags="use_xft"
+USE_HACKAGE+=		X11-xft>=0.2
+.endif
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

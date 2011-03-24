@@ -1,0 +1,23 @@
+# New ports collection makefile for: hs-MonadCatchIO-transformers
+# Date created:        September 19, 2010
+# Whom:                haskell@FreeBSD.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	MonadCatchIO-transformers
+PORTVERSION=	0.2.2.2
+CATEGORIES=	devel haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Monad-transformer compatible version of the Control.Exception module
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+CABAL_SETUP=	Setup.hs
+
+USE_HACKAGE=	transformers
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

@@ -1,0 +1,33 @@
+# New ports collection makefile for:	highlighting-kate
+# Date created:				December 16, 2008
+# Whom:					Gabor Pali <pgj@FreeBSD.org>
+#
+# $FreeBSD: ports/textproc/hs-highlighting-kate/Makefile,v 1.13 2010/07/30 09:00:51 pgj Exp $
+#
+
+PORTNAME=	highlighting-kate
+PORTVERSION=	0.2.9
+CATEGORIES=	textproc haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	A Haskell syntax highlighting library for 50+ languages
+
+LICENSE=	GPLv2
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+USE_HACKAGE=	parsec regex-pcre-builtin xhtml
+
+OPTIONS=	EXECUTABLE "Build the Highlight executable" off
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
+.include <bsd.port.options.mk>
+
+.if defined(WITH_EXECUTABLE)
+CONFIGURE_ARGS+=	--flags="executable"
+EXECUTABLE+=		Highlight
+.else
+CONFIGURE_ARGS+=	--flags="-executable"
+.endif
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

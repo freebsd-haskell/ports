@@ -1,0 +1,20 @@
+# New ports collection makefile for:	hs-utf8-string-ghc
+# Date created:		2008-10-21
+# Whom:			Ashish Shukla <wahjava@gmail.com>
+#
+# $FreeBSD: ports/devel/hs-utf8-string/Makefile,v 1.10 2010/06/11 13:41:05 ashish Exp $
+#
+
+PORTNAME=	utf8-string
+PORTVERSION=	0.3.6
+PORTREVISION=	1
+CATEGORIES=	devel haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Support for reading/writing UTF8 strings for Haskell programs
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

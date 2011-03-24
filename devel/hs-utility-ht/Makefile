@@ -1,0 +1,20 @@
+# New ports collection makefile for: hs-utility-ht
+# Date created:        December 20 2009
+# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
+#
+# $FreeBSD: ports/devel/hs-utility-ht/Makefile,v 1.3 2010/05/26 11:18:40 jacula Exp $
+#
+
+PORTNAME=	utility-ht
+PORTVERSION=	0.0.5.1
+PORTREVISION=	1
+CATEGORIES=	devel haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Various small Haskell helper functions for Lists, Maybes, Tuples, Functions
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

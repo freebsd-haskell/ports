@@ -1,0 +1,32 @@
+# New ports collection makefile for:	xmonad
+# Date created:		2007-10-25
+# Whom:			Matthieu Guegan <matt.guegan@free.fr>
+#
+# $FreeBSD: ports/x11-wm/hs-xmonad/Makefile,v 1.18 2010/05/24 21:52:43 pgj Exp $
+#
+
+PORTNAME=	xmonad
+PORTVERSION=	0.9.2
+CATEGORIES=	x11-wm haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Xmonad is a minimalist and tiling window manager for X
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+# Temporarily disabled, because there is a bug in documentation generation.
+NOPORTDOCS=	yes
+
+USE_HACKAGE=	mtl X11>=1.5
+USE_XORG=	x11
+
+MAN1=		xmonad.1
+MAN1SRC=	man
+
+EXECUTABLE=	xmonad
+
+PORTDATA=		*
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

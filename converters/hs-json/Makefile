@@ -1,0 +1,24 @@
+# New ports collection makefile for: hs-json
+# Date created:        December 20 2009
+# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
+#
+# $FreeBSD: ports/converters/hs-json/Makefile,v 1.4 2010/06/08 06:31:59 pgj Exp $
+#
+
+PORTNAME=	json
+PORTVERSION=	0.4.4
+PORTREVISION=	1
+CATEGORIES=	converters haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Support for serialising Haskell to and from JSON
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+CABAL_SETUP=	Setup.hs
+
+USE_HACKAGE=	mtl
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

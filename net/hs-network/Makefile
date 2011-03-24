@@ -1,0 +1,22 @@
+# New ports collection makefile for:	hs-network
+# Date created:		2010-05-14
+# Whom:			Ashish SHUKLA <wahjava@gmail.com>
+#
+# $FreeBSD$
+#
+
+PORTNAME=	network
+PORTVERSION=	2.3.0.2
+CATEGORIES=	net haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Networking-related facilities
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+CABAL_SETUP=	Setup.hs
+USE_HACKAGE=	parsec
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

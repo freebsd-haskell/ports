@@ -1,0 +1,24 @@
+# New ports collection makefile for: hs-gconf
+# Date created:        March 13, 2011
+# Whom:                haskell@FreeBSD.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	gconf
+PORTVERSION=	0.12.0
+CATEGORIES=	devel haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Binding to the GNOME configuration database system
+
+LICENSE=	LGPL21
+LICENSE_FILE=	${WRKSRC}/COPYING
+
+CABAL_SETUP=	Setup.hs
+
+USE_HACKAGE=	glib>=0.12 mtl
+USE_GNOME=	gconf2
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

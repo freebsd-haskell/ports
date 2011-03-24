@@ -1,0 +1,19 @@
+# New ports collection makefile for: hs-hxt
+# Date created:        May 14, 2010
+# Whom:                Gabor Pali <pgj@FreeBSD.org>
+#
+# $FreeBSD: ports/textproc/hs-hxt/Makefile,v 1.3 2010/08/30 10:51:42 pgj Exp $
+#
+
+PORTNAME=	hxt
+PORTVERSION=	9.1.1
+CATEGORIES=	textproc haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	A collection of tools for processing XML with Haskell
+
+USE_HACKAGE=	binary>=0.5 deepseq>=1.1 HUnit>=1.2 hxt-charproperties>=9.1 \
+		hxt-regex-xmlschema>=9 hxt-unicode>=9 network>=2.1 parsec>=2.1
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

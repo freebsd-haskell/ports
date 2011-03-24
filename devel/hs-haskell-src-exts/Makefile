@@ -1,0 +1,23 @@
+# New ports collection makefile for: hs-haskell-src-exts
+# Date created:        December 30 2009
+# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
+#
+# $FreeBSD: ports/devel/hs-haskell-src-exts/Makefile,v 1.5 2010/06/08 05:57:20 pgj Exp $
+#
+
+PORTNAME=	haskell-src-exts
+PORTVERSION=	1.10.2
+CATEGORIES=	devel haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Manipulating Haskell source
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+CABAL_SETUP=	Setup.hs
+USE_HAPPY=	yes
+USE_HACKAGE=	cpphs>=1.3
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

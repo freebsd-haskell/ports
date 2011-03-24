@@ -1,0 +1,24 @@
+# New ports collection makefile for: hs-Agda-executable
+# Date created:        December 20 2009
+# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
+#
+# $FreeBSD: ports/math/hs-Agda-executable/Makefile,v 1.4 2010/05/26 11:18:42 jacula Exp $
+#
+
+PORTNAME=	Agda-executable
+PORTVERSION=	2.2.10
+CATEGORIES=	math haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Command-line program for type-checking and compiling Agda programs
+
+CABAL_SETUP=	Setup.hs
+USE_HACKAGE=	Agda==2.2.10
+
+USE_ICONV=	yes
+
+EXECUTABLE=	agda
+STANDALONE=	yes
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

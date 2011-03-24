@@ -1,0 +1,29 @@
+# New ports collection makefile for: hs-criterion
+# Date created:        December 20 2009
+# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
+#
+# $FreeBSD: ports/benchmarks/hs-criterion/Makefile,v 1.5 2010/07/30 09:21:44 pgj Exp $
+#
+
+PORTNAME=	criterion
+PORTVERSION=	0.5.0.7
+CATEGORIES=	benchmarks haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Robust, reliable performance measurement and analysis for Haskell
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+USE_HACKAGE=	deepseq>=1.1 mtl mwc-random>=0.8.0.3 parallel parsec>=3.1 \
+		statistics>=0.8.0.5 vector>=0.7 vector-algorithms>=0.4
+
+PORTEXAMPLES=		*
+INSTALL_PORTEXAMPLES=	\
+	cd ${WRKSRC}/examples && ${COPYTREE_SHARE} \* ${EXAMPLESDIR}
+
+PORTDATA=		*
+INSTALL_PORTDATA= 	${INSTALL_DATA} ${WRKSRC}/README.markdown ${DATADIR}
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

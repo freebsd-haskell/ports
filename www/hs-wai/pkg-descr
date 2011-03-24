@@ -1,0 +1,3 @@
+Provides a common protocol for communication between web aplications and web servers.
+
+WWW: http://github.com/snoyberg/wai

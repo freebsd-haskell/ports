@@ -1,0 +1,24 @@
+# New ports collection makefile for: hs-probability
+# Date created:        December 20 2009
+# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
+#
+# $FreeBSD: ports/math/hs-probability/Makefile,v 1.4 2010/06/08 12:38:58 pgj Exp $
+#
+
+PORTNAME=	probability
+PORTVERSION=	0.2.2.1
+PORTREVISION=	1
+CATEGORIES=	math haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Probabilistic Functional Programming in Haskell
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/COPYRIGHT
+
+USE_HACKAGE=	transformers>=0.0.1
+
+PORTDATA=	*
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>

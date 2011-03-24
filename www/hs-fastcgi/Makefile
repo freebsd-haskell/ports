@@ -1,0 +1,23 @@
+# New ports collection makefile for: hs-fastcgi
+# Date created:        December 20 2009
+# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
+#
+# $FreeBSD: ports/www/hs-fastcgi/Makefile,v 1.4 2010/07/30 09:06:45 pgj Exp $
+#
+
+PORTNAME=	fastcgi
+PORTVERSION=	3001.0.2.3
+PORTREVISION=	1
+CATEGORIES=	www haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	A Haskell library for writing FastCGI programs
+
+LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+USE_HACKAGE=	cgi>=3000
+LIB_DEPENDS=	fcgi.0:${PORTSDIR}/www/fcgi
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>
