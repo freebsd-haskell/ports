@@ -21,12 +21,11 @@ ONLY_FOR_ARCHS=	i386 amd64
 
 GHC_VERSION=	${PORTVERSION}
 BOOT_GHC_VERSION=	6.10.4
-# HADDOCK_VERSION=	2.4.2
 HSCOLOUR_VERSION=	1.16
 GHCPATH_VERSION=	0.1.0.6
 
-# PORT_HADDOCK_VERSION=	${HADDOCK_VERSION}
-# BOOT_HADDOCK_VERSION=	${HADDOCK_VERSION}
+DATADIR=	${PREFIX}/share/ghc-${GHC_VERSION}
+EXAMPLESDIR=	${PREFIX}/share/examples/ghc-${GHC_VERSION}
 
 CONFLICTS=	ghc-6.8.* ghc-6.10.* ghc-6.12.*
 
@@ -143,12 +142,10 @@ MAKE_ENV+=	TMPDIR=${TMPDIR}
 
 MASTER_SITES+=	${HACKAGE_SITE}${HACKAGE_ARCH}hscolour/${HSCOLOUR_VERSION}/:docs \
 		${HACKAGE_SITE}${HACKAGE_ARCH}ghc-paths/${GHCPATH_VERSION}/:docs
-# ${HACKAGE_SITE}${HACKAGE_ARCH}haddock/${HADDOCK_VERSION}/:docs
 DISTFILES+=	hscolour-${HSCOLOUR_VERSION}.tar.gz:docs \
 		ghc-paths-${GHCPATH_VERSION}.tar.gz:docs
-# haddock-${HADDOCK_VERSION}.tar.gz:docs
 
-EXTRACT_ONLY=	${_DISTFILES:C/ghc-paths.*$//g:C/hscolour.*$//g:C/haddock.*$//g}
+EXTRACT_ONLY=	${_DISTFILES:C/ghc-paths.*$//g:C/hscolour.*$//g}
 
 MAN1=		ghc.1
 
@@ -296,9 +293,13 @@ post-install:
 	# cabalised hs-foo-ghc ports
 	@${MKDIR} ${GHC_LIBDIR}/cabal
 	@${MKDIR} ${DOCSDIR}/cabal
+	@${MKDIR} ${EXAMPLESDIR}/cabal
+	@${MKDIR} ${DATADIR}/cabal
 	# ugly hack, required by gen_contents_index
 	@${TOUCH} ${DOCSDIR}/html/libraries/synopsis.png
 	@${TOUCH} ${DOCSDIR}/html/libraries/hslogo-16.png
+	@${RM} -f ${PREFIX}/bin/haddock
+	@${LN} -sf ${PREFIX}/bin/haddock-ghc-${GHC_VERSION} ${PREFIX}/bin/haddock
 	@${RM} -f ${PREFIX}/lib/ghc-${GHC_VERSION}/package.conf.old
 
 .if defined(WITH_TEST)
