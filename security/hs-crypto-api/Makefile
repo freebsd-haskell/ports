@@ -19,5 +19,7 @@ CABAL_SETUP=	Setup.hs
 
 USE_HACKAGE=	cereal>=0.2 tagged>=0.1
 
+PORTDATA=	*
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -24,5 +24,7 @@ USE_HACKAGE=	regex-compat
 BUILD_DEPENDS+=	mktexlsr:${PORTSDIR}/print/teTeX-base
 RUN_DEPENDS+=	mktexlsr:${PORTSDIR}/print/teTeX-base
 
+PORTDATA=	*
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -68,6 +68,7 @@ ghc-mtl_port=			devel/hs-ghc-mtl
 ghc-paths_port=			devel/hs-ghc-paths
 gio_port=			devel/hs-gio
 glade_port=			devel/hs-glade
+glib_port=			devel/hs-glib
 GLURaw_port=			x11-toolkits/hs-GLURaw
 GLUT_port=			x11-toolkits/hs-GLUT
 gstreamer_port=			multimedia/hs-gstreamer

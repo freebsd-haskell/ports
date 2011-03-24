@@ -17,5 +17,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USE_HACKAGE=	QuickCheck>=2.3
 
+BROKEN=		does not compile
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

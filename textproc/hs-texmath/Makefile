@@ -16,7 +16,7 @@ LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	parsec>=2 xml
+USE_HACKAGE=	parsec>=2 syb xml
 
 OPTIONS=	CGI	"Compile CGI executable"	off
 

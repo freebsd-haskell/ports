@@ -15,5 +15,7 @@ COMMENT=	Haskell type classes and instances for converting between types
 LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/COPYING
 
+USE_HACKAGE=	mtl
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

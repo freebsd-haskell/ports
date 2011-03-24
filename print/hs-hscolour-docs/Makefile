@@ -15,6 +15,9 @@ COMMENT=	Documentation for HsColour
 
 CABAL_SETUP=	Setup.hs
 
+LICENSE=	GPLv2
+LICENSE_FILE=	${WKRSRC}/LICENCE-GPL
+
 DOCUMENTATION=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Monad-transformer compatible version of the Control.Exception module
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 

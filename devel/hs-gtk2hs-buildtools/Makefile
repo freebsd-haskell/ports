@@ -17,6 +17,9 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
 
+USE_ALEX=	yes
+USE_HAPPY=	yes
+
 STANDALONE=	yes
 EXECUTABLE=	gtk2hsTypeGen gtk2hsHookGenerator gtk2hsC2hs
 

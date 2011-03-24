@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Monad-transformer version of the Control.Exception Haskell module
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_HACKAGE=	mtl
 

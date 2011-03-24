@@ -18,6 +18,8 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 CABAL_SETUP=	Setup.hs
 USE_HACKAGE=	binary>=0.4 mtl parallel parsec QuickCheck>=2 tagsoup>=0.8
 
+EXECUTABLE=	fastout flx frecover frename
+
 PORTDATA=	*
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
