@@ -1,0 +1,31 @@
+# New ports collection makefile for:   checkrdf
+# Date created:        17 december 2002
+# Whom:                Oliver Braun <obraun@FreeBSD.org>
+#
+# $FreeBSD: ports/deskutils/checkrdf/Makefile,v 1.18 2010/05/24 21:52:29 pgj Exp $
+#
+
+PORTNAME=	checkrdf
+PORTVERSION=	39.4444
+PORTREVISION=	3
+CATEGORIES=	deskutils
+MASTER_SITES=	SF
+
+MAINTAINER=	ports@FreeBSD.org
+COMMENT=	A tool for RDF site summaries based news-check
+
+BUILD_DEPENDS=	hs-HaXml>=1.19:${PORTSDIR}/textproc/hs-HaXml
+
+USE_BZIP2=	yes
+
+MAN1=		checkrdf.1
+MANCOMPRESSED=	yes
+
+PLIST_FILES=	bin/checkrdf bin/checkrdf.bin etc/checkrdf.rc
+PORTDOCS=	README NEWS blog.news.css bluegreek.css myrdf.css
+
+.if defined(NOPORTDOCS)
+INSTALL_TARGET=install-bin install-rc install-man
+.endif
+
+.include <bsd.port.mk>
