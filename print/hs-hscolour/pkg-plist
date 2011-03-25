@@ -1,0 +1,3 @@
+@comment $FreeBSD$
+%%NOPORTDOCS%%%%DOCSDIR%%/LICENCE-GPL
+%%NOPORTDOCS%%@dirrmtry %%DOCSDIR%%
