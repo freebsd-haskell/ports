@@ -221,8 +221,8 @@ post-install-script:
 .endif
 
 post-add-script:
-       # Cleanup the mess created by gen_contents_index
-       @${ECHO} "@unexec rm -rf %D/${DOCSDIR_REL}/html/libraries" >> ${TMPPLIST}
+#	Cleanup the mess created by gen_contents_index
+	@${ECHO} "@unexec rm -rf %D/${DOCSDIR_REL}/html/libraries" >> ${TMPPLIST}
 
 #post-build:
 #	@(cd ${WRKSRC} && ${GMAKE} binary-dist)
