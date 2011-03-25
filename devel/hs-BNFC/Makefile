@@ -17,5 +17,9 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 USE_HACKAGE=	mtl
 
+STANDALONE=	yes
+EXECUTABLE=	bnfc
+PORTDATA=	*
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
