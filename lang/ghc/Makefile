@@ -218,11 +218,10 @@ post-install-script:
 		's,^${PREFIX}/?,,' >> ${TMPPLIST}
 	@${FIND} -ds ${DOCSDIR} -type d -print | ${SED} -E -e \
 		's,^${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}
-.endif
-
-post-add-script:
+.else
 #	Cleanup the mess created by gen_contents_index
-	@${ECHO} "@unexec rm -rf %D/${DOCSDIR_REL}/html/libraries" >> ${TMPPLIST}
+	@${ECHO} "@unexec rm -rf %D/${DOCSDIR_REL}/html/libraries/doc-index-*.html" >> ${TMPPLIST}
+.endif
 
 #post-build:
 #	@(cd ${WRKSRC} && ${GMAKE} binary-dist)
