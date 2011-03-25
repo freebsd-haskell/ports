@@ -15,7 +15,7 @@ COMMENT=	Push-pull functional reactive programming
 
 BROKEN=		cannot be compiled
 
-USE_HACKAGE=	category-extras>=0.53.5 checkers>=0.2.3 \
+USE_CABAL=	category-extras>=0.53.5 checkers>=0.2.3 \
 		QuickCheck>=2.1.0.2 Stream>=0.3.1 TypeCompose>=0.8.0 \
 		unamb>=0.1.5 vector-space>=0.5
 

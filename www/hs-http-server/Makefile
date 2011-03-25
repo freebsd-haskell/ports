@@ -17,7 +17,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	HTTP>=4000.0.7 mime>=0.3 network>=2 url>=2 utf8-string>=0.3.4
+USE_CABAL=	HTTP>=4000.0.7 mime>=0.3 network>=2 url>=2 utf8-string>=0.3.4
 
 PORTEXAMPLES=		*
 INSTALL_PORTEXAMPLES=	cd ${WRKSRC}/example && \

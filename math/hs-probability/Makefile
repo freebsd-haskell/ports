@@ -16,7 +16,7 @@ COMMENT=	Probabilistic Functional Programming in Haskell
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/COPYRIGHT
 
-USE_HACKAGE=	transformers>=0.0.1
+USE_CABAL=	transformers>=0.0.1
 
 PORTDATA=	*
 

@@ -15,7 +15,7 @@ COMMENT=	Haskell implementation of MD5 algorithm
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	binary>=0.4.0 cereal>=0.2 crypto-api tagged
+USE_CABAL=	binary>=0.4.0 cereal>=0.2 crypto-api tagged
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

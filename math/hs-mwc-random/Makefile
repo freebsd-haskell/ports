@@ -15,7 +15,7 @@ COMMENT=	Fast, high quality pseudo random number generation in Haskell
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	primitive vector>=0.5
+USE_CABAL=	primitive vector>=0.5
 
 PORTDATA=		*
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/README.markdown ${DATADIR}

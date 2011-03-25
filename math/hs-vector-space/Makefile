@@ -15,7 +15,7 @@ COMMENT=	Vector & affine spaces, linear maps, and derivatives in Haskell
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USE_HACKAGE=	Boolean>=0.0.1 MemoTrie>=0.4.2
+USE_CABAL=	Boolean>=0.0.1 MemoTrie>=0.4.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

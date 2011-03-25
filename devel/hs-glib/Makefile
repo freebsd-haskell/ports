@@ -16,8 +16,7 @@ LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	gtk2hs-buildtools
+USE_CABAL=	gtk2hs-buildtools
 USE_GNOME=	glib20
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

@@ -11,11 +11,11 @@ CATEGORIES=	ports-mgmt haskell
 MAINTAINER=	sbahra@repnop.org
 COMMENT=	FreeBSD ports index search and statistical analysis tool
 
-CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	stringsearch
-
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
+
+CABAL_SETUP=	Setup.hs
+USE_CABAL=	stringsearch
 
 EXECUTABLE=	porte
 

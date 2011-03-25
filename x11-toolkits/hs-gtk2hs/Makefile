@@ -19,7 +19,7 @@ COMMENT=	A GTK2 Binding for Haskell
 NO_FETCH=	yes
 NO_BUILD=	yes
 
-USE_HACKAGE=	glib gio cairo pango gtk
+USE_CABAL=	glib gio cairo pango gtk
 
 OPTIONS=	GCONF          "GConf2 configuration system" off \
 		GLADE          "libglade UI loader"          off \
@@ -35,39 +35,39 @@ OPTIONS=	GCONF          "GConf2 configuration system" off \
 .include <bsd.port.options.mk>
 
 .if defined(WITH_GCONF)
-USE_HACKAGE+=		gconf
+USE_CABAL+=		gconf
 .endif
 
 .if defined(WITH_GLADE)
-USE_HACKAGE+=		glade
+USE_CABAL+=		glade
 .endif
 
 .if defined(WITH_GSTREAMER)
-USE_HACKAGE+=		gstreamer
+USE_CABAL+=		gstreamer
 .endif
 
 .if defined(WITH_GTKGLEXT)
-USE_HACKAGE+=		gtkglext
+USE_CABAL+=		gtkglext
 .endif
 
 .if defined(WITH_GSOURCEVIEW2)
-USE_HACKAGE+=		gsourceview2
+USE_CABAL+=		gsourceview2
 .endif
 
 .if defined(WITH_SVGCAIRO)
-USE_HACKAGE+=		svgcairo
+USE_CABAL+=		svgcairo
 .endif
 
 .if defined(WITH_VTE)
-USE_HACKAGE+=		vte
+USE_CABAL+=		vte
 .endif
 
 .if defined(WITH_WEBKIT)
-USE_HACKAGE+=		webkit
+USE_CABAL+=		webkit
 .endif
 
 .if defined(WITH_SOEGTK)
-USE_HACKAGE+=		soegtk
+USE_CABAL+=		soegtk
 .endif
 
 do-configure:	# none

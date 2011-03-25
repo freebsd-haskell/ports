@@ -17,7 +17,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	OpenGLRaw
+USE_CABAL=	OpenGLRaw
 USE_GL=		glu
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

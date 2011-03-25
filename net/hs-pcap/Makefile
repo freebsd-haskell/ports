@@ -16,7 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.lhs
-USE_HACKAGE=	network
+USE_CABAL=	network
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

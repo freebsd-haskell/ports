@@ -14,7 +14,7 @@ COMMENT=	A Haskell library for manipulating infinite lists
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	lazysmallcheck>=0.3 QuickCheck>=2.0
+USE_CABAL=	lazysmallcheck>=0.3 QuickCheck>=2.0
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

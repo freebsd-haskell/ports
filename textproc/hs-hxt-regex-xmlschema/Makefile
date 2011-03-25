@@ -13,8 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A regular expression library for W3C XML Schema regular expressions
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	hxt-charproperties>=9 parsec>=2.1
+USE_CABAL=	hxt-charproperties>=9 parsec>=2.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

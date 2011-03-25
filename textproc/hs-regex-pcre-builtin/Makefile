@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	regex-base>=0.93
+USE_CABAL=	regex-base>=0.93
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

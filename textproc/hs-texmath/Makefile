@@ -16,7 +16,7 @@ LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	parsec>=2 syb xml
+USE_CABAL=	parsec>=2 syb xml
 
 OPTIONS=	CGI	"Compile CGI executable"	off
 
@@ -27,7 +27,7 @@ PORTDATA=		*
 
 .if defined(WITH_CGI)
 CONFIGURE_ARGS+=	--flags="cgi"
-USE_HACKAGE+=		cgi json utf8-string
+USE_CABAL+=		cgi json utf8-string
 EXECUTABLE+=		texmath-cgi
 .else
 CONFIGURE_ARGS+=	--flags="-cgi"

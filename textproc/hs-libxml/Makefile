@@ -16,7 +16,7 @@ COMMENT=	Binding to libxml2
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	mtl
+USE_CABAL=	mtl
 USE_GNOME=	libxml2
 
 CONFIGURE_ARGS+=	--extra-include-dirs="${LOCALBASE}/include/libxml2"

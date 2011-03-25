@@ -16,7 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	hint>=0.3.1 mtl show>=0.3 utf8-string
+USE_CABAL=	hint>=0.3.1 mtl show>=0.3 utf8-string
 
 EXECUTABLE=	mueval mueval-core
 

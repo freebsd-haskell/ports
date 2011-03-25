@@ -16,7 +16,7 @@ COMMENT=	A Haskell library for writing FastCGI programs
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	cgi>=3000
+USE_CABAL=	cgi>=3000
 LIB_DEPENDS=	fcgi.0:${PORTSDIR}/www/fcgi
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

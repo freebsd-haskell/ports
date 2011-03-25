@@ -18,7 +18,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 BROKEN=		deprecated, use devel/hs-vector-algorithms
 
-USE_HACKAGE=	uvector>=0.1.0.4
+USE_CABAL=	uvector>=0.1.0.4
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

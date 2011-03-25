@@ -17,7 +17,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	ObjectName StateVar Tensor
+USE_CABAL=	ObjectName StateVar Tensor
 USE_OPENAL=	al
 
 PORTEXAMPLES=		*

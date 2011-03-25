@@ -16,8 +16,7 @@ LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/license.txt
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	attoparsec>=0.8 enumerator>=0.4
+USE_CABAL=	attoparsec>=0.8 enumerator>=0.4
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

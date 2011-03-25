@@ -12,12 +12,12 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	The Wadler/Leijen Pretty Printer for colored ANSI terminal output
 
-USE_HACKAGE=	ansi-terminal>=0.4.0
-
-OPTIONS=	EXAMPLE "Build the example application" off
-
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
+
+USE_CABAL=	ansi-terminal>=0.4.0
+
+OPTIONS=	EXAMPLE "Build the example application" off
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 .include <bsd.port.options.mk>

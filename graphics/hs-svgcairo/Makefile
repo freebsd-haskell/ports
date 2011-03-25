@@ -16,8 +16,7 @@ LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	cairo>=0.12 glib>=0.12 mtl
+USE_CABAL=	cairo>=0.12 glib>=0.12 mtl
 USE_GNOME=	librsvg2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

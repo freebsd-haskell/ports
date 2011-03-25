@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	MonadCatchIO-transformers>=0.2.1 blaze-builder>=0.2.1.4 \
+USE_CABAL=	MonadCatchIO-transformers>=0.2.1 blaze-builder>=0.2.1.4 \
 		cereal>=0.3 enumerator heist>=0.5 hint>=0.3.3.1 \
 		snap-core>=0.4.1 snap-server>=0.4.1
 

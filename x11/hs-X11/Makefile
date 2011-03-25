@@ -16,7 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	syb
+USE_CABAL=	syb
 USE_XORG=	x11 xext sm
 
 OPTIONS=	XINERAMA "Build with Xinerama support" off

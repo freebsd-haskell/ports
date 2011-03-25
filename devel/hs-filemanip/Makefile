@@ -15,7 +15,7 @@ COMMENT=	Expressive file and directory manipulation for Haskell
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	mtl unix-compat
+USE_CABAL=	mtl unix-compat
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -16,8 +16,7 @@ LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	glib>=0.12 mtl gtk2hs-buildtools
+USE_CABAL=	glib>=0.12 mtl gtk2hs-buildtools
 USE_GNOME=	gconf2
 
 PORTDATA=	*

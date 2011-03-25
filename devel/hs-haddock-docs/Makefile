@@ -16,7 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_AUTOTOOLS=	autoconf:env
-USE_HACKAGE=	xhtml>=3000.2 ghc-paths
+USE_CABAL=	xhtml>=3000.2 ghc-paths
 USE_ALEX=	true
 USE_HAPPY=	true
 

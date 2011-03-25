@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	binary dataenc mmap>=0.5 mtl zlib
+USE_CABAL=	binary dataenc mmap>=0.5 mtl zlib
 
 OPTIONS=	TEST "Build tests" off
 
@@ -26,7 +25,7 @@ OPTIONS=	TEST "Build tests" off
 
 .if defined(WITH_TEST)
 CONFIGURE_ARGS+=	--flags="test"
-USE_HACKAGE+=		test-framework test-framework-hunit \
+USE_CABAL+=		test-framework test-framework-hunit \
 			test-framework-quickcheck2 HUnit \
 			QuickCheck>=2.3 zip-archive
 EXECUTABLE+=		hashed-storage-test

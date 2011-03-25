@@ -14,7 +14,7 @@ COMMENT=	Monad-transformer version of the Control.Exception Haskell module
 
 LICENSE=	BSD
 
-USE_HACKAGE=	mtl
+USE_CABAL=	mtl
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

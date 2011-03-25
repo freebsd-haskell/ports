@@ -16,7 +16,7 @@ COMMENT=	A Haskell library for working with URLs
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	utf8-string>=0.3.4
+USE_CABAL=	utf8-string>=0.3.4
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

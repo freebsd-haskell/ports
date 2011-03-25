@@ -16,7 +16,7 @@ LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	language-c>=0.3.1.1
+USE_CABAL=	language-c>=0.3.1.1
 
 XMLDOCS=	doc/users_guide:html
 

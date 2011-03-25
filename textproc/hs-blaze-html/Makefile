@@ -13,8 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A blazingly fast HTML combinator library
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	blaze-builder text>=0.10
+USE_CABAL=	blaze-builder text>=0.10
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

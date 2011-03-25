@@ -13,10 +13,10 @@ CATEGORIES=	print haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Documentation for HsColour
 
-CABAL_SETUP=	Setup.hs
-
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENCE-GPL
+
+CABAL_SETUP=	Setup.hs
 
 DOCUMENTATION=	yes
 

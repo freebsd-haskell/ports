@@ -16,7 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	OpenGL>=2.3 StateVar Tensor
+USE_CABAL=	OpenGL>=2.3 StateVar Tensor
 USE_GL=		glut
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

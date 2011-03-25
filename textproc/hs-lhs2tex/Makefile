@@ -16,13 +16,12 @@ LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
+USE_CABAL=	regex-compat
+BUILD_DEPENDS+=	mktexlsr:${PORTSDIR}/print/teTeX-base
+RUN_DEPENDS+=	mktexlsr:${PORTSDIR}/print/teTeX-base
 
 STANDALONE=	yes
 EXECUTABLE=	lhs2TeX
-
-USE_HACKAGE=	regex-compat
-BUILD_DEPENDS+=	mktexlsr:${PORTSDIR}/print/teTeX-base
-RUN_DEPENDS+=	mktexlsr:${PORTSDIR}/print/teTeX-base
 
 PORTDATA=	*
 

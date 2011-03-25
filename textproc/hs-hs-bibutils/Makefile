@@ -18,7 +18,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 BUILD_DEPENDS=	bibutils>=4.9:${PORTSDIR}/textproc/bibutils
 RUN_DEPENDS=	bibutils>=4.9:${PORTSDIR}/textproc/bibutils
 
-USE_HACKAGE=	syb
+USE_CABAL=	syb
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -15,9 +15,8 @@ COMMENT=	Interface API for regex-posix,pcre,parsec,tdfa,dfa
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	mtl
-
 CABAL_SETUP=	Setup.hs
+USE_CABAL=	mtl
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

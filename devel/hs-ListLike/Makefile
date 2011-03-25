@@ -17,7 +17,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
 
-USE_HACKAGE=	mtl>=1.1
+USE_CABAL=	mtl>=1.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

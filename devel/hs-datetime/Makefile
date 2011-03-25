@@ -15,7 +15,7 @@ COMMENT=	Utilities to make Data.Time.* easier to use in Haskell
 LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USE_HACKAGE=	QuickCheck>=2
+USE_CABAL=	QuickCheck>=2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

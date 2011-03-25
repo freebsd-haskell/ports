@@ -16,7 +16,7 @@ LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	hslogger HUnit mtl network parsec regex-compat
+USE_CABAL=	hslogger HUnit mtl network parsec regex-compat
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	attoparsec>=0.8.1 attoparsec-enumerator>=0.2.0.1 binary>=0.5 \
+USE_CABAL=	attoparsec>=0.8.1 attoparsec-enumerator>=0.2.0.1 binary>=0.5 \
 		blaze-builder>=0.2.1.4 blaze-builder-enumerator>=0.2 \
 		directory-tree enumerator>=0.4.7 \
 		MonadCatchIO-transformers>=0.2.1 mtl>=2 murmur-hash>=0.1 \
@@ -32,7 +31,7 @@ OPTIONS=	LIBEV    "Use libev"                                        off \
 
 .if defined(WITH_LIBEV)
 CONFIGURE_ARGS+=	--flags="libev"
-USE_HACKAGE+=		hlibev
+USE_CABAL+=		hlibev
 .else
 CONFIGURE_ARGS+=	--flags="-libev"
 .endif

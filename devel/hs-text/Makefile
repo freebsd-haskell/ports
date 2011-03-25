@@ -15,7 +15,7 @@ COMMENT=	An efficient packed Unicode text type
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	deepseq>=1.1
+USE_CABAL=	deepseq>=1.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

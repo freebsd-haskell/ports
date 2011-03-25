@@ -16,7 +16,7 @@ COMMENT=	An mtl compatible version of the Ghc-Api monads and monad-transformers
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	MonadCatchIO-mtl>=0.2.0.0 mtl
+USE_CABAL=	MonadCatchIO-mtl>=0.2.0.0 mtl
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

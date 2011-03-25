@@ -16,11 +16,10 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
+USE_CABAL=	network>=1 HTTP>=4000.0.2 zlib>=0.4
 
 STANDALONE=	yes
 EXECUTABLE=	cabal
-
-USE_HACKAGE=	network>=1 HTTP>=4000.0.2 zlib>=0.4
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

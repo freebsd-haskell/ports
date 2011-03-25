@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	blaze-builder>=0.2.1 enumerator>=0.4.3.1 transformers>=0.2
+USE_CABAL=	blaze-builder>=0.2.1 enumerator>=0.4.3.1 transformers>=0.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

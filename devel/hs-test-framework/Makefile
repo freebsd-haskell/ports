@@ -15,7 +15,7 @@ COMMENT=	Framework for running and organising tests
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	ansi-terminal>=0.4 ansi-wl-pprint>=0.5.1 hostname>=1 \
+USE_CABAL=	ansi-terminal>=0.4 ansi-wl-pprint>=0.5.1 hostname>=1 \
 		regex-posix>=0.72 xml>=1.3.5
 
 CONFIGURE_ARGS+=	--flags="-Tests"

@@ -14,7 +14,7 @@ COMMENT=	An LALR(1) parser generator for the functional language Haskell
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	mtl
+USE_CABAL=	mtl
 
 XMLDOCS=	doc/happy:html
 USE_AUTOTOOLS=	autoconf:env

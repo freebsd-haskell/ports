@@ -17,7 +17,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
 
-USE_HACKAGE=	cairo>=0.11 glib>=0.11 gtk>=0.11 mtl
+USE_CABAL=	cairo>=0.11 glib>=0.11 gtk>=0.11 mtl
 USE_GNOME=	gtk20
 
 PORTDATA=	*

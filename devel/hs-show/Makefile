@@ -16,7 +16,7 @@ LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	QuickCheck>=2.4 smallcheck>=0.4 syb>=0.3
+USE_CABAL=	QuickCheck>=2.4 smallcheck>=0.4 syb>=0.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

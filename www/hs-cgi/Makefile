@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	MonadCatchIO-mtl mtl network>=2 parsec>=2 xhtml>=3000
+USE_CABAL=	MonadCatchIO-mtl mtl network>=2 parsec>=2 xhtml>=3000
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

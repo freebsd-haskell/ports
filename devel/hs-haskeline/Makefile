@@ -15,7 +15,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	mtl>=1.1 utf8-string>=0.3.6
+USE_CABAL=	mtl>=1.1 utf8-string>=0.3.6
 USE_ICONV=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

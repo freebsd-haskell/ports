@@ -15,7 +15,7 @@ COMMENT=	Parse CSV formatted data efficiently with Haskell
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	dlist
+USE_CABAL=	dlist
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

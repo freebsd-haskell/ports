@@ -14,7 +14,7 @@ COMMENT=	Unicode en-/decoding functions for utf8, iso-latin-* and other encoding
 
 CABAL_SETUP=	Setup.hs
 
-USE_HACKAGE=	hxt-charproperties>=9
+USE_CABAL=	hxt-charproperties>=9
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -18,7 +18,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 # Temporarily disabled, because there is a bug in documentation generation.
 NOPORTDOCS=	yes
 
-USE_HACKAGE=	mtl X11>=1.5
+USE_CABAL=	mtl X11>=1.5
 USE_XORG=	x11
 
 MAN1=		xmonad.1

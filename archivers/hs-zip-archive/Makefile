@@ -15,7 +15,7 @@ COMMENT=	A Haskell library for working with zip archives
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	binary digest>=0.0.0.1 mtl utf8-string>=0.3.1 zlib
+USE_CABAL=	binary digest>=0.0.0.1 mtl utf8-string>=0.3.1 zlib
 
 OPTIONS=	EXECUTABLE "Build the Zip executable" off
 

@@ -16,7 +16,7 @@ LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	HUnit mtl QuickCheck>=2.1.0.3
+USE_CABAL=	HUnit mtl QuickCheck>=2.1.0.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

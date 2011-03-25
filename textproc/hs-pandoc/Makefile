@@ -16,7 +16,7 @@ LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	citeproc-hs>=0.3.1 dlist>=0.4 HTTP>=4000.0.5 json>=0.4 \
+USE_CABAL=	citeproc-hs>=0.3.1 dlist>=0.4 HTTP>=4000.0.5 json>=0.4 \
 		mtl>=1.1 network>=2 pandoc-types>=1.8 parsec>=2.1 \
 		tagsoup>=0.12 texmath>=0.5 utf8-string>=0.3 \
 		xhtml>=3000.0 xml>=1.3.5 zip-archive>=0.1.1.7
@@ -36,7 +36,7 @@ OPTIONS=	HIGHLIGHTING "Compile in support for syntax highlighting" off \
 
 .if defined(WITH_HIGHLIGHTING)
 CONFIGURE_ARGS+=	--flags="highlighting"
-USE_HACKAGE+=		highlighting-kate
+USE_CABAL+=		highlighting-kate
 .else
 CONFIGURE_ARGS+=	--flags="-highlighting"
 .endif

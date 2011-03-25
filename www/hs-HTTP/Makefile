@@ -15,7 +15,7 @@ COMMENT=	A Haskell library for client-side HTTP
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	mtl network parsec
+USE_CABAL=	mtl network parsec
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

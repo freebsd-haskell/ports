@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	binary
+USE_CABAL=	binary
 
 OPTIONS=	TEST "Build the SHA test suite" off \
 		EXE  "Build a SHA2-384 executable similar to 'md5sum'" off
@@ -27,7 +26,7 @@ OPTIONS=	TEST "Build the SHA test suite" off \
 
 .if defined(WITH_TEST)
 CONFIGURE_ARGS+=	--flags="Test"
-USE_HACKAGE+=		QuickCheck>=2 test-framework>=0.3 test-framework-quickcheck2>=0.2
+USE_CABAL+=		QuickCheck>=2 test-framework>=0.3 test-framework-quickcheck2>=0.2
 EXECUTABLE+=		test_sha
 .else
 CONFIGURE_ARGS+=	--flags="-Test"

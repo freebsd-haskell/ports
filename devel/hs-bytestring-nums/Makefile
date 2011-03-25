@@ -10,7 +10,7 @@ PORTVERSION=	0.3.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Parse numeric literals from ByteStrings.
+COMMENT=	Parse numeric literals from ByteStrings
 
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE

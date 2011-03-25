@@ -16,7 +16,7 @@ COMMENT=	Bindings to the Xft, Xrender and Freetype for Haskell programs
 LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	utf8-string>=0.1 X11>=1.2.1
+USE_CABAL=	utf8-string>=0.1 X11>=1.2.1
 USE_XORG=	xft xrender
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

@@ -16,7 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_HACKAGE=	transformers
+USE_CABAL=	transformers
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

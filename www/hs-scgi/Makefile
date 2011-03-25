@@ -14,7 +14,7 @@ CATEGORIES=	www haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A Haskell library for writing SCGI programs
 
-USE_HACKAGE=	cgi network>=2.2.3
+USE_CABAL=	cgi network>=2.2.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	transformers
+USE_CABAL=	transformers
 
 EXECUTABLE=	cmdargs
 

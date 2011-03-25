@@ -15,7 +15,7 @@ COMMENT=	XML parser/formatter based on expat
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	deepseq List text>=0.5 transformers utf8-string
+USE_CABAL=	deepseq List text>=0.5 transformers utf8-string
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

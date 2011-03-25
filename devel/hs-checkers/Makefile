@@ -15,7 +15,7 @@ COMMENT=	Check properties on standard Haskell classes and data structures
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USE_HACKAGE=	QuickCheck>=2.3
+USE_CABAL=	QuickCheck>=2.3
 
 BROKEN=		does not compile
 

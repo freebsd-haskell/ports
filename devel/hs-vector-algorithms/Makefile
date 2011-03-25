@@ -15,7 +15,7 @@ COMMENT=	Efficient algorithms for vector arrays
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	primitive>=0.3 vector>=0.6
+USE_CABAL=	primitive>=0.3 vector>=0.6
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

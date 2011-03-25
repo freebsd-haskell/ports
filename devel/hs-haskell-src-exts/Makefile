@@ -17,7 +17,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_HAPPY=	yes
-USE_HACKAGE=	cpphs>=1.3
+USE_CABAL=	cpphs>=1.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

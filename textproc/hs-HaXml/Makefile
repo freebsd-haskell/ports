@@ -16,7 +16,7 @@ LICENSE=	LGPL21
 LICENSE_FILE=	${WRKSRC}/LICENCE-LGPL
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	polyparse>=1.2
+USE_CABAL=	polyparse>=1.2
 
 EXECUTABLE=	Canonicalise CanonicaliseLazy \
 		DtdToHaskell MkOneOf Validate \

@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	cereal>=0.2 tagged>=0.1
+USE_CABAL=	cereal>=0.2 tagged>=0.1
 
 PORTDATA=	*
 

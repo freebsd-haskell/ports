@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	attoparsec>=0.8.1 attoparsec-text>=0.8 blaze-builder>=0.2 \
+USE_CABAL=	attoparsec>=0.8.1 attoparsec-text>=0.8 blaze-builder>=0.2 \
 		directory-tree MonadCatchIO-transformers>=0.2.1 mtl>=2 \
 		text>=0.10 transformers xmlhtml>=0.1
 

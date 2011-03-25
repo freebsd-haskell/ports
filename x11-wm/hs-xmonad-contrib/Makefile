@@ -15,7 +15,7 @@ COMMENT=	Third party tiling algorithms, configurations and scripts to xmonad
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	mtl xmonad>=0.9.1 X11>=1.5 utf8-string
+USE_CABAL=	mtl xmonad>=0.9.1 X11>=1.5 utf8-string
 USE_XORG=	x11
 
 OPTIONS=	XFT "Enable Xft support for fonts" On
@@ -25,7 +25,7 @@ OPTIONS=	XFT "Enable Xft support for fonts" On
 
 .if defined(WITH_XFT)
 CONFIGURE_ARGS+=	--flags="use_xft"
-USE_HACKAGE+=		X11-xft>=0.2
+USE_CABAL+=		X11-xft>=0.2
 .endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

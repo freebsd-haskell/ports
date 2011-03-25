@@ -15,7 +15,7 @@ COMMENT=	Fast combinator parsing for texts
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	attoparsec>=0.7 text>=0.10
+USE_CABAL=	attoparsec>=0.7 text>=0.10
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

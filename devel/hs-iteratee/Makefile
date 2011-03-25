@@ -16,8 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-
-USE_HACKAGE=	ListLike>=1.0 MonadCatchIO-transformers>0.2 transformers>=0.2
+USE_CABAL=	ListLike>=1.0 MonadCatchIO-transformers>0.2 transformers>=0.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

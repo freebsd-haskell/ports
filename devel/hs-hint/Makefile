@@ -15,7 +15,7 @@ COMMENT=	Runtime Haskell interpreter (GHC API wrapper)
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	ghc-mtl>=1.0.1.0 ghc-paths haskell-src MonadCatchIO-mtl>=0.2 \
+USE_CABAL=	ghc-mtl>=1.0.1.0 ghc-paths haskell-src MonadCatchIO-mtl>=0.2 \
 		mtl utf8-string
 
 PORTEXAMPLES=		*

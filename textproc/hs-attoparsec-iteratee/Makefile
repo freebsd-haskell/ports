@@ -15,7 +15,7 @@ COMMENT=	An adapter to convert attoparsec Parsers into blazing-fast Iteratees
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	attoparsec>=0.8 iteratee>=0.7 monads-fd transformers
+USE_CABAL=	attoparsec>=0.8 iteratee>=0.7 monads-fd transformers
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

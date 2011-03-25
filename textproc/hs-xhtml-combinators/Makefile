@@ -15,7 +15,7 @@ COMMENT=	Fast and easy to use XHTML combinators
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	text>=0.7 transformers>=0.2 xml>=1.3.5
+USE_CABAL=	text>=0.7 transformers>=0.2 xml>=1.3.5
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

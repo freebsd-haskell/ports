@@ -113,26 +113,28 @@ _SUF2=	,${PORTEPOCH}
 PKGVERSION=	${PORTVERSION:C/[-_,]/./g}${_SUF1}${_SUF2}
 
 PKGNAMESUFFIX=	-docs
-USE_HACKAGE+=	${PORTNAME}==${PKGVERSION}
+USE_CABAL+=	${PORTNAME}==${PKGVERSION}
 .endif
 
-.if defined(USE_HACKAGE)
+.if defined(USE_CABAL)
 .include "bsd.hackage.mk"
 
-.for hackage in ${USE_HACKAGE}
-__u_h_r_package=	${hackage:C/[<=>].*$//g}
+.for cabal_package in ${USE_CABAL}
+__u_h_r_package=	${cabal_package:C/[<=>].*$//g}
 __u_h_r_port=		${${__u_h_r_package}_port}
 __u_h_r_name=		${__u_h_r_port:C/.*\///g}
 
-.if ${__u_h_r_package} == ${hackage}
+.if ${__u_h_r_package} == ${cabal_package}
 __u_h_r_version:=	>=0
 .else
-__u_h_r_version:=	${hackage:C/^[^<=>]*//g}
+__u_h_r_version:=	${cabal_package:C/^[^<=>]*//g}
 .endif
 
 dependencies:=	${dependencies} \
 ${PKGNAMEPREFIX}${__u_h_r_package}${__u_h_r_version}:${PORTSDIR}/${__u_h_r_port}
 .endfor
+
+BUILD_DEPENDS+=	${dependencies}
 
 .if !defined(STANDALONE)
 RUN_DEPENDS+=	${dependencies}

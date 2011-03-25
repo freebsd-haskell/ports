@@ -15,7 +15,7 @@ COMMENT=	A Citation Style Language implementation in Haskell
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	json mtl pandoc-types>=1.8 utf8-string xml
+USE_CABAL=	json mtl pandoc-types>=1.8 utf8-string xml
 
 PORTDATA=	*
 
@@ -27,14 +27,14 @@ OPTIONS=	BIBUTILS "Use Chris Putnam's Bibutils" on \
 
 .if defined(WITH_BIBUTILS)
 CONFIGURE_ARGS+=	--flags="bibutils"
-USE_HACKAGE+=		hs-bibutils>=0.3
+USE_CABAL+=		hs-bibutils>=0.3
 .else
 CONFIGURE_ARGS+=	--flags="-bibutils"
 .endif
 
 .if defined(WITH_NETWORK)
 CONFIGURE_ARGS+=	--flags="network"
-USE_HACKAGE+=		HTTP>=4000.0.9 network>=2
+USE_CABAL+=		HTTP>=4000.0.9 network>=2
 .else
 CONFIGURE_ARGS+=	--flags="-network"
 .endif

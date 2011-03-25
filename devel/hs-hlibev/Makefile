@@ -15,7 +15,7 @@ COMMENT=	FFI interface to libev
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USE_HACKAGE=	network
+USE_CABAL=	network
 
 LIB_DEPENDS=	ev:${PORTSDIR}/devel/libev
 

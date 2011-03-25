@@ -15,7 +15,7 @@ COMMENT=	A distributed, interactive, smart revision control system
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USE_HACKAGE=	hashed-storage>=0.5.2 haskeline>=0.6.2.2 html>=1.0 HUnit>=1 \
+USE_CABAL=	hashed-storage>=0.5.2 haskeline>=0.6.2.2 html>=1.0 HUnit>=1 \
 		mtl>=1 parsec>=2 QuickCheck>=2.1 regex-compat>=0.71 tar>=0.3 \
 		test-framework>=0.2.2 test-framework-hunit>=0.2.2 \
 		test-framework-quickcheck2>=0.2.2 text>=0.11 zlib>=0.5.1
@@ -49,7 +49,7 @@ CONFIGURE_ARGS+=	--flags="-curl"
 
 .if defined(WITH_HTTP)
 CONFIGURE_ARGS+=	--flags="http"
-USE_HACKAGE+=		HTTP>=3000.0 network>=2.2
+USE_CABAL+=		HTTP>=3000.0 network>=2.2
 .else
 CONFIGURE_ARGS+=	--flags="-http"
 .endif
@@ -66,7 +66,7 @@ CONFIGURE_ARGS+=	--flags="-static"
 
 .if defined(WITH_TERMINFO)
 CONFIGURE_ARGS+=	--flags="terminfo"
-USE_HACKAGE+=		terminfo>=0.3
+USE_CABAL+=		terminfo>=0.3
 .else
 CONFIGURE_ARGS+=	--flags="-terminfo"
 .endif
@@ -92,7 +92,7 @@ CONFIGURE_ARGS+=	--flags="-color"
 
 .if defined(WITH_MMAP)
 CONFIGURE_ARGS+=	--flags="mmap"
-USE_HACKAGE+=		mmap>=0.5
+USE_CABAL+=		mmap>=0.5
 .else
 CONFIGURE_ARGS+=	--flags="-mmap"
 .endif

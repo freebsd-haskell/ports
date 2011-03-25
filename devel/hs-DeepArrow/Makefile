@@ -12,7 +12,9 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell arrows for deep application
 
-USE_HACKAGE=	haskell-src mtl TypeCompose>=0.6.7
+LICENSE=	BSD
+
+USE_CABAL=	haskell-src mtl TypeCompose>=0.6.7
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

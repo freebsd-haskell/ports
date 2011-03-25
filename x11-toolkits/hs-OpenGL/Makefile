@@ -16,7 +16,7 @@ LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
-USE_HACKAGE=	GLURaw>=1.1.0.0 ObjectName OpenGLRaw>=1.1.0.0 StateVar Tensor
+USE_CABAL=	GLURaw>=1.1.0.0 ObjectName OpenGLRaw>=1.1.0.0 StateVar Tensor
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
