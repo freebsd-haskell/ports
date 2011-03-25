@@ -20,5 +20,7 @@ CABAL_SETUP=	Setup.hs
 USE_HACKAGE=	cairo>=0.12 glib>=0.12 gtk>=0.12 mtl pango>=0.12
 BUILD_DEPENDS+=	${LOCALBASE}/libdata/pkgconfig/webkit-1.0.pc:${PORTSDIR}/www/webkit-gtk2
 
+PORTDATA=	*
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -20,5 +20,7 @@ CABAL_SETUP=	Setup.hs
 USE_HACKAGE=	glib>=0.12 gtk>=0.12 mtl
 USE_GNOME=	gtksourceview2
 
+PORTDATA=	*
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

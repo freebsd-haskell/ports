@@ -134,9 +134,6 @@ dependencies:=	${dependencies} \
 ${PKGNAMEPREFIX}${__u_h_r_package}${__u_h_r_version}:${PORTSDIR}/${__u_h_r_port}
 .endfor
 
-.if !defined(DOCUMENTATION)
-BUILD_DEPENDS+=	${dependencies}
-.endif
 .if !defined(STANDALONE)
 RUN_DEPENDS+=	${dependencies}
 .endif

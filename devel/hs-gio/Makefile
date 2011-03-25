@@ -19,5 +19,7 @@ CABAL_SETUP=	Setup.hs
 
 USE_HACKAGE=	glib>=0.12.0 mtl
 
+PORTDATA=	*
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

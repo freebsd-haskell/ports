@@ -18,7 +18,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 
-USE_HACKAGE=	mtl
+USE_HACKAGE=	mtl syb
 
 CONFIGURE_ARGS+=	--flags="split-base generic -parsec -pretty -mapdict"
 

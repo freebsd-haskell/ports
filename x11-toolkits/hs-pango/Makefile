@@ -20,5 +20,7 @@ CABAL_SETUP=	Setup.hs
 USE_HACKAGE=	cairo>=0.12 glib>=0.12 mtl
 USE_GNOME=	pango
 
+PORTDATA=	*
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

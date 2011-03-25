@@ -20,5 +20,7 @@ CABAL_SETUP=	Setup.hs
 USE_HACKAGE=	cairo>=0.12 glib>=0.12 gtk>=0.12 mtl pango>=0.12
 LIB_DEPENDS=	gtkglext:${PORTSDIR}/x11-toolkits/gtkglext
 
+PORTDATA=	*
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

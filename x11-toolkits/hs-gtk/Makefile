@@ -19,7 +19,8 @@ CABAL_SETUP=	Setup.hs
 
 USE_HACKAGE=	cairo>=0.12.0 glib>=0.12.0 mtl pango>=0.12.0
 USE_GNOME=	gtk20
-#BUILD_DEPENDS+=	${LOCALBASE}/libdata/pkgconfig/gtk+-2.0.pc:${PORTSDIR}/x11-toolkits/gtk20
+
+PORTDATA=	*
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
