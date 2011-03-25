@@ -15,5 +15,7 @@ COMMENT=	A Labelled BNF converter
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
+USE_HACKAGE=	mtl
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

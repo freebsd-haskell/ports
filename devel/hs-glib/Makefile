@@ -17,5 +17,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
 
+USE_HACKAGE=	gtk2hs-buildtools
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
