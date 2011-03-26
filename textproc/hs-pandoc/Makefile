@@ -22,6 +22,7 @@ USE_CABAL=	citeproc-hs>=0.3.1 dlist>=0.4 HTTP>=4000.0.5 json>=0.4 \
 		xhtml>=3000.0 xml>=1.3.5 zip-archive>=0.1.1.7
 
 MAN1=		pandoc.1 markdown2pdf.1
+MAN5=		pandoc_markdown.5
 
 PORTDATA=	*
 
