@@ -23,7 +23,6 @@ USE_CABAL=	hashed-storage>=0.5.2 haskeline>=0.6.2.2 html>=1.0 HUnit>=1 \
 EXECUTABLE=	darcs
 
 MAN1=		darcs.1
-MAN1SRC=	dist/build/darcs
 
 OPTIONS=	CURL            "Use libcurl for HTTP support" on \
 		HTTP            "Use the pure HTTP package" off \

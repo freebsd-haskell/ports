@@ -197,9 +197,6 @@ __handle_datadir__=	--datadir='' --datasubdir='' --docdir='${DOCSDIR}'
 __handle_datadir__=	--datadir='${DATADIR}' --datasubdir='' --docdir='${DOCSDIR}'
 .endif
 
-MAN1SRC?=	man/man1
-MAN5SRC?=	man/man5
-
 .if (!defined(XMLDOCS) || defined(DOCUMENTATION)) && !defined(NOPORTDOCS)
 CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 .endif
@@ -277,17 +274,11 @@ do-install:
 	${INSTALL_PORTEXAMPLES}
 .endif
 
-.if defined(MAN1)
+.if defined(MAN1SRC)
 .for man in ${MAN1}
-	@${INSTALL_MAN} ${WRKSRC}/${MAN1SRC}/${man} ${PREFIX}/man/man1
+       @${INSTALL_MAN} ${WRKSRC}/${MAN1SRC}/${man} ${PREFIX}/man/man1
 .endfor
-.endif # MAN1
-
-.if defined(MAN5)
-.for man in ${MAN5}
-	@${INSTALL_MAN} ${WRKSRC}/${MAN5SRC}/${man} ${PREFIX}/man/man5
-.endfor
-.endif # MAN5
+.endif # MAN1SRC
 
 .else
 
@@ -315,16 +306,6 @@ post-install-script:
 .if defined(EXECUTABLE)
 .for exe in ${EXECUTABLE}
 	@${ECHO_CMD} 'bin/${exe}' >>${TMPPLIST}
-.endfor
-.endif
-.if defined(MAN1)
-.for man1 in ${MAN1}
-	@${ECHO_CMD} 'man1/${man1}' >>${TMPPLIST}
-.endfor
-.endif
-.if defined(MAN5)
-.for man5 in ${MAN5}
-	@${ECHO_CMD} 'man5/${man5}' >>${TMPPLIST}
 .endfor
 .endif
 
