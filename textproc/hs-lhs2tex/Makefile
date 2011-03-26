@@ -23,6 +23,8 @@ RUN_DEPENDS+=	mktexlsr:${PORTSDIR}/print/teTeX-base
 STANDALONE=	yes
 EXECUTABLE=	lhs2TeX
 
+MAN1=		lhs2TeX.1
+
 PORTDATA=	*
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
