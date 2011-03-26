@@ -20,7 +20,6 @@ USE_CABAL=	binary blaze-builder>=0.2 cmdargs>=0.6 enumerator>=0.4 \
 		haskell-src-exts>=1.9 parsec safe tagsoup>=0.11 \
 		transformers>=0.2 uniplate>=1.6 wai>=0.3 warp>=0.3
 
-STANDALONE=	yes
 EXECUTABLE=	hoogle
 
 PORTDATA=	*
