@@ -6,7 +6,7 @@
 
 PORTNAME=	idoc
 PORTVERSION=	0.2.6
-PORTREVISION=	4
+PORTREVISION=	5
 CATEGORIES=	devel haskell
 MASTER_SITES=	http://www.cse.unsw.edu.au/~chak/haskell/idoc/
 PKGNAMEPREFIX=	hs-
@@ -14,7 +14,8 @@ PKGNAMEPREFIX=	hs-
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A No Frills Haskell Interface Documentation System
 
-BROKEN=		does not compile
+LICENSE=	GPLv2
+LICENSE_FILE=	${WRKSRC}/COPYING
 
 BUILD_DEPENDS=	ghc:${PORTSDIR}/lang/ghc
 LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp
