@@ -345,9 +345,9 @@ post-add-script:
 		 ${ECHO_CMD} '@unexec ${RMDIR} "%D/${DOCSDIR_REL}" 2>/dev/null || true') >>${TMPPLIST}; fi
 .else
 	@(${ECHO_CMD} '@exec ${LN} -s ${DOCSDIR}/html %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \
-	  ${ECHO_CMD} '@exec ${SH} -c "cd %D/${GHC_LIB_DOCSDIR_REL} && ./gen_contents_index"' ; \
+	  ${ECHO_CMD} '@exec ${SH} -c "cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index"' ; \
 	  ${ECHO_CMD} '@unexec ${RM} -f %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \
-	  ${ECHO_CMD} '@unexec ${SH} -c "cd %D/${GHC_LIB_DOCSDIR_REL} && ./gen_contents_index"') >>${TMPPLIST};
+	  ${ECHO_CMD} '@unexec ${SH} -c "cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index"') >>${TMPPLIST};
 .endif
 .endif # target(post-add-script)
 

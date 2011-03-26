@@ -104,7 +104,7 @@ IGNORE=		unsupported
 DOCSDIR=	${PREFIX}/share/doc/${DISTNAME}
 GHC_LIBDIR=	${PREFIX}/lib/ghc-${GHC_VERSION}
 GHC_LIBDIR_REL=	lib/ghc-${GHC_VERSION}
-PORTDOCS=	*
+#PORTDOCS=	*
 
 PLIST_SUB+=	GHC_VERSION=${GHC_VERSION} GHC_LIBDIR=${GHC_LIBDIR_REL}
 
@@ -210,18 +210,22 @@ post-extract:
 
 post-install-script:
 	@${FIND} -ds ${GHC_LIBDIR} -type f -print | ${SED} -E -e \
+		'/^${GHC_LIBDIR:C/\//\\\//g}\/package.conf.d\/package\.cache/d' -e
 		's,^${PREFIX}/?,,' >> ${TMPPLIST}
-	@${FIND} -ds ${GHC_LIBDIR} -type d -print | ${SED} -E -e \
-		's,^${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}
-.if defined(NOPORTDOCS)
 	@${FIND} -ds ${DOCSDIR} -type f -print | ${SED} -E -e \
+		'/^${DOCSDIR:C\//\\\//g}\/html\/libraries\/doc-index-[^.]+\.html/d' -e
+		'/^${DOCSDIR:C\//\\\//g}\/html\/libraries\/index[^\/.]*\.html/d' -e
+		'/^${DOCSDIR:C\//\\\//g}\/html\/libraries\/[^\/]+\.png/d' -e
 		's,^${PREFIX}/?,,' >> ${TMPPLIST}
+	# Cleanup the indexen created by gen_contents_index
+	@${ECHO} "@unexec ${RM} -f %D/${DOCSDIR_REL}/html/libraries/doc-index-*.html" >> ${TMPPLIST}
+	@${ECHO} "@unexec ${RM} -f %D/${DOCSDIR_REL}/html/libraries/index*.html" >> ${TMPPLIST}
+	@${ECHO} "@unexec ${RM} -f %D/${DOCSDIR_REL}/html/libraries/*.png" >> ${TMPPLIST}
+	@${ECHO} '@unexec ${RM} -f %D/${GHC_LIBDIR_REL}/package.conf.d/package.cache' >>${TMPPLIST}
 	@${FIND} -ds ${DOCSDIR} -type d -print | ${SED} -E -e \
 		's,^${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}
-.else
-#	Cleanup the mess created by gen_contents_index
-	@${ECHO} "@unexec rm -rf %D/${DOCSDIR_REL}/html/libraries/doc-index-*.html" >> ${TMPPLIST}
-.endif
+	@${FIND} -ds ${GHC_LIBDIR} -type d -print | ${SED} -E -e \
+		's,^${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}
 
 #post-build:
 #	@(cd ${WRKSRC} && ${GMAKE} binary-dist)
