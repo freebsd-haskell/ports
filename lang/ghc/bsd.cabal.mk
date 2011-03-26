@@ -41,18 +41,11 @@ SETUP_CMD?=	./setup
 
 ALEX_CMD?=	${LOCALBASE}/bin/alex
 HAPPY_CMD?=	${LOCALBASE}/bin/happy
+HADDOCK_CMD?=	${LOCALBASE}/bin/haddock
 
-.if !defined(HADDOCK_CMD)
-.if !defined(WITHOUT_GHC_HADDOCK)
-HADDOCK_CMD=	${LOCALBASE}/bin/haddock-ghc-${GHC_VERSION}
+GHC_HADDOCK_CMD=${LOCALBASE}/bin/haddock-ghc-${GHC_VERSION}
+
 HADDOCK_PORT=	${PORTSDIR}/lang/ghc
-.else
-HADDOCK_CMD=	${LOCALBASE}/bin/haddock
-HADDOCK_PORT=	${PORTSDIR}/devel/hs-haddock
-.endif
-.else
-HADDOCK_PORT=	${PORTSDIR}/devel/hs-haddock
-.endif
 
 CABAL_DOCSDIR=		${PREFIX}/share/doc/ghc-${GHC_VERSION}/cabal
 CABAL_DOCSDIR_REL=	${CABAL_DOCSDIR:S,^${PREFIX}/,,}

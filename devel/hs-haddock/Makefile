@@ -22,5 +22,8 @@ EXECUTABLE=	haddock
 
 PORTDATA=	*
 
+SUB_FILES=	pkg-deinstall
+PLIST_SUB=	GHC_HADDOCK_CMD=${GHC_HADDOCK_CMD} HADDOCK=${PREFIX}/bin/haddock
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
