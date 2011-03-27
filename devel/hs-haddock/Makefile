@@ -18,12 +18,17 @@ USE_CABAL=	xhtml>=3000.2 ghc-paths
 USE_ALEX=	true
 USE_HAPPY=	true
 
-EXECUTABLE=	haddock
+EXECUTABLE=	haddock-${PORTVERSION}
 
 PORTDATA=	*
 
 SUB_FILES=	pkg-deinstall
-PLIST_SUB=	GHC_HADDOCK_CMD=${GHC_HADDOCK_CMD} HADDOCK=${PREFIX}/bin/haddock
+SUB_LIST=	GHC_HADDOCK_CMD=${GHC_HADDOCK_CMD} HADDOCK=${PREFIX}/bin/haddock
+
+CONFIGURE_ARGS=	--program-suffix=-${PORTVERSION}
+
+post-install::
+	@${LN} -sf ${PREFIX}/bin/${EXECUTABLE} ${PREFIX}/bin/haddock
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
