@@ -1,5 +1,5 @@
---- ./MathPoly.lhs.orig	2011-03-14 00:01:15.409639538 +0100
-+++ ./MathPoly.lhs	2011-03-14 00:00:45.918980809 +0100
+--- ./MathPoly.lhs.orig	2010-07-22 12:13:20.000000000 +0200
++++ ./MathPoly.lhs	2011-03-27 01:52:26.469094252 +0100
 @@ -358,7 +358,7 @@
  >                                      (rn,rc) = findrel (n,c) rstack
  >                                      -- Schritt 3: Zeile auf Stack legen
