@@ -212,9 +212,9 @@ post-install-script:
 		'/^${GHC_LIBDIR:C/\//\\\//g}\/package.conf.d\/package\.cache/d' -e \
 		's,^${PREFIX}/?,,' >> ${TMPPLIST}
 	@${FIND} -ds ${DOCSDIR} -type f -print | ${SED} -E -e \
-		'/^${DOCSDIR:C\//\\\//g}\/html\/libraries\/doc-index-[^.]+\.html/d' -e \
-		'/^${DOCSDIR:C\//\\\//g}\/html\/libraries\/index[^\/.]*\.html/d' -e \
-		'/^${DOCSDIR:C\//\\\//g}\/html\/libraries\/[^\/]+\.png/d' -e \
+		'/^${DOCSDIR:C/\//\\\//g}\/html\/libraries\/doc-index-[^.]+\.html/d' -e \
+		'/^${DOCSDIR:C/\//\\\//g}\/html\/libraries\/index[^\/.]*\.html/d' -e \
+		'/^${DOCSDIR:C/\//\\\//g}\/html\/libraries\/[^\/]+\.png/d' -e \
 		's,^${PREFIX}/?,,' >> ${TMPPLIST}
 	# Cleanup the indexen created by gen_contents_index
 	@${ECHO} "@unexec ${RM} -f %D/${DOCSDIR_REL}/html/libraries/doc-index-*.html" >> ${TMPPLIST}
