@@ -5,7 +5,7 @@
 # $FreeBSD: ports/lang/ghc/Makefile,v 1.87 2010/10/16 11:52:14 ade Exp $
 
 PORTNAME=	ghc
-PORTVERSION=	7.0.2
+PORTVERSION=	7.0.3
 CATEGORIES=	lang haskell
 MASTER_SITES=	http://haskell.org/ghc/dist/${PORTVERSION}/:source \
 		${MASTER_SITE_LOCAL:S/$/:boot/} \
@@ -51,25 +51,14 @@ GNU_CONFIGURE=	yes
 .if !defined(NOPORTDOCS)
 OPTIONS=	PROFILE "Compile for profiling as well" on \
 		DYNAMIC	"Compile for dynamic linking support"	on \
-		DOCS "Install HTML documentation" on \
-		TEST "Use the testsuite" off
+		DOCS "Install HTML documentation" on
 .else
 OPTIONS=	PROFILE "Compile for profiling as well" on \
-		DYNAMIC	"Compile for dynamic linking support"	on \
-		TEST "Use the testsuite" off
+		DYNAMIC	"Compile for dynamic linking support"	on
 .endif
 
 .include <bsd.port.options.mk>
 .include <bsd.port.pre.mk>
-
-.if defined(WITH_TEST)
-USE_PYTHON_BUILD=	2.5+
-DISTFILES+=	testsuite-${PORTVERSION}${EXTRACT_SUFX}:source
-SUB_FILES+=	testsuite.sh
-SUB_LIST+=	GHC_VERSION=${GHC_VERSION} \
-		GMAKE=${GMAKE} \
-		WRKDIR=${WRKDIR}
-.endif
 
 .if defined(WITHOUT_DOCS)
 NOPORTDOCS=
@@ -159,20 +148,6 @@ CONFIGURE_ENV+=	PATH=${SLAVES_PREFIX}/bin:${PATH}
 BUILD_DEPENDS+=	${LOCALBASE}/share/xsl/docbook/html:${PORTSDIR}/textproc/docbook-xsl \
 		${LOCALBASE}/bin/xsltproc:${PORTSDIR}/textproc/libxslt
 .endif
-
-# For a post installation test, set WITH_TEST and: make clean; make extract;
-# make apply-slist; make testsuite
-testsuite:
-	@${ECHO_MSG} -e "\a"
-	@${ECHO_MSG} "======================================================================"
-	@${ECHO_MSG} "  WARNING: Now a test will be performed, this will take a long time!  "
-	@${ECHO_MSG} "  For a summary of the test see the final file:                       "
-	@${ECHO_MSG} "                                                                      "
-	@${ECHO_MSG} "  ${WRKDIR}/sumtest.txt                                               "
-	@${ECHO_MSG} "======================================================================"
-	@${ECHO_MSG} ""
-	@sleep 3
-	-@(${CHMOD} a+x ${WRKDIR}/testsuite.sh && cd ${WRKDIR} && ./testsuite.sh)
 
 post-extract:
 	@${CP} ${WRKSRC}/LICENSE ${LICENSE_FILE}
@@ -308,14 +283,5 @@ post-install:
 	@${RM} -f ${PREFIX}/bin/haddock
 	@${LN} -sf ${PREFIX}/bin/haddock-ghc-${GHC_VERSION} ${PREFIX}/bin/haddock
 	@${RM} -f ${PREFIX}/lib/ghc-${GHC_VERSION}/package.conf.old
-
-.if defined(WITH_TEST)
-	@${ECHO_MSG} -e "\a"
-	@${ECHO_MSG} "====================================================================="
-	@${ECHO_MSG} "  The ${WRKDIR}/testsuite-${GHC_VERSION} was created.                "
-	@${ECHO_MSG} "  Now \"make testsuite\" and let's wait!                             "
-	@${ECHO_MSG} "====================================================================="
-	@${ECHO_MSG} ""
-.endif
 
 .include <bsd.port.post.mk>
