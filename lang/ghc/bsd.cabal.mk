@@ -198,13 +198,15 @@ CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 CONFIGURE_ARGS+=	--enable-shared
 PLIST_SUB+=	DYNAMIC=""
 .else
+CONFIGURE_ARGS+=	--disable-shared
 PLIST_SUB+=	DYNAMIC="@comment "
 .endif
 
-.if !defined(WITHOUT_PROFILE)
+.if defined(WITH_PROFILE)
 CONFIGURE_ARGS+=	--enable-executable-profiling --enable-library-profiling
 PLIST_SUB+=	PROFILE=""
 .else
+CONFIGURE_ARGS+=	--disable-executable-profiling --disable-library-profiling
 PLIST_SUB+=	PROFILE="@comment "
 .endif
 
