@@ -194,14 +194,14 @@ __handle_datadir__=	--datadir='${DATADIR}' --datasubdir='' --docdir='${DOCSDIR}'
 CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 .endif
 
-.if !defined(WITHOUT_DYNAMIC) && defined(WITH_DYNAMIC)
+.if !defined(WITHOUT_DYNAMIC)
 CONFIGURE_ARGS+=	--enable-shared
 PLIST_SUB+=	DYNAMIC=""
 .else
 PLIST_SUB+=	DYNAMIC="@comment "
 .endif
 
-.if !defined(WITHOUT_PROFILE) && defined(WITH_PROFILE)
+.if !defined(WITHOUT_PROFILE)
 CONFIGURE_ARGS+=	--enable-executable-profiling --enable-library-profiling
 PLIST_SUB+=	PROFILE=""
 .else
