@@ -14,7 +14,7 @@
  installManpage pkg lbi verbosity copy =
      copyFiles verbosity
 -              (mandir (absoluteInstallDirs pkg lbi copy) </> "man1")
-+              (prefix (absoluteInstallDirs pkg lbi copy) </> "man/man1")
++              (prefix (absoluteInstallDirs pkg lbi copy) </> "man" </> "man1")
                [(buildDir lbi </> "darcs", "darcs.1")]
  
  determineVersion :: Verbosity -> PackageDescription -> IO (String, String)

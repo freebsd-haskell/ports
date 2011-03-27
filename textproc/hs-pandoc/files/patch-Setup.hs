@@ -14,7 +14,7 @@
                  -> Verbosity -> CopyDest -> IO ()
  installManpages pkg lbi verbosity copy =
 -  copyFiles verbosity (mandir (absoluteInstallDirs pkg lbi copy))
-+  copyFiles verbosity ((prefix </> "man") (absoluteInstallDirs pkg lbi copy))
++  copyFiles verbosity (prefix (absoluteInstallDirs pkg lbi copy) </> "man")
               (zip (repeat manDir) manpages)
  
  -- | Returns a list of 'dependencies' that have been modified after 'file'.
