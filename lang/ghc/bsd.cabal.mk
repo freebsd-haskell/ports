@@ -320,17 +320,18 @@ post-add-script:
 		(${ECHO_CMD} '${DOCSDIR_REL}/LICENSE'; \
 		 ${ECHO_CMD} '@unexec ${RMDIR} "%D/${DOCSDIR_REL}" 2>/dev/null || true') >>${TMPPLIST}; fi
 .else
-	@(${ECHO_CMD} '@exec ${LN} -s ${DOCSDIR}/html %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \
-	  ${ECHO_CMD} '@exec ${SH} -c "cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index"' ; \
+	@(${ECHO_CMD} '@exec [ -f %D/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ] && ${LN} -s ${DOCSDIR}/html %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \
+	  ${ECHO_CMD} '@exec ${SH} -c "[ -f %D/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ] && cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index"' ; \
 	  ${ECHO_CMD} '@unexec ${RM} -f %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \
-	  ${ECHO_CMD} '@unexec ${SH} -c "cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index"') >>${TMPPLIST};
+	  ${ECHO_CMD} '@unexec ${SH} -c "[ -f %D/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ] && cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index"') >>${TMPPLIST};
 .endif
 .endif # target(post-add-script)
 
 post-install::
 .if !defined(NOPORTDOCS)
-	${LN} -s ${DOCSDIR}/html ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}
-	cd ${PREFIX}/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index
+	[ -f ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ] && ${LN} -s ${DOCSDIR}/html ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/${DISTNAME} && \
+		cd ${PREFIX}/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index
+.endif
 .endif
 
 .if !defined(STANDALONE) && !defined(DOCUMENTATION)
