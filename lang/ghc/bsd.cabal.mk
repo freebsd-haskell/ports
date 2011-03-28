@@ -330,7 +330,7 @@ post-add-script:
 post-install::
 .if !defined(NOPORTDOCS)
 	${LN} -s ${DOCSDIR}/html ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}
-	cd ${PREFIX}/${GHC_LIB_DOCSDIR_REL} && ./gen_contents_index
+	cd ${PREFIX}/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index
 .endif
 
 .if !defined(STANDALONE) && !defined(DOCUMENTATION)
