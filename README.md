@@ -1,9 +1,9 @@
 Welcome!
 ========
 
-This repository is to provide support for working the Glorious Haskell
-Compiler and Haskell Cabal on FreeBSD, it hosts the work of volunteers
-interested in maintaining such ports.  It considered a highly
+This repository is to provide support for working with the Glorious
+Haskell Compiler and Haskell Cabal on FreeBSD, it hosts the work of
+volunteers interested in maintaining such ports.  It considered a highly
 experimental collection and it may contain ports that are not present in
 the Ports Collection currently.
 
