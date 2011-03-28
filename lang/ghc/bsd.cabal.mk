@@ -332,7 +332,6 @@ post-install::
 	[ -f ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ] && ${LN} -s ${DOCSDIR}/html ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/${DISTNAME} && \
 		cd ${PREFIX}/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index
 .endif
-.endif
 
 .if !defined(STANDALONE) && !defined(DOCUMENTATION)
 	${RM} -f ${PREFIX}/lib/ghc-${GHC_VERSION}/package.conf.old
