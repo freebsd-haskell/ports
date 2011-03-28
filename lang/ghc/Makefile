@@ -191,12 +191,16 @@ post-install-script:
 		'/^${DOCSDIR:C/\//\\\//g}\/html\/libraries\/index[^\/.]*\.html/d' -e \
 		'/^${DOCSDIR:C/\//\\\//g}\/html\/libraries\/[^\/]+\.png/d' -e \
 		's,^${PREFIX}/?,,' >> ${TMPPLIST}
+.if !defined(NOPORTDOCS)
 	# Cleanup the indexen created by gen_contents_index
 	@${ECHO} "@unexec ${RM} -f %D/${DOCSDIR_REL}/html/libraries/doc-index-*.html" >> ${TMPPLIST}
 	@${ECHO} "@unexec ${RM} -f %D/${DOCSDIR_REL}/html/libraries/index*.html" >> ${TMPPLIST}
 	@${ECHO} "@unexec ${RM} -f %D/${DOCSDIR_REL}/html/libraries/*.png" >> ${TMPPLIST}
+.endif
 	@${ECHO} "@exec %D/bin/ghc-pkg recache" >>${TMPPLIST}
+.if !defined(NOPORTDOCS)
 	@${ECHO} '@exec ${SH} -c "cd %D/${DOCSDIR_REL}/html/libraries && ./gen_contents_index"' >> ${TMPPLIST}
+.endif
 	@${ECHO} '@unexec ${RM} -f %D/${GHC_LIBDIR_REL}/package.conf.d/package.cache' >>${TMPPLIST}
 	@${FIND} -ds ${DOCSDIR} -type d -print | ${SED} -E -e \
 		's,^${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}
@@ -278,9 +282,9 @@ post-install:
 	@${MKDIR} ${DOCSDIR}/cabal
 	@${MKDIR} ${EXAMPLESDIR}/cabal
 	@${MKDIR} ${DATADIR}/cabal
-	# ugly hack, required by gen_contents_index
-	@${TOUCH} ${DOCSDIR}/html/libraries/synopsis.png
-	@${TOUCH} ${DOCSDIR}/html/libraries/hslogo-16.png
+.if !defined(NOPORTDOCS)
+	cd ${DOCSDIR}/html/libraries && ./gen_contents_index
+.endif
 	@${RM} -f ${PREFIX}/bin/haddock
 	@${LN} -sf ${PREFIX}/bin/haddock-ghc-${GHC_VERSION} ${PREFIX}/bin/haddock
 	@${RM} -f ${PREFIX}/lib/ghc-${GHC_VERSION}/package.conf.old
