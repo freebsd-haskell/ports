@@ -12,6 +12,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Boyer-Moore/Knuth-Morris-Pratt string search library
 
 LICENSE=	BSD
+FILE_LICENSE=	LICENCE
 
 CABAL_SETUP=	Setup.hs
 
