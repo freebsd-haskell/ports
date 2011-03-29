@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell Test Utility Pack for HUnit and QuickCheck
 
 LICENSE=	LGPL21
-FILE_LICENSE=	COPYING
+FILE_LICENSE=	COPYRIGHT
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	HUnit mtl QuickCheck>=2.1.0.3

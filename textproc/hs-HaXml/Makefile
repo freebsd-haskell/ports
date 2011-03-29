@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A collection of utilities for using Haskell and XML together
 
 LICENSE=	LGPL21
-FILE_LICENSE=	LICENCE-LGPL
+FILE_LICENSE=	COPYRIGHT
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	polyparse>=1.2

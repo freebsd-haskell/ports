@@ -23,7 +23,5 @@ USE_HAPPY=	yes
 STANDALONE=	yes
 EXECUTABLE=	gtk2hsTypeGen gtk2hsHookGenerator gtk2hsC2hs
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
