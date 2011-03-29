@@ -15,7 +15,6 @@ COMMENT=	Simple ANSI terminal support, with Windows compatibility
 OPTIONS=	EXAMPLE "Build the example application" off
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 .include <bsd.port.options.mk>

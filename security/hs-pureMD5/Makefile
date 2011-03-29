@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell implementation of MD5 algorithm
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	binary>=0.4.0 cereal>=0.2 crypto-api tagged
 

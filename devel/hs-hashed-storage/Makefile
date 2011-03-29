@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Hashed file storage support code
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	binary dataenc mmap>=0.5 mtl zlib

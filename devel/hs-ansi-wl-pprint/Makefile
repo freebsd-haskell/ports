@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	The Wadler/Leijen Pretty Printer for colored ANSI terminal output
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	ansi-terminal>=0.4.0
 

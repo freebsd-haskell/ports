@@ -12,7 +12,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A command-line interface for user input, written in Haskell
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	mtl>=1.1 utf8-string>=0.3.6

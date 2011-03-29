@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	An xhtml templating system
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	attoparsec>=0.8.1 attoparsec-text>=0.8 blaze-builder>=0.2 \

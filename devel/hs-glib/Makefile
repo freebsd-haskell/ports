@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding to the GLIB library for Gtk2Hs
 
 LICENSE=	LGPL21
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	gtk2hs-buildtools

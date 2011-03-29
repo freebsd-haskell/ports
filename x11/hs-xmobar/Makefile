@@ -12,7 +12,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A minimalistic text based status bar
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	mtl parsec stm X11>=1.3.0
 USE_XORG=	x11

@@ -14,7 +14,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell library for working with MIME types
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 

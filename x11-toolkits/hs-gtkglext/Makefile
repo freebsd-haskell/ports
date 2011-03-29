@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding to the GTK+ OpenGL Extension
 
 LICENSE=	LGPL21
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	cairo>=0.12 glib>=0.12 gtk>=0.12 mtl pango>=0.12

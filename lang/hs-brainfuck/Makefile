@@ -14,7 +14,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Brainfuck interpreter written in Haskell
 
 LICENSE=	GPLv2
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	mtl

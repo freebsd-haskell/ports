@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A Citation Style Language implementation in Haskell
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	json mtl pandoc-types>=1.8 utf8-string xml
 

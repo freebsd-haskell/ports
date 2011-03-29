@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	QuickCheck2 support for the test-framework package
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	QuickCheck>=2.4 test-framework>=0.2
 

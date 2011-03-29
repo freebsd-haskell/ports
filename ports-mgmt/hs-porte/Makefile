@@ -12,7 +12,6 @@ MAINTAINER=	sbahra@repnop.org
 COMMENT=	FreeBSD ports index search and statistical analysis tool
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	stringsearch

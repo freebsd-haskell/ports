@@ -14,7 +14,6 @@ MAINTAINER=	jupengfei@gmail.com
 COMMENT=	Access to the BSD sysctl(3) interface
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 

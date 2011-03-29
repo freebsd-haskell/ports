@@ -14,7 +14,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Support for serialising Haskell to and from JSON
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	mtl syb

@@ -14,7 +14,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	HUnit support for the test-framework package
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	HUnit>=1.2 test-framework>=0.2
 

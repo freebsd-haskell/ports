@@ -14,7 +14,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Explicitly handled object names for Haskell
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 

@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Trie-based memo functions for Haskell
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

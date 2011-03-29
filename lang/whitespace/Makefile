@@ -17,7 +17,6 @@ MAINTAINER=	llwang@infor.org
 COMMENT=	An interpreter for the Whitespace programming language
 
 LICENSE=	GPLv2
-LICENSE_FILE=	${WRKSRC}/COPYING
 
 BUILD_DEPENDS=	ghc:${PORTSDIR}/lang/ghc
 LIB_DEPENDS=	gmp.10:${PORTSDIR}/math/gmp

@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Documentation for Haddock
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_AUTOTOOLS=	autoconf:env
 USE_CABAL=	xhtml>=3000.2 ghc-paths

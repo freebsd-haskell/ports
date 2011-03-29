@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Versatile logging framework for Haskell
 
 LICENSE=	LGPL21
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	mtl network

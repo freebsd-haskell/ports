@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Tools to build the Gtk2Hs suite of User Interface Libraries
 
 LICENSE=	GPLv2
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
 

@@ -14,7 +14,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Fast unboxed arrays with a flexible interface for Haskell
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 BROKEN=		deprecated, use devel/hs-vector
 

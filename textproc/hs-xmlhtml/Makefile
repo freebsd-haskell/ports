@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	XML parser and renderer with HTML 5 quirks mode
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	blaze-builder blaze-html>=0.3.2 parsec>=3.0 text>=0.11

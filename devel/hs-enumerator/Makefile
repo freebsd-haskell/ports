@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Reliable, high-performance processing with left-fold enumerators
 
 LICENSE=	MIT
-LICENSE_FILE=	${WRKSRC}/license.txt
+FILE_LICENSE=	license.txt
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	text>=0.7 transformers>=0.2

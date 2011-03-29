@@ -14,6 +14,8 @@ PKGNAMEPREFIX=	hs-
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	HTML documentation tool for Haskell
 
+LICENSE=	GPLv2
+
 BUILD_DEPENDS=	ghc:${PORTSDIR}/lang/ghc
 LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp
 

@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Enumeratees for the incremental conversion of builders to bytestrings
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	blaze-builder>=0.2.1 enumerator>=0.4.3.1 transformers>=0.2

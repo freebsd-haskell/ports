@@ -12,6 +12,8 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Provides newtype wrappers for phantom types to avoid unsafely passing dummy arguments
 
+LICENSE=	BSD
+
 USE_CABAL=	data-default>=0.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

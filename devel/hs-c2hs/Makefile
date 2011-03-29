@@ -14,7 +14,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	C->Haskell, an Interface Generator for Haskell
 
 LICENSE=	GPLv2
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	language-c>=0.3.1.1

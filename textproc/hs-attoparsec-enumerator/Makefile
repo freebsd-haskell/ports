@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Convert an Attoparsec parser into an iteratee
 
 LICENSE=	MIT
-LICENSE_FILE=	${WRKSRC}/license.txt
+FILE_LICENSE=	license.txt
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	attoparsec>=0.8 enumerator>=0.4

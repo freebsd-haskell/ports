@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	An MPD client library
 
 LICENSE=	LGPL21
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	mtl>=1.1 network>=2.1 utf8-string>=0.3.1
 

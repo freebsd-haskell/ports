@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A Haskell library of statistical types, data, and functions
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	erf mwc-random>=0.8.0.3 primitive>=0.3 vector>=0.7 \
 		vector-algorithms>=0.4

@@ -14,7 +14,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A lightweight Haskell regex library compatible with Perl 5
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 LIB_DEPENDS=	pcre:${PORTSDIR}/devel/pcre
 

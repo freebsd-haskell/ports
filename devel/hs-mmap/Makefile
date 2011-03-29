@@ -12,7 +12,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Memory-mapped files for POSIX and Windows
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 

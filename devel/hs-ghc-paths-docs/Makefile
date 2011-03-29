@@ -12,7 +12,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Documentation for ghc-paths
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 

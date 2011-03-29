@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A Haskell syntax highlighting library for 50+ languages
 
 LICENSE=	GPLv2
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	parsec regex-pcre-builtin xhtml
 

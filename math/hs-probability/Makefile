@@ -14,7 +14,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Probabilistic Functional Programming in Haskell
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/COPYRIGHT
+FILE_LICENSE=	COPYRIGHT
 
 USE_CABAL=	transformers>=0.0.1
 

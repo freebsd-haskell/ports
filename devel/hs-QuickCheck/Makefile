@@ -12,7 +12,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Library for random testing in haskell
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	mtl
 

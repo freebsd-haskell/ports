@@ -15,7 +15,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A No Frills Haskell Interface Documentation System
 
 LICENSE=	GPLv2
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 BUILD_DEPENDS=	ghc:${PORTSDIR}/lang/ghc
 LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp

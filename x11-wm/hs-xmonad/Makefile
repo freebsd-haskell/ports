@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Xmonad is a minimalist and tiling window manager for X
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 # Temporarily disabled, because there is a bug in documentation generation.
 NOPORTDOCS=	yes

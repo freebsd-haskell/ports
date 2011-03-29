@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Vector & affine spaces, linear maps, and derivatives in Haskell
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 USE_CABAL=	Boolean>=0.0.1 MemoTrie>=0.4.2
 

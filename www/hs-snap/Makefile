@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Snap: A Haskell Web Framework: project starter executable and glue code library
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	MonadCatchIO-transformers>=0.2.1 blaze-builder>=0.2.1.4 \

@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Robust, reliable performance measurement and analysis for Haskell
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	deepseq>=1.1 mtl mwc-random>=0.8.0.3 parallel parsec>=3.1 \
 		statistics>=0.8.0.5 vector>=0.7 vector-algorithms>=0.4

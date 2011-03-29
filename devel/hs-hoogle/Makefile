@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell API Search
 
 LICENSE=	GPLv2
-LICENSE_FILE=	${WRKSRC}/docs/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	binary blaze-builder>=0.2 cmdargs>=0.6 enumerator>=0.4 \

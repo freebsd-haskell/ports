@@ -14,6 +14,8 @@ PKGNAMEPREFIX?=	hs-
 MASTER_SITES?=	http://hackage.haskell.org/packages/archive/${PORTNAME}/${PORTVERSION}/
 DIST_SUBDIR?=	cabal
 
+FILE_LICENSE?=	LICENSE
+
 .if !defined(DOCUMENTATION) && \
     (${PORTNAME} == haddock || ${PORTNAME} == ghc-paths || \
      ${PORTNAME} == hscolour || ${PORTNAME} == mtl || \
@@ -316,8 +318,8 @@ post-add-script:
 		 ${ECHO_CMD} '@unexec ${RM} -f %D/lib/ghc-${GHC_VERSION}/package.conf.old') >> ${TMPPLIST}; fi
 .endif
 .if defined(NOPORTDOCS)
-	@if [ -f ${DOCSDIR}/LICENSE ]; then \
-		(${ECHO_CMD} '${DOCSDIR_REL}/LICENSE'; \
+	@if [ -f ${DOCSDIR}/${FILE_LICENSE} ]; then \
+		(${ECHO_CMD} '${DOCSDIR_REL}/${FILE_LICENSE}'; \
 		 ${ECHO_CMD} '@unexec ${RMDIR} "%D/${DOCSDIR_REL}" 2>/dev/null || true') >>${TMPPLIST}; fi
 .else
 	@(${ECHO_CMD} '@exec [ -f %D/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ] && ${LN} -s ${DOCSDIR}/html %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \

@@ -13,7 +13,6 @@ MAINTAINER=	jupengfei@gmail.com
 COMMENT=	A system-independent interface for user-level packet capture
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.lhs
 USE_CABAL=	network

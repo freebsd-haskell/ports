@@ -14,7 +14,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Large Haskell utility library
 
 LICENSE=	GPLv2
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	hslogger HUnit mtl network parsec regex-compat

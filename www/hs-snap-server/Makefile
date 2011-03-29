@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A fast, iteratee-based, epoll-enabled web server for the Snap Framework
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	attoparsec>=0.8.1 attoparsec-enumerator>=0.2.0.1 binary>=0.5 \

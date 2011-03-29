@@ -12,7 +12,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A Haskell library for manipulating infinite lists
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	lazysmallcheck>=0.3 QuickCheck>=2.0
 

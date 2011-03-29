@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Third party tiling algorithms, configurations and scripts to xmonad
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	mtl xmonad>=0.9.1 X11>=1.5 utf8-string
 USE_XORG=	x11

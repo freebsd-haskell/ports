@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell bindings to bibutils, the bibliography conversion utilities
 
 LICENSE=	GPLv2
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 BUILD_DEPENDS=	bibutils>=4.9:${PORTSDIR}/textproc/bibutils
 RUN_DEPENDS=	bibutils>=4.9:${PORTSDIR}/textproc/bibutils

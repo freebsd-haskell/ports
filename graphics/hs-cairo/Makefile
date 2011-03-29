@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding to the Cairo library
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/COPYRIGHT
+FILE_LICENSE=	COPYRIGHT
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	gtk2hs-buildtools mtl

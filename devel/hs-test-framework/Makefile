@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Framework for running and organising tests
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	ansi-terminal>=0.4 ansi-wl-pprint>=0.5.1 hostname>=1 \
 		regex-posix>=0.72 xml>=1.3.5

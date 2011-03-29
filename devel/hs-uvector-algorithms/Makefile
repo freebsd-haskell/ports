@@ -14,7 +14,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Efficient algorithms for uvector unboxed arrays in Haskell
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 BROKEN=		deprecated, use devel/hs-vector-algorithms
 

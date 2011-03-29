@@ -14,7 +14,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Utilities to make Data.Time.* easier to use in Haskell
 
 LICENSE=	GPLv3
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 USE_CABAL=	QuickCheck>=2
 

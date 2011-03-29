@@ -14,7 +14,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	An mtl compatible version of the Ghc-Api monads and monad-transformers
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_CABAL=	MonadCatchIO-mtl>=0.2.0.0 mtl
 

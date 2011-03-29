@@ -15,7 +15,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Monad classes, using functional dependencies
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	transformers mtl>=2.0

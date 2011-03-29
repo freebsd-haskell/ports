@@ -14,7 +14,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell type classes and instances for converting between types
 
 LICENSE=	LGPL21
-LICENSE_FILE=	${WRKSRC}/COPYING
+FILE_LICENSE=	COPYING
 
 USE_CABAL=	mtl
 

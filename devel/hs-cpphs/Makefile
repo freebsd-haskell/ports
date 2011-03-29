@@ -14,7 +14,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A simplified re-implementation of cpp in Haskell
 
 LICENSE=	LGPL21
-LICENSE_FILE=	${WRKSRC}/LICENCE-LGPL
+FILE_LICENSE=	LICENCE-LGPL
 
 CABAL_SETUP=	Setup.hs
 

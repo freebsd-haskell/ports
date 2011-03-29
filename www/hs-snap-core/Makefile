@@ -13,7 +13,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Snap: A Haskell Web Framework (Core)
 
 LICENSE=	BSD
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	attoparsec>=0.8.0.2 attoparsec-enumerator>=0.2.0.3 \
