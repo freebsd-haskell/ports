@@ -37,6 +37,7 @@ USE_GMAKE=	yes
 USE_ICONV=	yes
 
 LICENSE=	BSD
+LICENSE_FILE=	${WRKSRC}/LICENSE
 
 MAKE_ENV=	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 
@@ -149,7 +150,6 @@ BUILD_DEPENDS+=	${LOCALBASE}/share/xsl/docbook/html:${PORTSDIR}/textproc/docbook
 .endif
 
 post-extract:
-	@${CP} ${WRKSRC}/LICENSE ${LICENSE_FILE}
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "docdir = ${PREFIX}/share/doc/ghc-${GHC_VERSION}"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "htmldir = ${PREFIX}/share/doc/ghc-${GHC_VERSION}"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "mandir = ${PREFIX}/man"
