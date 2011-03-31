@@ -177,12 +177,6 @@ DOCSDIR=	${CABAL_DOCSDIR}/${DISTNAME}/html
 
 PORTDOCS=	*
 
-.if !empty(XMLDOCS)
-.for xmldoc in ${XMLDOCS}
-PORTDOCS+=	${xmldoc:C/^.*://g}
-.endfor
-.endif
-
 .endif # !NOPORTDOCS
 
 .if defined(PORTDATA) && defined(NOPORTDATA)
