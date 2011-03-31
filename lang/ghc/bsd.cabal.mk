@@ -171,18 +171,17 @@ USE_GMAKE=	yes
 
 .endif # !XMLDOCS
 
-.if !defined(DOCUMENTATION)
+.if defined(DOCUMENTATION)
+DOCSDIR=	${CABAL_DOCSDIR}/${DISTNAME}/html
+.endif
+
 PORTDOCS=	*
-.else
-PORTDOCS=	html
 
 .if !empty(XMLDOCS)
 .for xmldoc in ${XMLDOCS}
 PORTDOCS+=	${xmldoc:C/^.*://g}
 .endfor
 .endif
-
-.endif # !DOCUMENTATION
 
 .endif # !NOPORTDOCS
 
