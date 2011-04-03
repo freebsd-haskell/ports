@@ -11,7 +11,7 @@ PORTREVISION=	3
 CATEGORIES=	deskutils
 MASTER_SITES=	SF
 
-MAINTAINER=	ports@FreeBSD.org
+MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A tool for RDF site summaries based news-check
 
 LICENSE=	BSD
