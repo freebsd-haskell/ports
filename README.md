@@ -18,7 +18,7 @@ and configure
     # cd /usr/ports/ports-mgmt/portshaker
     # make install clean
 
-Create a configuration file for the repository under
+Create an executable configuration file for the repository under
 `/usr/local/etc/portshaker.d`, named `freebsd-haskell` with the
 following contents.  (Feel free to replace `/usr/local/` with your local
 base directory.)
