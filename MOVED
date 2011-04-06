@@ -1,3 +1,5 @@
 devel/hs-FileManip|devel/hs-filemanip|2011-03-24|Renamed: Cabal package has been renamed.
 devel/lhs2TeX|textproc/hs-lhs2tex|2011-03-24|Renamed: It has become a Cabal transcript.
 devel/bnfc|devel/hs-BNFC|2011-03-24|Renamed: It has become a Cabal transcript.
+graphics/hs-hgl||2011-04-06|deleted: overriden by graphics/hs-HGL
+
