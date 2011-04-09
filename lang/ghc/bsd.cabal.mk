@@ -29,9 +29,12 @@ IGNORE+=	is a documentation-only port, do not install if no documentation needed
 
 .if !defined(DOCUMENTATION) && !defined(STANDALONE)
 BUILD_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
+BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
 RUN_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
+RUN_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
 .elif defined(STANDALONE)
 BUILD_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
+BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
 .endif
 
 GHC_VERSION?=	7.0.3
