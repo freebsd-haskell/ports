@@ -1,7 +1,7 @@
 #-*- mode: makefile; tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: ports/Mk/bsd.port.mk,v 1.677 2011/03/31 03:37:14 tabthorpe Exp $
+# $FreeBSD: ports/Mk/bsd.port.mk,v 1.678 2011/04/11 08:34:14 bapt Exp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -541,6 +541,8 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 # USE_APACHE	- If set, this port relies on an apache webserver.
 #
 # USE_CDRTOOLS	- If set, this port depends on sysutils/cdrtools.
+#
+# USE_NCURSES	- If set, this port relies on the ncurses package.
 #
 # Conflict checking.  Use if your port cannot be installed at the same time as
 # another package.
@@ -1580,6 +1582,10 @@ PERL=		${LOCALBASE}/bin/perl
 
 .if defined(USE_KDE4) || defined(KDE4_BUILDENV)
 .include "${PORTSDIR}/Mk/bsd.kde4.mk"
+.endif
+
+.if defined(USE_NCURSES)
+.include "${PORTSDIR}/Mk/bsd.ncurses.mk"
 .endif
 
 # You can force skipping these test by defining IGNORE_PATH_CHECKS
