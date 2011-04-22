@@ -304,8 +304,8 @@ post-install-script:
 
 .endif # target(post-install-script)
 
-.if !target(post-add-script)
-post-add-script:
+add-plist-post: add-plist-cabal
+add-plist-cabal:
 .if !defined(DOCUMENTATION)
 	@if [ -f ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}/register.sh ]; then \
 		(${ECHO_CMD} '@exec ${SH} %D/${CABAL_LIBDIR_REL}/${CABAL_LIBSUBDIR}/register.sh'; \
@@ -323,7 +323,6 @@ post-add-script:
 	  ${ECHO_CMD} '@unexec ${RM} -f %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \
 	  ${ECHO_CMD} '@unexec ${SH} -c "[ -f %D/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ] && cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index"') >>${TMPPLIST};
 .endif
-.endif # target(post-add-script)
 
 post-install::
 .if !defined(NOPORTDOCS)
