@@ -9,7 +9,8 @@
 # Maintained by: haskell@FreeBSD.org
 #
 
-PKGNAMEPREFIX?=	hs-
+HSPREFIX=	hs-
+PKGNAMEPREFIX?=	${HSPREFIX}
 
 MASTER_SITES?=	http://hackage.haskell.org/packages/archive/${PORTNAME}/${PORTVERSION}/
 DIST_SUBDIR?=	cabal
@@ -129,7 +130,7 @@ __u_h_r_version:=	${cabal_package:C/^[^<=>]*//g}
 .endif
 
 dependencies:=	${dependencies} \
-${PKGNAMEPREFIX}${__u_h_r_package}${__u_h_r_version}:${PORTSDIR}/${__u_h_r_port}
+${HSPREFIX}${__u_h_r_package}${__u_h_r_version}:${PORTSDIR}/${__u_h_r_port}
 .endfor
 
 BUILD_DEPENDS+=	${dependencies}
