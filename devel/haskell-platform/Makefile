@@ -15,6 +15,10 @@ COMMENT=	The Haskell Platform
 LICENSE=	BSD
 
 PKGNAMEPREFIX=	# none
+MASTER_SITES=	# none
+DISTFILES=	# none
+EXTRACT_ONLY=	# none
+NO_BUILD=	yes
 
 USE_CABAL=	cgi==3001.1.7.4,1 \
 		fgl==5.4.2.3_1 \
