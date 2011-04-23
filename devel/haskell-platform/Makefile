@@ -16,15 +16,15 @@ LICENSE=	BSD
 
 PKGNAMEPREFIX=	# none
 
-USE_CABAL=	cgi-hp \
+USE_CABAL=	cgi==3001.1.7.4,1 \
 		fgl==5.4.2.3_1 \
-		GLUT-hp \
+		GLUT==2.1.2.1,1 \
 		haskell-src==1.0.1.4 \
 		html==1.0.1.2 \
 		HUnit==1.2.2.3 \
 		mtl=2.0.1.0 \
 		network==2.3.0.2 \
-		OpenGL-hp \
+		OpenGL==2.2.3.0,1 \
 		parallel==3.1.0.1 \
 		parsec==3.1.1 \
 		QuickCheck==2.4.0.1 \
