@@ -14,7 +14,6 @@ COMMENT=	The Haskell Platform
 
 LICENSE=	BSD
 
-PKGNAMEPREFIX=	# none
 MASTER_SITES=	# none
 DISTFILES=	# none
 EXTRACT_ONLY=	# none
