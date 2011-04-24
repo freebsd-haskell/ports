@@ -9,15 +9,16 @@ PORTNAME=	gtk2hs
 PORTVERSION=	0.12.0
 PORTEPOCH=	1
 CATEGORIES=	x11-toolkits haskell
-MASTER_SITES=	# none
-DISTFILES=	# none
-EXTRACT_ONLY=	# none
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A GTK2 Binding for Haskell
 
+MASTER_SITES=	# none
+DISTFILES=	# none
+EXTRACT_ONLY=	# none
 NO_FETCH=	yes
 NO_BUILD=	yes
+NOPORTDOCS=	yes
 
 USE_CABAL=	glib gio cairo pango gtk
 
@@ -70,8 +71,10 @@ USE_CABAL+=		webkit
 USE_CABAL+=		soegtk
 .endif
 
-do-configure:	# none
-do-install:	# none
+do-configure:		# none
+do-build:		# none
+do-install:		# none
+post-install-script:	# none
 
 .include "../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
