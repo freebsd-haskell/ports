@@ -14,13 +14,7 @@ COMMENT=	The Haskell Platform
 
 LICENSE=	BSD
 
-MASTER_SITES=	# none
-DISTFILES=	# none
-EXTRACT_ONLY=	# none
-NO_FETCH=	yes
-NO_BUILD=	yes
-NOPORTDOCS=	yes
-
+METAPORT=	yes
 USE_CABAL=	cgi==3001.1.7.4,1 \
 		fgl==5.4.2.3_1 \
 		GLUT==2.1.2.1,1 \
@@ -47,11 +41,6 @@ USE_CABAL=	cgi==3001.1.7.4,1 \
 		cabal-install==0.10.2 \
 		alex==2.3.5 \
 		happy==1.18.6
-
-do-configure:		# empty
-do-build:		# empty
-do-install:		# empty
-post-install-script:	# empty
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

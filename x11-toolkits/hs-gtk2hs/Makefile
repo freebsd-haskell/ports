@@ -13,13 +13,7 @@ CATEGORIES=	x11-toolkits haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A GTK2 Binding for Haskell
 
-MASTER_SITES=	# none
-DISTFILES=	# none
-EXTRACT_ONLY=	# none
-NO_FETCH=	yes
-NO_BUILD=	yes
-NOPORTDOCS=	yes
-
+METAPORT=	yes
 USE_CABAL=	glib gio cairo pango gtk
 
 OPTIONS=	GCONF          "GConf2 configuration system" off \
@@ -70,11 +64,6 @@ USE_CABAL+=		webkit
 .if defined(WITH_SOEGTK)
 USE_CABAL+=		soegtk
 .endif
-
-do-configure:		# none
-do-build:		# none
-do-install:		# none
-post-install-script:	# none
 
 .include "../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

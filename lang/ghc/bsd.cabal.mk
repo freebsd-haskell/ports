@@ -12,7 +12,16 @@
 HSPREFIX=	hs-
 PKGNAMEPREFIX?=	${HSPREFIX}
 
+.if !defined(METAPORT)
 MASTER_SITES?=	http://hackage.haskell.org/packages/archive/${PORTNAME}/${PORTVERSION}/
+.else
+MASTER_SITES=	# empty
+DISTFILES=	# empty
+EXTRACT_ONLY=	# empty
+NO_FETCH=	yes
+NO_BUILD=	yes
+.endif # !METAPORT
+
 DIST_SUBDIR?=	cabal
 
 FILE_LICENSE?=	LICENSE
@@ -219,6 +228,7 @@ post-patch::
 
 .if !target(do-configure)
 do-configure:
+.if !defined(METAPORT)
 	cd ${WRKSRC} && ${GHC_CMD} --make ${CABAL_SETUP} -o setup -package Cabal
 	cd ${WRKSRC} && ${SETENV} CFLAGS="${CFLAGS}" LDFLAGS="${LDFLAGS}" CPPFLAGS="${CPPFLAGS}" \
 			${SETUP_CMD} configure --ghc --prefix=${PREFIX} --extra-include-dirs="${LOCALBASE}/include" --extra-lib-dirs="${LOCALBASE}/lib" ${__handle_datadir__} ${CONFIGURE_ARGS}
@@ -228,10 +238,14 @@ do-configure:
 	cd ${WRKSRC}/doc && ${AUTOCONF} && ./configure --prefix=${PREFIX}
 .endif
 .endif # !NOPORTDOCS
+.else
+	${DO_NADA}
+.endif # !METAPORT
 .endif # target(do-configure)
 
 .if !target(do-build)
 do-build:
+.if !defined(METAPORT)
 .if !defined(DOCUMENTATION)
 	cd ${WRKSRC} && ${SETUP_CMD} build
 .if !defined(STANDALONE)
@@ -247,10 +261,14 @@ do-build:
 	@(cd ${WRKSRC}/doc && ${SETENV} ${MAKE_ENV} ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} ${MAKE_ARGS} html)
 .endif # XMLDOCS
 .endif # !NOPORTDOCS
+.else
+	${DO_NADA}
+.endif # !METAPORT
 .endif # target(do-build)
 
 .if !target(do-install)
 do-install:
+.if !defined(METAPORT)
 .if !defined(DOCUMENTATION)
 	cd ${WRKSRC} && ${SETUP_CMD} install
 
@@ -287,6 +305,9 @@ do-install:
 .endfor
 .endif # XMLDOCS
 .endif
+.else
+	${DO_NADA}
+.endif # !METAPORT
 .endif # target(do-install)
 
 .if !target(post-install-script)
@@ -307,6 +328,7 @@ post-install-script:
 
 add-plist-post: add-plist-cabal
 add-plist-cabal:
+.if !defined(METAPORT)
 .if !defined(DOCUMENTATION)
 	@if [ -f ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}/register.sh ]; then \
 		(${ECHO_CMD} '@exec ${SH} %D/${CABAL_LIBDIR_REL}/${CABAL_LIBSUBDIR}/register.sh'; \
@@ -324,8 +346,12 @@ add-plist-cabal:
 	  ${ECHO_CMD} '@unexec ${RM} -f %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \
 	  ${ECHO_CMD} '@unexec ${SH} -c "[ -f %D/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ] && cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index"') >>${TMPPLIST};
 .endif
+.else
+	${DO_NADA}
+.endif # !METAPORT
 
 post-install::
+.if !defined(METAPORT)
 .if !defined(NOPORTDOCS)
 	[ -f ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ] && ${LN} -s ${DOCSDIR}/html ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/${DISTNAME} && \
 		cd ${PREFIX}/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index
@@ -349,3 +375,6 @@ post-install::
 	@${ECHO_MSG} "================================================================="
 	@${ECHO_MSG}
 .endif # SHOW_PKGMSG
+.else
+	${DO_NADA}
+.endif # !METAPORT
