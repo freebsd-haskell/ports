@@ -188,7 +188,9 @@ USE_GMAKE=	yes
 DOCSDIR=	${CABAL_DOCSDIR}/${DISTNAME}/html
 .endif
 
+.if !defined(METAPORT)
 PORTDOCS=	*
+.endif # !METAPORT
 
 .endif # !NOPORTDOCS
 
