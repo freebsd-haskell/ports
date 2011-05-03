@@ -1,6 +1,6 @@
 # New ports collection makefile for:	hs-tar
 # Date created:		2010-08-17
-# Whom:			Ashish SHUKLA <ashish@FreeBSD.org>
+# Whom:			haskell@FreeBSD.org
 #
 # $FreeBSD$
 #
