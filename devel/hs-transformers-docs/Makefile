@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-transformers/Makefile,v 1.4 2010/06/08 12:21:25 pgj Exp $
+# $FreeBSD$
 #
 
 PORTNAME=	transformers
