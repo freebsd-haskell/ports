@@ -1,4 +1,4 @@
-# New ports collection makefile for:	hs-mtl
+# New ports collection makefile for:	hs-mtl-docs
 # Date created:		2010-05-14
 # Whom:			haskell@FreeBSD.org
 #
