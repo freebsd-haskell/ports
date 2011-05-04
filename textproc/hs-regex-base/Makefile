@@ -1,6 +1,6 @@
 # New ports collection makefile for:	hs-regex-base
 # Date created:		2010-08-10
-# Whom:			Ashish SHUKLA <wahjava@gmail.com>
+# Whom:			haskell@FreeBSD.org
 #
 # $FreeBSD$
 #

@@ -1,6 +1,6 @@
 # New ports collection makefile for:	hs-parsec-ghc
 # Date created:		2010-05-14
-# Whom:			Ashish SHUKLA <wahjava@gmail.com>
+# Whom:			haskell@FreeBSD.org
 #
 # $FreeBSD$
 #
