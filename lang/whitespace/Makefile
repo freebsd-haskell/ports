@@ -2,7 +2,7 @@
 # Date created:        18 May 2006
 # Whom:                Li-Lun Wang <llwang@infor.org>
 #
-# $FreeBSD: ports/lang/whitespace/Makefile,v 1.4 2010/04/19 10:43:31 ale Exp $
+# $FreeBSD: ports/lang/whitespace/Makefile,v 1.5 2011/05/09 15:18:39 pgj Exp $
 #
 
 PORTNAME=	whitespace

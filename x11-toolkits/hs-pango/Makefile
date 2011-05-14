@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/x11-toolkits/hs-pango/Makefile,v 1.1 2011/05/08 18:46:16 pgj Exp $
 #
 
 PORTNAME=	pango

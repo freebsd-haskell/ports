@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-haddock/files/pkg-deinstall.in,v 1.1 2011/05/09 05:28:37 ashish Exp $
 
 [ "$2" = "POST-DEINSTALL" ] && /bin/ln -sf %%GHC_HADDOCK_CMD%% %%HADDOCK%%
 

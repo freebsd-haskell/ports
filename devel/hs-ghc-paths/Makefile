@@ -2,7 +2,7 @@
 # Date created:        July 09 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-ghc-paths/Makefile,v 1.3 2010/05/26 11:18:37 jacula Exp $
+# $FreeBSD: ports/devel/hs-ghc-paths/Makefile,v 1.4 2011/05/09 05:28:36 ashish Exp $
 
 PORTNAME=	ghc-paths
 PORTVERSION=	0.1.0.8

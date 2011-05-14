@@ -1,8 +1,9 @@
-# New ports collection makefile for:	hs-lhs2tex
-# Date created:		March 13, 2011
-# Whom:			haskell@FreeBSD.org
+# ex:ts=8
+# Ports collection makefile for:	lhs2TeX
+# Date created:			April 24, 2007
+# Whom:				mainland@apeiron.net
 #
-# $FreeBSD$
+# $FreeBSD: ports/textproc/hs-lhs2tex/Makefile,v 1.17 2011/05/09 05:28:52 ashish Exp $
 #
 
 PORTNAME=	lhs2tex

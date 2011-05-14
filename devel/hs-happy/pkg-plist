@@ -1,4 +1,4 @@
-@comment $FreeBSD$
+@comment $FreeBSD: ports/devel/hs-happy/pkg-plist,v 1.12 2011/05/09 05:28:37 ashish Exp $
 %%DATADIR%%/GLR_Base
 %%DATADIR%%/GLR_Lib
 %%DATADIR%%/GLR_Lib-ghc

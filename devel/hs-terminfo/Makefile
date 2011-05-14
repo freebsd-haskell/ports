@@ -2,7 +2,7 @@
 # Date created:        May 14, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-terminfo/Makefile,v 1.2 2010/08/30 10:48:17 pgj Exp $
+# $FreeBSD: ports/devel/hs-terminfo/Makefile,v 1.3 2011/05/09 05:28:42 ashish Exp $
 #
 
 PORTNAME=	terminfo

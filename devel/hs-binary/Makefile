@@ -2,7 +2,7 @@
 # Date created:				December 15, 2008
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-binary/Makefile,v 1.11 2010/05/24 21:52:30 pgj Exp $
+# $FreeBSD: ports/devel/hs-binary/Makefile,v 1.12 2011/05/09 05:28:34 ashish Exp $
 #
 
 PORTNAME=	binary

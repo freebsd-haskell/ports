@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/graphics/hs-soegtk/Makefile,v 1.1 2011/05/08 19:28:45 ashish Exp $
 #
 
 PORTNAME=	soegtk

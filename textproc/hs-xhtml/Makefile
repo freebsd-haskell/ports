@@ -2,7 +2,7 @@
 # Date created:        September 15, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/textproc/hs-xhtml/Makefile,v 1.1 2011/05/08 18:43:39 pgj Exp $
 #
 
 PORTNAME=	xhtml

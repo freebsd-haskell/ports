@@ -2,7 +2,7 @@
 # Date created:		2010-08-10
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-HUnit/Makefile,v 1.1 2011/05/08 19:03:47 ashish Exp $
 #
 
 PORTNAME=	HUnit

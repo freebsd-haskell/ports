@@ -2,7 +2,7 @@
 # Date created:        May 21, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/net/hs-hostname/Makefile,v 1.1 2010/05/21 21:44:43 pgj Exp $
+# $FreeBSD: ports/net/hs-hostname/Makefile,v 1.2 2011/05/09 05:28:49 ashish Exp $
 #
 
 PORTNAME=	hostname

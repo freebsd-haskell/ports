@@ -2,7 +2,7 @@
 # Date created:        January 10 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/textproc/hs-xml/Makefile,v 1.4 2010/06/08 12:35:32 pgj Exp $
+# $FreeBSD: ports/textproc/hs-xml/Makefile,v 1.5 2011/05/09 12:47:26 pgj Exp $
 #
 
 PORTNAME=	xml

@@ -2,7 +2,7 @@
 # Date created:				November 7, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: ports/x11/hs-xmobar/Makefile,v 1.11 2010/05/24 21:52:40 pgj Exp $
+# $FreeBSD: ports/x11/hs-xmobar/Makefile,v 1.12 2011/05/09 05:28:56 ashish Exp $
 
 PORTNAME=	xmobar
 PORTVERSION=	0.12

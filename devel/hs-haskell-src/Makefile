@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-haskell-src/Makefile,v 1.1 2011/05/08 19:17:05 ashish Exp $
 #
 
 PORTNAME=	haskell-src

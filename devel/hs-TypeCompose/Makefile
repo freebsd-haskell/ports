@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-TypeCompose/Makefile,v 1.5 2010/07/30 08:52:10 pgj Exp $
+# $FreeBSD: ports/devel/hs-TypeCompose/Makefile,v 1.6 2011/05/09 05:28:33 ashish Exp $
 #
 
 PORTNAME=	TypeCompose

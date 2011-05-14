@@ -2,7 +2,7 @@
 # Date created:				November 1, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: ports/textproc/hs-stringsearch/Makefile,v 1.9 2010/07/30 09:01:47 pgj Exp $
+# $FreeBSD: ports/textproc/hs-stringsearch/Makefile,v 1.10 2011/05/09 05:28:53 ashish Exp $
 
 PORTNAME=	stringsearch
 PORTVERSION=	0.3.3

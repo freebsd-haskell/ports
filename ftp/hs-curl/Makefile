@@ -2,7 +2,7 @@
 # Date created:        May 14, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/ftp/hs-curl/Makefile,v 1.1 2010/05/15 19:14:33 pgj Exp $
+# $FreeBSD: ports/ftp/hs-curl/Makefile,v 1.2 2011/05/09 05:28:45 ashish Exp $
 #
 
 PORTNAME=	curl

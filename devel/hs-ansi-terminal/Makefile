@@ -2,7 +2,7 @@
 # Date created:        May 21, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-ansi-terminal/Makefile,v 1.4 2010/07/30 08:53:08 pgj Exp $
+# $FreeBSD: ports/devel/hs-ansi-terminal/Makefile,v 1.5 2011/05/09 05:28:33 ashish Exp $
 #
 
 PORTNAME=	ansi-terminal

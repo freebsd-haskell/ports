@@ -2,7 +2,7 @@
 # Date created:                      9 February 2007
 # Whom:                              John MacFarlane <jgm@berkeley.edu>
 #
-# $FreeBSD: ports/textproc/hs-pandoc/Makefile,v 1.19 2010/07/30 09:16:38 pgj Exp $
+# $FreeBSD: ports/textproc/hs-pandoc/Makefile,v 1.20 2011/05/09 05:28:53 ashish Exp $
 #
 
 PORTNAME=	pandoc

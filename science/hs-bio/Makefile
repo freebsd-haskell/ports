@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/science/hs-bio/Makefile,v 1.5 2010/07/30 09:14:14 pgj Exp $
+# $FreeBSD: ports/science/hs-bio/Makefile,v 1.6 2011/05/09 05:28:50 ashish Exp $
 #
 
 PORTNAME=	bio

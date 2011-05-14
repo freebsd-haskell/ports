@@ -1,4 +1,4 @@
-@comment $FreeBSD$
+@comment $FreeBSD: ports/devel/hs-gtk2hs-buildtools/pkg-plist,v 1.1 2011/05/08 19:15:20 ashish Exp $
 %%DATADIR%%/callbackGen/Signal.chs.template
 %%DATADIR%%/hierarchyGen/Hierarchy.chs.template
 %%DATADIR%%/hierarchyGen/hierarchy.list

@@ -1,8 +1,8 @@
 # New ports collection makefile for:	hs-cabal-install
 # Date created:		2010-08-17
-# Whom:			Ashish SHUKLA <ashish@FreeBSD.org>
+# Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-cabal-install/Makefile,v 1.1 2011/05/14 16:34:09 pgj Exp $
 #
 
 PORTNAME=	cabal-install

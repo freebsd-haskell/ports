@@ -2,7 +2,7 @@
 # Date created:				November 10, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: ports/devel/hs-dlist/Makefile,v 1.6 2010/05/12 16:33:42 pgj Exp $
+# $FreeBSD: ports/devel/hs-dlist/Makefile,v 1.7 2011/05/09 05:28:35 ashish Exp $
 
 PORTNAME=	dlist
 PORTVERSION=	0.5

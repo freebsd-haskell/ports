@@ -2,7 +2,7 @@
 # Date created:        February 27 2008
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-uulib/Makefile,v 1.9 2010/06/08 12:28:43 pgj Exp $
+# $FreeBSD: ports/devel/hs-uulib/Makefile,v 1.10 2011/05/09 05:28:44 ashish Exp $
 #
 
 PORTNAME=	uulib

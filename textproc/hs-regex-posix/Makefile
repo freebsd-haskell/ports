@@ -2,7 +2,7 @@
 # Date created:		2010-08-10
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/textproc/hs-regex-posix/Makefile,v 1.1 2011/05/08 18:43:16 pgj Exp $
 #
 
 PORTNAME=	regex-posix

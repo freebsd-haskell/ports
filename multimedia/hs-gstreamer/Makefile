@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/multimedia/hs-gstreamer/Makefile,v 1.1 2011/05/08 18:38:01 pgj Exp $
 #
 
 PORTNAME=	gstreamer

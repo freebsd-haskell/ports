@@ -1,5 +1,5 @@
 
-$FreeBSD$
+$FreeBSD: ports/lang/ghc/files/patch-configure,v 1.4 2011/05/09 05:28:46 ashish Exp $
 
 --- configure.orig
 +++ configure

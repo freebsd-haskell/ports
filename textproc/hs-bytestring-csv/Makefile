@@ -2,7 +2,7 @@
 # Date created:				November 25, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: ports/textproc/hs-bytestring-csv/Makefile,v 1.6 2010/05/12 16:33:54 pgj Exp $
+# $FreeBSD: ports/textproc/hs-bytestring-csv/Makefile,v 1.7 2011/05/09 05:28:51 ashish Exp $
 
 PORTNAME=	bytestring-csv
 PORTVERSION=	0.1.2

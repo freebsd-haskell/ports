@@ -2,7 +2,7 @@
 # Date created:        May 16, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/audio/hs-libmpd/Makefile,v 1.2 2010/05/22 21:47:02 pgj Exp $
+# $FreeBSD: ports/audio/hs-libmpd/Makefile,v 1.3 2011/05/09 05:28:29 ashish Exp $
 #
 
 PORTNAME=	libmpd

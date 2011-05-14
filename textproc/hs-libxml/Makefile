@@ -2,7 +2,7 @@
 # Date created:        May 22, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/textproc/hs-libxml/Makefile,v 1.1 2010/05/22 21:41:52 pgj Exp $
+# $FreeBSD: ports/textproc/hs-libxml/Makefile,v 1.2 2011/05/09 05:28:53 ashish Exp $
 #
 
 PORTNAME=	libxml

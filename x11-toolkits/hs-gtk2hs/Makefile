@@ -2,7 +2,7 @@
 # Date created:        03 June 2002
 # Whom:                Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/x11-toolkits/hs-gtk2hs/Makefile,v 1.43 2010/08/08 08:56:41 beat Exp $
+# $FreeBSD: ports/x11-toolkits/hs-gtk2hs/Makefile,v 1.45 2011/05/09 05:28:57 ashish Exp $
 #
 
 PORTNAME=	gtk2hs

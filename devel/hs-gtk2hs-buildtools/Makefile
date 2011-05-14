@@ -2,7 +2,7 @@
 # Date created:		March 13, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-gtk2hs-buildtools/Makefile,v 1.1 2011/05/08 19:15:20 ashish Exp $
 #
 
 PORTNAME=	gtk2hs-buildtools

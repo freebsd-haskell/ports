@@ -2,7 +2,7 @@
 # Date created:        February 25 2008
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/graphics/hs-HGL/Makefile,v 1.12 2010/05/26 11:18:41 jacula Exp $
+# $FreeBSD: ports/graphics/hs-HGL/Makefile,v 1.13 2011/05/09 05:28:46 ashish Exp $
 #
 
 PORTNAME=	HGL

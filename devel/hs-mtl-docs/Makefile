@@ -2,7 +2,7 @@
 # Date created:		2010-05-14
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-mtl-docs/Makefile,v 1.1 2011/05/08 19:19:15 ashish Exp $
 #
 
 PORTNAME=	mtl

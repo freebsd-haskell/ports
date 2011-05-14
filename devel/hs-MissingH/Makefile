@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-MissingH/Makefile,v 1.4 2010/06/08 06:40:05 pgj Exp $
+# $FreeBSD: ports/devel/hs-MissingH/Makefile,v 1.5 2011/05/09 05:28:31 ashish Exp $
 #
 
 PORTNAME=	MissingH

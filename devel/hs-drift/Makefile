@@ -2,7 +2,7 @@
 # Date created:				13 August 2002
 # Whom:					Oliver Braun <obraun@informatik.unibw-muenchen.de>
 #
-# $FreeBSD: ports/devel/hs-drift/Makefile,v 1.24 2010/04/19 10:43:20 ale Exp $
+# $FreeBSD: ports/devel/hs-drift/Makefile,v 1.25 2011/05/09 05:28:36 ashish Exp $
 
 PORTNAME=	drift
 PORTVERSION=	2.2.3

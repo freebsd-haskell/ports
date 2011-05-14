@@ -2,7 +2,7 @@
 # Date created:				December 16, 2008
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-pcre-light/Makefile,v 1.10 2010/08/30 10:47:02 pgj Exp $
+# $FreeBSD: ports/devel/hs-pcre-light/Makefile,v 1.11 2011/05/09 05:28:40 ashish Exp $
 #
 
 PORTNAME=	pcre-light

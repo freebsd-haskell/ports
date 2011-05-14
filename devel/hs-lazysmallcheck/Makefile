@@ -2,7 +2,7 @@
 # Date created:				March 11, 2009
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-lazysmallcheck/Makefile,v 1.7 2010/05/24 21:52:31 pgj Exp $
+# $FreeBSD: ports/devel/hs-lazysmallcheck/Makefile,v 1.8 2011/05/09 05:28:39 ashish Exp $
 #
 
 PORTNAME=	lazysmallcheck

@@ -1,4 +1,4 @@
-@comment $FreeBSD$
+@comment $FreeBSD: ports/devel/hs-alex/pkg-plist,v 1.10 2011/05/09 05:28:33 ashish Exp $
 %%DATADIR%%/AlexTemplate
 %%DATADIR%%/AlexTemplate-debug
 %%DATADIR%%/AlexTemplate-ghc

@@ -2,7 +2,7 @@
 # Date created:		2011-03-18
 # Whom:			Zhihao Yuan <lichray@gmail.com>
 #
-# $FreeBSD: ports/devel/pure-gen/Makefile,v 1.2 2011/04/29 00:51:55 wen Exp $
+# $FreeBSD: ports/devel/pure-gen/Makefile,v 1.3 2011/05/09 05:28:45 ashish Exp $
 #
 
 PORTNAME=	pure-gen

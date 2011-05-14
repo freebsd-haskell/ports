@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/www/hs-scgi/Makefile,v 1.4 2010/06/08 12:04:16 pgj Exp $
+# $FreeBSD: ports/www/hs-scgi/Makefile,v 1.5 2011/05/09 05:28:55 ashish Exp $
 #
 
 # deprecated: use wai

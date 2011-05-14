@@ -2,7 +2,7 @@
 # Date created:		27 November 2001
 # Whom:			mwest@uct.ac.za
 #
-# $FreeBSD: ports/devel/hs-hmake/Makefile,v 1.29 2010/04/19 10:43:21 ale Exp $
+# $FreeBSD: ports/devel/hs-hmake/Makefile,v 1.30 2011/05/09 05:28:38 ashish Exp $
 #
 
 PORTNAME=	hmake

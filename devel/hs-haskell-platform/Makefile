@@ -2,7 +2,7 @@
 # Date created:        April 23, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-haskell-platform/Makefile,v 1.1 2011/05/14 16:50:43 pgj Exp $
 #
 
 PORTNAME=	haskell-platform
@@ -21,7 +21,7 @@ USE_CABAL=	cgi==3001.1.7.4,1 \
 		haskell-src==1.0.1.4 \
 		html==1.0.1.2 \
 		HUnit==1.2.2.3 \
-		mtl=2.0.1.0 \
+		mtl==2.0.1.0 \
 		network==2.3.0.2 \
 		OpenGL==2.2.3.0,1 \
 		parallel==3.1.0.1 \

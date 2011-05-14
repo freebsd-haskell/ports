@@ -2,7 +2,7 @@
 # Date created:				25 October 2002
 # Whom:					Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-hdoc/Makefile,v 1.17 2010/04/19 10:43:21 ale Exp $
+# $FreeBSD: ports/devel/hs-hdoc/Makefile,v 1.18 2011/05/09 05:28:38 ashish Exp $
 
 PORTNAME=	hdoc
 PORTVERSION=	0.8.3
