@@ -60,7 +60,7 @@ HADDOCK_CMD?=	${LOCALBASE}/bin/haddock
 
 GHC_HADDOCK_CMD=${LOCALBASE}/bin/haddock-ghc-${GHC_VERSION}
 
-HADDOCK_PORT=	${PORTSDIR}/lang/ghc
+HADDOCK_PORT=	${PORTSDIR}/devel/hs-haddock
 
 CABAL_DOCSDIR=		${PREFIX}/share/doc/ghc-${GHC_VERSION}/cabal
 CABAL_DOCSDIR_REL=	${CABAL_DOCSDIR:S,^${PREFIX}/,,}
