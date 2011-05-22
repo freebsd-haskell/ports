@@ -29,7 +29,7 @@ FILE_LICENSE?=	LICENSE
 .if !defined(DOCUMENTATION) && \
     (${PORTNAME} == haddock || ${PORTNAME} == ghc-paths || \
      ${PORTNAME} == hscolour || ${PORTNAME} == mtl || \
-     ${PORTNAME} == transformers)
+     ${PORTNAME} == transformers || ${PORTNAME} == xhtml)
 NOPORTDOCS=	yes
 .endif
 
