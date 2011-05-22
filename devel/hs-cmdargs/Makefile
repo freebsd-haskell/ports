@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	cmdargs
-PORTVERSION=	0.6.8
+PORTVERSION=	0.7
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -15,7 +15,7 @@ COMMENT=	Command line argument processing
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	transformers
+USE_CABAL=	transformers>=0.2
 
 EXECUTABLE=	cmdargs
 
