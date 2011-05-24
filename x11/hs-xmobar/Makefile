@@ -5,7 +5,7 @@
 # $FreeBSD: ports/x11/hs-xmobar/Makefile,v 1.12 2011/05/09 05:28:56 ashish Exp $
 
 PORTNAME=	xmobar
-PORTVERSION=	0.12
+PORTVERSION=	0.13
 CATEGORIES=	x11 haskell
 
 MAINTAINER=	haskell@FreeBSD.org
