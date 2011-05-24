@@ -1,0 +1,16 @@
+--- ./warp.cabal.orig	2011-05-24 13:03:34.000000000 +0200
++++ ./warp.cabal	2011-05-24 13:04:27.000000000 +0200
+@@ -19,11 +19,11 @@
+ Library
+   Build-Depends:     base                          >= 3        && < 5
+                    , bytestring                    >= 0.9      && < 0.10
+-                   , wai                           >= 0.3.0    && < 0.4
++                   , wai                           >= 0.3.0
+                    , blaze-builder-enumerator      >= 0.2      && < 0.3
+                    , transformers                  >= 0.2      && < 0.3
+                    , enumerator                    >= 0.4.5    && < 0.5
+-                   , blaze-builder                 >= 0.2.1.4  && < 0.3
++                   , blaze-builder                 >= 0.2.1.4
+                    , sendfile                      >= 0.7.2    && < 0.8
+   if flag(network-bytestring)
+       build-depends: network               >= 2.2.1   && < 2.2.3
