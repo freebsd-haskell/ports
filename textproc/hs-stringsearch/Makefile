@@ -5,7 +5,7 @@
 # $FreeBSD: ports/textproc/hs-stringsearch/Makefile,v 1.10 2011/05/09 05:28:53 ashish Exp $
 
 PORTNAME=	stringsearch
-PORTVERSION=	0.3.3
+PORTVERSION=	0.3.6
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
