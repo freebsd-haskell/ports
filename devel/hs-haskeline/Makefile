@@ -5,7 +5,7 @@
 # $FreeBSD: ports/devel/hs-haskeline/Makefile,v 1.7 2011/05/09 05:28:37 ashish Exp $
 
 PORTNAME=	haskeline
-PORTVERSION=	0.6.3.2
+PORTVERSION=	0.6.4.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
