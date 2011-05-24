@@ -15,7 +15,7 @@ COMMENT=	Attribute Grammar System of Universiteit Utrecht
 LICENSE=	GPLv2
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	uulib>=0.9.12
+USE_CABAL=	haskell-src-exts mtl>=1.1.1.1 uulib>=0.9.12
 
 EXECUTABLE=	uuagc
 HADDOCK_EXE=
