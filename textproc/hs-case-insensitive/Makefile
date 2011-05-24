@@ -12,8 +12,9 @@ CATEGORIES=	textproc haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Case insensitive string comparison
 
-CABAL_SETUP=	Setup.hs
+LICENSE=	BSD
 
+CABAL_SETUP=	Setup.hs
 USE_CABAL=	text>=0.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
