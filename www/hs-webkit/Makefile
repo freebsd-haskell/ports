@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	webkit
-PORTVERSION=	0.12.1
+PORTVERSION=	0.12.2
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
