@@ -1,0 +1,4 @@
+This library is a mid-level Haskell binding to the
+MySQL mysqlclient client library. It is aimed at speed and ease of use.
+
+WWW: https://github.com/mailrank/mysql-simple
