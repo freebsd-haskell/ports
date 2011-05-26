@@ -6,13 +6,15 @@
 #
 
 PORTNAME=	attoparsec
-PORTVERSION=	0.8.5.0
+PORTVERSION=	0.8.6.1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Fast combinator parsing for bytestrings
 
 LICENSE=	BSD
+
+USE_CABAL=	deepseq
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
