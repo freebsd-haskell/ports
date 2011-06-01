@@ -1,0 +1,21 @@
+# New ports collection makefile for:	hs-fastirc
+# Date created:		2011-06-01
+# Whom:			haskell@FreeBSD.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	fastirc
+PORTVERSION=	0.2.0
+CATEGORIES=	net haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	Fast Internet Relay Chat (IRC) library
+
+LICENSE=	BSD
+
+CABAL_SETUP=	Setup.hs
+USE_CABAL=	attoparsec>=0.8 bytestring-show>=0.3.3 monadLib>=3.6.1 network-fancy>=0.1.4
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>
