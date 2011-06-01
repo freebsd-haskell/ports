@@ -7,7 +7,7 @@
 
 PORTNAME=	fastirc
 PORTVERSION=	0.2.0
-CATEGORIES=	net haskell
+CATEGORIES=	irc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Fast Internet Relay Chat (IRC) library
