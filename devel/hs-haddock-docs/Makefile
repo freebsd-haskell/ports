@@ -2,11 +2,12 @@
 # Date created:        February 22 2008
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-haddock-docs/Makefile,v 1.15 2011/05/09 05:28:37 ashish Exp $
+# $FreeBSD: ports/devel/hs-haddock-docs/Makefile,v 1.16 2011/05/26 00:50:59 ashish Exp $
 #
 
 PORTNAME=	haddock
 PORTVERSION=	2.9.2
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
