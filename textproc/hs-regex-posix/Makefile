@@ -2,11 +2,12 @@
 # Date created:		2010-08-10
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-regex-posix/Makefile,v 1.1 2011/05/08 18:43:16 pgj Exp $
+# $FreeBSD: ports/textproc/hs-regex-posix/Makefile,v 1.2 2011/05/26 00:51:12 ashish Exp $
 #
 
 PORTNAME=	regex-posix
 PORTVERSION=	0.94.4
+PORTREVISION=	1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

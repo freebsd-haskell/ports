@@ -2,11 +2,12 @@
 # Date created:				December 16, 2008
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/textproc/hs-highlighting-kate/Makefile,v 1.14 2011/05/09 05:28:52 ashish Exp $
+# $FreeBSD: ports/textproc/hs-highlighting-kate/Makefile,v 1.15 2011/05/26 00:51:09 ashish Exp $
 #
 
 PORTNAME=	highlighting-kate
 PORTVERSION=	0.2.9
+PORTREVISION=	1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

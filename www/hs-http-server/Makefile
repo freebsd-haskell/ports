@@ -2,12 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/www/hs-http-server/Makefile,v 1.4 2011/05/09 05:28:55 ashish Exp $
+# $FreeBSD: ports/www/hs-http-server/Makefile,v 1.5 2011/05/26 00:51:13 ashish Exp $
 #
 
 PORTNAME=	http-server
 PORTVERSION=	1
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org

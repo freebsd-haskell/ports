@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/math/hs-category-extras/Makefile,v 1.4 2011/05/09 05:28:48 ashish Exp $
+# $FreeBSD: ports/math/hs-category-extras/Makefile,v 1.5 2011/05/26 00:51:06 ashish Exp $
 #
 
 PORTNAME=	category-extras
 PORTVERSION=	0.53.5
+PORTREVISION=	1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org

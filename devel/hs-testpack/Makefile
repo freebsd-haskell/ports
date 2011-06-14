@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-testpack/Makefile,v 1.4 2011/05/09 05:28:42 ashish Exp $
+# $FreeBSD: ports/devel/hs-testpack/Makefile,v 1.5 2011/05/26 00:51:03 ashish Exp $
 #
 
 PORTNAME=	testpack

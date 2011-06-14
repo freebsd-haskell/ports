@@ -2,11 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/graphics/hs-cairo/Makefile,v 1.1 2011/05/08 19:26:29 ashish Exp $
+# $FreeBSD: ports/graphics/hs-cairo/Makefile,v 1.2 2011/05/26 00:51:05 ashish Exp $
 #
 
 PORTNAME=	cairo
 PORTVERSION=	0.12.0
+PORTREVISION=	1
 CATEGORIES=	graphics haskell
 
 MAINTAINER=	haskell@FreeBSD.org

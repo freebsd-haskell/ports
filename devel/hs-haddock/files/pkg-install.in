@@ -1,5 +1,5 @@
 #!/bin/sh
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-haddock/files/pkg-install.in,v 1.1 2011/06/03 17:18:22 ashish Exp $
 
 [ "$2" = "POST-INSTALL" ] && /bin/ln -sf %%EXECUTABLE%% %%HADDOCK%%
 

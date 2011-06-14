@@ -2,7 +2,7 @@
 # Date created:				28 August 1999
 # Whom:					Simon Marlow <simonmar@microsoft.com>
 #
-# $FreeBSD: ports/lang/ghc/Makefile,v 1.89 2011/05/09 05:28:46 ashish Exp $
+# $FreeBSD: ports/lang/ghc/Makefile,v 1.91 2011/05/25 18:57:25 ashish Exp $
 
 PORTNAME=	ghc
 PORTVERSION=	7.0.3
@@ -60,6 +60,10 @@ OPTIONS=	PROFILE "Compile for profiling as well" on \
 
 .include <bsd.port.options.mk>
 .include <bsd.port.pre.mk>
+
+.if ${OSVERSION} >= 900000
+BROKEN=	does not compile
+.endif
 
 .if defined(WITHOUT_DOCS)
 NOPORTDOCS=

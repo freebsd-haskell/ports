@@ -2,11 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-glib/Makefile,v 1.1 2011/05/08 19:13:43 ashish Exp $
+# $FreeBSD: ports/devel/hs-glib/Makefile,v 1.2 2011/05/26 00:50:58 ashish Exp $
 #
 
 PORTNAME=	glib
 PORTVERSION=	0.12.0
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

@@ -2,12 +2,12 @@
 # Date created:			04 May 2010
 # Whom:				Ju Pengfei <jupengfei@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-bsd-sysctl/Makefile,v 1.3 2011/05/09 05:28:34 ashish Exp $
+# $FreeBSD: ports/devel/hs-bsd-sysctl/Makefile,v 1.4 2011/05/26 00:50:56 ashish Exp $
 #
 
 PORTNAME=	bsd-sysctl
 PORTVERSION=	1.0.6
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	jupengfei@gmail.com

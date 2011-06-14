@@ -2,12 +2,12 @@
 # Date created:		27 November 2001
 # Whom:			mwest@uct.ac.za
 #
-# $FreeBSD: ports/devel/hs-hmake/Makefile,v 1.30 2011/05/09 05:28:38 ashish Exp $
+# $FreeBSD: ports/devel/hs-hmake/Makefile,v 1.31 2011/05/26 00:51:00 ashish Exp $
 #
 
 PORTNAME=	hmake
 PORTVERSION=	3.14
-PORTREVISION=	5
+PORTREVISION=	6
 CATEGORIES=	devel haskell
 MASTER_SITES=	http://www.haskell.org/hmake/ \
 		ftp://ftp.cs.york.ac.uk/pub/haskell/hmake/ \

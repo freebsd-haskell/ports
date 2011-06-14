@@ -2,12 +2,12 @@
 # Date created:				December 16, 2008
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-pcre-light/Makefile,v 1.11 2011/05/09 05:28:40 ashish Exp $
+# $FreeBSD: ports/devel/hs-pcre-light/Makefile,v 1.12 2011/05/26 00:51:01 ashish Exp $
 #
 
 PORTNAME=	pcre-light
 PORTVERSION=	0.4
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

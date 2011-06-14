@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/www/hs-cgi/Makefile,v 1.5 2011/05/09 05:28:54 ashish Exp $
+# $FreeBSD: ports/www/hs-cgi/Makefile,v 1.6 2011/05/26 00:51:13 ashish Exp $
 #
 
 PORTNAME=	cgi
 PORTVERSION=	3001.1.7.4
+PORTREVISION=	1
 PORTEPOCH=	1
 CATEGORIES=	www haskell
 

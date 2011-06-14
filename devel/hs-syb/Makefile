@@ -2,11 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-syb/Makefile,v 1.1 2011/05/08 19:22:36 ashish Exp $
+# $FreeBSD: ports/devel/hs-syb/Makefile,v 1.2 2011/05/26 00:51:02 ashish Exp $
 #
 
 PORTNAME=	syb
 PORTVERSION=	0.3
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

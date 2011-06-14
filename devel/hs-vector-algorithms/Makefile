@@ -2,11 +2,12 @@
 # Date created:        June 5, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-vector-algorithms/Makefile,v 1.2 2011/05/09 05:28:45 ashish Exp $
+# $FreeBSD: ports/devel/hs-vector-algorithms/Makefile,v 1.3 2011/05/26 00:51:05 ashish Exp $
 #
 
 PORTNAME=	vector-algorithms
 PORTVERSION=	0.4
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

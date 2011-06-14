@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/math/hs-Agda-executable/Makefile,v 1.5 2011/05/09 05:28:48 ashish Exp $
+# $FreeBSD: ports/math/hs-Agda-executable/Makefile,v 1.7 2011/06/14 19:57:04 pgj Exp $
 #
 
 PORTNAME=	Agda-executable
@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Command-line program for type-checking and compiling Agda programs
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	Agda==2.2.10
+USE_CABAL=	Agda>=2.2.10 Agda<2.2.11
 
 USE_ICONV=	yes
 

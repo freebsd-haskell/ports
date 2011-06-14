@@ -2,11 +2,12 @@
 # Date created:		2010-05-14
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-parsec/Makefile,v 1.1 2011/05/08 18:41:48 pgj Exp $
+# $FreeBSD: ports/textproc/hs-parsec/Makefile,v 1.2 2011/05/26 00:51:11 ashish Exp $
 #
 
 PORTNAME=	parsec
 PORTVERSION=	3.1.1
+PORTREVISION=	1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

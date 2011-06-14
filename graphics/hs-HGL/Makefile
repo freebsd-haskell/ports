@@ -2,12 +2,12 @@
 # Date created:        February 25 2008
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/graphics/hs-HGL/Makefile,v 1.13 2011/05/09 05:28:46 ashish Exp $
+# $FreeBSD: ports/graphics/hs-HGL/Makefile,v 1.14 2011/05/26 00:51:05 ashish Exp $
 #
 
 PORTNAME=	HGL
 PORTVERSION=	3.2.0.2
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	graphics haskell
 
 MAINTAINER=	haskell@FreeBSD.org

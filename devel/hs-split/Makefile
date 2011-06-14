@@ -2,7 +2,7 @@
 # Date created:        January 10 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-split/Makefile,v 1.4 2011/05/09 05:28:41 ashish Exp $
+# $FreeBSD: ports/devel/hs-split/Makefile,v 1.5 2011/05/26 00:51:02 ashish Exp $
 #
 
 PORTNAME=	split

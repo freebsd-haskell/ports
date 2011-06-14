@@ -2,12 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/math/hs-erf/Makefile,v 1.4 2011/05/09 14:04:14 pgj Exp $
+# $FreeBSD: ports/math/hs-erf/Makefile,v 1.5 2011/05/26 00:51:06 ashish Exp $
 #
 
 PORTNAME=	erf
 PORTVERSION=	1.0.0.0
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org

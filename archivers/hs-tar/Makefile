@@ -2,11 +2,12 @@
 # Date created:		2010-08-17
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/archivers/hs-tar/Makefile,v 1.1 2011/05/08 19:00:40 ashish Exp $
+# $FreeBSD: ports/archivers/hs-tar/Makefile,v 1.2 2011/05/26 00:50:52 ashish Exp $
 #
 
 PORTNAME=	tar
 PORTVERSION=	0.3.1.0
+PORTREVISION=	1
 CATEGORIES=	archivers haskell
 
 MAINTAINER=	haskell@FreeBSD.org

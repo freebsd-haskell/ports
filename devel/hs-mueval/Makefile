@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-mueval/Makefile,v 1.6 2011/05/09 05:28:40 ashish Exp $
+# $FreeBSD: ports/devel/hs-mueval/Makefile,v 1.7 2011/05/26 00:51:01 ashish Exp $
 #
 
 PORTNAME=	mueval
 PORTVERSION=	0.8.1
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-uniplate/Makefile,v 1.5 2011/05/09 05:28:43 ashish Exp $
+# $FreeBSD: ports/devel/hs-uniplate/Makefile,v 1.6 2011/05/26 00:51:04 ashish Exp $
 #
 
 PORTNAME=	uniplate
 PORTVERSION=	1.6
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

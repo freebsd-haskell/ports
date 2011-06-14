@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-checkers/Makefile,v 1.5 2011/05/09 05:28:34 ashish Exp $
+# $FreeBSD: ports/devel/hs-checkers/Makefile,v 1.6 2011/05/26 00:50:56 ashish Exp $
 #
 
 PORTNAME=	checkers
 PORTVERSION=	0.2.6
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

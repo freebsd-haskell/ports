@@ -2,11 +2,12 @@
 # Date created:				March 2, 2009
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-language-c/Makefile,v 1.8 2011/05/09 05:28:39 ashish Exp $
+# $FreeBSD: ports/devel/hs-language-c/Makefile,v 1.9 2011/05/26 00:51:00 ashish Exp $
 #
 
 PORTNAME=	language-c
 PORTVERSION=	0.3.2.1
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

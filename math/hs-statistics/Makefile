@@ -2,11 +2,12 @@
 # Date created:        January 03 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/math/hs-statistics/Makefile,v 1.6 2011/05/09 05:28:48 ashish Exp $
+# $FreeBSD: ports/math/hs-statistics/Makefile,v 1.7 2011/05/26 00:51:07 ashish Exp $
 #
 
 PORTNAME=	statistics
 PORTVERSION=	0.8.0.5
+PORTREVISION=	1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org

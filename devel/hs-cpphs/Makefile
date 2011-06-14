@@ -2,12 +2,12 @@
 # Date created:		14 June 2004
 # Whom:			obraun@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-cpphs/Makefile,v 1.23 2011/05/09 05:28:34 ashish Exp $
+# $FreeBSD: ports/devel/hs-cpphs/Makefile,v 1.24 2011/05/26 00:50:56 ashish Exp $
 #
 
 PORTNAME=	cpphs
 PORTVERSION=	1.11
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

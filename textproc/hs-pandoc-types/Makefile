@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-pandoc-types/Makefile,v 1.1 2011/05/08 18:41:26 pgj Exp $
+# $FreeBSD: ports/textproc/hs-pandoc-types/Makefile,v 1.2 2011/05/26 00:51:11 ashish Exp $
 #
 
 PORTNAME=	pandoc-types

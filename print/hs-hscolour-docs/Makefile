@@ -2,11 +2,12 @@
 # Date created:        February 22 2008
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/print/hs-hscolour-docs/Makefile,v 1.13 2011/05/09 05:28:50 ashish Exp $
+# $FreeBSD: ports/print/hs-hscolour-docs/Makefile,v 1.14 2011/05/26 00:51:08 ashish Exp $
 #
 
 PORTNAME=	hscolour
 PORTVERSION=	1.17
+PORTREVISION=	1
 PORTEPOCH=	1
 CATEGORIES=	print haskell
 

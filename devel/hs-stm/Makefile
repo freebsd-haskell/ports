@@ -2,11 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-stm/Makefile,v 1.1 2011/05/08 19:21:29 ashish Exp $
+# $FreeBSD: ports/devel/hs-stm/Makefile,v 1.2 2011/05/26 00:51:02 ashish Exp $
 #
 
 PORTNAME=	stm
 PORTVERSION=	2.2.0.1
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

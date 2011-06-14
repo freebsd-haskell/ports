@@ -2,11 +2,11 @@
 # Date created:				November 10, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: ports/devel/hs-dlist/Makefile,v 1.7 2011/05/09 05:28:35 ashish Exp $
+# $FreeBSD: ports/devel/hs-dlist/Makefile,v 1.8 2011/05/26 00:50:57 ashish Exp $
 
 PORTNAME=	dlist
 PORTVERSION=	0.5
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
