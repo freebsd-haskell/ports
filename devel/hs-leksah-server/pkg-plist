@@ -1,0 +1,3 @@
+%%DATADIR%%/data/prefscoll.lkshp
+@dirrm %%DATADIR%%/data
+@dirrm %%DATADIR%%
