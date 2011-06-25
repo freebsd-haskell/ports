@@ -1,13 +1,13 @@
---- ./hoogle.cabal.orig	2011-05-01 19:41:04.000000000 +0200
-+++ ./hoogle.cabal	2011-05-24 13:54:22.000000000 +0200
-@@ -36,10 +36,10 @@
+--- ./hoogle.cabal.orig	2011-06-12 15:14:55.000000000 +0200
++++ ./hoogle.cabal	2011-06-25 19:26:25.000000000 +0200
+@@ -40,10 +40,10 @@
          array, bytestring, containers, directory, filepath, process, random,
          safe,
          binary,
 -        parsec >= 2.1,
 -        transformers == 0.2.*,
 -        uniplate == 1.6.*,
--        haskell-src-exts >= 1.9 && < 1.11
+-        haskell-src-exts >= 1.9 && < 1.12
 +        parsec,
 +        transformers >= 0.2,
 +        uniplate >= 1.6,
@@ -15,11 +15,11 @@
  
      if !os(mingw32)
          build-depends: unix
-@@ -103,14 +103,14 @@
+@@ -107,14 +107,14 @@
  
      build-depends:
          time, old-time, old-locale,
--        cmdargs == 0.6.*,
+-        cmdargs == 0.7.*,
 -        tagsoup >= 0.11 && < 0.13,
 -        enumerator == 0.4.*,
 -        blaze-builder >= 0.2 && < 0.4,
@@ -27,7 +27,7 @@
 -        case-insensitive == 0.2.*,
 -        wai == 0.4.*,
 -        warp == 0.4.*,
-+        cmdargs >= 0.6,
++        cmdargs >= 0.7,
 +        tagsoup >= 0.11,
 +        enumerator >= 0.4,
 +        blaze-builder >= 0.2,
