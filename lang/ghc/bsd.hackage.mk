@@ -98,6 +98,7 @@ hlibev_port=			devel/hs-hlibev		# lib_depends
 hoogle_port=			devel/hs-hoogle		# executable
 hostname_port=			net/hs-hostname
 hs-bibutils_port=		textproc/hs-hs-bibutils
+hS3_port=			www/hs-hS3		# executable
 hscolour_port=			print/hs-hscolour	# executable
 hslogger_port=			devel/hs-hslogger
 html_port=			textproc/hs-html
