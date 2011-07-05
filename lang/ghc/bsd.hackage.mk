@@ -50,6 +50,7 @@ cmdargs_port=			devel/hs-cmdargs
 convertible_port=		devel/hs-convertible
 cpphs_port=			devel/hs-cpphs		# executable
 criterion_port=			benchmarks/hs-criterion
+Crypto_port=			security/hs-Crypto
 crypto-api_port=		security/hs-crypto-api
 curl_port=			ftp/hs-curl
 darcs_port=			devel/hs-darcs		# executable
