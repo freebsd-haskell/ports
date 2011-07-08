@@ -13,11 +13,23 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Manage files with git, without checking their contents into git
 
 LICENSE=	GPLv3
+FILE_LICENSE=	GPL
 
-USE_CABAL=	curl dataenc hS3 hslogger MissingH mtl network pcre-light SHA \
-		utf8-string
+USE_CABAL=	curl dataenc hS3 hslogger MissingH mtl network pcre-light \
+		SHA utf8-string
+CABAL_SETUP=	Setup.hs
+
+USE_GMAKE=		yes
+USE_PERL5_BUILD=	yes
+
+BUILD_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
+		git:${PORTSDIR}/devel/git
+
+RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
+		git:${PORTSDIR}/devel/git
 
 EXECUTABLE=	git-union-merge git-annex-shell git-annex
+STANDALONE=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
