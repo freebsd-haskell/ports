@@ -2,12 +2,12 @@
 # Date created:        January 07 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-reactive/Makefile,v 1.6 2011/05/26 00:51:01 ashish Exp $
+# $FreeBSD: ports/devel/hs-reactive/Makefile,v 1.7 2011/07/10 08:41:19 ashish Exp $
 #
 
 PORTNAME=	reactive
 PORTVERSION=	0.11.5
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

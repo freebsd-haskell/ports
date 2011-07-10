@@ -2,7 +2,7 @@
 # Date created:				January 23, 2009
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/textproc/hs-polyparse/Makefile,v 1.9 2011/05/26 00:51:11 ashish Exp $
+# $FreeBSD: ports/textproc/hs-polyparse/Makefile,v 1.10 2011/07/10 16:48:18 ashish Exp $
 #
 
 PORTNAME=	polyparse

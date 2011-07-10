@@ -2,12 +2,12 @@
 # Date created:        May 14, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/textproc/hs-citeproc-hs/Makefile,v 1.4 2011/05/26 00:51:09 ashish Exp $
+# $FreeBSD: ports/textproc/hs-citeproc-hs/Makefile,v 1.5 2011/07/10 16:40:07 ashish Exp $
 #
 
 PORTNAME=	citeproc-hs
 PORTVERSION=	0.3.2
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

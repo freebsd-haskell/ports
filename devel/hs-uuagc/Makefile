@@ -2,11 +2,12 @@
 # Date created:        February 27 2008
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-uuagc/Makefile,v 1.14 2011/05/26 00:51:04 ashish Exp $
+# $FreeBSD: ports/devel/hs-uuagc/Makefile,v 1.16 2011/07/10 16:30:19 ashish Exp $
 #
 
 PORTNAME=	uuagc
 PORTVERSION=	0.9.38.5
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

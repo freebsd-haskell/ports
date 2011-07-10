@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-utility-ht/Makefile,v 1.5 2011/05/26 00:51:04 ashish Exp $
+# $FreeBSD: ports/devel/hs-utility-ht/Makefile,v 1.6 2011/07/10 01:45:52 ashish Exp $
 #
 
 PORTNAME=	utility-ht

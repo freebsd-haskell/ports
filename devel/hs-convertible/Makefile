@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-convertible/Makefile,v 1.7 2011/05/26 00:50:56 ashish Exp $
+# $FreeBSD: ports/devel/hs-convertible/Makefile,v 1.8 2011/07/10 01:36:51 ashish Exp $
 #
 
 PORTNAME=	convertible

@@ -1,5 +1,5 @@
 #
-# $FreeBSD: ports/lang/ghc/bsd.cabal.mk,v 1.8 2011/06/03 17:05:33 ashish Exp $
+# $FreeBSD: ports/lang/ghc/bsd.cabal.mk,v 1.9 2011/07/10 02:48:21 ashish Exp $
 #
 # bsd.cabal.mk -- Support for ports based on Haskell Cabal.
 #
@@ -173,7 +173,7 @@ HADDOCK_OPTS=	${HADDOCK_EXE}
 .if defined(WITH_HSCOLOUR_DOCS)
 BUILD_DEPENDS+=	HsColour:${PORTSDIR}/print/hs-hscolour
 
-HSCOLOUR_VERSION=	1.17
+HSCOLOUR_VERSION=	1.19
 HSCOLOUR_DATADIR=	${LOCALBASE}/share/ghc-${GHC_VERSION}/cabal/hscolour-${HSCOLOUR_VERSION}
 HADDOCK_OPTS+=		--hyperlink-source --hscolour-css=${HSCOLOUR_DATADIR}/hscolour.css
 .endif

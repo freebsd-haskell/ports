@@ -3,7 +3,7 @@
 # Date created:			April 24, 2007
 # Whom:				mainland@apeiron.net
 #
-# $FreeBSD: ports/textproc/hs-lhs2tex/Makefile,v 1.17 2011/05/09 05:28:52 ashish Exp $
+# $FreeBSD: ports/textproc/hs-lhs2tex/Makefile,v 1.18 2011/07/10 02:17:14 ashish Exp $
 #
 
 PORTNAME=	lhs2tex

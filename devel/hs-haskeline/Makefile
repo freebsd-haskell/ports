@@ -2,7 +2,7 @@
 # Date created:        July 09 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-haskeline/Makefile,v 1.8 2011/05/26 00:50:59 ashish Exp $
+# $FreeBSD: ports/devel/hs-haskeline/Makefile,v 1.9 2011/07/10 16:30:18 ashish Exp $
 
 PORTNAME=	haskeline
 PORTVERSION=	0.6.4.0

@@ -2,12 +2,12 @@
 # Date created:				1 March 2007
 # Whom:					Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/cvs2darcs/Makefile,v 1.5 2011/05/26 00:50:53 ashish Exp $
+# $FreeBSD: ports/devel/cvs2darcs/Makefile,v 1.6 2011/07/10 16:30:17 ashish Exp $
 #
 
 PORTNAME=	cvs2darcs
 PORTVERSION=	0.8
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	devel
 MASTER_SITES=	http://ab-initio.mit.edu/${PORTNAME}/
 

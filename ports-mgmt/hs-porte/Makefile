@@ -2,11 +2,11 @@
 # Date created:				November 4, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: ports/ports-mgmt/hs-porte/Makefile,v 1.14 2011/05/26 00:51:08 ashish Exp $
+# $FreeBSD: ports/ports-mgmt/hs-porte/Makefile,v 1.15 2011/07/10 09:51:31 ashish Exp $
 
 PORTNAME=	porte
 PORTVERSION=	0.0.4
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	ports-mgmt haskell
 
 MAINTAINER=	sbahra@repnop.org

@@ -2,12 +2,12 @@
 # Date created:                      9 February 2007
 # Whom:                              John MacFarlane <jgm@berkeley.edu>
 #
-# $FreeBSD: ports/textproc/hs-pandoc/Makefile,v 1.22 2011/07/03 22:30:22 ashish Exp $
+# $FreeBSD: ports/textproc/hs-pandoc/Makefile,v 1.23 2011/07/10 16:40:07 ashish Exp $
 #
 
 PORTNAME=	pandoc
 PORTVERSION=	1.8.1.1
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

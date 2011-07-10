@@ -2,7 +2,7 @@
 # Date created:        December 30 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-haskell-src-exts/Makefile,v 1.7 2011/05/26 00:50:59 ashish Exp $
+# $FreeBSD: ports/devel/hs-haskell-src-exts/Makefile,v 1.8 2011/07/10 16:30:18 ashish Exp $
 #
 
 PORTNAME=	haskell-src-exts

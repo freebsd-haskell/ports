@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-warp/Makefile,v 1.2 2011/05/26 00:51:14 ashish Exp $
+# $FreeBSD: ports/www/hs-warp/Makefile,v 1.3 2011/07/10 16:30:20 ashish Exp $
 #
 
 PORTNAME=	warp

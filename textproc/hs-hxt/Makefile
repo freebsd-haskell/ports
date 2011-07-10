@@ -2,7 +2,7 @@
 # Date created:        May 14, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/textproc/hs-hxt/Makefile,v 1.5 2011/05/26 00:51:10 ashish Exp $
+# $FreeBSD: ports/textproc/hs-hxt/Makefile,v 1.6 2011/07/10 16:32:51 ashish Exp $
 #
 
 PORTNAME=	hxt
