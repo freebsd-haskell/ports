@@ -2,11 +2,12 @@
 # Date created:				13 April 2003
 # Whom:					Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-darcs/Makefile,v 1.68 2011/07/10 16:30:18 ashish Exp $
+# $FreeBSD: ports/devel/hs-darcs/Makefile,v 1.69 2011/07/10 20:48:23 ashish Exp $
 #
 
 PORTNAME=	darcs
 PORTVERSION=	2.5.2
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

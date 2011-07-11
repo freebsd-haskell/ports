@@ -2,11 +2,12 @@
 # Date created:        May 21, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-test-framework/Makefile,v 1.6 2011/07/10 16:30:19 ashish Exp $
+# $FreeBSD: ports/devel/hs-test-framework/Makefile,v 1.7 2011/07/10 20:48:23 ashish Exp $
 #
 
 PORTNAME=	test-framework
 PORTVERSION=	0.4.0
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
