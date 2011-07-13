@@ -171,6 +171,7 @@ regex-tdfa_port=		textproc/hs-regex-tdfa
 safe_port=			devel/hs-safe
 scgi_port=			www/hs-scgi
 sendfile_port=			net/hs-sendfile
+semigroups_port=		math/hs-semigroups
 SHA_port=			security/hs-SHA
 show_port=			devel/hs-show
 smallcheck_port=		devel/hs-smallcheck
