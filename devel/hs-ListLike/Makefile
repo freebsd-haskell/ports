@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	ListLike
-PORTVERSION=	3.0.1
+PORTVERSION=	3.1.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,8 +16,6 @@ LICENSE=	LGPL21
 FILE_LICENSE=	COPYRIGHT
 
 CABAL_SETUP=	Setup.hs
-
-USE_CABAL=	mtl>=1.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
