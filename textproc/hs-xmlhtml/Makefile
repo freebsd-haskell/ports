@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	xmlhtml
-PORTVERSION=	0.1.5
+PORTVERSION=	0.1.5.2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
