@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	mysql-simple
-PORTVERSION=	0.2.2.0
+PORTVERSION=	0.2.2.2
 CATEGORIES=	databases haskell
 
 MAINTAINER=	haskell@FreeBSD.org
