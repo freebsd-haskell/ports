@@ -5,8 +5,7 @@
 # $FreeBSD: ports/textproc/hs-HaXml/Makefile,v 1.52 2011/07/10 16:48:18 ashish Exp $
 
 PORTNAME=	HaXml
-PORTVERSION=	1.20.2
-PORTREVISION=	3
+PORTVERSION=	1.22
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,7 +15,7 @@ LICENSE=	LGPL21
 FILE_LICENSE=	COPYRIGHT
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	polyparse>=1.2
+USE_CABAL=	polyparse>=1.5
 
 EXECUTABLE=	Canonicalise CanonicaliseLazy \
 		DtdToHaskell MkOneOf Validate \
