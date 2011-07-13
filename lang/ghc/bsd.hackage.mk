@@ -116,6 +116,7 @@ hxt-unicode_port=		textproc/hs-hxt-unicode
 iteratee_port=			devel/hs-iteratee
 json_port=			converters/hs-json
 language-c_port=		devel/hs-language-c
+largeword_port=			devel/hs-largeword
 lazysmallcheck_port=		devel/hs-lazysmallcheck
 leksah_port=			editors/hs-leksah # executable
 leksah-server_port=		devel/hs-leksah-server # executable
