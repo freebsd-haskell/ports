@@ -12,6 +12,8 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A platform-independent entropy source
 
+LICENSE=	BSD
+
 CABAL_SETUP=	Setup.hs
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
