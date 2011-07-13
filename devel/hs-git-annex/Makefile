@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	git-annex
-PORTVERSION=	3.20110702.2
+PORTVERSION=	3.20110707
 CATEGORIES=	devel haskell
 
 MAINTAINER=	frase@frase.id.au
@@ -15,7 +15,7 @@ COMMENT=	Manage files with git, without checking their contents into git
 LICENSE=	GPLv3
 FILE_LICENSE=	GPL
 
-USE_CABAL=	curl dataenc hS3 hslogger MissingH mtl network pcre-light \
+USE_CABAL=	dataenc hS3 hslogger HTTP MissingH mtl network pcre-light \
 		SHA utf8-string
 CABAL_SETUP=	Setup.hs
 
