@@ -16,6 +16,7 @@ LICENSE=	LGPL21
 FILE_LICENSE=	COPYRIGHT
 
 CABAL_SETUP=	Setup.hs
+USE_CABAL=	text
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
