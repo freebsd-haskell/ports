@@ -15,7 +15,8 @@ COMMENT=	Iteratee-based I/O
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	ListLike>=1.0 MonadCatchIO-transformers>0.2 transformers>=0.2
+USE_CABAL=	ListLike>=1.0 MonadCatchIO-transformers>0.2 parallel>=2 \
+		transformers>=0.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
