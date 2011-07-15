@@ -1,0 +1,11 @@
+--- ./heist.cabal.orig	2011-04-29 23:14:33.000000000 +0200
++++ ./heist.cabal	2011-07-14 05:02:14.368653643 +0200
+@@ -80,7 +80,7 @@
+     Text.Templating.Heist.Types
+ 
+   build-depends:
+-    attoparsec >= 0.8.1 && < 0.9,
++    attoparsec >= 0.8.1,
+     attoparsec-text >= 0.8 && < 0.9,
+     base >= 4 && < 5,
+     blaze-builder >= 0.2 && <0.4,
