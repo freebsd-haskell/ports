@@ -41,6 +41,7 @@ c2hs_port=			devel/hs-c2hs		# executable
 cabal-install_port=		devel/hs-cabal-install	# executable
 cairo_port=			graphics/hs-cairo
 case-insensitive_port=		textproc/hs-case-insensitive
+categories_port=		math/hs-categories
 category-extras_port=		math/hs-category-extras # BROKEN
 cereal_port=			devel/hs-cereal
 cgi_port=			www/hs-cgi
