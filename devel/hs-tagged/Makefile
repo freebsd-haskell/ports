@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	tagged
-PORTVERSION=	0.2.2
+PORTVERSION=	0.2.2.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Provides newtype wrappers for phantom types to avoid unsafely passing dummy arguments
+COMMENT=	Newtype wrappers for phantom types to avoid unsafely passing dummy arguments
 
 LICENSE=	BSD
 
