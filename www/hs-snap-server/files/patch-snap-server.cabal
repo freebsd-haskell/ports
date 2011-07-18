@@ -1,0 +1,11 @@
+--- ./snap-server.cabal.orig	2011-06-23 19:52:44.000000000 +0200
++++ ./snap-server.cabal	2011-07-18 16:13:34.000000000 +0200
+@@ -108,7 +108,7 @@
+     blaze-builder-enumerator >= 0.2.0 && <0.3,
+     bytestring,
+     bytestring-nums,
+-    case-insensitive >= 0.2 && < 0.3,
++    case-insensitive >= 0.2,
+     containers,
+     directory-tree,
+     enumerator >= 0.4.8 && <0.5,
