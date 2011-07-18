@@ -12,7 +12,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Check properties on standard Haskell classes and data structures
 
-USE_HACKAGE=	QuickCheck>=2.3
+USE_CABAL=	QuickCheck>=2.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
