@@ -137,6 +137,7 @@ MemoTrie_port=			devel/hs-MemoTrie
 mime_port=			mail/hs-mime
 MissingH_port=			devel/hs-MissingH
 mmap_port=			devel/hs-mmap
+monad-par_port=			devel/hs-monad-par
 MonadCatchIO-mtl_port=		devel/hs-MonadCatchIO-mtl
 MonadCatchIO-transformers_port=	devel/hs-MonadCatchIO-transformers
 monadLib_port=			devel/hs-monadLib
