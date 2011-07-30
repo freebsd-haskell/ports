@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	comonad-transformers
-PORTVERSION=	1.8.0
+PORTVERSION=	1.8.0.2
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
