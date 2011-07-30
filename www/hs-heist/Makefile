@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	heist
-PORTVERSION=	0.5.2
+PORTVERSION=	0.5.2.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
