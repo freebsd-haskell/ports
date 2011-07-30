@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	pointed
-PORTVERSION=	1.8.0
+PORTVERSION=	1.8.0.1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
