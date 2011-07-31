@@ -12,6 +12,8 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Check properties on standard Haskell classes and data structures
 
+LICENSE=	BSD
+
 USE_CABAL=	QuickCheck>=2.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
