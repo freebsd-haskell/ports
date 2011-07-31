@@ -14,7 +14,6 @@ COMMENT=	Fast JSON parsing and encoding
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	attoparsec>=0.8.6.1 blaze-builder>=0.2.1.4 blaze-textual \
 		hashable>=1.1.2.0 mtl syb text>=0.11.0.2 \
 		unordered-containers>=0.1.3.0 vector>=0.7
