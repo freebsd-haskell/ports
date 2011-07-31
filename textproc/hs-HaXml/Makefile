@@ -19,7 +19,7 @@ USE_CABAL=	polyparse>=1.5
 
 EXECUTABLE=	Canonicalise CanonicaliseLazy \
 		DtdToHaskell MkOneOf Validate \
-		XsdToHaskell Xtract XtractLazy
+		XsdToHaskell Xtract
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
