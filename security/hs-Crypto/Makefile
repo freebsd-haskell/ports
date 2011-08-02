@@ -2,7 +2,7 @@
 # Date created:		July 5, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/security/hs-Crypto/Makefile,v 1.1 2011/08/01 13:38:44 pgj Exp $
 #
 
 PORTNAME=	Crypto
@@ -11,6 +11,8 @@ CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Collects together existing Haskell cryptographic functions
+
+FILE_LICENSE=	ReadMe.tex
 
 USE_CABAL=	QuickCheck>=2.4.0.1 HUnit
 CABAL_SETUP=	Setup.hs

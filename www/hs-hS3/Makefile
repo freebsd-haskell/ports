@@ -2,7 +2,7 @@
 # Date created:		July 5, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/hs-hS3/Makefile,v 1.1 2011/08/01 13:43:49 pgj Exp $
 #
 
 PORTNAME=	hS3
