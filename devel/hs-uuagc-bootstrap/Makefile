@@ -1,4 +1,4 @@
-# New ports collection makefile for: hs-uuagc
+# New ports collection makefile for: hs-uuagc-bootstrap
 # Date created:        August 12, 2011
 # Whom:                haskell@FreeBSD.org
 #
