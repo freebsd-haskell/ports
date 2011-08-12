@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	tagged
-PORTVERSION=	0.2.2.1
+PORTVERSION=	0.2.2.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,7 +14,7 @@ COMMENT=	Newtype wrappers for phantom types to avoid unsafely passing dummy argu
 
 LICENSE=	BSD
 
-USE_CABAL=	data-default>=0.2 semigroups>=0.5
+USE_CABAL=	data-default>=0.2 semigroups>=0.7.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
