@@ -6,16 +6,17 @@
 #
 
 PORTNAME=	uuagc
-PORTVERSION=	0.9.38.6
+PORTVERSION=	0.9.39.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Attribute Grammar System of Universiteit Utrecht
 
-LICENSE=	GPLv2
+LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	haskell-src-exts>=1.11.1 mtl>=1.1.1.1 uulib>=0.9.12
+USE_CABAL=	haskell-src-exts>=1.11.1 mtl>=1.1.1.1 \
+		uuagc-bootstrap>=0.9.39.0.0 uuagc-cabal>=1.0.0.2 uulib>=0.9.14
 
 EXECUTABLE=	uuagc
 HADDOCK_EXE=
