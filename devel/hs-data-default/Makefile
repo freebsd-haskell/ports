@@ -14,5 +14,7 @@ COMMENT=	A class for types with a default value for Haskell
 
 LICENSE=	BSD
 
+USE_CABAL=	dlist
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
