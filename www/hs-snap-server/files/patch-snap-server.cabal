@@ -1,5 +1,5 @@
---- ./snap-server.cabal.orig	2011-06-23 19:52:44.000000000 +0200
-+++ ./snap-server.cabal	2011-07-18 16:13:34.000000000 +0200
+--- ./snap-server.cabal.orig	2011-07-20 22:05:26.000000000 +0200
++++ ./snap-server.cabal	2011-08-13 10:58:29.000000000 +0200
 @@ -108,7 +108,7 @@
      blaze-builder-enumerator >= 0.2.0 && <0.3,
      bytestring,
@@ -8,4 +8,13 @@
 +    case-insensitive >= 0.2,
      containers,
      directory-tree,
-     enumerator >= 0.4.8 && <0.5,
+     enumerator >= 0.4.13.1 && <0.5,
+@@ -125,7 +125,7 @@
+     transformers,
+     unix-compat == 0.2.*,
+     vector >= 0.7 && <0.8,
+-    vector-algorithms >= 0.4 && <0.5,
++    vector-algorithms >= 0.4,
+     PSQueue >= 1.1 && <1.2
+ 
+   if flag(portable) || os(windows)
