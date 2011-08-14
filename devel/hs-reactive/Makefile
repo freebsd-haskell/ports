@@ -2,7 +2,7 @@
 # Date created:        January 07 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-reactive/Makefile,v 1.7 2011/07/10 08:41:19 ashish Exp $
+# $FreeBSD: ports/devel/hs-reactive/Makefile,v 1.8 2011/08/14 11:49:42 pgj Exp $
 #
 
 PORTNAME=	reactive
@@ -12,6 +12,8 @@ CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Push-pull functional reactive programming
+
+FILE_LICENSE=	COPYING
 
 USE_CABAL=	categories checkers>=0.2.3 comonad QuickCheck>=2.1.0.2 pointed \
 		semigroups Stream>=0.3.1 TypeCompose>=0.8.0 unamb>=0.1.5 \

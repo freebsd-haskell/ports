@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/textproc/hs-attoparsec-enumerator/Makefile,v 1.1 2011/08/13 19:35:15 pgj Exp $
 #
 
 PORTNAME=	attoparsec-enumerator

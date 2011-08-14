@@ -2,7 +2,7 @@
 # Date created:        July 30, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-monad-par/Makefile,v 1.1 2011/08/14 18:01:19 pgj Exp $
 #
 
 PORTNAME=	monad-par

@@ -2,7 +2,7 @@
 # Date created:        September 19, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-MonadCatchIO-transformers/Makefile,v 1.1 2011/08/13 18:08:38 pgj Exp $
 #
 
 PORTNAME=	MonadCatchIO-transformers
@@ -10,7 +10,7 @@ PORTVERSION=	0.2.2.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Monad-transformer compatible version of the Control.Exception module
+COMMENT=	Monad-transformer-compatible version of Control.Exception
 
 LICENSE=	BSD
 

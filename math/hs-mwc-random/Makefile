@@ -2,7 +2,7 @@
 # Date created:        January 03 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/math/hs-mwc-random/Makefile,v 1.8 2011/05/26 00:51:07 ashish Exp $
+# $FreeBSD: ports/math/hs-mwc-random/Makefile,v 1.10 2011/08/14 18:04:20 pgj Exp $
 #
 
 PORTNAME=	mwc-random

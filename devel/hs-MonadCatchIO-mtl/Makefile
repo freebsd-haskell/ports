@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-MonadCatchIO-mtl/Makefile,v 1.7 2011/07/10 09:43:37 ashish Exp $
+# $FreeBSD: ports/devel/hs-MonadCatchIO-mtl/Makefile,v 1.8 2011/08/13 18:01:07 pgj Exp $
 #
 
 PORTNAME=	MonadCatchIO-mtl

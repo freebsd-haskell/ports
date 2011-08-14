@@ -2,7 +2,7 @@
 # Date created:		July 30, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-unordered-containers/Makefile,v 1.1 2011/08/14 17:52:20 pgj Exp $
 #
 
 PORTNAME=	unordered-containers

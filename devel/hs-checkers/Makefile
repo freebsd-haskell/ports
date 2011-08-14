@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-checkers/Makefile,v 1.6 2011/05/26 00:50:56 ashish Exp $
+# $FreeBSD: ports/devel/hs-checkers/Makefile,v 1.7 2011/08/14 11:25:29 pgj Exp $
 #
 
 PORTNAME=	checkers
@@ -13,6 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Check properties on standard Haskell classes and data structures
 
 LICENSE=	BSD
+FILE_LICENSE=	COPYING
 
 USE_CABAL=	QuickCheck>=2.3
 

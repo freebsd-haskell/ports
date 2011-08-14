@@ -2,7 +2,7 @@
 # Date created:        May 21, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-test-framework/Makefile,v 1.7 2011/07/10 20:48:23 ashish Exp $
+# $FreeBSD: ports/devel/hs-test-framework/Makefile,v 1.8 2011/08/14 14:37:54 pgj Exp $
 #
 
 PORTNAME=	test-framework

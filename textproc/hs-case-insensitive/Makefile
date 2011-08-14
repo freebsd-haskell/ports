@@ -2,7 +2,7 @@
 # Date created:        May 24, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-case-insensitive/Makefile,v 1.1 2011/07/10 21:26:42 ashish Exp $
+# $FreeBSD: ports/textproc/hs-case-insensitive/Makefile,v 1.2 2011/08/13 20:41:04 pgj Exp $
 #
 
 PORTNAME=	case-insensitive

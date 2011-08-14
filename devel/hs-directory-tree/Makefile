@@ -2,7 +2,7 @@
 # Date created:        September 19, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-directory-tree/Makefile,v 1.1 2011/08/13 20:47:35 pgj Exp $
 #
 
 PORTNAME=	directory-tree

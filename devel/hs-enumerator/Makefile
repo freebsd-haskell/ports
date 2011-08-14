@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-enumerator/Makefile,v 1.3 2011/07/10 16:46:32 ashish Exp $
+# $FreeBSD: ports/devel/hs-enumerator/Makefile,v 1.4 2011/08/13 19:30:42 pgj Exp $
 #
 
 PORTNAME=	enumerator

@@ -2,7 +2,7 @@
 # Date created:        July 16, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/math/hs-categories/Makefile,v 1.1 2011/08/14 11:22:22 pgj Exp $
 #
 
 PORTNAME=	categories

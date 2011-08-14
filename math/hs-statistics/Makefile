@@ -2,7 +2,7 @@
 # Date created:        January 03 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/math/hs-statistics/Makefile,v 1.7 2011/05/26 00:51:07 ashish Exp $
+# $FreeBSD: ports/math/hs-statistics/Makefile,v 1.11 2011/08/14 18:08:32 pgj Exp $
 #
 
 PORTNAME=	statistics

@@ -2,7 +2,7 @@
 # Date created:        July 16, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/math/hs-semigroupoids/Makefile,v 1.1 2011/08/14 11:36:29 pgj Exp $
 #
 
 PORTNAME=	semigroupoids

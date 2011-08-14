@@ -2,12 +2,12 @@
 # Date created:        January 10 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/textproc/hs-texmath/Makefile,v 1.9 2011/07/10 20:48:24 ashish Exp $
+# $FreeBSD: ports/textproc/hs-texmath/Makefile,v 1.10 2011/08/14 14:37:55 pgj Exp $
 #
 
 PORTNAME=	texmath
 PORTVERSION=	0.5.0.1
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

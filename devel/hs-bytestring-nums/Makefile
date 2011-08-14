@@ -2,7 +2,7 @@
 # Date created:        September 19, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-bytestring-nums/Makefile,v 1.1 2011/08/13 20:33:23 pgj Exp $
 #
 
 PORTNAME=	bytestring-nums

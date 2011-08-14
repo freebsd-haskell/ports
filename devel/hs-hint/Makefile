@@ -2,12 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-hint/Makefile,v 1.7 2011/07/10 09:43:37 ashish Exp $
+# $FreeBSD: ports/devel/hs-hint/Makefile,v 1.8 2011/08/13 19:22:56 pgj Exp $
 #
 
 PORTNAME=	hint
 PORTVERSION=	0.3.3.2
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

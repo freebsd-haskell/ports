@@ -2,7 +2,7 @@
 # Date created:        September 19, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/textproc/hs-attoparsec/Makefile,v 1.1 2011/08/13 18:42:01 pgj Exp $
 #
 
 PORTNAME=	attoparsec

@@ -2,7 +2,7 @@
 # Date created:		2011-03-07
 # Whom:			Ashish SHUKLA <ashish@FreeBSD.org>
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-data-default/Makefile,v 1.1 2011/08/14 11:42:23 pgj Exp $
 #
 
 PORTNAME=	data-default
