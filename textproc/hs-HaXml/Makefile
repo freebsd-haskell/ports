@@ -5,7 +5,7 @@
 # $FreeBSD: ports/textproc/hs-HaXml/Makefile,v 1.52 2011/07/10 16:48:18 ashish Exp $
 
 PORTNAME=	HaXml
-PORTVERSION=	1.22.4
+PORTVERSION=	1.22.5
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
