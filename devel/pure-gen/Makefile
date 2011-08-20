@@ -15,7 +15,7 @@ MAINTAINER=	lichray@gmail.com
 COMMENT=	A C interface generator for the Pure language
 
 BUILD_DEPENDS=	ghc:${PORTSDIR}/lang/ghc \
-		hs-language-c>=0.3.2:${PORTSDIR}/devel/hs-language-c
+		hs-language-c>=0.4:${PORTSDIR}/devel/hs-language-c
 LIB_DEPENDS=	pure.7:${PORTSDIR}/lang/pure
 
 MAN1=		pure-gen.1
