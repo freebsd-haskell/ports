@@ -13,6 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A CSV library for Haskell
 
 LICENSE=	MIT
+LICENSE_FILE=	${WRKSRC}/COPYING
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	parsec
