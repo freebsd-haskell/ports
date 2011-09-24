@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	hexpat
-PORTVERSION=	0.19.6
+PORTVERSION=	0.19.7
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,7 +14,7 @@ COMMENT=	XML parser/formatter based on expat
 
 LICENSE=	BSD
 
-USE_CABAL=	deepseq List text>=0.5 transformers utf8-string
+USE_CABAL=	deepseq List>=0.4.2 text>=0.5 transformers utf8-string>=0.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
