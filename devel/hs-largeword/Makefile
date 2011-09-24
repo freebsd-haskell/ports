@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	largeword
-PORTVERSION=	1.0.0
+PORTVERSION=	1.0.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
