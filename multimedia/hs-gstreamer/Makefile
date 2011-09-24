@@ -6,8 +6,7 @@
 #
 
 PORTNAME=	gstreamer
-PORTVERSION=	0.12.0
-PORTREVISION=	1
+PORTVERSION=	0.12.1
 CATEGORIES=	multimedia haskell
 
 MAINTAINER=	haskell@FreeBSD.org
