@@ -153,6 +153,7 @@ mysql_port=			databases/hs-mysql
 mysql-simple_port=		databases/hs-mysql-simple
 network_port=			net/hs-network
 network-fancy_port=		net/hs-network-fancy
+NumInstances_port=		math/hs-NumInstances
 ObjectName_port=		devel/hs-ObjectName
 oeis_port=			www/hs-oeis
 OpenAL_port=			audio/hs-OpenAL
