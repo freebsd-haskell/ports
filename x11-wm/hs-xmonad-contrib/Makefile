@@ -2,7 +2,7 @@
 # Date created:		2008-01-23
 # Whom:		Matthieu Guegan <matt.guegan@free.fr>
 #
-# $FreeBSD: ports/x11-wm/hs-xmonad-contrib/Makefile,v 1.21 2011/05/26 00:51:15 ashish Exp $
+# $FreeBSD: ports/x11-wm/hs-xmonad-contrib/Makefile,v 1.22 2011/09/07 19:24:01 ashish Exp $
 #
 
 PORTNAME=	xmonad-contrib

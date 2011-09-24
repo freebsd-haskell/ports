@@ -2,7 +2,7 @@
 # Date created:				28 August 1999
 # Whom:					Simon Marlow <simonmar@microsoft.com>
 #
-# $FreeBSD: ports/lang/ghc/Makefile,v 1.91 2011/05/25 18:57:25 ashish Exp $
+# $FreeBSD: ports/lang/ghc/Makefile,v 1.93 2011/09/23 22:23:43 amdmi3 Exp $
 
 PORTNAME=	ghc
 PORTVERSION=	7.0.3
@@ -61,10 +61,6 @@ OPTIONS=	PROFILE "Compile for profiling as well" on \
 .include <bsd.port.options.mk>
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} >= 900000
-BROKEN=	does not compile
-.endif
-
 .if defined(WITHOUT_DOCS)
 NOPORTDOCS=
 .endif
@@ -118,7 +114,7 @@ CONFIGURE_ARGS+=	--with-ghc=${BOOT_GHC} --with-gcc=${CC} \
 			--with-iconv-libraries=${LOCALBASE}/lib
 
 # libgmp:
-CONFIGURE_ENV+=	LDFLAGS=-L${LOCALBASE}/lib
+LDFLAGS+=	-L${LOCALBASE}/lib
 CFLAGS+=	-I${LOCALBASE}/include
 
 # override TMPDIR because /tmp often doesn't have enough space

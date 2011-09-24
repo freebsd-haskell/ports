@@ -2,7 +2,7 @@
 # Date created:			04 May 2010
 # Whom:				Ju Pengfei <jupengfei@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-bsd-sysctl/Makefile,v 1.4 2011/05/26 00:50:56 ashish Exp $
+# $FreeBSD: ports/devel/hs-bsd-sysctl/Makefile,v 1.5 2011/09/21 16:48:40 tabthorpe Exp $
 #
 
 PORTNAME=	bsd-sysctl
@@ -10,7 +10,7 @@ PORTVERSION=	1.0.6
 PORTREVISION=	2
 CATEGORIES=	devel haskell
 
-MAINTAINER=	jupengfei@gmail.com
+MAINTAINER=	ports@FreeBSD.org
 COMMENT=	Access to the BSD sysctl(3) interface
 
 LICENSE=	BSD
