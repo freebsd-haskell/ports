@@ -25,6 +25,7 @@ attoparsec-iteratee_port=		textproc/hs-attoparsec-iteratee
 attoparsec-text_port=		textproc/hs-attoparsec-text
 base16-bytestring_port=		devel/hs-base16-bytestring
 base64-bytestring_port=		devel/hs-base64-bytestring
+base-unicode-symbols_port=	devel/hs-base-unicode-symbols
 binary_port=			devel/hs-binary
 binary-shared_port=		devel/hs-binary-shared
 bio_port=			science/hs-bio
