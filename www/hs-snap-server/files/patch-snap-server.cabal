@@ -1,10 +1,10 @@
---- ./snap-server.cabal.orig	2011-08-14 10:36:58.000000000 +0200
-+++ ./snap-server.cabal	2011-08-19 15:33:34.000000000 +0200
+--- ./snap-server.cabal.orig	2011-09-12 14:40:00.000000000 +0200
++++ ./snap-server.cabal	2011-09-24 19:30:57.000000000 +0200
 @@ -125,7 +125,7 @@
      transformers,
-     unix-compat == 0.2.*,
-     vector >= 0.7 && <0.8,
--    vector-algorithms >= 0.4 && <0.5,
+     unix-compat >= 0.2 && <0.4,
+     vector >= 0.7 && <0.10,
+-    vector-algorithms >= 0.4 && <0.6,
 +    vector-algorithms >= 0.4,
      PSQueue >= 1.1 && <1.2
  
