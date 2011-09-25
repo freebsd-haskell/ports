@@ -14,6 +14,7 @@ COMMENT=	Lift control operations through monad transformers
 
 LICENSE=	BSD
 
+CABAL_SETUP=	Setup.hs
 USE_CABAL=	base-unicode-symbols>=0.1.1 transformers>=0.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
