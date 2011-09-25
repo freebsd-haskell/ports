@@ -1,0 +1,11 @@
+--- ./pandoc.cabal.orig	2011-08-01 20:02:52.000000000 +0200
++++ ./pandoc.cabal	2011-09-25 19:55:18.000000000 +0200
+@@ -208,7 +208,7 @@
+                  extensible-exceptions >= 0.1 && < 0.2,
+                  citeproc-hs >= 0.3.1 && < 0.4,
+                  pandoc-types == 1.8.*,
+-                 json >= 0.4 && < 0.5,
++                 json >= 0.4,
+                  dlist >= 0.4 && < 0.6,
+                  tagsoup >= 0.12 && < 0.13,
+                  base64-bytestring >= 0.1 && < 0.2
