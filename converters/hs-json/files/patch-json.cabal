@@ -1,0 +1,11 @@
+--- ./json.cabal.orig	2011-09-20 06:28:40.000000000 +0200
++++ ./json.cabal	2011-09-25 11:55:59.000000000 +0200
+@@ -90,7 +90,7 @@
+ 
+   if flag(split-base)
+     if flag(generic)
+-      build-depends:    base >=4 && <5, syb >= 0.3.3
++      build-depends:    base >=4 && <5, syb >= 0.3
+ 
+       exposed-modules:  Text.JSON.Generic
+       Cpp-Options:      -DBASE_4
