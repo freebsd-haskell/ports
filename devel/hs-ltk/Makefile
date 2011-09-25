@@ -14,6 +14,5 @@ COMMENT=	Leksah tool kit
 
 USE_CABAL=	glib>=0.10.0 gtk>=0.10.0 haddock mtl>=1.1.0.2 parsec>=2.1.0.1
 
-#.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
-.include "/usr/ports/lang/ghc/bsd.cabal.mk"
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
