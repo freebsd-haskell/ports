@@ -12,8 +12,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Versatile logging framework for Haskell
 
-LICENSE=	LGPL21
-FILE_LICENSE=	COPYRIGHT
+LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	mtl network
