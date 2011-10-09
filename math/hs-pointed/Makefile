@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	pointed
-PORTVERSION=	2.0.2
+PORTVERSION=	2.0.3
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
