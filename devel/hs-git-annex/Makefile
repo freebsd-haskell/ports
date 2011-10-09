@@ -1,8 +1,8 @@
-# New ports collection makefile for:	hs-git-annex
-# Date created:		July 5, 2011
-# Whom:			haskell@FreeBSD.org
+# New ports collection makefile for:	git-annex
+# Date created:				8 June 2011
+# Whom:					frase@frase.id.au
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-git-annex/Makefile,v 1.6 2011/09/26 20:49:55 pgj Exp $
 #
 
 PORTNAME=	git-annex
