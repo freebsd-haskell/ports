@@ -6,16 +6,16 @@
 #
 
 PORTNAME=	uniplate
-PORTVERSION=	1.6.2
+PORTVERSION=	1.6.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Uniform type generic traversals for Haskell
+COMMENT=	Help writing simple, concise and fast generic operations
 
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	syb
+USE_CABAL=	syb hashable unordered-containers>=0.1
 
 PORTDATA=		*
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/uniplate.htm ${DATADIR}
