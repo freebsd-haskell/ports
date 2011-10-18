@@ -5,8 +5,7 @@
 # $FreeBSD: ports/devel/hs-Stream/Makefile,v 1.10 2011/05/26 00:50:55 ashish Exp $
 
 PORTNAME=	Stream
-PORTVERSION=	0.4.2
-PORTREVISION=	1
+PORTVERSION=	0.4.6
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
