@@ -258,6 +258,7 @@ xmlhtml_port=			textproc/hs-xmlhtml
 xmobar_port=			x11/hs-xmobar		# executable
 xmonad_port=			x11-wm/hs-xmonad	# executable
 xmonad-contrib_port=		x11-wm/hs-xmonad-contrib
+xosd_port=			x11/hs-xosd		# lib_depends
 zip-archive_port=		archivers/hs-zip-archive
 zlib_port=			archivers/hs-zlib
 zlib-bindings_port=		archivers/hs-zlib-bindings
