@@ -6,8 +6,7 @@
 #
 
 PORTNAME=	texmath
-PORTVERSION=	0.5.0.1
-PORTREVISION=	3
+PORTVERSION=	0.5.0.3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -17,6 +16,7 @@ LICENSE=	GPLv2
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	parsec>=2 syb xml
+EXECUTABLE=	texmath
 
 OPTIONS=	CGI	"Compile CGI executable"	off
 
