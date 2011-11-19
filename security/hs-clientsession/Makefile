@@ -14,7 +14,6 @@ COMMENT=	Securely store session data in a client-side cookie
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	base64-bytestring>=0.1.0.3 cereal>=0.3 crypto-api>=0.6.4 \
 		cryptocipher>=0.2.0.5 skein>=0.1
 
