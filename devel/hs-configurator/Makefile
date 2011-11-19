@@ -14,7 +14,6 @@ COMMENT=	Configuration management
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	attoparsec-text>=0.8.5.1 hashable text>=0.11.1.0 unix-compat \
 		unordered-containers
 
