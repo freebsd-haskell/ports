@@ -181,6 +181,7 @@ probability_port=		math/hs-probability
 process-leksah_port=	devel/hs-process-leksah
 PSQueue_port=			devel/hs-PSQueue
 pureMD5_port=			security/hs-pureMD5
+pwstore-fast_port=		security/hs-pwstore-fast
 QuickCheck_port=		devel/hs-QuickCheck
 reactive_port=			devel/hs-reactive	# BROKEN
 readline_port=			devel/hs-readline
