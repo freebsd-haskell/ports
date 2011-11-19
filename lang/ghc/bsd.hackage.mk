@@ -227,6 +227,7 @@ testpack_port=			devel/hs-testpack
 texmath_port=			textproc/hs-texmath	# executable
 text_port=			devel/hs-text
 transformers_port=		devel/hs-transformers
+type-level_port=		devel/hs-type-level
 TypeCompose_port=		devel/hs-TypeCompose
 unamb_port=			devel/hs-unamb
 uniplate_port=			devel/hs-uniplate
