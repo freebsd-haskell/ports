@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	tagsoup
-PORTVERSION=	0.12.3
+PORTVERSION=	0.12.5
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,6 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	text
+EXECUTABLE=	tagsoup
 
 PORTDATA=		*
 INSTALL_PORTDATA=	cd ${WRKSRC} && \
