@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	iteratee
-PORTVERSION=	0.8.6.2
+PORTVERSION=	0.8.7.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
