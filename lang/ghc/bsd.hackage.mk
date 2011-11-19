@@ -49,6 +49,7 @@ cereal_port=			devel/hs-cereal
 cgi_port=			www/hs-cgi
 checkers_port=			devel/hs-checkers
 citeproc-hs_port=		textproc/hs-citeproc-hs
+clientsession_port=		security/hs-clientsession
 cmdargs_port=			devel/hs-cmdargs
 comonad_port=			math/hs-comonad
 comonad-transformers_port=	math/hs-comonad-transformers
