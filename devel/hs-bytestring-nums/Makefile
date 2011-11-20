@@ -16,7 +16,5 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-EXECUTABLE=	spoj-eugene
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
