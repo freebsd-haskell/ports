@@ -16,5 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
+PORTDATA=	*
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
