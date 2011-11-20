@@ -179,6 +179,7 @@ pointed_port=			math/hs-pointed
 polyparse_port=			textproc/hs-polyparse
 porte_port=			ports-mgmt/hs-porte	# executable
 primitive_port=			devel/hs-primitive
+printxosd_port=			x11/hs-printxosd	# executable
 probability_port=		math/hs-probability
 process-leksah_port=	devel/hs-process-leksah
 PSQueue_port=			devel/hs-PSQueue
