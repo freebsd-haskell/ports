@@ -14,6 +14,7 @@ COMMENT=	Haskell 98 lenses
 
 LICENSE=	BSD
 
+CABAL_SETUP=	Setup.hs
 USE_CABAL=	comonad>=1.1 comonad-transformers>=2.0 contravariant>=0.1.2 \
 		distributive>=0.2 semigroupoids>=1.2.4 transformers>=0.2.0
 
