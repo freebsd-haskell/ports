@@ -16,7 +16,6 @@ LICENSE=	GPLv2
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	parsec>=2 syb xml
-EXECUTABLE=	texmath
 
 OPTIONS=	CGI	"Compile CGI executable"	off
 
