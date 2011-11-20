@@ -14,6 +14,7 @@ COMMENT=	Type-level programming library
 
 LICENSE=	BSD
 
+CABAL_SETUP=	Setup.hs
 USE_CABAL=	syb
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
