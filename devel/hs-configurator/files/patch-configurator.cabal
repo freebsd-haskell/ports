@@ -1,0 +1,11 @@
+--- ./configurator.cabal.orig	2011-09-19 20:23:30.000000000 +0200
++++ ./configurator.cabal	2011-11-20 22:50:28.000000000 +0100
+@@ -60,7 +60,7 @@
+     bytestring,
+     directory,
+     hashable,
+-    text >= 0.11.1.0,
++    text >= 0.11,
+     unix-compat,
+     unordered-containers	
+ 
