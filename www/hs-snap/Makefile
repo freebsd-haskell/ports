@@ -16,7 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	aeson>=0.3.2 attoparsec>=0.8.0.2 cereal>=0.3 \
+USE_CABAL=	aeson-native>=0.3 attoparsec>=0.8.0.2 cereal>=0.3 \
 		clientsession>=0.7.2 configurator>=0.1 Crypto>=4.2 \
 		data-lens>=0.2.0.1 data-lens-template>=2.1 \
 		directory-tree>=0.10 hashable>=1.1 heist>=0.6 \
