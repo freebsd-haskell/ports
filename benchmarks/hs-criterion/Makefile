@@ -15,7 +15,7 @@ COMMENT=	Robust, reliable performance measurement and analysis for Haskell
 LICENSE=	BSD
 
 USE_CABAL=	aeson deepseq>=1.1 mtl mwc-random>=0.8.0.3 parallel \
-		parsec>=3.1.0 statistics>=0.8.0.6 vector>=0.7.0.0 \
+		parsec>=3.1.0 statistics>=0.10.0.0 vector>=0.7.0.0 \
 		vector-algorithms>=0.4
 
 PORTEXAMPLES=		*

@@ -1,5 +1,5 @@
 --- ./Criterion/Environment.hs.orig	2011-11-17 19:40:31.000000000 +0100
-+++ ./Criterion/Environment.hs	2011-11-24 09:46:31.000000000 +0100
++++ ./Criterion/Environment.hs	2011-11-24 13:50:26.000000000 +0100
 @@ -24,8 +24,8 @@
  import Criterion.Measurement (getTime, runForAtLeast, time_)
  import Criterion.Monad (Criterion)

@@ -1,5 +1,5 @@
 --- ./Criterion.hs.orig	2011-11-17 19:40:31.000000000 +0100
-+++ ./Criterion.hs	2011-11-24 09:54:40.000000000 +0100
++++ ./Criterion.hs	2011-11-24 13:50:26.000000000 +0100
 @@ -39,8 +39,9 @@
  import Criterion.Types (Benchmarkable(..), Benchmark(..), Pure,
                          bench, bgroup, nf, nfIO, whnf, whnfIO)

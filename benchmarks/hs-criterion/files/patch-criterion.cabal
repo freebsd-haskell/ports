@@ -1,11 +1,11 @@
 --- ./criterion.cabal.orig	2011-11-17 19:40:31.000000000 +0100
-+++ ./criterion.cabal	2011-11-24 09:45:44.000000000 +0100
++++ ./criterion.cabal	2011-11-24 13:50:41.000000000 +0100
 @@ -59,7 +59,7 @@
      mtl,
      mwc-random >= 0.8.0.3,
      parsec >= 3.1.0,
 -    statistics >= 0.8.0.6 && < 0.10.0.0,
-+    statistics >= 0.8.0.6,
++    statistics >= 0.10.0.0,
      time,
      vector >= 0.7.0.0,
      vector-algorithms >= 0.4
