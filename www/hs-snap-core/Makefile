@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	snap-core
-PORTVERSION=	0.6.0.1
+PORTVERSION=	0.7
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -15,7 +15,7 @@ COMMENT=	Snap: A Haskell Web Framework (Core)
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	attoparsec>=0.8.0.2 attoparsec-enumerator>=0.2.0.3 \
+USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 \
 		base16-bytestring blaze-builder>=0.2.1.4 \
 		blaze-builder-enumerator>=0.2 bytestring-nums \
 		case-insensitive>=0.3 deepseq>=1.1 dlist>=0.5 \
