@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	clientsession
-PORTVERSION=	0.7.3.3
+PORTVERSION=	0.7.3.6
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,8 +14,9 @@ COMMENT=	Securely store session data in a client-side cookie
 
 LICENSE=	BSD
 
-USE_CABAL=	base64-bytestring>=0.1.0.3 cereal>=0.3 crypto-api>=0.6.4 \
-		cryptocipher>=0.2.0.5 skein>=0.1
+USE_CABAL=	base64-bytestring>=0.1.0.3 cereal>=0.3 cprng-aes>=0.2 \
+		crypto-api>=0.6.4 cryptocipher>=0.2.0.5 entropy>=0.2.1 skein>=0.1 \
+		tagged>=0.1
 
 PORTDATA=	*
 
