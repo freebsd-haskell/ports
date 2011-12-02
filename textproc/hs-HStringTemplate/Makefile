@@ -14,7 +14,7 @@ COMMENT=	StringTemplate implementation in Haskell
 
 LICENSE=	BSD
 
-USE_CABAL=	parsec text utf8-string
+USE_CABAL=	parsec syb text utf8-string
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
