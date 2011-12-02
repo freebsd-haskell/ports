@@ -98,6 +98,7 @@ gconf_port=			devel/hs-gconf
 ghc-mtl_port=			devel/hs-ghc-mtl
 ghc-paths_port=			devel/hs-ghc-paths
 gio_port=			devel/hs-gio
+gitit_port=			www/hs-gitit		# executable
 git-annex_port=			devel/hs-git-annex	# executable
 glade_port=			devel/hs-glade
 glib_port=			devel/hs-glib
