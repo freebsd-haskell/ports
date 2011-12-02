@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	snap-server
-PORTVERSION=	0.6.0.1
+PORTVERSION=	0.7
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -15,12 +15,12 @@ COMMENT=	A fast, iteratee-based, epoll-enabled web server for the Snap Framework
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	attoparsec>=0.8.1 attoparsec-enumerator>=0.2.0.1 binary>=0.5 \
+USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 binary>=0.5 \
 		blaze-builder>=0.2.1.4 blaze-builder-enumerator>=0.2 \
-		bytestring-nums case-insensitive>=0.3 directory-tree \
+		bytestring-nums case-insensitive>=0.3 directory-tree>=0.10 \
 		enumerator>=0.4.13.1 MonadCatchIO-transformers>=0.2.1 mtl>=2 \
-		murmur-hash>=0.1 network>=2.3 PSQueue>=1.1 snap-core>=0.6 \
-		text>=0.11 transformers unix-compat>=0.2 vector>=0.7 \
+		murmur-hash>=0.1 network>=2.3 PSQueue>=1.1 snap-core>=0.7 \
+		text>=0.11 transformers>=0.2 unix-compat>=0.2 vector>=0.7 \
 		vector-algorithms>=0.4
 
 OPTIONS=	LIBEV    "Use libev"                                        off \
