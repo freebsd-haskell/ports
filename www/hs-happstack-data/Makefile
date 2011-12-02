@@ -16,7 +16,8 @@ LICENSE=	BSD
 FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	binary mtl>=1.1 syb-with-class syb-with-class-instances-text text
+USE_CABAL=	binary mtl>=1.1 syb-with-class syb-with-class-instances-text syb \
+		text
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
