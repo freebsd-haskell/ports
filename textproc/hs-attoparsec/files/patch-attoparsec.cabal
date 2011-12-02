@@ -1,0 +1,11 @@
+--- ./attoparsec.cabal.orig	2011-11-29 06:47:44.000000000 +0100
++++ ./attoparsec.cabal	2011-12-02 15:31:48.000000000 +0100
+@@ -40,7 +40,7 @@
+                  bytestring,
+                  containers,
+                  deepseq,
+-                 text >= 0.11.1.5
++                 text >= 0.11
+ 
+   extensions:      CPP
+   exposed-modules: Data.Attoparsec
