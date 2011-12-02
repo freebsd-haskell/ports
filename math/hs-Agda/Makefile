@@ -13,7 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A functional programming language and proof assistant
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	binary>=0.4.4 hashable>=1.1 haskeline>=0.6.3.2 \
+USE_CABAL=	binary>=0.4.4 hashable>=1.1 hashtables>=1.0 haskeline>=0.6.3.2 \
 		haskell-src-exts>=1.9.6 mtl>=2 QuickCheck>=2.3 syb \
 		utf8-string>=0.3 xhtml>=3000.2 zlib>=0.4.0.1
 
@@ -29,7 +29,7 @@ INSTALL_PORTDATA=	(cd ${WRKSRC} && ${INSTALL_DATA} README ${DATADIR}; \
 
 SHOW_PKGMSG=	yes
 
-OPTIONS=	USE_LOCALE "Try to use the character encoding specified by the locale" off \
+OPTIONS=	USE_LOCALE "Use encoding specified by the locale" off \
 		EPIC       "Install the Epic compiler" off
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
