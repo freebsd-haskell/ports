@@ -7,7 +7,7 @@
 
 PORTNAME=	css-text
 PORTVERSION=	0.1.1
-CATEGORIES=	textproc haskell
+CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	CSS parser and renderer
