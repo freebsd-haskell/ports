@@ -111,6 +111,7 @@ hashed-storage_port=		devel/hs-hashed-storage
 haskeline_port=			devel/hs-haskeline
 haskell-src_port=		devel/hs-haskell-src
 haskell-src-exts_port=		devel/hs-haskell-src-exts
+hastache_port=			devel/hs-hastache
 HaXml_port=			textproc/hs-HaXml	# executable
 heist_port=			www/hs-heist
 hexpat_port=			textproc/hs-hexpat
