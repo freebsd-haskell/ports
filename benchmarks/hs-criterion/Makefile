@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	criterion
-PORTVERSION=	0.5.1.1
+PORTVERSION=	0.6.0.0
 CATEGORIES=	benchmarks haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,9 +14,9 @@ COMMENT=	Robust, reliable performance measurement and analysis for Haskell
 
 LICENSE=	BSD
 
-USE_CABAL=	aeson deepseq>=1.1 mtl mwc-random>=0.8.0.3 parallel \
-		parsec>=3.1.0 statistics>=0.10.0.0 vector>=0.7.0.0 \
-		vector-algorithms>=0.4
+USE_CABAL=	aeson>=0.3.2.12 deepseq>=1.1.0.0 hastache>=0.1.5 mtl \
+		mwc-random>=0.8.0.3 parsec>=3.1.0 statistics>=0.10.0.0 \
+		vector>=0.7.1 vector-algorithms>=0.4
 
 PORTEXAMPLES=		*
 INSTALL_PORTEXAMPLES=	\
