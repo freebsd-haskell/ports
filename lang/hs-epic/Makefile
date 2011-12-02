@@ -16,6 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	mtl
+USE_HAPPY=	yes
 
 EXECUTABLE=	epic
 
