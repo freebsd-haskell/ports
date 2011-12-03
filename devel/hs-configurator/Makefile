@@ -14,7 +14,7 @@ COMMENT=	Configuration management
 
 LICENSE=	BSD
 
-USE_CABAL=	attoparsec-text>=0.10.0.2 hashable text>=0.11 unix-compat \
+USE_CABAL=	attoparsec>=0.10.0.2 hashable text>=0.11 unix-compat \
 		unordered-containers
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
