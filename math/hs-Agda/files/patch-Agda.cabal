@@ -1,0 +1,20 @@
+--- ./Agda.cabal.orig	2011-11-23 09:12:57.000000000 +0100
++++ ./Agda.cabal	2011-12-03 04:20:35.000000000 +0100
+@@ -71,7 +71,7 @@
+   if flag(use-locale)
+     build-depends:  base >= 4.2 && < 4.5
+   else
+-    build-depends:  base == 4.1.*,
++    build-depends:  base >= 4.1,
+                     utf8-string == 0.3.*
+   if flag(epic)
+     build-depends:  epic >= 0.1.13 && < 0.2
+@@ -334,7 +334,7 @@
+   if flag(use-locale)
+     build-depends:  base >= 4.2 && < 4.5
+   else
+-    build-depends:  base == 4.1.*,
++    build-depends:  base >= 4.1,
+                     utf8-string == 0.3.*
+   build-depends:    filepath >= 1.1 && < 1.3,
+                     process >= 1.0.1.0 && < 1.2,
