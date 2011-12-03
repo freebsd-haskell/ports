@@ -1,0 +1,9 @@
+--- ./monad-control.cabal.orig	2011-12-02 10:51:09.000000000 +0100
++++ ./monad-control.cabal	2011-12-03 03:23:37.000000000 +0100
+@@ -51,3 +51,6 @@
+                , transformers-base    >= 0.4   && < 0.5
+ 
+   Ghc-options: -Wall
++  Extensions:
++    MultiParamTypeClasses
++
