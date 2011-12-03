@@ -21,5 +21,7 @@ USE_CABAL=	happstack-data>=6.0 happstack-ixset>=6.0 happstack-server>=6.0 \
 
 EXECUTABLE=	happstack
 
+PORTDATA=	*
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
