@@ -4,3 +4,4 @@ lib/evm/libevm.a
 lib/evm/mainprog.c
 lib/evm/sparks.h
 lib/evm/stdfuns.h
+@dirrm lib/evm
