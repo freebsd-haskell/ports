@@ -1,0 +1,11 @@
+--- ./transformers-base.cabal.orig	2011-11-30 13:21:51.000000000 +0100
++++ ./transformers-base.cabal	2011-12-02 22:30:44.000000000 +0100
+@@ -29,7 +29,7 @@
+ 
+ Library
+   Build-Depends:
+-    base          >= 4.4 && < 5,
++    base          >= 4.3 && < 5,
+     transformers  >= 0.2
+   Hs-Source-Dirs: src
+   GHC-Options: -Wall

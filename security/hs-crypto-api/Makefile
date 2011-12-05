@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	crypto-api
-PORTVERSION=	0.7
+PORTVERSION=	0.8
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org

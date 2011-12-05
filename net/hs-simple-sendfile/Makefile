@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	simple-sendfile
-PORTVERSION=	0.1.2
+PORTVERSION=	0.1.3
 CATEGORIES=	net haskell
 
 MAINTAINER=	haskell@FreeBSD.org

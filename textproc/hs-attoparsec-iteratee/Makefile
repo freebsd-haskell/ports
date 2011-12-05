@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	attoparsec-iteratee
-PORTVERSION=	0.3.0
+PORTVERSION=	0.4.0
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

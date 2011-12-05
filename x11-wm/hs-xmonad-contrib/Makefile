@@ -2,12 +2,11 @@
 # Date created:		2008-01-23
 # Whom:		Matthieu Guegan <matt.guegan@free.fr>
 #
-# $FreeBSD: ports/x11-wm/hs-xmonad-contrib/Makefile,v 1.22 2011/09/07 19:24:01 ashish Exp $
+# $FreeBSD: ports/x11-wm/hs-xmonad-contrib/Makefile,v 1.23 2011/11/25 23:23:14 pgj Exp $
 #
 
 PORTNAME=	xmonad-contrib
-PORTVERSION=	0.9.2
-PORTREVISION=	2
+PORTVERSION=	0.10
 CATEGORIES=	x11-wm haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -15,7 +14,7 @@ COMMENT=	Third party tiling algorithms, configurations and scripts to xmonad
 
 LICENSE=	BSD
 
-USE_CABAL=	mtl xmonad>=0.9.1 X11>=1.5 utf8-string
+USE_CABAL=	mtl utf8-string X11>=1.5.0.0 xmonad>=0.10
 USE_XORG=	x11
 
 RUN_DEPENDS+=	bash:${PORTSDIR}/shells/bash

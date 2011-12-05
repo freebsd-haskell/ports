@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	terminfo
-PORTVERSION=	0.3.2.2
+PORTVERSION=	0.3.2.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

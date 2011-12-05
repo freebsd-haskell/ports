@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	highlighting-kate
-PORTVERSION=	0.2.10
+PORTVERSION=	0.3.1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A Haskell syntax highlighting library for 50+ languages
+COMMENT=	Syntax highlighting
 
 LICENSE=	GPLv2
 
