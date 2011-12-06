@@ -47,7 +47,7 @@ BUILD_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
 BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
 .endif
 
-GHC_VERSION?=	7.0.3
+GHC_VERSION?=	7.0.4
 GHC_VERSION_N=	${GHC_VERSION:S/./0/g}
 
 GHC_CMD?=	${LOCALBASE}/bin/ghc
