@@ -6,7 +6,7 @@
 
 PORTNAME=	QuickCheck
 PORTVERSION=	2.4.1.1
-gCATEGORIES=	devel haskell
+CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Library for random testing in haskell
