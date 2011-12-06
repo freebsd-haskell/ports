@@ -14,7 +14,7 @@ COMMENT=	Fast combinator parsing for bytestrings
 
 LICENSE=	BSD
 
-USE_CABAL=	deepseq text>=0.11
+USE_CABAL=	deepseq text>=0.11.1.5
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
