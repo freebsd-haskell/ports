@@ -47,6 +47,7 @@ cabal-install_port=		devel/hs-cabal-install	# executable
 cairo_port=			graphics/hs-cairo
 case-insensitive_port=		textproc/hs-case-insensitive
 categories_port=		math/hs-categories
+cautious-file_port=		devel/hs-cautious-file
 cereal_port=			devel/hs-cereal
 cgi_port=			www/hs-cgi
 checkers_port=			devel/hs-checkers
