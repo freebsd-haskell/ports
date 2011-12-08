@@ -73,6 +73,7 @@ css-text_port=			www/hs-css-text
 csv_port=			textproc/hs-csv
 curl_port=			ftp/hs-curl
 darcs_port=			devel/hs-darcs		# executable
+data-accessor_port=		devel/hs-data-accessor
 data-default_port=		devel/hs-data-default
 data-lens_port=			math/hs-data-lens
 data-lens-template_port=	math/hs-data-lens-template
