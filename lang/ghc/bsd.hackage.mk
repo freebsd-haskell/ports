@@ -94,6 +94,7 @@ enumerator_port=		devel/hs-enumerator
 entropy_port=			security/hs-entropy
 epic_port=			lang/hs-epic		# executable
 erf_port=			math/hs-erf
+executable-path_port=		devel/hs-executable-path
 fastcgi_port=			www/hs-fastcgi		# lib_depends
 fastirc_port=			irc/hs-fastirc
 feed_port=			textproc/hs-feed
