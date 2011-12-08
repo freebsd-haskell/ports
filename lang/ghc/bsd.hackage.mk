@@ -99,6 +99,7 @@ executable-path_port=		devel/hs-executable-path
 fastcgi_port=			www/hs-fastcgi		# lib_depends
 fastirc_port=			irc/hs-fastirc
 feed_port=			textproc/hs-feed
+fclabels_port=			devel/hs-fclabels
 fgl_port=			devel/hs-fgl
 filemanip_port=			devel/hs-filemanip
 filestore_port=			devel/hs-filestore
