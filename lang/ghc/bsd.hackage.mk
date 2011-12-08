@@ -102,6 +102,7 @@ feed_port=			textproc/hs-feed
 fgl_port=			devel/hs-fgl
 filemanip_port=			devel/hs-filemanip
 filestore_port=			devel/hs-filestore
+fingertree_port=		devel/hs-fingertree
 gconf_port=			devel/hs-gconf
 ghc-events_port=		devel/hs-ghc-events	# executable
 ghc-mtl_port=			devel/hs-ghc-mtl
