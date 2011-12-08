@@ -75,6 +75,7 @@ curl_port=			ftp/hs-curl
 darcs_port=			devel/hs-darcs		# executable
 data-accessor_port=		devel/hs-data-accessor
 data-accessor-monads-fd_port=	devel/hs-data-accessor-monads-fd
+data-accessor-template_port=	devel/hs-data-accessor-template
 data-default_port=		devel/hs-data-default
 data-lens_port=			math/hs-data-lens
 data-lens-template_port=	math/hs-data-lens-template
