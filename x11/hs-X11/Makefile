@@ -5,8 +5,7 @@
 # $FreeBSD: ports/x11/hs-X11/Makefile,v 1.22 2011/05/26 00:51:14 ashish Exp $
 
 PORTNAME=	X11
-PORTVERSION=	1.5.0.0
-PORTREVISION=	3
+PORTVERSION=	1.5.0.1
 CATEGORIES=	x11 haskell
 
 MAINTAINER=	haskell@FreeBSD.org
