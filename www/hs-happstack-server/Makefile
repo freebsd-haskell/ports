@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	happstack-server
-PORTVERSION=	6.3.1
+PORTVERSION=	6.4.3
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,7 +16,7 @@ LICENSE=	BSD
 FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	blaze-html>=0.3 happstack-data>=6.0 happstack-util>=6.0 \
+USE_CABAL=	base64-bytestring>=0.1 blaze-html>=0.3 happstack-data>=6.0 \
 		hslogger>=1.0.2 html MaybeT mtl>=1.1 network>=2.2.3 parsec \
 		sendfile>=0.7.1 text>=0.10 utf8-string>=0.3.4 xhtml zlib
 
