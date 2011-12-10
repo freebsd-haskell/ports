@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	cereal
-PORTVERSION=	0.3.4.0
+PORTVERSION=	0.3.5.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
