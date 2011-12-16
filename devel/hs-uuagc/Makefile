@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	uuagc
-PORTVERSION=	0.9.39.3
+PORTVERSION=	0.9.40.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,7 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	haskell-src-exts>=1.11.1 mtl>=1.1.1.1 \
-		uuagc-bootstrap>=0.9.39.1.0 uuagc-cabal>=1.0.0.4 uulib>=0.9.14
+		uuagc-bootstrap>=0.9.40.0 uuagc-cabal>=1.0.2.0 uulib>=0.9.14
 
 EXECUTABLE=	uuagc
 HADDOCK_EXE=
