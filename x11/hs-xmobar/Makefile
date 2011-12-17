@@ -14,7 +14,7 @@ COMMENT=	A minimalistic text based status bar
 LICENSE=	BSD
 
 USE_CABAL=	mtl parsec stm X11>=1.3.0
-USE_XORG=	x11
+USE_XORG=	x11 xrandr
 
 EXECUTABLE=	xmobar
 STANDALONE=	yes
