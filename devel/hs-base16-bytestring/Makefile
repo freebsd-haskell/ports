@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	base16-bytestring
-PORTVERSION=	0.1.1.3
+PORTVERSION=	0.1.1.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
