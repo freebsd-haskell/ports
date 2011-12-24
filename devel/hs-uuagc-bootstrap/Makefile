@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	uuagc-bootstrap
-PORTVERSION=	0.9.40.1
+PORTVERSION=	0.9.40.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
