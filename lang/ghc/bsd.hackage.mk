@@ -227,6 +227,7 @@ regex-pcre-builtin_port=	textproc/hs-regex-pcre-builtin
 regex-posix_port=		textproc/hs-regex-posix
 regex-tdfa_port=		textproc/hs-regex-tdfa
 rosezipper_port=		devel/hs-rosezipper
+RSA_port=			security/hs-RSA
 safe_port=			devel/hs-safe
 scgi_port=			www/hs-scgi
 sendfile_port=			net/hs-sendfile
