@@ -100,6 +100,7 @@ distributive_port=		math/hs-distributive
 dlist_port=			devel/hs-dlist
 double-conversion_port=		textproc/hs-double-conversion
 dyre_port=			devel/hs-dyre
+email-validate_port=		mail/hs-email-validate
 enumerator_port=		devel/hs-enumerator
 entropy_port=			security/hs-entropy
 epic_port=			lang/hs-epic		# executable
