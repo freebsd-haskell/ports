@@ -267,6 +267,7 @@ statistics_port=		math/hs-statistics
 stm_port=			devel/hs-stm
 Stream_port=			devel/hs-Stream
 strict_port=			devel/hs-strict
+strict-concurrency_port=	devel/hs-strict-concurrency
 stringsearch_port=		textproc/hs-stringsearch
 svgcairo_port=			graphics/hs-svgcairo
 syb_port=			devel/hs-syb
