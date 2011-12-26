@@ -215,6 +215,7 @@ parsec_port=			textproc/hs-parsec
 path-pieces_port=		www/hs-path-pieces
 pcap_port=			net/hs-pcap
 pcre-light_port=		devel/hs-pcre-light	# lib_depends
+persistent_port=		databases/hs-persistent
 pointed_port=			math/hs-pointed
 pointedlist_port=		devel/hs-pointedlist
 polyparse_port=			textproc/hs-polyparse
