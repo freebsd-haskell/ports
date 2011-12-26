@@ -272,6 +272,7 @@ texmath_port=			textproc/hs-texmath	# executable
 text_port=			devel/hs-text
 threadscope_port=		devel/hs-threadscope	# executable
 tls_port=			security/hs-tls
+tls-extra_port=			security/hs-tls-extra
 transformers_port=		devel/hs-transformers
 transformers-base_port=		devel/hs-transformers-base
 type-level_port=		devel/hs-type-level
