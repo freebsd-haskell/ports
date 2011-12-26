@@ -271,6 +271,7 @@ testpack_port=			devel/hs-testpack
 texmath_port=			textproc/hs-texmath	# executable
 text_port=			devel/hs-text
 threadscope_port=		devel/hs-threadscope	# executable
+tls_port=			security/hs-tls
 transformers_port=		devel/hs-transformers
 transformers-base_port=		devel/hs-transformers-base
 type-level_port=		devel/hs-type-level
