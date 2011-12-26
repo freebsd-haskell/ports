@@ -330,6 +330,7 @@ xosd_port=			x11/hs-xosd		# lib_depends
 xss-sanitize_port=		www/hs-xss-sanitize
 yaml_port=			textproc/hs-yaml
 yesod-core_port=		www/hs-yesod-core
+yesod-form_port=		www/hs-yesod-form
 yesod-persistent_port=		www/hs-yesod-persistent
 zip-archive_port=		archivers/hs-zip-archive
 zlib_port=			archivers/hs-zlib
