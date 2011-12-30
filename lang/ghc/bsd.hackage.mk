@@ -180,6 +180,7 @@ lazysmallcheck_port=		devel/hs-lazysmallcheck
 leksah_port=			editors/hs-leksah # executable
 leksah-server_port=		devel/hs-leksah-server # executable
 lhs2tex_port=			textproc/hs-lhs2tex
+lifted-base_port=		devel/hs-lifted-base
 libmpd_port=			audio/hs-libmpd
 libxml_port=			textproc/hs-libxml
 List_port=			devel/hs-List
