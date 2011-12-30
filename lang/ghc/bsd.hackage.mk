@@ -34,6 +34,7 @@ binary_port=			devel/hs-binary
 binary-shared_port=		devel/hs-binary-shared
 bio_port=			science/hs-bio
 blaze-builder_port=		devel/hs-blaze-builder
+blaze-builder-conduit_port=	devel/hs-blaze-builder-conduit
 blaze-builder-enumerator_port=	devel/hs-blaze-builder-enumerator
 blaze-html_port=		textproc/hs-blaze-html
 blaze-textual_port=		devel/hs-blaze-textual
