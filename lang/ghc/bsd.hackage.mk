@@ -260,6 +260,7 @@ semigroups_port=		math/hs-semigroups
 SHA_port=			security/hs-SHA
 shakespeare_port=		www/hs-shakespeare
 shakespeare-css_port=		www/hs-shakespeare-css
+shakespeare-i18n_port=		www/hs-shakespeare-i18n
 shakespeare-js_port=		www/hs-shakespeare-js
 shakespeare-text_port=		www/hs-shakespeare-text
 show_port=			devel/hs-show
