@@ -61,6 +61,7 @@ cmdargs_port=			devel/hs-cmdargs
 comonad_port=			math/hs-comonad
 comonad-transformers_port=	math/hs-comonad-transformers
 concrete-typerep_port=		devel/hs-concrete-typerep
+conduit_port=			devel/hs-conduit
 ConfigFile_port=		devel/hs-ConfigFile
 configurator_port=		devel/hs-configurator
 contravariant_port=		math/hs-contravariant
