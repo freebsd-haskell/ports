@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	yaml
-PORTVERSION=	0.4.1.2
+PORTVERSION=	0.5.1.1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,7 +14,8 @@ COMMENT=	Low-level binding to the libyaml C library
 
 LICENSE=	BSD
 
-USE_CABAL=	enumerator>=0.4 transformers>=0.1
+USE_CABAL=	aeson>=0.5 attoparsec conduit text transformers>=0.1 \
+		unordered-containers vector
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
