@@ -23,6 +23,7 @@ arrows_port=			devel/hs-arrows
 asn1-data_port=			devel/hs-asn1-data
 attempt_port=			devel/hs-attempt
 attoparsec_port=		textproc/hs-attoparsec
+attoparsec-conduit_port=	textproc/hs-attoparsec-conduit
 attoparsec-enumerator_port=	textproc/hs-attoparsec-enumerator
 attoparsec-iteratee_port=		textproc/hs-attoparsec-iteratee
 attoparsec-text_port=		textproc/hs-attoparsec-text
