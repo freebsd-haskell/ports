@@ -1,0 +1,11 @@
+--- ./pointedlist.cabal.orig	2011-10-15 10:16:51.000000000 +0200
++++ ./pointedlist.cabal	2012-01-04 13:22:32.000000000 +0100
+@@ -24,7 +24,7 @@
+ Library
+   Build-depends: base >= 4 && < 5
+   Build-depends: binary
+-  Build-depends: fclabels == 1.0.*
++  Build-depends: fclabels >= 1.0
+   Build-depends: derive
+ 
+   Exposed-modules: Data.List.PointedList
