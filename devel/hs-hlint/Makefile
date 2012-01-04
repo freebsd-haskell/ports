@@ -18,7 +18,7 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	cpphs>=1.11 haskell-src-exts>=1.11 hscolour>=1.17 transformers \
 		uniplate>=1.5
 
-EXECUTABLE=	cpphs
+EXECUTABLE=	hlint
 
 PORTDATA=	*
 
