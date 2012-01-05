@@ -1,0 +1,11 @@
+--- ./yesod-auth.cabal.orig	2011-12-24 20:16:25.000000000 +0100
++++ ./yesod-auth.cabal	2012-01-05 20:17:50.000000000 +0100
+@@ -21,7 +21,7 @@
+         cpp-options:     -DGHC7
+     else
+         build-depends:   base                >= 4        && < 4.3
+-    build-depends:   authenticate            >= 0.10.4    && < 0.11
++    build-depends:   authenticate            >= 0.10.4
+                    , bytestring              >= 0.9.1.4   && < 0.10
+                    , yesod-core              >= 0.9.3.4   && < 0.10
+                    , wai                     >= 0.4       && < 0.5
