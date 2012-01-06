@@ -13,6 +13,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	First-class accessor labels
 
 LICENSE=	BSD
+FILE_LICENSE=	LICENCE
 
 USE_CABAL=	mtl>=1.0 transformers>=0.2
 
