@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	data-object
-PORTVERSION=	0.3.1.8
+PORTVERSION=	0.3.1.9
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
