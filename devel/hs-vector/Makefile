@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	vector
-PORTVERSION=	0.9
+PORTVERSION=	0.9.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
