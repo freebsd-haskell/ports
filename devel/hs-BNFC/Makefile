@@ -7,6 +7,7 @@
 
 PORTNAME=	BNFC
 PORTVERSION=	2.4.2.0
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	kaiw27@gmail.com

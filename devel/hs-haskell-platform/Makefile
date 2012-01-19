@@ -7,6 +7,7 @@
 
 PORTNAME=	haskell-platform
 PORTVERSION=	2011.4.0.0
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -39,8 +40,8 @@ USE_CABAL=	cgi==3001.1.7.4_1,1 \
 		text=0.11.1.5 \
 		transformers==0.2.2.0_1 \
 		cabal-install==0.10.2 \
-		alex==2.3.5 \
-		happy==1.18.6
+		alex==2.3.5_1 \
+		happy==1.18.6_1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
