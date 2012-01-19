@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	aeson-native
-PORTVERSION=	0.3.3.1
+PORTVERSION=	0.3.3.2
 CATEGORIES=	converters haskell
 
 MAINTAINER=	haskell@FreeBSD.org
