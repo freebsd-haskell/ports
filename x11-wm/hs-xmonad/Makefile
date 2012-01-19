@@ -22,7 +22,5 @@ MAN1SRC=	man
 
 EXECUTABLE=	xmonad
 
-PORTDATA=		*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -25,7 +25,5 @@ EXECUTABLE=	lhs2TeX
 
 MAN1=		lhs2TeX.1
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

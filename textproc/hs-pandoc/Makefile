@@ -25,8 +25,6 @@ USE_CABAL=	base64-bytestring>=0.1 citeproc-hs>=0.3.1 dlist>=0.4 \
 MAN1=		pandoc.1 markdown2pdf.1
 MAN5=		pandoc_markdown.5
 
-PORTDATA=	*
-
 OPTIONS=	HIGHLIGHTING "Compile in support for syntax highlighting" off \
 		EXECUTABLE   "Build the pandoc executable" on \
 		WRAPPERS     "Build the wrappers (markdown2pdf)" on \

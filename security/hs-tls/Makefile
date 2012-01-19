@@ -18,8 +18,6 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	cereal>=0.3 certificate>=1.0.0 crypto-api>=0.5 \
 		cryptocipher>=0.3.0 cryptohash>=0.6 mtl
 
-PORTDATA=	*
-
 OPTIONS=	EXECUTABLE	"Build the executables"	off
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"

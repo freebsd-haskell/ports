@@ -16,8 +16,6 @@ LICENSE=	BSD
 
 USE_CABAL=	json mtl pandoc-types>=1.8 utf8-string xml
 
-PORTDATA=	*
-
 OPTIONS=	BIBUTILS "Use Chris Putnam's Bibutils" on \
 		NETWORK  "Use network and HTTP to retrieve CSL file" on
 

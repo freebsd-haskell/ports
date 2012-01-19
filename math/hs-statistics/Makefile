@@ -18,7 +18,6 @@ USE_CABAL=	deepseq>=1.1.0.2 erf monad-par>=0.1.0.1 \
 		mwc-random>=0.8.0.5 primitive>=0.3 vector>=0.7.1 \
 		vector-algorithms>=0.4
 
-PORTDATA=		*
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/README.markdown ${DATADIR}
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

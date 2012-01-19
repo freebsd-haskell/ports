@@ -19,7 +19,6 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	ObjectName StateVar Tensor
 USE_OPENAL=	al
 
-PORTEXAMPLES=		*
 INSTALL_PORTEXAMPLES=	@(cd ${WRKSRC}/examples/ && ${COPYTREE_SHARE} \* ${EXAMPLESDIR})
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

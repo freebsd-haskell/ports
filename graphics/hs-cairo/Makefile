@@ -19,7 +19,5 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	gtk2hs-buildtools mtl
 BUILD_DEPENDS+=	${LOCALBASE}/libdata/pkgconfig/cairo-pdf.pc:${PORTSDIR}/graphics/cairo
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

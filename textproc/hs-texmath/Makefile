@@ -19,8 +19,6 @@ USE_CABAL=	parsec>=2 syb xml
 
 OPTIONS=	CGI	"Compile CGI executable"	off
 
-PORTDATA=		*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 .include <bsd.port.options.mk>
 

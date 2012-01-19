@@ -23,7 +23,6 @@ USE_ICONV=	yes
 
 EXECUTABLE=	agda-mode
 
-PORTDATA=		*
 INSTALL_PORTDATA=	(cd ${WRKSRC} && ${INSTALL_DATA} README ${DATADIR}; \
 			 cd ${WRKSRC}/doc && ${COPYTREE_SHARE} \* ${DATADIR})
 

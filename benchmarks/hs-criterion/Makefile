@@ -18,11 +18,9 @@ USE_CABAL=	aeson>=0.3.2.12 deepseq>=1.1.0.0 hastache>=0.1.5 mtl \
 		mwc-random>=0.8.0.3 parsec>=3.1.0 statistics>=0.10.0.0 \
 		vector>=0.7.1 vector-algorithms>=0.4
 
-PORTEXAMPLES=		*
 INSTALL_PORTEXAMPLES=	\
 	cd ${WRKSRC}/examples && ${COPYTREE_SHARE} \* ${EXAMPLESDIR}
 
-PORTDATA=		*
 INSTALL_PORTDATA= 	${INSTALL_DATA} ${WRKSRC}/README.markdown ${DATADIR}
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

@@ -27,7 +27,5 @@ EXECUTABLE=	c2hs
 MAN1=		c2hs.1
 MAN1SRC=	doc/man1
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -17,10 +17,8 @@ LICENSE=	BSD
 USE_CABAL=	ghc-mtl>=1.0.1.0 ghc-paths haskell-src MonadCatchIO-mtl>=0.3 \
 		mtl utf8-string
 
-PORTEXAMPLES=		*
 INSTALL_PORTEXAMPLES=	cd ${WRKSRC}/examples && ${COPYTREE_SHARE} \* ${EXAMPLESDIR}
 	
-PORTDATA=		*
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/AUTHORS ${DATADIR} \
 			  && ${INSTALL_DATA} ${WRKSRC}/Changes ${DATADIR}
 

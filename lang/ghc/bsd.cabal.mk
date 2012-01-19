@@ -58,6 +58,10 @@ ALEX_CMD?=	${LOCALBASE}/bin/alex
 HAPPY_CMD?=	${LOCALBASE}/bin/happy
 HADDOCK_CMD?=	${LOCALBASE}/bin/haddock
 
+.if !defined(DOCUMENTATION)
+CABAL_DIRS+=	${DATADIR} ${EXAMPLESDIR} ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}
+.endif
+
 GHC_HADDOCK_CMD=${LOCALBASE}/bin/haddock-ghc-${GHC_VERSION}
 
 HADDOCK_PORT=	${PORTSDIR}/devel/hs-haddock
@@ -318,12 +322,10 @@ do-install:
 
 .if !target(post-install-script)
 post-install-script:
-.if !defined(DOCUMENTATION)
-	@if [ -d ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR} ]; then ${FIND} -ds ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR} \
-		-type f -print | ${SED} -E -e 's,^${PREFIX}/?,,' >> ${TMPPLIST}; fi
-	@if [ -d ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR} ]; then ${FIND} -ds ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR} \
-		-type d -print | ${SED} -E -e 's,^${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}; fi
-.endif
+	@for dir in ${CABAL_DIRS}; do if [ -d $${dir} ]; then ${FIND} -ds $${dir} \
+		-type f -print | ${SED} -E -e 's,^${PREFIX}/?,,' >> ${TMPPLIST}; fi ; \
+		if [ -d $${dir} ]; then ${FIND} -ds $${dir} \
+		-type d -print | ${SED} -E -e 's,^${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}; fi ; done
 .if defined(EXECUTABLE)
 .for exe in ${EXECUTABLE}
 	@${ECHO_CMD} 'bin/${exe}' >>${TMPPLIST}

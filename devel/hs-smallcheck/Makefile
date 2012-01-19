@@ -16,8 +16,6 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-PORTDATA=		*
-PORTEXAMPLES=		*
 INSTALL_PORTEXAMPLES=	@(cd ${WRKSRC}/examples/ && ${COPYTREE_SHARE} \* ${EXAMPLESDIR})
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

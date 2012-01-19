@@ -18,7 +18,5 @@ FILE_LICENSE=	COPYRIGHT
 
 USE_CABAL=	transformers>=0.0.1
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

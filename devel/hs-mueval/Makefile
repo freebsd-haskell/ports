@@ -20,7 +20,6 @@ USE_CABAL=	hint>=0.3.1 mtl show>=0.3 utf8-string
 
 EXECUTABLE=	mueval mueval-core
 
-PORTDATA=	*
 SHOW_PKGMSG=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

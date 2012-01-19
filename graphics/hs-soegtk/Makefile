@@ -20,7 +20,5 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	cairo>=0.12 gtk>=0.11 mtl stm>=2
 USE_GNOME=	gtk20
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

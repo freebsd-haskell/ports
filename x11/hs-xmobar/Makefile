@@ -19,7 +19,6 @@ USE_XORG=	x11 xrandr
 EXECUTABLE=	xmobar
 STANDALONE=	yes
 
-PORTDATA=		*
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/samples/xmobar.config ${DATADIR}
 
 OPTIONS=	XFT   "Use Xft to render text (UTF-8 support included)" off \

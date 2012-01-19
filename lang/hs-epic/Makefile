@@ -25,8 +25,6 @@ RUN_DEPENDS+=	boehm-gc>=7.1:${PORTSDIR}/devel/boehm-gc \
 
 EXECUTABLE=	epic
 
-PORTDATA=	*
-
 post-patch::
 	@${REINPLACE_CMD} 's|%%LOCALBASE%%|${LOCALBASE}|g' \
 		${WRKSRC}/evm/Makefile

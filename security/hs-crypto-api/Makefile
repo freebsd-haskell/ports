@@ -17,7 +17,5 @@ LICENSE=	BSD
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	cereal>=0.2 entropy largeword>=1.0.0 tagged>=0.1
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

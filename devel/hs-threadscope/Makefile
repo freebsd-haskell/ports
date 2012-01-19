@@ -21,7 +21,5 @@ USE_CABAL=	binary cairo ghc-events>=0.3 glib gtk>=0.12 gtk2hs-buildtools \
 EXECUTABLE=	threadscope
 STANDALONE=	yes
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

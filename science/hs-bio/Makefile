@@ -19,7 +19,5 @@ USE_CABAL=	binary>=0.4 mtl parallel parsec QuickCheck>=2 tagsoup>=0.8
 
 EXECUTABLE=	fastout flx frecover frename flowclip orf rselect-pe
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

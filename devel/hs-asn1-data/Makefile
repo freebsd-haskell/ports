@@ -18,7 +18,5 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	attoparsec>=0.8 attoparsec-enumerator>=0.2 enumerator>=0.4.5 \
 		mtl text>=0.11
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -24,7 +24,5 @@ USE_CABAL=	cgi ConfigFile>=1 feed>=0.3.6 filestore>=0.4.0.2 \
 
 EXECUTABLE=	gitit expireGititCache
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -17,7 +17,6 @@ LICENSE=	BSD
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	blaze-builder mtl syb text utf8-string
 
-PORTDATA=	*
 INSTALL_PORTDATA=	cd ${WRKSRC} && ${INSTALL_DATA} README.md ${DATADIR}
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

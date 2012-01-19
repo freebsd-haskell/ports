@@ -17,7 +17,5 @@ LICENSE=	BSD
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	HTTP>=4000.0.2 network>=2
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -16,7 +16,6 @@ LICENSE=	BSD
 
 USE_CABAL=	primitive vector>=0.6.0.2
 
-PORTDATA=		*
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/README.markdown ${DATADIR}
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

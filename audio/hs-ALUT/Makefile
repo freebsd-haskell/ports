@@ -19,7 +19,6 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	OpenAL StateVar
 USE_OPENAL=	al alut
 
-PORTEXAMPLES=		*
 INSTALL_PORTEXAMPLES=	@(cd ${WRKSRC}/examples/ && ${COPYTREE_SHARE} \* ${EXAMPLESDIR})
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

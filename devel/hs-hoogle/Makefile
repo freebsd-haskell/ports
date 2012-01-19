@@ -22,7 +22,5 @@ USE_CABAL=	binary blaze-builder>=0.2 case-insensitive>=0.2 cmdargs>=0.7 \
 
 EXECUTABLE=	hoogle
 
-PORTDATA=	*
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
