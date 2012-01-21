@@ -5,7 +5,7 @@
 # $FreeBSD$
 
 PORTNAME=	zlib-conduit
-PORTVERSION=	0.0.0
+PORTVERSION=	0.0.1
 CATEGORIES=	archivers haskell
 
 MAINTAINER=	haskell@FreeBSD.org
