@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	json
-PORTVERSION=	0.5
+PORTVERSION=	0.4.4
 CATEGORIES=	converters haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -15,7 +15,8 @@ COMMENT=	Support for serialising Haskell to and from JSON
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	mtl syb>=0.3.3
+
+USE_CABAL=	mtl syb
 
 CONFIGURE_ARGS+=	--flags="split-base generic -parsec -pretty -mapdict"
 
