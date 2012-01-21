@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	epic
-PORTVERSION=	0.9
+PORTVERSION=	0.9.2
 CATEGORIES=	lang haskell
 
 MAINTAINER=	haskell@FreeBSD.org
