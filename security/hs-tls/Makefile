@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	tls
-PORTVERSION=	0.8.4
+PORTVERSION=	0.8.5
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -15,6 +15,7 @@ COMMENT=	TLS/SSL protocol native implementation (server and client)
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
+
 USE_CABAL=	cereal>=0.3 certificate>=1.0.0 crypto-api>=0.5 \
 		cryptocipher>=0.3.0 cryptohash>=0.6 mtl
 
