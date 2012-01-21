@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	http-enumerator
-PORTVERSION=	0.7.2.1
+PORTVERSION=	0.7.2.5
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
