@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	threadscope
-PORTVERSION=	0.2.0
+PORTVERSION=	0.2.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -15,8 +15,9 @@ COMMENT=	A graphical tool for profiling parallel Haskell programs
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	binary cairo ghc-events>=0.3 glib gtk>=0.12 gtk2hs-buildtools \
-		mtl pango
+
+USE_CABAL=	binary cairo deepseq>=1.1 ghc-events>=0.3 glib gtk>=0.12 \
+		gtk2hs-buildtools mtl pango
 
 EXECUTABLE=	threadscope
 STANDALONE=	yes
