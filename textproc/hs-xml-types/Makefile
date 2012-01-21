@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	xml-types
-PORTVERSION=	0.3
+PORTVERSION=	0.3.1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,6 +16,7 @@ LICENSE=	MIT
 FILE_LICENSE=	license.txt
 
 CABAL_SETUP=	Setup.hs
+
 USE_CABAL=	text
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
