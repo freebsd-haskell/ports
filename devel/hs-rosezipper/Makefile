@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	rosezipper
-PORTVERSION=	0.2
+PORTVERSION=	0.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
