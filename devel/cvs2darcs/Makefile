@@ -2,7 +2,7 @@
 # Date created:				1 March 2007
 # Whom:					Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/cvs2darcs/Makefile,v 1.7 2011/07/10 20:48:22 ashish Exp $
+# $FreeBSD: ports/devel/cvs2darcs/Makefile,v 1.8 2012/01/21 17:37:06 eadler Exp $
 #
 
 PORTNAME=	cvs2darcs
@@ -19,7 +19,7 @@ LICENSE=	GPLv2
 BUILD_DEPENDS=	darcs:${PORTSDIR}/devel/hs-darcs \
 		cvsps:${PORTSDIR}/devel/cvsps \
 		${SITE_PERL}/HTTP/Date.pm:${PORTSDIR}/www/p5-libwww
-RUN_DEPENDS=	${BUILD_DEPENDS}
+RUN_DEPENDS:=	${BUILD_DEPENDS}
 
 GNU_CONFIGURE=	yes
 USE_PERL5=	yes
