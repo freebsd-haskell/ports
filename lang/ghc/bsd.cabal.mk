@@ -57,6 +57,7 @@ SETUP_CMD?=	./setup
 ALEX_CMD?=	${LOCALBASE}/bin/alex
 HAPPY_CMD?=	${LOCALBASE}/bin/happy
 HADDOCK_CMD?=	${LOCALBASE}/bin/haddock
+C2HS_CMD?=	${LOCALBASE}/bin/c2hs
 
 .if !defined(DOCUMENTATION)
 CABAL_DIRS+=	${DATADIR} ${EXAMPLESDIR} ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}
@@ -101,6 +102,11 @@ CONFIGURE_ARGS+=	 --with-alex=${ALEX_CMD}
 .if defined(USE_HAPPY)
 BUILD_DEPENDS+=	${HAPPY_CMD}:${PORTSDIR}/devel/hs-happy
 CONFIGURE_ARGS+=	 --with-happy=${HAPPY_CMD}
+.endif
+
+.if defined(USE_C2HS)
+BUILD_DEPENDS+=	${C2HS_CMD}:${PORTSDIR}/devel/hs-c2hs
+CONFIGURE_ARGS+=	--with-c2hs=${C2HS_CMD}
 .endif
 
 .if defined(EXECUTABLE)
