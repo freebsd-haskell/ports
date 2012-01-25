@@ -1,0 +1,5 @@
+Yi is a text editor written in Haskell and extensible in Haskell.  The goal of
+the Yi project is to provide a flexible, powerful, and correct editor for
+Haskell hacking.
+
+WWW:	http://haskell.org/haskellwiki/Yi
