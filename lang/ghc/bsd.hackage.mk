@@ -229,6 +229,7 @@ pcap_port=			net/hs-pcap
 pcre-light_port=		devel/hs-pcre-light	# lib_depends
 persistent_port=		databases/hs-persistent
 persistent-template_port=	databases/hs-persistent-template
+plugins_port=			devel/hs-plugins
 pointed_port=			math/hs-pointed
 pointedlist_port=		devel/hs-pointedlist
 polyparse_port=			textproc/hs-polyparse
