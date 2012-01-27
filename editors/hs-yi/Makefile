@@ -28,6 +28,7 @@ USE_CABAL=	binary>=0.5 cautious-file>=1.0 concrete-typerep>=0.1 \
 USE_ALEX=	yes
 
 EXECUTABLE=	yi
+HADDOCK_EXE=	# empty
 
 OPTIONS=	PANGO	"Build with Pango frontend"	off \
 		VTE	"Build with Vte frontend"	off \
