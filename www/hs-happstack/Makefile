@@ -6,16 +6,17 @@
 #
 
 PORTNAME=	happstack
-PORTVERSION=	6.0.5
+PORTVERSION=	6.0.6
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	The Haskell application server stack + code generation
+COMMENT=	The haskell application server stack + code generation
 
 LICENSE=	BSD
 FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
+
 USE_CABAL=	happstack-data>=6.0 happstack-ixset>=6.0 happstack-server>=6.0 \
 		happstack-state>=6.0 happstack-util>=6.0 syb
 
