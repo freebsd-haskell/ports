@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	test-framework
-PORTVERSION=	0.4.2.0
+PORTVERSION=	0.4.2.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Framework for running and organising tests
+COMMENT=	Framework for running and organising tests, with HUnit and QuickCheck support
 
 LICENSE=	BSD
 
