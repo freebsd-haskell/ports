@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	hlint
-PORTVERSION=	1.8.20
+PORTVERSION=	1.8.21
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -15,8 +15,9 @@ COMMENT=	Source code suggestions
 LICENSE=	GPLv2
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	cpphs>=1.11 haskell-src-exts>=1.11 hscolour>=1.17 transformers \
-		uniplate>=1.5
+
+USE_CABAL=	cpphs>=1.11 haskell-src-exts>=1.11 hscolour>=1.17 \
+		transformers>=0.0 uniplate>=1.5
 
 EXECUTABLE=	hlint
 
