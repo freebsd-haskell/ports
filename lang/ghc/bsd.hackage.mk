@@ -178,6 +178,7 @@ ieee754_port=			math/hs-ieee754
 IfElse_port=			devel/hs-IfElse
 IORefCAS_port=			devel/hs-IORefCAS
 json_port=			converters/hs-json
+kqueue_port=			devel/hs-kqueue
 language-c_port=		devel/hs-language-c
 language-javascript_port=	devel/hs-language-javascript
 largeword_port=			devel/hs-largeword

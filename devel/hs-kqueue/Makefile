@@ -1,0 +1,24 @@
+# New ports collection makefile for: hs-kqueue
+# Date created:        January 25, 2012
+# Whom:                haskell@FreeBSD.org
+#
+# $FreeBSD$
+#
+
+PORTNAME=	kqueue
+PORTVERSION=	0.1.2.2
+CATEGORIES=	devel haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=	A binding to the kqueue event library
+
+LICENSE=	BSD
+
+CABAL_SETUP=	Setup.hs
+
+USE_CABAL=	mtl>=1.1
+
+USE_C2HS=	yes
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include <bsd.port.mk>
