@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	pool
-PORTVERSION=	0.1.2
+PORTVERSION=	0.1.2.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
