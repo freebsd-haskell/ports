@@ -17,8 +17,8 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	parsec stm wxdirect>0.12.1.2
 
-BUILD_DEPENDS+=	wxgtk28-unicode>=2.8:${PORTSDIR}/x11-toolkits/wxgtk28-unicode \
-		wxgtk28-unicode-contrib>=2.8:${PORTSDIR}/x11-toolkits/wxgtk28-unicode-contrib
+BUILD_DEPENDS+=	wxgtk2-unicode>=2.8:${PORTSDIR}/x11-toolkits/wxgtk28-unicode \
+		wxgtk2-unicode-contrib>=2.8:${PORTSDIR}/x11-toolkits/wxgtk28-unicode-contrib
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
