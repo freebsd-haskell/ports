@@ -195,6 +195,7 @@ List_port=			devel/hs-List
 ListLike_port=			devel/hs-ListLike
 logict_port=			devel/hs-logict
 ltk_port=				devel/hs-ltk
+math-functions_port=		math/hs-math-functions
 MaybeT_port=			devel/hs-MaybeT
 MemoTrie_port=			devel/hs-MemoTrie
 mime_port=			mail/hs-mime
