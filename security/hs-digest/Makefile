@@ -2,7 +2,7 @@
 # Date created:				January 22, 2009
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/security/hs-digest/Makefile,v 1.11 2011/05/26 00:51:09 ashish Exp $
+# $FreeBSD: ports/security/hs-digest/Makefile,v 1.12 2012/02/13 05:22:37 pgj Exp $
 #
 
 PORTNAME=	digest

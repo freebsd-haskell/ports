@@ -2,11 +2,12 @@
 # Date created:		2008-01-23
 # Whom:		Matthieu Guegan <matt.guegan@free.fr>
 #
-# $FreeBSD: ports/x11-wm/hs-xmonad-contrib/Makefile,v 1.23 2011/11/25 23:23:14 pgj Exp $
+# $FreeBSD: ports/x11-wm/hs-xmonad-contrib/Makefile,v 1.24 2012/02/13 03:49:32 pgj Exp $
 #
 
 PORTNAME=	xmonad-contrib
 PORTVERSION=	0.10
+PORTREVISION=	1
 CATEGORIES=	x11-wm haskell
 
 MAINTAINER=	haskell@FreeBSD.org

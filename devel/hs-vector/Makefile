@@ -2,7 +2,7 @@
 # Date created:        June 5, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-vector/Makefile,v 1.5 2011/08/13 21:23:39 pgj Exp $
+# $FreeBSD: ports/devel/hs-vector/Makefile,v 1.6 2012/02/13 04:56:31 pgj Exp $
 #
 
 PORTNAME=	vector

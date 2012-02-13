@@ -2,7 +2,7 @@
 # Date created:        June 5, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-primitive/Makefile,v 1.3 2011/05/26 00:51:01 ashish Exp $
+# $FreeBSD: ports/devel/hs-primitive/Makefile,v 1.4 2012/02/13 04:41:18 pgj Exp $
 #
 
 PORTNAME=	primitive

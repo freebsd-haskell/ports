@@ -2,7 +2,7 @@
 # Date created:        July 16, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/math/hs-comonad/Makefile,v 1.1 2011/08/14 11:27:44 pgj Exp $
+# $FreeBSD: ports/math/hs-comonad/Makefile,v 1.2 2012/02/13 05:06:08 pgj Exp $
 #
 
 PORTNAME=	comonad

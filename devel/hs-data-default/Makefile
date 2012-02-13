@@ -2,11 +2,12 @@
 # Date created:		2011-03-07
 # Whom:			Ashish SHUKLA <ashish@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-data-default/Makefile,v 1.1 2011/08/14 11:42:23 pgj Exp $
+# $FreeBSD: ports/devel/hs-data-default/Makefile,v 1.2 2012/02/13 03:49:22 pgj Exp $
 #
 
 PORTNAME=	data-default
 PORTVERSION=	0.3.0
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

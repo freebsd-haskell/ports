@@ -2,12 +2,12 @@
 # Date created:			17 May 2010
 # Whom:				Ju Pengfei <jupengfei@gmail.com>
 #
-# $FreeBSD: ports/net/hs-pcap/Makefile,v 1.5 2011/09/24 19:27:34 ashish Exp $
+# $FreeBSD: ports/net/hs-pcap/Makefile,v 1.6 2012/02/13 03:49:28 pgj Exp $
 #
 
 PORTNAME=	pcap
 PORTVERSION=	0.4.5.1
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	net haskell
 
 MAINTAINER=	haskell@FreeBSD.org

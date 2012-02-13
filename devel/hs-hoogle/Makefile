@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-hoogle/Makefile,v 1.12 2011/09/07 20:01:04 pav Exp $
+# $FreeBSD: ports/devel/hs-hoogle/Makefile,v 1.13 2012/02/13 04:36:46 pgj Exp $
 #
 
 PORTNAME=	hoogle

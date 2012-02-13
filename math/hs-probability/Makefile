@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/math/hs-probability/Makefile,v 1.6 2011/05/26 00:51:07 ashish Exp $
+# $FreeBSD: ports/math/hs-probability/Makefile,v 1.7 2012/02/13 05:11:36 pgj Exp $
 #
 
 PORTNAME=	probability

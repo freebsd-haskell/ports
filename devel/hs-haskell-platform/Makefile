@@ -2,12 +2,11 @@
 # Date created:        April 23, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-haskell-platform/Makefile,v 1.3 2011/05/26 00:50:59 ashish Exp $
+# $FreeBSD: ports/devel/hs-haskell-platform/Makefile,v 1.4 2012/02/13 06:03:31 pgj Exp $
 #
 
 PORTNAME=	haskell-platform
 PORTVERSION=	2011.4.0.0
-PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,30 +15,30 @@ COMMENT=	The Haskell Platform
 LICENSE=	BSD
 
 METAPORT=	yes
-USE_CABAL=	cgi==3001.1.7.4_1,1 \
+USE_CABAL=	cgi==3001.1.7.4_2,1 \
 		fgl==5.4.2.4 \
-		GLUT==2.1.2.1_1,1 \
-		haskell-src==1.0.1.4_1 \
-		html==1.0.1.2_1 \
+		GLUT==2.1.2.1_2,1 \
+		haskell-src==1.0.1.4_2 \
+		html==1.0.1.2_2 \
 		HUnit==1.2.4.2 \
-		mtl==2.0.1.0_1 \
+		mtl==2.0.1.0_2 \
 		network==2.3.0.5 \
-		OpenGL==2.2.3.0_1,1 \
-		parallel==3.1.0.1_1 \
-		parsec==3.1.1_1 \
+		OpenGL==2.2.3.0_2,1 \
+		parallel==3.1.0.1_2 \
+		parsec==3.1.1_2 \
 		QuickCheck==2.4.1.1 \
-		regex-base==0.93.2_1 \
+		regex-base==0.93.2_2 \
 		regex-compat==0.95.1 \
 		regex-posix==0.95.1 \
-		stm==2.2.0.1_1 \
+		stm==2.2.0.1_2 \
 		syb==0.3.3 \
 		xhtml==3000.2.0.4 \
-		zlib==0.5.3.1_1 \
+		zlib==0.5.3.1_2 \
 		HTTP==4000.1.2 \
-		deepseq==1.1.0.2_1 \
+		deepseq==1.1.0.2_2 \
 		text=0.11.1.5 \
-		transformers==0.2.2.0_1 \
-		cabal-install==0.10.2 \
+		transformers==0.2.2.0_2 \
+		cabal-install==0.10.2_1 \
 		alex==2.3.5_1 \
 		happy==1.18.6_1
 

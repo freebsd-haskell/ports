@@ -2,7 +2,7 @@
 # Date created:        August 18, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-regex-compat/Makefile,v 1.2 2011/05/26 00:51:11 ashish Exp $
+# $FreeBSD: ports/textproc/hs-regex-compat/Makefile,v 1.3 2012/02/13 05:37:24 pgj Exp $
 #
 
 PORTNAME=	regex-compat

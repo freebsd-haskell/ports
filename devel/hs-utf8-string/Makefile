@@ -2,7 +2,7 @@
 # Date created:		2008-10-21
 # Whom:			Ashish Shukla <wahjava@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-utf8-string/Makefile,v 1.12 2011/05/26 00:51:04 ashish Exp $
+# $FreeBSD: ports/devel/hs-utf8-string/Makefile,v 1.13 2012/02/13 04:52:50 pgj Exp $
 #
 
 PORTNAME=	utf8-string

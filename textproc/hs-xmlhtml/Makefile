@@ -2,11 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-xmlhtml/Makefile,v 1.1 2011/08/13 20:59:10 pgj Exp $
+# $FreeBSD: ports/textproc/hs-xmlhtml/Makefile,v 1.2 2012/02/13 03:49:31 pgj Exp $
 #
 
 PORTNAME=	xmlhtml
 PORTVERSION=	0.1.5.2
+PORTREVISION=	1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

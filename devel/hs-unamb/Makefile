@@ -2,12 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-unamb/Makefile,v 1.5 2011/05/26 00:51:04 ashish Exp $
+# $FreeBSD: ports/devel/hs-unamb/Makefile,v 1.6 2012/02/13 03:49:26 pgj Exp $
 #
 
 PORTNAME=	unamb
 PORTVERSION=	0.2.4
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

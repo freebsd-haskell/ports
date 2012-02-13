@@ -2,7 +2,7 @@
 # Date created:        January 10 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/textproc/hs-Diff/Makefile,v 1.5 2011/05/26 00:51:09 ashish Exp $
+# $FreeBSD: ports/textproc/hs-Diff/Makefile,v 1.6 2012/02/13 05:23:27 pgj Exp $
 #
 
 PORTNAME=	Diff

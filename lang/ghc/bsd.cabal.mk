@@ -1,5 +1,5 @@
 #
-# $FreeBSD: ports/lang/ghc/bsd.cabal.mk,v 1.9 2011/07/10 02:48:21 ashish Exp $
+# $FreeBSD: ports/lang/ghc/bsd.cabal.mk,v 1.10 2012/02/13 03:49:27 pgj Exp $
 #
 # bsd.cabal.mk -- Support for ports based on Haskell Cabal.
 #

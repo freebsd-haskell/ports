@@ -2,11 +2,11 @@
 # Date created:				25 October 2002
 # Whom:					Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-idoc/Makefile,v 1.17 2011/05/09 05:28:39 ashish Exp $
+# $FreeBSD: ports/devel/hs-idoc/Makefile,v 1.18 2012/02/13 03:49:25 pgj Exp $
 
 PORTNAME=	idoc
 PORTVERSION=	0.2.6
-PORTREVISION=	5
+PORTREVISION=	6
 CATEGORIES=	devel haskell
 MASTER_SITES=	http://www.cse.unsw.edu.au/~chak/haskell/idoc/
 PKGNAMEPREFIX=	hs-

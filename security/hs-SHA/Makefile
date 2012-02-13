@@ -2,11 +2,12 @@
 # Date created:        January 8, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/security/hs-SHA/Makefile,v 1.7 2011/08/14 15:30:07 pgj Exp $
+# $FreeBSD: ports/security/hs-SHA/Makefile,v 1.8 2012/02/13 03:49:29 pgj Exp $
 #
 
 PORTNAME=	SHA
 PORTVERSION=	1.5.0.0
+PORTREVISION=	1
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org

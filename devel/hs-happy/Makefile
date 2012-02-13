@@ -2,7 +2,7 @@
 # Date created:				22 December 2000
 # Whom:					Simon Marlow <simonmar@microsoft.com>
 #
-# $FreeBSD: ports/devel/hs-happy/Makefile,v 1.32 2011/05/09 05:28:37 ashish Exp $
+# $FreeBSD: ports/devel/hs-happy/Makefile,v 1.33 2012/02/13 03:49:24 pgj Exp $
 
 PORTNAME=	happy
 PORTVERSION=	1.18.6
@@ -24,7 +24,6 @@ EXECUTABLE=	happy
 
 USE_PERL5_BUILD=	5.8+
 
-PORTEXAMPLES=		*
 INSTALL_PORTEXAMPLES=	@(cd ${WRKSRC}/examples/ && ${COPYTREE_SHARE} \* ${EXAMPLESDIR})
 
 .if defined(SLAVE)

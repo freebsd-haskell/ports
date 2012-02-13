@@ -2,7 +2,7 @@
 # Date created:        May 21, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-test-framework-quickcheck2/Makefile,v 1.6 2011/08/14 14:37:54 pgj Exp $
+# $FreeBSD: ports/devel/hs-test-framework-quickcheck2/Makefile,v 1.7 2012/02/13 04:48:47 pgj Exp $
 #
 
 PORTNAME=	test-framework-quickcheck2

@@ -2,7 +2,7 @@
 # Date created:        November 19, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/security/hs-cryptohash/Makefile,v 1.1 2012/02/13 02:47:14 pgj Exp $
 #
 
 PORTNAME=	cryptohash

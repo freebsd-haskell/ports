@@ -2,12 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-transformers-docs/Makefile,v 1.2 2011/05/26 00:51:04 ashish Exp $
+# $FreeBSD: ports/devel/hs-transformers-docs/Makefile,v 1.3 2012/02/13 03:49:26 pgj Exp $
 #
 
 PORTNAME=	transformers
 PORTVERSION=	0.2.2.0
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

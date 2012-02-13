@@ -1,3 +1,6 @@
-@comment $FreeBSD: ports/textproc/hs-lhs2tex/pkg-plist,v 1.6 2011/05/09 05:28:52 ashish Exp $
+@comment $FreeBSD: ports/textproc/hs-lhs2tex/pkg-plist,v 1.7 2012/02/13 03:49:30 pgj Exp $
+share/texmf-local/tex/latex/polytable/lazylist.sty
+share/texmf-local/tex/latex/polytable/polytable.sty
+@dirrm share/texmf-local/tex/latex/polytable
 @exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr

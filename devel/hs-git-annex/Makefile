@@ -2,7 +2,7 @@
 # Date created:				8 June 2011
 # Whom:					frase@frase.id.au
 #
-# $FreeBSD: ports/devel/hs-git-annex/Makefile,v 1.6 2011/09/26 20:49:55 pgj Exp $
+# $FreeBSD: ports/devel/hs-git-annex/Makefile,v 1.7 2012/02/13 03:49:24 pgj Exp $
 #
 
 PORTNAME=	git-annex

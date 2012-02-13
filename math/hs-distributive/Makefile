@@ -2,11 +2,12 @@
 # Date created:        July 16, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/math/hs-distributive/Makefile,v 1.1 2011/08/14 11:32:23 pgj Exp $
+# $FreeBSD: ports/math/hs-distributive/Makefile,v 1.2 2012/02/13 03:49:28 pgj Exp $
 #
 
 PORTNAME=	distributive
 PORTVERSION=	0.2.0.1
+PORTREVISION=	1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org

@@ -2,7 +2,7 @@
 # Date created:        July 16, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/math/hs-comonad-transformers/Makefile,v 1.1 2011/08/14 11:38:54 pgj Exp $
+# $FreeBSD: ports/math/hs-comonad-transformers/Makefile,v 1.2 2012/02/13 05:06:55 pgj Exp $
 #
 
 PORTNAME=	comonad-transformers

@@ -2,12 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-deepseq/Makefile,v 1.5 2011/05/26 00:50:57 ashish Exp $
+# $FreeBSD: ports/devel/hs-deepseq/Makefile,v 1.6 2012/02/13 03:49:23 pgj Exp $
 #
 
 PORTNAME=	deepseq
 PORTVERSION=	1.1.0.2
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

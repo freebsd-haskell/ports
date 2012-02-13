@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-MemoTrie/Makefile,v 1.6 2011/07/10 08:36:32 ashish Exp $
+# $FreeBSD: ports/devel/hs-MemoTrie/Makefile,v 1.7 2012/02/13 03:49:20 pgj Exp $
 #
 
 PORTNAME=	MemoTrie
 PORTVERSION=	0.4.10
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

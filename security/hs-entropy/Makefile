@@ -2,7 +2,7 @@
 # Date created:		July 13, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/security/hs-entropy/Makefile,v 1.1 2012/02/13 02:49:00 pgj Exp $
 #
 
 PORTNAME=	entropy

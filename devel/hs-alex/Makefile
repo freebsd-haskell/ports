@@ -2,7 +2,7 @@
 # Date created:				29 January 2003
 # Whom:					Volker Stolz <stolz@i2.informatik.rwth-aachen.de>
 #
-# $FreeBSD: ports/devel/hs-alex/Makefile,v 1.35 2011/05/09 05:28:33 ashish Exp $
+# $FreeBSD: ports/devel/hs-alex/Makefile,v 1.36 2012/02/13 03:49:21 pgj Exp $
 
 PORTNAME=	alex
 PORTVERSION=	2.3.5

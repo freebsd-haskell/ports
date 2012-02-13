@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-mueval/Makefile,v 1.9 2011/08/13 19:22:56 pgj Exp $
+# $FreeBSD: ports/devel/hs-mueval/Makefile,v 1.10 2012/02/13 03:49:25 pgj Exp $
 #
 
 PORTNAME=	mueval

@@ -2,7 +2,7 @@
 # Date created:		2010-08-17
 # Whom:			Ashish SHUKLA <ashish@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-cereal/Makefile,v 1.1 2011/08/13 20:44:40 pgj Exp $
+# $FreeBSD: ports/devel/hs-cereal/Makefile,v 1.2 2012/02/13 04:21:49 pgj Exp $
 #
 
 PORTNAME=	cereal

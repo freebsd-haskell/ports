@@ -2,7 +2,7 @@
 # Date created:        July 16, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-void/Makefile,v 1.1 2011/08/14 11:19:17 pgj Exp $
+# $FreeBSD: ports/devel/hs-void/Makefile,v 1.2 2012/02/13 04:58:05 pgj Exp $
 #
 
 PORTNAME=	void

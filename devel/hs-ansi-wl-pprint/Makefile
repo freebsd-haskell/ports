@@ -2,7 +2,7 @@
 # Date created:        May 21, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-ansi-wl-pprint/Makefile,v 1.4 2011/05/26 00:50:55 ashish Exp $
+# $FreeBSD: ports/devel/hs-ansi-wl-pprint/Makefile,v 1.5 2012/02/13 04:16:16 pgj Exp $
 #
 
 PORTNAME=	ansi-wl-pprint

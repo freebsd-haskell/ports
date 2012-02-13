@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/benchmarks/hs-criterion/Makefile,v 1.13 2011/08/14 18:08:32 pgj Exp $
+# $FreeBSD: ports/benchmarks/hs-criterion/Makefile,v 1.14 2012/02/13 04:03:22 pgj Exp $
 #
 
 PORTNAME=	criterion

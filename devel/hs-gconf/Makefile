@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-gconf/Makefile,v 1.2 2011/05/26 00:50:57 ashish Exp $
+# $FreeBSD: ports/devel/hs-gconf/Makefile,v 1.3 2012/02/13 04:26:18 pgj Exp $
 #
 
 PORTNAME=	gconf

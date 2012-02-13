@@ -2,7 +2,7 @@
 # Date created:        September 19, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-text/Makefile,v 1.2 2011/05/26 00:51:03 ashish Exp $
+# $FreeBSD: ports/devel/hs-text/Makefile,v 1.3 2012/02/13 04:50:25 pgj Exp $
 #
 
 PORTNAME=	text

@@ -2,7 +2,7 @@
 # Date created:		July 5, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/security/hs-Crypto/Makefile,v 1.1 2011/08/01 13:38:44 pgj Exp $
+# $FreeBSD: ports/security/hs-Crypto/Makefile,v 1.2 2012/02/13 05:21:39 pgj Exp $
 #
 
 PORTNAME=	Crypto
