@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	system-filepath
-PORTVERSION=	0.4.4
+PORTVERSION=	0.4.6
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,6 +16,7 @@ LICENSE=	MIT
 FILE_LICENSE=	license.txt
 
 CABAL_SETUP=	Setup.hs
+
 USE_CABAL=	deepseq>=1.1 text>=0.7.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
