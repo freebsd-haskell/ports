@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	libmpd
-PORTVERSION=	0.7.0
+PORTVERSION=	0.7.1
 CATEGORIES=	audio haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,9 +14,8 @@ COMMENT=	An MPD client library
 
 LICENSE=	LGPL21
 
-USE_CABAL=	mtl>=2.0 network>=2.1 utf8-string>=0.3.1
-
-CONFIGURE_ARGS+=	--flags="-test -coverage"
+USE_CABAL=	mtl>=2.0 mtl network>=2.1 network utf8-string>=0.3.1 \
+		utf8-string
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
