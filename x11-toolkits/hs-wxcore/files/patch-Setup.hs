@@ -1,14 +1,5 @@
---- ./Setup.hs.orig	2012-01-05 17:56:58.000000000 +0100
-+++ ./Setup.hs	2012-01-26 07:34:33.000000000 +0100
-@@ -48,7 +48,7 @@
-     system $ "wxdirect -c --wxc " ++ sourceDirectory ++ " -o " ++ wxcoreDirectory ++ " " ++ wxcoreIncludeFile
-     system $ "wxdirect -d --wxc " ++ sourceDirectory ++ " -o " ++ wxcoreDirectory ++ " " ++ intercalate " " eiffelFiles
- 
--    ver <- fmap (head . drop 1 . splitBy (== '.')) (readProcess "wx-config" ["--version"] "")
-+    ver <- fmap (head . drop 1 . splitBy (== '.')) (readProcess "wxgtk2u-2.8-config" ["--version"] "")
-     let extra_wx_libs = if os == "mingw32"
-                         then [ "-lwxmsw28ud_media", "-lwxmsw28ud_richtext", "-lwxmsw28ud_aui"
-                              , "-lwxmsw28ud_xrc", "-lstdc++" ]
+--- ./Setup.hs.orig	2012-02-07 08:27:09.000000000 +0100
++++ ./Setup.hs	2012-02-15 09:35:23.000000000 +0100
 @@ -56,7 +56,7 @@
          wx_cfg_parms = if os == "mingw32"
                         then [ "--unicode", "--libs", "gl,stc", "--cppflags" ]
