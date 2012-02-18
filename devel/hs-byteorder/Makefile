@@ -2,7 +2,7 @@
 # Date created:		December 30, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-byteorder/Makefile,v 1.1 2012/02/18 16:43:12 pgj Exp $
 #
 
 PORTNAME=	byteorder

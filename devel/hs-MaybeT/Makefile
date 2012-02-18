@@ -2,7 +2,7 @@
 # Date created:        November 19, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-MaybeT/Makefile,v 1.1 2012/02/17 16:56:03 pgj Exp $
 #
 
 PORTNAME=	MaybeT

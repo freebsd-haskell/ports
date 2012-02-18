@@ -2,7 +2,7 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-convertible-text/Makefile,v 1.1 2012/02/18 16:48:46 pgj Exp $
 #
 
 PORTNAME=	convertible-text

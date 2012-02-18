@@ -2,7 +2,7 @@
 # Date created:		December 26, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-pool/Makefile,v 1.1 2012/02/18 17:21:20 pgj Exp $
 #
 
 PORTNAME=	pool

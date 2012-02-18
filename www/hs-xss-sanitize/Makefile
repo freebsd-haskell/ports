@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/hs-xss-sanitize/Makefile,v 1.1 2012/02/18 03:21:47 pgj Exp $
 #
 
 PORTNAME=	xss-sanitize

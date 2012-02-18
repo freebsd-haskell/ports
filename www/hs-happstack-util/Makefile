@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/hs-happstack-util/Makefile,v 1.1 2012/02/17 17:05:20 pgj Exp $
 #
 
 PORTNAME=	happstack-util

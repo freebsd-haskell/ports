@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/hs-css-text/Makefile,v 1.1 2012/02/18 03:18:12 pgj Exp $
 #
 
 PORTNAME=	css-text

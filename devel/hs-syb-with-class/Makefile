@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-syb-with-class/Makefile,v 1.1 2012/02/17 16:58:32 pgj Exp $
 #
 
 PORTNAME=	syb-with-class

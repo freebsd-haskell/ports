@@ -2,7 +2,7 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/hs-cookie/Makefile,v 1.1 2012/02/18 16:51:17 pgj Exp $
 #
 
 PORTNAME=	cookie

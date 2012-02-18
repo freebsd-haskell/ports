@@ -2,7 +2,7 @@
 # Date created:		December 25, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-failure/Makefile,v 1.1 2012/02/18 16:14:50 pgj Exp $
 #
 
 PORTNAME=	failure

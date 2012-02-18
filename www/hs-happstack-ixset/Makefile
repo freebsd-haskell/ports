@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/hs-happstack-ixset/Makefile,v 1.1 2012/02/17 17:07:37 pgj Exp $
 #
 
 PORTNAME=	happstack-ixset

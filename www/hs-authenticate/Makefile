@@ -2,7 +2,7 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/hs-authenticate/Makefile,v 1.1 2012/02/18 16:40:40 pgj Exp $
 #
 
 PORTNAME=	authenticate

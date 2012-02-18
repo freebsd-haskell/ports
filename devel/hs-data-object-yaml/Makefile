@@ -2,7 +2,7 @@
 # Date created:		December 26, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-data-object-yaml/Makefile,v 1.1 2012/02/18 16:59:01 pgj Exp $
 #
 
 PORTNAME=	data-object-yaml

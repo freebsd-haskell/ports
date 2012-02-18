@@ -2,7 +2,7 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/textproc/hs-yaml/Makefile,v 1.1 2012/02/18 16:56:16 pgj Exp $
 #
 
 PORTNAME=	yaml

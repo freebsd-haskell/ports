@@ -2,7 +2,7 @@
 # Date created:		December 26, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-ranges/Makefile,v 1.1 2012/02/18 17:01:42 pgj Exp $
 #
 
 PORTNAME=	ranges

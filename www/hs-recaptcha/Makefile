@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/hs-recaptcha/Makefile,v 1.1 2012/02/18 03:14:59 pgj Exp $
 #
 
 PORTNAME=	recaptcha
