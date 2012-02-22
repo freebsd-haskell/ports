@@ -2,7 +2,7 @@
 # Date created:        May 14, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-strict/Makefile,v 1.1 2012/02/18 21:27:13 pgj Exp $
 #
 
 PORTNAME=	strict

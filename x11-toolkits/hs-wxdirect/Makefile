@@ -2,7 +2,7 @@
 # Date created:        January 26, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/x11-toolkits/hs-wxdirect/Makefile,v 1.1 2012/02/18 21:31:42 pgj Exp $
 #
 
 PORTNAME=	wxdirect
@@ -10,7 +10,7 @@ PORTVERSION=	0.13.1.1
 CATEGORIES=	x11-toolkits haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	helper tool for building wxHaskell
+COMMENT=	Helper tool for building wxHaskell
 
 LICENSE=	BSD
 
