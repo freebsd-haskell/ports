@@ -17,7 +17,7 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	syb
 USE_XORG=	x11 xext sm
 
-OPTIONS=	XINERAMA "Build with Xinerama support" off
+OPTIONS=	XINERAMA "Build with Xinerama support" on
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 .include <bsd.port.options.mk>
