@@ -179,6 +179,7 @@ hxt_port=			textproc/hs-hxt
 hxt-charproperties_port=	textproc/hs-hxt-charproperties
 hxt-regex-xmlschema_port=	textproc/hs-hxt-regex-xmlschema
 hxt-unicode_port=		textproc/hs-hxt-unicode
+IfElse_port=			devel/hs-IfElse
 io-storage_port=		devel/hs-io-storage
 iteratee_port=			devel/hs-iteratee
 json_port=			converters/hs-json
