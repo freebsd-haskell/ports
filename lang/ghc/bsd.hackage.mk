@@ -39,6 +39,7 @@ blaze-builder-enumerator_port=	devel/hs-blaze-builder-enumerator
 blaze-html_port=		textproc/hs-blaze-html
 blaze-textual_port=		devel/hs-blaze-textual
 blaze-textual-native_port=	devel/hs-blaze-textual-native
+bloomfilter_port=		devel/hs-bloomfilter
 BNFC_port=			devel/hs-BNFC		# executable
 Boolean_port=			devel/hs-Boolean
 brainfuck_port=			lang/hs-brainfuck	# executable
