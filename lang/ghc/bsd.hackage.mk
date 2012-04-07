@@ -209,6 +209,7 @@ monad-control_port=		devel/hs-monad-control
 monad-par_port=			devel/hs-monad-par
 MonadCatchIO-mtl_port=		devel/hs-MonadCatchIO-mtl
 MonadCatchIO-transformers_port=	devel/hs-MonadCatchIO-transformers
+monadcryptorandom_port=		security/hs-monadcryptorandom
 monadLib_port=			devel/hs-monadLib
 monads-fd_port=			devel/hs-monads-fd
 mtl_port=			devel/hs-mtl
