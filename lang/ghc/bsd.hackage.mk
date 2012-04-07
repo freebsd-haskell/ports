@@ -238,6 +238,7 @@ pointed_port=			math/hs-pointed
 pointedlist_port=		devel/hs-pointedlist
 polyparse_port=			textproc/hs-polyparse
 pool_port=			devel/hs-pool
+pool-conduit_port=		devel/hs-pool-conduit
 porte_port=			ports-mgmt/hs-porte	# executable
 primitive_port=			devel/hs-primitive
 printxosd_port=			x11/hs-printxosd	# executable
