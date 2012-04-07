@@ -6,15 +6,16 @@
 #
 
 PORTNAME=	categories
-PORTVERSION=	0.59
+PORTVERSION=	1.0
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Categories from category-extras
+COMMENT=	Categories
 
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
+
 USE_CABAL=	void>=0.5.4.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
