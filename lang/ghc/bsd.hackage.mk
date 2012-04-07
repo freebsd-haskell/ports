@@ -217,6 +217,7 @@ mwc-random_port=		math/hs-mwc-random
 mysql_port=			databases/hs-mysql
 mysql-simple_port=		databases/hs-mysql-simple
 network_port=			net/hs-network
+network-conduit_port=		net/hs-network-conduit
 network-fancy_port=		net/hs-network-fancy
 NumInstances_port=		math/hs-NumInstances
 ObjectName_port=		devel/hs-ObjectName
