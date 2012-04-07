@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	happstack-util
-PORTVERSION=	6.0.2
+PORTVERSION=	6.0.3
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,6 +16,7 @@ LICENSE=	BSD
 FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
+
 USE_CABAL=	hslogger>=1.0.2 mtl>=1.1 network>=2.2 parsec unix-compat
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
