@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	warp
-PORTVERSION=	0.4.6.3
+PORTVERSION=	1.2.0
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,10 +14,11 @@ COMMENT=	A fast, light-weight web server for WAI applications
 
 LICENSE=	BSD
 
-USE_CABAL=	blaze-builder>=0.2.1.4 blaze-builder-enumerator>=0.2 \
-		case-insensitive>=0.2 enumerator>=0.4.8 http-types>=0.6 \
-		network>=2.3 simple-sendfile>=0.1 transformers>=0.2.2 \
-		unix-compat>=0.2 wai>=0.4
+USE_CABAL=	blaze-builder>=0.2.1.4 blaze-builder-conduit>=0.4 \
+		case-insensitive>=0.2 conduit>=0.4 http-types>=0.6 \
+		lifted-base>=0.1 network>=2.3 network-conduit>=0.4 \
+		simple-sendfile>=0.1 transformers>=0.2.2 unix-compat>=0.2 \
+		wai>=1.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
