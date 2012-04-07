@@ -6,16 +6,16 @@
 #
 
 PORTNAME=	SHA
-PORTVERSION=	1.5.0.0
-PORTREVISION=	1
+PORTVERSION=	1.5.0.1
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Haskell implementations of the SHA suite of message digest functions
+COMMENT=	Implementations of the SHA suite of message digest functions
 
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
+
 USE_CABAL=	binary
 
 OPTIONS=	TEST "Build the SHA test suite" off \
