@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	clientsession
-PORTVERSION=	0.7.4.2
+PORTVERSION=	0.7.4.3
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
