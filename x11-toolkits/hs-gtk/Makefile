@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	gtk
-PORTVERSION=	0.12.2
+PORTVERSION=	0.12.3
 CATEGORIES=	x11-toolkits haskell
 
 MAINTAINER=	haskell@FreeBSD.org
