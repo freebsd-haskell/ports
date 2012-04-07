@@ -6,11 +6,11 @@
 #
 
 PORTNAME=	texmath
-PORTVERSION=	0.5.0.4
+PORTVERSION=	0.6.0.3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Conversion of LaTeX math formulas to MathML for Haskell
+COMMENT=	Conversion of LaTeX math formulas to MathML or OMML
 
 LICENSE=	GPLv2
 
