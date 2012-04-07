@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	attoparsec-conduit
-PORTVERSION=	0.0.1
+PORTVERSION=	0.4.0
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,7 +14,7 @@ COMMENT=	Turn attoparsec parsers into sinks
 
 LICENSE=	BSD
 
-USE_CABAL=	attoparsec>=0.10 conduit text>=0.11 transformers>=0.2.2
+USE_CABAL=	attoparsec>=0.10 conduit>=0.4 text>=0.11 transformers>=0.2.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
