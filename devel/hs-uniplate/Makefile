@@ -16,7 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	base>=4.4 hashable>=1.1.2.3 syb unordered-containers>=0.1
+USE_CABAL=	hashable>=1.1.2.3 syb unordered-containers>=0.1
 
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/uniplate.htm ${DATADIR}
 
