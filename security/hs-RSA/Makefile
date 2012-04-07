@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	RSA
-PORTVERSION=	1.0.6.2
+PORTVERSION=	1.0.6.3
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
