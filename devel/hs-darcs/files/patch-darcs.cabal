@@ -1,5 +1,5 @@
 --- ./darcs.cabal.orig	2011-03-13 23:40:47.000000000 +0100
-+++ ./darcs.cabal	2012-04-08 15:04:17.000000000 +0200
++++ ./darcs.cabal	2012-04-08 16:17:33.000000000 +0200
 @@ -170,7 +170,7 @@
  
      build-depends:   base          < 5,
@@ -48,7 +48,7 @@
                     haskeline    >= 0.6.2.2 && < 0.7,
                     hashed-storage >= 0.5.2 && < 0.6,
 -                   tar          == 0.3.*
-+                   tar          >= 0.3.*
++                   tar          >= 0.3
  
    if !os(windows)
      build-depends: unix >= 1.0 && < 2.5
