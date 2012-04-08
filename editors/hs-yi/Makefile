@@ -23,7 +23,7 @@ USE_CABAL=	binary cautious-file>=1.0.1 concrete-typerep \
 		hint>0.3.1 mtl>=0.1.0.1 pointedlist>=0.3.5 pureMD5>=0.2.3 \
 		QuickCheck>=2.1.0.2 regex-base regex-tdfa rosezipper>=0.1 \
 		split uniplate unix-compat>=0.1 unordered-containers>=0.1.3 \
-		utf8-string>=0.3.1 vty>=4.7.0.0 yi
+		utf8-string>=0.3.1 vty>=4.7.0.0
 USE_ALEX=	yes
 
 EXECUTABLE=	yi
