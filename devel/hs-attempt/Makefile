@@ -10,7 +10,7 @@ PORTVERSION=	0.3.1.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Concrete data type for handling extensible exceptions as failures
+COMMENT=	Data type for handling exceptions as failures
 
 LICENSE=	BSD
 
