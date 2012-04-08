@@ -332,6 +332,7 @@ vector-algorithms_port=		devel/hs-vector-algorithms
 vector-space_port=		math/hs-vector-space
 void_port=			devel/hs-void
 vte_port=			x11-toolkits/hs-vte
+vty_port=			devel/hs-vty
 wai_port=			www/hs-wai
 wai-extra_port=			www/hs-wai-extra
 wai-logger_port=		www/hs-wai-logger
