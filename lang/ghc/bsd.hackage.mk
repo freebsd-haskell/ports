@@ -347,7 +347,6 @@ xhtml_port=			textproc/hs-xhtml
 xhtml-combinators_port=		textproc/hs-xhtml-combinators
 xml_port=			textproc/hs-xml
 xml-conduit_port=		textproc/hs-xml-conduit
-xml-enumerator_port=		textproc/hs-xml-enumerator
 xml-types_port=			textproc/hs-xml-types
 xmlhtml_port=			textproc/hs-xmlhtml
 xmobar_port=			x11/hs-xmobar		# executable

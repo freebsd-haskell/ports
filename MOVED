@@ -2,3 +2,4 @@ devel/hs-data-object-yaml||2012-04-07|Removed: this package is obsolete.
 devel/hs-convertible-text||2012-04-07|Removed: this package is obsolete.
 devel/hs-control-monad-attempt||2012-04-08|Removed: this package is obsolete.
 devel/hs-data-object||2012-04-08|Removed: this package is obsolete.
+textproc/hs-xml-enumerator||2012-04-08|Removed: this package is obsolete.
