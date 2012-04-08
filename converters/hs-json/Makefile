@@ -18,5 +18,7 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	mtl
 
+CONFIGURE_ARGS+=	--flags="split-base generic -parsec -pretty -mapdict"
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
