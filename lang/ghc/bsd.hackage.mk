@@ -68,7 +68,6 @@ conduit_port=			devel/hs-conduit
 ConfigFile_port=		devel/hs-ConfigFile
 configurator_port=		devel/hs-configurator
 contravariant_port=		math/hs-contravariant
-control-monad-attempt_port=	devel/hs-control-monad-attempt
 convertible_port=		devel/hs-convertible
 cookie_port=			www/hs-cookie
 cpphs_port=			devel/hs-cpphs		# executable
