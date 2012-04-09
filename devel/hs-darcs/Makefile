@@ -16,10 +16,8 @@ COMMENT=	A distributed, interactive, smart revision control system
 LICENSE=	GPLv2
 FILE_LICENSE=	COPYING
 
-USE_CABAL=	hashed-storage>=0.5.2 haskeline>=0.6.2.2 html>=1.0 HUnit>=1 \
-		mtl>=1 parsec>=2 QuickCheck>=2.1 regex-compat>=0.71 tar>=0.3 \
-		test-framework>=0.2.2 test-framework-hunit>=0.2.2 \
-		test-framework-quickcheck2>=0.2.2 text>=0.11 zlib>=0.5.1
+USE_CABAL=	hashed-storage>=0.5.2 haskeline>=0.6.2.2 html>=1.0 mtl>=1 \
+		parsec>=2 regex-compat>=0.71 tar>=0.4 text>=0.11 zlib>=0.5.1
 
 EXECUTABLE=	darcs
 
@@ -99,6 +97,9 @@ CONFIGURE_ARGS+=	--flags="-mmap"
 
 .if defined(WITH_TEST)
 CONFIGURE_ARGS+=	--flags="test"
+USE_CABAL+=		HUnit>=1 QuickCheck>=2.1 test-framework>=0.2.2 \
+			test-framework-hunit>=0.2.2 \
+			test-framework-quickcheck2>=0.2.2
 EXECUTABLE+=		unit
 .else
 CONFIGURE_ARGS+=	--flags="-test"
