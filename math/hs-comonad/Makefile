@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	comonad
-PORTVERSION=	1.1.1.1
+PORTVERSION=	1.1.1.4
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
