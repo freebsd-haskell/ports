@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	data-accessor-mtl
-PORTVERSION=	0.2.0.2
+PORTVERSION=	0.2.0.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
