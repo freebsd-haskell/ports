@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	plugins
-PORTVERSION=	1.5.1.4
+PORTVERSION=	1.5.2.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,7 +14,7 @@ COMMENT=	Dynamic linking for Haskell and C objects
 
 LICENSE=	BSD
 
-USE_CABAL=	haskell-src
+USE_CABAL=	ghc-paths haskell-src
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
