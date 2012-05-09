@@ -6,13 +6,13 @@
 #
 
 PORTNAME=	shakespeare-text
-PORTVERSION=	1.0.0
+PORTVERSION=	1.0.0.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Interpolation with quasi-quotation: put variables strings
 
-LICENSE=	BSD
+LICENSE=	MIT
 
 USE_CABAL=	shakespeare>=1.0 text>=0.7
 
