@@ -141,7 +141,6 @@ haddock_port=			devel/hs-haddock	# executable
 hamlet_port=			www/hs-hamlet
 happstack_port=			www/hs-happstack	# executable
 happstack-server_port=		www/hs-happstack-server
-happstack-state_port=		www/hs-happstack-state
 happstack-util_port=		www/hs-happstack-util
 happy_port=			devel/hs-happy		# executable
 hashable_port=			devel/hs-hashable
