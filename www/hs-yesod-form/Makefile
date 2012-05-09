@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	yesod-form
-PORTVERSION=	1.0.0.1
+PORTVERSION=	1.0.0.3
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
