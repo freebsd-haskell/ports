@@ -6,12 +6,11 @@
 #
 
 PORTNAME=	binary
-PORTVERSION=	0.5.0.2
-PORTREVISION=	3
+PORTVERSION=	0.5.1.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Efficient binary serialisation for Haskell
+COMMENT=	Binary serialisation for Haskell values using lazy ByteStrings
 
 LICENSE=	BSD
 
