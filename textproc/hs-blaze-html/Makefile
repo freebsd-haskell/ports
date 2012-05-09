@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	blaze-html
-PORTVERSION=	0.4.3.3
+PORTVERSION=	0.4.3.4
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
