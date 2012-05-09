@@ -6,13 +6,13 @@
 #
 
 PORTNAME=	shakespeare-i18n
-PORTVERSION=	1.0.0
+PORTVERSION=	1.0.0.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A type-based approach to internationalization
 
-LICENSE=	BSD
+LICENSE=	MIT
 
 USE_CABAL=	parsec shakespeare>=1.0 text>=0.7
 
