@@ -232,6 +232,7 @@ parsec_port=			textproc/hs-parsec
 path-pieces_port=		www/hs-path-pieces
 pcap_port=			net/hs-pcap
 pcre-light_port=		devel/hs-pcre-light	# lib_depends
+pem_port=			security/hs-pem
 persistent_port=		databases/hs-persistent
 persistent-template_port=	databases/hs-persistent-template
 plugins_port=			devel/hs-plugins
