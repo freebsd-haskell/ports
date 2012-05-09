@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	fclabels
-PORTVERSION=	1.1.1.1
+PORTVERSION=	1.1.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
