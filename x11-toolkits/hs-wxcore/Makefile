@@ -6,19 +6,17 @@
 #
 
 PORTNAME=	wxcore
-PORTVERSION=	0.13.2.1
+PORTVERSION=	0.90
 CATEGORIES=	x11-toolkits haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	wxHaskell core
 
-
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	parsec stm wxdirect>0.12.1.2
+USE_CABAL=	parsec stm wxc>=0.90 wxdirect>=0.90
 
-BUILD_DEPENDS+=	wxgtk2-unicode>=2.8:${PORTSDIR}/x11-toolkits/wxgtk28-unicode \
-		wxgtk2-unicode-contrib>=2.8:${PORTSDIR}/x11-toolkits/wxgtk28-unicode-contrib
+BUILD_DEPENDS+=	wxgtk29>=2.9:${PORTSDIR}/x11-toolkits/wxgtk29
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
