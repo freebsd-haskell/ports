@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	network-conduit
-PORTVERSION=	0.4.0
+PORTVERSION=	0.4.0.1
 CATEGORIES=	net haskell
 
 MAINTAINER=	haskell@FreeBSD.org
