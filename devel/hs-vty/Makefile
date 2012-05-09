@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	vty
-PORTVERSION=	4.7.0.10
+PORTVERSION=	4.7.0.12
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
