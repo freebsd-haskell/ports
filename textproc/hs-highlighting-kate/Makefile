@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	highlighting-kate
-PORTVERSION=	0.5.0.5
+PORTVERSION=	0.5.0.6
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,7 +14,7 @@ COMMENT=	Syntax highlighting
 
 LICENSE=	GPLv2
 
-USE_CABAL=	blaze-html mtl parsec regex-pcre-builtin
+USE_CABAL=	blaze-html>=0.4.2 mtl parsec regex-pcre-builtin
 
 OPTIONS=	EXECUTABLE "Build the Highlight executable" off
 
