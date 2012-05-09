@@ -6,15 +6,17 @@
 #
 
 PORTNAME=	vault
-PORTVERSION=	0.1.0.0
+PORTVERSION=	0.2.0.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	a typed, persistent store for values of arbitrary types
+COMMENT=	A persistent store for values of arbitrary types
 
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
+
+USE_CABAL=	hashable unordered-containers>=0.2.1.0
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
