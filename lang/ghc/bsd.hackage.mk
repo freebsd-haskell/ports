@@ -140,7 +140,6 @@ gtksourceview2_port=		x11-toolkits/hs-gtksourceview2
 haddock_port=			devel/hs-haddock	# executable
 hamlet_port=			www/hs-hamlet
 happstack_port=			www/hs-happstack	# executable
-happstack-ixset_port=		www/hs-happstack-ixset
 happstack-server_port=		www/hs-happstack-server
 happstack-state_port=		www/hs-happstack-state
 happstack-util_port=		www/hs-happstack-util
