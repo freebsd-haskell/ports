@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	kqueue
-PORTVERSION=	0.1.2.2
+PORTVERSION=	0.1.2.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -17,7 +17,6 @@ LICENSE=	BSD
 CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	mtl>=1.1
-
 USE_C2HS=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
