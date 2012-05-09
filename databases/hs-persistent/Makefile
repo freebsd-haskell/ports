@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	persistent
-PORTVERSION=	0.9.0
+PORTVERSION=	0.9.0.4
 CATEGORIES=	databases haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -15,9 +15,9 @@ COMMENT=	Type-safe, multi-backend data serialization
 LICENSE=	BSD
 
 USE_CABAL=	aeson>=0.5 attoparsec base64-bytestring blaze-html>=0.4 \
-		conduit>=0.4 lifted-base>=0.1 monad-control>=0.3 mtl>=2.0 \
-		path-pieces>=0.1 pool-conduit>=0.1 resourcet>=0.3 \
-		text>=0.8 transformers>=0.2.1 transformers-base \
+		blaze-markup>=0.5.1 conduit>=0.4 lifted-base>=0.1 \
+		monad-control>=0.3 path-pieces>=0.1 pool-conduit>=0.1 \
+		resourcet>=0.3 text>=0.8 transformers>=0.2.1 transformers-base \
 		unordered-containers vector
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
