@@ -14,9 +14,8 @@ COMMENT=	Interface for versioning file stores
 
 LICENSE=	BSD
 
-USE_CABAL=	Diff>=0.1.2 mtl parsec>=2 split>=0.1 utf8-string>=0.3 xml>=1.3
-
-CONFIGURE_ARGS+=	--flags="-tests"
+USE_CABAL=	Diff>=0.1.2 HUnit>=1.2 mtl parsec>=2 split>=0.1 utf8-string>=0.3 \
+		xml>=1.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
