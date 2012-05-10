@@ -8,3 +8,5 @@ www/hs-happstack-ixset||2012-05-09|Removed: this package is obsolete.
 www/hs-happstack-state||2012-05-09|Removed: this package is obsolete.
 www/hs-happstack-util||2012-05-09|Removed: this package is obsolete.
 www/hs-http-enumerator||2012-05-09|Removed: this package is obsolete.
+devel/hs-mtl-docs||2012-05-10|Removed: No need for the separate documentation any more.
+
