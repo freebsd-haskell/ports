@@ -5,16 +5,15 @@
 # $FreeBSD: ports/devel/hs-happy/Makefile,v 1.33 2012/02/13 03:49:24 pgj Exp $
 
 PORTNAME=	happy
-PORTVERSION=	1.18.6
-PORTREVISION=	1
+PORTVERSION=	1.18.9
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	An LALR(1) parser generator for the functional language Haskell
+COMMENT=	Happy is a parser generator for Haskell
 
 LICENSE=	BSD
 
-USE_CABAL=	mtl
+USE_CABAL=	mtl>=1.0
 
 XMLDOCS=	doc/happy:html
 USE_AUTOTOOLS=	autoconf:env
