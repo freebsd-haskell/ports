@@ -12,13 +12,11 @@ CATEGORIES=	x11-toolkits haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	wxHaskell C++ wrapper
 
-
 CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	wxdirect>=0.90
 
-BUILD_DEPENDS+=	wxgtk2-unicode>=2.8:${PORTSDIR}/x11-toolkits/wxgtk28-unicode \
-		wxgtk2-unicode-contrib>=2.8:${PORTSDIR}/x11-toolkits/wxgtk28-unicode-contrib
+BUILD_DEPENDS+=	wxgtk29>=2.9:${PORTSDIR}/x11-toolkits/wxgtk29
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
