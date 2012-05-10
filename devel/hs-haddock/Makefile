@@ -5,16 +5,16 @@
 # $FreeBSD: ports/devel/hs-haddock/Makefile,v 1.42 2012/02/13 03:49:24 pgj Exp $
 
 PORTNAME=	haddock
-PORTVERSION=	2.9.2
-PORTREVISION=	3
+PORTVERSION=	2.10.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A documentation tool for Haskell
+COMMENT=	Haddock is a documentation-generation tool for Haskell libraries
 
 LICENSE=	BSD
 
-USE_CABAL=	xhtml>=3000.2 ghc-paths
+USE_CABAL=	xhtml>=3000.2
+
 USE_ALEX=	true
 USE_HAPPY=	true
 

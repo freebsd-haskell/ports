@@ -6,8 +6,7 @@
 #
 
 PORTNAME=	haddock
-PORTVERSION=	2.9.2
-PORTREVISION=	3
+PORTVERSION=	2.10.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,7 +15,7 @@ COMMENT=	Documentation for Haddock
 LICENSE=	BSD
 
 USE_AUTOTOOLS=	autoconf:env
-USE_CABAL=	xhtml>=3000.2 ghc-paths
+USE_CABAL=	xhtml>=3000.2
 USE_ALEX=	true
 USE_HAPPY=	true
 
