@@ -6,8 +6,7 @@
 #
 
 PORTNAME=	deepseq
-PORTVERSION=	1.1.0.2
-PORTREVISION=	2
+PORTVERSION=	1.3.0.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
