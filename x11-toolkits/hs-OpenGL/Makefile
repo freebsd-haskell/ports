@@ -5,13 +5,12 @@
 # $FreeBSD: ports/x11-toolkits/hs-OpenGL/Makefile,v 1.15 2012/02/13 03:49:32 pgj Exp $
 
 PORTNAME=	OpenGL
-PORTVERSION=	2.2.3.0
-PORTREVISION=	2
+PORTVERSION=	2.2.3.1
 PORTEPOCH=	1
 CATEGORIES=	x11-toolkits haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	OpenGL bindings for Haskell programs
+COMMENT=	A binding for the OpenGL graphics system
 
 LICENSE=	BSD
 
