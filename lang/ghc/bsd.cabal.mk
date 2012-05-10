@@ -27,9 +27,7 @@ DIST_SUBDIR?=	cabal
 FILE_LICENSE?=	LICENSE
 
 .if !defined(DOCUMENTATION) && \
-    (${PORTNAME} == haddock || ${PORTNAME} == ghc-paths || \
-     ${PORTNAME} == hscolour || ${PORTNAME} == mtl || \
-     ${PORTNAME} == transformers || ${PORTNAME} == xhtml)
+    (${PORTNAME} == haddock || ${PORTNAME} == hscolour || ${PORTNAME} == xhtml)
 NOPORTDOCS=	yes
 .endif
 
@@ -47,7 +45,7 @@ BUILD_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
 BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
 .endif
 
-GHC_VERSION?=	7.0.4
+GHC_VERSION?=	7.4.1
 GHC_VERSION_N=	${GHC_VERSION:S/./0/g}
 
 GHC_CMD?=	${LOCALBASE}/bin/ghc

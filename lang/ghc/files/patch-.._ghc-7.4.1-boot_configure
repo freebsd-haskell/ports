@@ -1,8 +1,8 @@
 
-$FreeBSD: ports/lang/ghc/files/patch-.._ghc-6.10.4-boot_configure,v 1.2 2012/04/17 11:33:22 ashish Exp $
+$FreeBSD$
 
---- ../ghc-6.10.4-boot/configure.orig
-+++ ../ghc-6.10.4-boot/configure
+--- ../ghc-7.4.1-boot/configure.orig
++++ ../ghc-7.4.1-boot/configure
 @@ -1942,7 +1942,7 @@
  	TargetPlatform=i386-unknown-linux;;
  i[3456]86-*-freebsd2*)
