@@ -1,4 +1,4 @@
-# New ports collection makefile for: hs-random
+# New ports collection makefile for: hs-random-docs
 # Date created:        May 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
