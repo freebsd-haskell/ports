@@ -10,3 +10,7 @@ SHA256 (ghc-7.4.1-i386-freebsd8-boot.tar.bz2) = 7ba5656809bd8c273508b1adc6c9d168
 SIZE (ghc-7.4.1-i386-freebsd8-boot.tar.bz2) = 45447263
 SHA256 (ghc-7.4.1-amd64-freebsd8-boot.tar.bz2) = 4a651c7dbebbefa4a993ae35b839449d8264753570aaa768b1fd2c34da5c8e32
 SIZE (ghc-7.4.1-amd64-freebsd8-boot.tar.bz2) = 45325132
+SHA256 (ghc-7.4.1-i386-freebsd9-boot.tar.bz2) = d170096ba977a7ed4cbbb6a163d5068f7ae6647e45ab4406e20d7ed5b8ee31cf
+SIZE (ghc-7.4.1-i386-freebsd9-boot.tar.bz2) = 46254687
+SHA256 (ghc-7.4.1-amd64-freebsd9-boot.tar.bz2) = 6034b7a31b5183b7f643d1bd7d032e9bc0e98a9f636668db71f1fe450eba75b1
+SIZE (ghc-7.4.1-amd64-freebsd9-boot.tar.bz2) = 46427639
