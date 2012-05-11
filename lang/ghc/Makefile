@@ -174,7 +174,6 @@ post-extract:
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_CABAL_CONFIGURE_FLAGS += --extra-lib-dirs=${LOCALBASE}/lib"
 #	@${ECHO} >> ${WRKSRC}/mk/build.mk "BIN_DIST_NAME = ghc-\$$(ProjectVersion)-boot"
 #	@${ECHO} >> ${WRKSRC}/mk/build.mk "BIN_DIST_TAR  = ghc-\$$(ProjectVersion)-amd64-ash0-freebsd8-boot.tar"
-	-@${RM} -f ${BOOT_DIR}/mk/build.mk
 
 post-install-script:
 	@${FIND} -ds ${GHC_LIBDIR} -type f -print | ${SED} -E -e \
@@ -233,7 +232,7 @@ pre-configure:
 	@${ECHO_MSG} "======================================================================"
 	@${ECHO_MSG} "  WARNING: Now HsColour will be built, the respective port will not   "
 	@${ECHO_MSG} "           be installed, but an in-place installation and             "
-	@${ECHO_MSG} "           registration o f both takes place.                         "
+	@${ECHO_MSG} "           registration of both takes place.                          "
 	@${ECHO_MSG} "======================================================================"
 	@${ECHO_MSG} ""
 	@sleep 3
