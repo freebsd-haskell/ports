@@ -27,7 +27,10 @@ DIST_SUBDIR?=	cabal
 FILE_LICENSE?=	LICENSE
 
 .if !defined(DOCUMENTATION) && \
-    (${PORTNAME} == haddock || ${PORTNAME} == hscolour || ${PORTNAME} == xhtml)
+    (${PORTNAME} == mtl || ${PORTNAME} == transformers || \
+     ${PORTNAME} == haddock || ${PORTNAME} == hscolour || \
+     ${PORTNAME} == QuickCheck || ${PORTNAME} == random || \
+     ${PORTNAME} == xhtml)
 NOPORTDOCS=	yes
 .endif
 
