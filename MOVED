@@ -10,3 +10,4 @@ www/hs-happstack-util||2012-05-09|Removed: this package is obsolete.
 www/hs-http-enumerator||2012-05-09|Removed: this package is obsolete.
 devel/hs-monads-fd||2012-05-12|Removed: this package is obsolete.
 devel/hs-data-accessor-monads-fd||2012-05-12|Removed: this package is obsolete.
+devel/hs-process-leksah||2012-05-12|Removed: Not needed any more.
