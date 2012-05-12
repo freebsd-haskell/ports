@@ -1,0 +1,11 @@
+--- ./heist.cabal.orig	2012-03-16 19:55:22.000000000 +0100
++++ ./heist.cabal	2012-05-12 12:23:07.000000000 +0200
+@@ -94,7 +94,7 @@
+     directory,
+     directory-tree,
+     filepath,
+-    MonadCatchIO-transformers >= 0.2.1 && < 0.3,
++    MonadCatchIO-transformers >= 0.2.1 && < 0.4,
+     mtl                       >= 2.0   && < 2.1,
+     process,
+     random,
