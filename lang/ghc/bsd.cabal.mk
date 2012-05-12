@@ -250,6 +250,7 @@ post-patch::
 
 	@${REINPLACE_CMD} 's|import List|import Data.List| ; \
 		s|import Char|import Data.Char| ; \
+		s|import Ratio|import Data.Ratio| ; \
 		s|import Monad|import Control.Monad| ; \
 		s|import IO|import System.IO.Error| ; \
 		s|import Directory|import System.Directory| ; \
