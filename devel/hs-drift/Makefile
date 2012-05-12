@@ -47,6 +47,7 @@ pre-everything::
 	@${ECHO} " Define WITH_NHC98 to build with nhc98."
 	@${ECHO} ""
 
+.else
 post-patch:
 	@${REINPLACE_CMD} 's|import List|import Data.List| ; \
 		s|import Char|import Data.Char| ; \
