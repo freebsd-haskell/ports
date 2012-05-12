@@ -14,7 +14,8 @@ COMMENT=	Runtime Haskell interpreter (GHC API wrapper)
 
 LICENSE=	BSD
 
-USE_CABAL=	ghc-mtl>=1.0.1.0 ghc-paths haskell-src MonadCatchIO-mtl>=0.3 mtl utf8-string
+USE_CABAL=	ghc-mtl>=1.0.1.0 ghc-paths haskell-src MonadCatchIO-mtl>=0.3 \
+		mtl random utf8-string
 
 INSTALL_PORTEXAMPLES=	cd ${WRKSRC}/examples && ${COPYTREE_SHARE} \* ${EXAMPLESDIR}
 	
