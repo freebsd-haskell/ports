@@ -7,6 +7,7 @@
 
 PORTNAME=	Crypto
 PORTVERSION=	4.2.4
+PORTREVISION=	1
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
