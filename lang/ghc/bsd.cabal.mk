@@ -30,7 +30,7 @@ FILE_LICENSE?=	LICENSE
     (${PORTNAME} == mtl || ${PORTNAME} == transformers || \
      ${PORTNAME} == haddock || ${PORTNAME} == hscolour || \
      ${PORTNAME} == QuickCheck || ${PORTNAME} == random || \
-     ${PORTNAME} == xhtml)
+     ${PORTNAME} == xhtml || ${PORTNAME} == ghc-paths)
 NOPORTDOCS=	yes
 .endif
 
