@@ -16,7 +16,7 @@
 -import Time (getClockTime,toCalendarTime,calendarTimeToString)
 +import System.Directory ( doesFileExist, getPermissions, readable, removeFile )
 +import Data.List ( partition, intersperse, groupBy, sortBy)
-+import Data.Time (getClockTime,toCalendarTime,calendarTimeToString)
++import System.Time (getClockTime,toCalendarTime,calendarTimeToString)
 +import Data.Char (toLower)
  
  import Text.XML.HaXml.Types
