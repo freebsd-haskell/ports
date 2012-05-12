@@ -19,7 +19,7 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	binary blaze-builder>=0.2 case-insensitive>=0.2 cmdargs>=0.7 \
 		conduit>=0.2 haskell-src-exts>=1.12 http-types parsec>=2.1 \
-		safe tagsoup>=0.11 transformers>=0.2 uniplate wai>=1.1 \
+		random safe tagsoup>=0.11 transformers>=0.2 uniplate wai>=1.1 \
 		warp>=1.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
