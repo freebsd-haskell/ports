@@ -15,7 +15,7 @@ COMMENT=	Documentation for Haddock
 LICENSE=	BSD
 
 USE_AUTOTOOLS=	autoconf:env
-USE_CABAL=	xhtml>=3000.2
+USE_CABAL=	ghc-paths xhtml>=3000.2
 USE_ALEX=	true
 USE_HAPPY=	true
 
