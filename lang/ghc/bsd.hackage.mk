@@ -179,6 +179,7 @@ hxt-unicode_port=		textproc/hs-hxt-unicode
 ieee754_port=			math/hs-ieee754
 IfElse_port=			devel/hs-IfElse
 io-storage_port=		devel/hs-io-storage
+IORefCAS_port=			devel/hs-IORefCAS
 iteratee_port=			devel/hs-iteratee
 json_port=			converters/hs-json
 kqueue_port=			devel/hs-kqueue
