@@ -14,7 +14,7 @@ COMMENT=	Collects together existing Haskell cryptographic functions
 
 FILE_LICENSE=	ReadMe.tex
 
-USE_CABAL=	QuickCheck>=2.4.0.1 HUnit
+USE_CABAL=	QuickCheck>=2.4.0.1 HUnit random
 CABAL_SETUP=	Setup.hs
 
 EXECUTABLE=	HMACTest QuickTest RSATest SHA1Test SymmetricTest WordListTest
