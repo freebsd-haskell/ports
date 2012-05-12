@@ -15,7 +15,7 @@ COMMENT=	Large Haskell utility library
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	hslogger HUnit mtl network parsec regex-compat
+USE_CABAL=	hslogger HUnit mtl network parsec random regex-compat
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
