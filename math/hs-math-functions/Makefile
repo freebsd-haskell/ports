@@ -7,7 +7,7 @@
 
 PORTNAME=	math-functions
 PORTVERSION=	0.1.1.1
-PORTVERSION=	1
+PORTREVISION=	1
 
 CATEGORIES=	math haskell
 
