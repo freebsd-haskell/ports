@@ -14,5 +14,7 @@ COMMENT=	Levenshtein and restricted Damerau-Levenshtein edit distances
 
 LICENSE=	BSD
 
+USE_CABAL=	random
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
