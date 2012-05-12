@@ -20,6 +20,8 @@ CABAL_SETUP=	Setup.hs
 USE_ALEX=	yes
 USE_HAPPY=	yes
 
+USE_CABAL=	random
+
 STANDALONE=	yes
 EXECUTABLE=	gtk2hsTypeGen gtk2hsHookGenerator gtk2hsC2hs
 
