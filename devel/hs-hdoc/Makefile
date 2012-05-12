@@ -42,12 +42,13 @@ post-install:
 post-patch:
 	@${REINPLACE_CMD} 's|import List|import Data.List| ; \
 		s|import Char|import Data.Char| ; \
+		s|import Ratio|import Data.Ratio| ; \
 		s|import Monad|import Control.Monad| ; \
 		s|import IO|import System.IO.Error| ; \
 		s|import Directory|import System.Directory| ; \
 		s|import Maybe|import Data.Maybe| ; \
 		s|import Array|import Data.Array| ; \
 		s|import System[^\.]|import System.Exit|' \
-		`${FIND} ${WRKSRC} -name '*.hs'`
+		`${FIND} ${WRKSRC} -name '*.*hs'`
 
 .include <bsd.port.mk>
