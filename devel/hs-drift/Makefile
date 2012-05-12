@@ -57,7 +57,7 @@ post-patch:
 		s|import Maybe|import Data.Maybe| ; \
 		s|import Array|import Data.Array| ; \
 		s|import System[^\.]|import System.Exit|' \
-		`${FIND} ${WRKSRC} -name '*.hs'`
+		`${FIND} ${WRKSRC} -name '*.*hs'`
 .endif
 
 .include <bsd.port.post.mk>
