@@ -21,5 +21,7 @@ USE_CABAL=	mtl
 STANDALONE=	yes
 EXECUTABLE=	bnfc
 
+HASKELL98=	yes
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
