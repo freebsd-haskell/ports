@@ -20,5 +20,8 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	OpenGL>=2.2
 USE_GL=		glut
 
+# Temporarily disable generation of documentation
+NOPORTDOCS=	yes
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
