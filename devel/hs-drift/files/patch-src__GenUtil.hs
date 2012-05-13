@@ -1,5 +1,5 @@
 --- ./src/GenUtil.hs.orig	2008-02-10 15:38:31.000000000 +0100
-+++ ./src/GenUtil.hs	2012-05-12 22:10:30.000000000 +0200
++++ ./src/GenUtil.hs	2012-05-13 11:53:22.000000000 +0200
 @@ -39,7 +39,7 @@
      -- ** Simple deconstruction
      fromLeft,fromRight,fsts,snds,splitEither,rights,lefts,
@@ -9,12 +9,14 @@
      -- ** Random routines
      repMaybe,
      liftT2, liftT3, liftT4,
-@@ -95,8 +95,10 @@
+@@ -94,9 +94,11 @@
+ import Char(isAlphaNum, isSpace, toLower,  ord)
  import List(group,sort)
  import List(intersperse, sortBy, groupBy)
- import Monad
+-import Monad
 -import qualified IO
 -import qualified System
++import Monad hiding (replicateM, replicateM_)
 +import qualified System.IO
 +import qualified System.IO.Error
 +import qualified System.Exit
@@ -56,6 +58,15 @@
  
  {-# SPECIALIZE fmapLeft :: (a -> c) -> [(Either a b)] -> [(Either c b)] #-}
  fmapLeft :: Functor f => (a -> c) -> f (Either a b) -> f (Either c b)
+@@ -482,7 +484,7 @@
+ _ `overlaps` _ = True
+ 
+ -- | translate a number of seconds to a string representing the duration expressed.
+-showDuration :: Integral a => a -> String
++showDuration :: (Show a, Integral a) => a -> String
+ showDuration x = st "d" dayI ++ st "h" hourI ++ st "m" minI ++ show secI ++ "s" where
+         (dayI, hourI) = divMod hourI' 24
+         (hourI', minI) = divMod minI' 60
 @@ -495,7 +497,7 @@
  -- arguments are given, read stdin.
  

@@ -21,7 +21,8 @@ OPTIONS=	NHC98 "Build with nhc98" off \
 .include <bsd.port.pre.mk>
 
 .if !defined(WITH_NHC98)
-BUILD_DEPENDS=	ghc:${PORTSDIR}/lang/ghc
+BUILD_DEPENDS=	ghc:${PORTSDIR}/lang/ghc \
+		hs-random>=0:${PORTSDIR}/devel/hs-random
 LIB_DEPENDS=	gmp.10:${PORTSDIR}/math/gmp
 .else
 BUILD_DEPENDS=	nhc98:${PORTSDIR}/lang/nhc98
@@ -56,6 +57,8 @@ post-patch:
 		s|import Directory|import System.Directory| ; \
 		s|import Maybe|import Data.Maybe| ; \
 		s|import Array|import Data.Array| ; \
+		s|import Time|import System.Time| ; \
+		s|import Random|import System.Random| ; \
 		s|import System[^\.]|import System.Exit|' \
 		`${FIND} ${WRKSRC} -name '*.*hs'`
 .endif
