@@ -7,6 +7,7 @@
 
 PORTNAME=	pureMD5
 PORTVERSION=	2.1.0.3
+PORTREVISION=	1
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
