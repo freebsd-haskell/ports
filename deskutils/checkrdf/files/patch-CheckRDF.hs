@@ -1,5 +1,5 @@
 --- ./CheckRDF.hs.orig	2007-03-02 19:13:07.000000000 +0100
-+++ ./CheckRDF.hs	2012-05-12 19:34:30.000000000 +0200
++++ ./CheckRDF.hs	2012-05-13 13:10:24.395459549 +0200
 @@ -18,15 +18,20 @@
  
  import RDFConfig
@@ -9,7 +9,7 @@
 +import System.Environment (getArgs, getEnv)
 +import System.Process (system)
 +import System.Exit (exitWith, ExitCode(..))
-+import System.IO ( catch, openFile, IOMode(..), hIsEOF, hGetLine
++import System.IO ( openFile, IOMode(..), hIsEOF, hGetLine
            , hPutStr, hClose, hFlush, stdin, Handle, hPutStrLn, hGetContents)
 -import Directory ( doesFileExist, getPermissions, readable, removeFile )
 -import List ( partition, intersperse, groupBy, sortBy)
