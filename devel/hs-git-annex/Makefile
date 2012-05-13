@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	git-annex
-PORTVERSION=	3.20120405
+PORTVERSION=	3.20120511
 CATEGORIES=	devel haskell
 
 MAINTAINER=	frase@frase.id.au
@@ -17,7 +17,7 @@ FILE_LICENSE=	GPL
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	bloomfilter dataenc hS3 hslogger HTTP IfElse \
+USE_CABAL=	bloomfilter dataenc edit-distance hslogger HTTP IfElse \
 		json lifted-base MissingH monad-control mtl network \
 		pcre-light QuickCheck>=2.1 SHA text transformers-base \
 		utf8-string
