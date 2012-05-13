@@ -1,5 +1,5 @@
 --- ./Network/HTTP/Server.hs.orig	2009-06-13 03:58:45.000000000 +0200
-+++ ./Network/HTTP/Server.hs	2012-05-12 19:51:42.000000000 +0200
++++ ./Network/HTTP/Server.hs	2012-05-13 21:03:32.137467690 +0200
 @@ -123,8 +123,9 @@
  
    client sock addr =
