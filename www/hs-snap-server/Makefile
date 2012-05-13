@@ -16,7 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 binary>=0.5 \
+USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 \
 		blaze-builder>=0.2.1.4 blaze-builder-enumerator>=0.2.0 \
 		bytestring-nums case-insensitive>=0.3 directory-tree>=0.10 \
 		enumerator>=0.4.15 MonadCatchIO-transformers>=0.2.1 \

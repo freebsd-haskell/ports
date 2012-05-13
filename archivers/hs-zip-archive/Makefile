@@ -14,7 +14,7 @@ COMMENT=	Library for creating and modifying zip archives
 
 LICENSE=	BSD
 
-USE_CABAL=	binary digest>=0.0.0.1 mtl utf8-string>=0.3.1 zlib
+USE_CABAL=	digest>=0.0.0.1 mtl utf8-string>=0.3.1 zlib
 
 OPTIONS=	EXECUTABLE "Build the Zip executable" off
 

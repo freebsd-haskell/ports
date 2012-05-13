@@ -14,7 +14,5 @@ COMMENT=	Efficient conversion of values into readable byte strings
 
 LICENSE=	BSD
 
-USE_CABAL=	binary
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

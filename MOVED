@@ -9,3 +9,4 @@ www/hs-happstack-state||2012-05-09|Removed: this package is obsolete.
 www/hs-happstack-util||2012-05-09|Removed: this package is obsolete.
 www/hs-http-enumerator||2012-05-09|Removed: this package is obsolete.
 devel/hs-pool||2012-05-12|Removed: this package is obsolete.
+devel/hs-binary||2012-05-13|Removed: this package became part of GHC.

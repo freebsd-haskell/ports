@@ -16,7 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	binary cairo deepseq>=1.1 ghc-events>=0.3 glib gtk>=0.12 \
+USE_CABAL=	cairo deepseq>=1.1 ghc-events>=0.3 glib gtk>=0.12 \
 		gtk2hs-buildtools mtl pango
 
 EXECUTABLE=	threadscope

@@ -16,8 +16,6 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	binary
-
 OPTIONS=	TEST "Build the SHA test suite" off \
 		EXE  "Build a SHA2-384 executable similar to 'md5sum'" off
 

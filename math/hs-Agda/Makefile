@@ -15,7 +15,7 @@ COMMENT=	A dependently typed functional programming language and proof assistant
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	binary>=0.4.4 hashable hashtables haskeline>=0.6.3.2 \
+USE_CABAL=	hashable hashtables haskeline>=0.6.3.2 \
 		haskell-src-exts>=1.9.6 mtl QuickCheck>=2.3 syb>=0.1 \
 		xhtml zlib>=0.4.0.1
 USE_ALEX=	yes

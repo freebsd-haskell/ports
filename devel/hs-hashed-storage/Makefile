@@ -15,7 +15,7 @@ COMMENT=	Hashed file storage support code
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	binary dataenc mmap>=0.5 mtl zlib
+USE_CABAL=	dataenc mmap>=0.5 mtl zlib
 
 OPTIONS=	TEST "Build tests" off
 
