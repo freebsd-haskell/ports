@@ -31,11 +31,11 @@ BUILD_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 		git:${PORTSDIR}/devel/git
 
-EXECUTABLE=	git-union-merge git-annex-shell git-annex
+EXECUTABLE=	git-annex
 STANDALONE=	yes
 
 MAN1SRC=	.
-MAN1=		git-union-merge.1 git-annex-shell.1 git-annex.1
+MAN1=		git-annex.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
