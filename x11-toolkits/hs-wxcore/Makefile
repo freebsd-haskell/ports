@@ -16,5 +16,7 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	parsec stm wxc>=0.90 wxdirect>=0.90
 
+BUILD_DEPENDS+=	wxgtk2>=2.9:${PORTSDIR}/x11-toolkits/wxgtk29
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
