@@ -32,7 +32,6 @@ CONFIGURE_ARGS+=	--flags="-IncludeMD5"
 
 .if defined(WITH_BINARY)
 CONFIGURE_ARGS+=	--flags="UseBinary"
-USE_CABAL+=		binary
 .else
 CONFIGURE_ARGS+=	--flags="-UseBinary"
 .endif
