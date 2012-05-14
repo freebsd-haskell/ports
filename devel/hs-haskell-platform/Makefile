@@ -25,7 +25,7 @@ USE_CABAL=	cgi==3001.1.7.4_2,1 \
 		HUnit==1.2.4.2 \
 		mtl==2.1.1 \
 		network==2.3.0.13 \
-		OpenGL==2.2.3.1 \
+		OpenGL==2.2.3.1_1 \
 		parallel==3.2.0.2 \
 		parsec==3.1.2 \
 		QuickCheck==2.4.2 \
