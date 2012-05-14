@@ -34,8 +34,5 @@ RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 EXECUTABLE=	git-annex
 STANDALONE=	yes
 
-MAN1SRC=	.
-MAN1=		git-annex.1
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
