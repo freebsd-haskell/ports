@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	darcs
-PORTVERSION=	2.8.0
+PORTVERSION=	2.8.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,9 +16,9 @@ LICENSE=	GPLv2
 FILE_LICENSE=	COPYING
 
 USE_CABAL=	hashed-storage>=0.5.6 haskeline>=0.6.3 html>=1.0 \
-		mtl>=1.0 network>=2.2 parsec>=2.0 random>=1.0 \
-		regex-compat>=0.95.1 regex-posix>=0.95.1 tar>=0.4 text>=0.11.0.6 \
-		unix-compat>=0.1.2 vector>=0.7 zlib>=0.5.1.0
+		mtl>=1.0 parsec>=2.0 random>=1.0 regex-compat>=0.95.1 \
+		regex-posix>=0.95.1 tar>=0.4 text>=0.11.0.6 unix-compat>=0.1.2 \
+		vector>=0.7 zlib>=0.5.1.0
 
 EXECUTABLE=	darcs
 
