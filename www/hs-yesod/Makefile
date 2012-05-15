@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	yesod
-PORTVERSION=	1.0.1.5
+PORTVERSION=	1.0.1.6
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -23,6 +23,8 @@ USE_CABAL=	attoparsec>=0.10 blaze-builder>=0.2.1.4 blaze-html>=0.4 \
 		yesod-form>=1.0 yesod-json>=1.0 yesod-persistent>=1.0
 
 EXECUTABLE=	yesod
+
+CONFIGURE_ARGS+=	--flags="-blaze_html_0_5"
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
