@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	pandoc
-PORTVERSION=	1.9.2
+PORTVERSION=	1.9.3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -24,7 +24,7 @@ USE_CABAL=	base64-bytestring>=0.1 blaze-html>=0.4.3.0 citeproc-hs>=0.3.4 \
 		texmath>=0.6.0.2 utf8-string>=0.3 xml>=1.3.12 \
 		zip-archive>=0.1.1.7 zlib>=0.5
 
-MAN1=		pandoc.1 markdown2pdf.1
+MAN1=		pandoc.1
 MAN5=		pandoc_markdown.5
 
 OPTIONS=	EXECUTABLE   "Build the pandoc executable" on \
