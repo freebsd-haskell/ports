@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	monad-par-extras
-PORTVERSION=	0.3
+PORTVERSION=	0.3.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,7 +16,8 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	abstract-par cereal mtl>=2.0 random>=1.0 transformers>=0.2
+USE_CABAL=	abstract-par>=0.3 cereal>=0.3 mtl>=2.0 random>=1.0 \
+		transformers>=0.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
