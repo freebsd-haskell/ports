@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	hamlet
-PORTVERSION=	1.0.1.2
+PORTVERSION=	1.0.1.3
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,6 +16,8 @@ LICENSE=	MIT
 
 USE_CABAL=	blaze-builder>=0.2 blaze-html>=0.4 failure>=0.1 parsec>=2 \
 		shakespeare>=1.0 text>=0.7
+
+CONFIGURE_ARGS+=	--flags="-blaze_html_0_5"
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
