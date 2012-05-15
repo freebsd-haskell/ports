@@ -16,7 +16,6 @@ LICENSE=	BSD
 
 METAPORT=	yes
 USE_CABAL=	cgi==3001.1.7.4_2,1 \
-		deepseq==1.3.0.0 \
 		fgl==5.4.2.4 \
 		GLUT==2.1.2.1_3,1 \
 		haskell-src==1.0.1.5 \

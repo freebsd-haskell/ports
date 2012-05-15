@@ -14,7 +14,7 @@ COMMENT=	A library of statistical types, data, and functions
 
 LICENSE=	BSD
 
-USE_CABAL=	deepseq>=1.1.0.2 erf math-functions>=0.1.1 monad-par>=0.1.0.1 \
+USE_CABAL=	erf math-functions>=0.1.1 monad-par>=0.1.0.1 \
 		mwc-random>=0.11.0.0 primitive>=0.3 vector>=0.7.1 \
 		vector-algorithms>=0.4
 

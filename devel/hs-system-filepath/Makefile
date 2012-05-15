@@ -17,7 +17,7 @@ FILE_LICENSE=	license.txt
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	deepseq>=1.1 text>=0.7.1
+USE_CABAL=	text>=0.7.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

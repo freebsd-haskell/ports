@@ -14,9 +14,8 @@ COMMENT=	Haskell IDE written in Haskell
 
 LICENSE=	GPLv2
 
-USE_CABAL=	binary-shared>=0.8 deepseq>=1.1.0.0 \
-		enumerator>=0.4.14 gio>=0.12.2 glib>=0.10 gtk>=0.10 \
-		gtksourceview2>=0.10.0 hslogger>=1.0.7 \
+USE_CABAL=	binary-shared>=0.8 enumerator>=0.4.14 gio>=0.12.2 glib>=0.10 \
+		gtk>=0.10 gtksourceview2>=0.10.0 hslogger>=1.0.7 \
 		leksah-server>=0.12.0.3 ltk>=0.12 mtl>=1.1.0.2 \
 		network>=2.2 parsec>=2.1.0.1 QuickCheck>=2.4 \
 		regex-base regex-tdfa strict>=0.3.2 text>=0.11.1.5 \

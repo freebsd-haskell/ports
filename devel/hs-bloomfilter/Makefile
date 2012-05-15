@@ -14,7 +14,5 @@ COMMENT=	Pure and impure Bloom Filter implementations
 
 LICENSE=	BSD
 
-USE_CABAL=	deepseq
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

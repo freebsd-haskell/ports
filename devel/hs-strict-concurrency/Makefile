@@ -14,7 +14,5 @@ COMMENT=	Strict concurrency abstractions
 
 LICENSE=	BSD
 
-USE_CABAL=	deepseq>=1
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

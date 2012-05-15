@@ -16,7 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	deepseq>=1.1 hashable>=1.0.1.1
+USE_CABAL=	hashable>=1.0.1.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

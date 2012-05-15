@@ -14,8 +14,7 @@ COMMENT=	XML parser/formatter based on expat
 
 LICENSE=	BSD
 
-USE_CABAL=	deepseq>=1.1.0.0 List>=0.4.2 text>=0.5 transformers \
-		utf8-string
+USE_CABAL=	List>=0.4.2 text>=0.5 transformers utf8-string
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
