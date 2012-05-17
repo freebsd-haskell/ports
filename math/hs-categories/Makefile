@@ -14,8 +14,6 @@ COMMENT=	Categories from category-extras
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	void>=0.5.4.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
