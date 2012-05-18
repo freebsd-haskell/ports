@@ -31,7 +31,7 @@ BUILD_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 		git:${PORTSDIR}/devel/git
 
-EXECUTABLE=	git-annex
+EXECUTABLE=	git-annex git-annex-shell
 STANDALONE=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
