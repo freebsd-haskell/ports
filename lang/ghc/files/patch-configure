@@ -1,5 +1,5 @@
 --- ./configure.orig	2012-02-01 19:11:45.000000000 +0100
-+++ ./configure	2012-05-17 11:48:03.223474496 +0200
++++ ./configure	2012-05-18 12:40:29.000000000 +0200
 @@ -608,6 +608,8 @@
  HavePapiLib
  GTK_CONFIG
@@ -104,16 +104,20 @@
      rm -f conftest.c conftest.o
      { $as_echo "$as_me:${as_lineno-$LINENO}: result: done" >&5
  $as_echo "done" >&6; }
-@@ -5447,13 +5440,13 @@
+@@ -5445,15 +5438,15 @@
+     fi
+ 
      # Reduce memory usage when linking. See trac #5240.
-     if test -n "$LdHashSize31"
+-    if test -n "$LdHashSize31"
++    if [ "$LdHashSize31" = "YES" ]
      then
 -        CONF_GCC_LINKER_OPTS_STAGE0="$CONF_GCC_LINKER_OPTS_STAGE0 -Wl,$LdHashSize31"
 -        CONF_LD_LINKER_OPTS_STAGE0="$CONF_LD_LINKER_OPTS_STAGE0     $LdHashSize31"
 +        CONF_GCC_LINKER_OPTS_STAGE0="$CONF_GCC_LINKER_OPTS_STAGE0 -Wl,--hash-size=31"
 +        CONF_LD_LINKER_OPTS_STAGE0="$CONF_LD_LINKER_OPTS_STAGE0     --hash-size=31"
      fi
-     if test -n "$LdReduceMemoryOverheads"
+-    if test -n "$LdReduceMemoryOverheads"
++    if [ "$LdReduceMemoryOverheads" = "YES" ]
      then
 -        CONF_GCC_LINKER_OPTS_STAGE0="$CONF_GCC_LINKER_OPTS_STAGE0 -Wl,$LdReduceMemoryOverheads"
 -        CONF_LD_LINKER_OPTS_STAGE0="$CONF_LD_LINKER_OPTS_STAGE0     $LdReduceMemoryOverheads"
@@ -122,16 +126,20 @@
      fi
  
      rm -f conftest.c conftest.o
-@@ -5504,13 +5497,13 @@
+@@ -5502,15 +5495,15 @@
+     fi
+ 
      # Reduce memory usage when linking. See trac #5240.
-     if test -n "$LdHashSize31"
+-    if test -n "$LdHashSize31"
++    if [ "$LdHashSize31" = "YES" ]
      then
 -        CONF_GCC_LINKER_OPTS_STAGE1="$CONF_GCC_LINKER_OPTS_STAGE1 -Wl,$LdHashSize31"
 -        CONF_LD_LINKER_OPTS_STAGE1="$CONF_LD_LINKER_OPTS_STAGE1     $LdHashSize31"
 +        CONF_GCC_LINKER_OPTS_STAGE1="$CONF_GCC_LINKER_OPTS_STAGE1 -Wl,--hash-size=31"
 +        CONF_LD_LINKER_OPTS_STAGE1="$CONF_LD_LINKER_OPTS_STAGE1     --hash-size=31"
      fi
-     if test -n "$LdReduceMemoryOverheads"
+-    if test -n "$LdReduceMemoryOverheads"
++    if [ "$LdReduceMemoryOverheads" = "YES" ]
      then
 -        CONF_GCC_LINKER_OPTS_STAGE1="$CONF_GCC_LINKER_OPTS_STAGE1 -Wl,$LdReduceMemoryOverheads"
 -        CONF_LD_LINKER_OPTS_STAGE1="$CONF_LD_LINKER_OPTS_STAGE1     $LdReduceMemoryOverheads"
