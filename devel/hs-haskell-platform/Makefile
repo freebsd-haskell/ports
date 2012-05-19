@@ -42,13 +42,5 @@ USE_CABAL=	cgi==3001.1.7.4_2,1 \
 		alex==3.0.1 \
 		happy==1.18.9
 
-.if !defined(NOPORTDOCS)
-RUN_DEPENDS+=	hs-mtl-docs==2.1.1:${PORTSDIR}/devel/hs-mtl-docs \
-		hs-QuickCheck-docs==2.4.2:${PORTSDIR}/devel/hs-QuickCheck-docs \
-		hs-random-docs==1.0.1.1:${PORTSDIR}/devel/hs-random-docs \
-		hs-transformers-docs==0.3.0.0:${PORTSDIR}/devel/hs-transformers-docs \
-		hs-xhtml-docs==3000.2.0.5:${PORTSDIR}/textproc/hs-xhtml-docs
-.endif
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -26,19 +26,7 @@ DIST_SUBDIR?=	cabal
 
 FILE_LICENSE?=	LICENSE
 
-.if !defined(DOCUMENTATION) && \
-    (${PORTNAME} == mtl || ${PORTNAME} == transformers || \
-     ${PORTNAME} == haddock || ${PORTNAME} == hscolour || \
-     ${PORTNAME} == QuickCheck || ${PORTNAME} == random || \
-     ${PORTNAME} == xhtml || ${PORTNAME} == ghc-paths)
-NOPORTDOCS=	yes
-.endif
-
-.if defined(NOPORTDOCS) && defined(DOCUMENTATION)
-IGNORE+=	is a documentation-only port, do not install if no documentation needed
-.endif
-
-.if !defined(DOCUMENTATION) && !defined(STANDALONE)
+.if !defined(STANDALONE)
 BUILD_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
 BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
 RUN_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
@@ -60,13 +48,9 @@ HAPPY_CMD?=	${LOCALBASE}/bin/happy
 HADDOCK_CMD?=	${LOCALBASE}/bin/haddock
 C2HS_CMD?=	${LOCALBASE}/bin/c2hs
 
-.if !defined(DOCUMENTATION)
 CABAL_DIRS+=	${DATADIR} ${EXAMPLESDIR} ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}
-.endif
 
 GHC_HADDOCK_CMD=${LOCALBASE}/bin/haddock-ghc-${GHC_VERSION}
-
-HADDOCK_PORT=	${PORTSDIR}/devel/hs-haddock
 
 CABAL_DOCSDIR=		${PREFIX}/share/doc/ghc-${GHC_VERSION}/cabal
 CABAL_DOCSDIR_REL=	${CABAL_DOCSDIR:S,^${PREFIX}/,,}
@@ -115,24 +99,8 @@ LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp
 USE_ICONV=	yes
 .endif
 
-.if defined(EXECUTABLE) || defined(DOCUMENTATION)
+.if defined(EXECUTABLE)
 HADDOCK_EXE?=	--executables
-.endif
-
-.if defined(DOCUMENTATION)
-
-.if defined(PORTREVISION) && ${PORTREVISION} != 0
-_SUF1=	_${PORTREVISION}
-.endif
-
-.if defined(PORTEPOCH) && ${PORTEPOCH} != 0
-_SUF2=	,${PORTEPOCH}
-.endif
-
-PKGVERSION=	${PORTVERSION:C/[-_,]/./g}${_SUF1}${_SUF2}
-
-PKGNAMESUFFIX=	-docs
-USE_CABAL+=	${PORTNAME}==${PKGVERSION}
 .endif
 
 .if defined(USE_CABAL)
@@ -176,9 +144,7 @@ PLIST_SUB+=	NOPORTDOCS="@comment "
 .endif
 
 .if !defined(NOPORTDOCS)
-.if !defined(XMLDOCS) || defined(DOCUMENTATION)
-BUILD_DEPENDS+=	${HADDOCK_CMD}:${HADDOCK_PORT}
-
+.if !defined(XMLDOCS)
 HADDOCK_OPTS=	${HADDOCK_EXE}
 
 .if defined(WITH_HSCOLOUR_DOCS)
@@ -199,10 +165,6 @@ USE_GMAKE=	yes
 
 .endif # !XMLDOCS
 
-.if defined(DOCUMENTATION)
-DOCSDIR=	${CABAL_DOCSDIR}/${DISTNAME}/html
-.endif
-
 .if !defined(METAPORT)
 PORTDOCS=	*
 .endif # !METAPORT
@@ -215,7 +177,7 @@ __handle_datadir__=	--datadir='' --datasubdir='' --docdir='${DOCSDIR}'
 __handle_datadir__=	--datadir='${DATADIR}' --datasubdir='' --docdir='${DOCSDIR}'
 .endif
 
-.if (!defined(XMLDOCS) || defined(DOCUMENTATION)) && !defined(NOPORTDOCS)
+.if !defined(XMLDOCS) && !defined(NOPORTDOCS)
 CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 .endif
 
@@ -279,15 +241,13 @@ do-configure:
 .if !target(do-build)
 do-build:
 .if !defined(METAPORT)
-.if !defined(DOCUMENTATION)
 	cd ${WRKSRC} && ${SETUP_CMD} build
 .if !defined(STANDALONE)
 	cd ${WRKSRC} && ${SETUP_CMD} register --gen-script
 .endif
-.endif # !DOCUMENTATION
 
 .if !defined(NOPORTDOCS)
-.if (!defined(XMLDOCS) && !defined(STANDALONE)) || defined(DOCUMENTATION)
+.if !defined(XMLDOCS) && !defined(STANDALONE)
 	cd ${WRKSRC} && ${SETUP_CMD} haddock ${HADDOCK_OPTS}
 .endif # STANDALONE
 .if defined(XMLDOCS)
@@ -302,7 +262,6 @@ do-build:
 .if !target(do-install)
 do-install:
 .if !defined(METAPORT)
-.if !defined(DOCUMENTATION)
 	cd ${WRKSRC} && ${SETUP_CMD} install
 
 .if !defined(STANDALONE)
@@ -328,8 +287,6 @@ do-install:
 .else
 
 	@(cd ${WRKSRC}/dist/doc/html/${PORTNAME} && ${COPYTREE_SHARE} \* ${DOCSDIR}/html)
-
-.endif # !DOCUMENTATION
 
 .if !defined(NOPORTDOCS)
 .if !empty(XMLDOCS)
@@ -360,13 +317,11 @@ post-install-script:
 add-plist-post: add-plist-cabal
 add-plist-cabal:
 .if !defined(METAPORT)
-.if !defined(DOCUMENTATION)
 	@if [ -f ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}/register.sh ]; then \
 		(${ECHO_CMD} '@exec ${SH} %D/${CABAL_LIBDIR_REL}/${CABAL_LIBSUBDIR}/register.sh'; \
 		 ${ECHO_CMD} '@exec ${RM} -f %D/lib/ghc-${GHC_VERSION}/package.conf.old'; \
 		 ${ECHO_CMD} '@unexec %D/bin/ghc-pkg unregister --force ${PORTNAME}-${PORTVERSION}'; \
 		 ${ECHO_CMD} '@unexec ${RM} -f %D/lib/ghc-${GHC_VERSION}/package.conf.old') >> ${TMPPLIST}; fi
-.endif
 .if defined(NOPORTDOCS)
 	@if [ -f ${DOCSDIR}/${FILE_LICENSE} ]; then \
 		(${ECHO_CMD} '${DOCSDIR_REL}/${FILE_LICENSE}'; \
@@ -391,7 +346,7 @@ post-install::
 	fi
 .endif
 
-.if !defined(STANDALONE) && !defined(DOCUMENTATION)
+.if !defined(STANDALONE)
 	${RM} -f ${PREFIX}/lib/ghc-${GHC_VERSION}/package.conf.old
 .endif
 
