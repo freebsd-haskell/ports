@@ -284,10 +284,6 @@ do-install:
 .endfor
 .endif # MAN1SRC
 
-.else
-
-	@(cd ${WRKSRC}/dist/doc/html/${PORTNAME} && ${COPYTREE_SHARE} \* ${DOCSDIR}/html)
-
 .if !defined(NOPORTDOCS)
 .if !empty(XMLDOCS)
 .for xmldoc in ${XMLDOCS}
