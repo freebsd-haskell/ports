@@ -11,7 +11,6 @@ www/hs-http-enumerator||2012-05-09|Removed: this package is obsolete.
 devel/hs-pool||2012-05-12|Removed: this package is obsolete.
 devel/hs-binary||2012-05-13|Removed: this package became part of lang/ghc.
 devel/hs-deepseq||2012-05-15|Removed: this package became part of lang/ghc.
-devel/hs-haddock||2012-05-19|Removed: this application became part of lang/ghc.
 devel/hs-ghc-paths-docs||2012-05-19|Removed: not needed any more.
 devel/hs-haddock-docs||2012-05-19|Removed: not needed any more.
 devel/hs-mtl-docs||2012-05-19|Removed: not needed any more.
