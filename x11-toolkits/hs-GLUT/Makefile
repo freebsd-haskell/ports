@@ -5,8 +5,7 @@
 # $FreeBSD: ports/x11-toolkits/hs-GLUT/Makefile,v 1.15 2012/02/13 03:49:32 pgj Exp $
 
 PORTNAME=	GLUT
-PORTVERSION=	2.1.2.1
-PORTREVISION=	3
+PORTVERSION=	2.1.2.2
 PORTEPOCH=	1
 CATEGORIES=	x11-toolkits haskell
 
