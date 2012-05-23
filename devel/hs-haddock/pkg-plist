@@ -1,0 +1,2 @@
+@comment $FreeBSD$
+@unexec /bin/ln -sf %%GHC_HADDOCK%% %%HADDOCK%%

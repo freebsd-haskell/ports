@@ -20,13 +20,12 @@ USE_HAPPY=	true
 
 EXECUTABLE=	haddock-${PORTVERSION}
 
-SUB_FILES=	pkg-deinstall pkg-install
-SUB_LIST=	GHC_HADDOCK_CMD=${GHC_HADDOCK_CMD} HADDOCK=${PREFIX}/bin/haddock EXECUTABLE=${PREFIX}/bin/${EXECUTABLE}
+PLIST_SUB+=	GHC_HADDOCK_CMD=${GHC_HADDOCK_CMD} HADDOCK=${PREFIX}/bin/haddock EXECUTABLE=${PREFIX}/bin/${EXECUTABLE}
 
-CONFIGURE_ARGS=	--program-suffix=-${PORTVERSION}
+CONFIGURE_ARGS+=	--program-suffix=-${PORTVERSION}
 
 post-install::
-	@PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL} ${PKGNAME} POST-INSTALL
+	@${LN} -sf ${PREFIX}/bin/${EXECUTABLE} ${PREFIX}/bin/haddock
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
