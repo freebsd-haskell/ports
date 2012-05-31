@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	yaml
-PORTVERSION=	0.7.0
+PORTVERSION=	0.7.0.2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
