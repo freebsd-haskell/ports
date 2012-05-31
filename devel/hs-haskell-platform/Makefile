@@ -17,7 +17,7 @@ LICENSE=	BSD
 METAPORT=	yes
 USE_CABAL=	cgi==3001.1.7.4_2,1 \
 		fgl==5.4.2.4 \
-		GLUT==2.1.2.2,1 \
+		GLUT==2.1.2.1,1 \
 		haskell-src==1.0.1.5 \
 		html==1.0.1.2_2 \
 		HTTP==4000.2.3 \
