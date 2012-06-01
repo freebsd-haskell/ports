@@ -2,11 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-glade/Makefile,v 1.3 2012/02/13 04:28:58 pgj Exp $
+# $FreeBSD: ports/devel/hs-glade/Makefile,v 1.4 2012/06/01 05:17:31 dinoex Exp $
 #
 
 PORTNAME=	glade
 PORTVERSION=	0.12.1
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

@@ -2,11 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/x11-toolkits/hs-gtkglext/Makefile,v 1.3 2012/02/13 05:58:23 pgj Exp $
+# $FreeBSD: ports/x11-toolkits/hs-gtkglext/Makefile,v 1.4 2012/06/01 05:25:51 dinoex Exp $
 #
 
 PORTNAME=	gtkglext
 PORTVERSION=	0.12.1
+PORTREVISION=	1
 CATEGORIES=	x11-toolkits haskell
 
 MAINTAINER=	haskell@FreeBSD.org

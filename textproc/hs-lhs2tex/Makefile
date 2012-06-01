@@ -3,12 +3,12 @@
 # Date created:			April 24, 2007
 # Whom:				mainland@apeiron.net
 #
-# $FreeBSD: ports/textproc/hs-lhs2tex/Makefile,v 1.19 2012/02/13 03:49:30 pgj Exp $
+# $FreeBSD: ports/textproc/hs-lhs2tex/Makefile,v 1.20 2012/06/01 05:24:36 dinoex Exp $
 #
 
 PORTNAME=	lhs2tex
 PORTVERSION=	1.17
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
