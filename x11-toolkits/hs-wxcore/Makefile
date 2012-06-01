@@ -17,7 +17,7 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	parsec stm wxc>=0.90 wxdirect>=0.90
 
 USE_WX=		2.9
-WX_COMPS=	wx contrib
+WX_COMPS=	wx
 WX_UNICODE=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

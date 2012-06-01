@@ -17,7 +17,7 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	wxdirect>=0.90
 
 USE_WX=		2.9
-WX_COMPS=	wx contrib
+WX_COMPS=	wx
 WX_UNICODE=	yes
 
 NOPORTDOCS=	yes
