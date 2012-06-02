@@ -36,7 +36,7 @@ USE_CABAL=	cgi==3001.1.7.4_2,1 \
 		syb==0.3.6.1 \
 		text=0.11.2.0 \
 		transformers==0.3.0.0 \
-		xhtml==3000.2.0.5 \
+		xhtml==3000.2.1 \
 		zlib==0.5.3.3 \
 		cabal-install==0.14.0 \
 		alex==3.0.1 \
