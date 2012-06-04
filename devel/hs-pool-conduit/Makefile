@@ -2,7 +2,7 @@
 # Date created:        April 7, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-pool-conduit/Makefile,v 1.1 2012/06/03 19:07:11 pgj Exp $
 #
 
 PORTNAME=	pool-conduit

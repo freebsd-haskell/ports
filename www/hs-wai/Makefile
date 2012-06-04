@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-wai/Makefile,v 1.7 2012/02/13 05:51:26 pgj Exp $
+# $FreeBSD: ports/www/hs-wai/Makefile,v 1.8 2012/06/03 22:46:58 pgj Exp $
 #
 
 PORTNAME=	wai

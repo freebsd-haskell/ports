@@ -2,7 +2,7 @@
 # Date created:        May 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-random/Makefile,v 1.1 2012/06/03 19:08:29 pgj Exp $
 #
 
 PORTNAME=	random

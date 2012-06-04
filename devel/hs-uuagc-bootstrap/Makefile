@@ -2,11 +2,12 @@
 # Date created:        August 12, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-uuagc-bootstrap/Makefile,v 1.1 2012/02/13 02:27:03 pgj Exp $
+# $FreeBSD: ports/devel/hs-uuagc-bootstrap/Makefile,v 1.2 2012/06/03 22:04:25 pgj Exp $
 #
 
 PORTNAME=	uuagc-bootstrap
 PORTVERSION=	0.9.40.2
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

@@ -2,12 +2,12 @@
 # Date created:		July 5, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-hS3/Makefile,v 1.2 2012/02/13 03:49:31 pgj Exp $
+# $FreeBSD: ports/www/hs-hS3/Makefile,v 1.3 2012/06/03 20:52:26 pgj Exp $
 #
 
 PORTNAME=	hS3
 PORTVERSION=	0.5.6
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org

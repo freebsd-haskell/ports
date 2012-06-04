@@ -2,7 +2,7 @@
 # Date created:				December 15, 2008
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/archivers/hs-zip-archive/Makefile,v 1.14 2012/02/13 03:49:19 pgj Exp $
+# $FreeBSD: ports/archivers/hs-zip-archive/Makefile,v 1.15 2012/06/03 21:24:20 pgj Exp $
 #
 
 PORTNAME=	zip-archive

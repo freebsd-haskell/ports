@@ -2,7 +2,7 @@
 # Date created:        December 6, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-ghc-events/Makefile,v 1.1 2012/02/18 22:47:13 pgj Exp $
+# $FreeBSD: ports/devel/hs-ghc-events/Makefile,v 1.2 2012/06/03 20:52:13 pgj Exp $
 #
 
 PORTNAME=	ghc-events

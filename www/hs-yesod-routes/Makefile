@@ -2,7 +2,7 @@
 # Date created:        April 8, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/hs-yesod-routes/Makefile,v 1.1 2012/06/03 19:32:10 pgj Exp $
 #
 
 PORTNAME=	yesod-routes

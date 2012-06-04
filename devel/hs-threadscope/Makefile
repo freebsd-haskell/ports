@@ -2,7 +2,7 @@
 # Date created:        December 6, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-threadscope/Makefile,v 1.2 2012/06/01 05:17:31 dinoex Exp $
+# $FreeBSD: ports/devel/hs-threadscope/Makefile,v 1.3 2012/06/03 20:52:17 pgj Exp $
 #
 
 PORTNAME=	threadscope

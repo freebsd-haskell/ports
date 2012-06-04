@@ -2,13 +2,12 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/mail/hs-mime-mail/Makefile,v 1.1 2012/02/18 17:15:46 pgj Exp $
+# $FreeBSD: ports/mail/hs-mime-mail/Makefile,v 1.2 2012/06/03 20:52:20 pgj Exp $
 #
 
 PORTNAME=	mime-mail
 PORTVERSION=	0.4.1.1
 PORTREVISION=	1
-
 CATEGORIES=	mail haskell
 
 MAINTAINER=	haskell@FreeBSD.org

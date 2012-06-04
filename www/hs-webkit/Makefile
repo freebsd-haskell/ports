@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-webkit/Makefile,v 1.3 2012/02/13 05:53:04 pgj Exp $
+# $FreeBSD: ports/www/hs-webkit/Makefile,v 1.5 2012/06/03 22:51:01 pgj Exp $
 #
 
 PORTNAME=	webkit

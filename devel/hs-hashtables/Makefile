@@ -2,7 +2,7 @@
 # Date created:		December 2, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-hashtables/Makefile,v 1.1 2012/02/13 02:15:56 pgj Exp $
+# $FreeBSD: ports/devel/hs-hashtables/Makefile,v 1.2 2012/06/03 21:46:54 pgj Exp $
 #
 
 PORTNAME=	hashtables

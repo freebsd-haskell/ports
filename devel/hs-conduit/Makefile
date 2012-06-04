@@ -2,7 +2,7 @@
 # Date created:        December 30, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-conduit/Makefile,v 1.1 2012/06/03 19:02:39 pgj Exp $
 #
 
 PORTNAME=	conduit

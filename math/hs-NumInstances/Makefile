@@ -2,11 +2,12 @@
 # Date created:        September 24, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/math/hs-NumInstances/Makefile,v 1.1 2012/02/13 02:31:13 pgj Exp $
+# $FreeBSD: ports/math/hs-NumInstances/Makefile,v 1.2 2012/06/03 20:52:20 pgj Exp $
 #
 
 PORTNAME=	NumInstances
 PORTVERSION=	1.0
+PORTREVISION=	1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org

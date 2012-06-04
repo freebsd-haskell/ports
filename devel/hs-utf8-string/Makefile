@@ -2,11 +2,12 @@
 # Date created:		2008-10-21
 # Whom:			Ashish Shukla <wahjava@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-utf8-string/Makefile,v 1.13 2012/02/13 04:52:50 pgj Exp $
+# $FreeBSD: ports/devel/hs-utf8-string/Makefile,v 1.14 2012/06/03 20:52:17 pgj Exp $
 #
 
 PORTNAME=	utf8-string
 PORTVERSION=	0.3.7
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

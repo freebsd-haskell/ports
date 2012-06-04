@@ -2,7 +2,7 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/mail/hs-email-validate/Makefile,v 1.1 2012/02/18 17:04:33 pgj Exp $
+# $FreeBSD: ports/mail/hs-email-validate/Makefile,v 1.2 2012/06/03 22:08:56 pgj Exp $
 #
 
 PORTNAME=	email-validate

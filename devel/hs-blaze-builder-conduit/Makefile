@@ -2,7 +2,7 @@
 # Date created:        December 30, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-blaze-builder-conduit/Makefile,v 1.1 2012/06/03 18:59:49 pgj Exp $
 #
 
 PORTNAME=	blaze-builder-conduit

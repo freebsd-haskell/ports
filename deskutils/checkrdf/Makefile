@@ -2,7 +2,7 @@
 # Date created:        17 december 2002
 # Whom:                Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/deskutils/checkrdf/Makefile,v 1.20 2011/07/10 16:48:18 ashish Exp $
+# $FreeBSD: ports/deskutils/checkrdf/Makefile,v 1.21 2012/06/03 20:52:07 pgj Exp $
 #
 
 PORTNAME=	checkrdf

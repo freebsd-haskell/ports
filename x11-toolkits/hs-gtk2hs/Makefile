@@ -2,11 +2,12 @@
 # Date created:        03 June 2002
 # Whom:                Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/x11-toolkits/hs-gtk2hs/Makefile,v 1.47 2012/02/13 06:02:19 pgj Exp $
+# $FreeBSD: ports/x11-toolkits/hs-gtk2hs/Makefile,v 1.48 2012/06/03 20:52:28 pgj Exp $
 #
 
 PORTNAME=	gtk2hs
 PORTVERSION=	0.12.2
+PORTREVISION=	1
 PORTEPOCH=	1
 CATEGORIES=	x11-toolkits haskell
 

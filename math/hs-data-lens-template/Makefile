@@ -2,7 +2,7 @@
 # Date created:        November 19, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/math/hs-data-lens-template/Makefile,v 1.1 2012/02/13 02:34:41 pgj Exp $
+# $FreeBSD: ports/math/hs-data-lens-template/Makefile,v 1.2 2012/06/03 22:13:35 pgj Exp $
 #
 
 PORTNAME=	data-lens-template

@@ -2,12 +2,12 @@
 # Date created:        May 21, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-ansi-terminal/Makefile,v 1.7 2012/02/13 03:49:21 pgj Exp $
+# $FreeBSD: ports/devel/hs-ansi-terminal/Makefile,v 1.8 2012/06/03 20:52:10 pgj Exp $
 #
 
 PORTNAME=	ansi-terminal
 PORTVERSION=	0.5.5
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

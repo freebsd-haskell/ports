@@ -2,11 +2,12 @@
 # Date created:        May 21, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-ansi-wl-pprint/Makefile,v 1.5 2012/02/13 04:16:16 pgj Exp $
+# $FreeBSD: ports/devel/hs-ansi-wl-pprint/Makefile,v 1.6 2012/06/03 20:52:10 pgj Exp $
 #
 
 PORTNAME=	ansi-wl-pprint
 PORTVERSION=	0.6.4
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

@@ -2,12 +2,12 @@
 # Date created:        23 August 2002
 # Whom:                Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-c2hs/Makefile,v 1.47 2012/02/13 03:49:22 pgj Exp $
+# $FreeBSD: ports/devel/hs-c2hs/Makefile,v 1.48 2012/06/03 20:52:11 pgj Exp $
 #
 
 PORTNAME=	c2hs
 PORTVERSION=	0.16.3
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

@@ -2,13 +2,12 @@
 # Date created:        November 19, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/security/hs-pwstore-fast/Makefile,v 1.1 2012/02/13 02:50:54 pgj Exp $
+# $FreeBSD: ports/security/hs-pwstore-fast/Makefile,v 1.2 2012/06/03 20:52:22 pgj Exp $
 #
 
 PORTNAME=	pwstore-fast
 PORTVERSION=	2.2
 PORTREVISION=	1
-
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org

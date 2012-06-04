@@ -2,10 +2,11 @@
 # Date created:				November 26, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: ports/devel/hs-Stream/Makefile,v 1.11 2012/02/13 04:14:20 pgj Exp $
+# $FreeBSD: ports/devel/hs-Stream/Makefile,v 1.12 2012/06/03 20:52:09 pgj Exp $
 
 PORTNAME=	Stream
 PORTVERSION=	0.4.6
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

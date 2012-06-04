@@ -2,7 +2,7 @@
 # Date created:        April 8, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/net/hs-socks/Makefile,v 1.1 2012/06/03 19:19:27 pgj Exp $
 #
 
 PORTNAME=	socks

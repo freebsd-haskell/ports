@@ -2,11 +2,12 @@
 # Date created:		2010-08-10
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-HUnit/Makefile,v 1.3 2012/02/13 04:09:16 pgj Exp $
+# $FreeBSD: ports/devel/hs-HUnit/Makefile,v 1.4 2012/06/03 20:52:08 pgj Exp $
 #
 
 PORTNAME=	HUnit
 PORTVERSION=	1.2.4.2
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

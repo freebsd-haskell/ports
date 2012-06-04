@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/math/hs-Agda-executable/Makefile,v 1.9 2012/02/13 05:05:11 pgj Exp $
+# $FreeBSD: ports/math/hs-Agda-executable/Makefile,v 1.10 2012/06/03 22:09:57 pgj Exp $
 #
 
 PORTNAME=	Agda-executable

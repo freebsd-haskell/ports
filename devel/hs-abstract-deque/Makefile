@@ -2,7 +2,7 @@
 # Date created:        May 9, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-abstract-deque/Makefile,v 1.1 2012/06/03 18:55:53 pgj Exp $
 #
 
 PORTNAME=	abstract-deque

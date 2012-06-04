@@ -2,12 +2,12 @@
 # Date created:        December 10 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-datetime/Makefile,v 1.8 2012/02/13 03:49:22 pgj Exp $
+# $FreeBSD: ports/devel/hs-datetime/Makefile,v 1.9 2012/06/03 20:52:11 pgj Exp $
 #
 
 PORTNAME=	datetime
 PORTVERSION=	0.2.1
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

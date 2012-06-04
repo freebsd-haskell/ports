@@ -2,7 +2,7 @@
 # Date created:        January 10 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-unix-compat/Makefile,v 1.8 2012/02/13 03:49:27 pgj Exp $
+# $FreeBSD: ports/devel/hs-unix-compat/Makefile,v 1.9 2012/06/03 22:02:00 pgj Exp $
 #
 
 PORTNAME=	unix-compat

@@ -2,12 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/audio/hs-ALUT/Makefile,v 1.7 2012/02/13 03:49:19 pgj Exp $
+# $FreeBSD: ports/audio/hs-ALUT/Makefile,v 1.8 2012/06/03 20:52:06 pgj Exp $
 #
 
 PORTNAME=	ALUT
 PORTVERSION=	2.2.0.0
-PORTREVISION=	4
+PORTREVISION=	5
 CATEGORIES=	audio haskell
 
 MAINTAINER=	haskell@FreeBSD.org

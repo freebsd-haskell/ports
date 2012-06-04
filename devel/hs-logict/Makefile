@@ -2,7 +2,7 @@
 # Date created:        November 19, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-logict/Makefile,v 1.1 2012/02/13 02:21:34 pgj Exp $
+# $FreeBSD: ports/devel/hs-logict/Makefile,v 1.2 2012/06/03 21:51:06 pgj Exp $
 #
 
 PORTNAME=	logict

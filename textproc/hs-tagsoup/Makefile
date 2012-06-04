@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/textproc/hs-tagsoup/Makefile,v 1.12 2012/02/13 05:39:56 pgj Exp $
+# $FreeBSD: ports/textproc/hs-tagsoup/Makefile,v 1.13 2012/06/03 20:52:25 pgj Exp $
 #
 
 PORTNAME=	tagsoup
 PORTVERSION=	0.12.6
+PORTREVISION=	1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

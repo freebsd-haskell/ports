@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-cmdargs/Makefile,v 1.4 2012/02/13 04:22:51 pgj Exp $
+# $FreeBSD: ports/devel/hs-cmdargs/Makefile,v 1.5 2012/06/03 21:37:12 pgj Exp $
 #
 
 PORTNAME=	cmdargs

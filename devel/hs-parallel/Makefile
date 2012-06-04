@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-parallel/Makefile,v 1.3 2012/02/13 03:49:25 pgj Exp $
+# $FreeBSD: ports/devel/hs-parallel/Makefile,v 1.4 2012/06/03 21:53:42 pgj Exp $
 #
 
 PORTNAME=	parallel

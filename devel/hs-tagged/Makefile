@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-tagged/Makefile,v 1.1 2012/02/13 02:24:19 pgj Exp $
+# $FreeBSD: ports/devel/hs-tagged/Makefile,v 1.2 2012/06/03 21:55:43 pgj Exp $
 #
 
 PORTNAME=	tagged

@@ -2,7 +2,7 @@
 # Date created:				28 August 1999
 # Whom:					Simon Marlow <simonmar@microsoft.com>
 #
-# $FreeBSD: ports/lang/ghc/Makefile,v 1.95 2012/02/13 14:49:11 ashish Exp $
+# $FreeBSD: ports/lang/ghc/Makefile,v 1.96 2012/06/03 20:52:18 pgj Exp $
 
 PORTNAME=	ghc
 PORTVERSION=	7.4.1

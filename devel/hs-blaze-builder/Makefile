@@ -2,11 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-blaze-builder/Makefile,v 1.4 2012/02/13 04:17:57 pgj Exp $
+# $FreeBSD: ports/devel/hs-blaze-builder/Makefile,v 1.5 2012/06/03 20:52:10 pgj Exp $
 #
 
 PORTNAME=	blaze-builder
 PORTVERSION=	0.3.1.0
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

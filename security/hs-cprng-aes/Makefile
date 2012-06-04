@@ -2,13 +2,12 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/security/hs-cprng-aes/Makefile,v 1.1 2012/02/13 02:39:04 pgj Exp $
+# $FreeBSD: ports/security/hs-cprng-aes/Makefile,v 1.2 2012/06/03 20:52:21 pgj Exp $
 #
 
 PORTNAME=	cprng-aes
 PORTVERSION=	0.2.3
 PORTREVISION=	1
-
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org

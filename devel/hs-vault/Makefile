@@ -2,7 +2,7 @@
 # Date created:        April 7, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-vault/Makefile,v 1.1 2012/06/03 19:15:34 pgj Exp $
 #
 
 PORTNAME=	vault

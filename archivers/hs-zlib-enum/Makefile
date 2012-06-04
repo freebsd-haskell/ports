@@ -2,7 +2,7 @@
 # Date created:				October 18, 2011
 # Whom:					haskell@FreeBSD.org
 #
-# $FreeBSD: ports/archivers/hs-zlib-enum/Makefile,v 1.1 2012/02/13 02:05:00 pgj Exp $
+# $FreeBSD: ports/archivers/hs-zlib-enum/Makefile,v 1.2 2012/06/03 21:26:18 pgj Exp $
 
 PORTNAME=	zlib-enum
 PORTVERSION=	0.2.2.1

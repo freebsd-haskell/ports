@@ -2,7 +2,7 @@
 # Date created:        December 30, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-lifted-base/Makefile,v 1.1 2012/02/17 15:51:18 pgj Exp $
+# $FreeBSD: ports/devel/hs-lifted-base/Makefile,v 1.2 2012/06/03 21:50:38 pgj Exp $
 #
 
 PORTNAME=	lifted-base

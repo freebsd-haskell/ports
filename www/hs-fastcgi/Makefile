@@ -2,12 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/www/hs-fastcgi/Makefile,v 1.7 2012/02/13 03:49:31 pgj Exp $
+# $FreeBSD: ports/www/hs-fastcgi/Makefile,v 1.8 2012/06/03 20:52:26 pgj Exp $
 #
 
 PORTNAME=	fastcgi
 PORTVERSION=	3001.0.2.3
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org

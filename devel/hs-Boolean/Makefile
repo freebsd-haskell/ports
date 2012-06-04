@@ -2,12 +2,12 @@
 # Date created:        June 5, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-Boolean/Makefile,v 1.4 2012/02/13 03:49:20 pgj Exp $
+# $FreeBSD: ports/devel/hs-Boolean/Makefile,v 1.5 2012/06/03 20:52:08 pgj Exp $
 #
 
 PORTNAME=	Boolean
 PORTVERSION=	0.0.1
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

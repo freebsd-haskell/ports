@@ -2,7 +2,7 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-hamlet/Makefile,v 1.1 2012/02/18 17:13:17 pgj Exp $
+# $FreeBSD: ports/www/hs-hamlet/Makefile,v 1.2 2012/06/03 22:38:44 pgj Exp $
 #
 
 PORTNAME=	hamlet

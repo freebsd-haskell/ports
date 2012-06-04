@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-fgl/Makefile,v 1.7 2012/02/13 04:25:31 pgj Exp $
+# $FreeBSD: ports/devel/hs-fgl/Makefile,v 1.8 2012/06/03 20:52:12 pgj Exp $
 #
 
 PORTNAME=	fgl
 PORTVERSION=	5.4.2.4
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

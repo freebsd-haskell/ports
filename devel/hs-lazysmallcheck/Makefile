@@ -2,11 +2,12 @@
 # Date created:				March 11, 2009
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-lazysmallcheck/Makefile,v 1.10 2012/02/13 04:38:37 pgj Exp $
+# $FreeBSD: ports/devel/hs-lazysmallcheck/Makefile,v 1.11 2012/06/03 20:52:15 pgj Exp $
 #
 
 PORTNAME=	lazysmallcheck
 PORTVERSION=	0.6
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

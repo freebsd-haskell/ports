@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/mail/hs-mime/Makefile,v 1.6 2012/02/13 05:02:42 pgj Exp $
+# $FreeBSD: ports/mail/hs-mime/Makefile,v 1.7 2012/06/03 20:52:19 pgj Exp $
 #
 
 PORTNAME=	mime
 PORTVERSION=	0.3.3
+PORTREVISION=	1
 CATEGORIES=	mail haskell
 
 MAINTAINER=	haskell@FreeBSD.org

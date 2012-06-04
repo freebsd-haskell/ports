@@ -2,7 +2,7 @@
 # Date created:		2010-05-14
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/net/hs-network/Makefile,v 1.3 2012/02/13 05:17:11 pgj Exp $
+# $FreeBSD: ports/net/hs-network/Makefile,v 1.4 2012/06/03 22:19:38 pgj Exp $
 #
 
 PORTNAME=	network

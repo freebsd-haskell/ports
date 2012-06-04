@@ -2,7 +2,7 @@
 # Date created:        January 07 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-reactive/Makefile,v 1.9 2012/02/13 03:49:26 pgj Exp $
+# $FreeBSD: ports/devel/hs-reactive/Makefile,v 1.10 2012/06/03 20:52:16 pgj Exp $
 #
 
 PORTNAME=	reactive

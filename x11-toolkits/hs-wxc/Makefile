@@ -2,7 +2,7 @@
 # Date created:        May 9, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/x11-toolkits/hs-wxc/Makefile,v 1.1 2012/06/03 19:33:37 pgj Exp $
 #
 
 PORTNAME=	wxc

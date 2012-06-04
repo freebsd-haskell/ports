@@ -2,7 +2,7 @@
 # Date created:		December 30, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-system-filepath/Makefile,v 1.1 2012/06/03 19:12:30 pgj Exp $
 #
 
 PORTNAME=	system-filepath

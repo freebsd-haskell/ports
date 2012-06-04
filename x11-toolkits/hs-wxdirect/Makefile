@@ -2,7 +2,7 @@
 # Date created:        January 26, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/x11-toolkits/hs-wxdirect/Makefile,v 1.1 2012/02/18 21:31:42 pgj Exp $
+# $FreeBSD: ports/x11-toolkits/hs-wxdirect/Makefile,v 1.2 2012/06/03 22:58:54 pgj Exp $
 #
 
 PORTNAME=	wxdirect

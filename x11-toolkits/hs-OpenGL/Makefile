@@ -2,7 +2,7 @@
 # Date created:				2008-09-04
 # Whom:					Volker Stolz <vs@FreeBSD.org>
 #
-# $FreeBSD: ports/x11-toolkits/hs-OpenGL/Makefile,v 1.15 2012/02/13 03:49:32 pgj Exp $
+# $FreeBSD: ports/x11-toolkits/hs-OpenGL/Makefile,v 1.16 2012/06/03 22:55:29 pgj Exp $
 
 PORTNAME=	OpenGL
 PORTVERSION=	2.2.3.1

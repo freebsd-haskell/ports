@@ -2,7 +2,7 @@
 # Date created:		14 June 2004
 # Whom:			obraun@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-cpphs/Makefile,v 1.25 2012/02/13 12:58:22 pgj Exp $
+# $FreeBSD: ports/devel/hs-cpphs/Makefile,v 1.26 2012/06/03 21:38:17 pgj Exp $
 #
 
 PORTNAME=	cpphs

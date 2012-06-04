@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-gio/Makefile,v 1.3 2012/02/13 04:28:01 pgj Exp $
+# $FreeBSD: ports/devel/hs-gio/Makefile,v 1.4 2012/06/03 21:41:38 pgj Exp $
 #
 
 PORTNAME=	gio

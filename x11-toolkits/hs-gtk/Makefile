@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/x11-toolkits/hs-gtk/Makefile,v 1.4 2012/06/01 05:25:51 dinoex Exp $
+# $FreeBSD: ports/x11-toolkits/hs-gtk/Makefile,v 1.5 2012/06/03 22:55:58 pgj Exp $
 #
 
 PORTNAME=	gtk

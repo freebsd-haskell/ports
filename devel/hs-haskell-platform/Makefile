@@ -2,7 +2,7 @@
 # Date created:        April 23, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-haskell-platform/Makefile,v 1.4 2012/02/13 06:03:31 pgj Exp $
+# $FreeBSD: ports/devel/hs-haskell-platform/Makefile,v 1.5 2012/06/03 23:18:36 pgj Exp $
 #
 
 PORTNAME=	haskell-platform
@@ -15,13 +15,13 @@ COMMENT=	The Haskell Platform
 LICENSE=	BSD
 
 METAPORT=	yes
-USE_CABAL=	cgi==3001.1.7.4_2,1 \
-		fgl==5.4.2.4 \
-		GLUT==2.1.2.1_2,1 \
+USE_CABAL=	cgi==3001.1.7.4_3,1 \
+		fgl==5.4.2.4_1 \
+		GLUT==2.1.2.1_3,1 \
 		haskell-src==1.0.1.5 \
-		html==1.0.1.2_2 \
+		html==1.0.1.2_3 \
 		HTTP==4000.2.3 \
-		HUnit==1.2.4.2 \
+		HUnit==1.2.4.2_1 \
 		mtl==2.1.1 \
 		network==2.3.0.13 \
 		OpenGL==2.2.3.1,1 \
@@ -29,9 +29,9 @@ USE_CABAL=	cgi==3001.1.7.4_2,1 \
 		parsec==3.1.2 \
 		QuickCheck==2.4.2 \
 		random==1.0.1.1 \
-		regex-base==0.93.2_2 \
-		regex-compat==0.95.1 \
-		regex-posix==0.95.1 \
+		regex-base==0.93.2_3 \
+		regex-compat==0.95.1_1 \
+		regex-posix==0.95.1_1 \
 		stm==2.3 \
 		syb==0.3.6.1 \
 		text=0.11.2.0 \

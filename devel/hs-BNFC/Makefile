@@ -2,7 +2,7 @@
 # Date created:		2007-02-11
 # Whom:			Kai Wang <kaiw27@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-BNFC/Makefile,v 1.10 2012/02/13 03:49:20 pgj Exp $
+# $FreeBSD: ports/devel/hs-BNFC/Makefile,v 1.11 2012/06/03 20:52:07 pgj Exp $
 #
 
 PORTNAME=	BNFC

@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/www/hs-HTTP/Makefile,v 1.6 2012/02/13 05:45:26 pgj Exp $
+# $FreeBSD: ports/www/hs-HTTP/Makefile,v 1.7 2012/06/03 22:36:47 pgj Exp $
 #
 
 PORTNAME=	HTTP

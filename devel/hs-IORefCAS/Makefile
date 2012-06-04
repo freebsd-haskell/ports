@@ -2,7 +2,7 @@
 # Date created:        May 12, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-IORefCAS/Makefile,v 1.1 2012/06/03 18:52:53 pgj Exp $
 #
 
 PORTNAME=	IORefCAS

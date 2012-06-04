@@ -2,12 +2,12 @@
 # Date created:		11 August 2011
 # Whom:			Kaspars Bankovskis <kaspars@bankovskis.lv>
 #
-# $FreeBSD: ports/textproc/hs-csv/Makefile,v 1.3 2012/02/16 18:54:16 pgj Exp $
+# $FreeBSD: ports/textproc/hs-csv/Makefile,v 1.4 2012/06/03 20:52:23 pgj Exp $
 #
 
 PORTNAME=	csv
 PORTVERSION=	0.1.2
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

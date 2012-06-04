@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/lang/hs-epic/Makefile,v 1.1 2012/02/13 02:08:15 pgj Exp $
+# $FreeBSD: ports/lang/hs-epic/Makefile,v 1.2 2012/06/03 22:08:26 pgj Exp $
 #
 
 PORTNAME=	epic

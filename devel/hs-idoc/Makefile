@@ -2,7 +2,7 @@
 # Date created:				25 October 2002
 # Whom:					Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-idoc/Makefile,v 1.18 2012/02/13 03:49:25 pgj Exp $
+# $FreeBSD: ports/devel/hs-idoc/Makefile,v 1.19 2012/06/03 20:52:14 pgj Exp $
 
 PORTNAME=	idoc
 PORTVERSION=	0.2.6

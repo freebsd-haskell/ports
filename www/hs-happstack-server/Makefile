@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-happstack-server/Makefile,v 1.1 2012/02/17 17:09:53 pgj Exp $
+# $FreeBSD: ports/www/hs-happstack-server/Makefile,v 1.2 2012/06/03 22:39:54 pgj Exp $
 #
 
 PORTNAME=	happstack-server

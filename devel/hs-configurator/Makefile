@@ -2,11 +2,12 @@
 # Date created:        November 19, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-configurator/Makefile,v 1.1 2012/02/13 02:13:47 pgj Exp $
+# $FreeBSD: ports/devel/hs-configurator/Makefile,v 1.2 2012/06/03 20:52:11 pgj Exp $
 #
 
 PORTNAME=	configurator
 PORTVERSION=	0.2.0.0
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

@@ -2,7 +2,7 @@
 # Date created:        May 24, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-http-types/Makefile,v 1.4 2012/02/13 05:47:14 pgj Exp $
+# $FreeBSD: ports/www/hs-http-types/Makefile,v 1.5 2012/06/03 22:41:08 pgj Exp $
 #
 
 PORTNAME=	http-types

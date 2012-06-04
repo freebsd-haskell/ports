@@ -2,12 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-hlibev/Makefile,v 1.2 2012/02/13 03:49:24 pgj Exp $
+# $FreeBSD: ports/devel/hs-hlibev/Makefile,v 1.3 2012/06/03 20:52:14 pgj Exp $
 #
 
 PORTNAME=	hlibev
 PORTVERSION=	0.4.0
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

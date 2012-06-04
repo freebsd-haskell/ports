@@ -2,7 +2,7 @@
 # Date created:        April 7, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/security/hs-monadcryptorandom/Makefile,v 1.1 2012/06/03 19:20:54 pgj Exp $
 #
 
 PORTNAME=	monadcryptorandom

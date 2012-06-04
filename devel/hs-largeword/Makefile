@@ -2,11 +2,12 @@
 # Date created:        July 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-largeword/Makefile,v 1.1 2012/02/13 02:19:28 pgj Exp $
+# $FreeBSD: ports/devel/hs-largeword/Makefile,v 1.2 2012/06/03 20:52:15 pgj Exp $
 #
 
 PORTNAME=	largeword
 PORTVERSION=	1.0.1
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

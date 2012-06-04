@@ -2,7 +2,7 @@
 # Date created:        January 26, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/x11-toolkits/hs-wxcore/Makefile,v 1.2 2012/06/01 05:25:52 dinoex Exp $
+# $FreeBSD: ports/x11-toolkits/hs-wxcore/Makefile,v 1.3 2012/06/03 22:58:21 pgj Exp $
 #
 
 PORTNAME=	wxcore

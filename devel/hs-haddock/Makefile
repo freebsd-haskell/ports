@@ -2,7 +2,7 @@
 # Date created:				09 May 2002
 # Whom:					Oliver Braun <obraun@informatik.unibw-muenchen.de>
 #
-# $FreeBSD: ports/devel/hs-haddock/Makefile,v 1.42 2012/02/13 03:49:24 pgj Exp $
+# $FreeBSD: ports/devel/hs-haddock/Makefile,v 1.43 2012/06/03 21:44:59 pgj Exp $
 
 PORTNAME=	haddock
 PORTVERSION=	2.10.0

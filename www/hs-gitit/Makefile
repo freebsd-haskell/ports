@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-gitit/Makefile,v 1.1 2012/02/18 03:25:18 pgj Exp $
+# $FreeBSD: ports/www/hs-gitit/Makefile,v 1.2 2012/06/03 22:38:12 pgj Exp $
 #
 
 PORTNAME=	gitit

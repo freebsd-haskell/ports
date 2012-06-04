@@ -2,7 +2,7 @@
 # Date created:        July 16, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/math/hs-pointed/Makefile,v 1.2 2012/02/13 05:10:21 pgj Exp $
+# $FreeBSD: ports/math/hs-pointed/Makefile,v 1.3 2012/06/03 22:15:32 pgj Exp $
 #
 
 PORTNAME=	pointed

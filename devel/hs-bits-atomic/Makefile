@@ -2,7 +2,7 @@
 # Date created:        May 12, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-bits-atomic/Makefile,v 1.1 2012/06/03 18:58:40 pgj Exp $
 #
 
 PORTNAME=	bits-atomic

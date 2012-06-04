@@ -2,7 +2,7 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-yesod-auth/Makefile,v 1.1 2012/02/18 17:51:06 pgj Exp $
+# $FreeBSD: ports/www/hs-yesod-auth/Makefile,v 1.2 2012/06/03 22:52:31 pgj Exp $
 #
 
 PORTNAME=	yesod-auth
