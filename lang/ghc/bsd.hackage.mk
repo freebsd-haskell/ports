@@ -129,6 +129,7 @@ git-annex_port=			devel/hs-git-annex	# executable
 glade_port=			devel/hs-glade
 glib_port=			devel/hs-glib
 GLUT_port=			x11-toolkits/hs-GLUT
+graphviz_port=			graphics/hs-graphviz
 gstreamer_port=			multimedia/hs-gstreamer
 gtk_port=			x11-toolkits/hs-gtk
 gtk2hs-buildtools_port=		devel/hs-gtk2hs-buildtools # executable
