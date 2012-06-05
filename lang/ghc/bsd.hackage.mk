@@ -335,6 +335,7 @@ wai-extra_port=			www/hs-wai-extra
 wai-logger_port=		www/hs-wai-logger
 warp_port=			www/hs-warp
 webkit_port=			www/hs-webkit
+wl-pprint-text_port=		textproc/hs-wl-pprint-text
 wx_port=			x11-toolkits/hs-wx
 wxc_port=			x11-toolkits/hs-wxc		# lib_depends
 wxcore_port=			x11-toolkits/hs-wxcore		# lib_depends
