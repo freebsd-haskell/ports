@@ -71,6 +71,7 @@ configurator_port=		devel/hs-configurator
 contravariant_port=		math/hs-contravariant
 convertible_port=		devel/hs-convertible
 cookie_port=			www/hs-cookie
+colour_port=			graphics/hs-colour
 cpphs_port=			devel/hs-cpphs		# executable
 cprng-aes_port=			security/hs-cprng-aes
 cpu_port=			sysutils/hs-cpu
