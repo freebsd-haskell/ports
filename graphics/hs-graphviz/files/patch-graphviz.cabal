@@ -1,0 +1,11 @@
+--- ./graphviz.cabal.orig	2012-04-20 07:21:41.000000000 +0200
++++ ./graphviz.cabal	2012-06-06 20:02:47.000000000 +0200
+@@ -61,7 +61,7 @@
+                            polyparse >= 1.7 && < 1.9,
+                            bytestring == 0.9.*,
+                            colour == 2.3.*,
+-                           transformers == 0.2.*,
++                           transformers >= 0.2,
+                            text,
+                            wl-pprint-text,
+                            dlist == 0.5.*
