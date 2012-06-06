@@ -1,5 +1,5 @@
 #
-# $FreeBSD: ports/lang/ghc/bsd.hackage.mk,v 1.198 2012/06/03 23:28:39 pgj Exp $
+# $FreeBSD: ports/lang/ghc/bsd.hackage.mk,v 1.199 2012/06/06 18:26:50 pgj Exp $
 #
 # bsd.hackage.mk -- List of Haskell Cabal ports.
 #
