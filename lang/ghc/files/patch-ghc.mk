@@ -1,5 +1,5 @@
 
-$FreeBSD: ports/lang/ghc/files/patch-ghc.mk,v 1.1 2011/05/09 05:28:46 ashish Exp $
+$FreeBSD: ports/lang/ghc/files/patch-ghc.mk,v 1.2 2012/06/08 16:11:47 pgj Exp $
 
 --- ghc.mk.orig	2012-02-01 19:10:32.000000000 +0100
 +++ ghc.mk	2012-06-08 17:39:40.000000000 +0200
