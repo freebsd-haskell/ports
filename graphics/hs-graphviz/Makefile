@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	graphviz
-PORTVERSION=	2999.13.0.2
+PORTVERSION=	2999.13.0.3
 CATEGORIES=	graphics haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,7 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	colour dlist fgl polyparse>=1.7 text transformers \
+USE_CABAL=	colour dlist fgl polyparse>=1.7 text transformers>=0.2 \
 		wl-pprint-text
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
