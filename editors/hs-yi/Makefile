@@ -31,7 +31,7 @@ HADDOCK_EXE=	# empty
 
 OPTIONS=	PANGO	"Build with Pango frontend"	off \
 		VTE	"Build with Vte frontend"	off \
-		VTY	"Build with Vty frontend"	off
+		VTY	"Build with Vty frontend"	on
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 .include <bsd.port.options.mk>
@@ -52,6 +52,10 @@ CONFIGURE_ARGS+=	--flags="-vte"
 CONFIGURE_ARGS+=	--flags="vty"
 .else
 CONFIGURE_ARGS+=	--flags="-vty"
+.endif
+
+.if !defined(WITH_PANGO) && !defined(WITH_VTE) && !defined(WITH_VTY)
+IGNORE=		cannot be compiled in this configuration.  Please (re)run 'make config' and choose a GUI frontend
 .endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
