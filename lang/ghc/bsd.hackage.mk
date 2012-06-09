@@ -344,6 +344,7 @@ void_port=			devel/hs-void
 vte_port=			x11-toolkits/hs-vte
 vty_port=			devel/hs-vty
 wai_port=			www/hs-wai
+wai-app-static_port=		www/hs-wai-app-static
 wai-extra_port=			www/hs-wai-extra
 wai-logger_port=		www/hs-wai-logger
 warp_port=			www/hs-warp
