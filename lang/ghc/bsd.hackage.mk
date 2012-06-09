@@ -320,6 +320,7 @@ X11_port=			x11/hs-X11		# lib_depends
 X11-xft_port=			x11/hs-X11-xft
 xhtml_port=			textproc/hs-xhtml
 xml_port=			textproc/hs-xml
+xml2html_port=			textproc/hs-xml2html
 xml-conduit_port=		textproc/hs-xml-conduit
 xml-types_port=			textproc/hs-xml-types
 xmlhtml_port=			textproc/hs-xmlhtml
