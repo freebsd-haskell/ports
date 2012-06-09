@@ -102,6 +102,7 @@ fast-logger_port=		devel/hs-fast-logger
 fastcgi_port=			www/hs-fastcgi		# lib_depends
 feed_port=			textproc/hs-feed
 fgl_port=			devel/hs-fgl
+file-embed_port=		devel/hs-file-embed
 filemanip_port=			devel/hs-filemanip
 filestore_port=			devel/hs-filestore
 gconf_port=			devel/hs-gconf
