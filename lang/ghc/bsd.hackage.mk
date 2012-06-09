@@ -347,6 +347,7 @@ wai_port=			www/hs-wai
 wai-app-static_port=		www/hs-wai-app-static
 wai-extra_port=			www/hs-wai-extra
 wai-logger_port=		www/hs-wai-logger
+wai-test_port=			www/hs-wai-test
 warp_port=			www/hs-warp
 webkit_port=			www/hs-webkit
 wl-pprint-text_port=		textproc/hs-wl-pprint-text
