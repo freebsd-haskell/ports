@@ -105,6 +105,7 @@ fgl_port=			devel/hs-fgl
 file-embed_port=		devel/hs-file-embed
 filemanip_port=			devel/hs-filemanip
 filestore_port=			devel/hs-filestore
+filesystem-conduit_port=	devel/hs-filesystem-conduit
 gconf_port=			devel/hs-gconf
 ghc-events_port=		devel/hs-ghc-events	# executable
 ghc-mtl_port=			devel/hs-ghc-mtl
