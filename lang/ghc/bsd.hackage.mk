@@ -379,6 +379,7 @@ yesod-form_port=		www/hs-yesod-form
 yesod-json_port=		www/hs-yesod-json
 yesod-persistent_port=		www/hs-yesod-persistent
 yesod-routes_port=		www/hs-yesod-routes
+yesod-static_port=		www/hs-yesod-static
 yi_port=			editors/hs-yi			# executable
 zip-archive_port=		archivers/hs-zip-archive
 zlib_port=			archivers/hs-zlib
