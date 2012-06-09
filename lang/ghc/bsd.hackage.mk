@@ -116,6 +116,7 @@ fastirc_port=			irc/hs-fastirc
 feed_port=			textproc/hs-feed
 fclabels_port=			devel/hs-fclabels
 fgl_port=			devel/hs-fgl
+file-embed_port=		devel/hs-file-embed
 filemanip_port=			devel/hs-filemanip
 filestore_port=			devel/hs-filestore
 fingertree_port=		devel/hs-fingertree
