@@ -14,7 +14,7 @@ COMMENT=	Meta package for Yesod
 
 LICENSE=	MIT
 
-USE_CABAL=	aeson==0.6.0.2 ansi-terminal==0.5.5 asn1-data==0.6.1.3 \
+USE_CABAL=	aeson==0.6.0.2 ansi-terminal==0.5.5_3 asn1-data==0.6.1.3 \
 		attoparsec==0.10.2.0 attoparsec-conduit==0.4.0.1 \
 		attoparsec-enumerator==0.3_1 authenticate==1.2.1.1 \
 		base-unicode-symbols==0.2.2.3_1 base64-bytestring==0.1.1.1 \
