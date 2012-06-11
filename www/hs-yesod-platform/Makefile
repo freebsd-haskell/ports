@@ -37,7 +37,7 @@ USE_CABAL=	aeson==0.6.0.2 ansi-terminal==0.5.5 asn1-data==0.6.1.3 \
 		network-conduit==0.4.0.1 path-pieces==0.1.1 pem==0.1.1 \
 		persistent==0.9.0.4 persistent-template==0.9.0.2 \
 		pool-conduit==0.1.0.2 primitive==0.4.1_1 pureMD5==2.1.0.3_1 \
-		pwstore-fast==2.2_1 QuickCheck==2.4.2 ranges==0.2.4 \
+		pwstore-fast==2.2_1 QuickCheck==2.4.2 ranges==0.2.4_1 \
 		regex-compat==0.95.1_1 resource-pool==0.2.1.0 resourcet==0.3.2.1 \
 		safe==0.3.3_1 semigroups==0.8.3.2 SHA==1.5.0.1 \
 		shakespeare==1.0.0.2 shakespeare-css==1.0.1.2 \
