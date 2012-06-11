@@ -79,6 +79,14 @@ CPPFLAGS+=	-I${LOCALBASE}/include
 INSTALL_PORTDATA?=
 INSTALL_PORTEXAMPLES?=
 
+.if !exists(${PREFIX}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
+WITHOUT_DYNAMIC?=   yes
+.endif
+
+.if !exists(${PREFIX}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi)
+WITHOUT_PROFILE?=   yes
+.endif
+
 .if defined(USE_ALEX)
 BUILD_DEPENDS+=	${ALEX_CMD}:${PORTSDIR}/devel/hs-alex
 CONFIGURE_ARGS+=	 --with-alex=${ALEX_CMD}
@@ -189,7 +197,7 @@ CONFIGURE_ARGS+=	--disable-shared
 PLIST_SUB+=	DYNAMIC="@comment "
 .endif
 
-.if defined(WITH_PROFILE)
+.if !defined(WITHOUT_PROFILE)
 CONFIGURE_ARGS+=	--enable-executable-profiling --enable-library-profiling
 PLIST_SUB+=	PROFILE=""
 .else
