@@ -20,7 +20,7 @@ USE_CABAL=	aeson==0.6.0.2 ansi-terminal==0.5.5 asn1-data==0.6.1.3 \
 		base-unicode-symbols==0.2.2.3_1 base64-bytestring==0.1.1.1 \
 		blaze-builder==0.3.1.0_1 blaze-builder-conduit==0.4.0.2 \
 		blaze-html==0.4.3.4 blaze-markup==0.5.1.0 byteorder==1.0.3_1 \
-		case-insensitive==0.4.0.1_1 cereal==0.3.5.1 certificate==1.2.3 \
+		case-insensitive==0.4.0.1_1 cereal==0.3.5.1_1 certificate==1.2.3 \
 		clientsession==0.7.5 conduit==0.4.2 cookie==0.4.0 \
 		cprng-aes==0.2.3_1 cpu==0.1.0 crypto-api==0.10.2 \
 		crypto-conduit==0.3.2 crypto-pubkey-types==0.1.1 \
