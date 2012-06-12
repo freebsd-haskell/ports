@@ -145,12 +145,6 @@ RUN_DEPENDS+=	${dependencies}
 USE_PERL5_BUILD=	5.8+
 .endif
 
-.if defined(NOPORTDOCS)
-PLIST_SUB+=	NOPORTDOCS=""
-.else
-PLIST_SUB+=	NOPORTDOCS="@comment "
-.endif
-
 .if !defined(NOPORTDOCS)
 .if !defined(XMLDOCS)
 HADDOCK_OPTS=	${HADDOCK_EXE}
@@ -191,18 +185,14 @@ CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 
 .if !defined(WITHOUT_DYNAMIC)
 CONFIGURE_ARGS+=	--enable-shared
-PLIST_SUB+=	DYNAMIC=""
 .else
 CONFIGURE_ARGS+=	--disable-shared
-PLIST_SUB+=	DYNAMIC="@comment "
 .endif
 
 .if !defined(WITHOUT_PROFILE)
 CONFIGURE_ARGS+=	--enable-executable-profiling --enable-library-profiling
-PLIST_SUB+=	PROFILE=""
 .else
 CONFIGURE_ARGS+=	--disable-executable-profiling --disable-library-profiling
-PLIST_SUB+=	PROFILE="@comment "
 .endif
 
 .SILENT:
