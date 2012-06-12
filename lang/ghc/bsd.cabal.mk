@@ -79,11 +79,11 @@ CPPFLAGS+=	-I${LOCALBASE}/include
 INSTALL_PORTDATA?=
 INSTALL_PORTEXAMPLES?=
 
-.if !exists(${PREFIX}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
+.if !exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
 WITHOUT_DYNAMIC?=   yes
 .endif
 
-.if !exists(${PREFIX}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi)
+.if !exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi)
 WITHOUT_PROFILE?=   yes
 .endif
 
