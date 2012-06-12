@@ -237,6 +237,7 @@ pandoc_port=			textproc/hs-pandoc	# executable
 pandoc-types_port=		textproc/hs-pandoc-types
 pango_port=			x11-toolkits/hs-pango
 parallel_port=			devel/hs-parallel
+parallel-io_port=       devel/hs-parallel-io
 parsec_port=			textproc/hs-parsec
 path-pieces_port=		www/hs-path-pieces
 pcap_port=			net/hs-pcap
