@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	git-annex
-PORTVERSION=	3.20120605
+PORTVERSION=	3.20120123
 CATEGORIES=	devel haskell
 
 MAINTAINER=	frase@frase.id.au
@@ -17,10 +17,9 @@ FILE_LICENSE=	GPL
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	bloomfilter dataenc edit-distance hS3 hslogger HTTP \
-		IfElse json lifted-base MissingH monad-control mtl \
-		network pcre-light QuickCheck>=2.1 SHA text transformers-base \
-		utf8-string
+USE_CABAL=	dataenc hS3 hslogger HTTP json lifted-base MissingH \
+		monad-control mtl network pcre-light QuickCheck>=2.1 \
+		SHA transformers-base utf8-string
 
 USE_GMAKE=		yes
 USE_PERL5_BUILD=	yes
@@ -31,8 +30,11 @@ BUILD_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 		git:${PORTSDIR}/devel/git
 
-EXECUTABLE=	git-annex git-annex-shell
+EXECUTABLE=	git-union-merge git-annex-shell git-annex
 STANDALONE=	yes
+
+MAN1SRC=	.
+MAN1=		git-union-merge.1 git-annex-shell.1 git-annex.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

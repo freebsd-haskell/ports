@@ -6,11 +6,12 @@
 #
 
 PORTNAME=	split
-PORTVERSION=	0.1.4.3
+PORTVERSION=	0.1.4.2
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Combinator library for splitting lists
+COMMENT=	Haskell combinator library for splitting lists
 
 LICENSE=	BSD
 

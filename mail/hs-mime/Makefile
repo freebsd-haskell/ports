@@ -6,11 +6,12 @@
 #
 
 PORTNAME=	mime
-PORTVERSION=	0.3.3.2
+PORTVERSION=	0.3.3
+PORTREVISION=	1
 CATEGORIES=	mail haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Working with MIME types
+COMMENT=	Haskell library for working with MIME types
 
 LICENSE=	BSD
 
