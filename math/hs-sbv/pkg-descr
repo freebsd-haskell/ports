@@ -1,0 +1,7 @@
+Express properties about Haskell programs and automatically prove them
+using SMT (Satisfiability Modulo Theories) solvers. Automatically generate
+C programs from Haskell functions. The SBV library adds support for symbolic
+bit vectors and other symbolic types, allowing formal models of Haskell
+programs to be created.
+
+WWW:	http://github.com/LeventErkok/sbv
