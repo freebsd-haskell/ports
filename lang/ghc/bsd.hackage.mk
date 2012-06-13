@@ -274,6 +274,7 @@ resourcet_port=			devel/hs-resourcet
 rosezipper_port=		devel/hs-rosezipper
 RSA_port=			security/hs-RSA
 safe_port=			devel/hs-safe
+sbv_port=           math/hs-sbv
 scgi_port=			www/hs-scgi
 sendfile_port=			net/hs-sendfile
 semigroupoids_port=		math/hs-semigroupoids
