@@ -276,6 +276,7 @@ RSA_port=			security/hs-RSA
 safe_port=			devel/hs-safe
 sbv_port=           math/hs-sbv
 scgi_port=			www/hs-scgi
+scion-browser_port= devel/hs-scion-browser # executable
 sendfile_port=			net/hs-sendfile
 semigroupoids_port=		math/hs-semigroupoids
 semigroups_port=		math/hs-semigroups
