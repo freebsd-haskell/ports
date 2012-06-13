@@ -16,7 +16,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	aeson>=0.4 attoparsec buildwrapper cmdargs cpphs ghc-paths \
+USE_CABAL=	aeson>=0.4 attoparsec cmdargs cpphs ghc-paths \
 		ghc-syb-utils haskell-src-exts mtl regex-tdfa syb text \
 		transformers unordered-containers utf8-string vector>=0.8
 
