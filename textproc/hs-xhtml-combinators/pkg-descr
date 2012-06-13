@@ -1,4 +1,0 @@
-xhtml-combinators provides a set of (hopefully!) fast and easy to use XHTML
-1.0 Strict combinators built on top of the Data.Text library.
-
-WWW: http://www.dcs.shef.ac.uk/~aca08aa/xhtmlc.html

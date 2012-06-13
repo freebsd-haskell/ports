@@ -1,6 +1,0 @@
-A binding to the X on-screen display.
-
-xosd is a library for displaying an on-screen display (like the one on
-many TVs) on your X display.
-
-WWW:	http://code.haskell.org/~dons/xosd
