@@ -5,7 +5,8 @@
 # $FreeBSD: ports/x11/hs-xmobar/Makefile,v 1.15 2012/06/03 20:52:27 pgj Exp $
 
 PORTNAME=	xmobar
-PORTVERSION=	0.15
+PORTVERSION=	0.14
+PORTREVISION=	1
 CATEGORIES=	x11 haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -13,7 +14,7 @@ COMMENT=	A minimalistic text based status bar
 
 LICENSE=	BSD
 
-USE_CABAL=	mtl parsec stm X11
+USE_CABAL=	mtl parsec stm X11>=1.3.0
 USE_XORG=	x11 xrandr
 
 EXECUTABLE=	xmobar
