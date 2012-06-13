@@ -79,14 +79,6 @@ CPPFLAGS+=	-I${LOCALBASE}/include
 INSTALL_PORTDATA?=
 INSTALL_PORTEXAMPLES?=
 
-.if !exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
-WITHOUT_DYNAMIC?=   yes
-.endif
-
-.if !exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi)
-WITHOUT_PROFILE?=   yes
-.endif
-
 .if defined(USE_ALEX)
 BUILD_DEPENDS+=	${ALEX_CMD}:${PORTSDIR}/devel/hs-alex
 CONFIGURE_ARGS+=	 --with-alex=${ALEX_CMD}
@@ -145,6 +137,12 @@ RUN_DEPENDS+=	${dependencies}
 USE_PERL5_BUILD=	5.8+
 .endif
 
+.if defined(NOPORTDOCS)
+PLIST_SUB+=	NOPORTDOCS=""
+.else
+PLIST_SUB+=	NOPORTDOCS="@comment "
+.endif
+
 .if !defined(NOPORTDOCS)
 .if !defined(XMLDOCS)
 HADDOCK_OPTS=	${HADDOCK_EXE}
@@ -185,14 +183,18 @@ CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 
 .if !defined(WITHOUT_DYNAMIC)
 CONFIGURE_ARGS+=	--enable-shared
+PLIST_SUB+=	DYNAMIC=""
 .else
 CONFIGURE_ARGS+=	--disable-shared
+PLIST_SUB+=	DYNAMIC="@comment "
 .endif
 
-.if !defined(WITHOUT_PROFILE)
+.if defined(WITH_PROFILE)
 CONFIGURE_ARGS+=	--enable-executable-profiling --enable-library-profiling
+PLIST_SUB+=	PROFILE=""
 .else
 CONFIGURE_ARGS+=	--disable-executable-profiling --disable-library-profiling
+PLIST_SUB+=	PROFILE="@comment "
 .endif
 
 .SILENT:
@@ -313,7 +315,9 @@ add-plist-cabal:
 .if !defined(METAPORT)
 	@if [ -f ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}/register.sh ]; then \
 		(${ECHO_CMD} '@exec ${SH} %D/${CABAL_LIBDIR_REL}/${CABAL_LIBSUBDIR}/register.sh'; \
-		 ${ECHO_CMD} '@unexec %D/bin/ghc-pkg unregister --force ${PORTNAME}-${PORTVERSION}') >> ${TMPPLIST}; fi
+		 ${ECHO_CMD} '@exec ${RM} -f %D/lib/ghc-${GHC_VERSION}/package.conf.old'; \
+		 ${ECHO_CMD} '@unexec %D/bin/ghc-pkg unregister --force ${PORTNAME}-${PORTVERSION}'; \
+		 ${ECHO_CMD} '@unexec ${RM} -f %D/lib/ghc-${GHC_VERSION}/package.conf.old') >> ${TMPPLIST}; fi
 .if defined(NOPORTDOCS)
 	@if [ -f ${DOCSDIR}/${FILE_LICENSE} ]; then \
 		(${ECHO_CMD} '${DOCSDIR_REL}/${FILE_LICENSE}'; \
@@ -336,6 +340,10 @@ post-install::
 		cd ${PREFIX}/${GHC_LIB_DOCSDIR_REL} && \
 		${RM} -f doc-index*.html && ./gen_contents_index; \
 	fi
+.endif
+
+.if !defined(STANDALONE)
+	${RM} -f ${PREFIX}/lib/ghc-${GHC_VERSION}/package.conf.old
 .endif
 
 .if defined(EXECUTABLE)
