@@ -87,6 +87,10 @@ WITHOUT_DYNAMIC?=   yes
 WITHOUT_PROFILE?=   yes
 .endif
 
+.if !exists(${HADDOCK_CMD})
+NOPORTDOCS?=        yes
+.endif
+
 .if defined(USE_ALEX)
 BUILD_DEPENDS+=	${ALEX_CMD}:${PORTSDIR}/devel/hs-alex
 CONFIGURE_ARGS+=	 --with-alex=${ALEX_CMD}
