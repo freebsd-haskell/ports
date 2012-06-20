@@ -87,8 +87,8 @@ WITHOUT_DYNAMIC?=   yes
 WITHOUT_PROFILE?=   yes
 .endif
 
-.if !exists(${HADDOCK_CMD}) || !exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/html)
-NOPORTDOCS?=        yes
+.if defined(NOPORTDOCS) || !exists(${HADDOCK_CMD}) || !exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/html)
+WITHOUT_HADDOCK?=   yes
 .endif
 
 .if defined(USE_ALEX)
@@ -111,7 +111,7 @@ LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp
 USE_ICONV=	yes
 .endif
 
-.if defined(EXECUTABLE)
+.if defined(EXECUTABLE) && !defined(WITHOUT_HADDOCK)
 HADDOCK_EXE?=	--executables
 .endif
 
@@ -151,6 +151,8 @@ USE_PERL5_BUILD=	5.8+
 
 .if !defined(NOPORTDOCS)
 .if !defined(XMLDOCS)
+
+.if !defined(WITHOUT_HADDOCK)
 HADDOCK_OPTS=	${HADDOCK_EXE}
 
 .if defined(WITH_HSCOLOUR_DOCS)
@@ -160,6 +162,8 @@ HSCOLOUR_VERSION=	1.19
 HSCOLOUR_DATADIR=	${LOCALBASE}/share/ghc-${GHC_VERSION}/cabal/hscolour-${HSCOLOUR_VERSION}
 HADDOCK_OPTS+=		--hyperlink-source --hscolour-css=${HSCOLOUR_DATADIR}/hscolour.css
 .endif
+
+.endif # !WITHOUT_HADDOCK
 
 .endif
 
@@ -183,7 +187,7 @@ __handle_datadir__=	--datadir='' --datasubdir='' --docdir='${DOCSDIR}'
 __handle_datadir__=	--datadir='${DATADIR}' --datasubdir='' --docdir='${DOCSDIR}'
 .endif
 
-.if !defined(XMLDOCS) && !defined(NOPORTDOCS)
+.if !defined(XMLDOCS) && !defined(WITHOUT_HADDOCK)
 CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 .endif
 
@@ -249,7 +253,7 @@ do-build:
 .endif
 
 .if !defined(NOPORTDOCS)
-.if !defined(XMLDOCS) && !defined(STANDALONE)
+.if !defined(XMLDOCS) && !defined(STANDALONE) && !defined(WITHOUT_HADDOCK)
 	cd ${WRKSRC} && ${SETUP_CMD} haddock ${HADDOCK_OPTS}
 .endif # STANDALONE
 .if defined(XMLDOCS)
