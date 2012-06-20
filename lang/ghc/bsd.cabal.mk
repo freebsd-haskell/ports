@@ -155,13 +155,13 @@ USE_PERL5_BUILD=	5.8+
 .if !defined(WITHOUT_HADDOCK)
 HADDOCK_OPTS=	${HADDOCK_EXE}
 
-.if defined(WITH_HSCOLOUR_DOCS)
+.if !defined(WITHOUT_HSCOLOUR)
 BUILD_DEPENDS+=	HsColour:${PORTSDIR}/print/hs-hscolour
 
 HSCOLOUR_VERSION=	1.19
 HSCOLOUR_DATADIR=	${LOCALBASE}/share/ghc-${GHC_VERSION}/cabal/hscolour-${HSCOLOUR_VERSION}
 HADDOCK_OPTS+=		--hyperlink-source --hscolour-css=${HSCOLOUR_DATADIR}/hscolour.css
-.endif
+.endif # !WITHOUT_HSCOLOUR
 
 .endif # !WITHOUT_HADDOCK
 
