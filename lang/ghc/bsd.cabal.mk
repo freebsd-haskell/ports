@@ -87,7 +87,7 @@ WITHOUT_DYNAMIC?=   yes
 WITHOUT_PROFILE?=   yes
 .endif
 
-.if !exists(${HADDOCK_CMD})
+.if !exists(${HADDOCK_CMD}) || !exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/html)
 NOPORTDOCS?=        yes
 .endif
 
