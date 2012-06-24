@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	leksah-server
-PORTVERSION=	0.12.1.1
+PORTVERSION=	0.12.1.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
