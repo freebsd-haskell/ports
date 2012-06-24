@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	iteratee
-PORTVERSION=	0.8.8.2
+PORTVERSION=	0.8.9.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,8 +16,8 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	ListLike>=1.0 MonadCatchIO-transformers>0.2 parallel>=2 \
-		transformers>=0.2
+USE_CABAL=	ListLike>=1.0 monad-control MonadCatchIO-transformers>0.2 \
+		parallel>=2 transformers>=0.2 transformers-base>=0.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
