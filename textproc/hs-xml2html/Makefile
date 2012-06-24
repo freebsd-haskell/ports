@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/textproc/hs-xml2html/Makefile,v 1.1 2012/06/24 10:31:59 pgj Exp $
 #
 
 PORTNAME=	xml2html

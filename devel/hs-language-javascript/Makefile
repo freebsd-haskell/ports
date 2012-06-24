@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-language-javascript/Makefile,v 1.1 2012/06/24 10:07:02 pgj Exp $
 #
 
 PORTNAME=	language-javascript

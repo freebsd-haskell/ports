@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/www/hs-hjsmin/Makefile,v 1.1 2012/06/24 10:09:57 pgj Exp $
 #
 
 PORTNAME=	hjsmin

@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/devel/hs-file-embed/Makefile,v 1.1 2012/06/24 09:49:39 pgj Exp $
 #
 
 PORTNAME=	file-embed

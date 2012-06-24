@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD$
+# $FreeBSD: ports/textproc/hs-html-conduit/Makefile,v 1.1 2012/06/24 10:21:15 pgj Exp $
 #
 
 PORTNAME=	html-conduit
