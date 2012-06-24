@@ -5,8 +5,7 @@
 # $FreeBSD: ports/devel/hs-mmap/Makefile,v 1.10 2012/06/03 20:52:15 pgj Exp $
 
 PORTNAME=	mmap
-PORTVERSION=	0.5.7
-PORTREVISION=	3
+PORTVERSION=	0.5.8
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
