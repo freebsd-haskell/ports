@@ -86,6 +86,7 @@ darcs_port=			devel/hs-darcs		# executable
 data-default_port=		devel/hs-data-default
 data-lens_port=			math/hs-data-lens
 data-lens-template_port=	math/hs-data-lens-template
+data-pprint_port=		devel/hs-data-pprint
 dataenc_port=			converters/hs-dataenc
 datetime_port=			devel/hs-datetime
 DeepArrow_port=			devel/hs-DeepArrow
