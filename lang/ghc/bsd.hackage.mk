@@ -13,6 +13,7 @@
 
 abstract-deque_port=		devel/hs-abstract-deque
 abstract-par_port=		devel/hs-abstract-par
+activehs-base_port=		devel/hs-activehs-base
 aeson_port=			converters/hs-aeson
 Agda_port=			math/hs-Agda		# executable
 Agda-executable_port=		math/hs-Agda-executable	# executable
