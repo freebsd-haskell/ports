@@ -20,7 +20,7 @@ CABAL_SETUP=	Setup.hs
 
 EXECUTABLE=	HsColour
 
-.if defined(WITH_HSCOLOUR_DOCS)
+.if defined(WITH_HSCOLOUR)
 pre-everything::
 	@${ECHO_MSG} "================================================================="
 	@${ECHO_MSG} " Please note that you will not be able to build HsColour-enabled "
