@@ -158,7 +158,7 @@ HADDOCK_OPTS=	${HADDOCK_EXE}
 .if !defined(WITHOUT_HSCOLOUR)
 BUILD_DEPENDS+=	HsColour:${PORTSDIR}/print/hs-hscolour
 
-HSCOLOUR_VERSION=	1.19
+HSCOLOUR_VERSION=	1.20.2
 HSCOLOUR_DATADIR=	${LOCALBASE}/share/ghc-${GHC_VERSION}/cabal/hscolour-${HSCOLOUR_VERSION}
 HADDOCK_OPTS+=		--hyperlink-source --hscolour-css=${HSCOLOUR_DATADIR}/hscolour.css
 .endif # !WITHOUT_HSCOLOUR
