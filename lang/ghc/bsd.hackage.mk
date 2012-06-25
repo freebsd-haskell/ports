@@ -90,6 +90,7 @@ data-pprint_port=		devel/hs-data-pprint
 dataenc_port=			converters/hs-dataenc
 datetime_port=			devel/hs-datetime
 DeepArrow_port=			devel/hs-DeepArrow
+dia-base_port=			graphics/hs-dia-base
 Diff_port=			textproc/hs-Diff
 digest_port=			security/hs-digest
 directory-tree_port=		devel/hs-directory-tree
