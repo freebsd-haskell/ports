@@ -285,6 +285,7 @@ sendfile_port=			net/hs-sendfile
 semigroupoids_port=		math/hs-semigroupoids
 semigroups_port=		math/hs-semigroups
 SHA_port=			security/hs-SHA
+shake_port=			devel/hs-shake
 shakespeare_port=		www/hs-shakespeare
 shakespeare-css_port=		www/hs-shakespeare-css
 shakespeare-i18n_port=		www/hs-shakespeare-i18n
