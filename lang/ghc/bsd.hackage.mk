@@ -293,6 +293,7 @@ shakespeare-i18n_port=		www/hs-shakespeare-i18n
 shakespeare-js_port=		www/hs-shakespeare-js
 shakespeare-text_port=		www/hs-shakespeare-text
 shelly_port=			shells/hs-shelly
+shelly-extra_port=		shells/hs-shelly-extra
 show_port=			devel/hs-show
 silently_port=			devel/hs-silently
 simple-reflect_port=		devel/hs-simple-reflect
