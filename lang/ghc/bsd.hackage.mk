@@ -278,6 +278,7 @@ resourcet_port=			devel/hs-resourcet
 rosezipper_port=		devel/hs-rosezipper
 RSA_port=			security/hs-RSA
 safe_port=			devel/hs-safe
+SafeSemaphore_port=		devel/hs-SafeSemaphore
 sbv_port=           math/hs-sbv
 scgi_port=			www/hs-scgi
 scion-browser_port= devel/hs-scion-browser # executable
