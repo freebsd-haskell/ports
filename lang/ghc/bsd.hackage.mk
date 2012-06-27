@@ -253,6 +253,7 @@ resource-pool_port=		devel/hs-resource-pool
 resourcet_port=			devel/hs-resourcet
 RSA_port=			security/hs-RSA
 safe_port=			devel/hs-safe
+SafeSemaphore_port=		devel/hs-SafeSemaphore
 scgi_port=			www/hs-scgi
 sendfile_port=			net/hs-sendfile
 semigroupoids_port=		math/hs-semigroupoids
