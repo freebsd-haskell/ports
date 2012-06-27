@@ -191,15 +191,19 @@ __handle_datadir__=	--datadir='${DATADIR}' --datasubdir='' --docdir='${DOCSDIR}'
 CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 .endif
 
-.if !defined(WITHOUT_DYNAMIC)
+.if defined(WITH_DYNAMIC)
 CONFIGURE_ARGS+=	--enable-shared
-.else
+.endif
+
+.if defined(WITHOUT_DYNAMIC)
 CONFIGURE_ARGS+=	--disable-shared
 .endif
 
-.if !defined(WITHOUT_PROFILE)
+.if defined(WITH_PROFILE)
 CONFIGURE_ARGS+=	--enable-executable-profiling --enable-library-profiling
-.else
+.endif
+
+.if defined(WITHOUT_PROFILE)
 CONFIGURE_ARGS+=	--disable-executable-profiling --disable-library-profiling
 .endif
 
