@@ -20,5 +20,7 @@ USE_CABAL=	aeson>=0.4 attoparsec cmdargs cpphs ghc-paths \
 		ghc-syb-utils haskell-src-exts mtl regex-tdfa syb text \
 		transformers unordered-containers utf8-string vector>=0.8
 
+EXECUTABLE=	buildwrapper
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
