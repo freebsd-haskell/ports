@@ -5,7 +5,7 @@
 # $FreeBSD: ports/archivers/hs-zlib-conduit/Makefile,v 1.1 2012/06/03 18:50:50 pgj Exp $
 
 PORTNAME=	zlib-conduit
-PORTVERSION=	0.4.0.1
+PORTVERSION=	0.4.0.2
 CATEGORIES=	archivers haskell
 
 MAINTAINER=	haskell@FreeBSD.org
