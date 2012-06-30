@@ -17,9 +17,8 @@ FILE_LICENSE=	COPYRIGHT
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	polyparse>=1.5 random
 
-EXECUTABLE=	Canonicalise CanonicaliseLazy \
-		DtdToHaskell MkOneOf Validate \
-		XsdToHaskell Xtract
+EXECUTABLE=	Canonicalise CanonicaliseLazy DtdToHaskell FpMLToHaskell \
+		MkOneOf Validate XsdToHaskell Xtract
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
