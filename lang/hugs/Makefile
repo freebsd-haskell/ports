@@ -19,23 +19,22 @@ BUILD_DEPENDS=	bash:${PORTSDIR}/shells/bash
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
-#OPTIONS=	HUGS_OPENGL "OpenGL/GLUT support" off
 HUGS_DATE=	Sep2006
 USE_BISON=	build
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
-#CONFIGURE_ARGS+=	--prefix=${PREFIX} --enable-ffi
-#CONFIGURE_ENV+=	CC="${CC}" CFLAGS="${CFLAGS}"
-
-.include <bsd.port.pre.mk>
 
 CONFIGURE_ARGS+=	--with-pthreads
+
+OPTIONS_DEFINE=		X11
+
+.include <bsd.port.options.mk>
 
 .if ${ARCH} == "ia64"
 BROKEN=		dumps core during build on ${ARCH}
 .endif
 
-.if !defined(WITHOUT_X11)
+.if ${PORT_OPTIONS:MX11}
 USE_GL=	glut
 PLIST_SUB+=	X11=""
 .else
@@ -70,4 +69,4 @@ do-install:
 	cd ${WRKSRC}/${dir} && ${SETENV} ${MAKE_ENV} ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} ${MAKE_ARGS} ${INSTALL_TARGET}
 .	endfor
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
