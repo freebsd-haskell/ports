@@ -20,12 +20,14 @@ USE_XORG=	x11
 
 RUN_DEPENDS+=	bash:${PORTSDIR}/shells/bash
 
-OPTIONS=	XFT "Enable Xft support for fonts" On
+OPTIONS_DEFINE=		XFT
+OPTIONS_DEFAULT=	XFT
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
+XFT_DESC=		Enable Xft support for fonts
+
 .include <bsd.port.options.mk>
 
-.if defined(WITH_XFT)
+.if ${PORT_OPTIONS:MXFT}
 CONFIGURE_ARGS+=	--flags="use_xft"
 USE_CABAL+=		X11-xft>=0.2
 .endif
