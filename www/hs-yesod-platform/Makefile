@@ -52,10 +52,10 @@ USE_CABAL=	aeson==0.6.0.2 ansi-terminal==0.5.5_3 asn1-data==0.6.1.3 \
 		utf8-string==0.3.7_1 vault==0.2.0.0 vector==0.9.1_1 void==0.5.6 \
 		wai==1.2.0.3 wai-app-static==1.2.0.4 wai-extra==1.2.0.5 \
 		wai-logger==0.1.4 wai-test==1.2.0.2 warp==1.2.2 \
-		xml-conduit==0.7.0.3 xml-types==0.3.2 xml2html==0.1.2.3 \
-		xss-sanitize==0.3.2 yaml==0.7.0.3 yesod==1.0.1.6 \
-		yesod-auth==1.0.2.1 yesod-core==1.0.1.2 yesod-default==1.0.1.1 \
-		yesod-form==1.0.0.4 yesod-json==1.0.0.1 yesod-persistent==1.0.0.1 \
+		xml-conduit==0.7.0.3 xml-types==0.3.2 xml2html==0.1.2.3_1 \
+		xss-sanitize==0.3.2 yaml==0.7.0.3 yesod==1.0.1.6_1 \
+		yesod-auth==1.0.2.1_1 yesod-core==1.0.1.2_1 yesod-default==1.0.1.1 \
+		yesod-form==1.0.0.4_1 yesod-json==1.0.0.1 yesod-persistent==1.0.0.1 \
 		yesod-routes==1.0.1.2 yesod-static==1.0.0.3 yesod-test==0.2.1 \
 		zlib==0.5.3.3 zlib-bindings==0.1.0.1 zlib-conduit==0.4.0.2
 
