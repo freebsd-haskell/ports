@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	dyre
-PORTVERSION=	0.8.7
+PORTVERSION=	0.8.8
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
