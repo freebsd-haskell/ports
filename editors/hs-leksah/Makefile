@@ -23,29 +23,30 @@ USE_CABAL=	binary-shared>=0.8 enumerator>=0.4.14 gio>=0.12.2 \
 
 EXECUTABLE=	leksah
 
-OPTIONS=	YI           "Yi support (experimental)"	off \
-		DYRE         "Dyre support (experimental)"	on \
-		THREADED     "Multithreaded execution"		off
+OPTIONS_DEFINE=		YI DYRE THREADED
+OPTIONS_DEFAULT=	DYRE
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
+YI_DESC=		Yi support (experimental)
+DYRE_DESC=		Dyre support (experimental)
+THREADED_DESC=		Multithreaded execution
+
 .include <bsd.port.options.mk>
 
-.if defined(WITH_YI)
+.if ${PORT_OPTIONS:MYI}
 CONFIGURE_ARGS+=	--flags="yi"
 USE_CABAL+=		yi>=0.6.1
+.else
+CONFIGURE_ARGS+=	--flags="-yi"
+.endif
 
-.if defined(WITH_DYRE)
+.if ${PORT_OPTIONS:MDYRE}
 CONFIGURE_ARGS+=	--flags="dyre"
 USE_CABAL+=		dyre>=0.8.3
 .else
 CONFIGURE_ARGS+=	--flags="-dyre"
 .endif
 
-.else
-CONFIGURE_ARGS+=	--flags="-yi"
-.endif
-
-.if defined(WITH_THREADED)
+.if ${PORT_OPTIONS:MTHREADED}
 CONFIGURE_ARGS+=	--flags="threaded"
 .else
 CONFIGURE_ARGS+=	--flags="-threaded"
