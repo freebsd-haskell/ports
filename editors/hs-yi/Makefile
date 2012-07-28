@@ -29,33 +29,32 @@ USE_ALEX=	yes
 EXECUTABLE=	yi
 HADDOCK_EXE=	# empty
 
-OPTIONS=	PANGO	"Build with Pango frontend"	off \
-		VTE	"Build with Vte frontend"	off \
-		VTY	"Build with Vty frontend"	on
+OPTIONS_MULTI=		FRONTEND
+OPTIONS_MULTI_FRONTEND=	PANGO VTE VTY
+OPTIONS_DEFAULT=	VTY
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
+PANGO_DESC=		Build with Pango frontend
+VTE_DESC=		Build with Vte frontend
+VTY_DESC=		Build with Vty frontend
+
 .include <bsd.port.options.mk>
 
-.if defined(WITH_PANGO)
+.if ${PORT_OPTIONS:MPANGO}
 CONFIGURE_ARGS+=	--flags="pango"
 .else
 CONFIGURE_ARGS+=	--flags="-pango"
 .endif
 
-.if defined(WITH_VTE)
+.if ${PORT_OPTIONS:MVTE}
 CONFIGURE_ARGS+=	--flags="vte"
 .else
 CONFIGURE_ARGS+=	--flags="-vte"
 .endif
 
-.if defined(WITH_VTY)
+.if ${PORT_OPTIONS:MVTY}
 CONFIGURE_ARGS+=	--flags="vty"
 .else
 CONFIGURE_ARGS+=	--flags="-vty"
-.endif
-
-.if !defined(WITH_PANGO) && !defined(WITH_VTE) && !defined(WITH_VTY)
-IGNORE=		cannot be compiled in this configuration.  Please (re)run 'make config' and choose a GUI frontend
 .endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
