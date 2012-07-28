@@ -18,12 +18,13 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	asn1-data>=0.6.1.3 crypto-pubkey-types>=0.1 mtl pem>=0.1
 
-OPTIONS=	EXECUTABLE	"Build the executable"	off
+OPTIONS_DEFINE=		EXECUTABLE
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
+EXECUTABLE_DESC=	Build the executable
+
 .include <bsd.port.options.mk>
 
-.if defined(WITH_EXECUTABLE)
+.if ${PORT_OPTIONS:MEXECUTABLE}
 CONFIGURE_ARGS+=	--flags="executable"
 USE_CABAL+=		cmdargs text>=0.11 cryptohash cryptocipher>=0.3.0
 EXECUTABLE+=		certificate
