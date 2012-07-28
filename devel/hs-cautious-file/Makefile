@@ -14,12 +14,14 @@ COMMENT=	Ways to write a file cautiously
 
 LICENSE=	BSD
 
-OPTIONS=	POSIX	"Use POSIX-specific features"	on
+OPTIONS_DEFINE=		POSIX
+OPTIONS_DEFAULT=	POSIX
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
+POSIX_DESC=		Use POSIX-specific features
+
 .include <bsd.port.options.mk>
 
-.if defined(WITH_POSIX)
+.if ${PORT_OPTIONS:MPOSIX}
 CONFIGURE_ARGS+=	--flags="posix"
 .else
 CONFIGURE_ARGS+=	--flags="-posix"
