@@ -24,20 +24,21 @@ USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 \
 		text>=0.11 transformers>=0.2 unix-compat>=0.2 vector>=0.7 \
 		vector-algorithms>=0.4
 
-OPTIONS=	LIBEV    "Use libev"                                        off \
-		OPENSSL  "Enable HTTPS support using the HsOpenSSL library" off
+OPTIONS_DEFINE=		LIBEV OPENSSL
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
+LIBEV_DESC=		Use libev
+OPENSSL_DES=		Enable HTTPS support using the HsOpenSSL library
+
 .include <bsd.port.options.mk>
 
-.if defined(WITH_LIBEV)
+.if ${PORT_OPTIONS:MLIBEV}
 CONFIGURE_ARGS+=	--flags="libev"
 USE_CABAL+=		hlibev
 .else
 CONFIGURE_ARGS+=	--flags="-libev"
 .endif
 
-.if defined(WITH_OPENSSL)
+.if ${PORT_OPTIONS:MOPENSSL}
 CONFIGURE_ARGS+=	--flags="openssl"
 USE_CABAL+=		HsOpenSSL
 .else
