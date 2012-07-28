@@ -2,7 +2,7 @@
 # Date created:		December 26, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-asn1-data/Makefile,v 1.2 2012/06/03 21:33:34 pgj Exp $
+# $FreeBSD: ports/devel/hs-asn1-data/Makefile,v 1.3 2012/07/25 06:32:06 cs Exp $
 #
 
 PORTNAME=	asn1-data
@@ -10,7 +10,7 @@ PORTVERSION=	0.6.1.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	ASN1 data reader and writer in RAW, BER, DER and CER forms
+COMMENT=	ASN1 data reader and writer in RAW, BER, DER, and CER forms
 
 LICENSE=	BSD
 
