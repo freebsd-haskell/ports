@@ -85,9 +85,6 @@ PROFILE_DESC?=	Add support for profiling
 
 .include <bsd.port.options.mk>
 
-OPTIONS_DEFINE+=	DATA
-OPTIONS_DEFAULT+=	DATA
-
 .if exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
 OPTIONS_DEFINE+=	DYNAMIC
 .endif
@@ -188,11 +185,7 @@ PORTDOCS=	*
 
 .endif # DOCS
 
-.if defined(PORTDATA) && empty(${PORT_OPTIONS:MDATA})
-__handle_datadir__=	--datadir='' --datasubdir='' --docdir='${DOCSDIR}'
-.else
 __handle_datadir__=	--datadir='${DATADIR}' --datasubdir='' --docdir='${DOCSDIR}'
-.endif
 
 .if !defined(XMLDOCS) && ${PORT_OPTIONS:MDOCS}
 CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
@@ -281,7 +274,7 @@ do-install:
 	cd ${WRKSRC} && ${INSTALL_SCRIPT} register.sh ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}/register.sh
 .endif
 
-.if !empty(INSTALL_PORTDATA) && ${PORT_OPTIONS:MDATA}
+.if !empty(INSTALL_PORTDATA)
 	@${MKDIR} ${DATADIR}
 	${INSTALL_PORTDATA}
 .endif
