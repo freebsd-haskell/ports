@@ -26,11 +26,16 @@ WRKSRC=	${WRKDIR}/WSpace
 USE_GMAKE=	yes
 ALL_TARGET=	${TARGET}
 
+OPTIONS_DEFINE=		DOCS
+OPTIONS_DEFAULT=	DOCS
+
+.include <bsd.port.options.mk>
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/wspace ${PREFIX}/bin
 
 post-install:
-.if !defined(NOPORTDOCS)
+.if ${PORT_OPTIONS:MDOCS}
 	${MKDIR} ${EXAMPLESDIR}
 	${INSTALL_DATA} ${WRKSRC}/examples/* ${EXAMPLESDIR}
 	${MKDIR} ${DOCSDIR}
