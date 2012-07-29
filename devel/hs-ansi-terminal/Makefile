@@ -7,7 +7,7 @@
 
 PORTNAME=	ansi-terminal
 PORTVERSION=	0.5.5
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
