@@ -43,7 +43,7 @@ CONFIGURE_ARGS+=	--flags="-with_xft"
 
 .if ${PORT_OPTIONS:MUTF8}
 CONFIGURE_ARGS+=	--flags="with_utf8"
-.if empty(${PORT_OPTIONS:MXFT})
+.if empty(PORT_OPTIONS:MXFT)
 USE_CABAL+=		utf8-string
 .endif
 .else
