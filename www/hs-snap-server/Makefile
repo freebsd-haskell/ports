@@ -27,7 +27,7 @@ USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 \
 OPTIONS_DEFINE=		LIBEV OPENSSL
 
 LIBEV_DESC=		Use libev
-OPENSSL_DES=		Enable HTTPS support using the HsOpenSSL library
+OPENSSL_DESC=		Enable HTTPS support using the HsOpenSSL library
 
 .include <bsd.port.options.mk>
 
