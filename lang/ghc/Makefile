@@ -6,7 +6,6 @@
 
 PORTNAME=	ghc
 PORTVERSION=	7.4.1
-PORTREVISION=	1
 CATEGORIES=	lang haskell
 MASTER_SITES=	http://www.haskell.org/ghc/dist/${PORTVERSION}/:source \
 		${MASTER_SITE_LOCAL:S/$/:boot/}
