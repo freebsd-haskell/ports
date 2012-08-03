@@ -2,11 +2,12 @@
 # Date created:        December 30, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/textproc/hs-xml-conduit/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/textproc/hs-xml-conduit/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	xml-conduit
 PORTVERSION=	0.7.0.3
+PORTREVISION=	1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

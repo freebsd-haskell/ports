@@ -2,11 +2,12 @@
 # Date created:		2010-05-14
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-mtl/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/devel/hs-mtl/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	mtl
 PORTVERSION=	2.1.1
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

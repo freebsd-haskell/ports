@@ -2,12 +2,12 @@
 # Date created:			17 May 2010
 # Whom:				Ju Pengfei <jupengfei@gmail.com>
 #
-# $FreeBSD: head/net/hs-pcap/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/net/hs-pcap/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	pcap
 PORTVERSION=	0.4.5.1
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	net haskell
 
 MAINTAINER=	haskell@FreeBSD.org

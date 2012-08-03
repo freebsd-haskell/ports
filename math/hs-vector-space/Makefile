@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: head/math/hs-vector-space/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/math/hs-vector-space/Makefile 301904 2012-08-03 03:05:12Z pgj $
 #
 
 PORTNAME=	vector-space

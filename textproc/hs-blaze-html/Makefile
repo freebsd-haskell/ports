@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/textproc/hs-blaze-html/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/textproc/hs-blaze-html/Makefile 301883 2012-08-03 02:40:40Z pgj $
 #
 
 PORTNAME=	blaze-html

@@ -2,11 +2,12 @@
 # Date created:        April 7, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/security/hs-monadcryptorandom/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/security/hs-monadcryptorandom/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	monadcryptorandom
 PORTVERSION=	0.4.1
+PORTREVISION=	1
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org

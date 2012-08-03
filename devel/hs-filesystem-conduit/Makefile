@@ -2,11 +2,12 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-filesystem-conduit/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/devel/hs-filesystem-conduit/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	filesystem-conduit
 PORTVERSION=	0.4.0
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

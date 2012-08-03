@@ -2,11 +2,12 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/security/hs-tls-extra/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/security/hs-tls-extra/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	tls-extra
 PORTVERSION=	0.4.6
+PORTREVISION=	1
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org

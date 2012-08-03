@@ -2,11 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/x11-toolkits/hs-gtksourceview2/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/x11-toolkits/hs-gtksourceview2/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	gtksourceview2
 PORTVERSION=	0.12.3.1
+PORTREVISION=	1
 CATEGORIES=	x11-toolkits haskell
 
 MAINTAINER=	haskell@FreeBSD.org

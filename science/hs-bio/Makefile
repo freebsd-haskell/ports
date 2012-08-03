@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: head/science/hs-bio/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/science/hs-bio/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	bio
 PORTVERSION=	0.5.2
+PORTREVISION=	1
 CATEGORIES=	science haskell
 
 MAINTAINER=	haskell@FreeBSD.org

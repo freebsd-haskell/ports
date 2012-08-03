@@ -2,10 +2,11 @@
 # Date created:				October 18, 2011
 # Whom:					haskell@FreeBSD.org
 #
-# $FreeBSD: head/archivers/hs-zlib-bindings/Makefile 300895 2012-07-14 12:56:14Z beat $
+# $FreeBSD: head/archivers/hs-zlib-bindings/Makefile 301879 2012-08-03 02:30:07Z pgj $
 
 PORTNAME=	zlib-bindings
 PORTVERSION=	0.1.0.1
+PORTREVISION=	1
 CATEGORIES=	archivers haskell
 
 MAINTAINER=	haskell@FreeBSD.org

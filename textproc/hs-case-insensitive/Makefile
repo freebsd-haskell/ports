@@ -2,12 +2,12 @@
 # Date created:        May 24, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/textproc/hs-case-insensitive/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/textproc/hs-case-insensitive/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	case-insensitive
 PORTVERSION=	0.4.0.1
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

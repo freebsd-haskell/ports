@@ -2,11 +2,12 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/mail/hs-email-validate/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/mail/hs-email-validate/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	email-validate
 PORTVERSION=	0.2.8
+PORTREVISION=	1
 CATEGORIES=	mail haskell
 
 MAINTAINER=	haskell@FreeBSD.org

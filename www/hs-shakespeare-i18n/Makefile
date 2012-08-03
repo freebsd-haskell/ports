@@ -2,11 +2,12 @@
 # Date created:        December 31, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-shakespeare-i18n/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/www/hs-shakespeare-i18n/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	shakespeare-i18n
 PORTVERSION=	1.0.0.2
+PORTREVISION=	1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org

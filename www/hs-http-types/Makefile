@@ -2,11 +2,12 @@
 # Date created:        May 24, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-http-types/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/www/hs-http-types/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	http-types
 PORTVERSION=	0.6.11
+PORTREVISION=	1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org

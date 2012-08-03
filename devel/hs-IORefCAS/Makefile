@@ -2,11 +2,12 @@
 # Date created:        May 12, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-IORefCAS/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/devel/hs-IORefCAS/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	IORefCAS
 PORTVERSION=	0.2
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

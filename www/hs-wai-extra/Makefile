@@ -2,7 +2,7 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-wai-extra/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/www/hs-wai-extra/Makefile 301924 2012-08-03 03:23:13Z pgj $
 #
 
 PORTNAME=	wai-extra

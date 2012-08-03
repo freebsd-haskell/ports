@@ -2,12 +2,12 @@
 # Date created:        May 21, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: head/devel/hs-test-framework-hunit/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/devel/hs-test-framework-hunit/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	test-framework-hunit
 PORTVERSION=	0.2.7
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

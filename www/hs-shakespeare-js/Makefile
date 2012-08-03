@@ -2,11 +2,12 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-shakespeare-js/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/www/hs-shakespeare-js/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	shakespeare-js
 PORTVERSION=	1.0.0.3
+PORTREVISION=	1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org

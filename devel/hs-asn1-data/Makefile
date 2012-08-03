@@ -2,11 +2,12 @@
 # Date created:		December 26, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-asn1-data/Makefile 301510 2012-07-25 06:32:06Z cs $
+# $FreeBSD: head/devel/hs-asn1-data/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	asn1-data
 PORTVERSION=	0.6.1.3
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

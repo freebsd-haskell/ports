@@ -2,7 +2,7 @@
 # Date created:        September 19, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-directory-tree/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/devel/hs-directory-tree/Makefile 301891 2012-08-03 02:54:12Z pgj $
 #
 
 PORTNAME=	directory-tree

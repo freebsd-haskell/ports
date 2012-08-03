@@ -2,11 +2,12 @@
 # Date created:		2010-08-17
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-cabal-install/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/devel/hs-cabal-install/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	cabal-install
 PORTVERSION=	0.14.0
+PORTREVISION=	1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

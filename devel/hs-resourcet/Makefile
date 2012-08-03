@@ -2,7 +2,7 @@
 # Date created:        April 7, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-resourcet/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/devel/hs-resourcet/Makefile 301895 2012-08-03 02:58:18Z pgj $
 #
 
 PORTNAME=	resourcet

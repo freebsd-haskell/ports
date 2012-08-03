@@ -2,11 +2,11 @@
 # Date created:				November 1, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: head/textproc/hs-stringsearch/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/textproc/hs-stringsearch/Makefile 301879 2012-08-03 02:30:07Z pgj $
 
 PORTNAME=	stringsearch
 PORTVERSION=	0.3.6.3
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

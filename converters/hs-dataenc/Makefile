@@ -2,12 +2,12 @@
 # Date created:        May 14, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: head/converters/hs-dataenc/Makefile 300895 2012-07-14 12:56:14Z beat $
+# $FreeBSD: head/converters/hs-dataenc/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	dataenc
 PORTVERSION=	0.14.0.3
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	converters haskell
 
 MAINTAINER=	haskell@FreeBSD.org

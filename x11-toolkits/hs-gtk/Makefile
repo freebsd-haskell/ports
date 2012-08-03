@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/x11-toolkits/hs-gtk/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/x11-toolkits/hs-gtk/Makefile 301929 2012-08-03 03:28:21Z pgj $
 #
 
 PORTNAME=	gtk

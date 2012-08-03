@@ -2,11 +2,12 @@
 # Date created:        September 19, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/textproc/hs-attoparsec/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/textproc/hs-attoparsec/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	attoparsec
 PORTVERSION=	0.10.2.0
+PORTREVISION=	1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

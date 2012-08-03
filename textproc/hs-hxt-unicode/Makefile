@@ -2,12 +2,12 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/textproc/hs-hxt-unicode/Makefile 301441 2012-07-24 07:19:21Z cs $
+# $FreeBSD: head/textproc/hs-hxt-unicode/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	hxt-unicode
 PORTVERSION=	9.0.2
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

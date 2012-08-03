@@ -2,12 +2,12 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/textproc/hs-HStringTemplate/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/textproc/hs-HStringTemplate/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	HStringTemplate
 PORTVERSION=	0.6.8
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

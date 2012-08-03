@@ -2,11 +2,12 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/textproc/hs-tagstream-conduit/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/textproc/hs-tagstream-conduit/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	tagstream-conduit
 PORTVERSION=	0.3.2
+PORTREVISION=	1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

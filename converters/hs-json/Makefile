@@ -2,11 +2,12 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: head/converters/hs-json/Makefile 300895 2012-07-14 12:56:14Z beat $
+# $FreeBSD: head/converters/hs-json/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	json
 PORTVERSION=	0.5
+PORTREVISION=	1
 CATEGORIES=	converters haskell
 
 MAINTAINER=	haskell@FreeBSD.org

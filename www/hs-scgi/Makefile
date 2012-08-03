@@ -2,14 +2,14 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: head/www/hs-scgi/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/www/hs-scgi/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 # deprecated: use wai
 
 PORTNAME=	scgi
 PORTVERSION=	0.3.3
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
