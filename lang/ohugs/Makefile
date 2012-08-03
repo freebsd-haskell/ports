@@ -1,7 +1,7 @@
 # New ports collection makefile for:	ohugs
 # Date created:				03.03.03
 # Whom:					Steffen Mazanek <steffen.mazanek@unibw-muenchen.de>
-# $FreeBSD: ports/lang/ohugs/Makefile,v 1.15 2010/12/06 21:05:19 pav Exp $
+# $FreeBSD: head/lang/ohugs/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	ohugs

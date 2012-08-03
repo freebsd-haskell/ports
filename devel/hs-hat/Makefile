@@ -2,7 +2,7 @@
 # Date created:				February 4, 2009
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-hat/Makefile,v 1.48 2009/09/02 15:38:36 pgj Exp $
+# $FreeBSD: head/devel/hs-hat/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	hat

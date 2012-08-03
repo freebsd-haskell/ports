@@ -2,7 +2,7 @@
 # Date created:        July 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-double-conversion/Makefile,v 1.3 2012/06/03 20:52:23 pgj Exp $
+# $FreeBSD: head/textproc/hs-double-conversion/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	double-conversion

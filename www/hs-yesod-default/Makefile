@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-yesod-default/Makefile,v 1.1 2012/06/24 10:34:29 pgj Exp $
+# $FreeBSD: head/www/hs-yesod-default/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	yesod-default

@@ -2,7 +2,7 @@
 # Date created:		December 26, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/databases/hs-persistent/Makefile,v 1.2 2012/06/03 21:30:05 pgj Exp $
+# $FreeBSD: head/databases/hs-persistent/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	persistent

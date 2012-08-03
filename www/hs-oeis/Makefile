@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/www/hs-oeis/Makefile,v 1.8 2012/06/03 20:52:27 pgj Exp $
+# $FreeBSD: head/www/hs-oeis/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	oeis

@@ -2,7 +2,7 @@
 # Date created:        July 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/math/hs-semigroups/Makefile,v 1.3 2012/06/03 22:17:20 pgj Exp $
+# $FreeBSD: head/math/hs-semigroups/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	semigroups

@@ -2,7 +2,7 @@
 # Date created:		2011-05-23
 # Whom:			jyyou@cs.nctu.edu.tw
 #
-# $FreeBSD: ports/databases/hs-mysql/Makefile,v 1.3 2012/06/03 21:29:33 pgj Exp $
+# $FreeBSD: head/databases/hs-mysql/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	mysql

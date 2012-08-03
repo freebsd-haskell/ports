@@ -2,7 +2,7 @@
 # Date created:        December 30, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-wai-logger/Makefile,v 1.2 2012/06/03 22:48:33 pgj Exp $
+# $FreeBSD: head/www/hs-wai-logger/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	wai-logger

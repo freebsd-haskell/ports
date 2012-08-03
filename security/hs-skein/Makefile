@@ -2,7 +2,7 @@
 # Date created:        November 19, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/security/hs-skein/Makefile,v 1.2 2012/06/03 22:27:36 pgj Exp $
+# $FreeBSD: head/security/hs-skein/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	skein

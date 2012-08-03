@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-blaze-builder-enumerator/Makefile,v 1.8 2012/07/26 13:28:58 cs Exp $
+# $FreeBSD: head/devel/hs-blaze-builder-enumerator/Makefile 301561 2012-07-26 13:28:58Z cs $
 #
 
 PORTNAME=	blaze-builder-enumerator

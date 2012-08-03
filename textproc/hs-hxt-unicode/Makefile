@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-hxt-unicode/Makefile,v 1.5 2012/07/24 07:19:21 cs Exp $
+# $FreeBSD: head/textproc/hs-hxt-unicode/Makefile 301441 2012-07-24 07:19:21Z cs $
 #
 
 PORTNAME=	hxt-unicode

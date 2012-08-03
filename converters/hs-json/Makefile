@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/converters/hs-json/Makefile,v 1.8 2012/06/03 21:28:55 pgj Exp $
+# $FreeBSD: head/converters/hs-json/Makefile 300895 2012-07-14 12:56:14Z beat $
 #
 
 PORTNAME=	json

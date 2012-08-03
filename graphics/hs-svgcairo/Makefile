@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/graphics/hs-svgcairo/Makefile,v 1.5 2012/06/03 22:07:42 pgj Exp $
+# $FreeBSD: head/graphics/hs-svgcairo/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	svgcairo

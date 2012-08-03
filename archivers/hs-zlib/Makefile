@@ -2,7 +2,7 @@
 # Date created:				November 2, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: ports/archivers/hs-zlib/Makefile,v 1.11 2012/06/03 21:25:07 pgj Exp $
+# $FreeBSD: head/archivers/hs-zlib/Makefile 300895 2012-07-14 12:56:14Z beat $
 
 PORTNAME=	zlib
 PORTVERSION=	0.5.3.3

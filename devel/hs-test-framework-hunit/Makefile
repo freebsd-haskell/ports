@@ -2,7 +2,7 @@
 # Date created:        May 21, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-test-framework-hunit/Makefile,v 1.8 2012/06/03 20:52:17 pgj Exp $
+# $FreeBSD: head/devel/hs-test-framework-hunit/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	test-framework-hunit

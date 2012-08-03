@@ -1,5 +1,5 @@
 
-$FreeBSD: ports/lang/ohugs/files/patch-src_omonad.c,v 1.1 2007/01/23 04:07:14 vs Exp $
+$FreeBSD: head/lang/ohugs/files/patch-src_omonad.c 300896 2012-07-14 13:54:48Z beat $
 
 --- src/omonad.c.orig
 +++ src/omonad.c

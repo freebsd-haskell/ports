@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-uniplate/Makefile,v 1.9 2012/07/25 06:32:06 cs Exp $
+# $FreeBSD: head/devel/hs-uniplate/Makefile 301510 2012-07-25 06:32:06Z cs $
 #
 
 PORTNAME=	uniplate

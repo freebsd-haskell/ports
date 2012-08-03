@@ -2,7 +2,7 @@
 # Date created:        23 August 2002
 # Whom:                Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-c2hs/Makefile,v 1.48 2012/06/03 20:52:11 pgj Exp $
+# $FreeBSD: head/devel/hs-c2hs/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	c2hs

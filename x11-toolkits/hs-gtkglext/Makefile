@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/x11-toolkits/hs-gtkglext/Makefile,v 1.5 2012/06/03 20:52:28 pgj Exp $
+# $FreeBSD: head/x11-toolkits/hs-gtkglext/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	gtkglext

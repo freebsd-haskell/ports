@@ -2,7 +2,7 @@
 # Date created:		December 26, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-asn1-data/Makefile,v 1.3 2012/07/25 06:32:06 cs Exp $
+# $FreeBSD: head/devel/hs-asn1-data/Makefile 301510 2012-07-25 06:32:06Z cs $
 #
 
 PORTNAME=	asn1-data

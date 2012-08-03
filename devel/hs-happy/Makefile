@@ -2,7 +2,7 @@
 # Date created:				22 December 2000
 # Whom:					Simon Marlow <simonmar@microsoft.com>
 #
-# $FreeBSD: ports/devel/hs-happy/Makefile,v 1.34 2012/06/03 21:46:01 pgj Exp $
+# $FreeBSD: head/devel/hs-happy/Makefile 300896 2012-07-14 13:54:48Z beat $
 
 PORTNAME=	happy
 PORTVERSION=	1.18.9

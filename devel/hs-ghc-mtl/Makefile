@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-ghc-mtl/Makefile,v 1.8 2012/06/03 20:52:13 pgj Exp $
+# $FreeBSD: head/devel/hs-ghc-mtl/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	ghc-mtl

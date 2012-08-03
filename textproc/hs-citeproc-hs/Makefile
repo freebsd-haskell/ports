@@ -2,7 +2,7 @@
 # Date created:        May 14, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/textproc/hs-citeproc-hs/Makefile,v 1.10 2012/06/03 22:30:29 pgj Exp $
+# $FreeBSD: head/textproc/hs-citeproc-hs/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	citeproc-hs

@@ -2,7 +2,7 @@
 # Date created:        December 10 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-datetime/Makefile,v 1.9 2012/06/03 20:52:11 pgj Exp $
+# $FreeBSD: head/devel/hs-datetime/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	datetime

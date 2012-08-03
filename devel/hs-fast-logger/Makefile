@@ -2,7 +2,7 @@
 # Date created:        December 30, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-fast-logger/Makefile,v 1.2 2012/06/03 20:52:12 pgj Exp $
+# $FreeBSD: head/devel/hs-fast-logger/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	fast-logger

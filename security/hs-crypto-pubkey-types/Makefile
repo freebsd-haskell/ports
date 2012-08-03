@@ -2,7 +2,7 @@
 # Date created:        November 19, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/security/hs-crypto-pubkey-types/Makefile,v 1.2 2012/06/03 22:25:38 pgj Exp $
+# $FreeBSD: head/security/hs-crypto-pubkey-types/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	crypto-pubkey-types

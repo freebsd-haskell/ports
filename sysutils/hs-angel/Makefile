@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/sysutils/hs-angel/Makefile,v 1.2 2012/06/27 19:55:43 pgj Exp $
+# $FreeBSD: head/sysutils/hs-angel/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	angel

@@ -2,7 +2,7 @@
 # Date created:				13 April 2003
 # Whom:					Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-darcs/Makefile,v 1.72 2012/06/03 21:38:59 pgj Exp $
+# $FreeBSD: head/devel/hs-darcs/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	darcs

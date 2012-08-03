@@ -2,7 +2,7 @@
 # Date created:		2007-10-25
 # Whom:			Matthieu Guegan <matt.guegan@free.fr>
 #
-# $FreeBSD: ports/x11-wm/hs-xmonad/Makefile,v 1.23 2012/06/03 20:52:29 pgj Exp $
+# $FreeBSD: head/x11-wm/hs-xmonad/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	xmonad

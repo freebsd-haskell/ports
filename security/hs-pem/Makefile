@@ -2,7 +2,7 @@
 # Date created:        May 9, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/security/hs-pem/Makefile,v 1.1 2012/06/03 19:22:15 pgj Exp $
+# $FreeBSD: head/security/hs-pem/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	pem
