@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-yesod-platform/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/www/hs-yesod-platform/Makefile 301928 2012-08-03 03:27:13Z pgj $
 #
 
 PORTNAME=	yesod-platform
@@ -57,7 +57,7 @@ USE_CABAL=	aeson==0.6.0.2_1 ansi-terminal==0.5.5_4 asn1-data==0.6.1.3_1 \
 		yesod-auth==1.0.2.1_1 yesod-core==1.0.1.2_1 yesod-default==1.0.1.1_1 \
 		yesod-form==1.0.0.4_1 yesod-json==1.0.0.1_1 yesod-persistent==1.0.0.1_1 \
 		yesod-routes==1.0.1.2_1 yesod-static==1.0.0.3_1 yesod-test==0.2.1 \
-		zlib==0.5.3.3_1 zlib-bindings==0.1.0.1_1 zlib-conduit==0.4.0.2_1
+		zlib==0.5.3.3_1 zlib-bindings==0.1.0.1_1 zlib-conduit==0.4.0.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

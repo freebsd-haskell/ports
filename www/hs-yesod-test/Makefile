@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-yesod-test/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/www/hs-yesod-test/Makefile 301927 2012-08-03 03:25:27Z pgj $
 #
 
 PORTNAME=	yesod-test

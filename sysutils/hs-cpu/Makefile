@@ -2,7 +2,7 @@
 # Date created:        May 9, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/sysutils/hs-cpu/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/sysutils/hs-cpu/Makefile 301909 2012-08-03 03:11:14Z pgj $
 #
 
 PORTNAME=	cpu

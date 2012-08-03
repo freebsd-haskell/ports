@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: head/mail/hs-mime/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/mail/hs-mime/Makefile 301901 2012-08-03 03:03:06Z pgj $
 #
 
 PORTNAME=	mime

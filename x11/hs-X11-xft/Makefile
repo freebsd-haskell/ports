@@ -2,7 +2,7 @@
 # Date created:		2008-10-21
 # Whom:			Ashish Shukla <wahjava@gmail.com>
 #
-# $FreeBSD: head/x11/hs-X11-xft/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/x11/hs-X11-xft/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	X11-xft

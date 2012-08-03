@@ -2,7 +2,7 @@
 # Date created:				01 June 2002
 # Whom:					Oliver Braun <obraun@informatik.unibw-muenchen.de>
 #
-# $FreeBSD: head/textproc/hs-HaXml/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/textproc/hs-HaXml/Makefile 301910 2012-08-03 03:12:14Z pgj $
 
 PORTNAME=	HaXml
 PORTVERSION=	1.23.3

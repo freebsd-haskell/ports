@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-murmur-hash/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/devel/hs-murmur-hash/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	murmur-hash

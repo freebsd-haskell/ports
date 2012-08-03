@@ -2,7 +2,7 @@
 # Date created:        May 14, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: head/textproc/hs-hs-bibutils/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/textproc/hs-hs-bibutils/Makefile 301879 2012-08-03 02:30:07Z pgj $
 #
 
 PORTNAME=	hs-bibutils

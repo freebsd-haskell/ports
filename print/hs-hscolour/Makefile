@@ -2,7 +2,7 @@
 # Date created:        February 22 2008
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: head/print/hs-hscolour/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/print/hs-hscolour/Makefile 301906 2012-08-03 03:08:54Z pgj $
 #
 
 PORTNAME=	hscolour

@@ -2,7 +2,7 @@
 # Date created:        November 19, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/security/hs-cryptocipher/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/security/hs-cryptocipher/Makefile 301908 2012-08-03 03:10:31Z pgj $
 #
 
 PORTNAME=	cryptocipher

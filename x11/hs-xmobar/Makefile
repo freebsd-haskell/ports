@@ -2,7 +2,7 @@
 # Date created:				November 7, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: head/x11/hs-xmobar/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/x11/hs-xmobar/Makefile 301879 2012-08-03 02:30:07Z pgj $
 
 PORTNAME=	xmobar
 PORTVERSION=	0.14

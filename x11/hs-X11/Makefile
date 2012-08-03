@@ -2,7 +2,7 @@
 # Date created:				2007-09-03
 # Whom:					Volker Stolz <vs@FreeBSD.org>
 #
-# $FreeBSD: head/x11/hs-X11/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/x11/hs-X11/Makefile 301879 2012-08-03 02:30:07Z pgj $
 
 PORTNAME=	X11
 PORTVERSION=	1.5.0.1

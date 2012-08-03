@@ -2,7 +2,7 @@
 # Date created:				04 October 2001
 # Whom:					Oliver Braun <obraun@informatik.unibw-muenchen.de>
 #
-# $FreeBSD: head/lang/nhc98/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD: head/lang/nhc98/Makefile 301932 2012-08-03 03:44:20Z pgj $
 
 PORTNAME=	nhc98
 PORTVERSION=	1.18

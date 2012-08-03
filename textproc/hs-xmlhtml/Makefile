@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/textproc/hs-xmlhtml/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/textproc/hs-xmlhtml/Makefile 301913 2012-08-03 03:14:53Z pgj $
 #
 
 PORTNAME=	xmlhtml

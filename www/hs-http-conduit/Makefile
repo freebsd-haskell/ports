@@ -2,7 +2,7 @@
 # Date created:        December 30, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-http-conduit/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD: head/www/hs-http-conduit/Makefile 301919 2012-08-03 03:19:34Z pgj $
 #
 
 PORTNAME=	http-conduit
