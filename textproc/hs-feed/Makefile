@@ -2,7 +2,7 @@
 # Date created:        January 10 2010
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/textproc/hs-feed/Makefile,v 1.9 2012/06/03 20:52:23 pgj Exp $
+# $FreeBSD: head/textproc/hs-feed/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	feed

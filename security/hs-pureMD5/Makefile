@@ -2,7 +2,7 @@
 # Date created:		2010-08-17
 # Whom:			Ashish SHUKLA <ashish@FreeBSD.org>
 #
-# $FreeBSD: ports/security/hs-pureMD5/Makefile,v 1.2 2012/06/03 20:52:22 pgj Exp $
+# $FreeBSD: head/security/hs-pureMD5/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	pureMD5

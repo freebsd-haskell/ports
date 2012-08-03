@@ -2,7 +2,7 @@
 # Date created:        May 14, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-hashed-storage/Makefile,v 1.9 2012/06/03 20:52:13 pgj Exp $
+# $FreeBSD: head/devel/hs-hashed-storage/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	hashed-storage

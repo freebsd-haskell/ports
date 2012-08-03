@@ -2,7 +2,7 @@
 # Date created:        August 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-base64-bytestring/Makefile,v 1.3 2012/06/03 21:34:40 pgj Exp $
+# $FreeBSD: head/devel/hs-base64-bytestring/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	base64-bytestring

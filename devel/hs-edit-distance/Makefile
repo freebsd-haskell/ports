@@ -2,7 +2,7 @@
 # Date created:        May 9, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-edit-distance/Makefile,v 1.1 2012/06/03 19:04:00 pgj Exp $
+# $FreeBSD: head/devel/hs-edit-distance/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	edit-distance

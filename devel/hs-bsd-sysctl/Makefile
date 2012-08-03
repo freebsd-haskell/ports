@@ -2,7 +2,7 @@
 # Date created:			04 May 2010
 # Whom:				Ju Pengfei <jupengfei@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-bsd-sysctl/Makefile,v 1.8 2012/06/03 21:35:41 pgj Exp $
+# $FreeBSD: head/devel/hs-bsd-sysctl/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	bsd-sysctl

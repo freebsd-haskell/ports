@@ -2,7 +2,7 @@
 # Date created:        July 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/net/hs-simple-sendfile/Makefile,v 1.3 2012/06/03 22:20:43 pgj Exp $
+# $FreeBSD: head/net/hs-simple-sendfile/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	simple-sendfile

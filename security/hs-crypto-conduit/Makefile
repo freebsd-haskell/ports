@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/security/hs-crypto-conduit/Makefile,v 1.1 2012/06/24 10:01:15 pgj Exp $
+# $FreeBSD: head/security/hs-crypto-conduit/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	crypto-conduit

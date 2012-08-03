@@ -2,7 +2,7 @@
 # Date created:        June 5, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/devel/hs-Boolean/Makefile,v 1.5 2012/06/03 20:52:08 pgj Exp $
+# $FreeBSD: head/devel/hs-Boolean/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	Boolean

@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/databases/hs-persistent-sqlite/Makefile,v 1.1 2012/06/24 10:43:14 pgj Exp $
+# $FreeBSD: head/databases/hs-persistent-sqlite/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	persistent-sqlite

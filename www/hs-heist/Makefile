@@ -2,7 +2,7 @@
 # Date created:        September 20, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-heist/Makefile,v 1.3 2012/06/03 22:40:40 pgj Exp $
+# $FreeBSD: head/www/hs-heist/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	heist

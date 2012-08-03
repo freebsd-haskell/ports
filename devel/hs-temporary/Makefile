@@ -2,7 +2,7 @@
 # Date created:        February 6, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-temporary/Makefile,v 1.1 2012/06/03 19:13:46 pgj Exp $
+# $FreeBSD: head/devel/hs-temporary/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	temporary

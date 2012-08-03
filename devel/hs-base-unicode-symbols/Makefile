@@ -2,7 +2,7 @@
 # Date created:        September 24, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-base-unicode-symbols/Makefile,v 1.2 2012/06/03 20:52:10 pgj Exp $
+# $FreeBSD: head/devel/hs-base-unicode-symbols/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	base-unicode-symbols

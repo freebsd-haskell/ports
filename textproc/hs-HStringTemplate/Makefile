@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-HStringTemplate/Makefile,v 1.2 2012/06/03 20:52:22 pgj Exp $
+# $FreeBSD: head/textproc/hs-HStringTemplate/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	HStringTemplate

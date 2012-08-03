@@ -2,7 +2,7 @@
 # Date created:        May 25, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-blaze-textual/Makefile,v 1.3 2012/06/03 20:52:11 pgj Exp $
+# $FreeBSD: head/devel/hs-blaze-textual/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	blaze-textual

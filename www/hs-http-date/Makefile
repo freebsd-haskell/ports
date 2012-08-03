@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/www/hs-http-date/Makefile,v 1.1 2012/06/24 10:23:48 pgj Exp $
+# $FreeBSD: head/www/hs-http-date/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	http-date

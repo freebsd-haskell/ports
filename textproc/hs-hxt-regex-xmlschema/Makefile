@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-hxt-regex-xmlschema/Makefile,v 1.4 2012/06/03 20:52:24 pgj Exp $
+# $FreeBSD: head/textproc/hs-hxt-regex-xmlschema/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	hxt-regex-xmlschema

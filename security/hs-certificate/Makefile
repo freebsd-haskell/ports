@@ -2,7 +2,7 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/security/hs-certificate/Makefile,v 1.2 2012/06/03 22:24:09 pgj Exp $
+# $FreeBSD: head/security/hs-certificate/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	certificate

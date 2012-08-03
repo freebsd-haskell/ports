@@ -2,7 +2,7 @@
 # Date created:        December 26, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-xml-types/Makefile,v 1.2 2012/06/03 20:52:26 pgj Exp $
+# $FreeBSD: head/textproc/hs-xml-types/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	xml-types

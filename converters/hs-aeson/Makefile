@@ -2,7 +2,7 @@
 # Date created:        July 30, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/converters/hs-aeson/Makefile,v 1.3 2012/06/03 21:28:16 pgj Exp $
+# $FreeBSD: head/converters/hs-aeson/Makefile 300895 2012-07-14 12:56:14Z beat $
 #
 
 PORTNAME=	aeson

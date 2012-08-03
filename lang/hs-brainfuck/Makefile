@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/lang/hs-brainfuck/Makefile,v 1.8 2012/06/03 20:52:19 pgj Exp $
+# $FreeBSD: head/lang/hs-brainfuck/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	brainfuck

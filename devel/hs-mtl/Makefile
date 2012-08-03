@@ -2,7 +2,7 @@
 # Date created:		2010-05-14
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-mtl/Makefile,v 1.4 2012/06/03 21:52:38 pgj Exp $
+# $FreeBSD: head/devel/hs-mtl/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	mtl

@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/textproc/hs-regex-pcre-builtin/Makefile,v 1.4 2012/06/03 20:52:25 pgj Exp $
+# $FreeBSD: head/textproc/hs-regex-pcre-builtin/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	regex-pcre-builtin

@@ -2,7 +2,7 @@
 # Date created:			17 May 2010
 # Whom:				Ju Pengfei <jupengfei@gmail.com>
 #
-# $FreeBSD: ports/net/hs-pcap/Makefile,v 1.7 2012/06/03 20:52:21 pgj Exp $
+# $FreeBSD: head/net/hs-pcap/Makefile 300897 2012-07-14 14:29:18Z beat $
 #
 
 PORTNAME=	pcap

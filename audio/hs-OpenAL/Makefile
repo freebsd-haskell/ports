@@ -2,7 +2,7 @@
 # Date created:        December 20 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/audio/hs-OpenAL/Makefile,v 1.8 2012/06/03 21:27:01 pgj Exp $
+# $FreeBSD: head/audio/hs-OpenAL/Makefile 300895 2012-07-14 12:56:14Z beat $
 #
 
 PORTNAME=	OpenAL

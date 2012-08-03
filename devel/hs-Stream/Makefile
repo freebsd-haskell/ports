@@ -2,7 +2,7 @@
 # Date created:				November 26, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: ports/devel/hs-Stream/Makefile,v 1.12 2012/06/03 20:52:09 pgj Exp $
+# $FreeBSD: head/devel/hs-Stream/Makefile 300896 2012-07-14 13:54:48Z beat $
 
 PORTNAME=	Stream
 PORTVERSION=	0.4.6

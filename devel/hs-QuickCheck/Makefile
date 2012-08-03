@@ -2,7 +2,7 @@
 # Date created:        July 09 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-QuickCheck/Makefile,v 1.11 2012/06/03 21:32:25 pgj Exp $
+# $FreeBSD: head/devel/hs-QuickCheck/Makefile 300896 2012-07-14 13:54:48Z beat $
 
 PORTNAME=	QuickCheck
 PORTVERSION=	2.4.2

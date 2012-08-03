@@ -2,7 +2,7 @@
 # Date created:        May 14, 2010
 # Whom:                Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: ports/converters/hs-dataenc/Makefile,v 1.7 2012/06/03 20:52:07 pgj Exp $
+# $FreeBSD: head/converters/hs-dataenc/Makefile 300895 2012-07-14 12:56:14Z beat $
 #
 
 PORTNAME=	dataenc

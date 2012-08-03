@@ -2,7 +2,7 @@
 # Date created:				November 4, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: ports/ports-mgmt/hs-porte/Makefile,v 1.17 2012/06/03 20:52:21 pgj Exp $
+# $FreeBSD: head/ports-mgmt/hs-porte/Makefile 300897 2012-07-14 14:29:18Z beat $
 
 PORTNAME=	porte
 PORTVERSION=	0.0.4

@@ -2,7 +2,7 @@
 # Date created:        July 09 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: ports/devel/hs-readline/Makefile,v 1.8 2012/06/03 20:52:16 pgj Exp $
+# $FreeBSD: head/devel/hs-readline/Makefile 300896 2012-07-14 13:54:48Z beat $
 
 PORTNAME=	readline
 PORTVERSION=	1.0.1.0

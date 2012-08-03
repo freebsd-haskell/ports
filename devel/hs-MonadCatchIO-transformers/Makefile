@@ -2,7 +2,7 @@
 # Date created:        September 19, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: ports/devel/hs-MonadCatchIO-transformers/Makefile,v 1.3 2012/06/03 21:31:47 pgj Exp $
+# $FreeBSD: head/devel/hs-MonadCatchIO-transformers/Makefile 300896 2012-07-14 13:54:48Z beat $
 #
 
 PORTNAME=	MonadCatchIO-transformers
