@@ -29,7 +29,7 @@ USE_CABAL=	aeson==0.6.0.2_1 ansi-terminal==0.5.5_4 asn1-data==0.6.1.3_1 \
 		entropy==0.2.1_2 enumerator==0.4.19_1 failure==0.2.0.1_1 \
 		fast-logger==0.0.2_2 file-embed==0.0.4.4_1 filesystem-conduit==0.4.0_1 \
 		hamlet==1.0.1.4 hashable==1.1.2.3_1 hjsmin==0.1.2_1 hspec==1.2.0.1 \
-		html-conduit==0.0.1_1 http-conduit==1.4.1.10_1 http-date==0.0.2_1 \
+		html-conduit==0.0.1_1 http-conduit==1.4.1.10 http-date==0.0.2_1 \
 		http-types==0.6.11_1 HUnit==1.2.4.2_2 hxt==9.2.2_1 \
 		hxt-charproperties==9.1.1_2 hxt-regex-xmlschema==9.0.4_2 \
 		hxt-unicode==9.0.2_2 language-javascript==0.5.4_1 largeword==1.0.1_2 \
