@@ -2,7 +2,7 @@
 # Date created:        April 7, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/math/hs-ieee754/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	ieee754

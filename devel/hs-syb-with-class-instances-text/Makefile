@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-syb-with-class-instances-text/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	syb-with-class-instances-text

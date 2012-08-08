@@ -2,7 +2,7 @@
 # Date created:        March 13, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/security/hs-crypto-api/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	crypto-api

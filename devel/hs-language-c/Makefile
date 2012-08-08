@@ -2,7 +2,7 @@
 # Date created:				March 2, 2009
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: head/devel/hs-language-c/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	language-c

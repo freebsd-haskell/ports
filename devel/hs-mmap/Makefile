@@ -2,7 +2,7 @@
 # Date created:        July 09 2009
 # Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 #
-# $FreeBSD: head/devel/hs-mmap/Makefile 301894 2012-08-03 02:57:25Z pgj $
+# $FreeBSD$
 
 PORTNAME=	mmap
 PORTVERSION=	0.5.8

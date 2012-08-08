@@ -2,7 +2,7 @@
 # Date created:				November 10, 2008
 # Whom:					Samy Al Bahra <sbahra@kerneled.org>
 #
-# $FreeBSD: head/devel/hs-dlist/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD$
 
 PORTNAME=	dlist
 PORTVERSION=	0.5

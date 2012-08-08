@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-silently/Makefile 301896 2012-08-03 02:58:56Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	silently

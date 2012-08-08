@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-yesod-platform/Makefile 301928 2012-08-03 03:27:13Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	yesod-platform

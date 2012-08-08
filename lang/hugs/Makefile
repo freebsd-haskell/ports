@@ -2,7 +2,7 @@
 # Date created:		22 September 1997
 # Whom:			Torsten Teg Grust (Torsten.Grust@uni-konstanz.de)
 #
-# $FreeBSD: head/lang/hugs/Makefile 302037 2012-08-04 22:52:02Z kwm $
+# $FreeBSD$
 #
 
 PORTNAME=	hugs98

@@ -2,7 +2,7 @@
 # Date created:		December 2, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-hastache/Makefile 301892 2012-08-03 02:55:00Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	hastache

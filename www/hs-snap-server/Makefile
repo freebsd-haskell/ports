@@ -2,7 +2,7 @@
 # Date created:        September 19, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-snap-server/Makefile 301922 2012-08-03 03:21:56Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	snap-server

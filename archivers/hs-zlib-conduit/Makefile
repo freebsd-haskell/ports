@@ -2,7 +2,7 @@
 # Date created:				December 30, 2011
 # Whom:					haskell@FreeBSD.org
 #
-# $FreeBSD: head/archivers/hs-zlib-conduit/Makefile 301884 2012-08-03 02:44:07Z pgj $
+# $FreeBSD$
 
 PORTNAME=	zlib-conduit
 PORTVERSION=	0.4.0.2

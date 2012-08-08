@@ -2,7 +2,7 @@
 # Date created:        25 May 2002
 # Whom:                Oliver Braun <obraun@informatik.unibw-muenchen.de>
 #
-# $FreeBSD: head/x11-toolkits/hs-frantk/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD$
 #
 
 PORTNAME=	frantk

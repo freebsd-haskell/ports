@@ -1,5 +1,5 @@
 
-$FreeBSD: head/lang/ghc/files/patch-ghc.mk 300896 2012-07-14 13:54:48Z beat $
+$FreeBSD$
 
 --- ghc.mk.orig	2012-02-01 19:10:32.000000000 +0100
 +++ ghc.mk	2012-06-08 17:39:40.000000000 +0200

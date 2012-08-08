@@ -2,7 +2,7 @@
 # Date created:				Feb 2, 2012
 # Whom:					Wen Heping<wen@FreeBSD.org>
 #
-# $FreeBSD: head/math/hs-math-functions/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	math-functions

@@ -2,7 +2,7 @@
 # Date created:        May 25, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-base16-bytestring/Makefile 301886 2012-08-03 02:50:17Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	base16-bytestring

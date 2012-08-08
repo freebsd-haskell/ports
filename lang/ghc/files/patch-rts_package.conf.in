@@ -1,5 +1,5 @@
 
-$FreeBSD: head/lang/ghc/files/patch-rts_package.conf.in 300896 2012-07-14 13:54:48Z beat $
+$FreeBSD$
 
 --- rts/package.conf.in.orig
 +++ rts/package.conf.in

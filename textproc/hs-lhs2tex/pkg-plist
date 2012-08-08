@@ -1,4 +1,4 @@
-@comment $FreeBSD: head/textproc/hs-lhs2tex/pkg-plist 300897 2012-07-14 14:29:18Z beat $
+@comment $FreeBSD$
 share/texmf-local/tex/latex/polytable/lazylist.sty
 share/texmf-local/tex/latex/polytable/polytable.sty
 @dirrm share/texmf-local/tex/latex/polytable
