@@ -2,11 +2,11 @@
 # Date created:				2007-09-04
 # Whom:					Volker Stolz <vs@FreeBSD.org>
 #
-# $FreeBSD: head/x11-toolkits/hs-GLUT/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD: head/x11-toolkits/hs-GLUT/Makefile 302037 2012-08-04 22:52:02Z kwm $
 
 PORTNAME=	GLUT
 PORTVERSION=	2.1.2.1
-PORTREVISION=	4
+PORTREVISION=	5
 PORTEPOCH=	1
 CATEGORIES=	x11-toolkits haskell
 

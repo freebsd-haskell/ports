@@ -2,7 +2,7 @@
 # Date created:        April 23, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-haskell-platform/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD: head/devel/hs-haskell-platform/Makefile 302037 2012-08-04 22:52:02Z kwm $
 #
 
 PORTNAME=	haskell-platform
@@ -18,14 +18,14 @@ LICENSE=	BSD
 METAPORT=	yes
 USE_CABAL=	cgi==3001.1.7.4_4,1 \
 		fgl==5.4.2.4_2 \
-		GLUT==2.1.2.1_4,1 \
+		GLUT==2.1.2.1_5,1 \
 		haskell-src==1.0.1.5_1 \
 		html==1.0.1.2_4 \
 		HTTP==4000.2.3_1 \
 		HUnit==1.2.4.2_2 \
 		mtl==2.1.1_1 \
 		network==2.3.0.13_1 \
-		OpenGL==2.2.3.1_1,1 \
+		OpenGL==2.2.3.1_2,1 \
 		parallel==3.2.0.2_1 \
 		parsec==3.1.2_1 \
 		QuickCheck==2.4.2_1 \
