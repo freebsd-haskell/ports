@@ -2,7 +2,7 @@
 # Date created:        September 20, 2010
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-PSQueue/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	PSQueue

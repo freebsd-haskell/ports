@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-gitit/Makefile 301915 2012-08-03 03:16:22Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	gitit

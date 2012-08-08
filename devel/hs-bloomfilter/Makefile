@@ -2,7 +2,7 @@
 # Date created:        April 7, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-bloomfilter/Makefile 301888 2012-08-03 02:51:57Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	bloomfilter

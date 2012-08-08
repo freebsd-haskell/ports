@@ -2,7 +2,7 @@
 # Date created:        April 23, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-haskell-platform/Makefile 302037 2012-08-04 22:52:02Z kwm $
+# $FreeBSD$
 #
 
 PORTNAME=	haskell-platform

@@ -2,7 +2,7 @@
 # Date created:		11 August 2011
 # Whom:			Kaspars Bankovskis <kaspars@bankovskis.lv>
 #
-# $FreeBSD: head/textproc/hs-csv/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	csv

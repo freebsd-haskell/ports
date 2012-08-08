@@ -2,7 +2,7 @@
 # Date created:        December 2, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/www/hs-happstack-server/Makefile 301917 2012-08-03 03:17:47Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	happstack-server

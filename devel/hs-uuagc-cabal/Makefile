@@ -2,7 +2,7 @@
 # Date created:        August 12, 2011
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-uuagc-cabal/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	uuagc-cabal

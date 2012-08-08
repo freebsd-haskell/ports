@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-system-fileio/Makefile 301898 2012-08-03 03:00:32Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	system-fileio

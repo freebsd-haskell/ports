@@ -2,7 +2,7 @@
 # Date created:		November 19, 2011
 # Whom:			haskell@FreeBSD.org
 #
-# $FreeBSD: head/security/hs-HsOpenSSL/Makefile 301907 2012-08-03 03:09:45Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	HsOpenSSL

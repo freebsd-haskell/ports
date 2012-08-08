@@ -2,7 +2,7 @@
 # Date created:        June 10, 2012
 # Whom:                haskell@FreeBSD.org
 #
-# $FreeBSD: head/devel/hs-hspec/Makefile 301893 2012-08-03 02:56:31Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	hspec

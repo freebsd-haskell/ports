@@ -2,7 +2,7 @@
 # Date created:				March 11, 2009
 # Whom:					Gabor Pali <pgj@FreeBSD.org>
 #
-# $FreeBSD: head/devel/hs-lazysmallcheck/Makefile 301879 2012-08-03 02:30:07Z pgj $
+# $FreeBSD$
 #
 
 PORTNAME=	lazysmallcheck

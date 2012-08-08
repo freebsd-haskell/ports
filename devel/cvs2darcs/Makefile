@@ -2,7 +2,7 @@
 # Date created:				1 March 2007
 # Whom:					Oliver Braun <obraun@FreeBSD.org>
 #
-# $FreeBSD: head/devel/cvs2darcs/Makefile 300896 2012-07-14 13:54:48Z beat $
+# $FreeBSD$
 #
 
 PORTNAME=	cvs2darcs
