@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	vector-algorithms
-PORTVERSION=	0.5.4
-PORTREVISION=	1
+PORTVERSION=	0.5.4.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
