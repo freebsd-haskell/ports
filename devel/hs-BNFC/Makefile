@@ -9,7 +9,7 @@ PORTNAME=	BNFC
 PORTVERSION=	2.4.2.1
 CATEGORIES=	devel haskell
 
-MAINTAINER=	kaiw27@gmail.com
+MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A Labelled BNF converter
 
 LICENSE=	GPLv2
