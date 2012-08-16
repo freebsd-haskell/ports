@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	ListLike
-PORTVERSION=	3.1.5
+PORTVERSION=	3.1.6
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
