@@ -6,8 +6,7 @@
 #
 
 PORTNAME=	haskell-platform
-PORTVERSION=	2012.2.0.0
-PORTREVISION=	1
+PORTVERSION=	2012.4.0.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
