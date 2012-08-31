@@ -6,12 +6,11 @@
 #
 
 PORTNAME=	blaze-textual
-PORTVERSION=	0.2.0.6
-PORTREVISION=	2
+PORTVERSION=	0.2.0.8
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A library for efficiently rendering Haskell datatypes to bytestrings
+COMMENT=	Fast rendering of common datatypes
 
 LICENSE=	BSD
 
