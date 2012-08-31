@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	derive
-PORTVERSION=	2.5.10
+PORTVERSION=	2.5.11
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
