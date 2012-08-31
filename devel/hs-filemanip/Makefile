@@ -6,8 +6,7 @@
 #
 
 PORTNAME=	filemanip
-PORTVERSION=	0.3.5.2
-PORTREVISION=	6
+PORTVERSION=	0.3.6.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
