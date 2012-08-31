@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	wl-pprint-text
-PORTVERSION=	1.0.0.0
+PORTVERSION=	1.1.0.0
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
