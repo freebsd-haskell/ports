@@ -9,7 +9,7 @@ PORTNAME=	git-annex
 PORTVERSION=	3.20120807
 CATEGORIES=	devel haskell
 
-MAINTAINER=	frase@frase.id.au
+MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Manage files with git, without checking their contents into git
 
 LICENSE=	GPLv3
