@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-bytestring-show
-# Date created:        September 19, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bytestring-show
-PORTVERSION=	0.3.5.2
+PORTVERSION=	0.3.5.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
