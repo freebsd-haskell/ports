@@ -1,13 +1,7 @@
-# New ports collection makefile for: hs-certificate
-# Date created:        December 26, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	certificate
-PORTVERSION=	1.2.3
-PORTREVISION=	1
+PORTVERSION=	1.2.6
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -17,7 +11,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	asn1-data>=0.6.1.3 crypto-pubkey-types>=0.1 mtl pem>=0.1
+USE_CABAL=	asn1-data>=0.7.1 crypto-pubkey-types>=0.1 mtl pem>=0.1
 
 OPTIONS_DEFINE=		EXECUTABLE
 
