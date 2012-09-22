@@ -63,6 +63,7 @@ cereal_port=			devel/hs-cereal
 certificate_port=		security/hs-certificate
 cgi_port=			www/hs-cgi
 checkers_port=			devel/hs-checkers
+cipher-aes_port=		security/hs-cipher-aes
 citeproc-hs_port=		textproc/hs-citeproc-hs
 clientsession_port=		security/hs-clientsession
 cmdargs_port=			devel/hs-cmdargs
