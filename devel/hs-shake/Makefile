@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-shake
-# Date created:        June 27, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	shake
-PORTVERSION=	0.3
+PORTVERSION=	0.3.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,8 +11,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	hashable>=1.1.2.3 random transformers>=0.2 \
-		unordered-containers>=0.2.1
+USE_CABAL=	hashable>=1.1.2.3 random transformers>=0.2 unordered-containers
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
