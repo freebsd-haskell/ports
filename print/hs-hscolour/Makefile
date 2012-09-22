@@ -6,7 +6,7 @@
 #
 
 PORTNAME=	hscolour
-PORTVERSION=	1.20.2
+PORTVERSION=	1.20.3
 PORTEPOCH=	1
 CATEGORIES=	print haskell
 
