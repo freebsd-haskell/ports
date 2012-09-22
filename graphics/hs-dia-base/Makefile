@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-dia-base
-# Date created:        June 25, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dia-base
-PORTVERSION=	0.1.1.1
+PORTVERSION=	0.1.1.2
 CATEGORIES=	graphics haskell
 
 MAINTAINER=	haskell@FreeBSD.org
