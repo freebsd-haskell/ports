@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-leksah-server
-# Date created:        May 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	leksah-server
 PORTVERSION=	0.12.1.2
