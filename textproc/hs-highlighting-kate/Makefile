@@ -1,12 +1,7 @@
-# New ports collection makefile for:	highlighting-kate
-# Date created:				December 16, 2008
-# Whom:					Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	highlighting-kate
-PORTVERSION=	0.5.2
+PORTVERSION=	0.5.3.2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
