@@ -88,6 +88,7 @@ data-lens_port=			math/hs-data-lens
 data-lens-template_port=	math/hs-data-lens-template
 data-pprint_port=		devel/hs-data-pprint
 dataenc_port=			converters/hs-dataenc
+date-cache_port=		devel/hs-date-cache
 datetime_port=			devel/hs-datetime
 DeepArrow_port=			devel/hs-DeepArrow
 dia-base_port=			graphics/hs-dia-base
