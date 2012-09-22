@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-List
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	List
-PORTVERSION=	0.4.2
+PORTVERSION=	0.4.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
