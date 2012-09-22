@@ -6,8 +6,7 @@
 #
 
 PORTNAME=	texmath
-PORTVERSION=	0.6.0.6
-PORTREVISION=	1
+PORTVERSION=	0.6.1.1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
