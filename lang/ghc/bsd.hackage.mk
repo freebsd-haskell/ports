@@ -177,6 +177,7 @@ hscolour_port=			print/hs-hscolour	# executable
 hslogger_port=			devel/hs-hslogger
 HsOpenSSL_port=			security/hs-HsOpenSSL
 hspec_port=			devel/hs-hspec
+hspec-expectations_port=	devel/hs-hspec-expectations
 HStringTemplate_port=		textproc/hs-HStringTemplate
 html_port=			textproc/hs-html
 html-conduit_port=		textproc/hs-html-conduit
