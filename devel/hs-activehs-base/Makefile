@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-activehs-base
-# Date created:        June 25, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	activehs-base
-PORTVERSION=	0.3.0.1
+PORTVERSION=	0.3.0.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
