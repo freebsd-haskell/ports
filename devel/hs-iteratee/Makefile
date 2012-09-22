@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-iteratee
-# Date created:        September 19, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	iteratee
-PORTVERSION=	0.8.9.1
+PORTVERSION=	0.8.9.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,8 +11,8 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	ListLike>=1.0 monad-control MonadCatchIO-transformers>0.2 \
-		parallel>=2 transformers>=0.2 transformers-base>=0.3
+USE_CABAL=	ListLike>=3.0 monad-control MonadCatchIO-transformers>0.2 \
+		parallel>=2 transformers>=0.2 transformers-base>=0.4
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
