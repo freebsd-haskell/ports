@@ -6,12 +6,11 @@
 #
 
 PORTNAME=	data-default
-PORTVERSION=	0.4.0
-PORTREVISION=	1
+PORTVERSION=	0.5.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A class for types with a default value for Haskell
+COMMENT=	A class for types with a default value
 
 LICENSE=	BSD
 
