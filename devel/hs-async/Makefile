@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-async
-# Date created:        August 25, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	async
-PORTVERSION=	2.0.1.2
+PORTVERSION=	2.0.1.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
