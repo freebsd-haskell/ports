@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-data-pprint
-# Date created:        June 25, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	data-pprint
-PORTVERSION=	0.2.1.3
+PORTVERSION=	0.2.1.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
