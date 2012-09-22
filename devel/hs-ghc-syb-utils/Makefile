@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-ghc-syb-utils
-# Date created:        June 12, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ghc-syb-utils
-PORTVERSION=	0.2.1.0
+PORTVERSION=	0.2.1.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
