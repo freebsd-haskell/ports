@@ -6,12 +6,11 @@
 #
 
 PORTNAME=	hslogger
-PORTVERSION=	1.1.5
-PORTREVISION=	2
+PORTVERSION=	1.2.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Versatile logging framework for Haskell
+COMMENT=	Versatile logging framework
 
 LICENSE=	BSD
 
