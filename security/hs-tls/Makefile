@@ -1,13 +1,7 @@
-# New ports collection makefile for: hs-tls
-# Date created:        December 26, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tls
-PORTVERSION=	0.9.5
-PORTREVISION=	1
+PORTVERSION=	0.9.10
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
