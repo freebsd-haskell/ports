@@ -1,13 +1,7 @@
-# New ports collection makefile for: hs-SHA
-# Date created:        January 8, 2010
-# Whom:                Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	SHA
-PORTVERSION=	1.5.0.1
-PORTREVISION=	1
+PORTVERSION=	1.5.1
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
