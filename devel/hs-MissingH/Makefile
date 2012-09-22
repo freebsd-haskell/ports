@@ -6,8 +6,7 @@
 #
 
 PORTNAME=	MissingH
-PORTVERSION=	1.1.1.0
-PORTREVISION=	2
+PORTVERSION=	1.2.0.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
