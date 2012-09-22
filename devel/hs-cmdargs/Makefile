@@ -1,13 +1,7 @@
-# New ports collection makefile for: hs-cmdargs
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cmdargs
-PORTVERSION=	0.9.5
-PORTREVISION=	1
+PORTVERSION=	0.10
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
