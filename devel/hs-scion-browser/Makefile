@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-scion-browser
-# Date created:        June 12, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	scion-browser
-PORTVERSION=	0.2.9
+PORTVERSION=	0.2.10
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
