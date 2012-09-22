@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-kqueue
-# Date created:        January 25, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	kqueue
-PORTVERSION=	0.1.2.3
+PORTVERSION=	0.1.2.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
