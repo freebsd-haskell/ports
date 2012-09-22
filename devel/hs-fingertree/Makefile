@@ -1,12 +1,7 @@
-# New ports collection makefile for:	hs-fingertree
-# Date created:		December 8, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fingertree
-PORTVERSION=	0.0.1.0
+PORTVERSION=	0.0.1.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
