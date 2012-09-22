@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-dia-functions
-# Date created:        June 25, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dia-functions
-PORTVERSION=	0.2.1.2
+PORTVERSION=	0.2.1.3
 CATEGORIES=	graphics haskell
 
 MAINTAINER=	haskell@FreeBSD.org
