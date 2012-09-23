@@ -1,12 +1,7 @@
-# New ports collection makefile for: hs-hamlet
-# Date created:        December 26, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hamlet
-PORTVERSION=	1.0.1.4
+PORTVERSION=	1.1.0.2
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
