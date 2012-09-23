@@ -1,13 +1,7 @@
-# New ports collection makefile for: hs-shakespeare-css
-# Date created:        December 26, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	shakespeare-css
-PORTVERSION=	1.0.1.2
-PORTREVISION=	1
+PORTVERSION=	1.0.1.4
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
