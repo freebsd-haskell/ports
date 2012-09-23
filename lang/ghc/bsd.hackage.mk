@@ -190,6 +190,7 @@ MaybeT_port=			devel/hs-MaybeT
 MemoTrie_port=			devel/hs-MemoTrie
 mime_port=			mail/hs-mime
 mime-mail_port=			mail/hs-mime-mail
+mime-types_port=		mail/hs-mime-types
 MissingH_port=			devel/hs-MissingH
 mmap_port=			devel/hs-mmap
 monad-control_port=		devel/hs-monad-control
