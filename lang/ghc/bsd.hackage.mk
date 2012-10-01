@@ -305,6 +305,7 @@ TypeCompose_port=		devel/hs-TypeCompose
 unamb_port=			devel/hs-unamb
 uniplate_port=			devel/hs-uniplate
 unix-compat_port=		devel/hs-unix-compat
+unix-time_port=			devel/hs-unix-time
 unlambda_port=			lang/hs-unlambda	# executable
 unordered-containers_port=	devel/hs-unordered-containers
 url_port=			www/hs-url
