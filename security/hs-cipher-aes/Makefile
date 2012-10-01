@@ -11,7 +11,5 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_GCC=	4.6+
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
