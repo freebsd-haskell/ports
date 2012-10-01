@@ -5,8 +5,7 @@
 # $FreeBSD$
 
 PORTNAME=	happy
-PORTVERSION=	1.18.9
-PORTREVISION=	1
+PORTVERSION=	1.18.10
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -22,13 +21,7 @@ USE_AUTOTOOLS=	autoconf:env
 STANDALONE=	yes
 EXECUTABLE=	happy
 
-USE_PERL5_BUILD=	5.8+
-
 INSTALL_PORTEXAMPLES=	@(cd ${WRKSRC}/examples/ && ${COPYTREE_SHARE} \* ${EXAMPLESDIR})
-
-.if defined(SLAVE)
-GHC_CMD=	ghc
-.endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
