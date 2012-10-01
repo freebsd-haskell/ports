@@ -5,12 +5,11 @@
 # $FreeBSD$
 
 PORTNAME=	QuickCheck
-PORTVERSION=	2.4.2
-PORTREVISION=	1
+PORTVERSION=	2.5.1.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Library for random testing in haskell
+COMMENT=	Automatic testing of Haskell programs
 
 LICENSE=	BSD
 
