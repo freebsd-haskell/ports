@@ -33,6 +33,7 @@ USE_CABAL=	async==2.0.1.3 \
 		syb==0.3.7 \
 		text=0.11.2.3 \
 		transformers==0.3.0.0_1 \
+		vector==0.10 \
 		xhtml==3000.2.1_1 \
 		zlib==0.5.4.0 \
 		cabal-install==0.14.0_1 \
