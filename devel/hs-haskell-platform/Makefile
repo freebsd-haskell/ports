@@ -19,10 +19,11 @@ USE_CABAL=	async==2.0.1.3 \
 		HTTP==4000.2.5 \
 		HUnit==1.2.5.1 \
 		mtl==2.1.2 \
-		network==2.4.0.1 \
+		network==2.3.1.0 \
 		OpenGL==2.2.3.1_2,1 \
 		parallel==3.2.0.3 \
 		parsec==3.1.3 \
+		primitive==0.5 \
 		QuickCheck==2.5.1.1 \
 		random==1.0.1.1_1 \
 		regex-base==0.93.2_4 \
