@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-heist
-# Date created:        September 20, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	heist
 PORTVERSION=	0.8.1.1
