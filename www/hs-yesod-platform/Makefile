@@ -39,7 +39,7 @@ USE_CABAL=	aeson==0.6.0.2_1 ansi-terminal==0.5.5_4 asn1-data==0.7.1 \
 		silently==1.2.0.2 simple-sendfile==0.2.7 skein==0.1.0.9 \
 		socks==0.4.2 stringsearch==0.3.6.3_2 system-fileio==0.3.9 \
 		system-filepath==0.4.7 tagged==0.4.2.1_1 tagsoup==0.12.7 \
-		tagstream-conduit==0.5.2 tar==0.4.0.0 tls==0.9.10 \
+		tagstream-conduit==0.5.2 tar==0.4.0.0_1 tls==0.9.10 \
 		tls-extra==0.4.6_1 transformers-base==0.4.1_2 unix-compat==0.3.0.2 \
 		unordered-containers==0.2.2.1 utf8-light==0.4.0.1_1 \
 		utf8-string==0.3.7_2 vault==0.2.0.1 vector==0.10 void==0.5.7 \
