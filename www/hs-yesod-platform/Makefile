@@ -24,7 +24,7 @@ USE_CABAL=	aeson==0.6.0.2_1 ansi-terminal==0.5.5_4 asn1-data==0.7.1 \
 		email-validate==0.2.8_1 entropy==0.2.1_2 failure==0.2.0.1_1 \
 		fast-logger==0.3.1 file-embed==0.0.4.5 filesystem-conduit==0.5.0.1 \
 		hamlet==1.1.0.2 hashable==1.1.2.5 hjsmin==0.1.2_1 hspec==1.3.0 \
-		hspec-exceptations==0.3.0.2 html-conduit==0.1.0.2 \
+		hspec-expectations==0.3.0.2 html-conduit==0.1.0.2 \
 		http-conduit==1.6.0.3 http-date==0.0.2_1 http-types==0.7.3.0.1 \
 		language-javascript==0.5.4_1 largeword==1.0.3 lifted-base==0.1.2 \
 		mime-mail==0.4.1.2 mime-types==0.1.0.0 monad-control==0.3.1.4 \
