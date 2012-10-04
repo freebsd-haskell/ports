@@ -1,5 +1,5 @@
 --- ./Parse.hs.orig	2012-02-21 16:25:44.000000000 +0100
-+++ ./Parse.hs	2012-10-04 17:09:33.000000000 +0200
++++ ./Parse.hs	2012-10-04 22:28:56.000000000 +0200
 @@ -79,10 +79,10 @@
      case readMarkdown pState . unlines . concatMap preprocess . lines $ c of
          Pandoc meta (CodeBlock ("",["sourceCode","literate","haskell"],[]) h: blocks) -> do

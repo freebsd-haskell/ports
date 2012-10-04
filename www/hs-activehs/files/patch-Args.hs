@@ -1,5 +1,5 @@
---- ./Args.hs.orig	2012-10-04 17:10:30.000000000 +0200
-+++ ./Args.hs	2012-10-04 17:12:57.000000000 +0200
+--- ./Args.hs.orig	2012-10-04 22:28:59.000000000 +0200
++++ ./Args.hs	2012-10-04 22:29:07.000000000 +0200
 @@ -7,6 +7,8 @@
  import System.Console.CmdArgs.Implicit
  import System.FilePath
