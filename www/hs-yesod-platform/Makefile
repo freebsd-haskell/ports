@@ -31,7 +31,7 @@ USE_CABAL=	aeson==0.6.0.2_1 ansi-terminal==0.5.5_4 asn1-data==0.7.1 \
 		monad-logger==0.2.0.1 network-conduit==0.5.0.1 \
 		path-pieces==0.1.1_1 pem==0.1.1_1 persistent==1.0.1.1 \
 		persistent-template==1.0.0.1 pool-conduit==0.1.0.3 \
-		primitive==0.4.1_2 pureMD5==2.1.2.1 pwstore-fast==2.2_2 \
+		primitive==0.5 pureMD5==2.1.2.1 pwstore-fast==2.2_2 \
 		ranges==0.2.4_2 resource-pool==0.2.1.1 resourcet==0.4.0.1 \
 		safe==0.3.3_2 semigroups==0.8.4.1 SHA==1.5.1 shakespeare==1.0.1.3 \
 		shakespeare-css==1.0.1.4 shakespeare-i18n==1.0.0.2_1 \
