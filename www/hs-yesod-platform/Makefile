@@ -42,7 +42,7 @@ USE_CABAL=	aeson==0.6.0.2_1 ansi-terminal==0.5.5_4 asn1-data==0.7.1 \
 		tagstream-conduit==0.5.2 tar==0.4.0.0 tls==0.9.10 \
 		tls-extra==0.4.6_1 transformers-base==0.4.1_2 unix-compat==0.3.0.2 \
 		unordered-containers==0.2.2.1 utf8-light==0.4.0.1_1 \
-		utf8-string==0.3.7_2 vault==0.2.0.1 vector==0.9.1_2 void==0.5.7 \
+		utf8-string==0.3.7_2 vault==0.2.0.1 vector==0.10 void==0.5.7 \
 		wai==1.3.0 wai-app-static==1.3.0.1 wai-extra==1.3.0.1 \
 		wai-logger==0.3.0 wai-test==1.3.0 warp==1.3.1 \
 		xml-conduit==1.0.3.1 xml-types==0.3.3  xss-sanitize==0.3.2_1 \
