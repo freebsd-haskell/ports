@@ -20,7 +20,7 @@ USE_CABAL=	HTTP>=4000.2.0 mime>=0.3 network>=2 url>=2 utf8-string>=0.3.4
 INSTALL_PORTEXAMPLES=	cd ${WRKSRC}/example && \
 			  ${COPYTREE_SHARE} \* ${EXAMPLESDIR}
 
-OPTIONS_DEFINE=		EXAMPLES
+CABAL_OPTIONS=		EXAMPLES
 OPTIONS_DEFAULT=	EXAMPLES
 
 .include <bsd.port.options.mk>

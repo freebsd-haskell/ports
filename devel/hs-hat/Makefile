@@ -19,7 +19,7 @@ USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 USE_GNOME=	glib12
 
-OPTIONS_DEFINE=		DOCS
+CABAL_OPTIONS=		DOCS
 OPTIONS_DEFAULT=	DOCS
 
 .include <bsd.port.options.mk>
