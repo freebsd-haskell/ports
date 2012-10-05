@@ -16,7 +16,7 @@ USE_XORG=	x11
 
 RUN_DEPENDS+=	bash:${PORTSDIR}/shells/bash
 
-CABAL_OPTIONS=		XFT
+OPTIONS_DEFINE=		XFT
 OPTIONS_DEFAULT=	XFT
 
 XFT_DESC=		Enable Xft support for fonts

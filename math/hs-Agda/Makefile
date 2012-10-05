@@ -25,7 +25,7 @@ INSTALL_PORTDATA=	(cd ${WRKSRC} && ${INSTALL_DATA} README ${DATADIR}; \
 
 SHOW_PKGMSG=	yes
 
-CABAL_OPTIONS=		USE_LOCALE EPIC
+OPTIONS_DEFINE=		USE_LOCALE EPIC
 
 USE_LOCALE_DESC=	Use encoding specified by the locale
 EPIC_DESC=		Install the Epic compiler

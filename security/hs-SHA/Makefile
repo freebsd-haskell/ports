@@ -11,7 +11,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-CABAL_OPTIONS=		EXE
+OPTIONS_DEFINE=		EXE
 
 EXE_DESC=		Build a SHA2-384 executable similar to 'md5sum'
 

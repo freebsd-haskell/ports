@@ -13,7 +13,7 @@ LICENSE=	BSD
 CABAL_SETUP=	Setup.hs
 USE_CABAL=	crypto-api>=0.10 crypto-pubkey-types monadcryptorandom SHA
 
-CABAL_OPTIONS=		MD5 BINARY
+OPTIONS_DEFINE=		MD5 BINARY
 OPTIONS_DEFAULT=	MD5 BINARY
 
 MD5_DESC=		Include support for using MD5

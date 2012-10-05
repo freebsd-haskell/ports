@@ -9,7 +9,7 @@ COMMENT=	Ways to write a file cautiously
 
 LICENSE=	BSD
 
-CABAL_OPTIONS=		POSIX
+OPTIONS_DEFINE=		POSIX
 OPTIONS_DEFAULT=	POSIX
 
 POSIX_DESC=		Use POSIX-specific features

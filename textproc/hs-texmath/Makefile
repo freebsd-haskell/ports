@@ -14,7 +14,7 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	parsec>=3 syb xml
 
-CABAL_OPTIONS=		CGI
+OPTIONS_DEFINE=		CGI
 
 CGI_DESC=		Compile CGI executable
 

@@ -85,8 +85,6 @@ PROFILE_DESC?=	Add support for profiling
 
 .include <bsd.port.options.mk>
 
-OPTIONS_DEFINE+=	${CABAL_OPTIONS}
-
 .if exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
 OPTIONS_DEFINE+=	DYNAMIC
 .endif
