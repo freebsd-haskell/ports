@@ -1,5 +1,5 @@
 --- ./activehs.cabal.orig	2012-02-21 16:25:44.000000000 +0100
-+++ ./activehs.cabal	2012-10-04 22:34:26.000000000 +0200
++++ ./activehs.cabal	2012-10-05 00:30:40.000000000 +0200
 @@ -50,6 +50,7 @@
      HoogleCustom,
      Html,
@@ -8,7 +8,7 @@
      Special
  
    Build-Depends:
-@@ -61,30 +62,30 @@
+@@ -61,30 +62,31 @@
      activehs-base >= 0.2 && < 0.4,
      data-pprint >= 0.2 && < 0.3,
      base >= 4.0 && < 4.6,
@@ -31,6 +31,7 @@
      xhtml >= 3000.2 && < 3000.3,
 -    blaze-html >= 0.4 && < 0.5,
 +    blaze-html >= 0.4 && < 0.6,
++    blaze-markup,
      pureMD5 >= 2.1 && < 2.2,
      deepseq >= 1.1 && < 1.4,
 -    split >= 0.1 && < 0.2,
