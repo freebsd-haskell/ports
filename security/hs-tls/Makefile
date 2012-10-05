@@ -14,7 +14,7 @@ CABAL_SETUP=	Setup.hs
 USE_CABAL=	cereal>=0.3 certificate>=1.2.0 crypto-api>=0.5 \
 		cryptocipher>=0.3.0 cryptohash>=0.6 mtl
 
-CABAL_OPTIONS=		EXECUTABLE
+OPTIONS_DEFINE=		EXECUTABLE
 
 EXECUTABLE_DESC=	Build the executables
 

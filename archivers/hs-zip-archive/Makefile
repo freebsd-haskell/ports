@@ -17,7 +17,7 @@ LICENSE=	BSD
 
 USE_CABAL=	digest>=0.0.0.1 mtl utf8-string>=0.3.1 zlib
 
-CABAL_OPTIONS=		EXECUTABLE
+OPTIONS_DEFINE=		EXECUTABLE
 
 EXECUTABLE_DESC=	Build the Zip executable
 

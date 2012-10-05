@@ -22,7 +22,7 @@ STANDALONE=	yes
 
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/samples/xmobar.config ${DATADIR}
 
-CABAL_OPTIONS=		XFT UTF8 MPD
+OPTIONS_DEFINE=		XFT UTF8 MPD
 OPTIONS_DEFAULT=	UFT8
 
 XFT_DESC=		Use Xft to render text (UTF-8 support included)

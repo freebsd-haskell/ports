@@ -18,7 +18,7 @@ USE_CABAL=	binary-shared>=0.8 enumerator>=0.4.14 gio>=0.12.2 \
 
 EXECUTABLE=	leksah
 
-CABAL_OPTIONS=		YI DYRE THREADED
+OPTIONS_DEFINE=		YI DYRE THREADED
 OPTIONS_DEFAULT=	DYRE
 
 YI_DESC=		Yi support (experimental)

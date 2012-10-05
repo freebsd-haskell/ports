@@ -25,7 +25,7 @@ USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS+=--prefix=${PREFIX} --buildwith=gcc
 
-CABAL_OPTIONS=		DOCS
+OPTIONS_DEFINE=		DOCS
 OPTIONS_DEFAULT=	DOCS
 
 .include <bsd.port.options.mk>

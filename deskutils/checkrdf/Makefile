@@ -26,7 +26,7 @@ MANCOMPRESSED=	yes
 PLIST_FILES=	bin/checkrdf bin/checkrdf.bin etc/checkrdf.rc
 PORTDOCS=	README NEWS blog.news.css bluegreek.css myrdf.css
 
-CABAL_OPTIONS=		DOCS
+OPTIONS_DEFINE=		DOCS
 OPTIONS_DEFAULT=	DOCS
 
 .include <bsd.port.options.mk>
