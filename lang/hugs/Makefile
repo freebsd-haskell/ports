@@ -26,7 +26,7 @@ GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS+=	--with-pthreads
 
-OPTIONS_DEFINE=		X11
+CABAL_OPTIONS=		X11
 
 .include <bsd.port.options.mk>
 

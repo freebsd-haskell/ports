@@ -14,7 +14,7 @@ DISTNAME=	${PORTNAME}-${PORTVERSION}.src
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Interpreter for Haskell with object-oriented features
 
-OPTIONS_DEFINE=		X11
+CABAL_OPTIONS=		X11
 
 .include <bsd.port.options.mk>
 

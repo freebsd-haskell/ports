@@ -11,7 +11,7 @@ LICENSE=	GPLv2
 
 USE_CABAL=	blaze-html>=0.4.2 mtl parsec regex-pcre-builtin
 
-OPTIONS_DEFINE=		EXECUTABLE
+CABAL_OPTIONS=		EXECUTABLE
 
 EXECUTABLE_DESC=	Build the Highlight executable
 

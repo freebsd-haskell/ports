@@ -13,7 +13,7 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	asn1-data>=0.7.1 crypto-pubkey-types>=0.1 mtl pem>=0.1
 
-OPTIONS_DEFINE=		EXECUTABLE
+CABAL_OPTIONS=		EXECUTABLE
 
 EXECUTABLE_DESC=	Build the executable
 
