@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-hat
-# Date created:				February 4, 2009
-# Whom:					Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hat
 PORTVERSION=	2.06
