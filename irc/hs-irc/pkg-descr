@@ -1,0 +1,3 @@
+A set of combinators and types for parsing IRC messages.
+
+WWW:	http://hackage.haskell.org/package/irc
