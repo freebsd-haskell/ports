@@ -5,8 +5,7 @@
 # $FreeBSD$
 
 PORTNAME=	zlib
-PORTVERSION=	0.5.3.3
-PORTREVISION=	1
+PORTVERSION=	0.5.4.0
 CATEGORIES=	archivers haskell
 
 MAINTAINER=	haskell@FreeBSD.org

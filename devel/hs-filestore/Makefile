@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-filestore
-# Date created:        December 2, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	filestore
 PORTVERSION=	0.5
