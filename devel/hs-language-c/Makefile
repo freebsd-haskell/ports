@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-language-c-ghc
-# Date created:				March 2, 2009
-# Whom:					Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	language-c
 PORTVERSION=	0.3.2.1

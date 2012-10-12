@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-parallel-io
-# Date created:        June 12, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	parallel-io
 PORTVERSION=	0.3.2

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-NumInstances
-# Date created:        September 24, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	NumInstances
 PORTVERSION=	1.0

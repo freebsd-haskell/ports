@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-printxosd
-# Date created:				November 20, 2011
-# Whom:					haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	printxosd
 PORTVERSION=	0.1

@@ -1,9 +1,5 @@
-# New ports collection makefile for:   gtk2hs
-# Date created:        03 June 2002
-# Whom:                Oliver Braun <obraun@FreeBSD.org>
-#
+# Created by: Oliver Braun <obraun@FreeBSD.org>
 # $FreeBSD$
-#
 
 PORTNAME=	gtk2hs
 PORTVERSION=	0.12.2

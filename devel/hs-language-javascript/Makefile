@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-language-javascript
-# Date created:        June 10, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	language-javascript
 PORTVERSION=	0.5.4

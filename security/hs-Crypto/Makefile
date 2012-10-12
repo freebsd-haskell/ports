@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-Crypto
-# Date created:		July 5, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	Crypto
 PORTVERSION=	4.2.5

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-fastirc
-# Date created:		2011-06-01
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	fastirc
 PORTVERSION=	0.2.0

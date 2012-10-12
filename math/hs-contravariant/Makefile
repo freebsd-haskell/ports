@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-contravariant
-# Date created:        July 16, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	contravariant
 PORTVERSION=	0.2.0.2

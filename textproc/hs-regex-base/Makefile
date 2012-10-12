@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-regex-base
-# Date created:		2010-08-10
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	regex-base
 PORTVERSION=	0.93.2

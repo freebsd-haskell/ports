@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-test-framework-quickcheck2
-# Date created:        May 21, 2010
-# Whom:                Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	test-framework-quickcheck2
 PORTVERSION=	0.2.12.3

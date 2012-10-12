@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-citeproc-hs
-# Date created:        May 14, 2010
-# Whom:                Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	citeproc-hs
 PORTVERSION=	0.3.4

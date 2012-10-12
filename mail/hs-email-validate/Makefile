@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-email-validate
-# Date created:        December 26, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	email-validate
 PORTVERSION=	0.2.8

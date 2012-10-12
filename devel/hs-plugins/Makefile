@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-plugins
-# Date created:        January 25, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	plugins
 PORTVERSION=	1.5.2.3

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-gtk2hs-buildtools
-# Date created:		March 13, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gtk2hs-buildtools
 PORTVERSION=	0.12.3.1

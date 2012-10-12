@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-entropy
-# Date created:		July 13, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	entropy
 PORTVERSION=	0.2.1

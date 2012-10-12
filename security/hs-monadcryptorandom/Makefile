@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-monadcryptorandom
-# Date created:        April 7, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	monadcryptorandom
 PORTVERSION=	0.4.1

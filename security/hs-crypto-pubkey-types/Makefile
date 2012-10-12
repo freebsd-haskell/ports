@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-crypto-pubkey-types
-# Date created:        November 19, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	crypto-pubkey-types
 PORTVERSION=	0.1.1

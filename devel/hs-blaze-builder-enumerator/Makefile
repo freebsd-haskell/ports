@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-blaze-builder-enumerator
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	blaze-builder-enumerator
 PORTVERSION=	0.2.0.5

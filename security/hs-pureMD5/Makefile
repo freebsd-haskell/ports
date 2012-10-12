@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-pureMD5
-# Date created:		2010-08-17
-# Whom:			Ashish SHUKLA <ashish@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pureMD5
 PORTVERSION=	2.1.2.1

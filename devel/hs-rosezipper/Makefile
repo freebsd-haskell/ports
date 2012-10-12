@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-rosezipper
-# Date created:		December 8, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	rosezipper
 PORTVERSION=	0.2

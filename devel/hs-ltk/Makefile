@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-ltk
-# Date created:        May 11, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ltk
 PORTVERSION=	0.12.1.0

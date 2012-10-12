@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-pango
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pango
 PORTVERSION=	0.12.3

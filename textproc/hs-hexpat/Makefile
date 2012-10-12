@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-hexpat
-# Date created:        September 20, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hexpat
 PORTVERSION=	0.20.2

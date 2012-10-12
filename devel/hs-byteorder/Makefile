@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-byteorder
-# Date created:		December 30, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	byteorder
 PORTVERSION=	1.0.3

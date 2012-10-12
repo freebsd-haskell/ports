@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-silently
-# Date created:        June 10, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	silently
 PORTVERSION=	1.2.0.2

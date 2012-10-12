@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-binary-shared
-# Date created:        May 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	binary-shared
 PORTVERSION=	0.8.2

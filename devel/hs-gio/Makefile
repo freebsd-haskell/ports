@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-gio
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	gio
 PORTVERSION=	0.12.3

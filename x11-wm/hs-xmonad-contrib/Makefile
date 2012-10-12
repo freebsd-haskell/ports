@@ -1,9 +1,5 @@
-# New ports collection makefile for:	xmonad-contrib
-# Date created:		2008-01-23
-# Whom:		Matthieu Guegan <matt.guegan@free.fr>
-#
+# Created by: Matthieu Guegan <matt.guegan@free.fr>
 # $FreeBSD$
-#
 
 PORTNAME=	xmonad-contrib
 PORTVERSION=	0.10

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-mysql-simple
-# Date created:        May 25, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	mysql-simple
 PORTVERSION=	0.2.2.4

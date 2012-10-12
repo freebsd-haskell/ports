@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-edit-distance
-# Date created:        May 9, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	edit-distance
 PORTVERSION=	0.2.1

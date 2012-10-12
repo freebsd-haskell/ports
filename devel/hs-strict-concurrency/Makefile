@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-strict-concurrency
-# Date created:		December 26, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	strict-concurrency
 PORTVERSION=	0.2.4.1

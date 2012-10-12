@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-wl-pprint-text
-# Date created:        June 5, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	wl-pprint-text
 PORTVERSION=	1.1.0.0

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-glade
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	glade
 PORTVERSION=	0.12.1

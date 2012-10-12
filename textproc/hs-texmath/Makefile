@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-texmath
-# Date created:        January 10 2010
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	texmath
 PORTVERSION=	0.6.1.1

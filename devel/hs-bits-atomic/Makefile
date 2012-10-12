@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-bits-atomic
-# Date created:        May 12, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	bits-atomic
 PORTVERSION=	0.1.3

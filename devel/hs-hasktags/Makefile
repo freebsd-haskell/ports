@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-hasktags
-# Date created:        January 24, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hasktags
 PORTVERSION=	0.68.2

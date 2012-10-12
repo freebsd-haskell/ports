@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-uulib
-# Date created:        February 27 2008
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	uulib
 PORTVERSION=	0.9.14

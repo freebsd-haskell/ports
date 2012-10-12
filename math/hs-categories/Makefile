@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-categories
-# Date created:        July 16, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	categories
 PORTVERSION=	1.0.3

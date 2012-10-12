@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-blaze-textual
-# Date created:        May 25, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	blaze-textual
 PORTVERSION=	0.2.0.8

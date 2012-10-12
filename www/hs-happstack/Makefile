@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-happstack
-# Date created:        December 2, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	happstack
 PORTVERSION=	7.0.0

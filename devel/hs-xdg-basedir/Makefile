@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-xdg-basedir
-# Date created:		December 8, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xdg-basedir
 PORTVERSION=	0.2.1

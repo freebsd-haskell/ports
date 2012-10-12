@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-attempt
-# Date created:		December 26, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	attempt
 PORTVERSION=	0.4.0

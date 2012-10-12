@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-graphviz
-# Date created:        June 5, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	graphviz
 PORTVERSION=	2999.14.1.0

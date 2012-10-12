@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-xosd
-# Date created:				November 19, 2011
-# Whom:					haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xosd
 PORTVERSION=	0.2

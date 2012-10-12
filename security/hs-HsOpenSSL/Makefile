@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-HsOpenSSL
-# Date created:		November 19, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	HsOpenSSL
 PORTVERSION=	0.10.3.3

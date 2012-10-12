@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-xhtml
-# Date created:        September 15, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xhtml
 PORTVERSION=	3000.2.1

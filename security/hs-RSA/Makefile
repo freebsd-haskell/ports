@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-RSA
-# Date created:        December 26, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	RSA
 PORTVERSION=	1.2.1.0

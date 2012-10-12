@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-crypto-api
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	crypto-api
 PORTVERSION=	0.10.2

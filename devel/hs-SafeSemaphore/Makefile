@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-SafeSemaphore
-# Date created:        June 27, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	SafeSemaphore
 PORTVERSION=	0.9.0

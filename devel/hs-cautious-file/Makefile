@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-cautious-file
-# Date created:        December 8, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cautious-file
 PORTVERSION=	1.0.1

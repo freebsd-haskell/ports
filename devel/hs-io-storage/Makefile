@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-io-storage
-# Date created:		December 8, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	io-storage
 PORTVERSION=	0.3

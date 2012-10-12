@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-attoparsec-iteratee
-# Date created:        September 19, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	attoparsec-iteratee
 PORTVERSION=	0.4.0

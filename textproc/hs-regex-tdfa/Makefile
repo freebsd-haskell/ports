@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-regex-tdfa
-# Date created:        May 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	regex-tdfa
 PORTVERSION=	1.1.8

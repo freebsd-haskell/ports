@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-buildwrapper
-# Date created:        June 12, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	buildwrapper
 PORTVERSION=	0.6.1

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-IfElse
-# Date created:        April 7, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	IfElse
 PORTVERSION=	0.85

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-xhtml-combinators
-# Date created:        September 19, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	xhtml-combinators
 PORTVERSION=	0.3

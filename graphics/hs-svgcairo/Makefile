@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-svgcairo
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	svgcairo
 PORTVERSION=	0.12.1.1

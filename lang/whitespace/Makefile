@@ -1,9 +1,5 @@
-# New ports collection makefile for:	whitespace
-# Date created:        18 May 2006
-# Whom:                Li-Lun Wang <llwang@infor.org>
-#
+# Created by: Li-Lun Wang <llwang@infor.org>
 # $FreeBSD$
-#
 
 PORTNAME=	whitespace
 PORTVERSION=	0.3

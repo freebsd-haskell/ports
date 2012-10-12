@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-soegtk
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	soegtk
 PORTVERSION=	0.12.1

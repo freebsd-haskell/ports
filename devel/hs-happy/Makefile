@@ -1,7 +1,4 @@
-# New ports collection makefile for:	happy
-# Date created:				22 December 2000
-# Whom:					Simon Marlow <simonmar@microsoft.com>
-#
+# Created by: Simon Marlow <simonmar@microsoft.com>
 # $FreeBSD$
 
 PORTNAME=	happy

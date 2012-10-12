@@ -1,7 +1,4 @@
-# New ports collection makefile for:	dlist
-# Date created:				November 10, 2008
-# Whom:					Samy Al Bahra <sbahra@kerneled.org>
-#
+# Created by: Samy Al Bahra <sbahra@kerneled.org>
 # $FreeBSD$
 
 PORTNAME=	dlist

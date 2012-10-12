@@ -1,9 +1,5 @@
-# New ports collection makefile for:	cvs2darcs
-# Date created:				1 March 2007
-# Whom:					Oliver Braun <obraun@FreeBSD.org>
-#
+# Created by: Oliver Braun <obraun@FreeBSD.org>
 # $FreeBSD$
-#
 
 PORTNAME=	cvs2darcs
 PORTVERSION=	0.8

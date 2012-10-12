@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-utf8-light
-# Date created:        June 10, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	utf8-light
 PORTVERSION=	0.4.0.1

@@ -1,7 +1,4 @@
-# New ports collection makefile for: hs-ghc-paths
-# Date created:        July 09 2009
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
 
 PORTNAME=	ghc-paths

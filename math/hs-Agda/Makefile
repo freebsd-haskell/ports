@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-Agda
-# Date created:        December 20 2009
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	Agda
 PORTVERSION=	2.3.0.1

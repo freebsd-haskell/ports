@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-MissingH
-# Date created:        December 20 2009
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	MissingH
 PORTVERSION=	1.2.0.0

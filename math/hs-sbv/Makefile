@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-sbv
-# Date created:        June 13, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	sbv
 PORTVERSION=	2.1

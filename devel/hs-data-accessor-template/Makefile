@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-data-template
-# Date created:		December 8, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	data-accessor-template
 PORTVERSION=	0.2.1.9

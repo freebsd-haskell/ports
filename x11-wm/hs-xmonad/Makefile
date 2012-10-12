@@ -1,9 +1,5 @@
-# New ports collection makefile for:	xmonad
-# Date created:		2007-10-25
-# Whom:			Matthieu Guegan <matt.guegan@free.fr>
-#
+# Created by: Matthieu Guegan <matt.guegan@free.fr>
 # $FreeBSD$
-#
 
 PORTNAME=	xmonad
 PORTVERSION=	0.10

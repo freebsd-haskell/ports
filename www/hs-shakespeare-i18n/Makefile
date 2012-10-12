@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-shakespeare-i18n
-# Date created:        December 31, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	shakespeare-i18n
 PORTVERSION=	1.0.0.2

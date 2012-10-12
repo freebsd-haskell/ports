@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-cabal-install
-# Date created:		2010-08-17
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cabal-install
 PORTVERSION=	0.14.0

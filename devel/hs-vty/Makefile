@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-vty
-# Date created:        April 8, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	vty
 PORTVERSION=	4.7.0.14

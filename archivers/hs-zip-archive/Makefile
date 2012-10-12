@@ -1,9 +1,4 @@
-# New ports collection makefile for:	zip-archive
-# Date created:				December 15, 2008
-# Whom:					Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	zip-archive
 PORTVERSION=	0.1.1.8

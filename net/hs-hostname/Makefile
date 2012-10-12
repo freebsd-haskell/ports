@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-hostname
-# Date created:        May 21, 2010
-# Whom:                Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hostname
 PORTVERSION=	1.0

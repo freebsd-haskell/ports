@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-data-accessor-mtl
-# Date created:        April 8, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	data-accessor-mtl
 PORTVERSION=	0.2.0.3

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-type-level
-# Date created:        November 19, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	type-level
 PORTVERSION=	0.2.4

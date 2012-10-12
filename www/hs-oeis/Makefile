@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-oeis
-# Date created:        December 20 2009
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	oeis
 PORTVERSION=	0.3.1

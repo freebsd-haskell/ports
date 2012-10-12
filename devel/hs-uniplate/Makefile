@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-uniplate
-# Date created:        December 20 2009
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	uniplate
 PORTVERSION=	1.6.7

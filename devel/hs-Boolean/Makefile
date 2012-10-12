@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-Boolean
-# Date created:        June 5, 2010
-# Whom:                Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	Boolean
 PORTVERSION=	0.0.1

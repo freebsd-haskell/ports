@@ -1,9 +1,5 @@
-# New ports collection makefile for:	hs-math-functions
-# Date created:				Feb 2, 2012
-# Whom:					Wen Heping<wen@FreeBSD.org>
-#
+# Created by: Wen Heping <wen@FreeBSD.org>
 # $FreeBSD$
-#
 
 PORTNAME=	math-functions
 PORTVERSION=	0.1.1.2

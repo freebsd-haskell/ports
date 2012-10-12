@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-ListLike
-# Date created:        September 19, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ListLike
 PORTVERSION=	3.1.6

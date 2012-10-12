@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-pcap
-# Date created:			17 May 2010
-# Whom:				Ju Pengfei <jupengfei@gmail.com>
-#
+# Created by: Ju Pengfei <jupengfei@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	pcap
 PORTVERSION=	0.4.5.2

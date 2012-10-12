@@ -1,9 +1,4 @@
-# New ports collection makefile for:	pcre-light
-# Date created:				December 16, 2008
-# Whom:					Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pcre-light
 PORTVERSION=	0.4

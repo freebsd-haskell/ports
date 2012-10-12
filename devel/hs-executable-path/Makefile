@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-executable-path
-# Date created:		December 8, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	executable-path
 PORTVERSION=	0.0.3

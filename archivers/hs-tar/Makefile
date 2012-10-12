@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-tar
-# Date created:		2010-08-17
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	tar
 PORTVERSION=	0.4.0.0

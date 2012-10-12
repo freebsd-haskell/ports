@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-pandoc-types
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pandoc-types
 PORTVERSION=	1.9.1

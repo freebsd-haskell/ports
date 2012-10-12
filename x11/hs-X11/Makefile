@@ -1,7 +1,4 @@
-# New ports collection makefile for:	hs-x11-ghc
-# Date created:				2007-09-03
-# Whom:					Volker Stolz <vs@FreeBSD.org>
-#
+# Created by: Volker Stolz <vs@FreeBSD.org>
 # $FreeBSD$
 
 PORTNAME=	X11

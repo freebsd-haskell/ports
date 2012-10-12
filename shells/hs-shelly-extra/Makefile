@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-shelly-extra
-# Date created:        June 27, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	shelly-extra
 PORTVERSION=	0.2.2.1

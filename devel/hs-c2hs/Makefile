@@ -1,9 +1,5 @@
-# New ports collection makefile for:   c2hs
-# Date created:        23 August 2002
-# Whom:                Oliver Braun <obraun@FreeBSD.org>
-#
+# Created by: Oliver Braun <obraun@FreeBSD.org>
 # $FreeBSD$
-#
 
 PORTNAME=	c2hs
 PORTVERSION=	0.16.3

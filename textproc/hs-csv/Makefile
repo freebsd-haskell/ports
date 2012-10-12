@@ -1,9 +1,5 @@
-# New ports collection makefile for:	hs-csv
-# Date created:		11 August 2011
-# Whom:			Kaspars Bankovskis <kaspars@bankovskis.lv>
-#
+# Created by: Kaspars Bankovskis <kaspars@bankovskis.lv>
 # $FreeBSD$
-#
 
 PORTNAME=	csv
 PORTVERSION=	0.1.2

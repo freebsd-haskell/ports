@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-ghc-mtl
-# Date created:        December 20 2009
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	ghc-mtl
 PORTVERSION=	1.0.1.1

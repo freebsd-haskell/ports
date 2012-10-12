@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-HGL-ghc
-# Date created:        February 25 2008
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	HGL
 PORTVERSION=	3.2.0.2

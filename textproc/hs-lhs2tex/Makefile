@@ -1,10 +1,5 @@
-# ex:ts=8
-# Ports collection makefile for:	lhs2TeX
-# Date created:			April 24, 2007
-# Whom:				mainland@apeiron.net
-#
+# Created by: mainland@apeiron.net
 # $FreeBSD$
-#
 
 PORTNAME=	lhs2tex
 PORTVERSION=	1.18.1

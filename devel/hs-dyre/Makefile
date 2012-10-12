@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-dyre
-# Date created:		December 8, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dyre
 PORTVERSION=	0.8.8

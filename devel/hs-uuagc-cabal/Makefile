@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-uuagc-cabal
-# Date created:        August 12, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	uuagc-cabal
 PORTVERSION=	1.0.2.0

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-hs-bibutils
-# Date created:        May 14, 2010
-# Whom:                Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hs-bibutils
 PORTVERSION=	4.12

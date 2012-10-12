@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-pointedlist
-# Date created:		December 8, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	pointedlist
 PORTVERSION=	0.3.5

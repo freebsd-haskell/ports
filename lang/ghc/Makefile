@@ -1,7 +1,4 @@
-# New ports collection makefile for:	ghc
-# Date created:				28 August 1999
-# Whom:					Simon Marlow <simonmar@microsoft.com>
-#
+# Created by: Simon Marlow <simonmar@microsoft.com>
 # $FreeBSD$
 
 PORTNAME=	ghc

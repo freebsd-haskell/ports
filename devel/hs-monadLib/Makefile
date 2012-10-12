@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-monadLib
-# Date created:		2011-06-01
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	monadLib
 PORTVERSION=	3.6.2

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-ansi-wl-pprint
-# Date created:        May 21, 2010
-# Whom:                Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ansi-wl-pprint
 PORTVERSION=	0.6.4

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-derive
-# Date created:		December 8, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	derive
 PORTVERSION=	2.5.11

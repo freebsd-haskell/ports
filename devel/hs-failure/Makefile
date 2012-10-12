@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-failure
-# Date created:		December 25, 2011
-# Whom:			haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	failure
 PORTVERSION=	0.2.0.1
