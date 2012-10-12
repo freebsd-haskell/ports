@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	happstack-server
-PORTVERSION=	7.0.5
+PORTVERSION=	7.0.7
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
