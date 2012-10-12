@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-threadscope
-# Date created:        December 6, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	threadscope
 PORTVERSION=	0.2.1

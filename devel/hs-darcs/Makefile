@@ -1,9 +1,5 @@
-# New ports collection makefile for:	darcs
-# Date created:				13 April 2003
-# Whom:					Oliver Braun <obraun@FreeBSD.org>
-#
+# Created by: Oliver Braun <obraun@FreeBSD.org>
 # $FreeBSD$
-#
 
 PORTNAME=	darcs
 PORTVERSION=	2.8.2

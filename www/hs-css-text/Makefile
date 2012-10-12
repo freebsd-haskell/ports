@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-css-text
-# Date created:        December 2, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	css-text
 PORTVERSION=	0.1.1

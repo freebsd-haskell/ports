@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-regex-compat
-# Date created:        August 18, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	regex-compat
 PORTVERSION=	0.95.1

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-cryptocipher
-# Date created:        November 19, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cryptocipher
 PORTVERSION=	0.3.5

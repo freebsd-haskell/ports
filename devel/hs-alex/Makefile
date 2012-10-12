@@ -1,7 +1,4 @@
-# New ports collection makefile for:	alex
-# Date created:				29 January 2003
-# Whom:					Volker Stolz <stolz@i2.informatik.rwth-aachen.de>
-#
+# Created by: Volker Stolz <stolz@i2.informatik.rwth-aachen.de>
 # $FreeBSD$
 
 PORTNAME=	alex

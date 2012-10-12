@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-hscolour
-# Date created:        February 22 2008
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	hscolour
 PORTVERSION=	1.20.3

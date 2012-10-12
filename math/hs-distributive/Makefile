@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-distributive
-# Date created:        July 16, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	distributive
 PORTVERSION=	0.2.2

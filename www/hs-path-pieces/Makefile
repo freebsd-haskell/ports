@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-path-pieces
-# Date created:        December 26, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	path-pieces
 PORTVERSION=	0.1.1

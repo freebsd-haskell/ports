@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-wxcore
-# Date created:        January 26, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	wxcore
 PORTVERSION=	0.90.0.3

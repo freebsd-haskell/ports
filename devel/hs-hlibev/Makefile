@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-hlibev
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hlibev
 PORTVERSION=	0.4.0

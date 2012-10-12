@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-double-conversion
-# Date created:        July 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	double-conversion
 PORTVERSION=	0.2.0.5

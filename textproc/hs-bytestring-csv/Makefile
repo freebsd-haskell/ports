@@ -1,7 +1,4 @@
-# New ports collection makefile for:	bytestring-csv
-# Date created:				November 25, 2008
-# Whom:					Samy Al Bahra <sbahra@kerneled.org>
-#
+# Created by: Samy Al Bahra <sbahra@kerneled.org>
 # $FreeBSD$
 
 PORTNAME=	bytestring-csv

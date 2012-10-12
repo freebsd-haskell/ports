@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-libmpd
-# Date created:        May 16, 2010
-# Whom:                Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	libmpd
 PORTVERSION=	0.8.0

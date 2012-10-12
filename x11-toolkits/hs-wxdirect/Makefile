@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-wxdirect
-# Date created:        January 26, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	wxdirect
 PORTVERSION=	0.90.0.1

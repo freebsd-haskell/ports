@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-snap-core
-# Date created:        September 19, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	snap-core
 PORTVERSION=	0.9.2.1

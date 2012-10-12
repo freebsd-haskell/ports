@@ -1,7 +1,4 @@
-# New ports collection makefile for:	haddock
-# Date created:				09 May 2002
-# Whom:					Oliver Braun <obraun@informatik.unibw-muenchen.de>
-#
+# Created by: Oliver Braun <obraun@informatik.unibw-muenchen.de>
 # $FreeBSD$
 
 PORTNAME=	haddock

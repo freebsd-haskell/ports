@@ -1,9 +1,5 @@
-# New ports collection makefile for:	git-annex
-# Date created:				8 June 2011
-# Whom:					frase@frase.id.au
-#
+# Created by: frase@frase.id.au
 # $FreeBSD$
-#
 
 PORTNAME=	git-annex
 PORTVERSION=	3.20120825

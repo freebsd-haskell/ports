@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-regex-pcre-builtin
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	regex-pcre-builtin
 PORTVERSION=	0.94.2.1.7.7

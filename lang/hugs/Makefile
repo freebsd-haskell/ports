@@ -1,9 +1,5 @@
-# New ports collection makefile for:	hugs
-# Date created:		22 September 1997
-# Whom:			Torsten Teg Grust (Torsten.Grust@uni-konstanz.de)
-#
+# Created by: Torsten Teg Grust <Torsten.Grust@uni-konstanz.de>
 # $FreeBSD$
-#
 
 PORTNAME=	hugs98
 PORTVERSION=	200609

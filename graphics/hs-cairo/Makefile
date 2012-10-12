@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-cairo
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cairo
 PORTVERSION=	0.12.3.1

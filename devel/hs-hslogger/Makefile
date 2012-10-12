@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-hslogger
-# Date created:        December 20 2009
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by:  Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	hslogger
 PORTVERSION=	1.2.1

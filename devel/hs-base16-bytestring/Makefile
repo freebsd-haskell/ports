@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-base16-bytestring
-# Date created:        May 25, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	base16-bytestring
 PORTVERSION=	0.1.1.5

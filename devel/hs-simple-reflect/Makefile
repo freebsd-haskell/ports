@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-simple-reflect
-# Date created:        June 25, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	simple-reflect
 PORTVERSION=	0.2

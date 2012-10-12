@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-hxt-charproperties
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hxt-charproperties
 PORTVERSION=	9.1.1

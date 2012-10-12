@@ -1,9 +1,5 @@
-# New ports collection makefile for: pandoc
-# Date created:                      9 February 2007
-# Whom:                              John MacFarlane <jgm@berkeley.edu>
-#
+# Created by: John MacFarlane <jgm@berkeley.edu>
 # $FreeBSD$
-#
 
 PORTNAME=	pandoc
 PORTVERSION=	1.9.4.2

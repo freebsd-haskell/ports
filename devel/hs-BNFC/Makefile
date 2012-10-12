@@ -1,9 +1,5 @@
-# New ports collection makefile for:	bnfc
-# Date created:		2007-02-11
-# Whom:			Kai Wang <kaiw27@gmail.com>
-#
+# Created by: Kai Wang <kaiw27@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	BNFC
 PORTVERSION=	2.4.2.1

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-haskell-src
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	haskell-src
 PORTVERSION=	1.0.1.5

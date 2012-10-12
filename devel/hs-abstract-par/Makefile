@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-abstract-par
-# Date created:        May 9, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	abstract-par
 PORTVERSION=	0.3.1

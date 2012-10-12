@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-abstract-deque
-# Date created:        May 9, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	abstract-deque
 PORTVERSION=	0.1.6

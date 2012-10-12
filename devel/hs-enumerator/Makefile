@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-enumerator
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	enumerator
 PORTVERSION=	0.4.19

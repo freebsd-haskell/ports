@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-recaptcha
-# Date created:        December 2, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	recaptcha
 PORTVERSION=	0.1

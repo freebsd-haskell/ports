@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-curl
-# Date created:        May 14, 2010
-# Whom:                Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	curl
 PORTVERSION=	1.3.7

@@ -1,9 +1,4 @@
-# New ports collection makefile for:	hs-digest-ghc
-# Date created:				January 22, 2009
-# Whom:					Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	digest
 PORTVERSION=	0.0.1.1

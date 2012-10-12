@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-haskell-src-exts
-# Date created:        December 30 2009
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	haskell-src-exts
 PORTVERSION=	1.13.5

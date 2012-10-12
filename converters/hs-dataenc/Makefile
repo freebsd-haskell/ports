@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-dataenc
-# Date created:        May 14, 2010
-# Whom:                Gabor Pali <pgj@FreeBSD.org>
-#
 # $FreeBSD$
-#
 
 PORTNAME=	dataenc
 PORTVERSION=	0.14.0.3

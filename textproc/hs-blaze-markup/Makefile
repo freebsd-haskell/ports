@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-blaze-markup
-# Date created:        May 9, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	blaze-markup
 PORTVERSION=	0.5.1.0

@@ -1,7 +1,4 @@
-# New ports collection makefile for:	hs-glut-ghc
-# Date created:				2007-09-04
-# Whom:					Volker Stolz <vs@FreeBSD.org>
-#
+# Created by: Volker Stolz <vs@FreeBSD.org>
 # $FreeBSD$
 
 PORTNAME=	GLUT

@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-ghc-events
-# Date created:        December 6, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	ghc-events
 PORTVERSION=	0.4.0.0

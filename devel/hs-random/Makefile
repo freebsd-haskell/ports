@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-random
-# Date created:        May 10, 2012
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	random
 PORTVERSION=	1.0.1.1

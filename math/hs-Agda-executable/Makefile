@@ -1,9 +1,5 @@
-# New ports collection makefile for: hs-Agda-executable
-# Date created:        December 20 2009
-# Whom:                Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-#
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
-#
 
 PORTNAME=	Agda-executable
 PORTVERSION=	2.3.0.1

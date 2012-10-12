@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-cryptohash
-# Date created:        November 19, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	cryptohash
 PORTVERSION=	0.7.5

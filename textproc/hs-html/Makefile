@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-html
-# Date created:        August 18, 2010
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	html
 PORTVERSION=	1.0.1.2

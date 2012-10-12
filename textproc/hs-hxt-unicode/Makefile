@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-hxt-unicode
-# Date created:        March 13, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	hxt-unicode
 PORTVERSION=	9.0.2

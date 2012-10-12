@@ -1,9 +1,4 @@
-# New ports collection makefile for: hs-aeson
-# Date created:        July 30, 2011
-# Whom:                haskell@FreeBSD.org
-#
 # $FreeBSD$
-#
 
 PORTNAME=	aeson
 PORTVERSION=	0.6.0.2
