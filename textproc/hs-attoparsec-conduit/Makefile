@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	attoparsec-conduit
-PORTVERSION=	0.5.0.1
+PORTVERSION=	0.5.0.2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Turn attoparsec parsers into sinks
+COMMENT=	Consume attoparsec parsers via conduit
 
 LICENSE=	BSD
 
