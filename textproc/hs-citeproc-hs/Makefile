@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	citeproc-hs
-PORTVERSION=	0.3.4
-PORTREVISION=	1
+PORTVERSION=	0.3.5
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -10,7 +9,7 @@ COMMENT=	A Citation Style Language implementation in Haskell
 
 LICENSE=	BSD
 
-USE_CABAL=	json mtl pandoc-types>=1.8 utf8-string xml
+USE_CABAL=	json mtl pandoc-types>=1.8 parsec syb utf8-string xml
 
 OPTIONS_DEFINE=		BIBUTILS NETWORK
 OPTIONS_DEFAULT=	BIBUTILS NETWORK
