@@ -2,14 +2,14 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	3.20120825
+PORTVERSION=	3.20121009
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Manage files with git, without checking their contents into git
 
 LICENSE=	GPLv3
-FILE_LICENSE=	GPL
+FILE_LICENSE=	COPYRIGHT
 
 CABAL_SETUP=	Setup.hs
 
@@ -29,11 +29,14 @@ RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 EXECUTABLE=	git-annex git-annex-shell
 STANDALONE=	yes
 
-OPTIONS_DEFINE=		S3 ASSISTANT
+OPTIONS_DEFINE=		S3 ASSISTANT INOTIFY WEBAPP PAIRING
 OPTIONS_DEFAULT=	S3 ASSISTANT
 
 S3_DESC=		S3 support
 ASSISTANT_DESC=		'assistant' and 'watch' commands
+INOTIFY_DESC=		File system notifications support
+WEBAPP_DESC=		Web application (requires assistant)
+PAIRING_DESC=		Enable pairing (requires web application)
 
 .include <bsd.port.options.mk>
 
@@ -49,6 +52,30 @@ CONFIGURE_ARGS+=	--flags="Assistant"
 USE_CABAL+=		stm>=2.3
 .else
 CONFIGURE_ARGS+=	--flags="-Assistant"
+.endif
+
+.if ${PORT_OPTIONS:MINOTIFY}
+CONFIGURE_ARGS+=	--flags="Inotify"
+USE_CABAL+=		kqueue
+.else
+CONFIGURE_ARGS+=	--flags="-Inotify"
+.endif
+
+.if ${PORT_OPTIONS:WEBAPP} && ${PORT_OPTIONS:MASSISTANT}
+CONFIGURE_ARGS+=	--flags="Webapp"
+USE_CABAL+=		yesod yesod-static case-insensitive http-types \
+			transformers wai wai-logger warp blaze-builder \
+			blaze-html crypto-api hamlet clientsession \
+			yesod-default>=1.1.0 data-default
+.else
+CONFIGURE_ARGS+=	--flags="-Webapp"
+.endif
+
+.if ${PORT_OPTIONS:MWEBAPP} && ${PORT_OPTIONS:MPAIRING}
+CONFIGURE_ARGS+=	--flags="Pairing"
+USE_CABAL+=		network-multicast network-info
+.else
+CONFIGURE_ARGS+=	--flags="-Pairing"
 .endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
