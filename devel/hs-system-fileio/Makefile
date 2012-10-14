@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	system-fileio
-PORTVERSION=	0.3.9
+PORTVERSION=	0.3.10
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
