@@ -61,7 +61,7 @@ USE_CABAL+=		kqueue
 CONFIGURE_ARGS+=	--flags="-Inotify"
 .endif
 
-.if ${PORT_OPTIONS:WEBAPP} && ${PORT_OPTIONS:MASSISTANT}
+.if ${PORT_OPTIONS:MWEBAPP} && ${PORT_OPTIONS:MASSISTANT}
 CONFIGURE_ARGS+=	--flags="Webapp"
 USE_CABAL+=		yesod yesod-static case-insensitive http-types \
 			transformers wai wai-logger warp blaze-builder \
