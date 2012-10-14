@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	tagstream-conduit
-PORTVERSION=	0.5.2
+PORTVERSION=	0.5.3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
