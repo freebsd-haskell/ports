@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	mime
-PORTVERSION=	0.3.3.2
+PORTVERSION=	0.3.4
 CATEGORIES=	mail haskell
 
 MAINTAINER=	haskell@FreeBSD.org
