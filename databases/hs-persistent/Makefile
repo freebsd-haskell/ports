@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	persistent
-PORTVERSION=	1.0.1.1
+PORTVERSION=	1.0.1.2
 CATEGORIES=	databases haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,7 +11,7 @@ LICENSE=	BSD
 
 USE_CABAL=	aeson>=0.5 attoparsec base64-bytestring blaze-html>=0.5 \
 		blaze-markup>=0.5.1 conduit>=0.5 lifted-base>=0.1 \
-		monad-control>=0.3 monad-logger>=0.2 path-pieces>=0.1 \
+		monad-control>=0.3 monad-logger>=0.2.1 path-pieces>=0.1 \
 		pool-conduit>=0.1 resourcet>=0.3 text>=0.8 transformers>=0.2.1 \
 		transformers-base unordered-containers vector
 
