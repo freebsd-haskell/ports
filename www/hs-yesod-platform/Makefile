@@ -31,7 +31,7 @@ USE_CABAL=	aeson==0.6.0.2_1 ansi-terminal==0.5.5_4 asn1-data==0.7.1 \
 		monad-logger==0.2.0.1 network-conduit==0.5.0.2 \
 		path-pieces==0.1.2 pem==0.1.1_1 persistent==1.0.1.2 \
 		persistent-template==1.0.0.2 pool-conduit==0.1.0.3 \
-		primitive==0.5 pureMD5==2.1.2.1 pwstore-fast==2.3 \
+		primitive==0.5.0.1 pureMD5==2.1.2.1 pwstore-fast==2.3 \
 		ranges==0.2.4_2 resource-pool==0.2.1.1 resourcet==0.4.0.1 \
 		safe==0.3.3_2 semigroups==0.8.4.1 SHA==1.5.1 shakespeare==1.0.1.4 \
 		shakespeare-css==1.0.1.5 shakespeare-i18n==1.0.0.2_1 \
@@ -42,7 +42,7 @@ USE_CABAL=	aeson==0.6.0.2_1 ansi-terminal==0.5.5_4 asn1-data==0.7.1 \
 		tagstream-conduit==0.5.3 tar==0.4.0.0_1 tls==0.9.11 \
 		tls-extra==0.4.6_1 transformers-base==0.4.1_2 unix-compat==0.3.0.2 \
 		unordered-containers==0.2.2.1 utf8-light==0.4.0.1_1 \
-		utf8-string==0.3.7_2 vault==0.2.0.1 vector==0.10 void==0.5.8 \
+		utf8-string==0.3.7_2 vault==0.2.0.1 vector==0.10.0.1 void==0.5.8 \
 		wai==1.3.0.1 wai-app-static==1.3.0.2 wai-extra==1.3.0.2 \
 		wai-logger==0.3.0 wai-test==1.3.0 warp==1.3.2 \
 		xml-conduit==1.0.3.1 xml-types==0.3.3 xss-sanitize==0.3.2_1 \
