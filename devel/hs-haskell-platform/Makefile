@@ -23,7 +23,7 @@ USE_CABAL=	async==2.0.1.3 \
 		OpenGL==2.2.3.1_2,1 \
 		parallel==3.2.0.3 \
 		parsec==3.1.3 \
-		primitive==0.5 \
+		primitive==0.5.0.1 \
 		QuickCheck==2.5.1.1 \
 		random==1.0.1.1_1 \
 		regex-base==0.93.2_4 \
@@ -34,7 +34,7 @@ USE_CABAL=	async==2.0.1.3 \
 		syb==0.3.7 \
 		text=0.11.2.3 \
 		transformers==0.3.0.0_1 \
-		vector==0.10 \
+		vector==0.10.0.1 \
 		xhtml==3000.2.1_1 \
 		zlib==0.5.4.0 \
 		cabal-install==0.14.0_1 \
