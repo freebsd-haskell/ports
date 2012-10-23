@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	tls-extra
-PORTVERSION=	0.4.6
-PORTREVISION=	1
+PORTVERSION=	0.4.7
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
