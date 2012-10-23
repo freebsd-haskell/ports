@@ -2,12 +2,11 @@
 # $FreeBSD$
 
 PORTNAME=	unlambda
-PORTVERSION=	0.1
-PORTREVISION=	6
+PORTVERSION=	0.1.2
 CATEGORIES=	lang haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Unlambda interpreter written in Haskell
+COMMENT=	Unlambda interpreter
 
 LICENSE=	GPLv2
 
