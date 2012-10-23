@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	pandoc
-PORTVERSION=	1.9.4.2
-PORTREVISION=	1
+PORTVERSION=	1.9.4.5
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
