@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	yesod-core
-PORTVERSION=	1.1.2
+PORTVERSION=	1.1.3.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -13,8 +13,8 @@ USE_CABAL=	aeson>=0.5 blaze-builder>=0.2.1.4 blaze-html>=0.5 \
 		blaze-markup>=0.5.1 case-insensitive>=0.2 cereal>=0.3 \
 		clientsession>=0.8 conduit>=0.5 cookie>=0.4 failure>=0.2 \
 		fast-logger>=0.2 hamlet>=1.1 http-types>=0.7 lifted-base>=0.1 \
-		monad-control>=0.3 monad-logger>=0.2 parsec>=2 \
-		path-pieces>=0.1 random>=1.0.0.2 resourcet>=0.3 \
+		monad-control>=0.3 monad-logger>=0.2.1 parsec>=2 \
+		path-pieces>=0.1.2 random>=1.0.0.2 resourcet>=0.3 \
 		shakespeare>=1.0 shakespeare-css>=1.0 shakespeare-i18n>=1.0 \
 		shakespeare-js>=1.0 text>=0.7 transformers>=0.2.2 \
 		transformers-base>=0.4 vector>=0.9 wai>=1.3 wai-extra>=1.3 \
