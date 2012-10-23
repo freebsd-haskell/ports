@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	language-javascript
-PORTVERSION=	0.5.4
-PORTREVISION=	1
+PORTVERSION=	0.5.6
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
