@@ -2,12 +2,11 @@
 # $FreeBSD$
 
 PORTNAME=	stringsearch
-PORTVERSION=	0.3.6.3
-PORTREVISION=	2
+PORTVERSION=	0.3.6.4
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Boyer-Moore/Knuth-Morris-Pratt string search library
+COMMENT=	Fast searching, splitting and replacing of ByteStrings
 
 LICENSE=	BSD
 FILE_LICENSE=	LICENCE
