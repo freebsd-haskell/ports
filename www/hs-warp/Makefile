@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	warp
-PORTVERSION=	1.3.2
+PORTVERSION=	1.3.4.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -10,7 +10,7 @@ COMMENT=	A fast, light-weight web server for WAI applications
 LICENSE=	MIT
 
 USE_CABAL=	blaze-builder>=0.2.1.4 blaze-builder-conduit>=0.5 \
-		case-insensitive>=0.2 conduit>=0.5 http-types>=0.7 \
+		case-insensitive>=0.2 conduit>=0.5 hashable http-types>=0.7 \
 		lifted-base>=0.1 network>=2.3 network-conduit>=0.5 \
 		simple-sendfile>=0.2.7 transformers>=0.2.2 unix-compat>=0.2 \
 		void wai>=1.3
