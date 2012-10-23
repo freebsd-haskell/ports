@@ -1,13 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	persistent
-PORTVERSION=	1.0.1.2
+PORTVERSION=	1.0.1.3
 CATEGORIES=	databases haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Type-safe, multi-backend data serialization
 
-LICENSE=	BSD
+LICENSE=	MIT
 
 USE_CABAL=	aeson>=0.5 attoparsec base64-bytestring blaze-html>=0.5 \
 		blaze-markup>=0.5.1 conduit>=0.5 lifted-base>=0.1 \
