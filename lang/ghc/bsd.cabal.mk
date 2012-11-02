@@ -118,10 +118,6 @@ LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp
 USE_ICONV=	yes
 .endif
 
-.if defined(EXECUTABLE) && ${PORT_OPTIONS:MDOCS}
-HADDOCK_EXE?=	--executables
-.endif
-
 .if defined(USE_CABAL)
 .include "bsd.hackage.mk"
 
@@ -159,7 +155,7 @@ USE_PERL5_BUILD=	5.8+
 .if ${PORT_OPTIONS:MDOCS}
 .if !defined(XMLDOCS)
 
-HADDOCK_OPTS=	${HADDOCK_EXE}
+HADDOCK_OPTS=	# empty
 
 .if ${PORT_OPTIONS:MHSCOLOUR}
 BUILD_DEPENDS+=	HsColour:${PORTSDIR}/print/hs-hscolour
