@@ -21,7 +21,6 @@ USE_CABAL=	cautious-file>=1.0.1 concrete-typerep data-accessor>=0.2.1.4 \
 USE_ALEX=	yes
 
 EXECUTABLE=	yi
-HADDOCK_EXE=	# empty
 
 OPTIONS_MULTI=		FRONTEND
 OPTIONS_MULTI_FRONTEND=	PANGO VTE VTY
