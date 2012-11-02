@@ -1,0 +1,11 @@
+--- ./shelly.cabal.orig	2012-10-30 16:04:29.000000000 +0100
++++ ./shelly.cabal	2012-11-02 15:53:25.000000000 +0100
+@@ -38,7 +38,7 @@
+ 
+   Build-depends: base >= 4 && < 5, time, directory, text, mtl
+                , process >= 1.0
+-               , unix-compat < 0.4
++               , unix-compat < 0.5
+                , system-filepath < 0.5
+                , system-fileio < 0.4
+                , bytestring
