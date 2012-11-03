@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	buildwrapper
-PORTVERSION=	0.6.1
+PORTVERSION=	0.6.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
