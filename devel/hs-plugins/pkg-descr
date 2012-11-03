@@ -1,4 +1,4 @@
 Dynamic linking and runtime evaluation of Haskell, and C, including
 dependency chasing and package resolution.
 
-WWW:	http://code.haskell.org/~dons/code/hs-plugins
+WWW:	http://hub.darcs.net/stepcut/plugins
