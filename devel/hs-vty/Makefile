@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	vty
-PORTVERSION=	4.7.0.18
+PORTVERSION=	4.7.0.20
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A simple terminal access library
+COMMENT=	A simple terminal UI library
 
 LICENSE=	BSD
 
