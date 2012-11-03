@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	json
-PORTVERSION=	0.5
-PORTREVISION=	1
+PORTVERSION=	0.7
 CATEGORIES=	converters haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -13,9 +12,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	mtl syb>=0.3.3
-
-CONFIGURE_ARGS+=	--flags="split-base generic -parsec -pretty -mapdict"
+USE_CABAL=	mtl text
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
