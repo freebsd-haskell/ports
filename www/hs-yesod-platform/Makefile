@@ -47,7 +47,7 @@ USE_CABAL=	aeson==0.6.0.2_1 ansi-terminal==0.5.5_4 asn1-data==0.7.1 \
 		wai-logger==0.3.0 wai-test==1.3.0 warp==1.3.4.1 \
 		xml-conduit==1.0.3.1 xml-types==0.3.3 xss-sanitize==0.3.2_1 \
 		yaml==0.8.1 yesod==1.1.2 yesod-auth==1.1.1.2 \
-		yesod-core==1.1.1.3.1 yesod-default==1.1.0.2 yesod-form==1.1.3 \
+		yesod-core==1.1.3.1 yesod-default==1.1.0.2 yesod-form==1.1.3 \
 		yesod-json==1.1.0 yesod-persistent==1.1.0 yesod-routes==1.1.0.2 \
 		yesod-static==1.1.0.1 yesod-test==0.3.0.1 zlib-bindings==0.1.1.1 \
 		zlib-conduit==0.5.0.1
