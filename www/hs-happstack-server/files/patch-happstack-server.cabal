@@ -1,0 +1,11 @@
+--- ./happstack-server.cabal.orig	2012-10-19 23:47:22.000000000 +0200
++++ ./happstack-server.cabal	2012-11-04 00:16:53.000000000 +0100
+@@ -72,7 +72,7 @@
+                        blaze-html        == 0.5.*,
+                        bytestring,
+                        containers,
+-                       directory >= 1.2,
++                       directory,
+                        extensible-exceptions,
+                        filepath,
+                        hslogger >= 1.0.2,
