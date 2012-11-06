@@ -1,5 +1,5 @@
 --- ./git-annex.cabal.orig	2012-10-17 03:24:57.000000000 +0200
-+++ ./git-annex.cabal	2012-11-02 16:03:37.000000000 +0100
++++ ./git-annex.cabal	2012-11-06 10:04:26.399297517 +0100
 @@ -46,7 +46,7 @@
  Executable git-annex
    Main-Is: git-annex.hs
@@ -9,3 +9,11 @@
     bytestring, old-locale, time,
     pcre-light, extensible-exceptions, dataenc, SHA, process, json, HTTP,
     base == 4.5.*, monad-control, transformers-base, lifted-base,
+@@ -59,7 +59,6 @@
+     C-Sources: Utility/libkqueue.c
+   Extensions: CPP
+   GHC-Options: -threaded
+-  CPP-Options: -DURI_24
+ 
+   if flag(S3)
+     Build-Depends: hS3
