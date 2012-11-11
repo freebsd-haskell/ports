@@ -359,3 +359,19 @@ post-install::
 .else
 	${DO_NADA}
 .endif # !METAPORT
+
+.if defined(USE_CABAL)
+.for cabal_package in ${USE_CABAL}
+__u_h_r_package=	${cabal_package:C/[<=>].*$//g}
+__u_h_r_port=		${${__u_h_r_package}_port}
+__u_h_r_name=		${__u_h_r_port:C/.*\///g}
+
+ports:=	${ports} ${__u_h_r_package}:../../${__u_h_r_port}
+.endfor
+
+show-deppkgvers:
+	@for p in ${ports}; do \
+	    echo -n "$${p%%:*}=="; \
+	    ${MAKE} -C $${p##*:} -V PKGVERSION; \
+	done
+.endif
