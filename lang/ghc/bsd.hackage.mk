@@ -145,6 +145,7 @@ haskell-src-exts_port=		devel/hs-haskell-src-exts
 hastache_port=			devel/hs-hastache
 HaXml_port=			textproc/hs-HaXml	# executable
 heist_port=			www/hs-heist
+hexpat_port=			textproc/hs-hexpat
 HGL_port=			graphics/hs-HGL
 highlighting-kate_port=		textproc/hs-highlighting-kate
 hint_port=			devel/hs-hint
