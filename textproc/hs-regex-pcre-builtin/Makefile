@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	regex-pcre-builtin
-PORTVERSION=	0.94.2.1.7.7
-PORTREVISION=	5
+PORTVERSION=	0.94.4.1.8.31
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,6 +10,7 @@ COMMENT=	Replaces/Enhances Text.Regex
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
+
 USE_CABAL=	regex-base>=0.93
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
