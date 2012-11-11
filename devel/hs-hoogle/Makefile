@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	hoogle
-PORTVERSION=	4.2.13
+PORTVERSION=	4.2.14
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
