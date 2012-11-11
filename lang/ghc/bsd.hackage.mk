@@ -186,6 +186,7 @@ lhs2tex_port=			textproc/hs-lhs2tex
 libmpd_port=			audio/hs-libmpd
 libxml_port=			textproc/hs-libxml
 lifted-base_port=		devel/hs-lifted-base
+List_port=			devel/hs-List
 logict_port=			devel/hs-logict
 math-functions_port=		math/hs-math-functions
 MaybeT_port=			devel/hs-MaybeT
