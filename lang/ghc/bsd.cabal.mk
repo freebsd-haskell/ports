@@ -227,7 +227,7 @@ post-patch::
 do-configure:
 .if !defined(METAPORT)
 	cd ${WRKSRC} && ${GHC_CMD} --make ${CABAL_SETUP} -o setup -package Cabal
-	cd ${WRKSRC} && ${SETENV} CFLAGS="${CFLAGS}" LDFLAGS="${LDFLAGS}" CPPFLAGS="${CPPFLAGS}" \
+	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} \
 			${SETUP_CMD} configure --ghc --prefix=${PREFIX} --extra-include-dirs="${LOCALBASE}/include" --extra-lib-dirs="${LOCALBASE}/lib" ${__handle_datadir__} ${CONFIGURE_ARGS}
 
 .if ${PORT_OPTIONS:MDOCS}
@@ -243,14 +243,14 @@ do-configure:
 .if !target(do-build)
 do-build:
 .if !defined(METAPORT)
-	cd ${WRKSRC} && ${SETUP_CMD} build
+	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SETUP_CMD} build
 .if !defined(STANDALONE)
-	cd ${WRKSRC} && ${SETUP_CMD} register --gen-script
+	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SETUP_CMD} register --gen-script
 .endif
 
 .if ${PORT_OPTIONS:MDOCS}
 .if !defined(XMLDOCS) && !defined(STANDALONE) && ${PORT_OPTIONS:MDOCS}
-	cd ${WRKSRC} && ${SETUP_CMD} haddock ${HADDOCK_OPTS}
+	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SETUP_CMD} haddock ${HADDOCK_OPTS}
 .endif # STANDALONE
 .if defined(XMLDOCS)
 	@(cd ${WRKSRC}/doc && ${SETENV} ${MAKE_ENV} ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} ${MAKE_ARGS} html)
@@ -264,7 +264,7 @@ do-build:
 .if !target(do-install)
 do-install:
 .if !defined(METAPORT)
-	cd ${WRKSRC} && ${SETUP_CMD} install
+	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SETUP_CMD} install
 
 .if !defined(STANDALONE)
 	cd ${WRKSRC} && ${INSTALL_SCRIPT} register.sh ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}/register.sh
