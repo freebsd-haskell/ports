@@ -98,6 +98,12 @@ OPTIONS_DEFINE+=	DOCS HSCOLOUR
 OPTIONS_DEFAULT+=	DOCS
 .endif
 
+USE_BINUTILS=	yes
+USE_GCC=	4.6
+
+CONFIGURE_ARGS+=	--with-gcc=${CC} --with-ld=${LD} --with-ar=${AR} \
+			--with-ranlib=${RANLIB}
+
 .if defined(USE_ALEX)
 BUILD_DEPENDS+=	${ALEX_CMD}:${PORTSDIR}/devel/hs-alex
 CONFIGURE_ARGS+=	 --with-alex=${ALEX_CMD}
