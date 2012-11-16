@@ -214,6 +214,7 @@ lhs2tex_port=			textproc/hs-lhs2tex
 lifted-base_port=		devel/hs-lifted-base
 libmpd_port=			audio/hs-libmpd
 libxml_port=			textproc/hs-libxml
+libxml-sax_port=		textproc/hs-libxml-sax
 List_port=			devel/hs-List
 ListLike_port=			devel/hs-ListLike
 logict_port=			devel/hs-logict
