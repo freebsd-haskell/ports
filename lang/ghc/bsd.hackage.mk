@@ -112,6 +112,7 @@ digest_port=			security/hs-digest
 directory-tree_port=		devel/hs-directory-tree
 distributive_port=		math/hs-distributive
 dlist_port=			devel/hs-dlist
+dns_port=			dns/hs-dns
 double-conversion_port=		textproc/hs-double-conversion
 dyre_port=			devel/hs-dyre
 edit-distance_port=		devel/hs-edit-distance
