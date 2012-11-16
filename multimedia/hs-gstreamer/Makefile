@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	gstreamer
-PORTVERSION=	0.12.1.1
-PORTREVISION=	2
+PORTVERSION=	0.12.1.2
 CATEGORIES=	multimedia haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,6 +13,7 @@ LICENSE=	LGPL21
 FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
+
 USE_CABAL=	glib>=0.12 mtl
 
 BUILD_DEPENDS+=	gstreamer-plugins>=0.10:${PORTSDIR}/multimedia/gstreamer-plugins
