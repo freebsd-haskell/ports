@@ -83,7 +83,7 @@ HSCOLOUR_DESC?=	Colorize generated documentation by HsColour
 DYNAMIC_DESC?=	Add support for dynamic linking
 PROFILE_DESC?=	Add support for profiling
 
-.include <bsd.port.options.mk>
+LOCALBASE?=	/usr/local
 
 .if exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
 OPTIONS_DEFINE+=	DYNAMIC
@@ -97,6 +97,8 @@ OPTIONS_DEFINE+=	PROFILE
 OPTIONS_DEFINE+=	DOCS HSCOLOUR
 OPTIONS_DEFAULT+=	DOCS
 .endif
+
+.include <bsd.port.options.mk>
 
 USE_BINUTILS=	yes
 USE_GCC=	4.6
