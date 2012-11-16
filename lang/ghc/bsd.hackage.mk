@@ -201,6 +201,7 @@ ieee754_port=			math/hs-ieee754
 IfElse_port=			devel/hs-IfElse
 io-storage_port=		devel/hs-io-storage
 IORefCAS_port=			devel/hs-IORefCAS
+iproute_port=			net/hs-iproute
 irc_port=			irc/hs-irc
 iteratee_port=			devel/hs-iteratee
 json_port=			converters/hs-json
