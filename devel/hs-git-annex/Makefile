@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	3.20121017
+PORTVERSION=	3.20121112
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -13,9 +13,10 @@ FILE_LICENSE=	COPYRIGHT
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	bloomfilter dataenc edit-distance hslogger HTTP IfElse json \
-		lifted-base MissingH monad-control mtl network pcre-light \
-		QuickCheck>=2.1 SHA text transformers-base utf8-string
+USE_CABAL=	async bloomfilter dataenc edit-distance hslogger HTTP IfElse \
+		json lifted-base MissingH monad-control mtl network pcre-light \
+		QuickCheck>=2.1 SafeSemaphore SHA text transformers-base \
+		utf8-string
 
 USE_GMAKE=		yes
 USE_PERL5_BUILD=	yes
@@ -29,14 +30,16 @@ RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 EXECUTABLE=	git-annex git-annex-shell
 STANDALONE=	yes
 
-OPTIONS_DEFINE=		S3 ASSISTANT INOTIFY WEBAPP PAIRING
+OPTIONS_DEFINE=		S3 ASSISTANT INOTIFY WEBAPP PAIRING XMPP DNS
 OPTIONS_DEFAULT=	S3 ASSISTANT
 
 S3_DESC=		S3 support
 ASSISTANT_DESC=		'assistant' and 'watch' commands
 INOTIFY_DESC=		File system notifications support
-WEBAPP_DESC=		Web application (requires assistant)
-PAIRING_DESC=		Enable pairing (requires web application)
+WEBAPP_DESC=		Web application (req. assistant)
+PAIRING_DESC=		Enable pairing (req. web application)
+XMPP_DESC=		Enable notifications using XMPP (req. assistant)
+DNS_DESC=		Use the DNS library for lookups (req. XMPP)
 
 .include <bsd.port.options.mk>
 
@@ -76,6 +79,20 @@ CONFIGURE_ARGS+=	--flags="Pairing"
 USE_CABAL+=		network-multicast network-info
 .else
 CONFIGURE_ARGS+=	--flags="-Pairing"
+.endif
+
+.if ${PORT_OPTIONS:MXMPP} && ${PORT_OPTIONS:MASSISTANT}
+CONFIGURE_ARGS+=	--flags="XMPP"
+USE_CABAL+=		gnutls>=0.1.4 network-protocol-xmpp xml-types
+.else
+CONFIGURE_ARGS+=	--flags="-XMPP"
+.endif
+
+.if ${PORT_OPTIONS:MXMPP} && ${PORT_OPTIONS:MASSISTANT} && ${PORT_OPTIONS:MDNS}
+CONFIGURE_ARGS+=	--flags="DNS"
+USE_CABAL+=		dns
+.else
+CONFIGURE_ARGS+=	--flags="-DNS"
 .endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
