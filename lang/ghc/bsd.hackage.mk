@@ -146,6 +146,7 @@ GLUT_port=			x11-toolkits/hs-GLUT
 gnuidn_port=			net/hs-gnuidn
 gnutls_port=			security/hs-gnutls
 graphviz_port=			graphics/hs-graphviz
+gsasl_port=			net/hs-gsasl
 gstreamer_port=			multimedia/hs-gstreamer
 gtk_port=			x11-toolkits/hs-gtk
 gtk2hs-buildtools_port=		devel/hs-gtk2hs-buildtools # executable
