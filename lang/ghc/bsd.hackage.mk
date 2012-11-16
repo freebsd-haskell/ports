@@ -23,6 +23,7 @@ ALUT_port=			audio/hs-ALUT
 angel_port=			sysutils/hs-angel
 ansi-terminal_port=		devel/hs-ansi-terminal
 ansi-wl-pprint_port=		devel/hs-ansi-wl-pprint
+appar_port=			textproc/hs-appar
 arrows_port=			devel/hs-arrows
 asn1-data_port=			devel/hs-asn1-data
 async_port=			devel/hs-async
