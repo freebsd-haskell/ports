@@ -247,6 +247,7 @@ network-conduit_port=		net/hs-network-conduit
 network-fancy_port=		net/hs-network-fancy
 network-info_port=		net/hs-network-info
 network-multicast_port=		net/hs-network-multicast
+network-protocol-xmpp=		net/hs-network-protocol-xmpp
 NumInstances_port=		math/hs-NumInstances
 ObjectName_port=		devel/hs-ObjectName
 oeis_port=			www/hs-oeis
