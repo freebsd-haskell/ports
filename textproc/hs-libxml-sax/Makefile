@@ -13,6 +13,7 @@ FILE_LICENSE=	license.txt
 CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	text>=0.7 xml-types>=0.3
+USE_PKGCONFIG=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
