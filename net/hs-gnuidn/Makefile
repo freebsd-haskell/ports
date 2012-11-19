@@ -14,7 +14,9 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	text
 USE_C2HS=	yes
+
 USE_PKGCONFIG=	yes
+LIB_DEPENDS=	idn.17:${PORTSDIR}/dns/libidn
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
