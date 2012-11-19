@@ -14,6 +14,7 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	text
 USE_C2HS=	yes
+USE_PKGCONFIG=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
