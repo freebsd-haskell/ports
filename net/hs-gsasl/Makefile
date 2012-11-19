@@ -13,6 +13,7 @@ FILE_LICENSE=	license.txt
 CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	transformers>=0.2
+USE_PKGCONFIG=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
