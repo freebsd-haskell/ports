@@ -93,7 +93,7 @@ OPTIONS_DEFINE+=	DYNAMIC
 OPTIONS_DEFINE+=	PROFILE
 .endif
 
-.if exists(${HADDOCK_CMD}) && exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/html)
+.if exists(${HADDOCK_CMD}) && exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/html) && !defined(NOPORTDOCS)
 OPTIONS_DEFINE+=	DOCS HSCOLOUR
 OPTIONS_DEFAULT+=	DOCS
 .endif
