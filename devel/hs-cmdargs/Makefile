@@ -13,7 +13,5 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	transformers>=0.2
 
-EXECUTABLE=	cmdargs
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
