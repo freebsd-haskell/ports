@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	network-fancy
-PORTVERSION=	0.1.5
+PORTVERSION=	0.1.5.1
 CATEGORIES=	net haskell
 
 MAINTAINER=	haskell@FreeBSD.org
