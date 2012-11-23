@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	digest
-PORTVERSION=	0.0.1.1
-PORTREVISION=	1
+PORTVERSION=	0.0.1.2
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
