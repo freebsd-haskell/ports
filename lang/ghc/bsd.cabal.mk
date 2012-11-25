@@ -85,16 +85,16 @@ PROFILE_DESC?=	Add support for profiling
 
 LOCALBASE?=	/usr/local
 
-.if exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
+.if !exists(${GHC_CMD}) || exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
 OPTIONS_DEFINE+=	DYNAMIC
 OPTIONS_DEFAULT+=	DYNAMIC
 .endif
 
-.if exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi)
+.if !exists(${GHC_CMD}) || exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi)
 OPTIONS_DEFINE+=	PROFILE
 .endif
 
-.if exists(${HADDOCK_CMD}) && exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/html) && !defined(NOPORTDOCS)
+.if !exists(${GHC_CMD}) || ((exists(${HADDOCK_CMD}) && exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/html)) && !defined(NOPORTDOCS))
 OPTIONS_DEFINE+=	DOCS HSCOLOUR
 OPTIONS_DEFAULT+=	DOCS
 .endif
