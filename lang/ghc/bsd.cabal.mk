@@ -26,15 +26,6 @@ DIST_SUBDIR?=	cabal
 
 FILE_LICENSE?=	LICENSE
 
-.if !defined(STANDALONE)
-BUILD_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
-BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
-RUN_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
-RUN_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
-.elif defined(STANDALONE)
-BUILD_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
-BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
-.endif
 
 GHC_VERSION?=	7.4.2
 GHC_VERSION_N=	${GHC_VERSION:S/./0/g}
@@ -100,6 +91,16 @@ OPTIONS_DEFAULT+=	DOCS
 .endif
 
 .include <bsd.port.options.mk>
+
+.if !defined(STANDALONE) || ${PORT_OPTIONS:MDYNAMIC}
+BUILD_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
+BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
+RUN_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
+RUN_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
+.else
+BUILD_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
+BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
+.endif
 
 USE_BINUTILS=	yes
 USE_GCC=	4.6
