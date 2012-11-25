@@ -197,9 +197,9 @@ CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 .endif
 
 .if ${PORT_OPTIONS:MDYNAMIC}
-CONFIGURE_ARGS+=	--enable-shared --enable-executable-dynamic --enable-split-objs
+CONFIGURE_ARGS+=	--enable-shared --enable-executable-dynamic
 .else
-CONFIGURE_ARGS+=	--disable-shared --disable-executable-dynamic --disable-split-objs
+CONFIGURE_ARGS+=	--disable-shared --disable-executable-dynamic
 .endif
 
 .if ${PORT_OPTIONS:MPROFILE}
