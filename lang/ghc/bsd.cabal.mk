@@ -87,6 +87,7 @@ LOCALBASE?=	/usr/local
 
 .if exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
 OPTIONS_DEFINE+=	DYNAMIC
+OPTIONS_DEFAULT+=	DYNAMIC
 .endif
 
 .if exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi)
