@@ -152,7 +152,7 @@ ${HSPREFIX}${__u_h_r_package}${__u_h_r_version}:${PORTSDIR}/${__u_h_r_port}
 
 BUILD_DEPENDS+=	${dependencies}
 
-.if !defined(STANDALONE)
+.if !defined(STANDALONE) || ${PORT_OPTIONS:MDYNAMIC}
 RUN_DEPENDS+=	${dependencies}
 .endif
 
