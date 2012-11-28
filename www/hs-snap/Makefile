@@ -22,5 +22,7 @@ USE_CABAL=	aeson>=0.6 attoparsec>=0.10 cereal>=0.3 clientsession>=0.8 \
 
 EXECUTABLE=	snap
 
+IGNORE_DYNAMIC=	yes
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
