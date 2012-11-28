@@ -76,12 +76,12 @@ PROFILE_DESC?=	Add support for profiling
 
 LOCALBASE?=	/usr/local
 
-.if !exists(${GHC_CMD}) || exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)
+.if !exists(${GHC_CMD}) || (exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi) && !defined(IGNORE_DYNAMIC))
 OPTIONS_DEFINE+=	DYNAMIC
 OPTIONS_DEFAULT+=	DYNAMIC
 .endif
 
-.if !exists(${GHC_CMD}) || exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi)
+.if !exists(${GHC_CMD}) || (exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi) && !defined(IGNORE_PROFILE))
 OPTIONS_DEFINE+=	PROFILE
 .endif
 
