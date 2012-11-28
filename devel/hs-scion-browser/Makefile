@@ -20,5 +20,7 @@ USE_CABAL=	aeson>=0.4 attoparsec>=0.10 conduit derive>=2.5 ghc-paths \
 
 EXECUTABLE=	scion-browser
 
+IGNORE_DYNAMIC=	yes
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
