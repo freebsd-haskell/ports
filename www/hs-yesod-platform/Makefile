@@ -52,5 +52,7 @@ USE_CABAL=	aeson==0.6.0.2_1 ansi-terminal==0.5.5_4 asn1-data==0.7.1 \
 		yesod-static==1.1.0.1 yesod-test==0.3.0.1 zlib-bindings==0.1.1.1 \
 		zlib-conduit==0.5.0.1
 
+IGNORE_DYNAMIC=	yes
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
