@@ -134,6 +134,7 @@ filemanip_port=			devel/hs-filemanip
 filestore_port=			devel/hs-filestore
 filesystem-conduit_port=	devel/hs-filesystem-conduit
 fingertree_port=		devel/hs-fingertree
+fsnotify_port=			devel/hs-fsnotify
 gconf_port=			devel/hs-gconf
 ghc-events_port=		devel/hs-ghc-events	# executable
 ghc-mtl_port=			devel/hs-ghc-mtl
