@@ -285,6 +285,7 @@ porte_port=			ports-mgmt/hs-porte	# executable
 primitive_port=			devel/hs-primitive
 printxosd_port=			x11/hs-printxosd	# executable
 probability_port=		math/hs-probability
+project-template_port=		devel/hs-project-template
 PSQueue_port=			devel/hs-PSQueue
 pureMD5_port=			security/hs-pureMD5
 pwstore-fast_port=		security/hs-pwstore-fast
