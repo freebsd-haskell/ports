@@ -36,6 +36,7 @@ authenticate_port=		www/hs-authenticate
 base16-bytestring_port=		devel/hs-base16-bytestring
 base64-bytestring_port=		devel/hs-base64-bytestring
 base-unicode-symbols_port=	devel/hs-base-unicode-symbols
+basic-prelude_port=		devel/hs-basic-prelude
 binary-shared_port=		devel/hs-binary-shared
 bio_port=			science/hs-bio
 bits-atomic_port=		devel/hs-bits-atomic
