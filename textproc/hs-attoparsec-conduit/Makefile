@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	attoparsec-conduit
-PORTVERSION=	0.5.0.2
+PORTVERSION=	0.5.0.3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
