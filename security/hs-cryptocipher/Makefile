@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	cryptocipher
-PORTVERSION=	0.3.5
+PORTVERSION=	0.3.6
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,7 +11,7 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	cereal cpu>=0.1 crypto-api>=0.5 crypto-pubkey-types>=0.1 \
+USE_CABAL=	cereal cpu>=0.1 crypto-api>=0.5 crypto-pubkey-types>=0.2 \
 		primitive tagged vector>=0.7
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
