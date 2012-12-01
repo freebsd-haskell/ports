@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	html-conduit
-PORTVERSION=	0.1.0.2
+PORTVERSION=	0.1.0.4
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
