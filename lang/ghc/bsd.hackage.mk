@@ -304,6 +304,7 @@ scion-browser_port= devel/hs-scion-browser # executable
 sendfile_port=			net/hs-sendfile
 semigroupoids_port=		math/hs-semigroupoids
 semigroups_port=		math/hs-semigroups
+setenv_port=			devel/hs-setenv
 setlocale_port=			devel/hs-setlocale
 setops_port=			devel/hs-setops
 SHA_port=			security/hs-SHA
