@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	silently
-PORTVERSION=	1.2.0.2
+PORTVERSION=	1.2.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
