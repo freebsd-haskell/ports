@@ -287,6 +287,7 @@ QuickCheck_port=		devel/hs-QuickCheck
 random_port=			devel/hs-random
 ranges_port=			devel/hs-ranges
 reactive_port=			devel/hs-reactive
+ReadArgs_port=			devel/hs-ReadArgs
 readline_port=			devel/hs-readline
 recaptcha_port=			www/hs-recaptcha
 regex-base_port=		textproc/hs-regex-base
