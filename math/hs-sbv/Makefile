@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	sbv
-PORTVERSION=	2.7
+PORTVERSION=	2.8
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
