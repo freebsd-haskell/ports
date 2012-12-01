@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	bytestring-nums
-PORTVERSION=	0.3.5
-PORTREVISION=	3
+PORTVERSION=	0.3.6
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
