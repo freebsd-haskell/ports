@@ -63,6 +63,7 @@ checkers_port=			devel/hs-checkers
 cipher-aes_port=		security/hs-cipher-aes
 citeproc-hs_port=		textproc/hs-citeproc-hs
 classy-prelude_port=		devel/hs-classy-prelude
+classy-prelude-conduit_port=	devel/hs-classy-prelude-conduit
 clientsession_port=		security/hs-clientsession
 cmdargs_port=			devel/hs-cmdargs
 comonad_port=			math/hs-comonad
