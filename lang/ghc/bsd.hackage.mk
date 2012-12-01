@@ -196,6 +196,7 @@ html-conduit_port=		textproc/hs-html-conduit
 HTTP_port=			www/hs-HTTP
 http-conduit_port=		www/hs-http-conduit
 http-date_port=			www/hs-http-date
+http-reverse-proxy_port=	www/hs-http-reverse-proxy
 http-server_port=		www/hs-http-server
 http-types_port=		www/hs-http-types
 HUnit_port=			devel/hs-HUnit
