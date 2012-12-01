@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	RSA
-PORTVERSION=	1.2.1.0
-PORTREVISION=	2
+PORTVERSION=	1.2.2.0
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,7 +10,7 @@ COMMENT=	Implementation of RSA, using the padding schemes of PKCS#1 v2.1
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
-USE_CABAL=	crypto-api>=0.10 crypto-pubkey-types monadcryptorandom SHA
+USE_CABAL=	crypto-api>=0.10 crypto-pubkey-types>=0.2 monadcryptorandom SHA
 
 OPTIONS_DEFINE=		MD5 BINARY
 OPTIONS_DEFAULT=	MD5 BINARY
