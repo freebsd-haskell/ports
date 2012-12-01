@@ -343,6 +343,7 @@ wai-logger_port=		www/hs-wai-logger
 wai-test_port=			www/hs-wai-test
 warp_port=			www/hs-warp
 webkit_port=			www/hs-webkit
+word8_port=			devel/hs-word8
 wx_port=			x11-toolkits/hs-wx
 wxc_port=			x11-toolkits/hs-wxc		# lib_depends
 wxcore_port=			x11-toolkits/hs-wxcore		# lib_depends
