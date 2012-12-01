@@ -258,6 +258,7 @@ scgi_port=			www/hs-scgi
 sendfile_port=			net/hs-sendfile
 semigroupoids_port=		math/hs-semigroupoids
 semigroups_port=		math/hs-semigroups
+setenv_port=			devel/hs-setenv
 SHA_port=			security/hs-SHA
 shakespeare_port=		www/hs-shakespeare
 shakespeare-css_port=		www/hs-shakespeare-css
