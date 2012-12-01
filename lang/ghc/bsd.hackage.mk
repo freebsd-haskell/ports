@@ -224,6 +224,7 @@ ObjectName_port=		devel/hs-ObjectName
 oeis_port=			www/hs-oeis
 OpenAL_port=			audio/hs-OpenAL
 OpenGL_port=			x11-toolkits/hs-OpenGL
+optparse-applicative_port=	devel/hs-optparse-applicative
 pandoc_port=			textproc/hs-pandoc	# executable
 pandoc-types_port=		textproc/hs-pandoc-types
 pango_port=			x11-toolkits/hs-pango
