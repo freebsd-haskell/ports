@@ -11,7 +11,8 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	asn1-data>=0.7.1 crypto-pubkey-types>=0.1 mtl pem>=0.1
+USE_CABAL=	asn1-data>=0.7.1 crypto-pubkey-types>=0.1 cryptohash mtl \
+		pem>=0.1
 
 OPTIONS_DEFINE=		EXECUTABLE
 OPTIONS_DEFAULT=	
@@ -22,7 +23,7 @@ EXECUTABLE_DESC=	Build the executable
 
 .if ${PORT_OPTIONS:MEXECUTABLE}
 CONFIGURE_ARGS+=	--flags="executable"
-USE_CABAL+=		cmdargs text>=0.11 cryptohash cryptocipher>=0.3.0
+USE_CABAL+=		cmdargs text>=0.11 cryptocipher>=0.3.0
 EXECUTABLE+=		certificate
 .else
 CONFIGURE_ARGS+=	--flags="-executable"
