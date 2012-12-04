@@ -10,4 +10,4 @@ spirit to POSIX shells. Shelly:
 Shelly is originally forked from the Shellish package. See the shelly-extra
 package for additional functionality.
 
-WWW:	https://github.com/yesodweb/Shelly.hs
+WWW: https://github.com/yesodweb/Shelly.hs

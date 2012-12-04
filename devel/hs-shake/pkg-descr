@@ -12,4 +12,4 @@ for generated files, and dependencies on system information (i.e. compiler
 version). Shake can produce profile reports, indicating which files and
 take longest to build, and providing an analysis of the parallelism.
 
-WWW:	http://community.haskell.org/~ndm/shake/
+WWW: http://community.haskell.org/~ndm/shake/

@@ -6,5 +6,5 @@ made ListLike instances as well. ListLike also provides for String-like
 types, such as String and ByteString, for types that support input and
 output, and for types that can handle infinite lists.
 
-WWW:	http://software.complete.org/listlike
+WWW: http://software.complete.org/listlike
 

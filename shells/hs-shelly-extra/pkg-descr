@@ -6,4 +6,4 @@ shelly-extra is designed to be a grab bag for functionality that
   * or is application specific and not generally applicable currently contains
     a background job implementation for performing tasks in parallel
 
-WWW:	https://github.com/yesodweb/Shelly.hs
+WWW: https://github.com/yesodweb/Shelly.hs

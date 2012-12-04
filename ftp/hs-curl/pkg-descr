@@ -6,4 +6,4 @@ HTTP form based upload, proxies, cookies, user+password authentication
 proxy tunneling and more!  This package provides a Haskell binding to
 libcurl.
 
-WWW:	http://hackage.haskell.org/package/curl
+WWW: http://hackage.haskell.org/package/curl

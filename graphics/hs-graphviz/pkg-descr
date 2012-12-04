@@ -16,4 +16,4 @@ those programs.  Main features of the graphviz library include:
   * Round-trip support for passing an FGL graph through Graphviz to
     augment node and edge labels with positional information, etc.
 
-WWW:	http://projects.haskell.org/graphviz/
+WWW: http://projects.haskell.org/graphviz/

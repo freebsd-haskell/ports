@@ -3,4 +3,4 @@ implementations of various collection types.  For a tuned sequence type, see
 Data.Sequence in the containers package, which is a specialization of this
 structure.
 
-WWW:	http://hackage.haskell.org/package/fingertree
+WWW: http://hackage.haskell.org/package/fingertree

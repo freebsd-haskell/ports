@@ -4,4 +4,4 @@ unstructured and malformed HTML from the web. The library also provides
 useful functions to extract information from an HTML document, making it
 ideal for screen-scraping.
 
-WWW:	http://community.haskell.org/~ndm/tagsoup/
+WWW: http://community.haskell.org/~ndm/tagsoup/

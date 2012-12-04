@@ -5,4 +5,4 @@ the parallel combinators can be used reentrantly - your parallel actions
 can spawn more parallel actions - without violating this property of the
 thread pool.
 
-WWW:	http://batterseapower.github.com/parallel-io
+WWW: http://batterseapower.github.com/parallel-io

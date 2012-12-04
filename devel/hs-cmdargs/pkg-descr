@@ -14,4 +14,4 @@ documentation contains an example.
  * System.Console.CmdArgs.GetOpt provides a wrapper allowing compatiblity
    with existing getopt parsers, mapping to the Explicit data type.
 
-WWW:	http://community.haskell.org/~ndm/cmdargs/
+WWW: http://community.haskell.org/~ndm/cmdargs/

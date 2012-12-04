@@ -3,4 +3,4 @@ about installed Haskell packages, that could be later used by development
 environments. It also provides integration with Hoogle. By now, it has
 been integrated in EclipseFP.
 
-WWW:	http://github.com/JPMoresmau/scion-class-browser
+WWW: http://github.com/JPMoresmau/scion-class-browser

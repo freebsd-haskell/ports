@@ -5,4 +5,4 @@ get outline for each module source, get the type of something inside a
 source file, get lexer tokens, etc. Buildwrapper is used in the EclipseFP
 project (Eclipse plugins for Haskell development)
 
-WWW:	https://github.com/JPMoresmau/BuildWrapper
+WWW: https://github.com/JPMoresmau/BuildWrapper

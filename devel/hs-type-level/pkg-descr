@@ -11,4 +11,4 @@ indeed useful in practice to implement lightweight dependent types such
 us number-parameterized types (e.g.  an array type parameterized by the
 array's size or a modular group type Zn parameterized by the modulus).
 
-WWW:	http://code.haskell.org/type-level
+WWW: http://code.haskell.org/type-level

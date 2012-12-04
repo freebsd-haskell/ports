@@ -3,4 +3,4 @@ the IO monad with semi-arbitrary data. Data is required to be Typeable.  The
 library provides an essentially unbounded number of key-value stores indexed
 by strings, with each key within the stores also being a string.
 
-WWW:	http://github.com/willdonnelly/io-storage
+WWW: http://github.com/willdonnelly/io-storage

@@ -2,4 +2,4 @@ This library consists of one module with a few definitions. I try to keep
 it small because this module has to be loaded in the interpreter many
 times during the runtime of the Active.hs server.
 
-WWW:	http://hackage.haskell.org/package/activehs-base
+WWW: http://hackage.haskell.org/package/activehs-base

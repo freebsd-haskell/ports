@@ -12,4 +12,4 @@ Using Async is safer than using threads in two ways:
  - The API makes it possible to build a tree of threads that are
    automatically killed when their parent dies (see withAsync).
 
-WWW:	https://github.com/simonmar/async
+WWW: https://github.com/simonmar/async

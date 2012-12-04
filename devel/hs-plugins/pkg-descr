@@ -1,4 +1,4 @@
 Dynamic linking and runtime evaluation of Haskell, and C, including
 dependency chasing and package resolution.
 
-WWW:	http://hub.darcs.net/stepcut/plugins
+WWW: http://hub.darcs.net/stepcut/plugins
