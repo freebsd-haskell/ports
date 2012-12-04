@@ -11,4 +11,4 @@ package are:
   * Correct handling of asynchronous exceptions.
   * GHC specific functionality like `forkOn` and `forkIOWithUnmask`.
 
-WWW:	https://github.com/basvandijk/threads
+WWW: https://github.com/basvandijk/threads

@@ -3,4 +3,4 @@ bindings to the curses library).  Terminfo allows POSIX systems to
 interact with a variety of terminals using a standard set of
 capabilities.
 
-WWW:	http://code.haskell.org/terminfo
+WWW: http://code.haskell.org/terminfo

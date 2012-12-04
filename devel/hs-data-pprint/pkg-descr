@@ -7,4 +7,4 @@ Prettyprint and compare Data values.
   * Comparison: Highlight the first difference
   * Comparison: Yes, No or Maybe results
 
-WWW:	http://hackage.haskell.org/package/data-pprint
+WWW: http://hackage.haskell.org/package/data-pprint

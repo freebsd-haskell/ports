@@ -14,4 +14,4 @@ functions to provide a drop-in replacement for the standard Prelude.
 Users wishing to have an improved Prelude can use BasicPrelude.
 Developers wishing to create a new prelude should use CorePrelude.
 
-WWW:	https://github.com/snoyberg/basic-prelude
+WWW: https://github.com/snoyberg/basic-prelude

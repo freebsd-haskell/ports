@@ -3,4 +3,4 @@ to avoid name clashing. Exposes many recommended datastructures (Map,
 ByteString, etc) directly without requiring long import lists and qualified
 modules.
 
-WWW:	https://github.com/snoyberg/classy-prelude
+WWW: https://github.com/snoyberg/classy-prelude
