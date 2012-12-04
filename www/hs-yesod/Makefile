@@ -23,7 +23,7 @@ USE_CABAL=	attoparsec>=0.10 base64-bytestring blaze-builder>=0.2.1.4 \
 		yesod-core>=1.1.5 yesod-default>=1.1.1.1 yesod-form>=1.1 \
 		yesod-json>=1.1 yesod-persistent>=1.1 zlib>=0.5
 
-EXECUTABLE=	yesod
+EXECUTABLE=	yesod yesod-ar-wrapper yesod-ghc-wrapper yesod-ld-wrapper
 
 IGNORE_DYNAMIC=	yes
 
