@@ -1,13 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	hlint
-PORTVERSION=	1.8.36
+PORTVERSION=	1.8.39
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Source code suggestions
 
-LICENSE=	GPLv2
+LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
