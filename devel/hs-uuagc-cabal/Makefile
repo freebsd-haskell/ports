@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	uuagc-cabal
-PORTVERSION=	1.0.3.0
+PORTVERSION=	1.0.4.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
