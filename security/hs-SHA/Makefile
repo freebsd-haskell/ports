@@ -15,9 +15,9 @@ OPTIONS_DEFINE=		EXE
 
 EXE_DESC=		Build a SHA2-384 executable similar to 'md5sum'
 
-.include <bsd.port.options.mk>
-
 CONFIGURE_ARGS+=	--flags="-Test"
+
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 
 .if ${PORT_OPTIONS:MEXE}
 CONFIGURE_ARGS+=	--flags="exe"
@@ -26,5 +26,4 @@ EXECUTABLE+=		sha1 sha384
 CONFIGURE_ARGS+=	--flags="-exe"
 .endif
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
