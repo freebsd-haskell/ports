@@ -24,7 +24,7 @@ VTE_DESC=		Terminal emulator
 WEBKIT_DESC=		WebKit rendering engine
 SOEGTK_DESC=		Examples for Haskell SoE
 
-.include <bsd.port.options.mk>
+.include "../../lang/ghc/bsd.cabal.mk"
 
 .if ${PORT_OPTIONS:MGCONF}
 USE_CABAL+=		gconf
@@ -62,5 +62,4 @@ USE_CABAL+=		webkit
 USE_CABAL+=		soegtk
 .endif
 
-.include "../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
