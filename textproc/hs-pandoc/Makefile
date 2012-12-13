@@ -30,7 +30,7 @@ OPTIONS_DEFAULT=	EXECUTABLE LIBRARY
 EXECUTABLE_DESC=	Build the pandoc executable
 LIBRARY_DESC=		Build the pandoc library
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 
 .if ${PORT_OPTIONS:MEXECUTABLE}
 CONFIGURE_ARGS+=	--flags="exectuable"
@@ -46,5 +46,4 @@ CONFIGURE_ARGS+=	--flags="-library"
 STANDALONE=		yes
 .endif
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
