@@ -90,6 +90,10 @@ OPTIONS_DEFINE+=	DOCS HSCOLOUR
 OPTIONS_DEFAULT+=	DOCS
 .endif
 
+.if defined(OPTIONSMKINCLUDED)
+IGNORE?=	options fail: bsd.cabal.mk already includes bsd.options.mk
+.endif
+
 .include <bsd.port.options.mk>
 
 .if !defined(STANDALONE) || ${PORT_OPTIONS:MDYNAMIC}
