@@ -18,7 +18,7 @@ OPTIONS_DEFAULT=	MD5 BINARY
 MD5_DESC=		Include support for using MD5
 BINARY_DESC=		Use the binary package for serialization
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 
 .if ${PORT_OPTIONS:MMD5}
 CONFIGURE_ARGS+=	--flags="IncludeMD5"
@@ -33,5 +33,4 @@ CONFIGURE_ARGS+=	--flags="UseBinary"
 CONFIGURE_ARGS+=	--flags="-UseBinary"
 .endif
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
