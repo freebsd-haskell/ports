@@ -16,7 +16,6 @@ CABAL_SETUP=	Setup.hs
 
 EXECUTABLE=	HsColour
 
-.include <bsd.port.options.mk>
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
 
