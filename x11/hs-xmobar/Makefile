@@ -26,7 +26,7 @@ XFT_DESC=		Use Xft to render text (UTF-8 support included)
 UTF8_DESC=		UTF-8 support
 MPD_DESC=		mpd support
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 
 # Disable Linux-only options
 CONFIGURE_ARGS+=	--flags="-with_inotify -with_iwlib"
@@ -54,5 +54,4 @@ USE_CABAL+=		libmpd
 CONFIGURE_ARGS+=	--flags="-with_mpd"
 .endif
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
