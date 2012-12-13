@@ -41,7 +41,7 @@ PAIRING_DESC=		Enable pairing (req. web application)
 XMPP_DESC=		Enable notifications using XMPP (req. assistant)
 DNS_DESC=		Use the DNS library for lookups (req. XMPP)
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 
 .if ${PORT_OPTIONS:MS3}
 CONFIGURE_ARGS+=	--flags="S3"
@@ -95,5 +95,4 @@ USE_CABAL+=		dns
 CONFIGURE_ARGS+=	--flags="-DNS"
 .endif
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
