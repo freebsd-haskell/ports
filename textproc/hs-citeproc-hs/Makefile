@@ -18,7 +18,7 @@ BIBUTILS_DESC=		Use Chris Putnam's Bibutils
 HEXPAT_DESC=		Use hexpat to parse XML
 NETWORK_DESC=		Use network and HTTP to retrieve CSL file
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MBIBUTILS}
 CONFIGURE_ARGS+=	--flags="bibutils"
@@ -41,4 +41,5 @@ USE_CABAL+=		HTTP>=4000.0.9 network>=2
 CONFIGURE_ARGS+=	--flags="-network"
 .endif
 
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

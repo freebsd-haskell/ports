@@ -33,7 +33,7 @@ THREADED_DESC=		Use threading and SMP support
 COLOR_DESC=		Use ANSI color escapes
 MMAP_DESC=		Compile with mmap support
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 CONFIGURE_ARGS+=	--flags="library executable"
 
@@ -83,4 +83,5 @@ USE_CABAL+=		mmap>=0.5
 CONFIGURE_ARGS+=	--flags="-mmap"
 .endif
 
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

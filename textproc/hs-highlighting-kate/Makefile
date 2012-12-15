@@ -15,7 +15,7 @@ OPTIONS_DEFINE=		EXECUTABLE
 
 EXECUTABLE_DESC=	Build the Highlight executable
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MEXECUTABLE}
 CONFIGURE_ARGS+=	--flags="executable"
@@ -24,4 +24,5 @@ EXECUTABLE+=		Highlight
 CONFIGURE_ARGS+=	--flags="-executable"
 .endif
 
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -14,7 +14,7 @@ OPTIONS_DEFAULT=	POSIX
 
 POSIX_DESC=		Use POSIX-specific features
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MPOSIX}
 CONFIGURE_ARGS+=	--flags="posix"
@@ -22,4 +22,5 @@ CONFIGURE_ARGS+=	--flags="posix"
 CONFIGURE_ARGS+=	--flags="-posix"
 .endif
 
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

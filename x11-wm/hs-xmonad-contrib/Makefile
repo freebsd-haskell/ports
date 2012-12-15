@@ -21,11 +21,12 @@ OPTIONS_DEFAULT=	XFT
 
 XFT_DESC=		Enable Xft support for fonts
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MXFT}
 CONFIGURE_ARGS+=	--flags="use_xft"
 USE_CABAL+=		X11-xft>=0.2
 .endif
 
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

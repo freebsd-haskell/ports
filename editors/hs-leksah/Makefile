@@ -27,7 +27,7 @@ YI_DESC=		Yi support (experimental)
 DYRE_DESC=		Dyre support (experimental)
 THREADED_DESC=		Multithreaded execution
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MYI}
 CONFIGURE_ARGS+=	--flags="yi"
@@ -49,4 +49,5 @@ CONFIGURE_ARGS+=	--flags="threaded"
 CONFIGURE_ARGS+=	--flags="-threaded"
 .endif
 
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

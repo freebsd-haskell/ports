@@ -19,11 +19,12 @@ INSTALL_PORTEXAMPLES=	cd ${WRKSRC}/example && \
 OPTIONS_DEFINE=		EXAMPLES
 OPTIONS_DEFAULT=	EXAMPLES
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MEXAMPLES}
 SUB_FILES=	pkg-message
 SHOW_PKGMSG=	yes
 .endif
 
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
