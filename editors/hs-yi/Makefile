@@ -30,7 +30,7 @@ PANGO_DESC=		Build with Pango frontend
 VTE_DESC=		Build with Vte frontend
 VTY_DESC=		Build with Vty frontend
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 
 .if ${PORT_OPTIONS:MPANGO}
 CONFIGURE_ARGS+=	--flags="pango"
@@ -50,5 +50,4 @@ CONFIGURE_ARGS+=	--flags="vty"
 CONFIGURE_ARGS+=	--flags="-vty"
 .endif
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
