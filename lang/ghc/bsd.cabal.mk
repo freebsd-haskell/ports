@@ -26,17 +26,11 @@ DIST_SUBDIR?=	cabal
 
 FILE_LICENSE?=	LICENSE
 
-
-GHC_VERSION?=	7.4.2
-GHC_VERSION_N=	${GHC_VERSION:S/./0/g}
-
-GHC_CMD?=	${LOCALBASE}/bin/ghc
 CABAL_SETUP?=	Setup.lhs
 SETUP_CMD?=	./setup
 
 ALEX_CMD?=	${LOCALBASE}/bin/alex
 HAPPY_CMD?=	${LOCALBASE}/bin/happy
-HADDOCK_CMD?=	${LOCALBASE}/bin/haddock
 C2HS_CMD?=	${LOCALBASE}/bin/c2hs
 
 CABAL_DIRS+=	${DATADIR} ${EXAMPLESDIR} ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}
@@ -70,31 +64,11 @@ CPPFLAGS+=	-I${LOCALBASE}/include
 INSTALL_PORTDATA?=
 INSTALL_PORTEXAMPLES?=
 
-HSCOLOUR_DESC?=	Colorize generated documentation by HsColour
-DYNAMIC_DESC?=	Add support for dynamic linking
-PROFILE_DESC?=	Add support for profiling
-
 LOCALBASE?=	/usr/local
 
-.if !exists(${GHC_CMD}) || (exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi) && !defined(IGNORE_DYNAMIC))
-OPTIONS_DEFINE+=	DYNAMIC
-OPTIONS_DEFAULT+=	DYNAMIC
+.if !defined(CABALOPTIONSMKINCLUDED)
+.include "bsd.cabal.options.mk"
 .endif
-
-.if !exists(${GHC_CMD}) || (exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi) && !defined(IGNORE_PROFILE))
-OPTIONS_DEFINE+=	PROFILE
-.endif
-
-.if !exists(${GHC_CMD}) || ((exists(${HADDOCK_CMD}) && exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/html)) && !defined(NOPORTDOCS))
-OPTIONS_DEFINE+=	DOCS HSCOLOUR
-OPTIONS_DEFAULT+=	DOCS
-.endif
-
-.if defined(OPTIONSMKINCLUDED)
-IGNORE?=	options fail: bsd.cabal.mk already includes bsd.options.mk
-.endif
-
-.include <bsd.port.options.mk>
 
 .if !defined(STANDALONE) || ${PORT_OPTIONS:MDYNAMIC}
 BUILD_DEPENDS+=	ghc:${PORTSDIR}/lang/ghc
