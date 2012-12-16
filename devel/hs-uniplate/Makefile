@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	uniplate
-PORTVERSION=	1.6.9
+PORTVERSION=	1.6.10
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
