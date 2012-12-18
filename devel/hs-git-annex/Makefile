@@ -39,7 +39,7 @@ INOTIFY_DESC=		File system notifications support
 WEBAPP_DESC=		Web application (req. assistant)
 PAIRING_DESC=		Enable pairing (req. web application)
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MS3}
 CONFIGURE_ARGS+=	--flags="S3"

@@ -21,7 +21,7 @@ OPTIONS_DEFAULT=	XFT
 
 XFT_DESC=		Enable Xft support for fonts
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MXFT}
 CONFIGURE_ARGS+=	--flags="use_xft"

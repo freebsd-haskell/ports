@@ -20,7 +20,7 @@ OPTIONS_DEFAULT=	XINERAMA
 
 XINERAMA_DESC=		Build with Xinerama support
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MXINERAMA}
 USE_XORG+=		xinerama

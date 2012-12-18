@@ -19,7 +19,7 @@ OPTIONS_DEFAULT=
 
 EXECUTABLE_DESC=	Build the executable
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MEXECUTABLE}
 CONFIGURE_ARGS+=	--flags="executable"

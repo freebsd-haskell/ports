@@ -30,7 +30,7 @@ OPTIONS_DEFINE=		USE_LOCALE EPIC
 USE_LOCALE_DESC=	Use encoding specified by the locale
 EPIC_DESC=		Install the Epic compiler
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MUSE_LOCALE}
 CONFIGURE_ARGS+=	--flags="use-locale"

@@ -21,7 +21,7 @@ OPTIONS_DEFINE=		OPENSSL
 
 OPENSSL_DESC=		Enable HTTPS support using the HsOpenSSL library
 
-.include <bsd.port.options.mk>
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MOPENSSL}
 CONFIGURE_ARGS+=	--flags="openssl"
