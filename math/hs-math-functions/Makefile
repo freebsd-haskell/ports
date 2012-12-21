@@ -5,7 +5,7 @@ PORTNAME=	math-functions
 PORTVERSION=	0.1.1.2
 CATEGORIES=	math haskell
 
-MAINTAINER=	wen@FreeBSD.org
+MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Special mathematical functions and Chebyshev polynomials
 
 LICENSE=	BSD
