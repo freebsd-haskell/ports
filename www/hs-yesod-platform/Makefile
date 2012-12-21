@@ -9,39 +9,39 @@ COMMENT=	Meta package for Yesod
 
 LICENSE=	MIT
 
-USE_CABAL=	aeson==0.6.0.2_1 \
-		ansi-terminal==0.5.5_4 \
+USE_CABAL=	aeson==0.6.0.2_2 \
+		ansi-terminal==0.5.5_5 \
 		asn1-data==0.7.1 \
-		attoparsec==0.10.2.0_1 \
+		attoparsec==0.10.2.0_2 \
 		attoparsec-conduit==0.5.0.3 \
 		authenticate==1.3.2 \
 		base-unicode-symbols==0.2.2.4 \
 		base64-bytestring==1.0.0.0 \
-		blaze-builder==0.3.1.0_2 \
+		blaze-builder==0.3.1.0_3 \
 		blaze-builder-conduit==0.5.0.3 \
 		blaze-html==0.5.1.1 \
 		blaze-markup==0.5.1.2 \
-		byteorder==1.0.3_2 \
+		byteorder==1.0.3_3 \
 		case-insensitive==0.4.0.3 \
-		cereal==0.3.5.2 \
+		cereal==0.3.5.2_1 \
 		certificate==1.3.3 \
 		clientsession==0.8.0.1 \
 		conduit==0.5.5 \
 		cookie==0.4.0.1 \
 		cprng-aes==0.2.4 \
-		cpu==0.1.1 \
-		crypto-api==0.10.2_1 \
+		cpu==0.1.1_1 \
+		crypto-api==0.10.2_2 \
 		crypto-conduit==0.4.1 \
 		crypto-pubkey-types==0.2.0 \
 		cryptocipher==0.3.6 \
 		cryptohash==0.7.9 \
-		css-text==0.1.1_2 \
+		css-text==0.1.1_3 \
 		data-default==0.5.0 \
 		date-cache==0.3.0 \
-		dlist==0.5_6 \
+		dlist==0.5_7 \
 		email-validate==0.3.2 \
-		entropy==0.2.1_2 \
-		failure==0.2.0.1_1 \
+		entropy==0.2.1_3 \
+		failure==0.2.0.1_2 \
 		fast-logger==0.3.1 \
 		file-embed==0.0.4.6 \
 		filesystem-conduit==0.5.0.2 \
@@ -63,22 +63,22 @@ USE_CABAL=	aeson==0.6.0.2_1 \
 		monad-logger==0.2.3 \
 		network-conduit==0.6.1.1 \
 		path-pieces==0.1.2 \
-		pem==0.1.1_1 \
+		pem==0.1.1_2 \
 		persistent==1.0.2.2 \
 		persistent-template==1.0.0.2 \
 		pool-conduit==0.1.0.3 \
 		primitive==0.5.0.1 \
 		pureMD5==2.1.2.1 \
 		pwstore-fast==2.3 \
-		ranges==0.2.4_2 \
+		ranges==0.2.4_3 \
 		resource-pool==0.2.1.1 \
 		resourcet==0.4.4 \
-		safe==0.3.3_2 \
+		safe==0.3.3_3 \
 		semigroups==0.8.4.1 \
 		SHA==1.6.1 \
 		shakespeare==1.0.2 \
 		shakespeare-css==1.0.2 \
-		shakespeare-i18n==1.0.0.2_1 \
+		shakespeare-i18n==1.0.0.2_2 \
 		shakespeare-js==1.1.0 \
 		shakespeare-text==1.0.0.5 \
 		silently==1.2.4 \
@@ -94,11 +94,11 @@ USE_CABAL=	aeson==0.6.0.2_1 \
 		tar==0.4.0.1 \
 		tls==1.0.2 \
 		tls-extra==0.5.0 \
-		transformers-base==0.4.1_2 \
+		transformers-base==0.4.1_3 \
 		unix-compat==0.4.0.0 \
 		unordered-containers==0.2.2.1 \
-		utf8-light==0.4.0.1_1 \
-		utf8-string==0.3.7_2 \
+		utf8-light==0.4.0.1_2 \
+		utf8-string==0.3.7_3 \
 		vault==0.2.0.1 \
 		vector==0.10.0.1 \
 		void==0.5.8 \
@@ -110,7 +110,7 @@ USE_CABAL=	aeson==0.6.0.2_1 \
 		warp==1.3.5 \
 		xml-conduit==1.0.3.3 \
 		xml-types==0.3.3 \
-		xss-sanitize==0.3.2_1 \
+		xss-sanitize==0.3.2_2 \
 		yaml==0.8.1.1 \
 		yesod==1.1.4.1 \
 		yesod-auth==1.1.2 \

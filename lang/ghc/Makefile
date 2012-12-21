@@ -53,7 +53,7 @@ PROFILE_DESC=		Add support for performance profiling
 DYNAMIC_DESC=		Add support for dynamic linking
 DOCS_DESC=		Install HTML documentation
 
-.include <bsd.port.options.mk>
+LOCALBASE?=	/usr/local
 
 .if exists(${LOCALBASE}/bin/ghc)
 OPTIONS_DEFINE+=	BOOT

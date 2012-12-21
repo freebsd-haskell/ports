@@ -18,7 +18,6 @@ USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 \
 		snap-core>=0.9.2 text>=0.11 transformers>=0.2 unix-compat>=0.2
 
 OPTIONS_DEFINE=		OPENSSL
-OPTIONS_DEFAULT=	
 
 OPENSSL_DESC=		Enable HTTPS support using the HsOpenSSL library
 

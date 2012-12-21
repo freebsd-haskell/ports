@@ -5,7 +5,7 @@ PORTVERSION=	0.0.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Cross platform library for file creation, modification, and deletion notification
+COMMENT=	Cross-platform library for file system notifications
 
 LICENSE=	BSD
 
