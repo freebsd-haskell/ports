@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	buildwrapper
-PORTVERSION=	0.6.3
+PORTVERSION=	0.6.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A library and an executable that provide an easy API for a Haskell IDE
+COMMENT=	Easy API for a Haskell IDE
 
 LICENSE=	BSD
 
