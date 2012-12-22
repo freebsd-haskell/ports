@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	shelly
-PORTVERSION=	0.15.0
+PORTVERSION=	0.15.2
 CATEGORIES=	shells haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	shell-like (systems) programming in Haskell
+COMMENT=	Shell-like (systems) programming in Haskell
 
 LICENSE=	BSD
 
