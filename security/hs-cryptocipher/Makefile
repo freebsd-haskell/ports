@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	cryptocipher
-PORTVERSION=	0.3.6
+PORTVERSION=	0.3.7
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
