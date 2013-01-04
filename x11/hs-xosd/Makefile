@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	xosd
-PORTVERSION=	0.2
+PORTVERSION=	0.2.1
 CATEGORIES=	x11 haskell
 
 MAINTAINER=	haskell@FreeBSD.org
