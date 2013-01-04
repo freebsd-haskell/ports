@@ -1,13 +1,14 @@
 # $FreeBSD$
 
 PORTNAME=	graphviz
-PORTVERSION=	2999.14.1.0
+PORTVERSION=	2999.15.0.1
 CATEGORIES=	graphics haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Bindings to Graphviz for graph visualisation
 
 LICENSE=	BSD
+FILE_LICENSE=	LICENSE.md
 
 CABAL_SETUP=	Setup.hs
 
