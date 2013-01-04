@@ -121,6 +121,7 @@ dns_port=			dns/hs-dns
 double-conversion_port=		textproc/hs-double-conversion
 dyre_port=			devel/hs-dyre
 edit-distance_port=		devel/hs-edit-distance
+either_port=			devel/hs-either
 email-validate_port=		mail/hs-email-validate
 enumerator_port=		devel/hs-enumerator
 entropy_port=			security/hs-entropy
