@@ -194,6 +194,7 @@ language-c_port=		devel/hs-language-c
 language-javascript_port=	devel/hs-language-javascript
 largeword_port=			devel/hs-largeword
 lazysmallcheck_port=		devel/hs-lazysmallcheck
+lens_port=			devel/hs-lens
 lhs2tex_port=			textproc/hs-lhs2tex
 libmpd_port=			audio/hs-libmpd
 libxml_port=			textproc/hs-libxml
