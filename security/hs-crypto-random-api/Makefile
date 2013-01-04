@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	crypto-random-api
-PORTVERSION=	0.2.0
+PORTVERSION=	0.1.0
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
