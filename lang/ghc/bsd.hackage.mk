@@ -127,6 +127,7 @@ enumerator_port=		devel/hs-enumerator
 entropy_port=			security/hs-entropy
 epic_port=			lang/hs-epic		# executable
 erf_port=			math/hs-erf
+errors_port=			devel/hs-errors
 executable-path_port=		devel/hs-executable-path
 failure_port=			devel/hs-failure
 fast-logger_port=		devel/hs-fast-logger
