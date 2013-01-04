@@ -107,6 +107,7 @@ distributive_port=		math/hs-distributive
 dlist_port=			devel/hs-dlist
 double-conversion_port=		textproc/hs-double-conversion
 edit-distance_port=		devel/hs-edit-distance
+either_port=			devel/hs-either
 email-validate_port=		mail/hs-email-validate
 entropy_port=			security/hs-entropy
 enumerator_port=		devel/hs-enumerator
