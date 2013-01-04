@@ -35,6 +35,7 @@ attoparsec-iteratee_port=		textproc/hs-attoparsec-iteratee
 authenticate_port=		www/hs-authenticate
 base16-bytestring_port=		devel/hs-base16-bytestring
 base64-bytestring_port=		devel/hs-base64-bytestring
+base64-conduit_port=		devel/hs-base64-conduit
 base-unicode-symbols_port=	devel/hs-base-unicode-symbols
 basic-prelude_port=		devel/hs-basic-prelude
 binary-shared_port=		devel/hs-binary-shared
