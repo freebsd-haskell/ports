@@ -113,6 +113,7 @@ entropy_port=			security/hs-entropy
 enumerator_port=		devel/hs-enumerator
 epic_port=			lang/hs-epic		# executable
 erf_port=			math/hs-erf
+errors_port=			devel/hs-errors
 failure_port=			devel/hs-failure
 fast-logger_port=		devel/hs-fast-logger
 fastcgi_port=			www/hs-fastcgi		# lib_depends
