@@ -250,6 +250,7 @@ MonadCatchIO-mtl_port=		devel/hs-MonadCatchIO-mtl
 MonadCatchIO-transformers_port=	devel/hs-MonadCatchIO-transformers
 monadcryptorandom_port=		security/hs-monadcryptorandom
 monadLib_port=			devel/hs-monadLib
+MonadRandom_port=		devel/hs-MonadRandom
 monads-tf_port=			devel/hs-monads-tf
 mtl_port=			devel/hs-mtl
 mueval_port=			devel/hs-mueval		# executable
