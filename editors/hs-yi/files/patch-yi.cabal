@@ -1,5 +1,14 @@
 --- ./yi.cabal.orig	2012-07-21 08:15:35.000000000 +0200
-+++ ./yi.cabal	2012-10-23 16:59:47.000000000 +0200
++++ ./yi.cabal	2013-01-05 16:34:42.000000000 +0100
+@@ -206,7 +206,7 @@
+ 
+   build-depends:
+     Cabal >= 1.10 && < 1.15,
+-    Diff >=0.1 && <0.2,
++    Diff >=0.1 && <0.3,
+     array, containers,  directory, process, old-locale,
+     base >= 4 && < 5,
+     binary == 0.5.*,
 @@ -231,12 +231,12 @@
      regex-base ==0.93.*,
      regex-tdfa == 1.1.*,
