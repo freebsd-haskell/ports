@@ -77,7 +77,7 @@ USE_CABAL=	aeson==0.6.1.0 \
 		persistent-template==1.1.2.1 \
 		pool-conduit==0.1.1 \
 		primitive==0.5.0.1 \
-		project-template==1.1.2.1 \
+		project-template==0.1.1 \
 		pureMD5==2.1.2.1 \
 		pwstore-fast==2.3 \
 		ranges==0.2.4_3 \
