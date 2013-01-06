@@ -51,7 +51,7 @@ USE_CABAL=	aeson==0.6.1.0 \
 		file-embed==0.0.4.7 \
 		filesystem-conduit==0.5.0.2 \
 		fsnotify==0.0.5 \
-		ghc-paths==1.0.9 \
+		ghc-paths==0.1.0.9 \
 		hamlet==1.1.3.1 \
 		hashable==1.1.2.5 \
 		hjsmin==0.1.4 \
