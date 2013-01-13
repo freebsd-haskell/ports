@@ -221,6 +221,7 @@ mueval_port=			devel/hs-mueval		# executable
 murmur-hash_port=		devel/hs-murmur-hash
 mwc-random_port=		math/hs-mwc-random
 mysql_port=			databases/hs-mysql
+nats_port=			math/hs-nats
 network_port=			net/hs-network
 network-conduit_port=		net/hs-network-conduit
 network-info_port=		net/hs-network-info
