@@ -258,6 +258,7 @@ murmur-hash_port=		devel/hs-murmur-hash
 mwc-random_port=		math/hs-mwc-random
 mysql_port=			databases/hs-mysql
 mysql-simple_port=		databases/hs-mysql-simple
+nats_port=			math/hs-nats
 network_port=			net/hs-network
 network-conduit_port=		net/hs-network-conduit
 network-fancy_port=		net/hs-network-fancy
