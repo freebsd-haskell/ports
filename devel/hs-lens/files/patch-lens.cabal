@@ -1,0 +1,12 @@
+--- ./lens.cabal.orig	2013-01-07 16:30:37.000000000 +0100
++++ ./lens.cabal	2013-01-14 19:18:10.000000000 +0100
+@@ -174,8 +174,7 @@
+     mtl                  >= 2.0.1    && < 2.2,
+     split                == 0.2.*,
+     text                 >= 0.11     && < 0.12,
+-    transformers         >= 0.2      && < 0.4,
+-    transformers-compat  >= 0.1,
++    transformers         >= 0.3      && < 0.4,
+     unordered-containers >= 0.2      && < 0.3,
+     vector               >= 0.9      && < 0.11
+ 
