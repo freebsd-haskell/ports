@@ -11,7 +11,7 @@ MASTER_SITE_SUBDIR=	pgj/:boot
 DISTFILES=	ghc-${PORTVERSION}-src${EXTRACT_SUFX}:source
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A Compiler for the functional language Haskell
+COMMENT=	Compiler for the functional language Haskell
 
 ONLY_FOR_ARCHS=	i386 amd64
 
