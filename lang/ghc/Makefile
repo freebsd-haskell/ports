@@ -123,7 +123,7 @@ BOOT_HSC2HS=	${BOOT_DIR}/bin/hsc2hs
 
 SLAVE_CMD=	${SETENV} PATH=${BOOT_DIR}/bin:${PATH}
 
-CONFIGURE_ARGS_BOOT=	--prefix=${BOOT_DIR} CC=${CC}
+CONFIGURE_ARGS_BOOT=	--prefix=${BOOT_DIR} --with-gcc=${CC}
 CONFIGURE_ARGS+=	--with-ghc=${BOOT_GHC}
 
 .else # MBOOT
