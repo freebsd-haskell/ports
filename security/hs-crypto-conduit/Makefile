@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	crypto-conduit
-PORTVERSION=	0.4.2
+PORTVERSION=	0.4.3
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
