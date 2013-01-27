@@ -68,6 +68,7 @@ certificate_port=		security/hs-certificate
 cgi_port=			www/hs-cgi
 checkers_port=			devel/hs-checkers
 cipher-aes_port=		security/hs-cipher-aes
+cipher-rc4_port=		security/hs-cipher-rc4
 citeproc-hs_port=		textproc/hs-citeproc-hs
 classy-prelude_port=		devel/hs-classy-prelude
 classy-prelude-conduit_port=	devel/hs-classy-prelude-conduit
