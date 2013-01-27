@@ -84,6 +84,7 @@ criterion_port=			benchmarks/hs-criterion
 Crypto_port=			security/hs-Crypto
 crypto-api_port=		security/hs-crypto-api
 crypto-conduit_port=		security/hs-crypto-conduit
+crypto-numbers_port=		security/hs-crypto-numbers
 crypto-pubkey-types_port=	security/hs-crypto-pubkey-types
 crypto-random-api_port=		security/hs-crypto-random-api
 cryptocipher_port=		security/hs-cryptocipher
