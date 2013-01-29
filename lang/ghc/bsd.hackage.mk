@@ -36,6 +36,7 @@ base16-bytestring_port=		devel/hs-base16-bytestring
 base64-bytestring_port=		devel/hs-base64-bytestring
 base64-conduit_port=		devel/hs-base64-conduit
 basic-prelude_port=		devel/hs-basic-prelude
+bifunctors_port=		devel/hs-bifunctors
 bio_port=			science/hs-bio
 bits-atomic_port=		devel/hs-bits-atomic
 blaze-builder_port=		devel/hs-blaze-builder
