@@ -279,6 +279,7 @@ safe_port=			devel/hs-safe
 SafeSemaphore_port=		devel/hs-SafeSemaphore
 scgi_port=			www/hs-scgi
 sendfile_port=			net/hs-sendfile
+semigroupoid-extras_port=	math/hs-semigroupoid-extras
 semigroupoids_port=		math/hs-semigroupoids
 semigroups_port=		math/hs-semigroups
 setenv_port=			devel/hs-setenv
