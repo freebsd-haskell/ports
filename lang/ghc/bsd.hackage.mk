@@ -148,6 +148,7 @@ filesystem-conduit_port=	devel/hs-filesystem-conduit
 fingertree_port=		devel/hs-fingertree
 fsnotify_port=			devel/hs-fsnotify
 gconf_port=			devel/hs-gconf
+generic-deriving_port=		devel/hs-generic-deriving
 ghc-events_port=		devel/hs-ghc-events	# executable
 ghc-mtl_port=			devel/hs-ghc-mtl
 ghc-paths_port=			devel/hs-ghc-paths
