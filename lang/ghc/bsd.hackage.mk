@@ -313,6 +313,7 @@ reactive_port=			devel/hs-reactive
 ReadArgs_port=			devel/hs-ReadArgs
 readline_port=			devel/hs-readline
 recaptcha_port=			www/hs-recaptcha
+reflection_port=		devel/hs-reflection
 regex-base_port=		textproc/hs-regex-base
 regex-compat_port=		textproc/hs-regex-compat
 regex-pcre-builtin_port=	textproc/hs-regex-pcre-builtin
