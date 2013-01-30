@@ -25,8 +25,9 @@ EXAMPLESDIR=	${PREFIX}/share/examples/ghc-${GHC_VERSION}
 CONFLICTS=	ghc-6.8.* ghc-6.10.* ghc-6.12.* ghc-7.0.* ghc-7.2.*
 
 USE_BZIP2=	yes
-LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp
+LIB_DEPENDS+=	gmp:${PORTSDIR}/math/gmp
 
+USE_AUTOTOOLS=		autoconf
 USE_PERL5_BUILD=	yes
 USE_GMAKE=		yes
 USE_ICONV=		yes
@@ -66,6 +67,10 @@ OPTIONS_DEFINE+=	BOOTH
 .endif
 
 .include <bsd.port.options.mk>
+
+.if ${PORT_OPTIONS:MDYNAMIC}
+LIB_DEPENDS+=	ffi:${PORTSDIR}/devel/libffi
+.endif
 
 .if empty(PORT_OPTIONS:MBOOT)
 
@@ -109,10 +114,14 @@ HACKAGE_SITE?=		http://hackage.haskell.org/
 HACKAGE_ARCH?=		packages/archive/
 
 CONFIGURE_ARGS=		--with-gcc=${CC} \
+			--with-ld=${LD} \
+			--with-system-libffi \
 			--with-gmp-includes=${LOCALBASE}/include \
 			--with-gmp-libraries=${LOCALBASE}/lib \
 			--with-iconv-includes=${LOCALBASE}/include \
-			--with-iconv-libraries=${LOCALBASE}/lib
+			--with-iconv-libraries=${LOCALBASE}/lib \
+			--with-ffi-includes=${LOCALBASE}/include \
+			--with-ffi-libraries=${LOCALBASE}/lib
 
 .if empty(PORT_OPTIONS:MBOOT)
 

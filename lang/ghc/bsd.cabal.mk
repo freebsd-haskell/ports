@@ -106,7 +106,7 @@ CONFIGURE_ARGS+=	--with-c2hs=${C2HS_CMD}
 .endif
 
 .if defined(EXECUTABLE)
-LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp
+LIB_DEPENDS+=	gmp:${PORTSDIR}/math/gmp
 USE_ICONV=	yes
 .endif
 
