@@ -116,13 +116,10 @@ HACKAGE_ARCH?=		packages/archive/
 
 CONFIGURE_ARGS=		--with-gcc=${CC} \
 			--with-ld=${LD} \
-			--with-system-libffi \
 			--with-gmp-includes=${LOCALBASE}/include \
 			--with-gmp-libraries=${LOCALBASE}/lib \
 			--with-iconv-includes=${LOCALBASE}/include \
-			--with-iconv-libraries=${LOCALBASE}/lib \
-			--with-ffi-includes=${LOCALBASE}/include \
-			--with-ffi-libraries=${LOCALBASE}/lib
+			--with-iconv-libraries=${LOCALBASE}/lib
 
 .if empty(PORT_OPTIONS:MBOOT)
 
