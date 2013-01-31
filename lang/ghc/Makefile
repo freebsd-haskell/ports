@@ -27,7 +27,7 @@ CONFLICTS=	ghc-6.8.* ghc-6.10.* ghc-6.12.* ghc-7.0.* ghc-7.2.*
 USE_BZIP2=	yes
 LIB_DEPENDS+=	gmp:${PORTSDIR}/math/gmp
 
-USE_AUTOTOOLS=		autoconf
+USE_AUTOTOOLS=		autoconf autoheader
 USE_PERL5_BUILD=	yes
 USE_GMAKE=		yes
 USE_ICONV=		yes
@@ -38,6 +38,7 @@ USE_NCURSES=		yes
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
+MAKE_JOBS_SAFE=	yes
 MAKE_ENV=	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 
 # The configure process accepts,filters and canonicalises
