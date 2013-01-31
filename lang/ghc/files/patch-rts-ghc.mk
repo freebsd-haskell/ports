@@ -1,5 +1,5 @@
---- ./rts/ghc.mk.orig		2012-06-06 19:10:25.000000000 +0200
-+++ ./rts/ghc.mk		2013-01-30 16:40:21.000000000 +0100
+--- rts/ghc.mk.orig	2012-06-06 19:10:25.000000000 +0200
++++ rts/ghc.mk	2013-01-31 10:23:29.703642384 +0100
 @@ -105,8 +105,10 @@
  endif
  
@@ -38,9 +38,9 @@
  else
 -$$(rts_$1_LIB) : $$(rts_$1_OBJS) $$(rts_$1_DTRACE_OBJS) rts/libs.depend rts/dist/build/libffi$$(soext)
 +ifneq "$(UseSystemLibFFI)" "YES"
-+ LIBFFI_LIBS="-Lrts/dist/build -lffi"
++ LIBFFI_LIBS   = -Lrts/dist/build -lffi
 +else
-+ LIBFFI_LIBS=
++ LIBFFI_LIBS   =
 +endif
 +$$(rts_$1_LIB) : $$(rts_$1_OBJS) $$(rts_$1_DTRACE_OBJS) rts/libs.depend $$(rts_dist_FFI_SO)
  	"$$(RM)" $$(RM_OPTS) $$@
@@ -90,11 +90,15 @@
  # -----------------------------------------------------------------------------
  # dependencies
  
-@@ -507,7 +541,11 @@
+@@ -504,10 +538,15 @@
+ # installing
+ 
+ INSTALL_LIBS += $(ALL_RTS_LIBS)
++
++ifneq "$(UseSystemLibFFI)" "YES"
  INSTALL_LIBS += $(wildcard rts/dist/build/libffi$(soext)*)
  INSTALL_LIBS += $(wildcard rts/dist/build/libffi-5.dll)
  
-+ifneq "$(UseSystemLibFFI)" "YES"
  install: install_libffi_headers
 +else
 +install:
