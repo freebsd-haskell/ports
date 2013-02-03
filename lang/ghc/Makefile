@@ -25,7 +25,7 @@ EXAMPLESDIR=	${PREFIX}/share/examples/ghc-${GHC_VERSION}
 CONFLICTS=	ghc-6.8.* ghc-6.10.* ghc-6.12.* ghc-7.0.* ghc-7.2.*
 
 USE_BZIP2=	yes
-LIB_DEPENDS+=	gmp:${PORTSDIR}/math/gmp
+LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp
 
 USE_AUTOTOOLS=		autoconf autoheader
 USE_PERL5_BUILD=	yes
@@ -70,7 +70,7 @@ OPTIONS_DEFINE+=	BOOTH
 .include <bsd.port.options.mk>
 
 .if ${PORT_OPTIONS:MDYNAMIC}
-LIB_DEPENDS+=	ffi:${PORTSDIR}/devel/libffi
+LIB_DEPENDS+=	ffi.6:${PORTSDIR}/devel/libffi
 .endif
 
 .if empty(PORT_OPTIONS:MBOOT)
@@ -120,6 +120,12 @@ CONFIGURE_ARGS=		--with-gcc=${CC} \
 			--with-gmp-libraries=${LOCALBASE}/lib \
 			--with-iconv-includes=${LOCALBASE}/include \
 			--with-iconv-libraries=${LOCALBASE}/lib
+
+.if ${PORT_OPTIONS:MDYNAMIC}
+CONFIGURE_ARGS+=	--with-system-libffi \
+			--with-ffi-includes=${LOCALBASE}/include \
+			--with-ffi-libraries=${LOCALBASE}/lib
+.endif
 
 .if empty(PORT_OPTIONS:MBOOT)
 
