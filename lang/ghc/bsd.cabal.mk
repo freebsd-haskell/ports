@@ -80,10 +80,6 @@ BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:${PORTSDIR}/lang/ghc
 USE_BINUTILS=	yes
 USE_GCC=	4.6+
 
-.if ${PORT_OPTIONS:MDYNAMIC}
-LIB_DEPENDS+=	ffi:${PORTSDIR}/devel/libffi
-.endif
-
 CONFIGURE_ARGS+=	--with-gcc=${CC} --with-ld=${LD} --with-ar=${AR} \
 			--with-ranlib=${RANLIB}
 
@@ -103,7 +99,7 @@ CONFIGURE_ARGS+=	--with-c2hs=${C2HS_CMD}
 .endif
 
 .if defined(EXECUTABLE)
-LIB_DEPENDS+=	gmp:${PORTSDIR}/math/gmp
+LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp
 USE_ICONV=	yes
 .endif
 

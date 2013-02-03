@@ -1,6 +1,16 @@
---- ./rts/package.conf.in.orig	2012-06-06 19:10:25.000000000 +0200
-+++ ./rts/package.conf.in	2013-01-31 23:10:05.000000000 +0100
-@@ -138,6 +138,7 @@
+--- ./rts/package.conf.in.orig		2012-06-06 19:10:25.000000000 +0200
++++ ./rts/package.conf.in		2013-01-30 19:04:28.000000000 +0100
+@@ -33,6 +33,9 @@
+ #ifdef HAVE_LIBDL
+ 			      , "dl"
+ #endif
++#ifdef HAVE_LIBFFI
++                              , "ffi"
++#endif
+ #ifdef mingw32_HOST_OS
+ 			      ,"wsock32"	/* for the linker */
+ #endif
+@@ -138,6 +141,7 @@
  	 , "-u", "base_GHCziConcziSync_runSparks_closure"
  	 , "-u", "base_GHCziConcziSignal_runHandlers_closure"
  #endif
