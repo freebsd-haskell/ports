@@ -1,0 +1,36 @@
+--- ./vty.cabal.orig	2013-01-27 21:37:11.000000000 +0100
++++ ./vty.cabal	2013-02-05 02:25:44.000000000 +0100
+@@ -592,33 +592,6 @@
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+ 
+-executable vty-interactive-terminal-test
+-  main-is:             interactive_terminal_test.hs
+-
+-  default-language:    Haskell2010
+-
+-  hs-source-dirs:      src test
+-
+-  c-sources:           cbits/gwinsz.c
+-                       cbits/set_term_timing.c
+-                       cbits/mk_wcwidth.c
+-
+-  include-dirs:        cbits
+-
+-  build-depends:       base >= 4 && < 5,
+-                       bytestring,
+-                       containers,
+-                       deepseq >= 1.1 && < 1.4,
+-                       ghc-prim,
+-                       mtl >= 1.1.1.0 && < 2.2,
+-                       parallel >= 2.2 && < 3.3,
+-                       parsec >= 2 && < 4,
+-                       string-qq,
+-                       terminfo >= 0.3 && < 0.4,
+-                       unix,
+-                       utf8-string >= 0.3 && < 0.4,
+-                       vector >= 0.7
+-
+ -- Bench.hs
+ -- Bench2.hs
+ -- BenchRenderChar.hs
