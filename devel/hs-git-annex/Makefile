@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	3.20130124
+PORTVERSION=	3.20130207
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -13,8 +13,8 @@ FILE_LICENSE=	COPYRIGHT
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	async bloomfilter dataenc edit-distance hslogger HTTP IfElse \
-		json lifted-base MissingH monad-control mtl network pcre-light \
+USE_CABAL=	bloomfilter dataenc edit-distance hslogger HTTP IfElse json \
+		lifted-base MissingH monad-control mtl network pcre-light \
 		QuickCheck>=2.1 SafeSemaphore SHA text transformers-base \
 		utf8-string
 
@@ -50,7 +50,7 @@ CONFIGURE_ARGS+=	--flags="-S3"
 
 .if ${PORT_OPTIONS:MASSISTANT}
 CONFIGURE_ARGS+=	--flags="Assistant"
-USE_CABAL+=		stm>=2.3
+USE_CABAL+=		async stm>=2.3
 .else
 CONFIGURE_ARGS+=	--flags="-Assistant"
 .endif
