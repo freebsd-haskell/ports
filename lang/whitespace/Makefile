@@ -3,7 +3,7 @@
 
 PORTNAME=	whitespace
 PORTVERSION=	0.3
-PORTREVISION=	6
+PORTREVISION=	7
 CATEGORIES=	lang
 MASTER_SITES=	http://compsoc.dur.ac.uk/whitespace/downloads/
 DISTNAME=	wspace-${PORTVERSION}
@@ -15,7 +15,8 @@ COMMENT=	An interpreter for the Whitespace programming language
 LICENSE=	GPLv2
 
 BUILD_DEPENDS=	ghc:${PORTSDIR}/lang/ghc
-LIB_DEPENDS=	gmp.10:${PORTSDIR}/math/gmp
+LIB_DEPENDS=	gmp.10:${PORTSDIR}/math/gmp \
+		ffi.6:${PORTSDIR}/devel/libffi
 USE_PERL5_BUILD=	5.8+
 
 WRKSRC=	${WRKDIR}/WSpace
