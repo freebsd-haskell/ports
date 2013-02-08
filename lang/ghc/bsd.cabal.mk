@@ -83,6 +83,11 @@ USE_GCC=	4.6+
 CONFIGURE_ARGS+=	--with-gcc=${CC} --with-ld=${LD} --with-ar=${AR} \
 			--with-ranlib=${RANLIB}
 
+.if ${PORT_OPTIONS:MLLVM}
+BUILD_DEPENDS+=		llvm>=3.0:${PORTSDIR}/devel/llvm
+CONFIGURE_ARGS+=	--ghc-option=-fllvm
+.endif
+
 .if defined(USE_ALEX)
 BUILD_DEPENDS+=	${ALEX_CMD}:${PORTSDIR}/devel/hs-alex
 CONFIGURE_ARGS+=	 --with-alex=${ALEX_CMD}
