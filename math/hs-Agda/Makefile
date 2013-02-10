@@ -10,8 +10,9 @@ COMMENT=	Dependently typed functional programming language and proof assistant
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	hashable>=1.2 hashtables haskeline>=0.6.3.2 \
-		haskell-src-exts>=1.9.6 mtl QuickCheck>=2.3 syb>=0.1 \
+USE_CABAL=	geniplate>=0.6.0.3 hashable>=1.2 hashtables \
+		haskeline>=0.6.3.2 haskell-src-exts>=1.9.6 mtl \
+		QuickCheck>=2.3 parallel syb>=0.1 unordered-containers>=0.2 \
 		xhtml zlib>=0.4.0.1
 USE_ALEX=	yes
 USE_HAPPY=	yes
