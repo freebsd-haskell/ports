@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	iproute
-PORTVERSION=	1.2.10
+PORTVERSION=	1.2.11
 CATEGORIES=	net haskell
 
 MAINTAINER=	haskell@FreeBSD.org
