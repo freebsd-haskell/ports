@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	shelly
-PORTVERSION=	0.15.4
+PORTVERSION=	0.15.4.1
 CATEGORIES=	shells haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,7 +11,8 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	mtl system-fileio system-filepath>=0.4.7 text unix-compat
+USE_CABAL=	mtl>=2 system-fileio system-filepath>=0.4.7 text \
+		unix-compat
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
