@@ -303,6 +303,7 @@ profunctor-extras_port=		devel/hs-profunctor-extras
 profunctors_port=		devel/hs-profunctors
 project-template_port=		devel/hs-project-template
 PSQueue_port=			devel/hs-PSQueue
+publicsuffixlist_port=		net/hs-publicsuffixlist
 pureMD5_port=			security/hs-pureMD5
 pwstore-fast_port=		security/hs-pwstore-fast
 QuickCheck_port=		devel/hs-QuickCheck
