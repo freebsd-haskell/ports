@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	happstack-server
-PORTVERSION=	7.1.4
+PORTVERSION=	7.1.7
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -12,7 +12,7 @@ FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	base64-bytestring blaze-html hslogger>=1.0.2 html \
+USE_CABAL=	base64-bytestring blaze-html>=0.5 hslogger>=1.0.2 html \
 		monad-control>=0.3 mtl>=2 network>=2.2.3 parsec \
 		sendfile>=0.7.1 syb system-filepath>=0.3.1 text>=0.10 \
 		threads>=0.5 time-compat transformers>=0.1.3 \
