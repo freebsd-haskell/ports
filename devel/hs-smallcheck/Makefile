@@ -2,17 +2,17 @@
 # $FreeBSD$
 
 PORTNAME=	smallcheck
-PORTVERSION=	0.6.2
+PORTVERSION=	1.0.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A property-based testing library
+COMMENT=	Property-based testing library
 
 LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	dlist>=0.2
+USE_CABAL=	logict mtl
 
 INSTALL_PORTEXAMPLES=	@(cd ${WRKSRC}/examples/ && ${COPYTREE_SHARE} \* ${EXAMPLESDIR})
 
