@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	3.20130207
+PORTVERSION=	4.20130227
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -30,7 +30,7 @@ RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 EXECUTABLE=	git-annex git-annex-shell
 STANDALONE=	yes
 
-OPTIONS_DEFINE=		S3 ASSISTANT INOTIFY WEBAPP PAIRING XMPP DNS
+OPTIONS_DEFINE=		S3 ASSISTANT INOTIFY WEBAPP PAIRING XMPP DNS PRODUCTION
 OPTIONS_DEFAULT=	S3 ASSISTANT
 
 S3_DESC=		S3 support
@@ -40,6 +40,7 @@ WEBAPP_DESC=		Web application (req. assistant)
 PAIRING_DESC=		Enable pairing (req. web application)
 XMPP_DESC=		Enable notifications using XMPP (req. assistant)
 DNS_DESC=		Use the DNS library for lookups (req. XMPP)
+PRODUCTION_DESC=	Production build
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
@@ -93,6 +94,12 @@ CONFIGURE_ARGS+=	--flags="DNS"
 USE_CABAL+=		dns
 .else
 CONFIGURE_ARGS+=	--flags="-DNS"
+.endif
+
+.if ${PORT_OPTIONS:MPRODUCTION}
+CONFIGURE_ARGS+=	--flags="Production"
+.else
+CONFIGURE_ARGS+=	--flags="-Production"
 .endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
