@@ -9,8 +9,6 @@ COMMENT=	Case insensitive string comparison
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	hashable>=1.0 text>=0.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
