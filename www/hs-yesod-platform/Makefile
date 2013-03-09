@@ -115,7 +115,7 @@ USE_CABAL=	aeson==0.6.1.0 \
 		vault==0.2.0.4 \
 		vector==0.10.0.1_1 \
 		void==0.5.11 \
-		wai==1.4.0.1 \
+		wai==1.4.0 \
 		wai-app-static==1.3.1.2 \
 		wai-extra==1.3.2.4 \
 		wai-logger==0.3.0 \
