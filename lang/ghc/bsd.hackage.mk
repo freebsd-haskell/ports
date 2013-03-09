@@ -207,6 +207,7 @@ libxml_port=			textproc/hs-libxml
 lifted-base_port=		devel/hs-lifted-base
 List_port=			devel/hs-List
 logict_port=			devel/hs-logict
+maccatcher_port=		net/hs-maccatcher
 math-functions_port=		math/hs-math-functions
 MaybeT_port=			devel/hs-MaybeT
 MemoTrie_port=			devel/hs-MemoTrie
