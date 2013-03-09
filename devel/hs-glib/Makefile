@@ -15,7 +15,7 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	gtk2hs-buildtools
 USE_GNOME=	glib20
-USE_PKGBUILD=	build
+USE_PKGCONFIG=	build
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
