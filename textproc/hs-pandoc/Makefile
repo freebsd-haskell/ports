@@ -13,7 +13,7 @@ FILE_LICENSE=	COPYING
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	base64-bytestring>=0.1 blaze-html>=0.5 blaze-markup>=0.5.1 \
+USE_CABAL=	base64-bytestring>=0.1 blaze-html>=0.6 blaze-markup>=0.5.1 \
 		citeproc-hs>=0.3.6 data-default>=0.4 highlighting-kate>=0.5.1 \
 		HTTP>=4000.0.5 json>=0.4 mtl>=1.1 network>=2 \
 		pandoc-types>=1.10 parsec>=3.1 random>=1 syb>=0.1 \
