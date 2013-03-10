@@ -118,7 +118,7 @@ USE_CABAL=	aeson==0.6.1.0 \
 		wai==1.4.0 \
 		wai-app-static==1.3.1.2 \
 		wai-extra==1.3.2.4 \
-		wai-logger==0.3.0 \
+		wai-logger==0.3.0_1 \
 		wai-test==1.3.0.4 \
 		warp==1.3.7.4 \
 		word8==0.0.3 \
