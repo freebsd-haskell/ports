@@ -22,7 +22,7 @@ LIB_DEPENDS=	Tix8.4.3.0:${PORTSDIR}/x11-toolkits/tix
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/.src//}
 BUILD_WRKSRC=	${WRKSRC}/src
-USE_BISON=	build
+USES=		bison
 LDFLAGS+=	-lm -lreadline -ltermcap
 .if empty(PORT_OPTIONS:MX11)
 USE_TK=		84+
