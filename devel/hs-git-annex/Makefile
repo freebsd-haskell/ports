@@ -15,8 +15,8 @@ CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	bloomfilter dataenc edit-distance hslogger HTTP IfElse json \
 		lifted-base MissingH monad-control mtl network pcre-light \
-		QuickCheck>=2.1 SafeSemaphore SHA text transformers-base \
-		utf8-string uuid
+		QuickCheck>=2.1 regex-tdfa SafeSemaphore SHA text \
+		transformers-base utf8-string uuid
 
 USE_GMAKE=		yes
 USE_PERL5_BUILD=	yes
