@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	gitit
-PORTVERSION=	0.10.3
+PORTVERSION=	0.10.3.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
