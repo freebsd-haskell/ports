@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	pandoc
-PORTVERSION=	1.11
+PORTVERSION=	1.11.1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,11 +14,11 @@ FILE_LICENSE=	COPYING
 CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	base64-bytestring>=0.1 blaze-html>=0.6 blaze-markup>=0.5.1 \
-		citeproc-hs>=0.3.6 data-default>=0.4 highlighting-kate>=0.5.1 \
+		citeproc-hs>=0.3.7 data-default>=0.4 highlighting-kate>=0.5.3.7 \
 		HTTP>=4000.0.5 json>=0.4 mtl>=1.1 network>=2 \
 		pandoc-types>=1.10 parsec>=3.1 random>=1 syb>=0.1 \
-		tagsoup>=0.12.5 temporary>=1.1 texmath>=0.6.0.2 \
-		text>=0.11 xml>=1.3.12 zip-archive>=0.1.1.7 zlib>=0.5
+		tagsoup>=0.12.5 temporary>=1.1 texmath>=0.6.1.3 \
+		text>=0.11 xml>=1.3.12 zip-archive>=0.1.3.3 zlib>=0.5
 
 EXECUTABLE=	pandoc
 
