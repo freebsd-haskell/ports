@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	HStringTemplate
-PORTVERSION=	0.7.0
+PORTVERSION=	0.7.1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
