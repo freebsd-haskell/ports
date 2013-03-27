@@ -9,7 +9,7 @@ COMMENT=	Meta package for Yesod
 
 LICENSE=	MIT
 
-USE_CABAL=	aeson==0.6.1.0 \
+USE_CABAL=	aeson==0.6.1.0_1 \
 		ansi-terminal==0.6 \
 		asn1-data==0.7.1_1 \
 		attoparsec==0.10.4.0 \
@@ -26,29 +26,29 @@ USE_CABAL=	aeson==0.6.1.0 \
 		byteorder==1.0.3_4 \
 		case-insensitive==1.0 \
 		cereal==0.3.5.2_2 \
-		certificate==1.3.5 \
+		certificate==1.3.5_1 \
 		cipher-aes==0.1.7 \
 		cipher-rc4==0.1.2 \
 		classy-prelude==0.5.3 \
-		clientsession==0.8.1 \
+		clientsession==0.8.1_1 \
 		conduit==1.0.2 \
 		cookie==0.4.0.1_1 \
-		cprng-aes==0.3.4 \
+		cprng-aes==0.3.4_1 \
 		crypto-api==0.11 \
 		crypto-conduit==0.5.0 \
 		crypto-numbers==0.1.3 \
-		crypto-pubkey==0.1.2 \
+		crypto-pubkey==0.1.2_1 \
 		crypto-pubkey-types==0.2.0_1 \
 		crypto-random-api==0.2.0 \
-		cryptohash==0.8.3 \
-		css-text==0.1.1_4 \
+		cryptohash==0.8.3_1 \
+		css-text==0.1.1_5 \
 		data-default==0.5.0_1 \
 		date-cache==0.3.0_1 \
 		dlist==0.5_8 \
 		email-validate==1.0.0 \
 		entropy==0.2.1_4 \
 		failure==0.2.0.1_3 \
-		fast-logger==0.3.1_1 \
+		fast-logger==0.3.1_2 \
 		file-embed==0.0.4.7 \
 		filesystem-conduit==1.0.0 \
 		fsnotify==0.0.6 \
@@ -60,27 +60,27 @@ USE_CABAL=	aeson==0.6.1.0 \
 		hspec-expectations==0.3.0.3_1 \
 		html-conduit==1.1.0 \
 		http-conduit==1.9.0 \
-		http-date==0.0.4 \
+		http-date==0.0.4_1 \
 		http-reverse-proxy==0.1.1.3 \
 		http-types==0.8.0 \
 		language-javascript==0.5.7_1 \
 		lifted-base==0.2.0.2 \
-		mime-mail==0.4.1.2_1 \
+		mime-mail==0.4.1.2_2 \
 		mime-types==0.1.0.3 \
 		monad-control==0.3.1.4_1 \
 		monad-logger==0.3.0.1 \
 		network-conduit==1.0.0 \
 		optparse-applicative==0.5.2.1 \
 		path-pieces==0.1.2_1 \
-		pem==0.1.2 \
+		pem==0.1.2_1 \
 		persistent==1.1.5.1 \
 		persistent-template==1.1.2.4 \
-		pool-conduit==0.1.1 \
+		pool-conduit==0.1.1_1 \
 		primitive==0.5.0.1_1 \
 		project-template==0.1.3 \
 		publicsuffixlist==0.0.3 \
-		pureMD5==2.1.2.1_1 \
-		pwstore-fast==2.3_1 \
+		pureMD5==2.1.2.1_2 \
+		pwstore-fast==2.3_2 \
 		ReadArgs==1.2.1_1 \
 		resource-pool==0.2.1.1_1 \
 		resourcet==0.4.5 \
@@ -90,9 +90,9 @@ USE_CABAL=	aeson==0.6.1.0 \
 		SHA==1.6.1_1 \
 		shakespeare==1.0.3.1 \
 		shakespeare-css==1.0.3 \
-		shakespeare-i18n==1.0.0.2_3 \
+		shakespeare-i18n==1.0.0.2_4 \
 		shakespeare-js==1.1.2.1 \
-		shakespeare-text==1.0.0.5_1 \
+		shakespeare-text==1.0.0.5_2 \
 		silently==1.2.4.1 \
 		simple-sendfile==0.2.11 \
 		skein==0.1.0.12 \
@@ -106,7 +106,7 @@ USE_CABAL=	aeson==0.6.1.0 \
 		tagstream-conduit==0.5.4 \
 		tar==0.4.0.1_1 \
 		tls==1.1.2 \
-		tls-extra==0.6.1 \
+		tls-extra==0.6.1_1 \
 		transformers-base==0.4.1_4 \
 		unix-compat==0.4.1.0 \
 		unordered-containers==0.2.3.0 \
@@ -118,7 +118,7 @@ USE_CABAL=	aeson==0.6.1.0 \
 		wai==1.4.0 \
 		wai-app-static==1.3.1.2 \
 		wai-extra==1.3.2.4 \
-		wai-logger==0.3.0_1 \
+		wai-logger==0.3.0_2 \
 		wai-test==1.3.0.4 \
 		warp==1.3.7.4 \
 		word8==0.0.3 \
@@ -132,7 +132,7 @@ USE_CABAL=	aeson==0.6.1.0 \
 		yesod-default==1.1.3.2 \
 		yesod-form==1.2.1.3 \
 		yesod-json==1.1.2.1 \
-		yesod-persistent==1.1.0.1 \
+		yesod-persistent==1.1.0.1_1 \
 		yesod-routes==1.1.2 \
 		yesod-static==1.1.2.2 \
 		yesod-test==0.3.5 \
