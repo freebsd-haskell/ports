@@ -124,7 +124,7 @@ USE_CABAL=	aeson==0.6.1.0_1 \
 		word8==0.0.3 \
 		xml-conduit==1.1.0.3 \
 		xml-types==0.3.3_1 \
-		xss-sanitize==0.3.3 \
+		xss-sanitize==0.3.3_1 \
 		yaml==0.8.2.3 \
 		yesod==1.1.9.2 \
 		yesod-auth==1.1.5.3 \
