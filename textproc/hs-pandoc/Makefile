@@ -22,6 +22,8 @@ USE_CABAL=	base64-bytestring>=0.1 blaze-html>=0.6 blaze-markup>=0.5.1 \
 
 EXECUTABLE=	pandoc
 
+USE_LDCONFIG=	${CABAL_LIBDIR}/${DISTNAME}
+
 MAN1=		pandoc.1
 MAN5=		pandoc_markdown.5
 
