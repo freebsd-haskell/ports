@@ -142,7 +142,7 @@ RUN_DEPENDS+=	${dependencies}
 USE_PERL5_BUILD=	5.8+
 .endif
 
-.if ${PORT_OPTIONS:MDOCS}
+.if defined(HADDOCK_AVAILABLE) && ${PORT_OPTIONS:MDOCS}
 .if !defined(XMLDOCS)
 
 HADDOCK_OPTS=	# empty
@@ -173,7 +173,7 @@ PORTDOCS=	*
 
 __handle_datadir__=	--datadir='${DATADIR}' --datasubdir='' --docdir='${DOCSDIR}'
 
-.if !defined(XMLDOCS) && ${PORT_OPTIONS:MDOCS}
+.if defined(HADDOCK_AVAILABLE) && !defined(XMLDOCS) && ${PORT_OPTIONS:MDOCS}
 CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 .endif
 
@@ -240,7 +240,7 @@ do-build:
 .endif
 
 .if ${PORT_OPTIONS:MDOCS}
-.if !defined(XMLDOCS) && !defined(STANDALONE) && ${PORT_OPTIONS:MDOCS}
+.if defined(HADDOCK_AVAILABLE) && !defined(XMLDOCS) && !defined(STANDALONE) && ${PORT_OPTIONS:MDOCS}
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SETUP_CMD} haddock ${HADDOCK_OPTS}
 .endif # STANDALONE
 .if defined(XMLDOCS)
@@ -325,7 +325,7 @@ add-plist-cabal:
 
 post-install::
 .if !defined(METAPORT)
-.if ${PORT_OPTIONS:MDOCS}
+.if defined(HADDOCK_AVAILABLE) && ${PORT_OPTIONS:MDOCS}
 	@if [ -f ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ]; then \
 		${LN} -s ${DOCSDIR}/html ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/${DISTNAME} && \
 		cd ${PREFIX}/${GHC_LIB_DOCSDIR_REL} && \
