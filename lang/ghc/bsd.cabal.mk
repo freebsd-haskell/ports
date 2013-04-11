@@ -309,7 +309,7 @@ add-plist-cabal:
 	@if [ -f ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}/register.sh ]; then \
 		(${ECHO_CMD} '@exec ${SH} %D/${CABAL_LIBDIR_REL}/${CABAL_LIBSUBDIR}/register.sh'; \
 		 ${ECHO_CMD} '@unexec %D/bin/ghc-pkg unregister --force ${PORTNAME}-${PORTVERSION}') >> ${TMPPLIST}; fi
-.if empty(PORT_OPTIONS:MDOCS)
+.if !defined(HADDOCK_AVAILABLE) || empty(PORT_OPTIONS:MDOCS)
 	@if [ -f ${DOCSDIR}/${FILE_LICENSE} ]; then \
 		(${ECHO_CMD} '${DOCSDIR_REL}/${FILE_LICENSE}'; \
 		 ${ECHO_CMD} '@unexec ${RMDIR} "%D/${DOCSDIR_REL}" 2>/dev/null || true') >>${TMPPLIST}; fi
