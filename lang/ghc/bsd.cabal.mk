@@ -21,8 +21,6 @@ NO_BUILD=	yes
 
 DIST_SUBDIR?=	cabal
 
-FILE_LICENSE?=	LICENSE
-
 CABAL_SETUP?=	Setup.lhs
 SETUP_CMD?=	./setup
 
@@ -30,7 +28,8 @@ ALEX_CMD?=	${LOCALBASE}/bin/alex
 HAPPY_CMD?=	${LOCALBASE}/bin/happy
 C2HS_CMD?=	${LOCALBASE}/bin/c2hs
 
-CABAL_DIRS+=	${DATADIR} ${EXAMPLESDIR} ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}
+CABAL_DIRS+=	${DATADIR} ${EXAMPLESDIR} ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR} \
+		${DOCSDIR}
 
 GHC_HADDOCK_CMD=${LOCALBASE}/bin/haddock-ghc-${GHC_VERSION}
 
@@ -166,10 +165,6 @@ BUILD_DEPENDS+=	${LOCALBASE}/share/xsl/docbook/html:${PORTSDIR}/textproc/docbook
 USE_GMAKE=	yes
 
 .endif # !XMLDOCS
-
-.if !defined(METAPORT)
-PORTDOCS=	*
-.endif # !METAPORT
 
 .endif # DOCS
 
@@ -311,11 +306,7 @@ add-plist-cabal:
 	@if [ -f ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}/register.sh ]; then \
 		(${ECHO_CMD} '@exec ${SH} %D/${CABAL_LIBDIR_REL}/${CABAL_LIBSUBDIR}/register.sh'; \
 		 ${ECHO_CMD} '@unexec %D/bin/ghc-pkg unregister --force ${PORTNAME}-${PORTVERSION}') >> ${TMPPLIST}; fi
-.if !defined(HADDOCK_AVAILABLE) || empty(PORT_OPTIONS:MDOCS)
-	@if [ -f ${DOCSDIR}/${FILE_LICENSE} ]; then \
-		(${ECHO_CMD} '${DOCSDIR_REL}/${FILE_LICENSE}'; \
-		 ${ECHO_CMD} '@unexec ${RMDIR} "%D/${DOCSDIR_REL}" 2>/dev/null || true') >>${TMPPLIST}; fi
-.else
+.if defined(HADDOCK_AVAILABLE) && ${PORT_OPTIONS:MDOCS}
 	@(${ECHO_CMD} '@exec if [ -f %D/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ]; then ${LN} -s ${DOCSDIR}/html %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME} && \
 		cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index; fi' ; \
 	  ${ECHO_CMD} '@unexec ${RM} -f %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \
