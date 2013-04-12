@@ -137,9 +137,10 @@ RUN_DEPENDS+=	${dependencies}
 USE_PERL5_BUILD=	5.8+
 .endif
 
-.if defined(HADDOCK_AVAILABLE) && ${PORT_OPTIONS:MDOCS}
+.if ${PORT_OPTIONS:MDOCS}
 .if !defined(XMLDOCS)
 
+.if defined(HADDOCK_AVAILABLE)
 HADDOCK_OPTS=	# empty
 
 .if ${PORT_OPTIONS:MHSCOLOUR}
@@ -149,6 +150,7 @@ HSCOLOUR_VERSION=	1.20.3
 HSCOLOUR_DATADIR=	${LOCALBASE}/share/ghc-${GHC_VERSION}/cabal/hscolour-${HSCOLOUR_VERSION}
 HADDOCK_OPTS+=		--hyperlink-source --hscolour-css=${HSCOLOUR_DATADIR}/hscolour.css
 .endif # HSCOLOUR
+.endif # HADDOCK_AVAILABLE
 
 .endif
 
