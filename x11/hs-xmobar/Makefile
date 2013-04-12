@@ -10,6 +10,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Minimalistic text-based status bar
 
 LICENSE=	BSD
+FILE_LICENSE=	license
 
 USE_CABAL=	mtl parsec stm>=2.3 X11
 USE_XORG=	xrandr
