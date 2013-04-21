@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	hlint
-PORTVERSION=	1.8.43
+PORTVERSION=	1.8.44
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
