@@ -107,6 +107,7 @@ data-accessor-mtl_port=		devel/hs-data-accessor-mtl
 data-accessor-template_port=	devel/hs-data-accessor-template
 data-default_port=		devel/hs-data-default
 data-default-class_port=	devel/hs-data-default-class
+data-default-instances-base_port=	devel/hs-data-default-instances-base
 data-lens_port=			math/hs-data-lens
 data-lens-template_port=	math/hs-data-lens-template
 data-pprint_port=		devel/hs-data-pprint
