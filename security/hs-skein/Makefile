@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	skein
-PORTVERSION=	0.1.0.12
+PORTVERSION=	1.0.1
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
