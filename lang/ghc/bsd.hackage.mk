@@ -314,6 +314,7 @@ publicsuffixlist_port=		net/hs-publicsuffixlist
 pureMD5_port=			security/hs-pureMD5
 pwstore-fast_port=		security/hs-pwstore-fast
 QuickCheck_port=		devel/hs-QuickCheck
+quickcheck-io_port=		devel/hs-quickcheck-io
 random_port=			devel/hs-random
 random-shuffle_port=		devel/hs-random-shuffle
 ranges_port=			devel/hs-ranges
