@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	certificate
-PORTVERSION=	1.3.5
-PORTREVISION=	1
+PORTVERSION=	1.3.6
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -12,8 +11,8 @@ LICENSE=	BSD
 
 CABAL_SETUP=	Setup.hs
 
-USE_CABAL=	asn1-data>=0.7.1 crypto-pubkey-types>=0.1 cryptohash mtl \
-		pem>=0.1
+USE_CABAL=	asn1-data>=0.7.1 crypto-pubkey-types>=0.1 cryptohash \
+		mtl pem>=0.1
 
 OPTIONS_DEFINE=		EXECUTABLE
 OPTIONS_DEFAULT=	
