@@ -12,7 +12,7 @@ LICENSE=	GPLv3
 USE_CABAL=	text
 USE_C2HS=	yes
 
-USE_PKGCONFIG=	yes
+USES=		pkgconfig
 LIB_DEPENDS=	idn.17:${PORTSDIR}/dns/libidn
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
