@@ -21,7 +21,6 @@ NO_BUILD=	yes
 
 DIST_SUBDIR?=	cabal
 
-CABAL_SETUP?=	Setup.lhs
 SETUP_CMD?=	./setup
 
 ALEX_CMD?=	${LOCALBASE}/bin/alex
@@ -195,14 +194,24 @@ post-patch::
 		${WRKSRC}/doc/configure.ac
 .endif
 
+_BUILD_SETUP=	${GHC_CMD} -o ${SETUP_CMD} -package Cabal --make
+
 .if !target(do-configure)
 do-configure:
 .if !defined(METAPORT)
-	cd ${WRKSRC} && ${GHC_CMD} --make ${CABAL_SETUP} -o setup -package Cabal
-	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} \
-		${SETUP_CMD} configure --ghc --prefix=${PREFIX} \
+	@if [ -f ${WRKSRC}/Setup.hs ]; then \
+	    cd ${WRKSRC} && ${_BUILD_SETUP} Setup.hs; fi
+	@if [ -f ${WRKSRC}/Setup.lhs ]; then \
+	    cd ${WRKSRC} && ${_BUILD_SETUP} Setup.lhs; fi
+	@if [ -f ${WRKSRC}/${SETUP_CMD} ]; then \
+	    cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} \
+	    ${SETUP_CMD} configure --ghc --prefix=${PREFIX} \
 		--extra-include-dirs="${LOCALBASE}/include" --extra-lib-dirs="${LOCALBASE}/lib" \
-		${__handle_datadir__} ${CONFIGURE_ARGS}
+		${__handle_datadir__} ${CONFIGURE_ARGS}; \
+	else \
+	    ${ECHO_MSG} "===>  ${PKGNAME} configure fails: no setup program could be created."; \
+	    exit 1; \
+	fi
 
 .if ${PORT_OPTIONS:MDOCS}
 .if defined(XMLDOCS) && defined(USE_AUTOTOOLS)
