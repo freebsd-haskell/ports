@@ -195,22 +195,6 @@ post-patch::
 		${WRKSRC}/doc/configure.ac
 .endif
 
-# Purge Haskell 98 (required for GHC 7.2 or later)
-.if defined(HASKELL98)
-	@${REINPLACE_CMD} -E 's|haskell98[,]?||' \
-		${WRKSRC}/${PORTNAME}.cabal
-
-	@${REINPLACE_CMD} 's|import List|import Data.List| ; \
-		s|import Char|import Data.Char| ; \
-		s|import Ratio|import Data.Ratio| ; \
-		s|import Monad|import Control.Monad| ; \
-		s|import IO|import System.IO.Error| ; \
-		s|import Directory|import System.Directory| ; \
-		s|import Maybe|import Data.Maybe| ; \
-		s|import Array|import Data.Array|' \
-		`${FIND} ${WRKSRC} -name '*.hs'`
-.endif
-
 .if !target(do-configure)
 do-configure:
 .if !defined(METAPORT)
