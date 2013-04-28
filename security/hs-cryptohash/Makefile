@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	cryptohash
-PORTVERSION=	0.8.3
-PORTREVISION=	1
+PORTVERSION=	0.9.0
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
