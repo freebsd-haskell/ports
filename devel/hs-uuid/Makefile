@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	uuid
-PORTVERSION=	1.2.10
+PORTVERSION=	1.2.11
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
