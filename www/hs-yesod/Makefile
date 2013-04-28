@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	yesod
-PORTVERSION=	1.1.9.2
+PORTVERSION=	1.1.9.3
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -15,7 +15,7 @@ USE_CABAL=	attoparsec>=0.10 base64-bytestring blaze-builder>=0.2.1.4 \
 		http-reverse-proxy>=0.1.0.4 http-types>=0.7 lifted-base \
 		monad-control>=0.3 network network-conduit \
 		optparse-applicative>=0.4 parsec>=2.1 project-template>=0.1.1 \
-		resourcet>=0.3 shakespeare>=1.0.2 shakespeare-css>=1.0.2 \
+		resourcet>=0.3 shakespeare>=1.0.2 shakespeare-css>=1.0 \
 		shakespeare-js>=1.0.2 shakespeare-text>=1.0 split>=0.2 \
 		system-fileio>=0.3 system-filepath>=0.4 tar>=0.4 text>=0.11 \
 		transformers>=0.2.2 unix-compat>=0.2 unordered-containers \
