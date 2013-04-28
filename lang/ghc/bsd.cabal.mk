@@ -195,7 +195,9 @@ do-configure:
 .if !defined(METAPORT)
 	cd ${WRKSRC} && ${GHC_CMD} --make ${CABAL_SETUP} -o setup -package Cabal
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} \
-			${SETUP_CMD} configure --ghc --prefix=${PREFIX} --extra-include-dirs="${LOCALBASE}/include" --extra-lib-dirs="${LOCALBASE}/lib" ${__handle_datadir__} ${CONFIGURE_ARGS}
+		${SETUP_CMD} configure --ghc --prefix=${PREFIX} \
+		--extra-include-dirs="${LOCALBASE}/include" --extra-lib-dirs="${LOCALBASE}/lib" \
+		${__handle_datadir__} ${CONFIGURE_ARGS}
 
 .if ${PORT_OPTIONS:MDOCS}
 .if defined(XMLDOCS) && defined(USE_AUTOTOOLS)
