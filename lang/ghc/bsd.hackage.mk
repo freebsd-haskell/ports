@@ -249,6 +249,7 @@ mime-mail_port=			mail/hs-mime-mail
 mime-types_port=		mail/hs-mime-types
 MissingH_port=			devel/hs-MissingH
 mmap_port=			devel/hs-mmap
+mmorph_port=			devel/hs-mmorph
 monad-control_port=		devel/hs-monad-control
 monad-logger_port=		devel/hs-monad-logger
 monad-par_port=			devel/hs-monad-par
