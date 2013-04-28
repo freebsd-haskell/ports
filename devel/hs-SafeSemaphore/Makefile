@@ -10,8 +10,6 @@ COMMENT=	Much safer replacement for QSemN, QSem, and SampleVar
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	stm
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

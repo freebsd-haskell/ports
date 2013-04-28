@@ -8,8 +8,6 @@ CATEGORIES=	x11-toolkits haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	wxHaskell C++ wrapper
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	wxdirect>=0.90
 
 USE_WX=		2.9

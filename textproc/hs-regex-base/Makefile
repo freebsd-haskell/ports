@@ -10,7 +10,6 @@ COMMENT=	Interface API for regex-posix,pcre,parsec,tdfa,dfa
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	mtl
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

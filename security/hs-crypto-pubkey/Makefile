@@ -10,8 +10,6 @@ COMMENT=	Public Key cryptography
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	crypto-numbers crypto-pubkey-types>=0.2 crypto-random-api>=0.2 \
 		cryptohash>=0.8
 

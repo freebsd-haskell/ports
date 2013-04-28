@@ -9,8 +9,6 @@ COMMENT=	Haskell implementation of a javascript minifier
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	blaze-builder>=0.2 language-javascript>=0.5.1 text>=0.8
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

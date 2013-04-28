@@ -10,8 +10,6 @@ COMMENT=	Library for writing Haskell web servers
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	HTTP>=4000.2.0 mime>=0.3 network>=2 url>=2 utf8-string>=0.3.4
 
 INSTALL_PORTEXAMPLES=	cd ${WRKSRC}/example && \

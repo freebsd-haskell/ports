@@ -8,9 +8,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Bindings for the libXML2 SAX interface
 
 LICENSE=	MIT
-FILE_LICENSE=	license.txt
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	text>=0.7 xml-types>=0.3
 

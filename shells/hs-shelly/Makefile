@@ -9,8 +9,6 @@ COMMENT=	Shell-like (systems) programming in Haskell
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	mtl>=2 system-fileio system-filepath>=0.4.7 text \
 		unix-compat
 

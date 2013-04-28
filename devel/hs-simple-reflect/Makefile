@@ -9,7 +9,5 @@ COMMENT=	Simple reflection of expressions containing variables
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

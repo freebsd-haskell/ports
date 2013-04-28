@@ -10,8 +10,6 @@ COMMENT=	The command-line interface for Cabal and Hackage
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	network>=1 random>=1 HTTP>=4000.0.2 zlib>=0.4
 
 STANDALONE=	yes

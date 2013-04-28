@@ -10,7 +10,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Trie-based memo functions
 
 LICENSE=	BSD
-FILE_LICENSE=	COPYING
 
 USE_CABAL=	void
 

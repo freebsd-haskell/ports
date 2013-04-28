@@ -10,8 +10,6 @@ COMMENT=	Various cryptographic hashes for Bytestrings
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	zlib
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

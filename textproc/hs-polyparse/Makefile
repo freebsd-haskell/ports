@@ -9,9 +9,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A variety of alternative parser combinator libraries
 
 LICENSE=	LGPL21
-FILE_LICENSE=	COPYRIGHT
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	text
 

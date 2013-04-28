@@ -8,8 +8,6 @@ CATEGORIES=	x11-toolkits haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	wxHaskell
 
-FILE_LICENSE=	license.txt
-
 USE_CABAL=	stm wxcore>=0.90
 
 USE_WX=		2.9

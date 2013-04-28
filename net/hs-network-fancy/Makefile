@@ -8,9 +8,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Networking support with a cleaner API
 
 LICENSE=	BSD
-FILE_LICENSE=	COPYING
-
-CABAL_SETUP=	Setup.hs
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

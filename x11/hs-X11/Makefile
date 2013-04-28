@@ -10,8 +10,6 @@ COMMENT=	Binding to the X11 graphics library
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	data-default
 USE_XORG=	x11 xrandr xext
 

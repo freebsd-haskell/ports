@@ -10,8 +10,6 @@ COMMENT=	Atomic compare and swap for IORefs and STRefs
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	bits-atomic
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

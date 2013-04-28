@@ -9,8 +9,6 @@ COMMENT=	A zipper-like comonad which works as a list, tracking a position
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	data-accessor
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

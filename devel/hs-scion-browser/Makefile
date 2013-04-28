@@ -8,9 +8,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Command-line interface for browsing and searching packages documentation
 
 LICENSE=	BSD
-FILE_LICENSE=	docs/LICENSE
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	aeson>=0.4 attoparsec>=0.10 conduit derive>=2.5 ghc-paths \
 		haskeline>=0.7 haskell-src-exts>=1.11 HTTP>=4000 \

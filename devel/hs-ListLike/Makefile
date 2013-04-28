@@ -8,9 +8,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Generic support for list-like structures
 
 LICENSE=	BSD
-FILE_LICENSE=	COPYRIGHT
-
-CABAL_SETUP=	Setup.hs
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

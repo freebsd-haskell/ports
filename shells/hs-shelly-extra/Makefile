@@ -9,8 +9,6 @@ COMMENT=	shelly features that require extra dependencies
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	SafeSemaphore shelly>=0.10
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

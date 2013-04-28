@@ -9,8 +9,6 @@ COMMENT=	A Wadler/Leijen Pretty Printer for Text values
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	text>=0.11.0.0
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

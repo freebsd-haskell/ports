@@ -9,8 +9,6 @@ COMMENT=	Build system library, like Make, but more accurate dependencies
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	hashable>=1.1.2.3 random transformers>=0.2 unordered-containers
 
 EXECUTABLE=	shake

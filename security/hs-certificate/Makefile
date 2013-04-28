@@ -9,8 +9,6 @@ COMMENT=	Certificates and Key Reader/Writer
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	asn1-data>=0.7.1 crypto-pubkey-types>=0.1 cryptohash \
 		mtl pem>=0.1
 

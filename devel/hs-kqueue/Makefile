@@ -10,8 +10,6 @@ COMMENT=	A binding to the kqueue event library
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	mtl>=1.1
 USE_C2HS=	yes
 

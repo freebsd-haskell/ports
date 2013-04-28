@@ -10,8 +10,6 @@ COMMENT=	A graphical tool for profiling parallel Haskell programs
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	cairo ghc-events>=0.4.2 glib gtk>=0.12 gtk2hs-buildtools mtl \
 		pango
 

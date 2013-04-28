@@ -10,7 +10,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Arrows for "deep application"
 
 LICENSE=	BSD
-FILE_LICENSE=	COPYING
 
 USE_CABAL=	haskell-src mtl TypeCompose>=0.9.5
 

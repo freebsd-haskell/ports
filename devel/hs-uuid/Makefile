@@ -9,8 +9,6 @@ COMMENT=	Creating, comparing, parsing and printing Universally Unique Identifier
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	cryptohash>=0.7 maccatcher>=1.0 random>=1.0.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

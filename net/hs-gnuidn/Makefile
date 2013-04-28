@@ -8,9 +8,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Bindings for GNU IDN
 
 LICENSE=	GPLv3
-FILE_LICENSE=	license.txt
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	text
 USE_C2HS=	yes

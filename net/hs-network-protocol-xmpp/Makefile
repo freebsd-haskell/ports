@@ -8,9 +8,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Client library for the XMPP protocol
 
 LICENSE=	GPLv3
-FILE_LICENSE=	license.txt
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	gnuidn>=0.2 gnutls>=0.1.4 gsasl>=0.3 libxml-sax>=0.7 \
 		monads-tf>=0.1 network>=2.2 text>=0.10 transformers>=0.2 \

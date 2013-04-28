@@ -9,8 +9,6 @@ COMMENT=	SMT Based Verification: Symbolic Haskell theorem prover using SMT solvi
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	HUnit mtl QuickCheck random syb
 
 EXECUTABLE=	SBVUnitTests

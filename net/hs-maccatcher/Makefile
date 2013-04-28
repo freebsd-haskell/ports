@@ -9,8 +9,6 @@ COMMENT=	Obtain the host MAC address on *NIX and Windows
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	parsec
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

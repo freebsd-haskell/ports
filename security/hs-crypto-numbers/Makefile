@@ -9,8 +9,6 @@ COMMENT=	Cryptographic numbers: functions and algorithms
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	crypto-random-api>=0.2 vector
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

@@ -9,8 +9,6 @@ COMMENT=	IP Routing Table
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	appar byteorder network
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

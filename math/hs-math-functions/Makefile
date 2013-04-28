@@ -10,8 +10,6 @@ COMMENT=	Special mathematical functions and Chebyshev polynomials
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	erf>=2 vector>=0.7
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

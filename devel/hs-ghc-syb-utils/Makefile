@@ -9,8 +9,6 @@ COMMENT=	Scrap Your Boilerplate utilities for the GHC API
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	syb>=0.1.0
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

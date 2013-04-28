@@ -8,9 +8,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Bindings for GNU libgsasl
 
 LICENSE=	GPLv3
-FILE_LICENSE=	license.txt
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	transformers>=0.2
 

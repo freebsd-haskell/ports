@@ -9,7 +9,6 @@ COMMENT=	Binary and Hashable instances for TypeRep
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	hashable
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

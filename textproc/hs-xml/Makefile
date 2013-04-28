@@ -10,8 +10,6 @@ COMMENT=	Simple XML library for Haskell
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	text
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

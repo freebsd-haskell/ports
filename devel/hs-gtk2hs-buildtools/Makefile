@@ -9,9 +9,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Tools to build the Gtk2Hs suite of User Interface Libraries
 
 LICENSE=	GPLv2
-FILE_LICENSE=	COPYING
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	random
 USE_ALEX=	yes

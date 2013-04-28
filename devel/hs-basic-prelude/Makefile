@@ -9,8 +9,6 @@ COMMENT=	An enhanced core prelude; a common foundation for alternate preludes
 
 LICENSE=	MIT
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	hashable lifted-base ReadArgs>=1.2 system-filepath>=0.4 text \
 		transformers unordered-containers vector
 

@@ -9,8 +9,6 @@ COMMENT=	Simplified error-handling
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	either>=3.1 safe>=0.3.3 transformers>=0.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

@@ -11,7 +11,5 @@ COMMENT=	Compression and decompression in the gzip and zlib formats
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

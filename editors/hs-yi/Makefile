@@ -9,8 +9,6 @@ COMMENT=	The Haskell-Scriptable Editor
 
 LICENSE=	GPLv2
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	cautious-file>=1.0.1 concrete-typerep data-accessor>=0.2.1.4 \
 		data-accessor-mtl data-accessor-template>=0.2.1.3 \
 		derive>=2.4 Diff>=0.1 dlist>=0.4.1 dyre>=0.7 fingertree>=0 \

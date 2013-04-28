@@ -9,8 +9,6 @@ COMMENT=	TLS/SSL protocol native implementation (Server and Client)
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	cereal>=0.3 certificate>=1.3.0 crypto-pubkey \
 		crypto-random-api>=0.2 cryptohash>=0.6 mtl network
 

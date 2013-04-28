@@ -10,8 +10,6 @@ COMMENT=	Compiler for a simple functional language
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	mtl
 USE_HAPPY=	yes
 

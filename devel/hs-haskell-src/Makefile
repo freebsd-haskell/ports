@@ -10,7 +10,6 @@ COMMENT=	Support for manipulating Haskell source code
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_HAPPY=	yes
 USE_CABAL=	syb
 

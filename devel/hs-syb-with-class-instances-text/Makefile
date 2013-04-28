@@ -10,7 +10,6 @@ COMMENT=	Scrap Your Boilerplate With Class Text instance
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	syb-with-class text>=0.7.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

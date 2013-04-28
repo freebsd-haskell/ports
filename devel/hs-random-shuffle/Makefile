@@ -9,8 +9,6 @@ COMMENT=	Random shuffle implementation
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	MonadRandom random
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

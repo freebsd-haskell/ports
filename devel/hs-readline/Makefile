@@ -10,7 +10,5 @@ COMMENT=	Interface to the GNU readline library
 
 LICENSE=	GPLv2
 
-CABAL_SETUP=	Setup.hs
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -9,8 +9,6 @@ COMMENT=	A portable sendfile library
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	network>=2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

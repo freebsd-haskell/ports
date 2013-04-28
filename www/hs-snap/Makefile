@@ -9,8 +9,6 @@ COMMENT=	Top-level package for the Snap Web Framework
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	aeson>=0.6 attoparsec>=0.10 cereal>=0.3 clientsession>=0.8 \
 		comonad>=1.1 configurator>=0.1 directory-tree>=0.10 \
 		dlist>=0.5 errors>=1.4 hashable>=1.2 heist>=0.11 \

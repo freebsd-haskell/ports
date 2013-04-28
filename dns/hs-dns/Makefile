@@ -9,8 +9,6 @@ COMMENT=	DNS library in Haskell
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	attoparsec attoparsec-conduit blaze-builder conduit>=0.5 \
 		iproute>=1.2.4 mtl network>=2.3 network-conduit random
 

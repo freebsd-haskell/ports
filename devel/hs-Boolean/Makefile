@@ -8,7 +8,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Generalized Booleans and numbers
 
 LICENSE=	BSD
-FILE_LICENSE=	COPYING
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

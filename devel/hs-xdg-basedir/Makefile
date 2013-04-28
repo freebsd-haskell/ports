@@ -9,7 +9,5 @@ COMMENT=	A basic implementation of the XDG Base Directory specification
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

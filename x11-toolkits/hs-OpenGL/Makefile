@@ -12,7 +12,6 @@ COMMENT=	A binding for the OpenGL graphics system
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_GL=		gl glut
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

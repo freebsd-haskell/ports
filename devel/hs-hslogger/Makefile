@@ -11,7 +11,6 @@ COMMENT=	Versatile logging framework
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	mtl network
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

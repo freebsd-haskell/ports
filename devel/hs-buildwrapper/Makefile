@@ -9,8 +9,6 @@ COMMENT=	Easy API for a Haskell IDE
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	aeson>=0.4 attoparsec cmdargs cpphs ghc-paths \
 		haskell-src-exts mtl regex-tdfa syb text transformers \
 		unordered-containers utf8-string vector>=0.8

@@ -9,8 +9,6 @@ COMMENT=	Produces ctags "tags" and etags "TAGS" files for Haskell programs
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 EXECUTABLE=	hasktags
 
 STANDALONE=	yes
