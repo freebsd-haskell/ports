@@ -110,6 +110,7 @@ data-default-class_port=	devel/hs-data-default-class
 data-default-instances-base_port=	devel/hs-data-default-instances-base
 data-default-instances-containers_port=		devel/hs-data-default-instances-containers
 data-default-instances-dlist_port=	devel/hs-data-default-instances-dlist
+data-default-instances-old-locale_port=	devel/hs-data-default-instances-old-locale
 data-lens_port=			math/hs-data-lens
 data-lens-template_port=	math/hs-data-lens-template
 data-pprint_port=		devel/hs-data-pprint
