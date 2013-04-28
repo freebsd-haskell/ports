@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	http-reverse-proxy
-PORTVERSION=	0.1.1.3
+PORTVERSION=	0.1.1.5
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
