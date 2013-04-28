@@ -95,6 +95,7 @@ csv_port=			textproc/hs-csv
 curl_port=			ftp/hs-curl
 darcs_port=			devel/hs-darcs		# executable
 data-default_port=		devel/hs-data-default
+data-default-class_port=	devel/hs-data-default-class
 data-lens_port=			math/hs-data-lens
 data-lens-template_port=	math/hs-data-lens-template
 data-pprint_port=		devel/hs-data-pprint
