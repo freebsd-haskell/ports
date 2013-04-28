@@ -32,7 +32,7 @@ USE_CABAL=	aeson==0.6.1.0_1 \
 		cipher-rc4==0.1.2 \
 		classy-prelude==0.5.4 \
 		clientsession==0.9 \
-		conduit==1.0.2 \
+		conduit==1.0.4.2 \
 		cookie==0.4.0.1_1 \
 		cprng-aes==0.3.4_1 \
 		crypto-api==0.11 \
