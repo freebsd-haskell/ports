@@ -10,8 +10,6 @@ COMMENT=	Property-based testing library
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	logict mtl
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

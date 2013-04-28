@@ -10,8 +10,6 @@ COMMENT=	'Show' instances for Lambdabot
 
 LICENSE=	GPLv2
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	QuickCheck>=2.4 random simple-reflect smallcheck>=1.0 \
 		syb
 

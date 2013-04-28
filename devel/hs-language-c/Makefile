@@ -10,8 +10,6 @@ COMMENT=	Analysis and generation of C code in Haskell
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_ALEX=	yes
 USE_HAPPY=	yes
 USE_CABAL=	syb

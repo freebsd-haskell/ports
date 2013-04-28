@@ -10,9 +10,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A CSV library for Haskell
 
 LICENSE=	MIT
-FILE_LICENSE=	COPYING
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	parsec
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

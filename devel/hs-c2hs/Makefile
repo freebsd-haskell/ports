@@ -10,9 +10,7 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	C->Haskell tool that gives some cross-language type safety
 
 LICENSE=	GPLv2
-FILE_LICENSE=	COPYING
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	language-c>=0.3.1.1
 
 XMLDOCS=	doc/users_guide:html

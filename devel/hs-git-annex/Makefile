@@ -9,9 +9,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Manage files with git, without checking their contents into git
 
 LICENSE=	GPLv3
-FILE_LICENSE=	COPYRIGHT
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	bloomfilter dataenc edit-distance hslogger HTTP IfElse json \
 		lifted-base MissingH monad-control mtl network pcre-light \

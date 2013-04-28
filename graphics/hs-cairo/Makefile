@@ -9,9 +9,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding to the Cairo library
 
 LICENSE=	BSD
-FILE_LICENSE=	COPYRIGHT
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	gtk2hs-buildtools mtl
 

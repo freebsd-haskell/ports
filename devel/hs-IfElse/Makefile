@@ -10,8 +10,6 @@ COMMENT=	Anaphoric and miscellaneous useful control-flow
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	mtl
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

@@ -10,8 +10,6 @@ COMMENT=	Conversion of LaTeX math formulas to MathML or OMML
 
 LICENSE=	GPLv2
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	parsec>=3 syb xml
 
 OPTIONS_DEFINE=		CGI

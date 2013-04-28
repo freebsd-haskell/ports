@@ -9,8 +9,6 @@ COMMENT=	Specify Haskell project templates and generate files
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	base64-bytestring base64-conduit classy-prelude>=0.4 \
 		conduit>=0.5.4 mtl>=2.0 resourcet>=0.4.3 system-fileio>=0.3 \
 		system-filepath>=0.4 text>=0.11 transformers>=0.2

@@ -11,8 +11,6 @@ COMMENT=	Help writing simple, concise, and fast generic operations
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	hashable>=1.1.2.3 syb unordered-containers>=0.2.1
 
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/uniplate.htm ${DATADIR}

@@ -9,9 +9,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	High-level, byte-based file and directory path manipulations
 
 LICENSE=	MIT
-FILE_LICENSE=	license.txt
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	text>=0.7.1
 

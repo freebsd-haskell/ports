@@ -9,7 +9,5 @@ COMMENT=	Word8 library
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

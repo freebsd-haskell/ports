@@ -10,7 +10,5 @@ COMMENT=	Unit testing framework for Haskell
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

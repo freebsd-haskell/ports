@@ -9,8 +9,6 @@ COMMENT=	Fast, iteratee-based, epoll-enabled web server for the Snap Framework
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 \
 		blaze-builder>=0.2.1.4 blaze-builder-enumerator>=0.2.0 \
 		case-insensitive>=0.3 enumerator>=0.4.15 \

@@ -10,8 +10,6 @@ COMMENT=	Helper tool for building wxHaskell
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	parsec>=2.1.0 strict
 
 EXECUTABLE=	wxdirect

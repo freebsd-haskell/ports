@@ -10,8 +10,6 @@ COMMENT=	A binding to the OpenAL cross-platform 3D audio API
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	ObjectName StateVar Tensor
 USE_OPENAL=	al
 

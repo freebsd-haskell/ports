@@ -11,7 +11,6 @@ COMMENT=	A simple Haskell graphics library based on X11 or Win32
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	X11
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

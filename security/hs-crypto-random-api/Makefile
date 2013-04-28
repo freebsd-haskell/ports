@@ -9,8 +9,6 @@ COMMENT=	Simple random generators API for cryptography related code
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	entropy
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

@@ -9,8 +9,6 @@ COMMENT=	Replaces/Enhances Text.Regex
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	regex-base>=0.93
 
 LIB_DEPENDS=	pcre:${PORTSDIR}/devel/pcre

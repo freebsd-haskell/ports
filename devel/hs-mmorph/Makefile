@@ -9,8 +9,6 @@ COMMENT=	Monad morphisms
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	transformers>=0.2.0.0
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

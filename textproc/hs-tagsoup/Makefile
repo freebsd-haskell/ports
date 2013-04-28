@@ -11,8 +11,6 @@ COMMENT=	Parsing and extracting information from HTML/XML documents
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	text
 
 INSTALL_PORTDATA=	cd ${WRKSRC} && \

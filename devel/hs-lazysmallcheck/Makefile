@@ -10,8 +10,6 @@ COMMENT=	A library for demand-driven testing of Haskell programs
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 INSTALL_PORTEXAMPLES=	cd ${WRKSRC}/examples && ${COPYTREE_SHARE} \* ${EXAMPLESDIR}
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

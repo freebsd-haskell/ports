@@ -12,8 +12,6 @@ COMMENT=	A Haskell binding for the OpenGL Utility Toolkit
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	OpenGL>=2.2
 USE_GL=		glut
 

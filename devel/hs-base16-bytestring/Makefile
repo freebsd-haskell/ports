@@ -10,7 +10,5 @@ COMMENT=	Fast base16 (hex) encoding and deconding for ByteStrings
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

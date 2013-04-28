@@ -10,7 +10,6 @@ COMMENT=	Attribute Grammar System of Universiteit Utrecht
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	haskell-src-exts>=1.11.1 mtl>=1.1.1.1 uulib>=0.9.14
 
 EXECUTABLE=	uuagc-bootstrap

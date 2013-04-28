@@ -9,8 +9,6 @@ COMMENT=	A typeclass-based Prelude
 
 LICENSE=	MIT
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	basic-prelude>=0.3.4 hashable lifted-base>=0.2 \
 		system-filepath>=0.4 text transformers unordered-containers \
 		vector

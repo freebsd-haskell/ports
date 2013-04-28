@@ -9,8 +9,6 @@ COMMENT=	Haskell template system supporting both HTML5 and XML
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	aeson>=0.6 attoparsec>=0.10 blaze-builder>=0.2 \
 		blaze-html>=0.4 directory-tree>=0.10 dlist>=0.5 errors>=1.4 \
 		hashable>=1.1 MonadCatchIO-transformers>=0.2.1 mtl>=2.0 \

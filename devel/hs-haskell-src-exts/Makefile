@@ -11,8 +11,6 @@ COMMENT=	Manipulating Haskell source
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	cpphs>=1.3
 USE_HAPPY=	yes
 

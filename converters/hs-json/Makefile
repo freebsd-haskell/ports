@@ -11,8 +11,6 @@ COMMENT=	Support for serialising Haskell to and from JSON
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	mtl syb>=0.3.3 text
 
 CONFIGURE_ARGS+=	--flags="split-base generic -parsec -pretty -mapdict"

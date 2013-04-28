@@ -10,8 +10,6 @@ COMMENT=	HTTP Date parser/formatter
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	attoparsec
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

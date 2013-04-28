@@ -10,7 +10,6 @@ COMMENT=	Monad classes, using functional dependencies
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	transformers>=0.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

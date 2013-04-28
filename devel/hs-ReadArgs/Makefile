@@ -10,8 +10,6 @@ COMMENT=	Simple command line argument parsing
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	system-filepath>=0.4.7 text>=0.11.1.13
 
 EXECUTABLE=	ReadArgsEx

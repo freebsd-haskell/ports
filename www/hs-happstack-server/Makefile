@@ -8,9 +8,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Web-related tools and services
 
 LICENSE=	BSD
-FILE_LICENSE=	COPYING
-
-CABAL_SETUP=	Setup.hs
 
 USE_CABAL=	base64-bytestring blaze-html>=0.5 hslogger>=1.0.2 html \
 		monad-control>=0.3 mtl>=2 network>=2.2.3 parsec \

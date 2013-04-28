@@ -9,9 +9,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Liberalised re-implementation of cpp, the C pre-processor
 
 LICENSE=	LGPL21
-FILE_LICENSE=	LICENCE-LGPL
-
-CABAL_SETUP=	Setup.hs
 
 EXECUTABLE=	cpphs
 

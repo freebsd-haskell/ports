@@ -9,8 +9,6 @@ COMMENT=	Snap: A Haskell Web Framework (core interfaces and types)
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 \
 		blaze-builder>=0.2.1.4 blaze-builder-enumerator>=0.2 \
 		case-insensitive>=0.3 enumerator>=0.4.15 HUnit>=1.2 \

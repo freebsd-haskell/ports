@@ -10,7 +10,5 @@ COMMENT=	An EDSL for teaching Haskell with diagrams - data types
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

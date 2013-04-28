@@ -9,7 +9,6 @@ COMMENT=	Efficient buffered output
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	text>=0.10
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

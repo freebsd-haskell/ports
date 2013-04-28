@@ -11,7 +11,6 @@ COMMENT=	Haskell arrow classes and transformers
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	Stream
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

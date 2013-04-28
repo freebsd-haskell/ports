@@ -11,9 +11,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Colourise Haskell code
 
 LICENSE=	GPLv2
-FILE_LICENSE=	LICENCE-GPL
-
-CABAL_SETUP=	Setup.hs
 
 EXECUTABLE=	HsColour
 

@@ -9,8 +9,6 @@ COMMENT=	Symmetrical Block, Stream, and PubKey Ciphers
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	cereal cipher-aes cipher-rc4 cpu>=0.1 crypto-api>=0.5 \
 		primitive vector>=0.7
 

@@ -9,7 +9,6 @@ MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Check properties on standard classes and data structures
 
 LICENSE=	BSD
-FILE_LICENSE=	COPYING
 
 USE_CABAL=	QuickCheck>=2.3 random
 

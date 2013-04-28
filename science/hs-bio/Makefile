@@ -11,8 +11,6 @@ COMMENT=	A bioinformatics library
 
 LICENSE=	LGPL21
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	mtl parallel parsec QuickCheck>=2 tagsoup>=0.8
 
 EXECUTABLE=	fastout flowclip flx frecover frename orf rselect-pe

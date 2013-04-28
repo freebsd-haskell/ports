@@ -9,8 +9,6 @@ COMMENT=	Cross-platform library for the sendfile() system call
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	network
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

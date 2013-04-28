@@ -11,7 +11,6 @@ COMMENT=	FreeBSD ports index search and statistical analysis tool
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	stringsearch
 
 EXECUTABLE=	porte

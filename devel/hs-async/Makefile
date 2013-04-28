@@ -10,8 +10,6 @@ COMMENT=	Run IO operations asynchronously and wait for their results
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	stm>=2.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

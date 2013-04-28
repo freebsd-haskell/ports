@@ -10,8 +10,6 @@ COMMENT=	Haskell binding to libcurl
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 LIB_DEPENDS=	curl:${PORTSDIR}/ftp/curl
 
 USE_GHC_NATIVE=	yes

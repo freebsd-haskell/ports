@@ -10,7 +10,6 @@ COMMENT=	Low-level networking interface
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
 USE_CABAL=	parsec>=2.0
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"

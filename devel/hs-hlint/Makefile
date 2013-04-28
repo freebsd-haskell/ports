@@ -9,8 +9,6 @@ COMMENT=	Source code suggestions
 
 LICENSE=	BSD
 
-CABAL_SETUP=	Setup.hs
-
 USE_CABAL=	cpphs>=1.11 haskell-src-exts>=1.11 hscolour>=1.17 \
 		transformers>=0.0 uniplate>=1.5
 
