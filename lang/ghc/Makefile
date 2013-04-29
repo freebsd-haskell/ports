@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	ghc
-PORTVERSION=	7.4.2
-PORTREVISION=	2
+PORTVERSION=	7.6.3
 CATEGORIES=	lang haskell
 MASTER_SITES=	http://www.haskell.org/ghc/dist/${PORTVERSION}/:source \
 		${MASTER_SITE_LOCAL:S/$/:boot/}
@@ -22,7 +21,7 @@ HSCOLOUR_VERSION=	1.20.2
 DATADIR=	${PREFIX}/share/ghc-${GHC_VERSION}
 EXAMPLESDIR=	${PREFIX}/share/examples/ghc-${GHC_VERSION}
 
-CONFLICTS=	ghc-6.8.* ghc-6.10.* ghc-6.12.* ghc-7.0.* ghc-7.2.*
+CONFLICTS=	ghc-6.8.* ghc-6.10.* ghc-6.12.* ghc-7.0.* ghc-7.2.* ghc-7.4.*
 
 USE_BZIP2=	yes
 LIB_DEPENDS+=	gmp.10:${PORTSDIR}/math/gmp
