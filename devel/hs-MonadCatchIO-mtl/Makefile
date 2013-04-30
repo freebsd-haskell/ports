@@ -11,7 +11,7 @@ COMMENT=	Monad-transformer version of the Control.Exception module
 
 LICENSE=	BSD
 
-USE_CABAL=	mtl
+USE_CABAL=	extensible-exceptions mtl
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
