@@ -374,7 +374,6 @@ stm_port=			devel/hs-stm
 Stream_port=			devel/hs-Stream
 streams_port=			math/hs-streams
 strict_port=			devel/hs-strict
-strict-concurrency_port=	devel/hs-strict-concurrency
 string-qq_port=			devel/hs-string-qq
 stringsearch_port=		textproc/hs-stringsearch
 svgcairo_port=			graphics/hs-svgcairo
