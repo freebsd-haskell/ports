@@ -10,7 +10,7 @@ COMMENT=	Documentation-generation tool for Haskell libraries
 
 LICENSE=	BSD
 
-USE_CABAL=	xhtml>=3000.2
+USE_CABAL=	ghc-paths xhtml>=3000.2
 
 USE_ALEX=	true
 USE_HAPPY=	true
