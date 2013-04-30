@@ -2,16 +2,15 @@
 # $FreeBSD$
 
 PORTNAME=	haddock
-PORTVERSION=	2.11.0
-PORTREVISION=	1
+PORTVERSION=	2.13.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A documentation-generation tool for Haskell libraries
+COMMENT=	Documentation-generation tool for Haskell libraries
 
 LICENSE=	BSD
 
-USE_CABAL=	ghc-paths xhtml>=3000.2
+USE_CABAL=	xhtml>=3000.2
 
 USE_ALEX=	true
 USE_HAPPY=	true
