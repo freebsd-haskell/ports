@@ -139,6 +139,7 @@ epic_port=			lang/hs-epic		# executable
 erf_port=			math/hs-erf
 errors_port=			devel/hs-errors
 executable-path_port=		devel/hs-executable-path
+extensible-exceptions_port=	devel/hs-extensible-exceptions
 failure_port=			devel/hs-failure
 fast-logger_port=		devel/hs-fast-logger
 fastcgi_port=			www/hs-fastcgi		# lib_depends
