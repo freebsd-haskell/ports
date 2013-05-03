@@ -12,7 +12,6 @@ COMMENT=	Binding for the OpenGL graphics system
 LICENSE=	BSD
 
 USE_CABAL=	GLURaw>=1.1.0.0 OpenGLRaw>=1.3.0.0
-USE_GL=		gl glut
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
