@@ -2,13 +2,12 @@
 # $FreeBSD$
 
 PORTNAME=	cgi
-PORTVERSION=	3001.1.7.4
-PORTREVISION=	6
+PORTVERSION=	3001.1.7.5
 PORTEPOCH=	1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A Haskell library for writing CGI programs
+COMMENT=	Haskell library for writing CGI programs
 
 LICENSE=	BSD
 
