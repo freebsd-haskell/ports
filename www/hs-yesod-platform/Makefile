@@ -60,7 +60,7 @@ USE_CABAL=	aeson==0.6.1.0_1 \
 		fsnotify==0.0.11 \
 		ghc-paths==0.1.0.9 \
 		hamlet==1.1.7.1 \
-		hashable==1.1.2.5 \
+		hashable==1.1.2.5,1 \
 		hjsmin==0.1.4.1 \
 		hspec==1.5.3 \
 		hspec-expectations==0.3.2 \
