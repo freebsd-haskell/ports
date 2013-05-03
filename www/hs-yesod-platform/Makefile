@@ -60,7 +60,7 @@ USE_CABAL=	aeson==0.6.1.0_1 \
 		fsnotify==0.0.11 \
 		ghc-paths==0.1.0.9 \
 		hamlet==1.1.7.1 \
-		hashable==1.2.0.6 \
+		hashable==1.1.2.5 \
 		hjsmin==0.1.4.1 \
 		hspec==1.5.3 \
 		hspec-expectations==0.3.2 \
@@ -105,7 +105,7 @@ USE_CABAL=	aeson==0.6.1.0_1 \
 		simple-sendfile==0.2.11 \
 		skein==1.0.1 \
 		socks==0.5.1 \
-		split==0.2.1.1_1 \
+		split==0.2.2 \
 		stringsearch==0.3.6.4_1 \
 		system-fileio==0.3.11 \
 		system-filepath==0.4.7_1 \
