@@ -146,6 +146,7 @@ git-annex_port=			devel/hs-git-annex	# executable
 gitit_port=			www/hs-gitit		# executable
 glade_port=			devel/hs-glade
 glib_port=			devel/hs-glib
+GLURaw_port=			x11-toolkits/hs-GLURaw
 GLUT_port=			x11-toolkits/hs-GLUT
 groupoids_port=			math/hs-groupoids
 gstreamer_port=			multimedia/hs-gstreamer
