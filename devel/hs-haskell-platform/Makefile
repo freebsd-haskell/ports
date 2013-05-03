@@ -24,7 +24,7 @@ USE_CABAL=	async==2.0.1.4 \
 		HUnit==1.2.5.2 \
 		mtl==2.1.2_1 \
 		network==2.4.1.2 \
-		OpenGL==2.8.0.0 \
+		OpenGL==2.8.0.0,1 \
 		OpenGLRaw==1.3.0.0 \
 		parallel==3.2.0.3_1 \
 		parsec==3.1.3_1 \
