@@ -15,4 +15,9 @@ USE_CABAL=	hint>=0.3.1 mtl>2 show>=0.3 simple-reflect utf8-string
 EXECUTABLE=	mueval mueval-core
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+
+.if ${ARCH} == "amd64"
+CONFIGURE_ARGS+=	--ghc-options="-fPIC -dynamic"
+.endif
+
 .include <bsd.port.mk>
