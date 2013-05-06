@@ -14,5 +14,18 @@ LICENSE=	BSD
 USE_CABAL=	data-default
 USE_XORG=	x11 xrandr xext
 
+OPTIONS_DEFINE=		XINERAMA
+OPTIONS_DEFAULT=	XINERAMA
+
+XINERAMA_DESC=	Build with Xinerama support
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+
+.if ${PORT_OPTIONS:MXINERAMA}
+USE_XORG+=		xinerama
+CONFIGURE_ARGS+=	--configure-option="--with-xinerama"
+.else
+CONFIGURE_ARGS+=	--configure-option="--without-xinerama"
+.endif
+
 .include <bsd.port.mk>
