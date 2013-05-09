@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	4.20130417
+PORTVERSION=	4.20130501.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
