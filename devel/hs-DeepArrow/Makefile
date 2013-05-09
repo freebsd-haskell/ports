@@ -13,5 +13,7 @@ LICENSE=	BSD
 
 USE_CABAL=	haskell-src mtl TypeCompose>=0.9.5
 
+BROKEN=		does not build with GHC 7.6
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
