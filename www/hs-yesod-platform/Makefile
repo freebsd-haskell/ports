@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	yesod-platform
-PORTVERSION=	1.1.9.1
+PORTVERSION=	1.2.0.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -12,34 +12,31 @@ LICENSE=	MIT
 USE_CABAL=	aeson==0.6.1.0_1 \
 		ansi-terminal==0.6 \
 		asn1-data==0.7.1_1 \
-		asn1-types==0.1.0 \
+		asn1-types==0.1.3 \
 		attoparsec==0.10.4.0 \
 		attoparsec-conduit==1.0.1 \
 		authenticate==1.3.2.6 \
 		base-unicode-symbols==0.2.2.4_1 \
 		base64-bytestring==1.0.0.1 \
-		base64-conduit==1.0.0 \
-		basic-prelude==0.3.4.0 \
 		blaze-builder==0.3.1.1 \
 		blaze-builder-conduit==1.0.0 \
 		blaze-html==0.6.1.1 \
 		blaze-markup==0.5.1.5 \
 		byteorder==1.0.4 \
-		case-insensitive==1.0.0.1 \
+		case-insensitive==1.0.0.2 \
 		cereal==0.3.5.2_2 \
-		certificate==1.3.6 \
+		certificate==1.3.7 \
 		cipher-aes==0.1.8 \
 		cipher-rc4==0.1.2 \
-		classy-prelude==0.5.4 \
 		clientsession==0.9 \
-		conduit==1.0.4.2 \
+		conduit==1.0.5 \
 		cookie==0.4.0.1_1 \
 		cprng-aes==0.3.4_1 \
-		crypto-api==0.11 \
+		crypto-api==0.12.1 \
 		crypto-conduit==0.5.2 \
 		crypto-numbers==0.1.3 \
-		crypto-pubkey==0.1.2_1 \
-		crypto-pubkey-types==0.2.0_1 \
+		crypto-pubkey==0.1.3 \
+		crypto-pubkey-types==0.3.2 \
 		crypto-random-api==0.2.0 \
 		cryptohash==0.9.0 \
 		css-text==0.1.1_5 \
@@ -57,39 +54,33 @@ USE_CABAL=	aeson==0.6.1.0_1 \
 		fast-logger==0.3.1_2 \
 		file-embed==0.0.4.7 \
 		filesystem-conduit==1.0.0 \
-		fsnotify==0.0.11 \
-		ghc-paths==0.1.0.9 \
 		hamlet==1.1.7.1 \
-		hashable==1.2.0.6 \
+		hashable==1.2.0.7 \
 		hjsmin==0.1.4.1 \
-		hspec==1.5.3 \
+		hspec==1.5.4 \
 		hspec-expectations==0.3.2 \
 		html-conduit==1.1.0 \
 		http-conduit==1.9.3 \
 		http-date==0.0.4_1 \
-		http-reverse-proxy==0.1.1.5 \
 		http-types==0.8.0 \
 		language-javascript==0.5.7_1 \
-		lifted-base==0.2.0.4 \
+		lifted-base==0.2.0.5 \
 		mime-mail==0.4.1.2_2 \
 		mime-types==0.1.0.3 \
 		mmorph==1.0.0 \
 		monad-control==0.3.2.1 \
 		monad-logger==0.3.1.1 \
 		network-conduit==1.0.0 \
-		optparse-applicative==0.5.2.1 \
 		path-pieces==0.1.2_1 \
 		pem==0.1.2_1 \
-		persistent==1.1.5.1 \
-		persistent-template==1.1.3.1 \
-		pool-conduit==0.1.1_1 \
+		persistent==1.2.0.1 \
+		persistent-template==1.2.0 \
+		pool-conduit==0.1.2 \
 		primitive==0.5.0.1_1 \
-		project-template==0.1.3 \
 		publicsuffixlist==0.1 \
 		pureMD5==2.1.2.1_2 \
 		pwstore-fast==2.3_2 \
 		quickcheck-io==0.1.0 \
-		ReadArgs==1.2.1_1 \
 		resource-pool==0.2.1.1_1 \
 		resourcet==0.4.7.1 \
 		safe==0.3.3_4 \
@@ -97,27 +88,25 @@ USE_CABAL=	aeson==0.6.1.0_1 \
 		setenv==0.1.0_1 \
 		SHA==1.6.1_1 \
 		shakespeare==1.0.5 \
-		shakespeare-css==1.0.4 \
+		shakespeare-css==1.0.5.1 \
 		shakespeare-i18n==1.0.0.2_4 \
 		shakespeare-js==1.1.4 \
 		shakespeare-text==1.0.0.5_2 \
 		silently==1.2.4.1 \
 		simple-sendfile==0.2.11 \
-		skein==1.0.1 \
+		skein==1.0.3 \
 		socks==0.5.1 \
-		split==0.2.1.1_1 \
 		stringsearch==0.3.6.4_1 \
 		system-fileio==0.3.11 \
 		system-filepath==0.4.7_1 \
-		tagged==0.4.5 \
+		tagged==0.6 \
 		tagsoup==0.12.8_1 \
 		tagstream-conduit==0.5.4 \
-		tar==0.4.0.1_1 \
 		tls==1.1.2 \
 		tls-extra==0.6.1_1 \
 		transformers-base==0.4.1_4 \
 		unix-compat==0.4.1.1 \
-		unordered-containers==0.2.3.0 \
+		unordered-containers==0.2.3.1 \
 		utf8-light==0.4.0.1_3 \
 		utf8-string==0.3.7_4 \
 		vault==0.2.0.4 \
@@ -133,21 +122,17 @@ USE_CABAL=	aeson==0.6.1.0_1 \
 		xml-conduit==1.1.0.3 \
 		xml-types==0.3.3_1 \
 		xss-sanitize==0.3.3_1 \
-		yaml==0.8.2.3 \
-		yesod==1.1.9.3 \
-		yesod-auth==1.1.7 \
-		yesod-core==1.1.8.3 \
-		yesod-default==1.1.3.2 \
-		yesod-form==1.2.1.3 \
-		yesod-json==1.1.2.2 \
-		yesod-persistent==1.1.0.1_1 \
-		yesod-routes==1.1.2 \
-		yesod-static==1.1.2.3 \
-		yesod-test==0.3.5 \
+		yaml==0.8.2.4 \
+		yesod==1.2.0.1 \
+		yesod-auth==1.2.0 \
+		yesod-core==1.2.0.4 \
+		yesod-form==1.3.0 \
+		yesod-persistent==1.2.0 \
+		yesod-routes==1.2.0 \
+		yesod-static==1.2.0 \
+		yesod-test==1.2.0 \
 		zlib-bindings==0.1.1.3 \
 		zlib-conduit==1.0.0
-
-IGNORE_DYNAMIC=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
