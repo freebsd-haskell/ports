@@ -1,15 +1,15 @@
 # $FreeBSD$
 
 PORTNAME=	pointedlist
-PORTVERSION=	0.3.5
+PORTVERSION=	0.4.0.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A zipper-like comonad which works as a list, tracking a position
+COMMENT=	Zipper-like comonad which works as a list, tracking a position
 
 LICENSE=	BSD
 
-USE_CABAL=	data-accessor
+USE_CABAL=	derive fclabels
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
