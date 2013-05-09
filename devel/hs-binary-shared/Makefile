@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	binary-shared
-PORTVERSION=	0.8.2
+PORTVERSION=	0.8.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
