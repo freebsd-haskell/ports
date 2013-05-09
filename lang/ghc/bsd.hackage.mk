@@ -460,7 +460,6 @@ yesod_port=			www/hs-yesod
 yesod-auth_port=		www/hs-yesod-auth
 yesod-core_port=		www/hs-yesod-core
 yesod-form_port=		www/hs-yesod-form
-yesod-json_port=		www/hs-yesod-json
 yesod-persistent_port=		www/hs-yesod-persistent
 yesod-platform_port=		www/hs-yesod-platform
 yesod-routes_port=		www/hs-yesod-routes
