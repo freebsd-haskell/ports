@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	asn1-types
-PORTVERSION=	0.1.0
+PORTVERSION=	0.1.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
