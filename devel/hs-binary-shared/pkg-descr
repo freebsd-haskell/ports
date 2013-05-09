@@ -1,3 +1,6 @@
-Support library to extend hs-binary with ability to share identical elements.
+I had problems with the size of the allocated heap space after
+serializing and loading data with the binary package.  The reason was
+that binary does not support sharing of identical elements, so I came up
+with the generic solution in this package.
 
-WWW: http://www.leksah.org
+WWW: http://www.leksah.org/
