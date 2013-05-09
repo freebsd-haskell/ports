@@ -1,11 +1,11 @@
---- ./yesod-platform.cabal.orig	2013-04-25 08:09:38.000000000 +0200
-+++ ./yesod-platform.cabal	2013-05-03 19:11:59.000000000 +0200
-@@ -67,7 +67,7 @@
-                  , fsnotify == 0.0.11
-                  , ghc-paths == 0.1.0.9
+--- ./yesod-platform.cabal.orig	2013-05-07 06:30:23.000000000 +0200
++++ ./yesod-platform.cabal	2013-05-10 11:54:07.000000000 +0200
+@@ -61,7 +61,7 @@
+                  , file-embed == 0.0.4.7
+                  , filesystem-conduit == 1.0.0
                   , hamlet == 1.1.7.1
--                 , hashable == 1.2.0.6
+-                 , hashable == 1.2.0.7
 +                 , hashable == 1.1.2.5
                   , hjsmin == 0.1.4.1
-                  , hspec == 1.5.3
+                  , hspec == 1.5.4
                   , hspec-expectations == 0.3.2
