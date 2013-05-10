@@ -10,7 +10,7 @@ COMMENT=	Manage files with git, without checking their contents into git
 
 LICENSE=	GPLv3
 
-USE_CABAL=	bloomfilter dataenc edit-distance extensible-exceptions \
+USE_CABAL=	bloomfilter dataenc dlist edit-distance extensible-exceptions \
 		hslogger HTTP IfElse json lifted-base MissingH monad-control \
 		mtl network pcre-light QuickCheck>=2.1 regex-tdfa \
 		SafeSemaphore SHA text transformers-base utf8-string uuid
