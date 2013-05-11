@@ -19,7 +19,7 @@ OPTIONS_DEFAULT=	XINERAMA
 
 XINERAMA_DESC=	Build with Xinerama support
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
 .if ${PORT_OPTIONS:MXINERAMA}
 USE_XORG+=		xinerama
@@ -28,4 +28,5 @@ CONFIGURE_ARGS+=	--configure-option="--with-xinerama"
 CONFIGURE_ARGS+=	--configure-option="--without-xinerama"
 .endif
 
+.include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
