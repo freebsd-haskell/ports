@@ -9,7 +9,7 @@ COMMENT=	Combinators for executing IO actions in parallel on a thread pool
 
 LICENSE=	BSD
 
-USE_CABAL=	random>=1.0
+USE_CABAL=	extensible-exceptions>0.1.0.1 random>=1.0
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

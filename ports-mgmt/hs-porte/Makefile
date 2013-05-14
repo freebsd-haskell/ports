@@ -11,7 +11,7 @@ COMMENT=	FreeBSD ports index search and statistical analysis tool
 
 LICENSE=	BSD
 
-USE_CABAL=	stringsearch
+USE_CABAL=	extensible-exceptions stringsearch
 
 EXECUTABLE=	porte
 

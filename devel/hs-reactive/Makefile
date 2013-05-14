@@ -13,5 +13,7 @@ USE_CABAL=	categories checkers>=0.2.3 comonad QuickCheck>=2.1.0.2 pointed \
 		semigroups Stream>=0.3.1 TypeCompose>=0.8.0 unamb>=0.1.5 \
 		vector-space>=0.5
 
+BROKEN=		does not build with GHC 7.6
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
