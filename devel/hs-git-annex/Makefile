@@ -11,9 +11,9 @@ COMMENT=	Manage files with git, without checking their contents into git
 LICENSE=	GPLv3
 
 USE_CABAL=	bloomfilter dataenc dlist edit-distance extensible-exceptions \
-		hslogger HTTP IfElse json MissingH monad-control mtl>=2 \
-		network>=2.0 QuickCheck>=2.1 random SafeSemaphore SHA text \
-		unix-compat utf8-string uuid
+		hslogger HTTP IfElse json MissingH MonadCatchIO-transformers \
+		monad-control mtl>=2 network>=2.0 QuickCheck>=2.1 random \
+		SafeSemaphore SHA text unix-compat utf8-string uuid
 
 USE_GMAKE=		yes
 USE_PERL5_BUILD=	yes
