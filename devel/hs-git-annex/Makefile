@@ -11,9 +11,9 @@ COMMENT=	Manage files with git, without checking their contents into git
 LICENSE=	GPLv3
 
 USE_CABAL=	bloomfilter dataenc dlist edit-distance extensible-exceptions \
-		hslogger HTTP IfElse json lifted-base MissingH monad-control \
-		mtl network pcre-light QuickCheck>=2.1 regex-tdfa \
-		SafeSemaphore SHA text transformers-base utf8-string uuid
+		hslogger HTTP IfElse json MissingH monad-control mtl>=2 \
+		network>=2.0 QuickCheck>=2.1 random SafeSemaphore SHA text \
+		unix-compat utf8-string uuid
 
 USE_GMAKE=		yes
 USE_PERL5_BUILD=	yes
@@ -29,15 +29,16 @@ RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 EXECUTABLE=	git-annex git-annex-shell
 STANDALONE=	yes
 
-OPTIONS_DEFINE=		S3 ASSISTANT INOTIFY WEBAPP PAIRING PRODUCTION
+OPTIONS_DEFINE=		S3 ASSISTANT INOTIFY WEBAPP PAIRING PRODUCTION TDFA
 OPTIONS_DEFAULT=	S3 ASSISTANT
 
 S3_DESC=		S3 support
 ASSISTANT_DESC=		'assistant' and 'watch' commands
 INOTIFY_DESC=		File system notifications support
-WEBAPP_DESC=		Web application (req. assistant)
-PAIRING_DESC=		Enable pairing (req. web application)
+WEBAPP_DESC=		Web application (requires assistant)
+PAIRING_DESC=		Enable pairing (requires web application)
 PRODUCTION_DESC=	Production build
+TDFA_DESC=		Use regex-tdfa for wildcards
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 
@@ -86,6 +87,13 @@ CONFIGURE_ARGS+=	--flags="-DNS -XMPP -Dbus"
 CONFIGURE_ARGS+=	--flags="Production"
 .else
 CONFIGURE_ARGS+=	--flags="-Production"
+.endif
+
+.if ${PORT_OPTIONS:MPRODUCTION}
+CONFIGURE_ARGS+=	--flags="TDFA"
+USE_CABAL+=		regex-tdfa
+.else
+CONFIGURE_ARGS+=	--flags="-TDFA"
 .endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
