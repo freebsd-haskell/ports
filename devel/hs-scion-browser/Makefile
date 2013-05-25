@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	scion-browser
-PORTVERSION=	0.2.16
+PORTVERSION=	0.2.17
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
