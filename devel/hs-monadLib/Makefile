@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	monadLib
-PORTVERSION=	3.7.1
+PORTVERSION=	3.7.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A collection of monad transformers
+COMMENT=	Collection of monad transformers
 
 LICENSE=	BSD
 
