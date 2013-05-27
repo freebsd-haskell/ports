@@ -2,6 +2,7 @@
 
 PORTNAME=	regex-tdfa
 PORTVERSION=	1.1.8
+PORTREVISION=	1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org

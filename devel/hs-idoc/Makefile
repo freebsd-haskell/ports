@@ -3,13 +3,13 @@
 
 PORTNAME=	idoc
 PORTVERSION=	0.2.6
-PORTREVISION=	8
+PORTREVISION=	9
 CATEGORIES=	devel haskell
 MASTER_SITES=	http://www.cse.unsw.edu.au/~chak/haskell/idoc/
 PKGNAMEPREFIX=	hs-
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A No Frills Haskell Interface Documentation System
+COMMENT=	No Frills Haskell Interface Documentation System
 
 LICENSE=	GPLv2
 

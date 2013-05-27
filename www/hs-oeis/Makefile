@@ -3,11 +3,11 @@
 
 PORTNAME=	oeis
 PORTVERSION=	0.3.1
-PORTREVISION=	5
+PORTREVISION=	6
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A Haskell interface to the Online Encyclopedia of Integer Sequences
+COMMENT=	Haskell interface to the Online Encyclopedia of Integer Sequences
 
 LICENSE=	BSD
 

@@ -3,11 +3,11 @@
 
 PORTNAME=	ALUT
 PORTVERSION=	2.2.0.0
-PORTREVISION=	9
+PORTREVISION=	10
 CATEGORIES=	audio haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A Haskell binding for the OpenAL Utility Toolkit
+COMMENT=	Binding for the OpenAL Utility Toolkit
 
 LICENSE=	BSD
 
