@@ -2,11 +2,11 @@
 
 PORTNAME=	wai-logger
 PORTVERSION=	0.3.0
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A logging system for WAI
+COMMENT=	Logging system for WAI
 
 LICENSE=	BSD
 

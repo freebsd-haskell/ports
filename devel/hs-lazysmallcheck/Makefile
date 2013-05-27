@@ -2,11 +2,11 @@
 
 PORTNAME=	lazysmallcheck
 PORTVERSION=	0.6
-PORTREVISION=	4
+PORTREVISION=	5
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A library for demand-driven testing of Haskell programs
+COMMENT=	Library for demand-driven testing of Haskell programs
 
 LICENSE=	BSD
 

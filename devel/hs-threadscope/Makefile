@@ -2,11 +2,11 @@
 
 PORTNAME=	threadscope
 PORTVERSION=	0.2.2
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A graphical tool for profiling parallel Haskell programs
+COMMENT=	Graphical tool for profiling parallel Haskell programs
 
 LICENSE=	BSD
 

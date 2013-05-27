@@ -9,119 +9,119 @@ COMMENT=	Meta package for Yesod
 
 LICENSE=	MIT
 
-USE_CABAL=	aeson==0.6.1.0_1 \
-		ansi-terminal==0.6 \
-		asn1-data==0.7.1_1 \
+USE_CABAL=	aeson==0.6.1.0_2 \
+		ansi-terminal==0.6_1 \
+		asn1-data==0.7.1_2 \
 		asn1-types==0.1.3 \
-		attoparsec==0.10.4.0 \
+		attoparsec==0.10.4.0_1 \
 		attoparsec-conduit==1.0.1 \
-		authenticate==1.3.2.6 \
-		base-unicode-symbols==0.2.2.4_1 \
-		base64-bytestring==1.0.0.1 \
+		authenticate==1.3.2.6_1 \
+		base-unicode-symbols==0.2.2.4_2 \
+		base64-bytestring==1.0.0.1_1 \
 		blaze-builder==0.3.1.1 \
-		blaze-builder-conduit==1.0.0 \
+		blaze-builder-conduit==1.0.0_1 \
 		blaze-html==0.6.1.1 \
 		blaze-markup==0.5.1.5 \
 		byteorder==1.0.4 \
 		case-insensitive==1.0.0.2 \
-		cereal==0.3.5.2_2 \
+		cereal==0.3.5.2_3 \
 		certificate==1.3.7 \
 		cipher-aes==0.1.8 \
-		cipher-rc4==0.1.2 \
+		cipher-rc4==0.1.2_1 \
 		clientsession==0.9 \
 		conduit==1.0.5 \
-		cookie==0.4.0.1_1 \
-		cprng-aes==0.3.4_1 \
+		cookie==0.4.0.1_2 \
+		cprng-aes==0.3.4_2 \
 		crypto-api==0.12.1 \
 		crypto-conduit==0.5.2 \
-		crypto-numbers==0.1.3 \
+		crypto-numbers==0.1.3_1 \
 		crypto-pubkey==0.1.3 \
 		crypto-pubkey-types==0.3.2 \
-		crypto-random-api==0.2.0 \
+		crypto-random-api==0.2.0_1 \
 		cryptohash==0.9.0 \
-		css-text==0.1.1_5 \
+		css-text==0.1.1_6 \
 		data-default==0.5.3 \
 		data-default-class==0.0.1 \
 		data-default-instances-base==0.0.1 \
 		data-default-instances-containers==0.0.1 \
 		data-default-instances-dlist==0.0.1 \
 		data-default-instances-old-locale==0.0.1 \
-		date-cache==0.3.0_1 \
-		dlist==0.5_8 \
-		email-validate==1.0.0 \
-		entropy==0.2.1_4 \
-		failure==0.2.0.1_3 \
-		fast-logger==0.3.1_2 \
-		file-embed==0.0.4.7 \
-		filesystem-conduit==1.0.0 \
+		date-cache==0.3.0_2 \
+		dlist==0.5_9 \
+		email-validate==1.0.0_1 \
+		entropy==0.2.1_5 \
+		failure==0.2.0.1_4 \
+		fast-logger==0.3.1_3 \
+		file-embed==0.0.4.7_1 \
+		filesystem-conduit==1.0.0_1 \
 		hamlet==1.1.7.1 \
 		hashable==1.1.2.5,1 \
-		hjsmin==0.1.4.1 \
+		hjsmin==0.1.4.1_1 \
 		hspec==1.5.4 \
 		hspec-expectations==0.3.2 \
-		html-conduit==1.1.0 \
+		html-conduit==1.1.0_1 \
 		http-conduit==1.9.3 \
-		http-date==0.0.4_1 \
-		http-types==0.8.0 \
-		language-javascript==0.5.7_1 \
+		http-date==0.0.4_2 \
+		http-types==0.8.0_1 \
+		language-javascript==0.5.7_2 \
 		lifted-base==0.2.0.5 \
-		mime-mail==0.4.1.2_2 \
-		mime-types==0.1.0.3 \
+		mime-mail==0.4.1.2_3 \
+		mime-types==0.1.0.3_1 \
 		mmorph==1.0.0 \
 		monad-control==0.3.2.1 \
 		monad-logger==0.3.1.1 \
-		network-conduit==1.0.0 \
-		path-pieces==0.1.2_1 \
-		pem==0.1.2_1 \
+		network-conduit==1.0.0_1 \
+		path-pieces==0.1.2_2 \
+		pem==0.1.2_2 \
 		persistent==1.2.0.1 \
 		persistent-template==1.2.0 \
 		pool-conduit==0.1.2 \
-		primitive==0.5.0.1_1 \
+		primitive==0.5.0.1_2 \
 		publicsuffixlist==0.1 \
-		pureMD5==2.1.2.1_2 \
-		pwstore-fast==2.3_2 \
+		pureMD5==2.1.2.1_3 \
+		pwstore-fast==2.3_3 \
 		quickcheck-io==0.1.0 \
-		resource-pool==0.2.1.1_1 \
+		resource-pool==0.2.1.1_2 \
 		resourcet==0.4.7.1 \
-		safe==0.3.3_4 \
+		safe==0.3.3_5 \
 		semigroups==0.9.1 \
-		setenv==0.1.0_1 \
-		SHA==1.6.1_1 \
+		setenv==0.1.0_2 \
+		SHA==1.6.1_2 \
 		shakespeare==1.0.5 \
 		shakespeare-css==1.0.5.1 \
-		shakespeare-i18n==1.0.0.2_4 \
+		shakespeare-i18n==1.0.0.2_5 \
 		shakespeare-js==1.1.4 \
-		shakespeare-text==1.0.0.5_2 \
-		silently==1.2.4.1 \
-		simple-sendfile==0.2.11 \
+		shakespeare-text==1.0.0.5_3 \
+		silently==1.2.4.1_1 \
+		simple-sendfile==0.2.11_1 \
 		skein==1.0.3 \
 		socks==0.5.1 \
-		stringsearch==0.3.6.4_1 \
-		system-fileio==0.3.11 \
-		system-filepath==0.4.7_1 \
+		stringsearch==0.3.6.4_2 \
+		system-fileio==0.3.11_1 \
+		system-filepath==0.4.7_2 \
 		tagged==0.6 \
-		tagsoup==0.12.8_1 \
-		tagstream-conduit==0.5.4 \
-		tls==1.1.2 \
-		tls-extra==0.6.1_1 \
-		transformers-base==0.4.1_4 \
+		tagsoup==0.12.8_2 \
+		tagstream-conduit==0.5.4_1 \
+		tls==1.1.2_1 \
+		tls-extra==0.6.1_2 \
+		transformers-base==0.4.1_5 \
 		unix-compat==0.4.1.1 \
 		unordered-containers==0.2.3.1 \
-		utf8-light==0.4.0.1_3 \
-		utf8-string==0.3.7_4 \
-		vault==0.2.0.4 \
-		vector==0.10.0.1_1 \
+		utf8-light==0.4.0.1_4 \
+		utf8-string==0.3.7_5 \
+		vault==0.2.0.4_1 \
+		vector==0.10.0.1_2 \
 		void==0.6 \
-		wai==1.4.0 \
-		wai-app-static==1.3.1.2 \
+		wai==1.4.0_1 \
+		wai-app-static==1.3.1.2_1 \
 		wai-extra==1.3.4 \
-		wai-logger==0.3.0_2 \
+		wai-logger==0.3.0_3 \
 		wai-test==1.3.1 \
 		warp==1.3.8.1 \
-		word8==0.0.3 \
-		xml-conduit==1.1.0.3 \
-		xml-types==0.3.3_1 \
-		xss-sanitize==0.3.3_1 \
+		word8==0.0.3_1 \
+		xml-conduit==1.1.0.3_1 \
+		xml-types==0.3.3_2 \
+		xss-sanitize==0.3.3_2 \
 		yaml==0.8.2.4 \
 		yesod==1.2.0.1 \
 		yesod-auth==1.2.0 \
@@ -131,8 +131,8 @@ USE_CABAL=	aeson==0.6.1.0_1 \
 		yesod-routes==1.2.0 \
 		yesod-static==1.2.0 \
 		yesod-test==1.2.0 \
-		zlib-bindings==0.1.1.3 \
-		zlib-conduit==1.0.0
+		zlib-bindings==0.1.1.3_1 \
+		zlib-conduit==1.0.0_1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

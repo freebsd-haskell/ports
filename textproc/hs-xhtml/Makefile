@@ -2,11 +2,11 @@
 
 PORTNAME=	xhtml
 PORTVERSION=	3000.2.1
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	An XHTML combinator library
+COMMENT=	XHTML combinator library
 
 LICENSE=	BSD
 

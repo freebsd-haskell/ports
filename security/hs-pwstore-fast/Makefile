@@ -2,7 +2,7 @@
 
 PORTNAME=	pwstore-fast
 PORTVERSION=	2.3
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
