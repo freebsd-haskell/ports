@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	4.20130521.2
+PORTVERSION=	4.20130601
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -36,6 +36,7 @@ S3_DESC=		S3 support
 ASSISTANT_DESC=		'assistant' and 'watch' commands
 INOTIFY_DESC=		File system notifications support
 WEBAPP_DESC=		Web application (requires assistant)
+WEBDAV_DESC=		WebDAV support
 PAIRING_DESC=		Enable pairing (requires web application)
 PRODUCTION_DESC=	Production build
 TDFA_DESC=		Use regex-tdfa for wildcards
@@ -81,7 +82,7 @@ CONFIGURE_ARGS+=	--flags="-Pairing"
 .endif
 
 # Disable all the other options
-CONFIGURE_ARGS+=	--flags="-DNS -XMPP -Dbus"
+CONFIGURE_ARGS+=	--flags="-DNS -XMPP -Dbus -WebDAV"
 
 .if ${PORT_OPTIONS:MPRODUCTION}
 CONFIGURE_ARGS+=	--flags="Production"
@@ -94,6 +95,13 @@ CONFIGURE_ARGS+=	--flags="TDFA"
 USE_CABAL+=		regex-tdfa
 .else
 CONFIGURE_ARGS+=	--flags="-TDFA"
+.endif
+
+.if ${PORT_OPTIONS:MWEBDAV}
+CONFIGURE_ARGS+=	--flags="WebDAV"
+USE_CABAL+=		DAV>=0.3
+.else
+CONFIGURE_ARGS+=	--flags="-WebDAV"
 .endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
