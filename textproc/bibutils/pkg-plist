@@ -16,4 +16,5 @@ bin/xml2end
 bin/xml2isi
 bin/xml2ris
 bin/xml2wordbib
+lib/libbibcore.a
 lib/libbibutils.a
