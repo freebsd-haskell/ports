@@ -102,7 +102,7 @@ CONFIGURE_ARGS+=	--flags="Production"
 CONFIGURE_ARGS+=	--flags="-Production"
 .endif
 
-.if ${PORT_OPTIONS:MPRODUCTION}
+.if ${PORT_OPTIONS:MTDFA}
 CONFIGURE_ARGS+=	--flags="TDFA"
 USE_CABAL+=		regex-tdfa
 .else
