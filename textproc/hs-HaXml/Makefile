@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	HaXml
-PORTVERSION=	1.23.3
-PORTREVISION=	3
+PORTVERSION=	1.24
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,7 +10,7 @@ COMMENT=	Collection of utilities for using Haskell and XML together
 
 LICENSE=	LGPL21
 
-USE_CABAL=	polyparse>=1.5 random
+USE_CABAL=	polyparse>=1.9 random
 
 EXECUTABLE=	Canonicalise CanonicaliseLazy DtdToHaskell FpMLToHaskell \
 		MkOneOf Validate XsdToHaskell Xtract
