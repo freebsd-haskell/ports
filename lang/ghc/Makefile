@@ -308,10 +308,10 @@ pre-configure:
 
 post-install:
 	# cabalised hs-foo-ghc ports
-	@${MKDIR} ${GHC_LIBDIR}/cabal
-	@${MKDIR} ${DOCSDIR}/cabal
-	@${MKDIR} ${EXAMPLESDIR}/cabal
-	@${MKDIR} ${DATADIR}/cabal
+	@${MKDIR} ${PREFIX}/lib/cabal/ghc-${GHC_VERSION}
+	@${MKDIR} ${PREFIX}/share/cabal/ghc-${GHC_VERSION}
+	@${MKDIR} ${PREFIX}/share/doc/cabal/ghc-${GHC_VERSION}
+	@${MKDIR} ${PREFIX}/share/examples/cabal/ghc-${GHC_VERSION}
 .if ${PORT_OPTIONS:MDOCS}
 	cd ${DOCSDIR}/html/libraries && ./gen_contents_index
 .endif
