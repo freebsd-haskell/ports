@@ -20,6 +20,10 @@ USE_CABAL=	base64-bytestring>=0.1 blaze-html>=0.6 blaze-markup>=0.5.1 \
 
 EXECUTABLE=	pandoc
 
+# For PDF generation
+RUN_DEPENDS+=	latex-ifluatex>=1.3:${PORTSDIR}/print/latex-ifluatex \
+		ifxetex>=0:${PORTSDIR}/print/ifxetex
+
 MAN1=		pandoc.1
 MAN5=		pandoc_markdown.5
 
