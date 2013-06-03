@@ -23,4 +23,12 @@ do-configure:
 test: all
 	cd ${WRKSRC}/test && ${GMAKE} all test
 
+BINARIES=	bib2xml biblatex2xml copac2xml ebi2xml end2xml endx2xml \
+		isi2xml med2xml modsclean ris2xml wordbib2xml xml2ads \
+		xml2bib xml2end xml2isi xml2ris xml2wordbib
+
+.for binary in ${BINARIES}
+PLIST_FILES+=	bin/${binary}
+.endfor
+
 .include <bsd.port.mk>
