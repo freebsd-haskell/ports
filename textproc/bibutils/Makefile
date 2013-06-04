@@ -1,4 +1,4 @@
-# $FreeBSD: head/textproc/bibutils/Makefile 300897 2012-07-14 14:29:18Z beat $
+# $FreeBSD$
 
 PORTNAME=	bibutils
 PORTVERSION=	5.0

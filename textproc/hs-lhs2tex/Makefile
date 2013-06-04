@@ -12,9 +12,7 @@ COMMENT=	Preprocessor for typesetting Haskell sources with LaTeX
 LICENSE=	GPLv2
 
 USE_CABAL=	mtl regex-compat
-
-BUILD_DEPENDS+=	mktexlsr:${PORTSDIR}/print/teTeX-base
-RUN_DEPENDS+=	mktexlsr:${PORTSDIR}/print/teTeX-base
+USE_TEX=	latex
 
 STANDALONE=	yes
 EXECUTABLE=	lhs2TeX

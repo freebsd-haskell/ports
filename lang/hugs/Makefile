@@ -16,7 +16,7 @@ BUILD_DEPENDS=	bash:${PORTSDIR}/shells/bash
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
 HUGS_DATE=	Sep2006
-USE_BISON=	build
+USES=		bison
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 
