@@ -1,4 +1,4 @@
-# $FreeBSD: head/security/hs-entropy/Makefile 315566 2013-03-29 19:33:41Z cs $
+# $FreeBSD$
 
 PORTNAME=	entropy
 PORTVERSION=	0.2.1
