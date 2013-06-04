@@ -12,41 +12,30 @@ How to Use
 ----------
 
 In order to use the ports in this repository, you will have to install
-and configure
-[portshaker(8)](http://www.freshports.org/ports-mgmt/portshaker/).
+[portshaker(8)](http://www.freshports.org/ports-mgmt/portshaker/):
 
     # cd /usr/ports/ports-mgmt/portshaker
     # make install clean
 
-Create an executable configuration file for the repository under
-`/usr/local/etc/portshaker.d`, named `freebsd-haskell` with the
-following contents.  (Feel free to replace `/usr/local/` with your local
-base directory.)
+and its configuration files, be sure you select the `HASKELL` option:
 
-    #!/bin/sh
+    # cd /usr/ports/ports-mgmt/portshaker-config
+    # make install clean
 
-    . /usr/local/share/portshaker/portshaker.subr
-
-    method="git"
-    git_clone_uri="git://github.com/freebsd-haskell/freebsd-haskell.git"
-
-    run_portshaker_command $*
-
-Add the configuration file to your `portshaker.conf` (in
-`/usr/local/etc`).  For example, if you want to merge the contents with
-your main ports tree modify the `main_merge_from=` line to include
-`freebsd-haskell`.
+To merge the contents with your main ports tree, modify the
+`main_merge_from=` line in `portshaker.conf` (in `/usr/local/etc`) to
+include `haskell`.
 
     mirror_base_dir="/var/cache/portshaker"
     ports_trees="main"
     main_ports_tree="/usr/ports"
-    main_merge_from="ports freebsd-haskell"
+    main_merge_from="ports haskell"
 
 Start `portshaker(8)`, and answer the questions (if there is any).  They
 usually refer to colluding ports where the recommended answer is
 `install` or simply `i`.
 
-    # portshaker -v
+    # portshaker -v -m haskell
 
 You can use the ports as usual after the process has finished.
 
