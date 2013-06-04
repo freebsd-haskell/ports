@@ -22,15 +22,6 @@ and its configuration files, be sure you select the `HASKELL` option:
     # cd /usr/ports/ports-mgmt/portshaker-config
     # make install clean
 
-To merge the contents with your main ports tree, modify the
-`main_merge_from=` line in `portshaker.conf` (in `/usr/local/etc`) to
-include `haskell`.
-
-    mirror_base_dir="/var/cache/portshaker"
-    ports_trees="main"
-    main_ports_tree="/usr/ports"
-    main_merge_from="ports haskell"
-
 Start `portshaker(8)`, and answer the questions (if there is any).  They
 usually refer to colluding ports where the recommended answer is
 `install` or simply `i`.
