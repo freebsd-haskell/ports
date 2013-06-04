@@ -36,7 +36,6 @@ S3_DESC=		S3 support
 ASSISTANT_DESC=		'assistant' and 'watch' commands
 INOTIFY_DESC=		File system notifications support
 WEBAPP_DESC=		Web application (requires assistant)
-WEBDAV_DESC=		WebDAV support
 PAIRING_DESC=		Enable pairing (requires web application)
 PRODUCTION_DESC=	Production build
 TDFA_DESC=		Use regex-tdfa for wildcards
@@ -95,13 +94,6 @@ CONFIGURE_ARGS+=	--flags="TDFA"
 USE_CABAL+=		regex-tdfa
 .else
 CONFIGURE_ARGS+=	--flags="-TDFA"
-.endif
-
-.if ${PORT_OPTIONS:MWEBDAV}
-CONFIGURE_ARGS+=	--flags="WebDAV"
-USE_CABAL+=		DAV>=0.3
-.else
-CONFIGURE_ARGS+=	--flags="-WebDAV"
 .endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
