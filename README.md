@@ -12,12 +12,8 @@ How to Use
 ----------
 
 In order to use the ports in this repository, you will have to install
-[portshaker(8)](http://www.freshports.org/ports-mgmt/portshaker/):
-
-    # cd /usr/ports/ports-mgmt/portshaker
-    # make install clean
-
-and its configuration files, be sure you select the `HASKELL` option:
+[portshaker(8)](http://www.freshports.org/ports-mgmt/portshaker/) and
+its configuration files, be sure you are selecting the `HASKELL` option:
 
     # cd /usr/ports/ports-mgmt/portshaker-config
     # make install clean
@@ -26,7 +22,7 @@ Start `portshaker(8)`, and answer the questions (if there is any).  They
 usually refer to colluding ports where the recommended answer is
 `install` or simply `i`.
 
-    # portshaker -v -m haskell
+    # portshaker -v
 
 You can use the ports as usual after the process has finished.
 
