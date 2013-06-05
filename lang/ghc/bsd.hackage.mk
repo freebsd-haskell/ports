@@ -401,6 +401,7 @@ xss-sanitize_port=		www/hs-xss-sanitize
 yaml_port=			textproc/hs-yaml
 yesod_port=			www/hs-yesod
 yesod-auth_port=		www/hs-yesod-auth
+yesod-bin_port=			www/hs-yesod-bin		# executable
 yesod-core_port=		www/hs-yesod-core
 yesod-form_port=		www/hs-yesod-form
 yesod-persistent_port=		www/hs-yesod-persistent
