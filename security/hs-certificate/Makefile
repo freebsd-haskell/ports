@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	certificate
-PORTVERSION=	1.3.7
+PORTVERSION=	1.3.8
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -20,7 +20,7 @@ EXECUTABLE_DESC=	Build the executable
 
 .if ${PORT_OPTIONS:MEXECUTABLE}
 CONFIGURE_ARGS+=	--flags="executable"
-USE_CABAL+=		cmdargs text>=0.11 cryptocipher>=0.3.0
+USE_CABAL+=		cmdargs text>=0.11 cryptohash crypto-pubkey
 EXECUTABLE+=		certificate
 .else
 CONFIGURE_ARGS+=	--flags="-executable"
