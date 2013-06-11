@@ -1,0 +1,4 @@
+Automagically generate the HUnit- and Quickcheck-bulk-code using
+Template Haskell.
+
+WWW: http://github.com/finnsson/test-generator
