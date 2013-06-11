@@ -1,0 +1,4 @@
+This package contains some useful helper functions on top of Template
+Haskell.
+
+WWW: http://github.com/finnsson/template-helper

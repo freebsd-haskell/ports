@@ -240,6 +240,7 @@ kqueue_port=			devel/hs-kqueue
 language-c_port=		devel/hs-language-c
 language-ecmascript_port=	devel/hs-language-ecmascript
 language-javascript_port=	devel/hs-language-javascript
+language-haskell-extract_port=	devel/hs-language-haskell-extract
 largeword_port=			devel/hs-largeword
 lazysmallcheck_port=		devel/hs-lazysmallcheck
 leksah_port=			editors/hs-leksah # executable
