@@ -68,6 +68,7 @@ cautious-file_port=		devel/hs-cautious-file
 cereal_port=			devel/hs-cereal
 certificate_port=		security/hs-certificate
 cgi_port=			www/hs-cgi
+charset_port=			devel/hs-charset
 checkers_port=			devel/hs-checkers
 cipher-aes_port=		security/hs-cipher-aes
 cipher-rc4_port=		security/hs-cipher-rc4
