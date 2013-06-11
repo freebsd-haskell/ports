@@ -1,0 +1,5 @@
+Some tools for working with ECMAScript 3 (popularly known as
+JavaScript).  Includes a parser, pretty-printer, and basic building
+blocks for more sophisticated tools.
+
+WWW: http://github.com/jswebtools/language-ecmascript

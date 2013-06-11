@@ -237,6 +237,7 @@ iteratee_port=			devel/hs-iteratee
 json_port=			converters/hs-json
 kqueue_port=			devel/hs-kqueue
 language-c_port=		devel/hs-language-c
+language-ecmascript_port=	devel/hs-language-ecmascript
 language-javascript_port=	devel/hs-language-javascript
 largeword_port=			devel/hs-largeword
 lazysmallcheck_port=		devel/hs-lazysmallcheck
