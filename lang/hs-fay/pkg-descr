@@ -1,0 +1,6 @@
+Fay is a proper subset of Haskell which is type-checked with GHC, and
+compiled to JavaScript.  It is lazy, pure, has a Fay monad, an FFI,
+tail-recursion optimization (experimental), and support for cabal
+packages.
+
+WWW: http://fay-lang.org/

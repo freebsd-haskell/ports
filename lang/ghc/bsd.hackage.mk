@@ -147,6 +147,7 @@ failure_port=			devel/hs-failure
 fast-logger_port=		devel/hs-fast-logger
 fastcgi_port=			www/hs-fastcgi		# lib_depends
 fastirc_port=			irc/hs-fastirc
+fay_port=			lang/hs-fay		# executable
 feed_port=			textproc/hs-feed
 fclabels_port=			devel/hs-fclabels
 fgl_port=			devel/hs-fgl
