@@ -368,6 +368,7 @@ simple-sendfile_port=		net/hs-simple-sendfile
 skein_port=			security/hs-skein
 smallcheck_port=		devel/hs-smallcheck
 snap_port=			www/hs-snap
+snap-blaze_port=		www/hs-snap-blaze
 snap-core_port=			www/hs-snap-core
 snap-loader-static_port=	www/hs-snap-loader-static
 snap-server_port=		www/hs-snap-server	# lib_depends
