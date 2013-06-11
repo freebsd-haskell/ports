@@ -1,0 +1,4 @@
+Provides an interface to the POSIX iconv library functions for string
+encoding conversion.
+
+WWW: http://hackage.haskell.org/package/iconv
