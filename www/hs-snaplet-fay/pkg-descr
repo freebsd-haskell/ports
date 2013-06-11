@@ -1,0 +1,4 @@
+Fay integration for Snap with request based compilation during
+development and precompilation in production.
+
+WWW: https://github.com/faylang/snaplet-fay
