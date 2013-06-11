@@ -1,0 +1,4 @@
+Implementation of the MIME RFCs 2045-2049.  Rather rough around the
+edges at the moment.
+
+WWW: http://hackage.haskell.org/package/mime-string
