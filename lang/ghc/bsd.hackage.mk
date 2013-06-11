@@ -189,6 +189,7 @@ hashable_port=			devel/hs-hashable
 hashed-storage_port=		devel/hs-hashed-storage
 hashtables_port=		devel/hs-hashtables
 haskeline_port=			devel/hs-haskeline
+haskell-lexer_port=		devel/hs-haskell-lexer
 haskell-src_port=		devel/hs-haskell-src
 haskell-src-exts_port=		devel/hs-haskell-src-exts
 hasktags_port=			devel/hs-hasktags	# executable
