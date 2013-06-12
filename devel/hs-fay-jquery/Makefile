@@ -11,5 +11,7 @@ LICENSE=	BSD
 
 USE_CABAL=	fay-base>=0.14.1.0
 
+IGNORE_DYNAMIC=	yes
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
