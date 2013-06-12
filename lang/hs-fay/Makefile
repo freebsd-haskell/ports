@@ -15,5 +15,8 @@ USE_CABAL=	aeson attoparsec data-default ghc-paths haskeline \
 		test-framework test-framework-hunit test-framework-th \
 		text unordered-containers utf8-string vector
 
+EXECUTABLE=	fay fay-tests
+IGNORE_DYNAMIC=	yes
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
