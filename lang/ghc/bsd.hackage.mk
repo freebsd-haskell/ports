@@ -453,6 +453,7 @@ wai-extra_port=			www/hs-wai-extra
 wai-logger_port=		www/hs-wai-logger
 wai-test_port=			www/hs-wai-test
 warp_port=			www/hs-warp
+webdriver_port=			www/hs-webdriver
 webkit_port=			www/hs-webkit
 wl-pprint-text_port=		textproc/hs-wl-pprint-text
 word8_port=			devel/hs-word8
