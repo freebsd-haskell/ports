@@ -158,6 +158,7 @@ file-embed_port=		devel/hs-file-embed
 filemanip_port=			devel/hs-filemanip
 filestore_port=			devel/hs-filestore
 filesystem-conduit_port=	devel/hs-filesystem-conduit
+filesystem-trees_port=		devel/hs-filesystem-trees
 fingertree_port=		devel/hs-fingertree
 fsnotify_port=			devel/hs-fsnotify
 gconf_port=			devel/hs-gconf
