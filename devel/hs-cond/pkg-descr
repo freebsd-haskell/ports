@@ -1,0 +1,7 @@
+This library provides:
+
+  * Implementations of various overloaded conditional operations.
+  * Lifted monadic variants of those operations and common boolean operators.
+  * A typeclass for boolean algebras.
+
+WWW: https://github.com/kallisti-dev/cond
