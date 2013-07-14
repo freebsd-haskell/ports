@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	yesod-platform
-PORTVERSION=	1.2.1
+PORTVERSION=	1.2.2
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,7 +14,7 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		asn1-data==0.7.1_2 \
 		asn1-types==0.2.0 \
 		attoparsec==0.10.4.0_1 \
-		attoparsec-conduit==1.0.1 \
+		attoparsec-conduit==1.0.1.1 \
 		authenticate==1.3.2.6_1 \
 		base-unicode-symbols==0.2.2.4_2 \
 		base64-bytestring==1.0.0.1_1 \
@@ -22,6 +22,7 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		blaze-builder-conduit==1.0.0_1 \
 		blaze-html==0.6.1.1 \
 		blaze-markup==0.5.1.5 \
+		byteable==0.1.1 \
 		byteorder==1.0.4 \
 		case-insensitive==1.0.0.2 \
 		cereal==0.3.5.2_3 \
@@ -29,7 +30,7 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		cipher-aes==0.1.8 \
 		cipher-rc4==0.1.2_1 \
 		clientsession==0.9 \
-		conduit==1.0.6 \
+		conduit==1.0.7.1 \
 		cookie==0.4.0.1_2 \
 		cprng-aes==0.3.4_2 \
 		crypto-api==0.12.2.1 \
@@ -38,7 +39,7 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		crypto-pubkey==0.1.4 \
 		crypto-pubkey-types==0.4.0 \
 		crypto-random-api==0.2.0_1 \
-		cryptohash==0.9.0 \
+		cryptohash==0.9.1 \
 		css-text==0.1.1_6 \
 		data-default==0.5.3 \
 		data-default-class==0.0.1 \
@@ -49,23 +50,23 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		date-cache==0.3.0_2 \
 		dlist==0.5_9 \
 		email-validate==1.0.0_1 \
-		entropy==0.2.2 \
+		entropy==0.2.2.1 \
 		failure==0.2.0.1_4 \
 		fast-logger==0.3.1_3 \
-		file-embed==0.0.4.8 \
-		filesystem-conduit==1.0.0_1 \
+		file-embed==0.0.4.9 \
+		filesystem-conduit==1.0.0.1 \
 		hamlet==1.1.7.1 \
-		hashable==1.1.2.5,1 \
 		hjsmin==0.1.4.1_1 \
-		hspec==1.5.4 \
+		hspec==1.6.1 \
 		hspec-expectations==0.3.2 \
 		html-conduit==1.1.0_1 \
-		http-conduit==1.9.4 \
+		http-attoparsec==0.1.0 \
+		http-conduit==1.9.4.1 \
 		http-date==0.0.4_2 \
 		http-types==0.8.0_1 \
 		language-javascript==0.5.7_2 \
 		lifted-base==0.2.1.0 \
-		mime-mail==0.4.1.2_3 \
+		mime-mail==0.4.2 \
 		mime-types==0.1.0.3_1 \
 		mmorph==1.0.0 \
 		monad-control==0.3.2.1 \
@@ -73,8 +74,8 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		network-conduit==1.0.0_1 \
 		path-pieces==0.1.2_2 \
 		pem==0.1.2_2 \
-		persistent==1.2.0.1 \
-		persistent-template==1.2.0.1 \
+		persistent==1.2.1.1 \
+		persistent-template==1.2.0.2 \
 		pool-conduit==0.1.2 \
 		primitive==0.5.0.1_2 \
 		publicsuffixlist==0.1 \
@@ -88,7 +89,7 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		setenv==0.1.0_2 \
 		SHA==1.6.1_2 \
 		shakespeare==1.0.5 \
-		shakespeare-css==1.0.5.1 \
+		shakespeare-css==1.0.6.1 \
 		shakespeare-i18n==1.0.0.3 \
 		shakespeare-js==1.1.4 \
 		shakespeare-text==1.0.0.5_3 \
@@ -99,7 +100,7 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		stringsearch==0.3.6.4_2 \
 		system-fileio==0.3.11_1 \
 		system-filepath==0.4.7_2 \
-		tagged==0.6 \
+		tagged==0.6.1 \
 		tagsoup==0.12.8_2 \
 		tagstream-conduit==0.5.4_1 \
 		tls==1.1.2_1 \
@@ -111,22 +112,22 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		utf8-string==0.3.7_5 \
 		vault==0.2.0.4_1 \
 		vector==0.10.0.1_2 \
-		void==0.6 \
+		void==0.6.1 \
 		wai==1.4.0.1 \
 		wai-app-static==1.3.1.3 \
 		wai-extra==1.3.4.2 \
 		wai-logger==0.3.1 \
-		wai-test==1.3.1 \
-		warp==1.3.8.2 \
+		wai-test==1.3.1.1 \
+		warp==1.3.9 \
 		word8==0.0.3_1 \
 		xml-conduit==1.1.0.3_1 \
 		xml-types==0.3.3_2 \
-		xss-sanitize==0.3.3_2 \
-		yaml==0.8.2.4 \
-		yesod==1.2.1 \
-		yesod-auth==1.2.0.1 \
-		yesod-core==1.2.2 \
-		yesod-form==1.3.0 \
+		xss-sanitize==0.3.4 \
+		yaml==0.8.3 \
+		yesod==1.2.1.1 \
+		yesod-auth==1.2.0.2 \
+		yesod-core==1.2.3 \
+		yesod-form==1.3.0.1 \
 		yesod-persistent==1.2.1 \
 		yesod-routes==1.2.0.1 \
 		yesod-static==1.2.0 \
