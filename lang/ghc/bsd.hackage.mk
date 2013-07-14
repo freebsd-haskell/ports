@@ -50,6 +50,7 @@ BNFC_port=			devel/hs-BNFC		# executable
 Boolean_port=			devel/hs-Boolean
 brainfuck_port=			lang/hs-brainfuck	# executable
 bsd-sysctl_port=		devel/hs-bsd-sysctl
+byteable_port=			devel/hs-byteable
 byteorder_port=			devel/hs-byteorder
 bytestring-csv_port=		textproc/hs-bytestring-csv
 bytestring-nums_port=		devel/hs-bytestring-nums	# executable
