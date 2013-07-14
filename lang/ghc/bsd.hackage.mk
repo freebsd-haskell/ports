@@ -192,6 +192,7 @@ HStringTemplate_port=		textproc/hs-HStringTemplate
 html_port=			textproc/hs-html
 html-conduit_port=		textproc/hs-html-conduit
 HTTP_port=			www/hs-HTTP
+http-attoparsec_port=		www/hs-http-attoparsec
 http-conduit_port=		www/hs-http-conduit
 http-date_port=			www/hs-http-date
 http-reverse-proxy_port=	www/hs-http-reverse-proxy
