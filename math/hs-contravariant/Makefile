@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	contravariant
-PORTVERSION=	0.4
-PORTREVISION=	1
+PORTVERSION=	0.4.1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Haskell 98 contravariant functors
+COMMENT=	Contravariant functors
 
 LICENSE=	BSD
 
