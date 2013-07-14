@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	wai-test
-PORTVERSION=	1.3.1
+PORTVERSION=	1.3.1.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
