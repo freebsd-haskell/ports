@@ -1,5 +1,5 @@
-Some tools for working with ECMAScript 3 (popularly known as
-JavaScript).  Includes a parser, pretty-printer, and basic building
-blocks for more sophisticated tools.
+Tools for working with ECMAScript 3 (popularly known as JavaScript).
+Includes a parser, pretty-printer, a simple quasi-quoter and tools for
+working with source tree annotations and an arbitrary instance.
 
 WWW: http://github.com/jswebtools/language-ecmascript
