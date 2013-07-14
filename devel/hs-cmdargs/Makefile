@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	cmdargs
-PORTVERSION=	0.10.3
+PORTVERSION=	0.10.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
