@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	streams
-PORTVERSION=	3.1
+PORTVERSION=	3.1.1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
