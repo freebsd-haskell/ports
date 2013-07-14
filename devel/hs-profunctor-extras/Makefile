@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	profunctor-extras
-PORTVERSION=	3.3
-PORTREVISION=	2
+PORTVERSION=	3.3.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
