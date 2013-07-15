@@ -198,6 +198,7 @@ haskeline_port=			devel/hs-haskeline
 haskell-lexer_port=		devel/hs-haskell-lexer
 haskell-src_port=		devel/hs-haskell-src
 haskell-src-exts_port=		devel/hs-haskell-src-exts
+haskell-xmpp_port=		net-im/hs-haskell-xmpp
 hasktags_port=			devel/hs-hasktags	# executable
 hastache_port=			devel/hs-hastache
 HaXml_port=			textproc/hs-HaXml	# executable
