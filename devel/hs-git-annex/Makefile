@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	4.20130601
+PORTVERSION=	4.20130709
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -10,10 +10,11 @@ COMMENT=	Manage files with git, without checking their contents into git
 
 LICENSE=	GPLv3
 
-USE_CABAL=	bloomfilter dataenc dlist edit-distance extensible-exceptions \
-		hslogger HTTP IfElse json MissingH MonadCatchIO-transformers \
-		monad-control mtl>=2 network>=2.0 QuickCheck>=2.1 random \
-		SafeSemaphore SHA text unix-compat utf8-string uuid
+USE_CABAL=	MissingH hslogger utf8-string network>=2.0 mtl>=2 HTTP \
+		extensible-exceptions dataenc SHA json monad-control \
+		MonadCatchIO-transformers IfElse text QuickCheck>=2.1 \
+		bloomfilter edit-distance SafeSemaphore uuid random \
+		dlist unix-compat
 
 USE_GMAKE=		yes
 USE_PERL5_BUILD=	yes
@@ -68,10 +69,10 @@ CONFIGURE_ARGS+=	--flags="-Inotify"
 
 .if ${PORT_OPTIONS:MWEBAPP} && ${PORT_OPTIONS:MASSISTANT}
 CONFIGURE_ARGS+=	--flags="Webapp"
-USE_CABAL+=		yesod yesod-static case-insensitive http-types \
-			transformers wai wai-logger warp blaze-builder \
-			blaze-html crypto-api hamlet clientsession \
-			yesod-default>=1.1.0 data-default
+USE_CABAL+=		yesod yesod-static yesod-static yesod-form yesod-core \
+			case-insensitive http-types transformers wai \
+			wai-logger warp blaze-builder crypto-api hamlet \
+			clientsession aeson data-default
 .else
 CONFIGURE_ARGS+=	--flags="-Webapp"
 .endif
@@ -112,7 +113,7 @@ CONFIGURE_ARGS+=	--flags="-TDFA"
 
 .if ${PORT_OPTIONS:MWEBDAV}
 CONFIGURE_ARGS+=	--flags="WebDAV"
-USE_CABAL+=		DAV>=0.3
+USE_CABAL+=		DAV>=0.3 http-conduit xml-conduit http-types
 .else
 CONFIGURE_ARGS+=	--flags="-WebDAV"
 .endif

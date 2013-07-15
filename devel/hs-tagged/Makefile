@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	tagged
-PORTVERSION=	0.6
+PORTVERSION=	0.6.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
