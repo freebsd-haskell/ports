@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	yesod-platform
-PORTVERSION=	1.2.2
+PORTVERSION=	1.2.3
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,7 +14,7 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		asn1-data==0.7.1_2 \
 		asn1-types==0.2.0 \
 		attoparsec==0.10.4.0_1 \
-		attoparsec-conduit==1.0.1.1 \
+		attoparsec-conduit==1.0.1.2 \
 		authenticate==1.3.2.6_1 \
 		base-unicode-symbols==0.2.2.4_2 \
 		base64-bytestring==1.0.0.1_1 \
@@ -30,7 +30,7 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		cipher-aes==0.1.8 \
 		cipher-rc4==0.1.2_1 \
 		clientsession==0.9 \
-		conduit==1.0.7.1 \
+		conduit==1.0.7.3 \
 		cookie==0.4.0.1_2 \
 		cprng-aes==0.3.4_2 \
 		crypto-api==0.12.2.1 \
@@ -52,7 +52,7 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		email-validate==1.0.0_1 \
 		entropy==0.2.2.1 \
 		failure==0.2.0.1_4 \
-		fast-logger==0.3.1_3 \
+		fast-logger==0.3.2 \
 		file-embed==0.0.4.9 \
 		filesystem-conduit==1.0.0.1 \
 		hamlet==1.1.7.1 \
@@ -74,7 +74,7 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		network-conduit==1.0.0_1 \
 		path-pieces==0.1.2_2 \
 		pem==0.1.2_2 \
-		persistent==1.2.1.1 \
+		persistent==1.2.2.0 \
 		persistent-template==1.2.0.2 \
 		pool-conduit==0.1.2 \
 		primitive==0.5.0.1_2 \
@@ -89,12 +89,12 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		setenv==0.1.0_2 \
 		SHA==1.6.1_2 \
 		shakespeare==1.0.5 \
-		shakespeare-css==1.0.6.1 \
+		shakespeare-css==1.0.6.2 \
 		shakespeare-i18n==1.0.0.3 \
-		shakespeare-js==1.1.4 \
-		shakespeare-text==1.0.0.5_3 \
+		shakespeare-js==1.1.4.1 \
+		shakespeare-text==1.0.0.6 \
 		silently==1.2.4.1_1 \
-		simple-sendfile==0.2.11_1 \
+		simple-sendfile==0.2.12 \
 		skein==1.0.3 \
 		socks==0.5.1 \
 		stringsearch==0.3.6.4_2 \
@@ -120,10 +120,10 @@ USE_CABAL=	aeson==0.6.1.0_2 \
 		wai-test==1.3.1.1 \
 		warp==1.3.9 \
 		word8==0.0.3_1 \
-		xml-conduit==1.1.0.3_1 \
-		xml-types==0.3.3_2 \
+		xml-conduit==1.1.0.5 \
+		xml-types==0.3.4 \
 		xss-sanitize==0.3.4 \
-		yaml==0.8.3 \
+		yaml==0.8.4 \
 		yesod==1.2.1.1 \
 		yesod-auth==1.2.0.2 \
 		yesod-core==1.2.3 \
