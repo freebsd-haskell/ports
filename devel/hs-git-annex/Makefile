@@ -65,6 +65,11 @@ CONFIGURE_ARGS+=	--flags="-Inotify"
 .endif
 
 .if ${PORT_OPTIONS:MWEBAPP} && ${PORT_OPTIONS:MASSISTANT}
+
+.if ${PORT_OPTIONS:MDYNAMIC}
+BROKEN=		will not link with both WEBAPP and DYNAMIC enabled
+.endif
+
 CONFIGURE_ARGS+=	--flags="Webapp"
 USE_CABAL+=		yesod yesod-static yesod-static yesod-form yesod-core \
 			case-insensitive http-types transformers wai \
