@@ -30,77 +30,43 @@ RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 EXECUTABLE=	git-annex git-annex-shell
 STANDALONE=	yes
 
-OPTIONS_DEFINE=		S3 ASSISTANT INOTIFY WEBAPP PAIRING PRODUCTION TDFA
-OPTIONS_DEFAULT=	S3 ASSISTANT
+FLAGS_DEFINE=	S3 ASSISTANT INOTIFY WEBAPP PAIRING PRODUCTION TDFA
+FLAGS_DEFAULT=	S3 ASSISTANT
 
 S3_DESC=		S3 support
+S3_FLAG_ENABLE=		S3
+S3_FLAG_CABAL=		hS3
+
 ASSISTANT_DESC=		'assistant' and 'watch' commands
+ASSISTANT_FLAG_ENABLE=	Assistant
+ASSISTANT_FLAG_CABAL=	async stm>=2.3
+
 INOTIFY_DESC=		File system notifications support
+INOTIFY_FLAG_ENABLE=	Inotify
+INOTIFY_FLAG_CABAL=	kqueue
+
 WEBAPP_DESC=		Web application (requires assistant)
-PAIRING_DESC=		Enable pairing (requires web application)
-PRODUCTION_DESC=	Production build
-TDFA_DESC=		Use regex-tdfa for wildcards
-
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-.if ${PORT_OPTIONS:MS3}
-CONFIGURE_ARGS+=	--flags="S3"
-USE_CABAL+=		hS3
-.else
-CONFIGURE_ARGS+=	--flags="-S3"
-.endif
-
-.if ${PORT_OPTIONS:MASSISTANT}
-CONFIGURE_ARGS+=	--flags="Assistant"
-USE_CABAL+=		async stm>=2.3
-.else
-CONFIGURE_ARGS+=	--flags="-Assistant"
-.endif
-
-.if ${PORT_OPTIONS:MINOTIFY}
-CONFIGURE_ARGS+=	--flags="Inotify"
-USE_CABAL+=		kqueue
-.else
-CONFIGURE_ARGS+=	--flags="-Inotify"
-.endif
-
-.if ${PORT_OPTIONS:MWEBAPP} && ${PORT_OPTIONS:MASSISTANT}
-
-.if ${PORT_OPTIONS:MDYNAMIC}
-BROKEN=		will not link with both WEBAPP and DYNAMIC enabled
-.endif
-
-CONFIGURE_ARGS+=	--flags="Webapp"
-USE_CABAL+=		yesod yesod-static yesod-static yesod-form yesod-core \
+WEBAPP_FLAG_DEPENDS=	ASSISTANT
+WEBAPP_DYNAMIC_BROKEN=	will not link with both WEBAPP and DYNAMIC enabled
+WEBAPP_FLAG_ENABLE=	Webapp
+WEBAPP_FLAG_CABAL=	yesod yesod-static yesod-static yesod-form yesod-core \
 			case-insensitive http-types transformers wai \
 			wai-logger warp blaze-builder crypto-api hamlet \
 			clientsession aeson data-default
-.else
-CONFIGURE_ARGS+=	--flags="-Webapp"
-.endif
 
-.if ${PORT_OPTIONS:MWEBAPP} && ${PORT_OPTIONS:MPAIRING}
-CONFIGURE_ARGS+=	--flags="Pairing"
-USE_CABAL+=		network-multicast network-info
-.else
-CONFIGURE_ARGS+=	--flags="-Pairing"
-.endif
+PAIRING_DESC=           Enable pairing (requires web application)
+PAIRING_FLAG_DEPENDS=   WEBAPP
+PAIRING_FLAG_ENABLE=    Pairing
+PAIRING_FLAG_CABAL=     network-multicast network-info
 
-# Disable all the other options
-CONFIGURE_ARGS+=	--flags="-DNS -XMPP -Dbus -WebDAV"
+PRODUCTION_DESC=	Production build
+PRODUCTION_FLAG_ENABLE=	Production
 
-.if ${PORT_OPTIONS:MPRODUCTION}
-CONFIGURE_ARGS+=	--flags="Production"
-.else
-CONFIGURE_ARGS+=	--flags="-Production"
-.endif
+TDFA_DESC=		Use regex-tdfa for wildcards
+TDFA_FLAG_ENABLE=	TDFA
+TDFA_FLAG_CABAL=	regex-tdfa
 
-.if ${PORT_OPTIONS:MTDFA}
-CONFIGURE_ARGS+=	--flags="TDFA"
-USE_CABAL+=		regex-tdfa
-.else
-CONFIGURE_ARGS+=	--flags="-TDFA"
-.endif
+FLAGS_DISABLE=		XMPP DNS WebDAV
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
