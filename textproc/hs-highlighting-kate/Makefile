@@ -11,18 +11,11 @@ LICENSE=	GPLv2
 
 USE_CABAL=	blaze-html>=0.4.2 mtl parsec regex-pcre-builtin
 
-OPTIONS_DEFINE=		EXECUTABLE
+FLAGS_DEFINE=			EXECUTABLE
 
-EXECUTABLE_DESC=	Build the Highlight executable
-
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-.if ${PORT_OPTIONS:MEXECUTABLE}
-CONFIGURE_ARGS+=	--flags="executable"
-EXECUTABLE+=		Highlight
-.else
-CONFIGURE_ARGS+=	--flags="-executable"
-.endif
+EXECUTABLE_DESC=		Build the Highlight executable
+EXECUTABLE_FLAG_ENABLE=		executable
+EXECUTABLE_FLAG_EXECUTABLE=	Highlight
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
