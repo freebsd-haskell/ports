@@ -21,18 +21,11 @@ EXECUTABLE=	agda-mode agda
 INSTALL_PORTDATA=	(cd ${WRKSRC} && ${INSTALL_DATA} README ${DATADIR}; \
 			 cd ${WRKSRC}/doc && ${COPYTREE_SHARE} \* ${DATADIR})
 
-OPTIONS_DEFINE=		EPIC
+FLAGS_DEFINE=		EPIC
 
 EPIC_DESC=		Install the Epic compiler
-
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-.if ${PORT_OPTIONS:MEPIC}
-CONFIGURE_ARGS+=	--flags="epic"
-USE_CABAL+=		epic>=0.1.13
-.else
-CONFIGURE_ARGS+=	--flags="-epic"
-.endif
+EPIC_FLAG_ENABLE=	epic
+EPIC_FLAG_CABAL=	epic>=0.1.13
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
