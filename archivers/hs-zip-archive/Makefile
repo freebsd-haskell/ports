@@ -12,18 +12,11 @@ LICENSE=	BSD
 
 USE_CABAL=	digest>=0.0.0.1 mtl utf8-string>=0.3.1 zlib
 
-OPTIONS_DEFINE=		EXECUTABLE
+FLAGS_DEFINE=		EXECUTABLE
 
-EXECUTABLE_DESC=	Build the Zip executable
-
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-.if ${PORT_OPTIONS:MEXECUTABLE}
-CONFIGURE_ARGS+=	--flags="executable"
-EXECUTABLE=		Zip
-.else
-CONFIGURE_ARGS+=	--flags="-executable"
-.endif
+EXECUTABLE_DESC=		Build the Zip executable
+EXECUTABLE_FLAG_ENABLE=		executable
+EXECUTABLE_FLAG_EXECUTABLE=	Zip
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
