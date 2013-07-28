@@ -16,18 +16,11 @@ USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 \
 		MonadCatchIO-transformers>=0.2.1 mtl>=2 network>=2.3 \
 		snap-core>=0.9.3 text>=0.11 unix-compat>=0.2
 
-OPTIONS_DEFINE=		OPENSSL
+FLAGS_DEFINE=		OPENSSL
 
 OPENSSL_DESC=		Enable HTTPS support using the HsOpenSSL library
-
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-.if ${PORT_OPTIONS:MOPENSSL}
-CONFIGURE_ARGS+=	--flags="openssl"
-USE_CABAL+=		HsOpenSSL>=0.10
-.else
-CONFIGURE_ARGS+=	--flags="-openssl"
-.endif
+OPENSSL_FLAG_ENABLE=	openssl
+OPENSSL_FLAG_CABAL=	HsOpenSSL>=0.10
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
