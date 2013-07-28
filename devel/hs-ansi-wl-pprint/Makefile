@@ -12,7 +12,7 @@ LICENSE=	BSD
 
 USE_CABAL=	ansi-terminal>=0.4.0
 
-CONFIGURE_ARGS+=	--flags="-Example"
+FLAGS_DISABLE=	Example
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
