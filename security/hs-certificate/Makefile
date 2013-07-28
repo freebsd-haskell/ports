@@ -12,19 +12,12 @@ LICENSE=	BSD
 USE_CABAL=	asn1-data>=0.7.1 crypto-pubkey-types>=0.3 cryptohash \
 		mtl pem>=0.1
 
-OPTIONS_DEFINE=		EXECUTABLE
+FLAGS_DEFINE=		EXECUTABLE
 
-EXECUTABLE_DESC=	Build the executable
-
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-.if ${PORT_OPTIONS:MEXECUTABLE}
-CONFIGURE_ARGS+=	--flags="executable"
-USE_CABAL+=		cmdargs text>=0.11 cryptohash crypto-pubkey
-EXECUTABLE+=		certificate
-.else
-CONFIGURE_ARGS+=	--flags="-executable"
-.endif
+EXECUTABLE_DESC=		Build the executable
+EXECUTABLE_FLAG_ENABLE=		executable
+EXECUTABLE_FLAG_CABAL=		cmdargs text>=0.11 cryptohash crypto-pubkey
+EXECUTABLE_FLAG_EXECUTABLE=	certificate
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
