@@ -13,7 +13,8 @@ LICENSE=	BSD
 
 USE_CABAL=	mtl syb>=0.3.3 text
 
-CONFIGURE_ARGS+=	--flags="split-base generic -parsec -pretty -mapdict"
+FLAGS_ENABLE=	split-base generic
+FLAGS_DISABLE=	parse pretty mapdict
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
