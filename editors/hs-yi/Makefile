@@ -20,33 +20,18 @@ USE_ALEX=	yes
 
 EXECUTABLE=	yi
 
-OPTIONS_MULTI=		FRONTEND
-OPTIONS_MULTI_FRONTEND=	PANGO VTE VTY
-OPTIONS_DEFAULT=	VTY
+FLAGS_MULTI=		FRONTEND
+FLAGS_MULTI_FRONTEND=	PANGO VTE VTY
+FLAGS_DEFAULT=		VTY
 
 PANGO_DESC=		Build with Pango frontend
+PANGO_FLAG_ENABLE=	pango
+
 VTE_DESC=		Build with Vte frontend
+VTE_FLAG_ENABLE=	vte
+
 VTY_DESC=		Build with Vty frontend
-
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-.if ${PORT_OPTIONS:MPANGO}
-CONFIGURE_ARGS+=	--flags="pango"
-.else
-CONFIGURE_ARGS+=	--flags="-pango"
-.endif
-
-.if ${PORT_OPTIONS:MVTE}
-CONFIGURE_ARGS+=	--flags="vte"
-.else
-CONFIGURE_ARGS+=	--flags="-vte"
-.endif
-
-.if ${PORT_OPTIONS:MVTY}
-CONFIGURE_ARGS+=	--flags="vty"
-.else
-CONFIGURE_ARGS+=	--flags="-vty"
-.endif
+VTY_FLAG_ENABLE=	vty
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
