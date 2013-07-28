@@ -20,68 +20,37 @@ EXECUTABLE=	darcs
 
 MAN1=		darcs.1
 
-OPTIONS_DEFINE=		STATIC TERMINFO THREADED COLOR MMAP
-OPTIONS_MULTI=		HTTP
-OPTIONS_MULTI_HTTP=	CURL HTTP
-OPTIONS_DEFAULT=	CURL THREADED
+FLAGS_DEFINE=		STATIC TERMINFO THREADED COLOR MMAP
+FLAGS_MULTI=		CURL HTTP
+FLAGS_MULTI_HTTP=	CURL HTTP
+FLAGS_DEFAULT=		CURL THREADED
+FLAGS_ENABLE=		library executable
 
 CURL_DESC=		Use libcurl for HTTP support
+CURL_FLAG_ENABLE=	curl
+CURL_FLAG_LIB=		curl:${PORTSDIR}/ftp/curl
+
 HTTP_DESC=		Use the pure HTTP package
+HTTP_FLAG_ENABLE=	http
+HTTP_FLAG_CABAL=	HTTP>=4000.0.8 network>=2.2
+
 STATIC_DESC=		Build static binary
+STATIC_FLAG_ENABLE=	static
+
 TERMINFO_DESC=		Use the terminfo package
+TERMINFO_FLAG_ENABLE=	terminfo
+TERMINFO_FLAG_CABAL=	terminfo>=0.3
+
 THREADED_DESC=		Use threading and SMP support
+THREADED_FLAG_ENABLE=	threaded
+
 COLOR_DESC=		Use ANSI color escapes
+COLOR_FLAG_ENABLE=	color
+
 MMAP_DESC=		Compile with mmap support
+MMAP_FLAG_ENABLE=	mmap
+MMAP_FLAG_CABAL=	mmap>=0.5
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-CONFIGURE_ARGS+=	--flags="library executable"
-
-.if ${PORT_OPTIONS:MCURL}
-CONFIGURE_ARGS+=	--flags="curl"
-LIB_DEPENDS+=		curl:${PORTSDIR}/ftp/curl
-.else
-CONFIGURE_ARGS+=	--flags="-curl"
-.endif
-
-.if ${PORT_OPTIONS:MHTTP}
-CONFIGURE_ARGS+=	--flags="http"
-USE_CABAL+=		HTTP>=4000.0.8 network>=2.2
-.else
-CONFIGURE_ARGS+=	--flags="-http"
-.endif
-
-.if ${PORT_OPTIONS:MSTATIC}
-CONFIGURE_ARGS+=	--flags="static"
-.else
-CONFIGURE_ARGS+=	--flags="-static"
-.endif
-
-.if ${PORT_OPTIONS:MTERMINFO}
-CONFIGURE_ARGS+=	--flags="terminfo"
-USE_CABAL+=		terminfo>=0.3
-.else
-CONFIGURE_ARGS+=	--flags="-terminfo"
-.endif
-
-.if ${PORT_OPTIONS:MTHREADED}
-CONFIGURE_ARGS+=	--flags="threaded"
-.else
-CONFIGURE_ARGS+=	--flags="-threaded"
-.endif
-
-.if ${PORT_OPTIONS:MCOLOR}
-CONFIGURE_ARGS+=	--flags="color"
-.else
-CONFIGURE_ARGS+=	--flags="-color"
-.endif
-
-.if ${PORT_OPTIONS:MMMAP}
-CONFIGURE_ARGS+=	--flags="mmap"
-USE_CABAL+=		mmap>=0.5
-.else
-CONFIGURE_ARGS+=	--flags="-mmap"
-.endif
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
