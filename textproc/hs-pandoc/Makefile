@@ -27,17 +27,10 @@ RUN_DEPENDS+=	latex-ifluatex>=1.3:${PORTSDIR}/print/latex-ifluatex \
 MAN1=		pandoc.1
 MAN5=		pandoc_markdown.5
 
-OPTIONS_DEFINE=		EMBED_DATA_FILES
+FLAGS_DEFINE=			EMBED_DATA_FILES
 
-EMBED_DATA_FILES_DESC=	Embed data files in binary for relocatable executable
-
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-.if ${PORT_OPTIONS:MEMBED_DATA_FILES}
-CONFIGURE_ARGS+=	--flags="embed_data_files"
-.else
-CONFIGURE_ARGS+=	--flags="-embed_data_files"
-.endif
+EMBED_DATA_FILES_DESC=		Embed data files in binary for relocatable executable
+EMBED_DATA_FILES_FLAG_ENABLE=	embed_data_files
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
