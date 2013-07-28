@@ -10,7 +10,7 @@ COMMENT=	Simple ANSI terminal support, with Windows compatibility
 
 LICENSE=	BSD
 
-CONFIGURE_ARGS+=	--flags="-Example"
+FLAGS_DISABLE=	Example
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
