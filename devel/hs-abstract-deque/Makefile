@@ -11,18 +11,12 @@ LICENSE=	BSD
 
 USE_CABAL=	HUnit random test-framework>=0.6 test-framework-hunit>=0.2.7
 
-OPTIONS_DEFINE=	USECAS
+FLAGS_DEFINE=	USECAS
 
-USECAS_DESC=	Use hardware compare-and-swap
+USECAS_DESC=		Use hardware compare-and-swap
+USECAS_FLAG_ENABLE=	useCAS
+USECAS_FLAG_CABAL=	IORefCas>=0.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-.if ${PORT_OPTIONS:MUSECAS}
-CONFIGURE_ARGS+=	--flags="useCAS"
-USE_CABAL+=		IORefCas>=0.2
-.else
-CONFIGURE_ARGS+=	--flags="-useCAS"
-.endif
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
