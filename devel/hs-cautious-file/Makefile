@@ -9,18 +9,11 @@ COMMENT=	Ways to write a file cautiously
 
 LICENSE=	BSD
 
-OPTIONS_DEFINE=		POSIX
-OPTIONS_DEFAULT=	POSIX
+FLAGS_DEFINE=		POSIX
+FLAGS_DEFAULT=		POSIX
 
 POSIX_DESC=		Use POSIX-specific features
-
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
-
-.if ${PORT_OPTIONS:MPOSIX}
-CONFIGURE_ARGS+=	--flags="posix"
-.else
-CONFIGURE_ARGS+=	--flags="-posix"
-.endif
+POSIX_FLAG_ENABLE=	posix
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
