@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	derive
-PORTVERSION=	2.5.11
+PORTVERSION=	2.5.12
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A program and library to derive instances for data types
+COMMENT=	Program and library to derive instances for data types
 
 LICENSE=	BSD
 
