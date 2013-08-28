@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cryptocipher
-PORTVERSION=	0.5.0
+PORTVERSION=	0.5.2
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Symmetrical Block, Stream, and PubKey Ciphers
+COMMENT=	Symmetrical block and stream ciphers
 
 LICENSE=	BSD
 
