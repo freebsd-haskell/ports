@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	angel
-PORTVERSION=	0.4.3
+PORTVERSION=	0.4.4
 CATEGORIES=	sysutils haskell
 
 MAINTAINER=	haskell@FreeBSD.org
