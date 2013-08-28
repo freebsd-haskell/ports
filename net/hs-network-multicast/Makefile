@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	network-multicast
-PORTVERSION=	0.0.7
-PORTREVISION=	2
+PORTVERSION=	0.0.8
 CATEGORIES=	net haskell
 
 MAINTAINER=	haskell@FreeBSD.org
