@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	4.20130723
+PORTVERSION=	4.20130827
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,7 +14,7 @@ USE_CABAL=	MissingH hslogger utf8-string network>=2.0 mtl>=2 HTTP \
 		extensible-exceptions dataenc SHA json monad-control \
 		MonadCatchIO-transformers IfElse text QuickCheck>=2.1 \
 		bloomfilter edit-distance SafeSemaphore uuid random \
-		dlist unix-compat
+		dlist unix-compat aeson
 
 USE_GMAKE=		yes
 USE_PERL5_BUILD=	yes
@@ -30,7 +30,7 @@ RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 EXECUTABLE=	git-annex git-annex-shell
 STANDALONE=	yes
 
-FLAGS_DEFINE=	S3 ASSISTANT INOTIFY WEBAPP PAIRING PRODUCTION TDFA
+FLAGS_DEFINE=	S3 ASSISTANT INOTIFY WEBAPP PAIRING PRODUCTION TDFA FEED
 FLAGS_DEFAULT=	S3 ASSISTANT
 
 S3_DESC=		S3 support
@@ -52,7 +52,7 @@ WEBAPP_FLAG_ENABLE=	Webapp
 WEBAPP_FLAG_CABAL=	yesod yesod-static yesod-static yesod-form yesod-core \
 			case-insensitive http-types transformers wai \
 			wai-logger warp blaze-builder crypto-api hamlet \
-			clientsession aeson data-default
+			clientsession data-default
 
 PAIRING_DESC=           Enable pairing (requires web application)
 PAIRING_FLAG_DEPENDS=   WEBAPP
@@ -65,6 +65,10 @@ PRODUCTION_FLAG_ENABLE=	Production
 TDFA_DESC=		Use regex-tdfa for wildcards
 TDFA_FLAG_ENABLE=	TDFA
 TDFA_FLAG_CABAL=	regex-tdfa
+
+FEED_DESC=		Podcast feed support
+FEED_FLAG_ENABLE=	Feed
+FEED_FLAG_CABAL=	feed
 
 FLAGS_DISABLE=		XMPP DNS WebDAV
 
