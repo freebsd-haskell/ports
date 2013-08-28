@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	c2hs
-PORTVERSION=	0.16.4
-PORTREVISION=	2
+PORTVERSION=	0.16.5
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,7 +10,7 @@ COMMENT=	C->Haskell tool that gives some cross-language type safety
 
 LICENSE=	GPLv2
 
-USE_CABAL=	language-c>=0.3.1.1
+USE_CABAL=	language-c>=0.4.2
 
 XMLDOCS=	doc/users_guide:html
 
