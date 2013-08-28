@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	texmath
-PORTVERSION=	0.6.1.5
+PORTVERSION=	0.6.4
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -10,7 +10,7 @@ COMMENT=	Conversion of LaTeX math formulas to MathML or OMML
 
 LICENSE=	GPLv2
 
-USE_CABAL=	parsec>=3 syb xml
+USE_CABAL=	pandoc-types parsec>=3 syb xml
 
 FLAGS_DEFINE=		CGI
 
