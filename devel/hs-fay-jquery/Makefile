@@ -1,15 +1,15 @@
 # $FreeBSD$
 
 PORTNAME=	fay-jquery
-PORTVERSION=	0.3.0.0
+PORTVERSION=	0.4.0.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	jQuery binding
+COMMENT=	jQuery bindings for Fay
 
 LICENSE=	BSD
 
-USE_CABAL=	fay-base>=0.14.1.0
+USE_CABAL=	fay-base>=0.17 fay-text>=0.1
 
 IGNORE_DYNAMIC=	yes
 
