@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	language-ecmascript
-PORTVERSION=	0.15
+PORTVERSION=	0.15.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	JavaScript analysis tools
+COMMENT=	JavaScript parser and pretty-printer library
 
 LICENSE=	BSD
 
