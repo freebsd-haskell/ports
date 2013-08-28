@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	cpphs
-PORTVERSION=	1.16
-PORTREVISION=	1
+PORTVERSION=	1.17.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
