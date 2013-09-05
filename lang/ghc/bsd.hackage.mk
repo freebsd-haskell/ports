@@ -262,6 +262,7 @@ libxml_port=			textproc/hs-libxml
 libxml-sax_port=		textproc/hs-libxml-sax
 List_port=			devel/hs-List
 ListLike_port=			devel/hs-ListLike
+llvm-general-pure_port=		lang/hs-llvm-general-pure
 logict_port=			devel/hs-logict
 ltk_port=				devel/hs-ltk
 maccatcher_port=		net/hs-maccatcher
