@@ -31,12 +31,11 @@ USE_PERL5_BUILD=	yes
 USE_GMAKE=		yes
 USES=			iconv ncurses
 USE_BINUTILS=		yes
-USE_GCC=		4.6+
+USE_GCC=		yes
 
 LICENSE=	BSD
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-MAKE_JOBS_SAFE=	yes
 MAKE_ENV=	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 
 # The configure process accepts,filters and canonicalises
