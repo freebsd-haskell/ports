@@ -300,12 +300,12 @@ add-plist-cabal:
 .if !defined(METAPORT)
 	@if [ -f ${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}/register.sh ]; then \
 		(${ECHO_CMD} '@exec ${SH} %D/${CABAL_LIBDIR_REL}/${CABAL_LIBSUBDIR}/register.sh'; \
-		 ${ECHO_CMD} '@unexec %D/bin/ghc-pkg unregister --force ${PORTNAME}-${PORTVERSION}') >> ${TMPPLIST}; fi
+		 ${ECHO_CMD} '@unexec ${LOCALBASE}/bin/ghc-pkg unregister --force ${PORTNAME}-${PORTVERSION}') >> ${TMPPLIST}; fi
 .if defined(HADDOCK_AVAILABLE) && ${PORT_OPTIONS:MDOCS}
-	@(${ECHO_CMD} '@exec if [ -f %D/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ]; then ${LN} -s ${DOCSDIR}/html %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME} && \
-		cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index; fi' ; \
-	  ${ECHO_CMD} '@unexec ${RM} -f %D/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \
-	  ${ECHO_CMD} '@unexec if [ -f %D/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ]; then cd %D/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index; fi') >>${TMPPLIST};
+	@(${ECHO_CMD} '@exec if [ -f ${LOCALBASE}/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ]; then ${LN} -s ${DOCSDIR}/html ${LOCALBASE}/${GHC_LIB_DOCSDIR_REL}/${DISTNAME} && \
+		cd ${LOCALBASE}/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index; fi' ; \
+	  ${ECHO_CMD} '@unexec ${RM} -f ${LOCALBASE}/${GHC_LIB_DOCSDIR_REL}/${DISTNAME}' ; \
+	  ${ECHO_CMD} '@unexec if [ -f ${LOCALBASE}/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ]; then cd ${LOCALBASE}/${GHC_LIB_DOCSDIR_REL} && ${RM} -f doc-index*.html && ./gen_contents_index; fi') >>${TMPPLIST};
 .endif
 .else
 	${DO_NADA}
@@ -314,9 +314,9 @@ add-plist-cabal:
 post-install::
 .if !defined(METAPORT)
 .if defined(HADDOCK_AVAILABLE) && ${PORT_OPTIONS:MDOCS}
-	@if [ -f ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ]; then \
-		${LN} -s ${DOCSDIR}/html ${PREFIX}/${GHC_LIB_DOCSDIR_REL}/${DISTNAME} && \
-		cd ${PREFIX}/${GHC_LIB_DOCSDIR_REL} && \
+	@if [ -f ${LOCALBASE}/${GHC_LIB_DOCSDIR_REL}/gen_contents_index ]; then \
+		${LN} -s ${DOCSDIR}/html ${LOCALBASE}/${GHC_LIB_DOCSDIR_REL}/${DISTNAME} && \
+		cd ${LOCALBASE}/${GHC_LIB_DOCSDIR_REL} && \
 		${RM} -f doc-index*.html && ./gen_contents_index; \
 	fi
 .endif
