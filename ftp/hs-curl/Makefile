@@ -1,4 +1,4 @@
-# $FreeBSD: head/ftp/hs-curl/Makefile 322783 2013-07-11 16:26:26Z sunpoet $
+# $FreeBSD$
 
 PORTNAME=	curl
 PORTVERSION=	1.3.8
