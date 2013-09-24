@@ -9,6 +9,8 @@
 # Maintained by: haskell@FreeBSD.org
 #
 
+NO_STAGE=	yes
+
 .if !defined(METAPORT)
 MASTER_SITES?=	http://hackage.haskell.org/packages/archive/${PORTNAME}/${PORTVERSION}/
 .else
@@ -137,7 +139,8 @@ RUN_DEPENDS+=	${dependencies}
 .endif
 
 .if defined(USE_GHC_NATIVE)
-USE_PERL5_BUILD=	5.8+
+USES+=		perl5
+USE_PERL5=	build
 .endif
 
 .if ${PORT_OPTIONS:MDOCS}
