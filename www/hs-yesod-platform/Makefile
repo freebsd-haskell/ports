@@ -2,6 +2,8 @@
 
 PORTNAME=	yesod-platform
 PORTVERSION=	1.2.3
+# Please note that the port *strictly depends* on certain versions of other
+# ports, so revisit the USE_CABAL line on bumping the portrevision.  Thanks!
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
