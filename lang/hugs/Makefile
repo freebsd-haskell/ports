@@ -24,6 +24,7 @@ CONFIGURE_ARGS+=	--with-pthreads
 
 OPTIONS_DEFINE=		X11
 
+NO_STAGE=	yes
 .include <bsd.port.options.mk>
 
 .if ${ARCH} == "ia64"
