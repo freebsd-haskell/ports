@@ -9,7 +9,7 @@ COMMENT=	A binding to libffi
 
 LICENSE=	BSD
 
-BUILD_DEPENDS=pkg-config:${PORTSDIR}/devel/pkgconf
+USES=		pkgconfig
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
