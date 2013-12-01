@@ -1,8 +1,8 @@
 # $FreeBSD$
 
 PORTNAME=	llvm-general-pure
-PORTVERSION=	3.3.8.0
-CATEGORIES=	lang haskell
+PORTVERSION=	3.3.8.2
+CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Pure Haskell LLVM functionality (no FFI)

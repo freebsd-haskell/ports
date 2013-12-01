@@ -1,0 +1,12 @@
+--- llvm/Makefile.orig	2013-11-29 22:36:02.437794941 +0100
++++ llvm/Makefile		2013-11-15 00:44:09.640356738 +0100
+@@ -1,6 +1,9 @@
+ include ../config.mk
+ 
+ CFLAGS:=-Wextra -fPIC -Wno-unused-parameter $(CFLAGS)
++ifneq ($(GMP_INCLUDE_DIR),)
++	CFLAGS += -isystem $(GMP_INCLUDE_DIR)
++endif
+ SOURCES=defs.c
+ OBJECTS=$(SOURCES:.c=.o)
+ LIB=libidris_rts.a

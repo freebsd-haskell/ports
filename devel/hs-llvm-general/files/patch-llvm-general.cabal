@@ -1,0 +1,11 @@
+--- llvm-general.cabal     2013-11-29 21:59:05.244644119 +0100
++++ llvm-general.cabal 	   2013-11-15 00:23:16.667358018 +0100
+@@ -49,7 +49,7 @@
+   default: False
+ 
+ library
+-  build-tools: llvm-config
++  build-tools: llvm-config33
+   ghc-options: -fwarn-unused-imports
+   build-depends: 
+     base >= 4.5.0.0 && < 5,

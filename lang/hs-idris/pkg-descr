@@ -1,0 +1,23 @@
+Idris is a general purpose language with full dependent types.  It is
+compiled, with eager evaluation.  Dependent types allow types to be
+predicated on values, meaning that some aspects of a program's behaviour
+can be specified precisely in the type.  The language is closely related
+to Epigram and Agda.
+
+Features include:
+
+  * Full dependent types with dependent pattern matching.
+  * where clauses, with rule, simple case expressions, pattern matching let
+    and lambda bindings.
+  * Type classes, monad comprehensions.
+  * do notation, idiom brackets, syntactic conveniences for lists, tuples,
+    dependent pairs.
+  * Totality checking.
+  * Coinductive types.
+  * Indentation significant syntax, extensible syntax.
+  * Tactic-based theorem proving (influenced by Coq).
+  * Cumulative universes.
+  * Simple Foreign Function interface (to C).
+  * Hugs style interactive environment.
+
+WWW: http://www.idris-lang.org/

@@ -1,0 +1,4 @@
+A modern parser combinator library with slicing and Clang-style colored
+diagnostics.
+
+WWW: http://github.com/ekmett/trifecta/
