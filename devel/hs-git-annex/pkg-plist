@@ -5,7 +5,6 @@ share/icons/hicolor/16x16/apps/git-annex.png
 share/icons/hicolor/scalable/apps/git-annex.svg
 @dirrmtry etc/xdg/autostart
 @dirrmtry etc/xdg
-@dirrmtry share/applications
 @dirrmtry share/icons/hicolor/scalable/apps
 @dirrmtry share/icons/hicolor/scalable
 @dirrmtry share/icons/hicolor/16x16/apps

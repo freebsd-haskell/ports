@@ -16,9 +16,12 @@ USE_CABAL=	MissingH hslogger utf8-string network>=2.0 mtl>=2 HTTP \
 		bloomfilter edit-distance SafeSemaphore uuid random \
 		dlist unix-compat aeson
 
-USE_GMAKE=		yes
-USES=		perl5
+USES=		perl5 gmake
 USE_PERL5=	build
+
+MAN1=		git-annex.1 git-annex-shell.1
+
+MAKE_ENV+=	DESTDIR=${STAGEDIR}
 
 BUILD_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 		git:${PORTSDIR}/devel/git \

@@ -13,8 +13,7 @@ LICENSE=	BSD
 
 USE_CABAL=	text
 
-INSTALL_PORTDATA=	cd ${WRKSRC} && \
-			  ${INSTALL_DATA} ${WRKSRC}/tagsoup.htm ${DATADIR}
+INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/tagsoup.htm ${STAGEDIR}${DATADIR}
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
