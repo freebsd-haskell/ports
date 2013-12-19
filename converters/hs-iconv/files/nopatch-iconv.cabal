@@ -1,0 +1,11 @@
+--- ./iconv.cabal.orig	2012-10-31 22:15:56.000000000 +0100
++++ ./iconv.cabal	2013-12-19 21:16:08.000000000 +0100
+@@ -26,7 +26,7 @@
+   includes:        hsiconv.h
+   include-dirs:    cbits
+   c-sources:       cbits/hsiconv.c
+-  if os(darwin) || os(freebsd)
++  if os(darwin)
+     -- on many systems the iconv api is part of the standard C library
+     -- but on some others we have to link to an external libiconv:
+     extra-libraries: iconv
