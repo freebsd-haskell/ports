@@ -1,0 +1,12 @@
+Instances for Binary for the types defined in the vector package, making
+it easy to serialize vectors to and from disk. We use the generic interface
+to vectors, so all vector types are supported. Specific instances are
+provided for unboxed, boxed and storable vectors. To serialize a vector:
+> *Data.Vector.Binary> let v = Data.Vector.fromList [1..10] > *Data.Vector.Binary>
+v > fromList [1,2,3,4,5,6,7,8,9,10] :: Data.Vector.Vector > *Data.Vector.Binary>
+encode v > Chunk "\NUL\NUL\NUL\NUL\NUL...\NUL\NUL\NUL\t\NUL\NUL\NUL\NUL\n"
+Empty Which you can in turn compress before writing to disk: > compress
+. encode $ v > Chunk "\US\139\b\NUL\NUL\N...\229\240,\254:\NUL\NUL\NUL"
+Empty
+
+WWW: https://github.com/bos/vector-binary-instances

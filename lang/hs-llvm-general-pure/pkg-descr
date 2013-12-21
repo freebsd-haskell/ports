@@ -1,6 +1,0 @@
-llvm-general-pure is a set of pure Haskell types and functions for
-interacting with LLVM. It includes an ADT to represent LLVM IR.
-The llvm-general package builds on this one with FFI bindings to
-LLVM, but llvm-general-pure does not require LLVM to be available.
-
-WWW: http://hackage.haskell.org/package/llvm-general-pure
