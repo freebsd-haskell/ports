@@ -238,6 +238,7 @@ hxt-charproperties_port=	textproc/hs-hxt-charproperties
 hxt-regex-xmlschema_port=	textproc/hs-hxt-regex-xmlschema
 hxt-unicode_port=		textproc/hs-hxt-unicode
 iconv_port=			converters/hs-iconv
+idris_port=			lang/hs-idris		# executable
 ieee754_port=			math/hs-ieee754
 IfElse_port=			devel/hs-IfElse
 io-storage_port=		devel/hs-io-storage
