@@ -473,6 +473,7 @@ wai-test_port=			www/hs-wai-test
 warp_port=			www/hs-warp
 webdriver_port=			www/hs-webdriver
 webkit_port=			www/hs-webkit
+wl-pprint_port=			devel/hs-wl-pprint
 wl-pprint-text_port=		textproc/hs-wl-pprint-text
 word8_port=			devel/hs-word8
 wx_port=			x11-toolkits/hs-wx

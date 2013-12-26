@@ -1,0 +1,4 @@
+This is a pretty printing library based on Wadler's paper "A Prettier
+Printer".
+
+WWW: http://hackage.haskell.org/package/wl-pprint
