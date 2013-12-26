@@ -285,6 +285,7 @@ mmap_port=			devel/hs-mmap
 mmorph_port=			devel/hs-mmorph
 monad-control_port=		devel/hs-monad-control
 monad-logger_port=		devel/hs-monad-logger
+monad-loops_port=		devel/hs-monad-loops
 monad-par_port=			devel/hs-monad-par
 monad-par-extras_port=		devel/hs-monad-par-extras
 MonadCatchIO-mtl_port=		devel/hs-MonadCatchIO-mtl
