@@ -8,8 +8,7 @@ facilities offered by Haskell and easily support much larger projects.
 The Shake library provides all the standard features available in other
 build systems, including automatic parallelism and minimal rebuilds. Shake
 provides highly accurate dependency tracking, including seamless support
-for generated files, and dependencies on system information (i.e. compiler
-version). Shake can produce profile reports, indicating which files and
-take longest to build, and providing an analysis of the parallelism.
+for generated files, and dependencies on system information (e.g. compiler
+version).
 
-WWW: http://community.haskell.org/~ndm/shake/
+WWW: https://github.com/ndmitchell/shake
