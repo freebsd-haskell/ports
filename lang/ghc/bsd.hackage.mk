@@ -219,6 +219,7 @@ hostname_port=			net/hs-hostname
 hs-bibutils_port=		textproc/hs-hs-bibutils
 hS3_port=			www/hs-hS3		# executable
 hscolour_port=			print/hs-hscolour	# executable
+hse-cpp_port=			devel/hs-hse-cpp
 hslogger_port=			devel/hs-hslogger
 HsOpenSSL_port=			security/hs-HsOpenSSL
 hspec_port=			devel/hs-hspec
