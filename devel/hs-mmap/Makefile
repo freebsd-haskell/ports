@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	mmap
-PORTVERSION=	0.5.8
-PORTREVISION=	4
+PORTVERSION=	0.5.9
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
