@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	bifunctors
-PORTVERSION=	3.2.0.1
-PORTREVISION=	2
+PORTVERSION=	4.1.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Haskell 98 bifunctors
+COMMENT=	Bifunctors
 
 LICENSE=	BSD
 
