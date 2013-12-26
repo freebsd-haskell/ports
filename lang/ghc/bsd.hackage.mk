@@ -441,6 +441,7 @@ tls-extra_port=			security/hs-tls-extra
 transformers_port=		devel/hs-transformers
 transformers-base_port=		devel/hs-transformers-base
 trifecta_port=			textproc/hs-trifecta
+type-eq_port=			devel/hs-type-eq
 type-level_port=		devel/hs-type-level
 TypeCompose_port=		devel/hs-TypeCompose
 unamb_port=			devel/hs-unamb

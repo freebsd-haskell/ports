@@ -1,0 +1,4 @@
+This package provides types and functions to store and manipulate evidence
+of equality between types.
+
+WWW: http://github.com/glaebhoerl/type-eq
