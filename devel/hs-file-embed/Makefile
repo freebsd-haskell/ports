@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	file-embed
-PORTVERSION=	0.0.4.9
+PORTVERSION=	0.0.6
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
