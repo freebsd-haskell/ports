@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	hspec
-PORTVERSION=	1.6.1
+PORTVERSION=	1.8.1.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
