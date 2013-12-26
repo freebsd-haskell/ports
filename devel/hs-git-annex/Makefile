@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	4.20130827
+PORTVERSION=	5.20131221
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -35,7 +35,7 @@ EXECUTABLE=	git-annex git-annex-shell
 STANDALONE=	yes
 
 FLAGS_DEFINE=	S3 ASSISTANT INOTIFY WEBDAV WEBAPP PAIRING XMPP DNS PRODUCTION \
-		TDFA FEED
+		TDFA FEED QUVI CRYPTOHASH EKG
 FLAGS_DEFAULT=	S3 ASSISTANT
 
 S3_DESC=		S3 support
@@ -88,6 +88,18 @@ WEBDAV_FLAG_CABAL=	DAV>=0.3 http-conduit xml-conduit http-types
 FEED_DESC=		Podcast feed support
 FEED_FLAG_ENABLE=	Feed
 FEED_FLAG_CABAL=	feed
+
+QUVI_DESC=		quvi to download videos
+QUVI_FLAG_ENABLE=	Quvi
+QUVI_FLAG_CABAL=	aeson
+
+CRYPTOHASH_DESC=	cryptohash for checksumming
+CRYPTOHASH_FLAG_ENABLE=	CryptoHash
+CRYPTOHASH_FLAG_CABAL=	cryptohash>=0.10.0
+
+EKG_DESC=		EKG for run-time monitoring
+EKG_FLAG_ENABLE=	EKG
+EKG_FLAG_CABAL=		ekg
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
