@@ -459,6 +459,7 @@ vault_port=			devel/hs-vault
 vector_port=			devel/hs-vector
 vector-algorithms_port=		devel/hs-vector-algorithms
 vector-binary-instances_port=	devel/hs-vector-binary-instances
+vector-instances_port=		devel/hs-vector-instances
 vector-space_port=		math/hs-vector-space
 void_port=			devel/hs-void
 vte_port=			x11-toolkits/hs-vte
