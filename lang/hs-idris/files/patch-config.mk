@@ -1,9 +1,11 @@
---- config.mk.orig	2013-11-29 22:36:02.422787010 +0100
-+++ config.mk		2013-11-15 00:42:41.748357392 +0100
-@@ -1,4 +1,4 @@
--GMP_INCLUDE_DIR :=
-+GMP_INCLUDE_DIR := %%LOCALBASE%%
- CC              :=gcc
- CABAL           :=cabal
- CFLAGS          :=-O2 -Wall $(CFLAGS)
-diff -ru idris-0.9.9.3/idris.cabal idris-0.9.9.3_mod/idris.cabal
+--- config.mk.orig	2013-12-03 00:35:51.000000000 +0100
++++ config.mk	2013-12-27 00:46:02.000000000 +0100
+@@ -8,7 +8,7 @@
+ ifneq (, $(findstring bsd, $(MACHINE)))
+ 	GMP_INCLUDE_DIR      :=
+ else
+-	GMP_INCLUDE_DIR      :=-I/usr/local/include
++	GMP_INCLUDE_DIR      :=-I%%LOCALBASE%%/include
+ endif
+ 
+ MACHINE         := $(shell $(CC) -dumpmachine)
