@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	optparse-applicative
-PORTVERSION=	0.5.2.1
-PORTREVISION=	2
+PORTVERSION=	0.7.0.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
