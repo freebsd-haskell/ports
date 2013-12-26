@@ -1,0 +1,3 @@
+Implementation of source maps, revision 3, proposed by Google and Mozilla.
+
+WWW: http://hackage.haskell.org/package/sourcemap

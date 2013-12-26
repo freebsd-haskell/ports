@@ -403,6 +403,7 @@ snap-server_port=		www/hs-snap-server	# lib_depends
 snaplet-fay_port=		www/hs-snaplet-fay
 socks_port=			net/hs-socks
 soegtk_port=			graphics/hs-soegtk
+sourcemap_port=			devel/hs-sourcemap
 split_port=			devel/hs-split
 StateVar_port=			devel/hs-StateVar
 statistics_port=		math/hs-statistics
