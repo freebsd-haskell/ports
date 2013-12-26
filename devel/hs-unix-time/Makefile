@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	unix-time
-PORTVERSION=	0.2.0
+PORTVERSION=	0.2.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
