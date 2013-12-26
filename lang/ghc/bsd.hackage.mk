@@ -292,6 +292,7 @@ monadcryptorandom_port=		security/hs-monadcryptorandom
 monadLib_port=			devel/hs-monadLib
 MonadRandom_port=		devel/hs-MonadRandom
 monads-tf_port=			devel/hs-monads-tf
+mono-traversable_port=		devel/hs-mono-traversable
 mtl_port=			devel/hs-mtl
 mueval_port=			devel/hs-mueval		# executable
 murmur-hash_port=		devel/hs-murmur-hash
