@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	plugins
-PORTVERSION=	1.5.3.0
+PORTVERSION=	1.5.4.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
