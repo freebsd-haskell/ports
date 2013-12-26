@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	hlint
-PORTVERSION=	1.8.51
+PORTVERSION=	1.8.55
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -9,7 +9,7 @@ COMMENT=	Source code suggestions
 
 LICENSE=	BSD
 
-USE_CABAL=	cpphs>=1.11 haskell-src-exts>=1.11 hscolour>=1.17 \
+USE_CABAL=	cpphs>=1.11 haskell-src-exts>=1.14 hscolour>=1.17 \
 		transformers>=0.0 uniplate>=1.5
 
 EXECUTABLE=	hlint
