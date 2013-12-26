@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	aeson
-PORTVERSION=	0.6.1.0
-PORTREVISION=	3
+PORTVERSION=	0.6.2.1
 CATEGORIES=	converters haskell
 
 MAINTAINER=	haskell@FreeBSD.org
