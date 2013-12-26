@@ -404,6 +404,7 @@ split_port=			devel/hs-split
 StateVar_port=			devel/hs-StateVar
 statistics_port=		math/hs-statistics
 stm_port=			devel/hs-stm
+stm-chans_port=			devel/hs-stm-chans
 Stream_port=			devel/hs-Stream
 streams_port=			math/hs-streams
 strict_port=			devel/hs-strict
