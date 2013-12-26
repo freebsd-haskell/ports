@@ -1,0 +1,7 @@
+This is a generic programming library in the spirit of "Scrap your
+boilerplate with class", but with several improvements -- most notably,
+it's based on the gtraverse function instead of gfoldl.  gtraverse is
+equivalent in power to gfoldl, but lets you more easily write
+non-standard views of the data type.
+
+WWW: http://hackage.haskell.org/package/traverse-with-class

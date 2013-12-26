@@ -440,6 +440,7 @@ tls_port=			security/hs-tls
 tls-extra_port=			security/hs-tls-extra
 transformers_port=		devel/hs-transformers
 transformers-base_port=		devel/hs-transformers-base
+traverse-with-class_port=	devel/hs-traverse-with-class
 trifecta_port=			textproc/hs-trifecta
 type-eq_port=			devel/hs-type-eq
 type-level_port=		devel/hs-type-level
