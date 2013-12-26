@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	fay
-PORTVERSION=	0.17.0.0
+PORTVERSION=	0.18.1.3
 CATEGORIES=	lang haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -9,11 +9,12 @@ COMMENT=	Compiler for Fay, a Haskell subset that compiles to JavaScript
 
 LICENSE=	BSD
 
-USE_CABAL=	aeson attoparsec data-default ghc-paths haskeline \
+USE_CABAL=	aeson attoparsec cpphs data-default ghc-paths \
+		haskell-names>=0.3.1 haskell-packages>=0.2.3.1 \
 		haskell-src-exts>=1.14 HUnit language-ecmascript>=0.15 mtl \
-		optparse-applicative>=0.5 pretty-show>=1.6 safe split syb \
-		test-framework test-framework-hunit test-framework-th \
-		text unordered-containers utf8-string vector
+		optparse-applicative>=0.6 pretty-show>=1.6 safe sourcemap \
+		split syb test-framework test-framework-hunit test-framework-th \
+		text uniplate>=1.6.11 unordered-containers utf8-string vector
 
 EXECUTABLE=	fay fay-tests
 IGNORE_DYNAMIC=	yes
