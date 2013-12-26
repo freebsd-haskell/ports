@@ -2,12 +2,11 @@
 # $FreeBSD$
 
 PORTNAME=	dlist
-PORTVERSION=	0.5
-PORTREVISION=	10
+PORTVERSION=	0.6.0.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	List-like type supporting O(1) append for Haskell
+COMMENT=	Difference lists
 
 LICENSE=	BSD
 
