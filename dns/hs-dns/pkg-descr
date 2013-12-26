@@ -1,3 +1,4 @@
-DNS library for clients and servers.
+A thread-safe DNS library for both clients and servers written in pure
+Haskell.
 
 WWW: http://hackage.haskell.org/package/dns
