@@ -2,13 +2,13 @@
 # $FreeBSD$
 
 PORTNAME=	Agda
-PORTVERSION=	2.3.2.1
+PORTVERSION=	2.3.2.2
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Dependently typed functional programming language and proof assistant
 
-USE_CABAL=	geniplate>=0.6.0.3 hashable>=1.1.2.3 hashtables \
+USE_CABAL=	geniplate>=0.6.0.3 hashable hashtables>=1.0 \
 		haskeline>=0.6.3.2 haskell-src-exts>=1.9.6 mtl \
 		QuickCheck>=2.3 parallel text unordered-containers \
 		xhtml zlib>=0.4.0.1
