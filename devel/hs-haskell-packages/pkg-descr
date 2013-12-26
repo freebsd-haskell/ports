@@ -1,0 +1,6 @@
+There are two cases when you may need haskell-packages: if you are
+writing a Haskell compiler (or any tool that processes Haskell source
+code, such as a static analyzer), or if you want to integrate with an
+existing Haskell compiler that uses haskell-packages.
+
+WWW: http://documentup.com/haskell-suite/haskell-packages

@@ -199,6 +199,7 @@ hashed-storage_port=		devel/hs-hashed-storage
 hashtables_port=		devel/hs-hashtables
 haskeline_port=			devel/hs-haskeline
 haskell-lexer_port=		devel/hs-haskell-lexer
+haskell-packages_port=		devel/hs-haskell-packages
 haskell-src_port=		devel/hs-haskell-src
 haskell-src-exts_port=		devel/hs-haskell-src-exts
 haskell-xmpp_port=		net-im/hs-haskell-xmpp
