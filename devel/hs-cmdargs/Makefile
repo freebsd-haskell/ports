@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cmdargs
-PORTVERSION=	0.10.5
+PORTVERSION=	0.10.7
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Command line argument processing
+COMMENT=	Command-line argument processing
 
 LICENSE=	BSD
 
