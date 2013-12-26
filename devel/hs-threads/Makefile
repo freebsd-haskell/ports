@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	threads
-PORTVERSION=	0.5.0.2
-PORTREVISION=	2
+PORTVERSION=	0.5.0.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
