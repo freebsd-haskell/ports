@@ -1,0 +1,20 @@
+--- ./yesod-platform.cabal.orig	2013-12-13 08:01:21.000000000 +0100
++++ ./yesod-platform.cabal	2013-12-27 13:23:29.000000000 +0100
+@@ -90,7 +90,7 @@
+                  , persistent == 1.2.3.0
+                  , persistent-template == 1.2.0.6
+                  , pool-conduit == 0.1.2
+-                 , primitive == 0.5.1.0
++                 , primitive == 0.5.0.1
+                  , process-conduit == 1.0.0.1
+                  , publicsuffixlist == 0.1
+                  , pureMD5 == 2.1.2.1
+@@ -125,7 +125,7 @@
+                  , unordered-containers == 0.2.3.3
+                  , utf8-light == 0.4.2
+                  , utf8-string == 0.3.7
+-                 , vector == 0.10.9.1
++                 , vector == 0.10.0.1
+                  , void == 0.6.1
+                  , wai == 2.0.0
+                  , wai-app-static == 2.0.0.2
