@@ -180,7 +180,6 @@ GLUT_port=			x11-toolkits/hs-GLUT
 gnuidn_port=			net/hs-gnuidn
 gnutls_port=			security/hs-gnutls
 graphviz_port=			graphics/hs-graphviz
-groupoids_port=			math/hs-groupoids
 gsasl_port=			net/hs-gsasl
 gstreamer_port=			multimedia/hs-gstreamer
 gtk_port=			x11-toolkits/hs-gtk
