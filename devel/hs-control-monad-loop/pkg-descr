@@ -1,0 +1,4 @@
+A library of looping constructs with 'continue' and 'exit' control flow
+statements.
+
+WWW: https://github.com/joeyadams/haskell-control-monad-loop

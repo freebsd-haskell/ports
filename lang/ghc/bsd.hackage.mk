@@ -89,6 +89,7 @@ ConfigFile_port=		devel/hs-ConfigFile
 configurator_port=		devel/hs-configurator
 connection_port=		net/hs-connection
 contravariant_port=		math/hs-contravariant
+control-monad-loop_port=	devel/hs-control-monad-loop
 convertible_port=		devel/hs-convertible
 cookie_port=			www/hs-cookie
 colour_port=			graphics/hs-colour
