@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	pandoc
-PORTVERSION=	1.11.1
-PORTREVISION=	3
+PORTVERSION=	1.12.2.1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,12 +10,17 @@ COMMENT=	Conversion between markup formats
 
 LICENSE=	GPLv2
 
-USE_CABAL=	base64-bytestring>=0.1 blaze-html>=0.6 blaze-markup>=0.5.1 \
-		citeproc-hs>=0.3.7 data-default>=0.4 highlighting-kate>=0.5.3.7 \
-		HTTP>=4000.0.5 json>=0.4 mtl>=1.1 network>=2 \
-		pandoc-types>=1.10 parsec>=3.1 random>=1 syb>=0.1 \
-		tagsoup>=0.12.5 temporary>=1.1 texmath>=0.6.1.3 \
-		text>=0.11 xml>=1.3.12 zip-archive>=0.1.3.3 zlib>=0.5
+USE_CABAL=	aeson>=0.6 attoparsec>=0.10 base64-bytestring>=0.1 \
+		blaze-html>=0.6 blaze-markup>=0.5.1 data-default>=0.4 \
+		extensible-exceptions>=0.1 highlighting-kate>=0.5.5 \
+		hslua>=0.3 HTTP>=4000.0.5 mtl>=1.1 network>=2 \
+		pandoc-types>=1.12.3 parsec>=3.1 random>=1 syb>=0.1 \
+		tagsoup>=0.12.5 temporary>=1.1 texmath>=0.6.5.2 text>=0.11 \
+		unordered-containers>=0.2 vector>=0.10 xml>=1.3.12 \
+		yaml>=0.8.3 zip-archive>=0.1.3.3 zlib>=0.5
+
+USE_ALEX=	yes
+USE_HAPPY=	yes
 
 EXECUTABLE=	pandoc
 
@@ -27,10 +31,15 @@ RUN_DEPENDS+=	latex-ifluatex>=1.3:${PORTSDIR}/print/latex-ifluatex \
 MAN1=		pandoc.1
 MAN5=		pandoc_markdown.5
 
-FLAGS_DEFINE=			EMBED_DATA_FILES
+FLAGS_DEFINE=			EMBED_DATA_FILES HTTP_CONDUIT
+FLAGS_DEFAULT=			HTTP_CONDUIT
 
 EMBED_DATA_FILES_DESC=		Embed data files in binary for relocatable executable
 EMBED_DATA_FILES_FLAG_ENABLE=	embed_data_files
+
+HTTP_CONDUIT_DESC=		Enable downloading of resources over HTTPS
+HTTP_CONDUIT_FLAG_ENABLE=	http-conduit
+HTTP_CONDUIT_FLAG_CABAL=	http-conduit>=2.0 http-types>=0.8
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
