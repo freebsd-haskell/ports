@@ -73,6 +73,7 @@ charset_port=			devel/hs-charset
 checkers_port=			devel/hs-checkers
 cipher-aes_port=		security/hs-cipher-aes
 cipher-blowfish_port=		security/hs-cipher-blowfish
+cipher-camellia_port=		security/hs-cipher-camellia
 cipher-des_port=		security/hs-cipher-des
 cipher-rc4_port=		security/hs-cipher-rc4
 citeproc-hs_port=		textproc/hs-citeproc-hs
