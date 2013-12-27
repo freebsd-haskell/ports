@@ -87,6 +87,7 @@ cond_port=			devel/hs-cond
 conduit_port=			devel/hs-conduit
 ConfigFile_port=		devel/hs-ConfigFile
 configurator_port=		devel/hs-configurator
+connection_port=		net/hs-connection
 contravariant_port=		math/hs-contravariant
 convertible_port=		devel/hs-convertible
 cookie_port=			www/hs-cookie
