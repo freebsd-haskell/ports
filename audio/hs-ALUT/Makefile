@@ -12,7 +12,7 @@ COMMENT=	Binding for the OpenAL Utility Toolkit
 LICENSE=	BSD
 
 USE_CABAL=	OpenAL StateVar
-USE_OPENAL=	al alut
+USES=		openal:al,alut
 
 INSTALL_PORTEXAMPLES=	@(cd ${WRKSRC}/examples/ && ${COPYTREE_SHARE} \* ${STAGEDIR}${EXAMPLESDIR})
 
