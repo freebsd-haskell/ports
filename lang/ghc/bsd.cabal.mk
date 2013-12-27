@@ -20,6 +20,8 @@ NO_BUILD=	yes
 NO_MTREE=	yes
 .endif # !METAPORT
 
+MAKE_ENV=	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+
 DIST_SUBDIR?=	cabal
 
 SETUP_CMD?=	./setup
