@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	shakespeare-i18n
-PORTVERSION=	1.0.0.3
+PORTVERSION=	1.0.0.5
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
