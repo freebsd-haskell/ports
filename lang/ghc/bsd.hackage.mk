@@ -79,7 +79,6 @@ classy-prelude-conduit_port=	devel/hs-classy-prelude-conduit
 clientsession_port=		security/hs-clientsession
 cmdargs_port=			devel/hs-cmdargs
 comonad_port=			math/hs-comonad
-comonads-fd_port=		math/hs-comonads-fd
 concrete-typerep_port=		devel/hs-concrete-typerep
 cond_port=			devel/hs-cond
 conduit_port=			devel/hs-conduit
