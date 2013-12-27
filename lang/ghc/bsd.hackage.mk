@@ -99,6 +99,7 @@ crypto-conduit_port=		security/hs-crypto-conduit
 crypto-numbers_port=		security/hs-crypto-numbers
 crypto-pubkey_port=		security/hs-crypto-pubkey
 crypto-pubkey-types_port=	security/hs-crypto-pubkey-types
+crypto-random_port=		security/hs-crypto-random
 crypto-random-api_port=		security/hs-crypto-random-api
 cryptocipher_port=		security/hs-cryptocipher
 cryptohash_port=		security/hs-cryptohash
