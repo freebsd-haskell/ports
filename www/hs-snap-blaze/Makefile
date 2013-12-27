@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	snap-blaze
-PORTVERSION=	0.2.1.0
+PORTVERSION=	0.2.1.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
