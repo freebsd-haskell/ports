@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	nats
-PORTVERSION=	0.1
-PORTREVISION=	2
+PORTVERSION=	0.1.2
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
