@@ -107,6 +107,7 @@ crypto-random_port=		security/hs-crypto-random
 crypto-random-api_port=		security/hs-crypto-random-api
 cryptocipher_port=		security/hs-cryptocipher
 cryptohash_port=		security/hs-cryptohash
+cryptohash-cryptoapi_port=	security/hs-cryptohash-cryptoapi
 css-text_port=			www/hs-css-text
 csv_port=			textproc/hs-csv
 curl_port=			ftp/hs-curl
