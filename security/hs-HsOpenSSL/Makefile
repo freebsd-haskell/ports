@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	HsOpenSSL
-PORTVERSION=	0.10.3.3
-PORTREVISION=	3
+PORTVERSION=	0.10.3.6
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	(Incomplete) OpenSSL binding for Haskell
+COMMENT=	Partial OpenSSL binding for Haskell
 
 USE_CABAL=	network>=2.1.0.0
 
