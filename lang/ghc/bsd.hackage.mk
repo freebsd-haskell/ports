@@ -225,6 +225,7 @@ hS3_port=			www/hs-hS3		# executable
 hscolour_port=			print/hs-hscolour	# executable
 hse-cpp_port=			devel/hs-hse-cpp
 hslogger_port=			devel/hs-hslogger
+hslua_port=			devel/hs-hslua
 HsOpenSSL_port=			security/hs-HsOpenSSL
 hspec_port=			devel/hs-hspec
 hspec-expectations_port=	devel/hs-hspec-expectations
