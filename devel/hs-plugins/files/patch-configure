@@ -1,0 +1,20 @@
+--- ./configure.orig	2013-10-03 20:40:57.000000000 +0200
++++ ./configure	2013-12-27 21:56:51.000000000 +0100
+@@ -1971,7 +1971,7 @@
+ 
+ # Find pwd, in a cygwin friendly way.
+ # Suggested by: http://www.haskell.org/ghc/docs/latest/html/users_guide/ch11s04.html
+-TOP=`echo "System.Directory.getCurrentDirectory >>= putStrLn.init.tail.show " | ghc --interactive -ignore-dot-ghci -v0 | tr -d '\r'`
++TOP=`echo "System.Directory.getCurrentDirectory >>= putStrLn.init.tail.show " | ghc --interactive -ignore-dot-ghci -fno-ghci-history -v0 | tr -d '\r'`
+ 
+ 
+ cat >>confdefs.h <<_ACEOF
+@@ -2048,7 +2048,7 @@
+  { $as_echo "$as_me:${as_lineno-$LINENO}: checking for value of __GLASGOW_HASKELL__" >&5
+ $as_echo_n "checking for value of __GLASGOW_HASKELL__... " >&6; }
+  echo "main = print __GLASGOW_HASKELL__" > t.hs
+- GLASGOW_HASKELL=`echo 'main' | "$GHC" --interactive -ignore-dot-ghci -v0 -cpp t.hs`
++ GLASGOW_HASKELL=`echo 'main' | "$GHC" --interactive -ignore-dot-ghci -fno-ghci-history -v0 -cpp t.hs`
+  rm t.hs
+  { $as_echo "$as_me:${as_lineno-$LINENO}: result: $GLASGOW_HASKELL" >&5
+ $as_echo "$GLASGOW_HASKELL" >&6; }
