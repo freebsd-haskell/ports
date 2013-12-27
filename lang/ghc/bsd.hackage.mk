@@ -236,6 +236,7 @@ html-conduit_port=		textproc/hs-html-conduit
 HTTP_port=			www/hs-HTTP
 http-attoparsec_port=		www/hs-http-attoparsec
 http-client_port=		www/hs-http-client
+http-client-tls_port=		www/hs-http-client-tls
 http-conduit_port=		www/hs-http-conduit
 http-date_port=			www/hs-http-date
 http-reverse-proxy_port=	www/hs-http-reverse-proxy
