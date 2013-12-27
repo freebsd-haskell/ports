@@ -72,6 +72,7 @@ cgi_port=			www/hs-cgi
 charset_port=			devel/hs-charset
 checkers_port=			devel/hs-checkers
 cipher-aes_port=		security/hs-cipher-aes
+cipher-blowfish_port=		security/hs-cipher-blowfish
 cipher-rc4_port=		security/hs-cipher-rc4
 citeproc-hs_port=		textproc/hs-citeproc-hs
 classy-prelude_port=		devel/hs-classy-prelude
