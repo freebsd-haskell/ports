@@ -94,6 +94,7 @@ cpu_port=			sysutils/hs-cpu
 criterion_port=			benchmarks/hs-criterion
 Crypto_port=			security/hs-Crypto
 crypto-api_port=		security/hs-crypto-api
+crypto-cipher-types_port=	security/hs-crypto-cipher-types
 crypto-conduit_port=		security/hs-crypto-conduit
 crypto-numbers_port=		security/hs-crypto-numbers
 crypto-pubkey_port=		security/hs-crypto-pubkey
