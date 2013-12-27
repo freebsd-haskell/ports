@@ -2,12 +2,11 @@
 # $FreeBSD$
 
 PORTNAME=	mwc-random
-PORTVERSION=	0.12.0.1
-PORTREVISION=	3
+PORTVERSION=	0.13.1.0
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Fast, high quality pseudo random number generation
+COMMENT=	Fast, high-quality pseudo random number generation
 
 LICENSE=	BSD
 
