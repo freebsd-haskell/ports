@@ -436,6 +436,7 @@ test-framework-th_port=		devel/hs-test-framework-th
 testpack_port=			devel/hs-testpack
 texmath_port=			textproc/hs-texmath	# executable
 text_port=			devel/hs-text
+text-icu_port=			devel/hs-text-icu
 threads_port=			devel/hs-threads
 threadscope_port=		devel/hs-threadscope	# executable
 time-compat_port=		devel/hs-time-compat
