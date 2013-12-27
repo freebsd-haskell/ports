@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	yesod-core
-PORTVERSION=	1.2.3
+PORTVERSION=	1.2.6.2
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -18,8 +18,8 @@ USE_CABAL=	aeson>=0.5 attoparsec-conduit blaze-builder>=0.2.1.4 \
 		random>=1.0.0.2 resourcet>=0.4.6 safe shakespeare>=1.0 \
 		shakespeare-css>=1.0 shakespeare-i18n>=1.0 shakespeare-js>=1.0.2 \
 		text>=0.7 transformers>=0.2.2 transformers-base>=0.4 \
-		vector>=0.9 wai>=1.4 wai-extra>=1.3 warp>=1.3.8 \
-		yesod-routes>=1.2
+		unix-compat vector>=0.9 wai>=1.4 wai-extra>=1.3 \
+		wai-logger>=0.2 warp>=1.3.8 yesod-routes>=1.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
