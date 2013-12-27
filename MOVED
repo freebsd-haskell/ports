@@ -1,1 +1,2 @@
 devel/hs-profunctor-extras||2013-12-27|The package has been absorbed into profunctors
+math/hs-comonad-transformers||2013-12-27|Deprecated in favor of comonad
