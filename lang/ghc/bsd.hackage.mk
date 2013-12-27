@@ -363,7 +363,6 @@ quickcheck-io_port=		devel/hs-quickcheck-io
 random_port=			devel/hs-random
 random-shuffle_port=		devel/hs-random-shuffle
 ranges_port=			devel/hs-ranges
-reactive_port=			devel/hs-reactive
 ReadArgs_port=			devel/hs-ReadArgs
 readline_port=			devel/hs-readline
 recaptcha_port=			www/hs-recaptcha

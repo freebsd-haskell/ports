@@ -6,3 +6,4 @@ math/hs-semigroupoid-extras||2013-12-27|Deprecated in favor of semigroupoids
 devel/hs-hdoc||2013-12-27|Removed
 devel/hs-idoc||2013-12-27|Removed
 x11-toolkits/hs-frantk||2013-12-27|Outdated and bitrotted
+devel/hs-reactive||2013-12-27|Upstream is not maintained any more
