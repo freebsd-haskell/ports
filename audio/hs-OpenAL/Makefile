@@ -7,12 +7,12 @@ PORTREVISION=	2
 CATEGORIES=	audio haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A binding to the OpenAL cross-platform 3D audio API
+COMMENT=	Binding to the OpenAL cross-platform 3D audio API
 
 LICENSE=	BSD
 
 USE_CABAL=	ObjectName StateVar Tensor
-USE_OPENAL=	al
+USES=		openal:al
 
 INSTALL_PORTEXAMPLES=	@(cd ${WRKSRC}/examples/ && ${COPYTREE_SHARE} \* ${STAGEDIR}${EXAMPLESDIR})
 
