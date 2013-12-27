@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	wl-pprint-text
-PORTVERSION=	1.1.0.0
+PORTVERSION=	1.1.0.1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A Wadler/Leijen Pretty Printer for Text values
+COMMENT=	Wadler/Leijen Pretty Printer for Text values
 
 LICENSE=	BSD
 
