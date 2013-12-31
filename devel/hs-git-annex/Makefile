@@ -21,8 +21,6 @@ USE_PERL5=	build
 
 MAN1=		git-annex.1 git-annex-shell.1
 
-MAKE_ENV+=	DESTDIR=${STAGEDIR}
-
 BUILD_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 		git:${PORTSDIR}/devel/git \
 		gsha256sum:${PORTSDIR}/sysutils/coreutils
