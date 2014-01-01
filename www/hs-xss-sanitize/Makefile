@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	xss-sanitize
-PORTVERSION=	0.3.4
+PORTVERSION=	0.3.4.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
