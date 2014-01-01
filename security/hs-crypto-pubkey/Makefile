@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	crypto-pubkey
-PORTVERSION=	0.2.3
+PORTVERSION=	0.2.4
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
