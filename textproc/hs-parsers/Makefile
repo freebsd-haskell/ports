@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	parsers
-PORTVERSION=	0.10.1.1
+PORTVERSION=	0.10.1.2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
