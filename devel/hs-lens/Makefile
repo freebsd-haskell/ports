@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	lens
-PORTVERSION=	3.10.0.1
+PORTVERSION=	3.10.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
