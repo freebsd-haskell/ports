@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	yesod-platform
-PORTVERSION=	1.2.5.2
+PORTVERSION=	1.2.5.3
 # Please note that the port *strictly depends* on certain versions of other
 # ports, so revisit the USE_CABAL line on bumping the portrevision.  Thanks!
 CATEGORIES=	www haskell
@@ -12,9 +12,9 @@ COMMENT=	Meta package for Yesod
 LICENSE=	MIT
 
 USE_CABAL=	aeson==0.6.2.1 \
-		ansi-terminal==0.6_2 \
+		ansi-terminal==0.6.1 \
 		asn1-data==0.7.1_3 \
-		asn1-types==0.2.2 \
+		asn1-types==0.2.3 \
 		attoparsec==0.10.4.0_2 \
 		attoparsec-conduit==1.0.1.2 \
 		authenticate==1.3.2.6_2 \
@@ -41,7 +41,7 @@ USE_CABAL=	aeson==0.6.2.1 \
 		crypto-cipher-types==0.0.9 \
 		crypto-conduit==0.5.2.1 \
 		crypto-numbers==0.2.3 \
-		crypto-pubkey==0.2.3 \
+		crypto-pubkey==0.2.4 \
 		crypto-pubkey-types==0.4.1 \
 		crypto-random==0.0.7 \
 		cryptohash==0.11.1 \
@@ -57,34 +57,34 @@ USE_CABAL=	aeson==0.6.2.1 \
 		email-validate==1.0.0_2 \
 		entropy==0.2.2.4 \
 		failure==0.2.0.1_5 \
-		fast-logger==2.0.0 \
+		fast-logger==2.1.0 \
 		file-embed==0.0.6 \
 		filesystem-conduit==1.0.0.1 \
-		hamlet==1.1.7.5 \
+		hamlet==1.1.7.6 \
 		hjsmin==0.1.4.4 \
 		hspec==1.8.1.1 \
 		hspec-expectations==0.5.0.1 \
 		html-conduit==1.1.0.1 \
 		http-attoparsec==0.1.0 \
 		http-client==0.2.0.3 \
-		http-client-conduit==0.2.0.0 \
-		http-client-tls==0.2.0.0 \
-		http-conduit==2.0.0.2 \
+		http-client-conduit==0.2.0.1 \
+		http-client-tls==0.2.0.2 \
+		http-conduit==2.0.0.3 \
 		http-date==0.0.4_3 \
 		http-types==0.8.3 \
 		language-javascript==0.5.8 \
 		lifted-base==0.2.1.1 \
-		mime-mail==0.4.2.1 \
+		mime-mail==0.4.3 \
 		mime-types==0.1.0.3_2 \
 		mmorph==1.0.0_1 \
 		monad-control==0.3.2.2 \
-		monad-logger==0.3.3.1 \
+		monad-logger==0.3.4.0 \
 		monad-loops==0.4.2 \
 		network-conduit==1.0.0_2 \
 		path-pieces==0.1.3.1 \
 		pem==0.2.1 \
-		persistent==1.2.3.0 \
-		persistent-template==1.2.0.6 \
+		persistent==1.3.0 \
+		persistent-template==1.3.0 \
 		pool-conduit==0.1.2_1 \
 		primitive==0.5.0.1_3 \
 		process-conduit==1.0.0.1 \
@@ -93,13 +93,13 @@ USE_CABAL=	aeson==0.6.2.1 \
 		pwstore-fast==2.4.1 \
 		quickcheck-io==0.1.0_1 \
 		resource-pool==0.2.1.1_3 \
-		resourcet==0.4.9 \
+		resourcet==0.4.10 \
 		safe==0.3.3_6 \
 		securemem==0.1.3 \
 		semigroups==0.12.1 \
 		setenv==0.1.1 \
 		SHA==1.6.1_3 \
-		shakespeare==1.2.0.3 \
+		shakespeare==1.2.0.4 \
 		shakespeare-css==1.0.6.6 \
 		shakespeare-i18n==1.0.0.5 \
 		shakespeare-js==1.2.0.2 \
@@ -126,22 +126,22 @@ USE_CABAL=	aeson==0.6.2.1 \
 		void==0.6.1 \
 		wai==2.0.0 \
 		wai-app-static==2.0.0.2 \
-		wai-extra==2.0.1 \
-		wai-logger==2.0.1 \
+		wai-extra==2.0.1.2 \
+		wai-logger==2.1.0 \
 		wai-test==2.0.0.1 \
 		warp==2.0.1 \
 		word8==0.0.4 \
 		xml-conduit==1.1.0.9 \
 		xml-types==0.3.4 \
-		xss-sanitize==0.3.4 \
+		xss-sanitize==0.3.4.1 \
 		yaml==0.8.5.2 \
 		yesod==1.2.4 \
-		yesod-auth==1.2.4 \
-		yesod-core==1.2.6.2 \
-		yesod-form==1.3.4.1 \
-		yesod-persistent==1.2.2 \
-		yesod-routes==1.2.0.3 \
-		yesod-static==1.2.2 \
+		yesod-auth==1.2.5.2 \
+		yesod-core==1.2.6.4 \
+		yesod-form==1.3.4.2 \
+		yesod-persistent==1.2.2.1 \
+		yesod-routes==1.2.0.5 \
+		yesod-static==1.2.2.1 \
 		yesod-test==1.2.1 \
 		zlib-bindings==0.1.1.3_2 \
 		zlib-conduit==1.0.0_2
