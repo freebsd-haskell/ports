@@ -16,4 +16,9 @@ BUILD_DEPENDS=	llvm-config33:${PORTSDIR}/devel/llvm33
 RUN_DEPENDS=	llc33:${PORTSDIR}/devel/llvm33
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+
+.if ${OSVERSION} >= 1000024
+BROKEN=		will not link properly when LLVM is built with Clang
+.endif
+
 .include <bsd.port.mk>
