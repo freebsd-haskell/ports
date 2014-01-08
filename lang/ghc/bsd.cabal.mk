@@ -17,6 +17,7 @@ DISTFILES=	# empty
 EXTRACT_ONLY=	# empty
 NO_FETCH=	yes
 NO_BUILD=	yes
+NO_INSTALL=	yes
 NO_MTREE=	yes
 .endif # !METAPORT
 
@@ -202,9 +203,9 @@ post-patch::
 
 _BUILD_SETUP=	${GHC_CMD} -o ${SETUP_CMD} -package Cabal --make
 
+.if !defined(METAPORT)
 .if !target(do-configure)
 do-configure:
-.if !defined(METAPORT)
 	@if [ -f ${WRKSRC}/Setup.hs ]; then \
 	    cd ${WRKSRC} && ${_BUILD_SETUP} Setup.hs; fi
 	@if [ -f ${WRKSRC}/Setup.lhs ]; then \
@@ -224,14 +225,12 @@ do-configure:
 	cd ${WRKSRC}/doc && ${AUTOCONF} && ./configure --prefix=${PREFIX}
 .endif
 .endif # DOCS
-.else
-	${DO_NADA}
-.endif # !METAPORT
 .endif # target(do-configure)
+.endif # !METAPORT
 
+.if !defined(METAPORT)
 .if !target(do-build)
 do-build:
-.if !defined(METAPORT)
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SETUP_CMD} build
 .if !defined(STANDALONE)
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SETUP_CMD} register --gen-script
@@ -245,10 +244,8 @@ do-build:
 	@(cd ${WRKSRC}/doc && ${SETENV} ${MAKE_ENV} ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} ${MAKE_ARGS} html)
 .endif # XMLDOCS
 .endif # DOCS
-.else
-	${DO_NADA}
-.endif # !METAPORT
 .endif # target(do-build)
+.endif # !METAPORT
 
 .if defined(MAN1)
 .for man in ${MAN1}
@@ -262,9 +259,9 @@ PLIST_FILES+=	man/man5/${man}.gz
 .endfor
 .endif
 
+.if !defined(METAPORT)
 .if !target(do-install)
 do-install:
-.if !defined(METAPORT)
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SETUP_CMD} copy --destdir=${STAGEDIR}
 
 .if !defined(STANDALONE)
@@ -293,11 +290,9 @@ do-install:
 	@(cd ${WRKSRC}/${xmldoc:C/:.*$//g} && ${COPYTREE_SHARE} \* ${STAGEDIR}${DOCSDIR}/${xmldoc:C/^.*://g})
 .endfor
 .endif # XMLDOCS
-.endif
-.else
-	${DO_NADA}
-.endif # !METAPORT
+.endif # DOCS
 .endif # target(do-install)
+.endif # !METAPORT
 
 .if !target(post-install-script)
 post-install-script:
@@ -313,10 +308,9 @@ post-install-script:
 
 .endif # target(post-install-script)
 
+.if !defined(METAPORT)
 add-plist-post: add-plist-cabal
 add-plist-cabal:
-
-.if !defined(METAPORT)
 
 .if !defined(STANDALONE)
 	@${ECHO_CMD} '@unexec ${LOCALBASE}/bin/ghc-pkg unregister --force ${PORTNAME}-${PORTVERSION}' >> ${TMPPLIST}
@@ -338,8 +332,6 @@ add-plist-cabal:
 	  ${RM} -f doc-index*.html && ./gen_contents_index') >> ${TMPPLIST}
 .endif
 
-.else
-	${DO_NADA}
 .endif # !METAPORT
 
 .if defined(USE_CABAL)
