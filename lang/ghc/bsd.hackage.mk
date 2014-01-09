@@ -141,6 +141,7 @@ distributive_port=		math/hs-distributive
 dlist_port=			devel/hs-dlist
 dns_port=			dns/hs-dns
 double-conversion_port=		textproc/hs-double-conversion
+DrIFT_port=			devel/hs-DrIFT
 dyre_port=			devel/hs-dyre
 edit-distance_port=		devel/hs-edit-distance
 either_port=			devel/hs-either
