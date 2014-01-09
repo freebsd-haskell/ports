@@ -23,7 +23,9 @@ OPTIONS_DEFAULT=	EXAMPLES
 
 .if ${PORT_OPTIONS:MEXAMPLES}
 SUB_FILES=	pkg-message
-SHOW_PKGMSG=	yes
+
+post-install::
+	@${CAT} ${PKGMESSAGE}
 .endif
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
