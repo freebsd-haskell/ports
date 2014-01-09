@@ -86,7 +86,7 @@ USE_CABAL=	aeson==0.6.2.1 \
 		persistent==1.3.0 \
 		persistent-template==1.3.0 \
 		pool-conduit==0.1.2_2 \
-		primitive==0.5.0.1_3 \
+		primitive==0.5.1.0 \
 		process-conduit==1.0.0.1 \
 		publicsuffixlist==0.1_2 \
 		pureMD5==2.1.2.1_5 \
@@ -122,7 +122,7 @@ USE_CABAL=	aeson==0.6.2.1 \
 		unordered-containers==0.2.3.3 \
 		utf8-light==0.4.2 \
 		utf8-string==0.3.7_7 \
-		vector==0.10.0.1_3 \
+		vector==0.10.9.1 \
 		void==0.6.1 \
 		wai==2.0.0 \
 		wai-app-static==2.0.0.2 \
