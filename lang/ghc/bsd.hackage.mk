@@ -61,6 +61,7 @@ bytestring-csv_port=		textproc/hs-bytestring-csv
 bytestring-nums_port=		devel/hs-bytestring-nums	# executable
 bytestring-show_port=		devel/hs-bytestring-show
 c2hs_port=			devel/hs-c2hs		# executable
+Cabal_port=			devel/hs-Cabal
 cabal-install_port=		devel/hs-cabal-install	# executable
 cairo_port=			graphics/hs-cairo
 case-insensitive_port=		textproc/hs-case-insensitive
