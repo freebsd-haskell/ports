@@ -187,6 +187,7 @@ gitit_port=			www/hs-gitit		# executable
 git-annex_port=			devel/hs-git-annex	# executable
 glade_port=			devel/hs-glade
 glib_port=			devel/hs-glib
+Glob_port=			devel/hs-Glob
 GLURaw_port=			x11-toolkits/hs-GLURaw
 GLUT_port=			x11-toolkits/hs-GLUT
 gnuidn_port=			net/hs-gnuidn
