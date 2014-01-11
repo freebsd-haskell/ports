@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	5.20131230
+PORTVERSION=	5.20140108
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,7 +16,7 @@ USE_CABAL=	MissingH hslogger utf8-string network>=2.0 mtl>=2 HTTP \
 		bloomfilter edit-distance SafeSemaphore uuid random \
 		dlist unix-compat aeson
 
-USES=		perl5 gmake
+USES=		gmake perl5
 USE_PERL5=	build
 
 MAN1=		git-annex.1 git-annex-shell.1
