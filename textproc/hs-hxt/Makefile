@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	hxt
-PORTVERSION=	9.3.1.2
+PORTVERSION=	9.3.1.3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
