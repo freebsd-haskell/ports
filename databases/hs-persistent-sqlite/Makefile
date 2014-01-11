@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	persistent-sqlite
-PORTVERSION=	1.3.0
+PORTVERSION=	1.3.0.1
 CATEGORIES=	databases haskell
 
 MAINTAINER=	haskell@FreeBSD.org
