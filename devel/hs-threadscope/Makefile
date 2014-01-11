@@ -10,8 +10,8 @@ COMMENT=	Graphical tool for profiling parallel Haskell programs
 
 LICENSE=	BSD
 
-USE_CABAL=	cairo ghc-events>=0.4.2 glib gtk>=0.12 gtk2hs-buildtools mtl \
-		pango
+USE_CABAL=	binary cairo ghc-events>=0.4.2 glib gtk>=0.12 \
+		gtk2hs-buildtools mtl pango
 
 EXECUTABLE=	threadscope
 STANDALONE=	yes

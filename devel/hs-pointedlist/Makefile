@@ -9,7 +9,7 @@ COMMENT=	Zipper-like comonad which works as a list, tracking a position
 
 LICENSE=	BSD
 
-USE_CABAL=	derive fclabels
+USE_CABAL=	binary derive fclabels
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

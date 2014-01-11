@@ -1,15 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	dyre
-PORTVERSION=	0.8.11
+PORTNAME=	binary
+PORTVERSION=	0.7.1.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Dynamic reconfiguration in Haskell
+COMMENT=	Binary serialisation for Haskell values using lazy ByteStrings
 
 LICENSE=	BSD
-
-USE_CABAL=	binary executable-path ghc-paths io-storage xdg-basedir
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

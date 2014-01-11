@@ -9,7 +9,7 @@ COMMENT=	Sharing for the binary package
 
 LICENSE=	GPLv2
 
-USE_CABAL=	mtl>=1.1.0.2
+USE_CABAL=	binary>=0.5 mtl>=1.1.0.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

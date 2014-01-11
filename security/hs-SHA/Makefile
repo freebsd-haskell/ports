@@ -10,6 +10,8 @@ COMMENT=	Implementations of the SHA suite of message digest functions
 
 LICENSE=	BSD
 
+USE_CABAL=	binary
+
 FLAGS_DEFINE=		EXE
 
 EXE_DESC=		Build a SHA2-384 executable similar to 'md5sum'

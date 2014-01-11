@@ -10,7 +10,7 @@ COMMENT=	Obtain the host MAC address on *NIX and Windows
 
 LICENSE=	BSD
 
-USE_CABAL=	parsec
+USE_CABAL=	binary parsec
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

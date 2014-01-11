@@ -1,0 +1,2 @@
+@exec %D/bin/ghc-pkg hide binary || return true
+@unexec %D/bin/ghc-pkg expose binary || return true

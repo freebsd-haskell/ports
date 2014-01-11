@@ -9,7 +9,8 @@ COMMENT=	Creating, comparing, parsing and printing Universally Unique Identifier
 
 LICENSE=	BSD
 
-USE_CABAL=	cryptohash>=0.7 hashable network-info random>=1.0.1
+USE_CABAL=	binary>=0.4 cryptohash>=0.7 hashable network-info \
+		random>=1.0.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
