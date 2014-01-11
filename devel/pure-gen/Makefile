@@ -1,5 +1,5 @@
 # Created by: Zhihao Yuan <lichray@gmail.com>
-# $FreeBSD: devel/pure-gen/Makefile 333045 2013-11-06 22:50:21Z delphij $
+# $FreeBSD$
 
 PORTNAME=	pure-gen
 PORTVERSION=	0.16
