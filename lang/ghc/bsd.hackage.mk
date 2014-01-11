@@ -152,6 +152,7 @@ entropy_port=			security/hs-entropy
 epic_port=			lang/hs-epic		# executable
 erf_port=			math/hs-erf
 errors_port=			devel/hs-errors
+exceptions_port=		devel/hs-exceptions
 executable-path_port=		devel/hs-executable-path
 extensible-exceptions_port=	devel/hs-extensible-exceptions
 failure_port=			devel/hs-failure
