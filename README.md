@@ -4,7 +4,7 @@ Welcome!
 This repository is to provide support for working with the Glorious
 Glasgow Haskell Compilation System and Haskell Cabal on FreeBSD, it
 hosts the work of volunteers interested in maintaining such ports.  It
-considered a highly experimental collection and it may contain ports
+considered *a highly experimental collection* and it may contain ports
 that are not present in the Ports Collection currently.
 
 
@@ -25,6 +25,42 @@ usually refer to colluding ports where the recommended answer is
     # portshaker -v
 
 You can use the ports as usual after the process has finished.
+
+
+Binary Packages
+---------------
+
+It is also possible to use binary packages built from these ports via
+[pkg(8)](http://www.freshports.org/ports-mgmt/pkg).  Note that these
+packages *are not supported officially* and *may not be consistent* with
+the packages in the official FreeBSD `pkg(8)` repository, so use them at
+your own risk!  They are also *updated on a best-effort basis*, although
+you can find packages for all supported architectures and versions
+there.
+
+First, you will have to make sure that `pkg(8)` is installed on your
+system and your ports are all converted to this new format.  Consult the
+[FreeBSD Handbook](http://www.freebsd.org/handbook/pkgng-intro.html) on
+the details.
+
+Configure the corresponding package repository.  That is, create a
+`Haskell.conf` file under `$LOCALBASE/etc/pkg/repos`, with the following
+contents:
+
+    Haskell: {
+      url: "http://haskell.inf.elte.hu/packages/${ABI}/latest",
+      enabled: yes
+    }
+
+Finally, fetch the latest version of the repository catalogue:
+
+    # pkg update
+
+Now you are ready to install or upgrade binary packages from this
+repository via the standard `pkg(8)` commands.  For example, installing
+or updating Haskell Platform requires this single command only:
+
+    # pkg install hs-haskell-platform
 
 
 How to Report Bugs
