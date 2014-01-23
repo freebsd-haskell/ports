@@ -53,4 +53,9 @@ USE_CABAL=	async==2.0.1.4_2 \
 		happy==1.19.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+
+.if ${GHC_VERSION} != 7.6.3
+IGNORE=		will not work: GHC ${GHC_VERSION} is not supported
+.endif
+
 .include <bsd.port.mk>

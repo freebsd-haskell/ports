@@ -17,7 +17,16 @@ LOCALBASE?=	/usr/local
 GHC_CMD?=	${LOCALBASE}/bin/ghc
 HADDOCK_CMD?=	${LOCALBASE}/bin/haddock
 HSCOLOUR_CMD?=	${LOCALBASE}/bin/HsColour
-GHC_VERSION=	7.6.3
+
+.if defined(I_WANT_GHC_HEAD)
+GHC_VERSION?=	7.7.20140123
+GHC_PORT?=	lang/ghc-devel
+GHC_PACKAGE?=	ghc-devel
+.else
+GHC_VERSION?=	7.6.3
+GHC_PORT?=	lang/ghc
+GHC_PACKAGE?=	ghc
+.endif
 
 HSCOLOUR_DESC?=	Colorize generated documentation by HsColour
 DYNAMIC_DESC?=	Add support for dynamic linking
