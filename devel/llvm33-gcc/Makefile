@@ -3,7 +3,7 @@
 MAINTAINER=	ports@FreeBSD.org
 USE_GCC=	yes
 
-MASTERDIR=	${PORTSDIR}/devel/llvm33
+MASTERDIR=	${.CURDIR}/../../devel/llvm33
 
 .include "${MASTERDIR}/Makefile"
 
