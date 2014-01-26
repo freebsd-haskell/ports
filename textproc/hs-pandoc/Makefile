@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	pandoc
-PORTVERSION=	1.12.3
+PORTVERSION=	1.12.3.1
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,7 +11,7 @@ COMMENT=	Conversion between markup formats
 LICENSE=	GPLv2
 
 USE_CABAL=	aeson>=0.6 attoparsec>=0.10 base64-bytestring>=0.1 \
-		binary>=0.6 blaze-html>=0.6 blaze-markup>=0.5.1 \
+		binary>=0.5 blaze-html>=0.5 blaze-markup>=0.5.1 \
 		data-default>=0.4 extensible-exceptions>=0.1 \
 		highlighting-kate>=0.5.6 hslua>=0.3 HTTP>=4000.0.5 mtl>=1.1 \
 		network>=2 pandoc-types>=1.12.3 parsec>=3.1 random>=1 \
