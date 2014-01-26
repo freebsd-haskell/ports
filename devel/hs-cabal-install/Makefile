@@ -1,7 +1,8 @@
 # $FreeBSD$
 
 PORTNAME=	cabal-install
-PORTVERSION=	1.18.0.2
+PORTVERSION=	1.16.0.2
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -9,8 +10,7 @@ COMMENT=	Command-line interface for Cabal and Hackage
 
 LICENSE=	BSD
 
-USE_CABAL=	Cabal>=1.18.0 network>=1 random>=1 HTTP>=4000.0.8 stm>=2.0 \
-		zlib>=0.5.3
+USE_CABAL=	network>=1 random>=1 HTTP>=4000.0.2 zlib>=0.4
 
 STANDALONE=	yes
 EXECUTABLE=	cabal-install
