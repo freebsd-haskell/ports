@@ -1,20 +1,11 @@
 --- ./yi.cabal.orig	2013-10-03 07:41:08.000000000 +0200
-+++ ./yi.cabal	2014-01-12 13:30:48.000000000 +0100
-@@ -278,7 +278,7 @@
-     unordered-containers >= 0.1.3 && < 0.3,
-     xdg-basedir >= 0.2.1 && < 0.3
- 
--  build-tools: alex >= 3.0.3 && <= 3.1.0
-+  build-tools: alex >= 3.0.3
-   ghc-options: -Wall -fno-warn-orphans
-   ghc-prof-options: -prof -auto-all -rtsopts
-   if flag(profiling)
-@@ -439,7 +439,7 @@
-     base >=4 && <5
-   if !flag(dochack)
-     build-depends: yi
--  build-tools: alex >= 3.0.3 && <= 3.1.0
-+  build-tools: alex >= 3.0.3
-   ghc-options: -threaded
-   ghc-prof-options: -prof -auto-all -rtsopts
- 
++++ ./yi.cabal	2013-12-27 12:23:11.000000000 +0100
+@@ -260,7 +260,7 @@
+     filepath>=1.1 && <1.4,
+     fingertree >= 0 && <0.2,
+     ghc-paths ==0.1.*,
+-    hashable ==1.2.*,
++    hashable ==1.1.*,
+     hint > 0.3.1,
+     mtl >= 0.1.0.1,
+     parsec >= 3.0,
