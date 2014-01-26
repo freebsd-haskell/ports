@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	http-attoparsec
-PORTVERSION=	0.1.0
+PORTVERSION=	0.1.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
