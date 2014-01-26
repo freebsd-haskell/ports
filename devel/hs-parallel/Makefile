@@ -1,7 +1,8 @@
 # $FreeBSD$
 
 PORTNAME=	parallel
-PORTVERSION=	3.2.0.4
+PORTVERSION=	3.2.0.3
+PORTREVISION=	4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
