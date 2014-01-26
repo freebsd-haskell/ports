@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	fast-logger
-PORTVERSION=	2.1.0
+PORTVERSION=	2.1.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
