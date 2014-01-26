@@ -4,7 +4,7 @@ PORTNAME=	haskell-platform
 PORTVERSION=	2013.2.0.0
 # Please note that the port *strictly depends* on certain versions of other
 # ports, so revisit the USE_CABAL line on bumping the portrevision.  Thanks!
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -16,6 +16,7 @@ METAPORT=	yes
 
 USE_CABAL=	async==2.0.1.4_2 \
 		attoparsec==0.10.4.0_3 \
+		case-insensitive==1.0.0.1,1 \
 		cgi==3001.1.7.5_2,1 \
 		fgl==5.4.2.4_7 \
 		GLUT==2.4.0.0_2,1 \
