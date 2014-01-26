@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	xmlhtml
-PORTVERSION=	0.2.3
+PORTVERSION=	0.2.3.2
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
