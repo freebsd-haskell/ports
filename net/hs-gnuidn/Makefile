@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	gnuidn
-PORTVERSION=	0.2
+PORTVERSION=	0.2.1
 CATEGORIES=	net haskell
 
 MAINTAINER=	haskell@FreeBSD.org
