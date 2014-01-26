@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	fclabels
-PORTVERSION=	1.1.7.1
+PORTVERSION=	2.0.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	First-class accessor labels
+COMMENT=	First-class accessor labels implemented as lenses
 
 LICENSE=	BSD
 
