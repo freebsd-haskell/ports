@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	5.20140108
+PORTVERSION=	5.20140116
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -33,7 +33,7 @@ EXECUTABLE=	git-annex git-annex-shell
 STANDALONE=	yes
 
 FLAGS_DEFINE=	S3 ASSISTANT INOTIFY WEBDAV WEBAPP PAIRING XMPP DNS PRODUCTION \
-		TDFA FEED QUVI CRYPTOHASH EKG
+		TDFA FEED QUVI CRYPTOHASH EKG TAHOE
 FLAGS_DEFAULT=	S3 ASSISTANT
 
 S3_DESC=		S3 support
@@ -98,6 +98,10 @@ CRYPTOHASH_FLAG_CABAL=	cryptohash>=0.10.0
 EKG_DESC=		EKG for run-time monitoring
 EKG_FLAG_ENABLE=	EKG
 EKG_FLAG_CABAL=		ekg
+
+TAHOE_DESC=		Enable the tahoe special remote
+TAHOE_FLAG_ENABLE=	Tahoe
+TAHOE_FLAG_CABAL=	aeson
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
