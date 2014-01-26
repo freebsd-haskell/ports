@@ -1,3 +1,5 @@
 Text type represented as JavaScript strings for Fay and Data.Text for GHC.
+Use with OverloadedStrings and RebindableSyntax to have Fay treat string
+literals as Text.
 
 WWW: https://github.com/faylang/fay-text
