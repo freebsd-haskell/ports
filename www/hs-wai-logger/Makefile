@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	wai-logger
-PORTVERSION=	2.1.0
+PORTVERSION=	2.1.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -9,7 +9,7 @@ COMMENT=	Logging system for WAI
 
 LICENSE=	BSD
 
-USE_CABAL=	blaze-builder byteorder case-insensitive fast-logger>=2.1.0 \
+USE_CABAL=	blaze-builder byteorder case-insensitive fast-logger>=2.1.4 \
 		http-types network unix-time>=0.2.2 wai>=2.0.0
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
