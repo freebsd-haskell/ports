@@ -2,7 +2,8 @@
 # $FreeBSD$
 
 PORTNAME=	happy
-PORTVERSION=	1.19.2
+PORTVERSION=	1.18.10
+PORTREVISION=	4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
