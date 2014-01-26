@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	SHA
-PORTVERSION=	1.6.1
-PORTREVISION=	4
+PORTVERSION=	1.6.4
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -10,7 +9,7 @@ COMMENT=	Implementations of the SHA suite of message digest functions
 
 LICENSE=	BSD
 
-USE_CABAL=	binary
+USE_CABAL=	binary>=0.7
 
 FLAGS_DEFINE=		EXE
 
