@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	Stream
-PORTVERSION=	0.4.6.1
-PORTREVISION=	4
+PORTVERSION=	0.4.7.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
