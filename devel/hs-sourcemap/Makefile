@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	sourcemap
-PORTVERSION=	0.1.2.0
+PORTVERSION=	0.1.3.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
