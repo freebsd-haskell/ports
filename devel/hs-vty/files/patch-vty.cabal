@@ -1,9 +1,131 @@
---- ./vty.cabal.orig	2013-01-27 21:37:11.000000000 +0100
-+++ ./vty.cabal	2013-02-05 02:25:44.000000000 +0100
-@@ -592,33 +592,6 @@
+--- ./vty.cabal.orig	2013-02-14 09:53:02.000000000 +0100
++++ ./vty.cabal	2014-01-27 02:25:57.000000000 +0100
+@@ -46,7 +46,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
                         utf8-string >= 0.3 && < 0.4,
                         vector >= 0.7
- 
+@@ -101,7 +101,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -152,7 +152,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -203,7 +203,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -231,7 +231,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -262,7 +262,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -305,7 +305,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -342,7 +342,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -389,7 +389,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -420,7 +420,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -450,7 +450,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -501,7 +501,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -552,7 +552,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
+@@ -586,34 +586,7 @@
+                        mtl >= 1.1.1.0 && < 2.2,
+                        parallel >= 2.2 && < 3.3,
+                        parsec >= 2 && < 4,
+-                       terminfo >= 0.3 && < 0.4,
+-                       unix,
+-                       utf8-string >= 0.3 && < 0.4,
+-                       vector >= 0.7
+-
 -executable vty-interactive-terminal-test
 -  main-is:             interactive_terminal_test.hs
 -
@@ -27,10 +149,7 @@
 -                       parsec >= 2 && < 4,
 -                       string-qq,
 -                       terminfo >= 0.3 && < 0.4,
--                       unix,
--                       utf8-string >= 0.3 && < 0.4,
--                       vector >= 0.7
--
- -- Bench.hs
- -- Bench2.hs
- -- BenchRenderChar.hs
++                       terminfo >= 0.3 && < 0.5,
+                        unix,
+                        utf8-string >= 0.3 && < 0.4,
+                        vector >= 0.7
