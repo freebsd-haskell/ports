@@ -1,5 +1,5 @@
 --- ./gitit.cabal.orig	2013-03-20 03:55:52.000000000 +0100
-+++ ./gitit.cabal	2013-12-27 15:53:55.000000000 +0100
++++ ./gitit.cabal	2014-01-27 02:45:46.000000000 +0100
 @@ -117,8 +117,8 @@
      exposed-modules: Network.Gitit.Interface
      build-depends:   ghc, ghc-paths
@@ -22,7 +22,15 @@
                       process,
                       filepath,
                       directory,
-@@ -164,7 +164,7 @@
+@@ -157,14 +157,14 @@
+                      filestore >= 0.6 && < 0.7,
+                      zlib >= 0.5 && < 0.6,
+                      url >= 2.1 && < 2.2,
+-                     happstack-server >= 7.0 && < 7.2,
++                     happstack-server >= 7.0 && < 7.4,
+                      base64-bytestring >= 0.1 && < 1.1,
+                      xml >= 1.3.5,
+                      hslogger >= 1 && < 1.3,
                       ConfigFile >= 1 && < 1.2,
                       feed >= 0.3.6 && < 0.4,
                       xss-sanitize >= 0.3 && < 0.4,
