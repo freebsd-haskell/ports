@@ -86,7 +86,7 @@ CONFIGURE_ARGS+=	--with-gcc=${CC} --with-ld=${LD} --with-ar=${AR} \
 			--with-ranlib=${RANLIB}
 
 .if ${PORT_OPTIONS:MLLVM}
-BUILD_DEPENDS+=		llvm>=3.0:${PORTSDIR}/devel/llvm
+BUILD_DEPENDS+=		llvm>=3.0:${PORTSDIR}/devel/llvm34
 CONFIGURE_ARGS+=	--ghc-option=-fllvm
 .endif
 
