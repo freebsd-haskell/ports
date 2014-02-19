@@ -48,7 +48,7 @@ Configure the corresponding package repository.  That is, create a
 contents:
 
     Haskell: {
-      url: "http://haskell.inf.elte.hu/packages/${ABI}/latest",
+      url: "http://terraform.cs.hm.edu/packages/${ABI}/latest",
       enabled: yes
     }
 
