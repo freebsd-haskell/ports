@@ -1,4 +1,4 @@
-# Created by: Torsten Teg Grust <Torsten.Grust@uni-konstanz.de>
+# Created by: Torsten Teg Grust (Torsten.Grust@uni-konstanz.de)
 # $FreeBSD$
 
 PORTNAME=	hugs98

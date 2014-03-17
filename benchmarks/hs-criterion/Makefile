@@ -1,4 +1,4 @@
-# Created by:  Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
+# Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
 # $FreeBSD$
 
 PORTNAME=	criterion

@@ -13,19 +13,19 @@ LICENSE=	MIT
 
 USE_CABAL=	aeson==0.6.2.1 \
 		ansi-terminal==0.6.1 \
-		asn1-data==0.7.1_4 \
+		asn1-data==0.7.1_5 \
 		asn1-types==0.2.3 \
-		attoparsec==0.10.4.0_3 \
+		attoparsec==0.10.4.0_4 \
 		attoparsec-conduit==1.0.1.2 \
-		authenticate==1.3.2.6_3 \
-		base-unicode-symbols==0.2.2.4_4 \
-		base64-bytestring==1.0.0.1_3 \
+		authenticate==1.3.2.6_4 \
+		base-unicode-symbols==0.2.2.4_5 \
+		base64-bytestring==1.0.0.1_4 \
 		blaze-builder==0.3.3.2 \
-		blaze-builder-conduit==1.0.0_3 \
+		blaze-builder-conduit==1.0.0_4 \
 		blaze-html==0.6.1.3 \
 		blaze-markup==0.5.2.1 \
 		byteable==0.1.1 \
-		byteorder==1.0.4_2 \
+		byteorder==1.0.4_3 \
 		case-insensitive==1.0.0.1,1 \
 		cereal==0.4.0.1 \
 		certificate==1.3.9 \
@@ -38,7 +38,7 @@ USE_CABAL=	aeson==0.6.2.1 \
 		conduit==1.0.11.1 \
 		connection==0.1.3.1 \
 		control-monad-loop==0.1 \
-		cookie==0.4.0.1_4 \
+		cookie==0.4.0.1_5 \
 		cprng-aes==0.5.2 \
 		crypto-api==0.13 \
 		crypto-cipher-types==0.0.9 \
@@ -47,22 +47,22 @@ USE_CABAL=	aeson==0.6.2.1 \
 		crypto-pubkey==0.2.4 \
 		crypto-pubkey-types==0.4.1 \
 		crypto-random==0.0.7 \
-		crypto-random-api==0.2.0_3 \
+		crypto-random-api==0.2.0_4 \
 		cryptocipher==0.6.2 \
 		cryptohash==0.11.2 \
 		cryptohash-cryptoapi==0.1.0 \
-		css-text==0.1.1_8 \
-		data-default==0.5.3_2 \
-		data-default-class==0.0.1_2 \
-		data-default-instances-base==0.0.1_2 \
-		data-default-instances-containers==0.0.1_2 \
-		data-default-instances-dlist==0.0.1_2 \
-		data-default-instances-old-locale==0.0.1_2 \
+		css-text==0.1.1_9 \
+		data-default==0.5.3_3 \
+		data-default-class==0.0.1_3 \
+		data-default-instances-base==0.0.1_3 \
+		data-default-instances-containers==0.0.1_3 \
+		data-default-instances-dlist==0.0.1_3 \
+		data-default-instances-old-locale==0.0.1_3 \
 		dlist==0.6.0.1 \
-		email-validate==1.0.0_3 \
+		email-validate==1.0.0_4 \
 		entropy==0.2.2.4 \
 		esqueleto==1.3.4.3 \
-		failure==0.2.0.1_6 \
+		failure==0.2.0.1_7 \
 		fast-logger==2.1.4 \
 		file-embed==0.0.6 \
 		filesystem-conduit==1.0.0.1 \
@@ -76,12 +76,12 @@ USE_CABAL=	aeson==0.6.2.1 \
 		http-client-conduit==0.2.0.1 \
 		http-client-tls==0.2.0.2 \
 		http-conduit==2.0.0.3 \
-		http-date==0.0.4_4 \
+		http-date==0.0.4_5 \
 		http-types==0.8.3 \
 		language-javascript==0.5.8 \
 		lifted-base==0.2.1.1 \
 		mime-mail==0.4.3 \
-		mime-types==0.1.0.3_3 \
+		mime-types==0.1.0.3_4 \
 		mmorph==1.0.1 \
 		monad-control==0.3.2.2 \
 		monad-logger==0.3.4.0 \
@@ -91,16 +91,16 @@ USE_CABAL=	aeson==0.6.2.1 \
 		pem==0.2.1 \
 		persistent==1.3.0.2 \
 		persistent-template==1.3.1 \
-		pool-conduit==0.1.2_2 \
-		primitive==0.5.0.1_4 \
+		pool-conduit==0.1.2_3 \
+		primitive==0.5.0.1_5 \
 		process-conduit==1.0.0.1 \
-		publicsuffixlist==0.1_2 \
-		pureMD5==2.1.2.1_5 \
+		publicsuffixlist==0.1_3 \
+		pureMD5==2.1.2.1_6 \
 		pwstore-fast==2.4.1 \
-		quickcheck-io==0.1.0_2 \
-		resource-pool==0.2.1.1_4 \
+		quickcheck-io==0.1.0_3 \
+		resource-pool==0.2.1.1_5 \
 		resourcet==0.4.10 \
-		safe==0.3.3_7 \
+		safe==0.3.3_8 \
 		scientific==0.2.0.1 \
 		securemem==0.1.3 \
 		semigroups==0.12.2 \
@@ -111,7 +111,7 @@ USE_CABAL=	aeson==0.6.2.1 \
 		shakespeare-i18n==1.0.0.5 \
 		shakespeare-js==1.2.0.2 \
 		shakespeare-text==1.0.0.10 \
-		silently==1.2.4.1_3 \
+		silently==1.2.4.1_4 \
 		simple-sendfile==0.2.13 \
 		skein==1.0.8.1 \
 		socks==0.5.4 \
@@ -124,12 +124,12 @@ USE_CABAL=	aeson==0.6.2.1 \
 		tagstream-conduit==0.5.4.1 \
 		tls==1.1.5 \
 		tls-extra==0.6.6 \
-		transformers-base==0.4.1_7 \
-		unix-compat==0.4.1.1_2 \
+		transformers-base==0.4.1_8 \
+		unix-compat==0.4.1.1_3 \
 		unordered-containers==0.2.3.0,1 \
 		utf8-light==0.4.2 \
-		utf8-string==0.3.7_7 \
-		vector==0.10.0.1_4 \
+		utf8-string==0.3.7_8 \
+		vector==0.10.0.1_5 \
 		void==0.6.1 \
 		wai==2.0.0 \
 		wai-app-static==2.0.0.2 \
@@ -151,8 +151,8 @@ USE_CABAL=	aeson==0.6.2.1 \
 		yesod-routes==1.2.0.6 \
 		yesod-static==1.2.2.1 \
 		yesod-test==1.2.1 \
-		zlib-bindings==0.1.1.3_3 \
-		zlib-conduit==1.0.0_3 \
+		zlib-bindings==0.1.1.3_4 \
+		zlib-conduit==1.0.0_4
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
