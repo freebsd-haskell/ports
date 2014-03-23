@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Ports : Developer FreeBSD Haskell &quot;overlay&quot; for the mighty FreeBSD Ports Collection.  Use with caution, slippery when wet, etc." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Ports</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/freebsd-haskell/ports">View on GitHub</a>
+
+          <h1 id="project_title">Ports</h1>
+          <h2 id="project_tagline">Developer FreeBSD Haskell &quot;overlay&quot; for the mighty FreeBSD Ports Collection.  Use with caution, slippery when wet, etc.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/freebsd-haskell/ports/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/freebsd-haskell/ports/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome!</h1>
+
+<p>This repository is to provide support for working with the Glorious
+Glasgow Haskell Compilation System and Haskell Cabal on FreeBSD, it
+hosts the work of volunteers interested in maintaining such ports.  It
+considered <em>a highly experimental collection</em> and it may contain ports
+that are not present in the Ports Collection currently.</p>
+
+<h2>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to Use</h2>
+
+<p>In order to use the ports in this repository, you will have to install
+<a href="http://www.freshports.org/ports-mgmt/portshaker/">portshaker(8)</a> and
+its configuration files, be sure you are selecting the <code>HASKELL</code> option:</p>
+
+<pre><code># cd /usr/ports/ports-mgmt/portshaker-config
+# make install clean
+</code></pre>
+
+<p>Start <code>portshaker(8)</code>, and answer the questions (if there is any).  They
+usually refer to colluding ports where the recommended answer is
+<code>install</code> or simply <code>i</code>.</p>
+
+<pre><code># portshaker -v
+</code></pre>
+
+<p>You can use the ports as usual after the process has finished.</p>
+
+<h2>
+<a name="binary-packages" class="anchor" href="#binary-packages"><span class="octicon octicon-link"></span></a>Binary Packages</h2>
+
+<p>It is also possible to use binary packages built from these ports via
+<a href="http://www.freshports.org/ports-mgmt/pkg">pkg(8)</a>.  Note that these
+packages <em>are not supported officially</em> and <em>may not be consistent</em> with
+the packages in the official FreeBSD <code>pkg(8)</code> repository, so use them at
+your own risk!  They are also <em>updated on a best-effort basis</em>, although
+you can find packages for all supported architectures and versions
+there.</p>
+
+<p>First, you will have to make sure that <code>pkg(8)</code> is installed on your
+system and your ports are all converted to this new format.  Consult the
+<a href="http://www.freebsd.org/handbook/pkgng-intro.html">FreeBSD Handbook</a> on
+the details.</p>
+
+<p>Configure the corresponding package repository.  That is, create a
+<code>Haskell.conf</code> file under <code>$LOCALBASE/etc/pkg/repos</code>, with the following
+contents:</p>
+
+<pre><code>Haskell: {
+  url: "http://terraform.cs.hm.edu/packages/${ABI}/latest",
+  enabled: yes
+}
+</code></pre>
+
+<p>Finally, fetch the latest version of the repository catalogue:</p>
+
+<pre><code># pkg update
+</code></pre>
+
+<p>Now you are ready to install or upgrade binary packages from this
+repository via the standard <code>pkg(8)</code> commands.  For example, installing
+or updating Haskell Platform requires this single command only:</p>
+
+<pre><code># pkg install hs-haskell-platform
+</code></pre>
+
+<h2>
+<a name="how-to-report-bugs" class="anchor" href="#how-to-report-bugs"><span class="octicon octicon-link"></span></a>How to Report Bugs</h2>
+
+<p>Let us know if you have problems with installing and using the ports in
+the repository, because receiving feedback is always useful, and
+definitely a way to get your issues fixed :-)</p>
+
+<p>There are many different ways to report bugs.</p>
+
+<ul>
+<li><p>Create an issue <a href="https://github.com/freebsd-haskell/freebsd-haskell/issues">right
+here</a>.</p></li>
+<li><p>Mail us at <a href="mailto:haskell_at_freebsd.org">haskell(at)freebsd.org</a> or
+<a href="mailto:freebsd-haskell_at_haskell.org">freebsd-haskell(at)haskell.org</a>.</p></li>
+<li><p>Poke us interactively on <code>#haskell-FreeBSD</code> at
+<a href="http://www.freenode.net/">freenode</a>.</p></li>
+</ul><p><strong>Note:</strong> Please, do not use FreeBSD GNATS to report issues with these
+ports because it is mainly for ports <em>in the Ports Collection</em>.</p>
+
+<h2>
+<a name="how-to-contribute" class="anchor" href="#how-to-contribute"><span class="octicon octicon-link"></span></a>How to Contribute</h2>
+
+<p>Do not forget to contribute your fixes if you already have a patch for a
+known problem!  You can use the same interface as for reporting bugs.
+Change requests and new ports are also welcome.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Ports maintained by <a href="https://github.com/freebsd-haskell">freebsd-haskell</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
