@@ -19,7 +19,7 @@ HADDOCK_CMD?=	${LOCALBASE}/bin/haddock
 HSCOLOUR_CMD?=	${LOCALBASE}/bin/HsColour
 
 .if defined(I_WANT_GHC_HEAD)
-GHC_VERSION?=	7.7.20140123
+GHC_VERSION?=	7.8.0.20140228
 GHC_PORT?=	lang/ghc-devel
 GHC_PACKAGE?=	ghc-devel
 .else

@@ -1,9 +1,9 @@
 # $FreeBSD$
 
 PORTNAME=	ghc
-PORTVERSION=	7.7.20140123
+PORTVERSION=	7.8.0.20140228
 CATEGORIES=	lang haskell
-MASTER_SITES=	http://haskell.inf.elte.hu/snapshots/:source \
+MASTER_SITES=	http://www.haskell.org/ghc/dist/7.8.1-rc2/:source \
 		${MASTER_SITE_LOCAL:S/$/:boot/}
 MASTER_SITE_SUBDIR=	pgj/:boot
 DISTFILES=	ghc-${PORTVERSION}-src${EXTRACT_SUFX}:source
