@@ -249,14 +249,14 @@ do-build:
 .endif # target(do-build)
 .endif # !METAPORT
 
-.if defined(MAN1)
-.for man in ${MAN1}
+.if defined(MAN1PAGES)
+.for man in ${MAN1PAGES}
 PLIST_FILES+=	man/man1/${man}.gz
 .endfor
 .endif
 
-.if defined(MAN5)
-.for man in ${MAN5}
+.if defined(MAN5PAGES)
+.for man in ${MAN5PAGES}
 PLIST_FILES+=	man/man5/${man}.gz
 .endfor
 .endif
@@ -281,7 +281,7 @@ do-install:
 .endif
 
 .if defined(MAN1SRC)
-.for man in ${MAN1}
+.for man in ${MAN1PAGES}
 	@${INSTALL_MAN} ${WRKSRC}/${MAN1SRC}/${man} ${STAGEDIR}${PREFIX}/man/man1
 .endfor
 .endif # MAN1SRC

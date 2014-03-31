@@ -18,7 +18,7 @@ USE_CABAL=	hashed-storage>=0.5.6 haskeline>=0.6.3 html \
 
 EXECUTABLE=	darcs
 
-MAN1=		darcs.1
+MAN1PAGES=	darcs.1
 
 FLAGS_DEFINE=		STATIC TERMINFO THREADED COLOR MMAP
 FLAGS_MULTI=		CURL HTTP

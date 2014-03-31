@@ -17,7 +17,7 @@ USE_TEX=	latex
 STANDALONE=	yes
 EXECUTABLE=	lhs2TeX
 
-MAN1=		lhs2TeX.1
+MAN1PAGES=	lhs2TeX.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -19,7 +19,7 @@ USE_CABAL=	MissingH hslogger utf8-string network>=2.0 mtl>=2 HTTP \
 USES=		gmake perl5
 USE_PERL5=	build
 
-MAN1=		git-annex.1 git-annex-shell.1
+MAN1PAGES=	git-annex.1 git-annex-shell.1
 
 BUILD_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 		git:${PORTSDIR}/devel/git \

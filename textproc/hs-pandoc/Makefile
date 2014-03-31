@@ -28,8 +28,8 @@ EXECUTABLE=	pandoc
 RUN_DEPENDS+=	latex-ifluatex>=1.3:${PORTSDIR}/print/latex-ifluatex \
 		ifxetex>=0:${PORTSDIR}/print/ifxetex
 
-MAN1=		pandoc.1
-MAN5=		pandoc_markdown.5
+MAN1PAGES=	pandoc.1
+MAN5PAGES=	pandoc_markdown.5
 
 FLAGS_DEFINE=			EMBED_DATA_FILES HTTP_CONDUIT
 FLAGS_DEFAULT=			HTTP_CONDUIT
