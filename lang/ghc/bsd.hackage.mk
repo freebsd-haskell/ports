@@ -163,6 +163,7 @@ fastirc_port=			irc/hs-fastirc
 fay_port=			lang/hs-fay		# executable
 fay-base_port=			devel/hs-fay-base
 fay-jquery_port=		devel/hs-fay-jquery
+fay-ref_port=			devel/hs-fay-ref
 fay-text_port=			devel/hs-fay-text
 feed_port=			textproc/hs-feed
 fclabels_port=			devel/hs-fclabels
