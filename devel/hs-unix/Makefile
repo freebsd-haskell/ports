@@ -1,15 +1,13 @@
 # $FreeBSD$
 
-PORTNAME=	scientific
-PORTVERSION=	0.2.0.2
+PORTNAME=	unix
+PORTVERSION=	2.7.0.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	max@FreeBSD.org
-COMMENT=	Numbers represented using scientific notation
+COMMENT=	POSIX functionality
 
 LICENSE=	BSD
-
-USE_CABAL=	hashable>=1.1.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

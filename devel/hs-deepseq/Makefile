@@ -1,15 +1,15 @@
 # $FreeBSD$
 
-PORTNAME=	scientific
-PORTVERSION=	0.2.0.2
+PORTNAME=	deepseq
+PORTVERSION=	1.3.0.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	max@FreeBSD.org
-COMMENT=	Numbers represented using scientific notation
+COMMENT=	Deep evaluation of data structures
 
 LICENSE=	BSD
 
-USE_CABAL=	hashable>=1.1.2
+USE_CABAL=	array>=0.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
