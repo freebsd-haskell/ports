@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	regex-pcre-builtin
-PORTVERSION=	0.94.4.7.8.31
+PORTVERSION=	0.94.4.8.8.35
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
