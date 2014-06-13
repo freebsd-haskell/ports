@@ -1,0 +1,4 @@
+A library for FilePath manipulations, using Posix or Windows filepaths
+depending on the platform.
+
+WWW: http://www-users.cs.york.ac.uk/~ndm/filepath/
