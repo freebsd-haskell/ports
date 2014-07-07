@@ -7,7 +7,7 @@ CATEGORIES=	converters haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	String encoding conversion
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 

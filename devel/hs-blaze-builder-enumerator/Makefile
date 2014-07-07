@@ -8,7 +8,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Enumeratees for the incremental conversion of builders to bytestrings
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	blaze-builder>=0.2.1.4 enumerator>=0.4.3.1 transformers>=0.2
 

@@ -7,7 +7,7 @@ CATEGORIES=	net-im haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell XMPP library based on HaXml & STM
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	HaXml>=1.23.3 html mtl>=1.0 network \
 		polyparse random regex-compat stm utf8-string

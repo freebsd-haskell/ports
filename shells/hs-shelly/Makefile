@@ -7,7 +7,7 @@ CATEGORIES=	shells haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Shell-like (systems) programming in Haskell
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	mtl>=2 system-fileio system-filepath>=0.4.7 text \
 		unix-compat

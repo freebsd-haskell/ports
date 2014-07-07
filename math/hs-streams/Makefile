@@ -7,7 +7,7 @@ CATEGORIES=	math haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Various Haskell 2010 stream comonads
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	comonad>=3 distributive>=0.2.1 semigroupoids>=3 \
 		semigroups>=0.8.3.1

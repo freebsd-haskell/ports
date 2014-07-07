@@ -11,7 +11,7 @@ DIST_SUBDIR=	pure
 MAINTAINER= ports@FreeBSD.org
 COMMENT=	C interface generator for the Pure language
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 BUILD_DEPENDS=	ghc:${PORTSDIR}/lang/ghc \
 		hs-language-c>=0.4:${PORTSDIR}/devel/hs-language-c

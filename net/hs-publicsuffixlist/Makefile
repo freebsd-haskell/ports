@@ -8,7 +8,7 @@ CATEGORIES=	net haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Is a given string a domain suffix?
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	cereal data-default text>=0.11 utf8-string
 

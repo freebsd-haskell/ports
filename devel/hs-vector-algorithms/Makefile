@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Efficient algorithms for vector arrays
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	mtl mwc-random primitive>=0.3 vector>=0.6
 

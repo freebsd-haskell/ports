@@ -8,7 +8,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Library for manipulating infinite lists
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	lazysmallcheck>=0.3 QuickCheck>=2.0
 

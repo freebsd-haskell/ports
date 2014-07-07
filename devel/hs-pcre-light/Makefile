@@ -8,7 +8,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Lightweight Haskell regex library compatible with Perl 5
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 LIB_DEPENDS=	pcre:${PORTSDIR}/devel/pcre
 

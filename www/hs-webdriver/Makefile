@@ -7,7 +7,7 @@ CATEGORIES=	www haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell client for the Selenium WebDriver protocol
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	aeson>=0.6.2.0 attoparsec base64-bytestring>=1.0 cond>=0.3 \
 		data-default>=0.2 filesystem-trees>=0.1.0.5 HTTP>=4000.1 \

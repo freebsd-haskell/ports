@@ -8,7 +8,7 @@ CATEGORIES=	www haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Interface to the Online Encyclopedia of Integer Sequences (OEIS)
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	HTTP network
 

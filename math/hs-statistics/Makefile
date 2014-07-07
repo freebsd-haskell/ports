@@ -8,7 +8,7 @@ CATEGORIES=	math haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Library of statistical types, data, and functions
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	binary>=0.6.3.0 erf math-functions>=0.1.2 monad-par>=0.3.4 \
 		mwc-random>=0.13.0.0 primitive>=0.3 vector>=0.7.1 \

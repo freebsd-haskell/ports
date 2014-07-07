@@ -8,7 +8,7 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell-only implementation of MD5 digest (hash) yalgorithm
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	binary>=0.4.0 cereal>=0.2 crypto-api tagged
 

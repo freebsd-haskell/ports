@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Conduits for processes
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	conduit control-monad-loop mtl>=2.0 shakespeare-text>=1.0 \
 		text>=0.11

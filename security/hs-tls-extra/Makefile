@@ -7,7 +7,7 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	TLS extra default values and helpers
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	certificate>=1.3.5 cipher-aes>=0.2 cipher-rc4 \
 		crypto-pubkey>=0.2.0 crypto-random cryptohash>=0.6 mtl \

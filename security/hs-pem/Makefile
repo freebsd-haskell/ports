@@ -7,7 +7,7 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Privacy Enhanced Mail (PEM) format reader and writer
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	base64-bytestring>=1.0.0 mtl
 

@@ -7,7 +7,7 @@ CATEGORIES=	math haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Contravariant functors
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	tagged>=0.4.4 transformers>=0.3
 

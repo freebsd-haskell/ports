@@ -7,7 +7,7 @@ CATEGORIES=	textproc haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A simple applicative parser
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

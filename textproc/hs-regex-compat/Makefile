@@ -8,7 +8,7 @@ CATEGORIES=	textproc haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Replaces/Enhances Text.Regex
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	regex-base>=0.93 regex-posix>=0.95.1
 

@@ -8,7 +8,7 @@ CATEGORIES=	textproc haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Monadic parser combinators
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	mtl text>=0.2
 

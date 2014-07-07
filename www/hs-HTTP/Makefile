@@ -9,7 +9,7 @@ CATEGORIES=	www haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Library for client-side HTTP
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	mtl network parsec
 

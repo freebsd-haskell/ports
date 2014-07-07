@@ -8,7 +8,7 @@ CATEGORIES=	www haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	The haskell application server stack + code generation
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	happstack-server>=7.0
 

@@ -7,7 +7,7 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Simple cryptographic random related types
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	securemem vector
 

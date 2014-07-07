@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Program and library to derive instances for data types
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	haskell-src-exts>=1.14 syb transformers>=0.2 uniplate>=1.5
 

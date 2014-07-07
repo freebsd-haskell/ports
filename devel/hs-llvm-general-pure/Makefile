@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Pure Haskell LLVM functionality (no FFI)
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	mtl>=2.0.1.0 parsec>=3.1.3 setenv>=0.1.0 transformers>=0.3.0.0
 

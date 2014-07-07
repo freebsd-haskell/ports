@@ -7,7 +7,7 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Generic cryptography Public keys algorithm types
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	asn1-types>=0.1
 

@@ -8,7 +8,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Safely evaluate pure Haskell expressions
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	extensible-exceptions hint>=0.3.1 mtl>2 show>=0.3 \
 		simple-reflect utf8-string

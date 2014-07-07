@@ -7,7 +7,7 @@ CATEGORIES=	math haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Pointed and copointed data
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	comonad>=4 data-default-class>=0.0.1 semigroupoids>=4 \
 		semigroups>=0.8.3.1 stm>=2.1.2.1 tagged>=0.5 \

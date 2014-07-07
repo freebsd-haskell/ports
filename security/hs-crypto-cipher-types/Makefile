@@ -7,7 +7,7 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Generic cryptography cipher types
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	byteable>=0.1.1 securemem>=0.1.1
 

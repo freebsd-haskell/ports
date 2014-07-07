@@ -7,7 +7,7 @@ CATEGORIES=	www haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Snap: A Haskell Web Framework (core interfaces and types)
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	attoparsec>=0.10 attoparsec-enumerator>=0.3 \
 		blaze-builder>=0.2.1.4 blaze-builder-enumerator>=0.2 \

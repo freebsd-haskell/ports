@@ -7,7 +7,7 @@ CATEGORIES=	textproc haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Blazingly fast HTML combinator library for Haskell
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	blaze-builder>=0.2 blaze-markup>=0.5.1 text>=0.10
 

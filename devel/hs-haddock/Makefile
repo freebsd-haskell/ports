@@ -9,7 +9,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Documentation-generation tool for Haskell libraries
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	ghc-paths xhtml>=3000.2
 

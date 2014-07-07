@@ -7,7 +7,7 @@ CATEGORIES=	textproc haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Wadler/Leijen Pretty Printer for Text values
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	text>=0.11.0.0
 

@@ -7,7 +7,7 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Crypto Pseudo Random Number Generator using AES
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	byteable cipher-aes>=0.2 crypto-random>=0.0.7 random
 

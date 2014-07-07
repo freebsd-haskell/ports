@@ -7,7 +7,7 @@ CATEGORIES=	www haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Web-related tools and services
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	base64-bytestring blaze-html>=0.5 extensible-exceptions \
 		hslogger>=1.0.2 html monad-control>=0.3 mtl>=2 network>=2.2.3 \

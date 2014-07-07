@@ -8,7 +8,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell API Search
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	aeson>=0.6.1 binary blaze-builder>=0.2 case-insensitive>=0.2 \
 		cmdargs>=0.7 conduit>=0.2 haskell-src-exts>=1.14 \

@@ -7,7 +7,7 @@ CATEGORIES=	textproc haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	An adapter to convert attoparsec Parsers into blazing-fast Iteratees
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	attoparsec>=0.8 iteratee>=0.7 transformers
 

@@ -7,7 +7,7 @@ CATEGORIES=	net haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Cross-platform library for the sendfile() system call
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	network
 

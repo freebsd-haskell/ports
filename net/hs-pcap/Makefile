@@ -9,7 +9,7 @@ CATEGORIES=	net haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	System-independent interface for user-level packet capture
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	network
 

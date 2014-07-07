@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Name resolution library for Haskell
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	aeson data-lens data-lens-template haskell-packages>=0.2 \
 		haskell-src-exts>=1.14 hse-cpp mtl tagged transformers \

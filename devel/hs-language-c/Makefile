@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Analysis and generation of C code
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_ALEX=	yes
 USE_HAPPY=	yes

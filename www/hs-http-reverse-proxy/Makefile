@@ -7,7 +7,7 @@ CATEGORIES=	www haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Reverse proxy HTTP requests, either over raw sockets or with WAI
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	basic-prelude>=0.3.5 blaze-builder>=0.3 case-insensitive>=0.4 \
 		conduit>=0.5 data-default http-client>=0.1 http-types>=0.6 \

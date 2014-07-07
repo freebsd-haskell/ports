@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Easy API for a Haskell IDE
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	aeson>=0.4 attoparsec cmdargs cpphs ghc-paths \
 		haskell-src-exts>=1.12 mtl regex-tdfa syb text transformers \

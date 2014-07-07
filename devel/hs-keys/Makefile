@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Keyed functors and containers
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	comonad>=4 free>=4 semigroupoids>=4 semigroups>=0.8.3.1 \
 		transformers>=0.2

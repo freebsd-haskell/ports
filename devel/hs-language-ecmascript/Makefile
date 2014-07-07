@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	JavaScript parser and pretty-printer library
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	data-default-class>=0.0.1 Diff mtl>=1 parsec>3 \
 		QuickCheck>=2.5 uniplate>=1.6 wl-pprint

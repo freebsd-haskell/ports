@@ -33,7 +33,7 @@ USES=			gmake iconv perl5 ncurses tar:bzip2
 USE_BINUTILS=		yes
 USE_GCC=		yes
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 MAKE_ENV=	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8

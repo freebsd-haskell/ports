@@ -8,7 +8,7 @@ CATEGORIES=	lang haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Compiler for a simple functional language
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	mtl
 USE_HAPPY=	yes

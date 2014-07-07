@@ -7,7 +7,7 @@ CATEGORIES=	math haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	SMT Based Verification: Symbolic Haskell theorem prover using SMT solving
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	HUnit mtl QuickCheck random syb
 

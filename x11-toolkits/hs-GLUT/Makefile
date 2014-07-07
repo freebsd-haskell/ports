@@ -10,7 +10,7 @@ CATEGORIES=	x11-toolkits haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding for the OpenGL Utility Toolkit
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	OpenGL>=2.8 OpenGLRaw>=1.3
 USE_GL=		glut

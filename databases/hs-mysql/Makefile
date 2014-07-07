@@ -8,7 +8,7 @@ CATEGORIES=	databases haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Low-level MySQL client library
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_MYSQL=	yes
 

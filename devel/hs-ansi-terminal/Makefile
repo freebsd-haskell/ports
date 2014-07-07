@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Simple ANSI terminal support, with Windows compatibility
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 FLAGS_DISABLE=	Example
 

@@ -8,7 +8,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Extensible exceptions
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 CABAL_SETUP=	Setup.hs
 

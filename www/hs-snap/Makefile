@@ -7,7 +7,7 @@ CATEGORIES=	www haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Top-level package for the Snap Web Framework
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	aeson>=0.6 attoparsec>=0.10 cereal>=0.3 clientsession>=0.8 \
 		comonad>=1.1 configurator>=0.1 directory-tree>=0.10 \

@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Lenses, Folds and Traversals
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	bifunctors>=4 comonad>=4 contravariant>=0.3 distributive>=0.3 \
 		generic-deriving>=1.4 hashable>=1.1.2.3 \

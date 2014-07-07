@@ -7,7 +7,7 @@ CATEGORIES=	textproc haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Pure-Haskell utilities for dealing with XML with the conduit package
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	attoparsec>=0.10 attoparsec-conduit>=1.0 blaze-builder>=0.2 \
 		blaze-builder-conduit>=1.0 blaze-html>=0.5 blaze-markup>=0.5 \

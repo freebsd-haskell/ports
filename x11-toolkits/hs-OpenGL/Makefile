@@ -10,7 +10,7 @@ CATEGORIES=	x11-toolkits haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding for the OpenGL graphics system
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	GLURaw>=1.1.0.0 OpenGLRaw>=1.3.0.0 text
 

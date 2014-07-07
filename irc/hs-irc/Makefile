@@ -7,7 +7,7 @@ CATEGORIES=	irc haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	A small library for parsing IRC messages
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	parsec>=2.1
 

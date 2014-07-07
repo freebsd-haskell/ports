@@ -7,7 +7,7 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Public Key cryptography
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	byteable crypto-numbers>=0.2.2 crypto-pubkey-types>=0.4.1 \
 		crypto-random>=0.0 cryptohash>=0.9.1

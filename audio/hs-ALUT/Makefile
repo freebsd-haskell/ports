@@ -9,7 +9,7 @@ CATEGORIES=	audio haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding for the OpenAL Utility Toolkit
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	OpenAL StateVar
 USES=		openal:al,alut

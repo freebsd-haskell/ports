@@ -8,7 +8,7 @@ CATEGORIES=	net haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Portable sendfile library
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	network>=2
 

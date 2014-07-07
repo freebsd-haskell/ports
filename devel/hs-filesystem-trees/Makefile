@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Recursively manipulate and traverse filesystems as lazy rose trees
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	cond>=0.3 data-lens>=2.0.1 dlist>=0.2 mtl>=1.0
 

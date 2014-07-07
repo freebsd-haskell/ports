@@ -7,7 +7,7 @@ CATEGORIES=	graphics haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding to the Cairo library
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USES=		pkgconfig
 USE_CABAL=	gtk2hs-buildtools mtl utf8-string>=0.2

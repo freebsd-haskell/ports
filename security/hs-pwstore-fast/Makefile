@@ -7,7 +7,7 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Secure password storage
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	base64-bytestring>=0.1 binary>=0.5 cryptohash>=0.6 random>=1 \
 		SHA>=1.6.1

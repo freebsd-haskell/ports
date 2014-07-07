@@ -9,7 +9,7 @@ CATEGORIES=	math haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Probabilistic Functional Programming
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	random>=1.0 transformers>=0.0.1 utility-ht>=0.0.6
 

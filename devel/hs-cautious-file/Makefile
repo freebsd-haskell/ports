@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Ways to write a file cautiously
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 FLAGS_DEFINE=		POSIX
 FLAGS_DEFAULT=		POSIX

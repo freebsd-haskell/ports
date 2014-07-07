@@ -7,7 +7,7 @@ CATEGORIES=	lang haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Compiler for Fay, a Haskell subset that compiles to JavaScript
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	aeson attoparsec cpphs data-default ghc-paths \
 		haskell-names>=0.3.1 haskell-packages haskell-src-exts>=1.14 \

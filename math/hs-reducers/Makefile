@@ -7,7 +7,7 @@ CATEGORIES=	math haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Semigroups, specialized containers and a general map/reduce framework
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	comonad>=4 fingertree>=0.1 hashable>=1.1.2.1 keys>=3.10 \
 		pointed>=4 semigroupoids>=4 semigroups>=0.8.3.1 \

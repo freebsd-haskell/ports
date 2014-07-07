@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Command-line interface for browsing and searching packages documentation
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	aeson>=0.4 attoparsec>=0.10 conduit>=1.0 derive>=2.5 \
 		ghc-paths haskeline>=0.7 haskell-src-exts>=1.11 HTTP>=4000 \

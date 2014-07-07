@@ -8,7 +8,7 @@ CATEGORIES=	ftp haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell binding to libcurl
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 LIB_DEPENDS=	curl:${PORTSDIR}/ftp/curl
 

@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Abstract, parameterized interface to mutable Deques
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	HUnit random test-framework>=0.6 test-framework-hunit>=0.2.7
 

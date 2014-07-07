@@ -8,7 +8,7 @@ CATEGORIES=	www haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell code presentation tool
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	activehs-base>=0.2 blaze-html>=0.5 blaze-markup>=0.5.1.0 \
 		cmdargs>=0.7 data-pprint>=0.2 dia-base>=0.1 \

@@ -7,7 +7,7 @@ CATEGORIES=	security haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Certificates and Key Reader/Writer
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	asn1-data>=0.7.1 crypto-pubkey-types>=0.4 cryptohash \
 		mtl pem>=0.1

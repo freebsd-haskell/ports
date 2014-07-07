@@ -7,7 +7,7 @@ CATEGORIES=	net haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	IP Routing Table
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	appar byteorder network
 

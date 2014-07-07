@@ -7,7 +7,7 @@ CATEGORIES=	lang haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Functional Programming Language with Dependent Types
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USES=		gmake
 

@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	General purpose LLVM bindings
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	llvm-general-pure==3.3.8.2 mtl>=2.0.1.0 parsec>=3.1.3 \
 		setenv>=0.1.0 transformers>=0.3.0.0 utf8-string>=0.3.7

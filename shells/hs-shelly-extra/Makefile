@@ -7,7 +7,7 @@ CATEGORIES=	shells haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	shelly features that require extra dependencies
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	SafeSemaphore>=0.7 shelly>=0.13
 

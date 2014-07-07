@@ -7,7 +7,7 @@ CATEGORIES=	graphics haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding to the libsvg-cairo library
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USES=		pkgconfig
 USE_CABAL=	cairo>=0.12.5.0 glib>=0.12.5.0 mtl

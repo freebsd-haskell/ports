@@ -7,7 +7,7 @@ CATEGORIES=	sysutils haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Remote monitoring of processes
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	aeson network snap-core snap-server text transformers \
 		unordered-containers

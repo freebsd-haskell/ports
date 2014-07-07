@@ -9,7 +9,7 @@ CATEGORIES=	converters haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Support for serialising Haskell to and from JSON
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	mtl syb>=0.3.3 text
 

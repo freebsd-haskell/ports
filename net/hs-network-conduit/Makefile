@@ -7,7 +7,7 @@ CATEGORIES=	net haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Stream socket data using conduits
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	conduit>=1.0 lifted-base>=0.1 monad-control>=0.3 \
 		network>=2.3 transformers>=0.2.2

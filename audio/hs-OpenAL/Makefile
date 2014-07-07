@@ -9,7 +9,7 @@ CATEGORIES=	audio haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding to the OpenAL cross-platform 3D audio API
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	ObjectName StateVar Tensor
 USES=		openal:al

@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Binding to libffi
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USES=		pkgconfig
 

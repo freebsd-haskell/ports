@@ -7,7 +7,7 @@ CATEGORIES=	converters haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Fast JSON parsing and encoding
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	attoparsec>=0.8.6.1 blaze-builder>=0.2.1.4 dlist>=0.2 \
 		hashable>=1.1.2.0 mtl syb text>=0.11.1.0 \

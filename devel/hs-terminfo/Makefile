@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Haskell bindings to the terminfo library
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USES=		ncurses
 

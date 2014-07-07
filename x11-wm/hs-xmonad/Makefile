@@ -9,7 +9,7 @@ CATEGORIES=	x11-wm haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Tiling window manager
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	extensible-exceptions mtl utf8-string>=0.3 X11>=1.5
 USE_XORG=	x11

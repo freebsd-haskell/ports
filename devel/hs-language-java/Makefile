@@ -7,7 +7,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Manipulating Java source: abstract syntax, lexer, parser, and pretty-printer
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	cpphs>=1.3 parsec>=3.0 syb
 USE_ALEX=	yes

@@ -8,7 +8,7 @@ CATEGORIES=	x11-wm haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Third-party extensions for xmonad
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	mtl random utf8-string X11>=1.6 xmonad>=0.11
 USE_XORG=	x11

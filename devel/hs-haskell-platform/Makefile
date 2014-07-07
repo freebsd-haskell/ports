@@ -10,7 +10,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	The Haskell Platform
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 METAPORT=	yes
 
