@@ -7,7 +7,7 @@ CATEGORIES=	archivers haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Library for creating and modifying zip archives
 
-LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	binary>=0.5 digest>=0.0.0.1 mtl text>=0.11 zlib
 

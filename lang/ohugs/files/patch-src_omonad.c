@@ -1,5 +1,5 @@
 
-$FreeBSD$
+$FreeBSD: head/lang/ohugs/files/patch-src_omonad.c 340725 2014-01-22 17:40:44Z mat $
 
 --- src/omonad.c.orig
 +++ src/omonad.c
