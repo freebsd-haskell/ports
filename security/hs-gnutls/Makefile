@@ -12,7 +12,7 @@ LICENSE=	GPLv3
 USE_CABAL=	monads-tf>=0.1 transformers>=0.2
 
 USES=		pkgconfig
-LIB_DEPENDS=	gnutls.26:${PORTSDIR}/security/gnutls
+LIB_DEPENDS=	libgnutls.so:${PORTSDIR}/security/gnutls
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

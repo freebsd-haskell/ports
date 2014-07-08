@@ -12,7 +12,7 @@ LICENSE=	GPLv3
 USE_CABAL=	transformers>=0.2
 
 USES=		pkgconfig
-LIB_DEPENDS=	gsasl.16:${PORTSDIR}/security/gsasl
+LIB_DEPENDS=	libgsasl.so:${PORTSDIR}/security/gsasl
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
