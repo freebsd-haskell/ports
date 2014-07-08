@@ -2,7 +2,7 @@
 
 PORTNAME=	gnuidn
 PORTVERSION=	0.2.1
-CATEGORIES=	net haskell
+CATEGORIES=	dns haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Bindings for GNU IDN
