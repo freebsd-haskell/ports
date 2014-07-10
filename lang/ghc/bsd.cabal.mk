@@ -306,6 +306,13 @@ post-install-script:
 .for exe in ${EXECUTABLE}
 	@${ECHO_CMD} 'bin/${exe}' >>${TMPPLIST}
 .endfor
+.if defined(STANDALONE) && !${PORT_OPTIONS:MDYNAMIC}
+	@for dir in lib share share/doc share/examples; do \
+		if [ -d ${STAGEDIR}${PREFIX}/$${dir}/cabal/ghc-${GHC_VERSION} ]; then \
+		echo "@dirrmtry $${dir}/cabal/ghc-${GHC_VERSION}" >> ${TMPPLIST}; fi ; \
+		if [ -d ${STAGEDIR}${PREFIX}/$${dir}/cabal ]; then \
+		echo "@dirrmtry $${dir}/cabal" >> ${TMPPLIST}; fi ; done
+.endif
 .endif
 
 .endif # target(post-install-script)
