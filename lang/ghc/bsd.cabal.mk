@@ -86,10 +86,10 @@ CONFIGURE_ARGS+=	--with-gcc=${CC} --with-ld=${LD} --with-ar=${AR} \
 
 .if ${PORT_OPTIONS:MLLVM}
 CONFIGURE_ARGS+=	--ghc-option=-fllvm \
-			--ghc-option=-pgmlo --ghc-option=${LOCALBASE}/bin/opt32 \
-			--ghc-option=-pgmlc --ghc-option=${LOCALBASE}/bin/llc32
+			--ghc-option=-pgmlo --ghc-option=${LOCALBASE}/bin/opt34 \
+			--ghc-option=-pgmlc --ghc-option=${LOCALBASE}/bin/llc34
 
-BUILD_DEPENDS+=		${LOCALBASE}/bin/opt32:${PORTSDIR}/devel/llvm32
+BUILD_DEPENDS+=		${LOCALBASE}/bin/opt34:${PORTSDIR}/devel/llvm34
 .endif
 
 .if defined(USE_ALEX)
