@@ -23,3 +23,4 @@ www/hs-hamlet||2014-07-11|Removed: Deprecated in favor of shakespeare
 www/hs-http-client-conduit||2014-07-11|Removed: Deprecated in favor of http-conduit
 www/hs-shakespeare-css||2014-07-11|Removed: Deprecated in favor of shakespeare
 www/hs-shakespeare-i18n||2014-07-11|Removed: Deprecated in favor of shakespeare
+www/hs-shakespeare-js||2014-07-11|Removed: Deprecated in favor of shakespeare
