@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	OpenGLRaw
-PORTVERSION=	1.3.0.0
-PORTREVISION=	5
+PORTVERSION=	1.5.0.0
 CATEGORIES=	x11-toolkits haskell
 
 MAINTAINER=	haskell@FreeBSD.org
