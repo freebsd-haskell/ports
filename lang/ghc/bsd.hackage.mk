@@ -477,6 +477,7 @@ uuid_port=			devel/hs-uuid
 uulib_port=			devel/hs-uulib
 vado_port=			sysutils/hs-vado
 vault_port=			devel/hs-vault
+vcswrapper_port=		devel/hs-vcswrapper
 vector_port=			devel/hs-vector
 vector-algorithms_port=		devel/hs-vector-algorithms
 vector-binary-instances_port=	devel/hs-vector-binary-instances

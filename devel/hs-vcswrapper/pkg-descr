@@ -1,0 +1,4 @@
+Provides simple haskell functions to call external source code
+management systems.  Currently git, Mercurial, and SVN are supported.
+
+WWW: https://github.com/forste/haskellVCSWrapper
