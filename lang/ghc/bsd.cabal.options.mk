@@ -65,23 +65,23 @@ OPTIONS_SINGLE+=	${FLAGS_SINGLE}
 OPTIONS_MULTI+=		${FLAGS_MULTI}
 OPTIONS_DEFAULT+=	${FLAGS_DEFAULT}
 
-ALL_FLAGS:=		${FLAGS_DEFINE} ${FLAGS_SINGLE} ${FLAGS_MULTI}
-COMPLETE_FLAGS=		${ALL_FLAGS}
+_ALL_FLAGS:=		${FLAGS_DEFINE} ${FLAGS_SINGLE} ${FLAGS_MULTI}
+_COMPLETE_FLAGS=	${_ALL_FLAGS}
 
-.for f in ${ALL_FLAGS}
+.for f in ${_ALL_FLAGS}
 .  if defined(FLAGS_SINGLE_${f})
-COMPLETE_FLAGS+=	${FLAGS_SINGLE_${f}}
+_COMPLETE_FLAGS+=	${FLAGS_SINGLE_${f}}
 OPTIONS_SINGLE_${f}=	${FLAGS_SINGLE_${f}}
 .  endif
 .  if defined(FLAGS_MULTI_${f})
-COMPLETE_FLAGS+=	${FLAGS_MULTI_${f}}
+_COMPLETE_FLAGS+=	${FLAGS_MULTI_${f}}
 OPTIONS_MULTI_${f}=	${FLAGS_MULTI_${f}}
 .  endif
 .endfor
 
 .include <bsd.port.options.mk>
 
-.for f in ${COMPLETE_FLAGS}
+.for f in ${_COMPLETE_FLAGS}
 .  if defined(${f}_FLAG_DEPENDS)
 .    for r in ${${f}_FLAG_DEPENDS}
 .      if !${PORT_OPTIONS:M${r}}
