@@ -37,9 +37,8 @@ HTTP_FLAG_CABAL=	HTTP>=4000.0.8 network>=2.2
 STATIC_DESC=		Build static binary
 STATIC_FLAG_ENABLE=	static
 
-TERMINFO_DESC=		Use the terminfo package
+TERMINFO_DESC=		Use terminfo
 TERMINFO_FLAG_ENABLE=	terminfo
-TERMINFO_FLAG_CABAL=	terminfo>=0.3
 
 THREADED_DESC=		Use threading and SMP support
 THREADED_FLAG_ENABLE=	threaded

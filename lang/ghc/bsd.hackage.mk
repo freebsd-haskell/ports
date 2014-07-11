@@ -442,7 +442,6 @@ tagstream-conduit_port=		textproc/hs-tagstream-conduit
 tar_port=			archivers/hs-tar
 temporary_port=			devel/hs-temporary
 Tensor_port=			devel/hs-Tensor
-terminfo_port=			devel/hs-terminfo
 test-framework_port=		devel/hs-test-framework
 test-framework-hunit_port=	devel/hs-test-framework-hunit
 test-framework-quickcheck2_port=	devel/hs-test-framework-quickcheck2
