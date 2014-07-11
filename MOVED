@@ -8,3 +8,4 @@ devel/hs-haskeline||2014-07-11|Removed: Become part of GHC
 devel/hs-terminfo||2014-07-11|Removed: Become part of GHC
 devel/hs-transformers||2014-07-11|Removed: Become part of GHC
 textproc/hs-xhtml||2014-07-11|Removed: Become part of GHC
+security/hs-tls-extra||2014-07-11|Removed: Deprecated in favor of tls

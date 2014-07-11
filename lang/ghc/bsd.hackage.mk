@@ -455,7 +455,6 @@ time-compat_port=		devel/hs-time-compat
 timezone-olson_port=		devel/hs-timezone-olson
 timezone-series_port=		devel/hs-timezone-series
 tls_port=			security/hs-tls
-tls-extra_port=			security/hs-tls-extra
 transformers-base_port=		devel/hs-transformers-base
 transformers-compat_port=	devel/hs-transformers-compat
 traverse-with-class_port=	devel/hs-traverse-with-class
