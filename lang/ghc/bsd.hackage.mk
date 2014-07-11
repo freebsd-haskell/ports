@@ -349,6 +349,7 @@ pointedlist_port=		devel/hs-pointedlist
 polyparse_port=			textproc/hs-polyparse
 porte_port=			ports-mgmt/hs-porte	# executable
 pqueue_port=			devel/hs-pqueue
+prelude-extras_port=		devel/hs-prelude-extras
 pretty-show_port=		devel/hs-pretty-show	# executable
 primitive_port=			devel/hs-primitive
 printxosd_port=			x11/hs-printxosd	# executable
