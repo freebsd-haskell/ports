@@ -141,6 +141,7 @@ dlist_port=			devel/hs-dlist
 dns_port=			dns/hs-dns
 double-conversion_port=		textproc/hs-double-conversion
 DrIFT_port=			devel/hs-DrIFT
+dynamic-cabal_port=		devel/hs-dynamic-cabal
 dyre_port=			devel/hs-dyre
 edit-distance_port=		devel/hs-edit-distance
 either_port=			devel/hs-either
