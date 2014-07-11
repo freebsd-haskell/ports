@@ -20,3 +20,4 @@ devel/hs-pool-conduit||2014-07-11|Removed: Deprecated in favor of resource-pool
 net/hs-network-conduit||2014-07-11|Removed: Deprecated in favor of conduit-extra
 textproc/hs-attoparsec-conduit||2014-07-11|Removed: Deprecated in favor of conduit-extra
 www/hs-hamlet||2014-07-11|Removed: Deprecated in favor of shakespeare
+www/hs-http-client-conduit||2014-07-11|Removed: Deprecated in favor of http-conduit
