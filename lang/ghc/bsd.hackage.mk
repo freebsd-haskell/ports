@@ -85,6 +85,7 @@ comonad_port=			math/hs-comonad
 concrete-typerep_port=		devel/hs-concrete-typerep
 cond_port=			devel/hs-cond
 conduit_port=			devel/hs-conduit
+conduit-extra_port=		devel/hs-conduit-extra
 ConfigFile_port=		devel/hs-ConfigFile
 configurator_port=		devel/hs-configurator
 connection_port=		net/hs-connection
