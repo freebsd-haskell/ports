@@ -197,6 +197,7 @@ gsasl_port=			net/hs-gsasl
 gstreamer_port=			multimedia/hs-gstreamer
 gtk_port=			x11-toolkits/hs-gtk
 gtk2hs-buildtools_port=		devel/hs-gtk2hs-buildtools # executable
+gtk3_port=			x11-toolkits/hs-gtk3
 gtkglext_port=			x11-toolkits/hs-gtkglext
 gtksourceview2_port=		x11-toolkits/hs-gtksourceview2
 haddock_port=			devel/hs-haddock	# executable
