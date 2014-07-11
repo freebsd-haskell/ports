@@ -532,5 +532,4 @@ yi_port=			editors/hs-yi			# executable
 zip-archive_port=		archivers/hs-zip-archive
 zlib_port=			archivers/hs-zlib
 zlib-bindings_port=		archivers/hs-zlib-bindings
-zlib-conduit_port=		archivers/hs-zlib-conduit
 zlib-enum_port=			archivers/hs-zlib-enum
