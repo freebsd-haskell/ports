@@ -4,3 +4,4 @@ math/hs-comonads-fd||2013-12-27|Deprecated in favor of comonad
 math/hs-groupoids||2013-12-27|Deprecated in favor of semigroupoids
 math/hs-semigroupoid-extras||2013-12-27|Deprecated in favor of semigroupoids
 devel/hs-drift|devel/hs-DrIFT|2014-01-10|Renamed: Moved to a Cabalized version
+devel/hs-haskeline||2014-07-11|Removed: Become part of GHC

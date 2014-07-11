@@ -208,7 +208,6 @@ happy_port=			devel/hs-happy		# executable
 hashable_port=			devel/hs-hashable
 hashed-storage_port=		devel/hs-hashed-storage
 hashtables_port=		devel/hs-hashtables
-haskeline_port=			devel/hs-haskeline
 haskell-lexer_port=		devel/hs-haskell-lexer
 haskell-names_port=		devel/hs-haskell-names
 haskell-packages_port=		devel/hs-haskell-packages

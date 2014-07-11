@@ -11,10 +11,10 @@ COMMENT=	Distributed, interactive, smart revision control system
 
 LICENSE=	GPLv2
 
-USE_CABAL=	hashed-storage>=0.5.6 haskeline>=0.6.3 html \
-		mtl>=1.0 parsec>=2.2 random regex-compat>=0.95.1 \
-		regex-posix>=0.95.1 tar>=0.4 text>=0.11.0.6 unix-compat>=0.1.2 \
-		utf8-string>=0.3.6 vector>=0.7 zlib>=0.5.1.0
+USE_CABAL=	hashed-storage>=0.5.6 html mtl>=1.0 parsec>=2.2 random \
+		regex-compat>=0.95.1 regex-posix>=0.95.1 tar>=0.4 \
+		text>=0.11.0.6 unix-compat>=0.1.2 utf8-string>=0.3.6 \
+		vector>=0.7 zlib>=0.5.1.0
 
 EXECUTABLE=	darcs
 
