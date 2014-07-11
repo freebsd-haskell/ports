@@ -10,7 +10,7 @@ COMMENT=	Bindings to Graphviz for graph visualisation
 LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	colour dlist fgl polyparse>=1.7 temporary>=1.1 text \
-		transformers>=0.2 wl-pprint-text>=1.0.0.0
+		wl-pprint-text>=1.0.0.0
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

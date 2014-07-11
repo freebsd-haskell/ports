@@ -9,7 +9,7 @@ COMMENT=	Monad-transformer-compatible version of Control.Exception
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	extensible-exceptions monads-tf transformers>=0.2
+USE_CABAL=	extensible-exceptions monads-tf
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

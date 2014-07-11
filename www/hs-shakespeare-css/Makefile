@@ -9,7 +9,7 @@ COMMENT=	Stick your Haskell variables into CSS at compile time
 
 LICENSE=	MIT
 
-USE_CABAL=	parsec>=2 shakespeare>=1.0 text>=0.11.1.1 transformers
+USE_CABAL=	parsec>=2 shakespeare>=1.0 text>=0.11.1.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

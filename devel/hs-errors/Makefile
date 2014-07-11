@@ -9,7 +9,7 @@ COMMENT=	Simplified error-handling
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	either>=3.1 safe>=0.3.3 transformers>=0.2
+USE_CABAL=	either>=3.1 safe>=0.3.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

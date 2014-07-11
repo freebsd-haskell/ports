@@ -9,7 +9,7 @@ COMMENT=	Program and library to derive instances for data types
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	haskell-src-exts>=1.14 syb transformers>=0.2 uniplate>=1.5
+USE_CABAL=	haskell-src-exts>=1.14 syb uniplate>=1.5
 
 EXECUTABLE=	derive
 

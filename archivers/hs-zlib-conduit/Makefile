@@ -10,7 +10,7 @@ COMMENT=	Streaming compression/decompression via conduits
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	conduit>=1.0 transformers>=0.2.2 void zlib-bindings>=0.1
+USE_CABAL=	conduit>=1.0 void zlib-bindings>=0.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

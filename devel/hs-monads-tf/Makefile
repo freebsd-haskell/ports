@@ -9,7 +9,5 @@ COMMENT=	Monad classes, using type families
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	transformers>=0.2.0.0
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

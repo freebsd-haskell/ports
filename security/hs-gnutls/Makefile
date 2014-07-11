@@ -9,7 +9,7 @@ COMMENT=	Bindings for GNU libgnutls
 
 LICENSE=	GPLv3
 
-USE_CABAL=	monads-tf>=0.1 transformers>=0.2
+USE_CABAL=	monads-tf>=0.1
 
 USES=		pkgconfig
 LIB_DEPENDS=	libgnutls.so:${PORTSDIR}/security/gnutls

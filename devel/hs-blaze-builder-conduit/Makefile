@@ -10,8 +10,7 @@ COMMENT=	Convert streams of builders to streams of bytestrings
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	blaze-builder>=0.2.1.4 conduit>=1.0 text>=0.11 \
-		transformers>=0.2.2
+USE_CABAL=	blaze-builder>=0.2.1.4 conduit>=1.0 text>=0.11
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

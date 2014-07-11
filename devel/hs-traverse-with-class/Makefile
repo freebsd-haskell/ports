@@ -9,7 +9,5 @@ COMMENT=	Generic applicative traversals
 
 LICENSE=	MIT
 
-USE_CABAL=	transformers
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

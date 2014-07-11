@@ -53,9 +53,9 @@ WEBAPP_FLAG_DEPENDS=	ASSISTANT
 WEBAPP_DYNAMIC_BROKEN=	will not link with both WEBAPP and DYNAMIC enabled
 WEBAPP_FLAG_ENABLE=	Webapp
 WEBAPP_FLAG_CABAL=	yesod yesod-static yesod-static yesod-form yesod-core \
-			case-insensitive http-types transformers wai \
-			wai-logger warp blaze-builder crypto-api hamlet \
-			clientsession data-default
+			case-insensitive http-types wai wai-logger warp \
+			blaze-builder crypto-api hamlet clientsession \
+			data-default
 
 PAIRING_DESC=		Enable pairing (requires web application)
 PAIRING_FLAG_DEPENDS=	WEBAPP

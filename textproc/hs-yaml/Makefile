@@ -10,7 +10,7 @@ COMMENT=	Support for parsing and rendering YAML documents
 LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	aeson>=0.5 attoparsec conduit>=0.5 resourcet>=0.3 text \
-		transformers>=0.1 unordered-containers vector
+		unordered-containers vector
 
 EXECUTABLE=	yaml2json
 

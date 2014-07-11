@@ -17,7 +17,7 @@ RUN_DEPENDS+=	boehm-gc>=7.1:${PORTSDIR}/devel/boehm-gc \
 		gmp>=5.0.2:${PORTSDIR}/math/gmp
 
 USE_CABAL=	ansi-terminal ansi-wl-pprint binary language-java>=0.2.6 mtl \
-		network parsers>=0.9 split text transformers trifecta>=1.1 \
+		network parsers>=0.9 split text trifecta>=1.1 \
 		unordered-containers utf8-string vector \
 		vector-binary-instances xml
 

@@ -9,7 +9,7 @@ COMMENT=	Globbing library
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	dlist>=0.4 transformers>=0.2
+USE_CABAL=	dlist>=0.4
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -9,7 +9,7 @@ COMMENT=	Contravariant functors
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	tagged>=0.4.4 transformers>=0.3
+USE_CABAL=	tagged>=0.4.4
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

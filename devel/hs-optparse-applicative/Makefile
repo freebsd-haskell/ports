@@ -9,7 +9,5 @@ COMMENT=	Utilities and combinators for parsing command line options
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	transformers>=0.2
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

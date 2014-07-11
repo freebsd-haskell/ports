@@ -11,7 +11,7 @@ LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	base64-bytestring base64-conduit basic-prelude>=0.3.5 \
 		conduit>=0.5.4 mtl>=2.0 resourcet>=0.4.3 system-fileio>=0.3 \
-		system-filepath>=0.4 text>=0.11 transformers>=0.2
+		system-filepath>=0.4 text>=0.11
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

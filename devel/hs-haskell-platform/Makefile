@@ -42,7 +42,6 @@ USE_CABAL=	async==2.0.1.4_4 \
 		stm==2.4.2_4 \
 		syb==0.4.0_4 \
 		text==0.11.3.1_4 \
-		transformers==0.3.0.0_8 \
 		unordered-containers==0.2.3.0,1 \
 		vector==0.10.0.1_6 \
 		xhtml==3000.2.1_8 \

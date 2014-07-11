@@ -10,7 +10,7 @@ COMMENT=	Easy API for a Haskell IDE
 LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	aeson>=0.4 attoparsec cmdargs cpphs ghc-paths \
-		haskell-src-exts>=1.12 mtl regex-tdfa syb text transformers \
+		haskell-src-exts>=1.12 mtl regex-tdfa syb text \
 		unordered-containers utf8-string vector>=0.8
 
 EXECUTABLE=	buildwrapper

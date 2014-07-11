@@ -11,7 +11,7 @@ LICENSE=	MIT
 
 USE_CABAL=	conduit>=1.0 filesystem-conduit>=1.0 resourcet>=0.3 \
 		system-filepath>=0.4 tagstream-conduit>=0.4 text \
-		transformers xml-conduit>=1.1 xml-types>=0.3
+		xml-conduit>=1.1 xml-types>=0.3
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -9,7 +9,7 @@ COMMENT=	Consume attoparsec parsers via conduit
 
 LICENSE=	MIT
 
-USE_CABAL=	attoparsec>=0.10 conduit>=1.0 text>=0.11 transformers>=0.2.2
+USE_CABAL=	attoparsec>=0.10 conduit>=1.0 text>=0.11
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

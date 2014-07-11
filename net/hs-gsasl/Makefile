@@ -9,8 +9,6 @@ COMMENT=	Bindings for GNU libgsasl
 
 LICENSE=	GPLv3
 
-USE_CABAL=	transformers>=0.2
-
 USES=		pkgconfig
 LIB_DEPENDS=	libgsasl.so:${PORTSDIR}/security/gsasl
 

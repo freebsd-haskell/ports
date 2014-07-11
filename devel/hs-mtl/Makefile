@@ -10,7 +10,5 @@ COMMENT=	Monad classes, using functional dependencies
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	transformers>=0.3
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

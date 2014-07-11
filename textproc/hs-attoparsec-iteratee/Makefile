@@ -9,7 +9,7 @@ COMMENT=	An adapter to convert attoparsec Parsers into blazing-fast Iteratees
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	attoparsec>=0.8 iteratee>=0.7 transformers
+USE_CABAL=	attoparsec>=0.8 iteratee>=0.7
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

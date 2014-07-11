@@ -9,7 +9,7 @@ COMMENT=	Haskell implementation of Mustache templates
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	blaze-builder ieee754 mtl syb text transformers utf8-string
+USE_CABAL=	blaze-builder ieee754 mtl syb text utf8-string
 
 INSTALL_PORTDATA=	cd ${WRKSRC} && ${INSTALL_DATA} README.md ${STAGEDIR}${DATADIR}
 

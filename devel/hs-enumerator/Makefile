@@ -9,7 +9,7 @@ COMMENT=	Reliable, high-performance processing with left-fold enumerators
 
 LICENSE=	MIT
 
-USE_CABAL=	text>=0.7 transformers>=0.2
+USE_CABAL=	text>=0.7
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

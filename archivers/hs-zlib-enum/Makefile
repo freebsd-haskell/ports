@@ -10,7 +10,7 @@ COMMENT=	Enumerator interface for zlib compression
 
 LICENSE=	MIT
 
-USE_CABAL=	enumerator transformers>=0.2 zlib-bindings
+USE_CABAL=	enumerator zlib-bindings
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

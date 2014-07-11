@@ -10,7 +10,7 @@ COMMENT=	Source code suggestions
 LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	cpphs>=1.11 haskell-src-exts>=1.14 hscolour>=1.17 \
-		transformers>=0.0 uniplate>=1.5
+		uniplate>=1.5
 
 EXECUTABLE=	hlint
 

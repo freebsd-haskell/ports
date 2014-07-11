@@ -10,7 +10,7 @@ COMMENT=	Use system-filepath data types with conduits
 LICENSE=	MIT
 
 USE_CABAL=	conduit>=1.0 system-fileio>=0.3.3 system-filepath>=0.4.3 \
-		text>=0.11 transformers>=0.2.2
+		text>=0.11
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

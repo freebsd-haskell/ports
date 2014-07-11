@@ -14,8 +14,8 @@ USE_CABAL=	base64-bytestring>=0.1.0.1 cereal>=0.3 conduit>=0.5 \
 		file-embed>=0.0.4.1 hjsmin http-types>=0.7 mime-types>=0.1 \
 		process-conduit>=1.0 resourcet>=0.4 shakespeare-css>=1.0.3 \
 		system-fileio>=0.3 system-filepath>=0.4.6 text>=0.9 \
-		transformers>=0.2.2 unix-compat>=0.2 unordered-containers>=0.2 \
-		wai>=1.3 wai-app-static>=1.3 yesod-core>=1.2
+		unix-compat>=0.2 unordered-containers>=0.2 wai>=1.3 \
+		wai-app-static>=1.3 yesod-core>=1.2
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

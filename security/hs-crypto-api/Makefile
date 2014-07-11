@@ -9,7 +9,7 @@ COMMENT=	Generic interface for cryptographic operations
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	cereal>=0.2 entropy tagged>=0.1 transformers
+USE_CABAL=	cereal>=0.2 entropy tagged>=0.1
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

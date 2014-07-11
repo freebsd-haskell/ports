@@ -17,8 +17,8 @@ USE_CABAL=	attoparsec>=0.10 base64-bytestring blaze-builder>=0.2.1.4 \
 		resourcet>=0.3 shakespeare>=1.0.2 shakespeare-css>=1.0.2 \
 		shakespeare-js>=1.0.2 shakespeare-text>=1.0 split>=0.2 \
 		system-fileio>=0.3 system-filepath>=0.4 tar>=0.4 text>=0.11 \
-		transformers unix-compat>=0.2 unordered-containers \
-		wai>=1.4 warp>=1.3.7.5 yaml>=0.8 zlib>=0.5
+		unix-compat>=0.2 unordered-containers wai>=1.4 warp>=1.3.7.5 \
+		yaml>=0.8 zlib>=0.5
 
 EXECUTABLE=	yesod-ghc-wrapper yesod-ld-wrapper yesod-ar-wrapper yesod
 STANDALONE=	yes

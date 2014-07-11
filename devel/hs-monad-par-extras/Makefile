@@ -9,8 +9,7 @@ COMMENT=	Combinators and extra features for Par monads
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	abstract-par>=0.3 cereal>=0.3 mtl>=2.0 random>=1.0 \
-		transformers>=0.2
+USE_CABAL=	abstract-par>=0.3 cereal>=0.3 mtl>=2.0 random>=1.0
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

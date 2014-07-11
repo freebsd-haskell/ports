@@ -457,7 +457,6 @@ timezone-olson_port=		devel/hs-timezone-olson
 timezone-series_port=		devel/hs-timezone-series
 tls_port=			security/hs-tls
 tls-extra_port=			security/hs-tls-extra
-transformers_port=		devel/hs-transformers
 transformers-base_port=		devel/hs-transformers-base
 traverse-with-class_port=	devel/hs-traverse-with-class
 trifecta_port=			textproc/hs-trifecta
