@@ -70,6 +70,7 @@ certificate_port=		security/hs-certificate
 cgi_port=			www/hs-cgi
 charset_port=			devel/hs-charset
 checkers_port=			devel/hs-checkers
+chunked-data_port=		devel/hs-chunked-data
 cipher-aes_port=		security/hs-cipher-aes
 cipher-blowfish_port=		security/hs-cipher-blowfish
 cipher-camellia_port=		security/hs-cipher-camellia
