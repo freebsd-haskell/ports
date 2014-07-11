@@ -1,0 +1,6 @@
+Provides library functions to expose some commonly needed scm tasks to
+the user.  Uses GTK+ and GTKBuilder to organize and display windows.
+Uses vcswrapper to acces the scm functions.  Currently git, SVN and
+Mercurial (hg) are supported.
+
+WWW: https://github.com/forste/haskellVCSGUI
