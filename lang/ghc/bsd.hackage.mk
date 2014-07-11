@@ -475,6 +475,7 @@ uuagc-bootstrap_port=		devel/hs-uuagc-bootstrap # executable
 uuagc-cabal_port=		devel/hs-uuagc-cabal
 uuid_port=			devel/hs-uuid
 uulib_port=			devel/hs-uulib
+vado_port=			sysutils/hs-vado
 vault_port=			devel/hs-vault
 vector_port=			devel/hs-vector
 vector-algorithms_port=		devel/hs-vector-algorithms

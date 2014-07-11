@@ -1,0 +1,5 @@
+Lets you quickly run ssh on a machine that you have an sshfs connection
+to.  It works out the username, host and the directory on the host based
+on the current directory and the output of 'mount'.
+
+WWW: https://github.com/hamishmack/vado
