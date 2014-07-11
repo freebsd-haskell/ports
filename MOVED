@@ -17,3 +17,4 @@ devel/hs-blaze-builder-conduit||2014-07-11|Removed: Deprecated in favor of condu
 devel/hs-failure||2014-07-11|Removed: Deprecated in favor or exceptions
 devel/hs-filesystem-conduit||2014-07-11|Removed: Deprecated in favor of conduit-combinators
 devel/hs-pool-conduit||2014-07-11|Removed: Deprecated in favor of resource-pool
+net/hs-network-conduit||2014-07-11|Removed: Deprecated in favor of conduit-extra
