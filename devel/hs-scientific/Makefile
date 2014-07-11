@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	scientific
-PORTVERSION=	0.2.0.1
+PORTVERSION=	0.2.0.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Arbitrary-precision floating-point numbers represented using scientific notation
+COMMENT=	Numbers represented using scientific notation
 
 LICENSE=	BSD3CLAUSE
 

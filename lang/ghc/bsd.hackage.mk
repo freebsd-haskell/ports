@@ -427,6 +427,7 @@ statistics_port=		math/hs-statistics
 stm_port=			devel/hs-stm
 stm-chans_port=			devel/hs-stm-chans
 Stream_port=			devel/hs-Stream
+streaming-commons_port=			devel/hs-streaming-commons
 streams_port=			math/hs-streams
 strict_port=			devel/hs-strict
 string-qq_port=			devel/hs-string-qq
