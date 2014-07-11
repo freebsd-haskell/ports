@@ -391,7 +391,6 @@ setops_port=			devel/hs-setops
 SHA_port=			security/hs-SHA
 shake_port=			devel/hs-shake
 shakespeare_port=		www/hs-shakespeare
-shakespeare-css_port=		www/hs-shakespeare-css
 shakespeare-i18n_port=		www/hs-shakespeare-i18n
 shakespeare-js_port=		www/hs-shakespeare-js
 shakespeare-text_port=		www/hs-shakespeare-text
