@@ -44,7 +44,6 @@ USE_CABAL=	async==2.0.1.4_4 \
 		text==0.11.3.1_4 \
 		unordered-containers==0.2.3.0,1 \
 		vector==0.10.0.1_6 \
-		xhtml==3000.2.1_8 \
 		zlib==0.5.4.1_4 \
 		cabal-install==1.16.0.2_4 \
 		alex==3.0.5_4 \
