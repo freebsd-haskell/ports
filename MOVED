@@ -13,3 +13,4 @@ archivers/hs-zlib-conduit||2014-07-11|Removed: Deprecated in favor of conduit-ex
 devel/hs-IORefCAS||2014-07-11|Removed: Deprecated in favor of atomic-primops
 devel/hs-attempt||2014-07-11|Removed: Deprecated in favor of exceptions
 devel/hs-base64-conduit||2014-07-11|Removed: Deprecated in favor of conduit-combinators
+devel/hs-blaze-builder-conduit||2014-07-11|Removed: Deprecated in favor of conduit-extra
