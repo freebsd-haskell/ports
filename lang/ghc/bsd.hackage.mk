@@ -170,7 +170,6 @@ fgl_port=			devel/hs-fgl
 file-embed_port=		devel/hs-file-embed
 filemanip_port=			devel/hs-filemanip
 filestore_port=			devel/hs-filestore
-filesystem-conduit_port=	devel/hs-filesystem-conduit
 filesystem-trees_port=		devel/hs-filesystem-trees
 fingertree_port=		devel/hs-fingertree
 free_port=			devel/hs-free
