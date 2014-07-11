@@ -25,3 +25,4 @@ www/hs-shakespeare-css||2014-07-11|Removed: Deprecated in favor of shakespeare
 www/hs-shakespeare-i18n||2014-07-11|Removed: Deprecated in favor of shakespeare
 www/hs-shakespeare-js||2014-07-11|Removed: Deprecated in favor of shakespeare
 www/hs-shakespeare-text||2014-07-11|Removed: Deprecated in favor of shakespeare
+www/hs-wai-test||2014-07-11|Removed: Deprecated in favor of wai-extra
