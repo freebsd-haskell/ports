@@ -1,0 +1,11 @@
+--- ./atomic-primops.cabal.orig	2014-04-14 04:20:09.000000000 +0200
++++ ./atomic-primops.cabal	2014-07-12 20:13:00.000000000 +0200
+@@ -96,7 +96,7 @@
+ 
+   -- casMutVar# had a bug in GHC 7.2, thus we require GHC 7.4 or greater
+   -- (base 4.5 or greater). We also need the "Any" kind.
+-  build-depends:     base >= 4.6.0.0 && <= 4.7.0.0, ghc-prim, primitive
++  build-depends:     base >= 4.6.0.0 && <= 4.7.0.1, ghc-prim, primitive
+ 
+   -- TODO: Try to push support back to 7.0, but make it default to an implementation
+   -- other than Unboxed.

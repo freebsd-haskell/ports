@@ -27,6 +27,7 @@ arrows_port=			devel/hs-arrows
 asn1-data_port=			devel/hs-asn1-data
 asn1-types_port=		devel/hs-asn1-types
 async_port=			devel/hs-async
+atomic-primops_port=		devel/hs-atomic-primops
 attempt_port=			devel/hs-attempt
 attoparsec_port=		textproc/hs-attoparsec
 attoparsec-conduit_port=	textproc/hs-attoparsec-conduit
