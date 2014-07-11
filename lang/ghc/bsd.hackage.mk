@@ -439,6 +439,7 @@ test-framework_port=		devel/hs-test-framework
 test-framework-hunit_port=	devel/hs-test-framework-hunit
 test-framework-quickcheck2_port=	devel/hs-test-framework-quickcheck2
 test-framework-th_port=		devel/hs-test-framework-th
+testing-feat_port=		devel/hs-testing-feat
 testpack_port=			devel/hs-testpack
 texmath_port=			textproc/hs-texmath	# executable
 text_port=			devel/hs-text

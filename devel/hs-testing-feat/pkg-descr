@@ -1,0 +1,10 @@
+Feat (Functional Enumeration of Algebraic Types) provides enumerations
+as functions from natural numbers to values (similar to toEnum but for
+any algebraic data type).  This can be used for SmallCheck-style
+systematic testing, QuickCheck style random testing, and hybrids of the
+two.  The enumerators are defined in a very boilerplate manner and there
+is a Template Haskell script for deriving the class instance for most
+types.  "Test.Feat" contain a subset of the other modules that should be
+sufficient for most test usage.
+
+WWW: http://hackage.haskell.org/package/testing-feat
