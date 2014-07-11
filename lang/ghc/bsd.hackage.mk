@@ -29,7 +29,6 @@ asn1-types_port=		devel/hs-asn1-types
 async_port=			devel/hs-async
 atomic-primops_port=		devel/hs-atomic-primops
 attoparsec_port=		textproc/hs-attoparsec
-attoparsec-conduit_port=	textproc/hs-attoparsec-conduit
 attoparsec-enumerator_port=	textproc/hs-attoparsec-enumerator
 attoparsec-iteratee_port=		textproc/hs-attoparsec-iteratee
 authenticate_port=		www/hs-authenticate
