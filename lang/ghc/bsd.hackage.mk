@@ -123,6 +123,7 @@ data-default-instances-containers_port=		devel/hs-data-default-instances-contain
 data-default-instances-dlist_port=	devel/hs-data-default-instances-dlist
 data-default-instances-old-locale_port=	devel/hs-data-default-instances-old-locale
 data-lens_port=			math/hs-data-lens
+data-lens-light_port=		math/hs-data-lens-light
 data-lens-template_port=	math/hs-data-lens-template
 data-pprint_port=		devel/hs-data-pprint
 dataenc_port=			converters/hs-dataenc
