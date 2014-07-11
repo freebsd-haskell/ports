@@ -1,0 +1,6 @@
+TagShare supplies a monad for sharing values based on tags and types.
+Each tag and type is bound to at most one value in a dynamic map.  The
+principal use of this package is to ensure that constant class members
+or other overloaded values are shared.
+
+WWW: http://hackage.haskell.org/package/tagshare

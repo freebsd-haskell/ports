@@ -429,6 +429,7 @@ syb-with-class-instances-text_port=	devel/hs-syb-with-class-instances-text
 system-fileio_port=		devel/hs-system-fileio
 system-filepath_port=		devel/hs-system-filepath
 tagged_port=			devel/hs-tagged
+tagshare_port=			devel/hs-tagshare
 tagsoup_port=			textproc/hs-tagsoup	# executable
 tagstream-conduit_port=		textproc/hs-tagstream-conduit
 tar_port=			archivers/hs-tar
