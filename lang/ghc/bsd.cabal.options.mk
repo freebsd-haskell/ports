@@ -65,8 +65,6 @@ OPTIONS_SINGLE+=	${FLAGS_SINGLE}
 OPTIONS_MULTI+=		${FLAGS_MULTI}
 OPTIONS_DEFAULT+=	${FLAGS_DEFAULT}
 
-.include <bsd.port.options.mk>
-
 ALL_FLAGS:=		${FLAGS_DEFINE} ${FLAGS_SINGLE} ${FLAGS_MULTI}
 COMPLETE_FLAGS=		${ALL_FLAGS}
 
@@ -80,6 +78,8 @@ COMPLETE_FLAGS+=	${FLAGS_MULTI_${f}}
 OPTIONS_MULTI_${f}=	${FLAGS_MULTI_${f}}
 .  endif
 .endfor
+
+.include <bsd.port.options.mk>
 
 .for f in ${COMPLETE_FLAGS}
 .  if defined(${f}_FLAG_DEPENDS)
