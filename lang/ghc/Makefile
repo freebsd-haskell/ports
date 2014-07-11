@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	ghc
-PORTVERSION=	7.6.3
-PORTREVISION=	4
+PORTVERSION=	7.8.3
 CATEGORIES=	lang haskell
 MASTER_SITES=	http://www.haskell.org/ghc/dist/${PORTVERSION}/:source \
 		${MASTER_SITE_LOCAL:S/$/:boot/}
@@ -23,13 +22,13 @@ HSCOLOUR_VERSION=	1.20.3
 DATADIR=	${PREFIX}/share/ghc-${GHC_VERSION}
 EXAMPLESDIR=	${PREFIX}/share/examples/ghc-${GHC_VERSION}
 
-CONFLICTS=	ghc-6.8.* ghc-6.10.* ghc-6.12.* ghc-7.0.* ghc-7.2.* ghc-7.4.* ghc-7.7.* ghc-7.8.*
+CONFLICTS=	ghc-6.* ghc-7.0.* ghc-7.2.* ghc-7.4.* ghc-7.6.* ghc-7.7.*
 
 LIB_DEPENDS+=	libgmp.so:${PORTSDIR}/math/gmp
 
 USE_AUTOTOOLS=		autoconf autoheader
 USE_PERL5=		build
-USES=			gmake iconv perl5 ncurses tar:bzip2
+USES=			gmake iconv:translit perl5 ncurses tar:bzip2
 USE_BINUTILS=		yes
 USE_GCC=		yes
 
@@ -72,11 +71,18 @@ OPTIONS_DEFINE+=	BOOTH
 LIB_DEPENDS+=	libffi.so.6:${PORTSDIR}/devel/libffi
 .endif
 
+# FreeBSD 9.1-RELEASE cannot do proper resolution for $ORIGIN (due to
+# a bug in rtld(1)), so disable it by default there.  This shall go away
+# once this version is not supported anymore.
+.if ${OSVERSION} >= 901000 && ${OSVERSION} < 902001
+EXTRA_PATCHES+=		${PATCHDIR}/nopatch-mk__config.mk.in
+.endif
+
 .if empty(PORT_OPTIONS:MBOOT)
 
 BOOT_GHC_VERSION=	7.6.3
 
-EXTRA_PATCHES=		${PATCHDIR}/nopatch-.._ghc-${BOOT_GHC_VERSION}-boot_rts_package.conf.in
+EXTRA_PATCHES+=		${PATCHDIR}/nopatch-.._ghc-${BOOT_GHC_VERSION}-boot_rts_package.conf.in
 
 .if ${ARCH} == "i386"
 
@@ -119,10 +125,8 @@ CONFIGURE_ARGS=		--with-gcc=${CC} \
 			--with-gmp-includes=${LOCALBASE}/include \
 			--with-gmp-libraries=${LOCALBASE}/lib
 
-.if ${OSVERSION} < 1000043
 CONFIGURE_ARGS+=	--with-iconv-includes=${LOCALBASE}/include \
 			--with-iconv-libraries=${LOCALBASE}/lib
-.endif
 
 .if ${PORT_OPTIONS:MDYNAMIC}
 CONFIGURE_ARGS+=	--with-system-libffi \
@@ -267,21 +271,12 @@ post-install-script:
 #	@${NONE}
 
 post-patch:
-# Hack don't to install the internal haddock.
-	@${REINPLACE_CMD} -e 's+\(DO_NOT_INSTALL =\)+\1 haddock+' \
-		${WRKSRC}/utils/Makefile
-
-.if ${PORT_OPTIONS:MBOOT}
+.if !${PORT_OPTIONS:MBOOT}
 	@${REINPLACE_CMD} -e 's|%%LOCALBASE%%|${LOCALBASE}|g' \
-		${WRKSRC}/rts/package.conf.in \
-		${WRKSRC}/libraries/Makefile
-.else
-	@${REINPLACE_CMD} -e 's|%%LOCALBASE%%|${LOCALBASE}|g' \
-		${WRKSRC}/../ghc-${BOOT_GHC_VERSION}-boot/rts/package.conf.in \
-		${WRKSRC}/rts/package.conf.in \
-		${WRKSRC}/libraries/Makefile
+		${WRKSRC}/../ghc-${BOOT_GHC_VERSION}-boot/rts/package.conf.in
 .endif
-
+	@${REINPLACE_CMD} -e 's|%%LOCALBASE%%|${LOCALBASE}|g' \
+		${WRKSRC}/rts/package.conf.in
 	@${REINPLACE_CMD} -e 's|/usr/local|${LOCALBASE}|g' \
 		${WRKSRC}/configure
 
