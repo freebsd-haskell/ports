@@ -10,7 +10,7 @@ COMMENT=	Haskell-only implementation of MD5 digest (hash) yalgorithm
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	binary>=0.4.0 cereal>=0.2 crypto-api tagged
+USE_CABAL=	cereal>=0.2 crypto-api tagged
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

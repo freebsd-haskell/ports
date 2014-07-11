@@ -8,7 +8,7 @@ CATEGORIES=	math haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Dependently typed functional programming language and proof assistant
 
-USE_CABAL=	binary>=0.4.4 geniplate>=0.6.0.3 hashable hashtables>=1.0 \
+USE_CABAL=	geniplate>=0.6.0.3 hashable hashtables>=1.0 \
 		haskell-src-exts>=1.9.6 mtl QuickCheck>=2.3 parallel text \
 		unordered-containers zlib>=0.4.0.1
 USE_ALEX=	yes

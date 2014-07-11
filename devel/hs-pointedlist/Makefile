@@ -9,7 +9,7 @@ COMMENT=	Zipper-like comonad which works as a list, tracking a position
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	binary derive
+USE_CABAL=	derive
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

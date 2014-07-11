@@ -9,7 +9,7 @@ COMMENT=	Binary and Hashable instances for TypeRep
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	binary hashable
+USE_CABAL=	hashable
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

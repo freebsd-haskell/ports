@@ -10,7 +10,7 @@ COMMENT=	Hashed file storage support code
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	binary dataenc extensible-exceptions mmap>=0.5 mtl zlib
+USE_CABAL=	dataenc extensible-exceptions mmap>=0.5 mtl zlib
 
 FLAGS_DISABLE=		test
 

@@ -10,7 +10,7 @@ COMMENT=	Library and tool for parsing .eventlog files from GHC
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	binary>=0.5 mtl>=1.1
+USE_CABAL=	mtl>=1.1
 
 EXECUTABLE=	ghc-events
 

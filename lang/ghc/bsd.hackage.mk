@@ -40,7 +40,6 @@ base64-string_port=		devel/hs-base64-string
 base-unicode-symbols_port=	devel/hs-base-unicode-symbols
 basic-prelude_port=		devel/hs-basic-prelude
 bifunctors_port=		devel/hs-bifunctors
-binary_port=			devel/hs-binary
 binary-shared_port=		devel/hs-binary-shared
 bio_port=			science/hs-bio
 bits-atomic_port=		devel/hs-bits-atomic

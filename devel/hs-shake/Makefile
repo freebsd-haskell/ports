@@ -9,7 +9,7 @@ COMMENT=	Build system library, like Make, but more accurate dependencies
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	binary hashable>=1.1.2.3 random unordered-containers>=0.2.1 \
+USE_CABAL=	hashable>=1.1.2.3 random unordered-containers>=0.2.1 \
 		utf8-string>=0.3
 
 EXECUTABLE=	shake

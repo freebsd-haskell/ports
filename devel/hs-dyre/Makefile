@@ -9,7 +9,7 @@ COMMENT=	Dynamic reconfiguration in Haskell
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	binary executable-path ghc-paths io-storage xdg-basedir
+USE_CABAL=	executable-path ghc-paths io-storage xdg-basedir
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
