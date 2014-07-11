@@ -156,7 +156,6 @@ esqueleto_port=			databases/hs-esqueleto
 exceptions_port=		devel/hs-exceptions
 executable-path_port=		devel/hs-executable-path
 extensible-exceptions_port=	devel/hs-extensible-exceptions
-failure_port=			devel/hs-failure
 fast-logger_port=		devel/hs-fast-logger
 fastcgi_port=			www/hs-fastcgi		# lib_depends
 fastirc_port=			irc/hs-fastirc
