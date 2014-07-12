@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	mono-traversable
-PORTVERSION=	0.2.0.0
+PORTVERSION=	0.6.0.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -9,8 +9,10 @@ COMMENT=	Type classes for mapping, folding, and traversing monomorphic container
 
 LICENSE=	MIT
 
-USE_CABAL=	comonad>=3.0.3 hashable semigroupoids>=3.0 semigroups>=0.9 \
-		text>=0.11 unordered-containers>=0.2 vector>=0.10
+USE_CABAL=	comonad>=3.0.3 dlist>=0.6 dlist-instances hashable \
+		semigroupoids>=3.0 semigroups>=0.10 text>=0.11 \
+		unordered-containers>=0.2 vector>=0.10 vector-algorithms>=0.6 \
+		vector-instances
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
