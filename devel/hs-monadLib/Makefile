@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	monadLib
-PORTVERSION=	3.7.2
+PORTVERSION=	3.7.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
