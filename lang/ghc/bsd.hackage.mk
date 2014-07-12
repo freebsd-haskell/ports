@@ -481,6 +481,7 @@ unix-compat_port=		devel/hs-unix-compat
 unix-time_port=			devel/hs-unix-time
 unlambda_port=			lang/hs-unlambda	# executable
 unordered-containers_port=	devel/hs-unordered-containers
+uri_port=			textproc/hs-uri
 url_port=			www/hs-url
 utf8-light_port=		devel/hs-utf8-light
 utf8-string_port=		devel/hs-utf8-string
