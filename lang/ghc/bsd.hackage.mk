@@ -210,6 +210,7 @@ gtk2hs-buildtools_port=		devel/hs-gtk2hs-buildtools # executable
 gtk3_port=			x11-toolkits/hs-gtk3
 gtkglext_port=			x11-toolkits/hs-gtkglext
 gtksourceview2_port=		x11-toolkits/hs-gtksourceview2
+gtksourceview3_port=		x11-toolkits/hs-gtksourceview3
 haddock_port=			devel/hs-haddock	# executable
 happstack_port=			www/hs-happstack	# executable
 happstack-server_port=		www/hs-happstack-server
