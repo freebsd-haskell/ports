@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	threadscope
-PORTVERSION=	0.2.2
-PORTREVISION=	6
+PORTVERSION=	0.2.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -14,6 +13,7 @@ USE_CABAL=	cairo ghc-events>=0.4.2 glib gtk>=0.12 gtk2hs-buildtools mtl \
 		pango
 
 EXECUTABLE=	threadscope
+
 STANDALONE=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
