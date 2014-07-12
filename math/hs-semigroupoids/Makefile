@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	semigroupoids
-PORTVERSION=	4.0
+PORTVERSION=	4.0.2.1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
