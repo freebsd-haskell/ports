@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	data-lens
-PORTVERSION=	2.10.4
+PORTVERSION=	2.10.5
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Haskell 98 lenses
+COMMENT=	Used to be Haskell 98 Lenses
 
 LICENSE=	BSD3CLAUSE
 
