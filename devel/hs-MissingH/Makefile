@@ -2,11 +2,11 @@
 # $FreeBSD$
 
 PORTNAME=	MissingH
-PORTVERSION=	1.2.0.2
+PORTVERSION=	1.2.1.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Large Haskell utility library
+COMMENT=	Large utility library
 
 LICENSE=	BSD3CLAUSE
 
