@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	fay-base
-PORTVERSION=	0.19
+PORTVERSION=	0.19.1.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
