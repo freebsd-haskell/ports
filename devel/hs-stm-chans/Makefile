@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	stm-chans
-PORTVERSION=	3.0.0
+PORTVERSION=	3.0.0.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
