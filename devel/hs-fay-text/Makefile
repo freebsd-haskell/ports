@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	fay-text
-PORTVERSION=	0.3.0.1
+PORTVERSION=	0.3.0.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -9,7 +9,7 @@ COMMENT=	Fay Text type represented as JavaScript strings
 
 LICENSE=	MIT
 
-USE_CABAL=	fay fay-base text
+USE_CABAL=	fay>=0.19 fay-base text
 
 IGNORE_DYNAMIC=	yes
 
