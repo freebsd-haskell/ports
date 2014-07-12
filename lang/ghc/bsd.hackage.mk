@@ -378,6 +378,7 @@ regex-compat_port=		textproc/hs-regex-compat
 regex-pcre-builtin_port=	textproc/hs-regex-pcre-builtin
 regex-posix_port=		textproc/hs-regex-posix
 regex-tdfa_port=		textproc/hs-regex-tdfa
+regex-tdfa-rc_port=		textproc/hs-regex-tdfa-rc
 resource-pool_port=		devel/hs-resource-pool
 resourcet_port=			devel/hs-resourcet
 rosezipper_port=		devel/hs-rosezipper
