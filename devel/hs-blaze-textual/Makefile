@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	blaze-textual
-PORTVERSION=	0.2.0.8
-PORTREVISION=	6
+PORTVERSION=	0.2.0.9
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
