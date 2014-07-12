@@ -15,6 +15,7 @@ abstract-deque_port=		devel/hs-abstract-deque
 abstract-par_port=		devel/hs-abstract-par
 activehs_port=			www/hs-activehs
 activehs-base_port=		devel/hs-activehs-base
+adjunctions_port=		math/hs-adjunctions
 aeson_port=			converters/hs-aeson
 Agda_port=			math/hs-Agda		# executable
 alex_port=			devel/hs-alex		# executable
