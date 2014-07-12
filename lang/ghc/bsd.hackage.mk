@@ -491,6 +491,7 @@ vector-algorithms_port=		devel/hs-vector-algorithms
 vector-binary-instances_port=	devel/hs-vector-binary-instances
 vector-instances_port=		devel/hs-vector-instances
 vector-space_port=		math/hs-vector-space
+vector-th-unbox_port=		devel/hs-vector-th-unbox
 void_port=			devel/hs-void
 vte_port=			x11-toolkits/hs-vte
 vty_port=			devel/hs-vty
