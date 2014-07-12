@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	Glob
-PORTVERSION=	0.7.3
+PORTVERSION=	0.7.5
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
