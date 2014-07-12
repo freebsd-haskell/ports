@@ -517,6 +517,7 @@ X11_port=			x11/hs-X11		# lib_depends
 X11-xft_port=			x11/hs-X11-xft
 x509_port=			security/hs-x509
 x509-store_port=		security/hs-x509-store
+x509-system_port=		security/hs-x509-system
 xdg-basedir_port=		devel/hs-xdg-basedir
 xhtml-combinators_port=		textproc/hs-xhtml-combinators
 xml_port=			textproc/hs-xml
