@@ -180,6 +180,7 @@ filemanip_port=			devel/hs-filemanip
 filestore_port=			devel/hs-filestore
 filesystem-trees_port=		devel/hs-filesystem-trees
 fingertree_port=		devel/hs-fingertree
+fmlist_port=			devel/hs-fmlist
 free_port=			devel/hs-free
 fsnotify_port=			devel/hs-fsnotify
 gconf_port=			devel/hs-gconf
