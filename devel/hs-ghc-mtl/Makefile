@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	ghc-mtl
-PORTVERSION=	1.0.1.2
-PORTREVISION=	6
+PORTVERSION=	1.2.1.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,7 +10,7 @@ COMMENT=	Mtl-compatible version of the Ghc-Api monads and monad-transformers
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	MonadCatchIO-mtl>=0.2.0.0 mtl
+USE_CABAL=	exceptions>=0.6 extensible-exceptions mtl
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
