@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	5.20140116
+PORTVERSION=	5.20140709
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,10 +11,11 @@ COMMENT=	Manage files with git, without checking their contents into git
 LICENSE=	GPLv3
 
 USE_CABAL=	MissingH hslogger utf8-string network>=2.0 mtl>=2 HTTP \
-		extensible-exceptions dataenc SHA json monad-control \
-		MonadCatchIO-transformers IfElse text QuickCheck>=2.1 \
-		bloomfilter edit-distance SafeSemaphore uuid random \
-		dlist unix-compat aeson
+		extensible-exceptions exceptions>=0.5 dataenc SHA json \
+		monad-control MonadCatchIO-transformers IfElse text \
+		QuickCheck>=2.1 bloomfilter edit-distance SafeSemaphore \
+		uuid random dlist unix-compat aeson data-default \
+		case-insensitive
 
 USES=		gmake perl5
 USE_PERL5=	build

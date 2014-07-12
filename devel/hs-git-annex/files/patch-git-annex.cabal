@@ -1,11 +1,11 @@
---- ./git-annex.cabal.orig	2013-07-09 21:04:14.000000000 +0100
-+++ ./git-annex.cabal	2013-07-14 18:18:40.000000000 +0100
-@@ -133,7 +133,7 @@
+--- ./git-annex.cabal.orig	2014-07-09 22:09:05.000000000 +0200
++++ ./git-annex.cabal	2014-07-12 22:36:17.000000000 +0200
+@@ -188,7 +188,7 @@
  
    if flag(Webapp)
      Build-Depends:
 -     yesod, yesod-default, yesod-static, yesod-form, yesod-core,
 +     yesod (>=1.2), yesod-static, yesod-form, yesod-core,
-      case-insensitive, http-types, transformers, wai, wai-logger, warp,
-      blaze-builder, crypto-api, hamlet, clientsession, aeson,
-      template-haskell, data-default
+      http-types, transformers, wai, wai-extra, warp, warp-tls,
+      blaze-builder, crypto-api, hamlet, clientsession,
+      template-haskell, data-default, aeson,
