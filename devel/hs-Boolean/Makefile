@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	Boolean
-PORTVERSION=	0.2
-PORTREVISION=	5
+PORTVERSION=	0.2.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
