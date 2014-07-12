@@ -9,10 +9,7 @@ COMMENT=	String encoding conversion
 
 LICENSE=	BSD3CLAUSE
 
+USES=		iconv:translit
+
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
-
-.if ${OSVERSION} >= 1000043
-EXTRA_PATCHES=		${PATCHDIR}/nopatch-iconv.cabal
-.endif
-
 .include <bsd.port.mk>
