@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	hinotify
-PORTVERSION=	0.3.6
+PORTVERSION=	0.3.7
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
