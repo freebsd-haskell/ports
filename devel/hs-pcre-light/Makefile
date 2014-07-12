@@ -1,12 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	pcre-light
-PORTVERSION=	0.4
-PORTREVISION=	13
+PORTVERSION=	0.4.0.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Lightweight Haskell regex library compatible with Perl 5
+COMMENT=	Small, efficient, and portable regex library for Perl 5 compatible
 
 LICENSE=	BSD3CLAUSE
 
