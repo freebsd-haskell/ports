@@ -463,6 +463,7 @@ type-eq_port=			devel/hs-type-eq
 type-level_port=		devel/hs-type-level
 TypeCompose_port=		devel/hs-TypeCompose
 unamb_port=			devel/hs-unamb
+unbounded-delays_port=		devel/hs-unbounded-delays
 uniplate_port=			devel/hs-uniplate
 unix-compat_port=		devel/hs-unix-compat
 unix-time_port=			devel/hs-unix-time
