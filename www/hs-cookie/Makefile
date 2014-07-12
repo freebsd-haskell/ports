@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	cookie
-PORTVERSION=	0.4.0.1
-PORTREVISION=	6
+PORTVERSION=	0.4.1.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
