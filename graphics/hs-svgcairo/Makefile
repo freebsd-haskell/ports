@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	svgcairo
-PORTVERSION=	0.12.5.0
+PORTVERSION=	0.12.5.2
 CATEGORIES=	graphics haskell
 
 MAINTAINER=	haskell@FreeBSD.org
