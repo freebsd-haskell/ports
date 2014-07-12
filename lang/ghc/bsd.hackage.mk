@@ -283,6 +283,7 @@ leksah_port=			editors/hs-leksah # executable
 leksah-server_port=		devel/hs-leksah-server # executable
 lens_port=			devel/hs-lens
 lhs2tex_port=			textproc/hs-lhs2tex
+lifted-async_port=		devel/hs-lifted-async
 lifted-base_port=		devel/hs-lifted-base
 libffi_port=			devel/hs-libffi
 libmpd_port=			audio/hs-libmpd
