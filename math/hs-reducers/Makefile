@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	reducers
-PORTVERSION=	3.10.1.1
+PORTVERSION=	3.10.2.1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
