@@ -194,6 +194,7 @@ GLUT_port=			x11-toolkits/hs-GLUT
 gnuidn_port=			dns/hs-gnuidn
 gnutls_port=			security/hs-gnutls
 graphviz_port=			graphics/hs-graphviz
+groom_port=			devel/hs-groom
 gsasl_port=			net/hs-gsasl
 gstreamer_port=			multimedia/hs-gstreamer
 gtk_port=			x11-toolkits/hs-gtk
