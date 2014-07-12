@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	pem
-PORTVERSION=	0.2.1
+PORTVERSION=	0.2.2
 CATEGORIES=	security haskell
 
 MAINTAINER=	haskell@FreeBSD.org
