@@ -1,0 +1,4 @@
+Takes an error-throwing expression and puts it back in the Maybe it
+belongs in.
+
+WWW: http://hackage.haskell.org/package/spoon

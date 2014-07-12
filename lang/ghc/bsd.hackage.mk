@@ -416,6 +416,7 @@ socks_port=			net/hs-socks
 soegtk_port=			graphics/hs-soegtk
 sourcemap_port=			devel/hs-sourcemap
 split_port=			devel/hs-split
+spoon_port=			devel/hs-spoon
 StateVar_port=			devel/hs-StateVar
 statistics_port=		math/hs-statistics
 stm_port=			devel/hs-stm
