@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	haskell-src-exts
-PORTVERSION=	1.14.0
+PORTVERSION=	1.15.0.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
