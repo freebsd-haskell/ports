@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	pretty-show
-PORTVERSION=	1.6.5
+PORTVERSION=	1.6.8
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
