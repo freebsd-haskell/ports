@@ -145,6 +145,7 @@ distributive_port=		math/hs-distributive
 dlist_port=			devel/hs-dlist
 dns_port=			dns/hs-dns
 double-conversion_port=		textproc/hs-double-conversion
+DRBG_port=			security/hs-DRBG
 DrIFT_port=			devel/hs-DrIFT
 dynamic-cabal_port=		devel/hs-dynamic-cabal
 dyre_port=			devel/hs-dyre
