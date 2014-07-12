@@ -457,6 +457,7 @@ timezone-series_port=		devel/hs-timezone-series
 tls_port=			security/hs-tls
 tls-extra_port=			security/hs-tls-extra
 transformers-base_port=		devel/hs-transformers-base
+transformers-compat_port=	devel/hs-transformers-compat
 traverse-with-class_port=	devel/hs-traverse-with-class
 trifecta_port=			textproc/hs-trifecta
 type-eq_port=			devel/hs-type-eq
