@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	pointed
-PORTVERSION=	4.0
+PORTVERSION=	4.1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
