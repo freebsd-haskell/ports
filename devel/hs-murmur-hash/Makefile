@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	murmur-hash
-PORTVERSION=	0.1.0.6
-PORTREVISION=	6
+PORTVERSION=	0.1.0.7
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
