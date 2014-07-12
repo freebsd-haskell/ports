@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	setenv
-PORTVERSION=	0.1.1
+PORTVERSION=	0.1.1.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
