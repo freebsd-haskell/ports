@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	xmobar
-PORTVERSION=	0.19
+PORTVERSION=	0.21
 CATEGORIES=	x11 haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -10,10 +10,11 @@ COMMENT=	Minimalistic text-based status bar
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	mtl>=2.0 parsec regex-compat stm>=2.3 X11>=1.6.1
-USE_XORG=	xrandr
+USE_CABAL=	HTTP>=4000 mtl>=2.0 parsec regex-compat stm>=2.3 \
+		utf8-string X11>=1.6.1
 
 EXECUTABLE=	xmobar
+
 STANDALONE=	yes
 
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/samples/xmobar.config ${STAGEDIR}${DATADIR}
@@ -53,7 +54,7 @@ THREADED_DESC=		Use threaded runtime
 THREADED_FLAG_ENABLE=	with_threaded
 
 # Disable Linux-only options
-FLAGS_DISABLE=		with_iwlib
+FLAGS_DISABLE=		with_iwlib with_alsa
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
