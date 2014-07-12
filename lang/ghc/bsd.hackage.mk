@@ -515,6 +515,7 @@ wxcore_port=			x11-toolkits/hs-wxcore		# lib_depends
 wxdirect_port=			x11-toolkits/hs-wxdirect	# executable
 X11_port=			x11/hs-X11		# lib_depends
 X11-xft_port=			x11/hs-X11-xft
+x509_port=			security/hs-x509
 xdg-basedir_port=		devel/hs-xdg-basedir
 xhtml-combinators_port=		textproc/hs-xhtml-combinators
 xml_port=			textproc/hs-xml
