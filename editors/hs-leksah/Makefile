@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	leksah
-PORTVERSION=	0.12.1.3
+PORTVERSION=	0.13.4.3
 CATEGORIES=	editors haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -9,12 +9,14 @@ COMMENT=	Haskell IDE written in Haskell
 
 LICENSE=	GPLv2
 
-USE_CABAL=	binary-shared>=0.8 enumerator>=0.4.14 gio>=0.12.2 \
-		glib>=0.10 gtk>=0.10 gtksourceview2>=0.10.0 \
-		hslogger>=1.0.7 leksah-server>=0.12.1.2 ltk>=0.12.1.0 \
+USE_CABAL=	binary-shared>=0.8.2 conduit>=1.0.8 conduit-extra \
+		executable-path>=0.0.3 gio>=0.12.2 glib>=0.10 gtk3>=0.12.4 \
+		gtksourceview3>=0.10.0 haskell-src-exts>=1.13.5 hlint>=1.8.59 \
+		hslogger>=1.0.7 leksah-server>=0.13.1.0 ltk>=0.13.2.0 \
 		mtl>=1.1.0.2 network>=2.2 parsec>=2.1.0.1 QuickCheck>=2.4.2 \
-		regex-base regex-tdfa strict>=0.3.2 text>=0.11.1.5 \
-		utf8-string>=0.3.1.1
+		regex-base regex-tdfa>=1.1 shakespeare>=2.0.0.1 strict>=0.3.2 \
+		text>=0.11.1.5 utf8-string>=0.3.1.1 vado>=0.0.1 vcsgui>=0.0.4 \
+		vcswrapper>=0.0.4 webkitgtk3 webkitgtk3-javascriptcore
 
 EXECUTABLE=	leksah
 
@@ -33,6 +35,9 @@ DYRE_FLAG_CABAL=	dyre>=0.8.3
 
 THREADED_DESC=		Multithreaded execution
 THREADED_FLAG_ENABLE=	threaded
+
+FLAGS_ENABLE=		gtk3
+FLAGS_DISABLE=		loc webkit
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
