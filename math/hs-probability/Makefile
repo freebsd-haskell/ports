@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	probability
-PORTVERSION=	0.2.4
-PORTREVISION=	8
+PORTVERSION=	0.2.4.1
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
