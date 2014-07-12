@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	attoparsec-enumerator
-PORTVERSION=	0.3.2
+PORTVERSION=	0.3.3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
