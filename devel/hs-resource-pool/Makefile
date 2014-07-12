@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	resource-pool
-PORTVERSION=	0.2.1.1
-PORTREVISION=	6
+PORTVERSION=	0.2.3.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
