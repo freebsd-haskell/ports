@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	snap-server
-PORTVERSION=	0.9.4.0
+PORTVERSION=	0.9.4.5
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
