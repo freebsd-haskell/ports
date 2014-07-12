@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	errors
-PORTVERSION=	1.4.5
+PORTVERSION=	1.4.7
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
