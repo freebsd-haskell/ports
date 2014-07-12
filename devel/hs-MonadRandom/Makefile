@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	MonadRandom
-PORTVERSION=	0.1.12
+PORTVERSION=	0.1.13
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
