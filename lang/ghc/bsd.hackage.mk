@@ -152,6 +152,7 @@ dyre_port=			devel/hs-dyre
 edit-distance_port=		devel/hs-edit-distance
 either_port=			devel/hs-either
 ekg_port=			sysutils/hs-ekg
+ekg-core_port=			sysutils/hs-ekg-core
 email-validate_port=		mail/hs-email-validate
 enclosed-exceptions_port=	devel/hs-enclosed-exceptions
 enumerator_port=		devel/hs-enumerator
