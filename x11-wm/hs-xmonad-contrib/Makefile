@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	xmonad-contrib
-PORTVERSION=	0.11.2
+PORTVERSION=	0.11.3
 CATEGORIES=	x11-wm haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -10,7 +10,8 @@ COMMENT=	Third-party extensions for xmonad
 
 LICENSE=	BSD3CLAUSE
 
-USE_CABAL=	mtl random utf8-string X11>=1.6 xmonad>=0.11
+USE_CABAL=	extensible-exceptions mtl>=1 random utf8-string X11>=1.6.1 \
+		xmonad>=0.11
 USE_XORG=	x11
 
 RUN_DEPENDS+=	bash:${PORTSDIR}/shells/bash
