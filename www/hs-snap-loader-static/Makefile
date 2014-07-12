@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	snap-loader-static
-PORTVERSION=	0.9.0.1
+PORTVERSION=	0.9.0.2
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
