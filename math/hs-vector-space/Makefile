@@ -2,12 +2,11 @@
 # $FreeBSD$
 
 PORTNAME=	vector-space
-PORTVERSION=	0.8.6
-PORTREVISION=	7
+PORTVERSION=	0.8.7
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Vector & affine spaces, linear maps, and derivatives
+COMMENT=	Vector and affine spaces, linear maps, and derivatives
 
 LICENSE=	BSD3CLAUSE
 
