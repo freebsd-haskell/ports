@@ -440,6 +440,7 @@ tagsoup_port=			textproc/hs-tagsoup	# executable
 tagstream-conduit_port=		textproc/hs-tagstream-conduit
 tar_port=			archivers/hs-tar
 tasty_port=			devel/hs-tasty
+tasty-hunit_port=		devel/hs-tasty-hunit
 temporary_port=			devel/hs-temporary
 Tensor_port=			devel/hs-Tensor
 test-framework_port=		devel/hs-test-framework
