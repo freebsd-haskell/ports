@@ -21,8 +21,10 @@ EXECUTABLE=	darcs
 MAN1PAGES=	darcs.1
 
 FLAGS_DEFINE=		STATIC TERMINFO THREADED COLOR MMAP
-FLAGS_MULTI=		CURL HTTP
-FLAGS_MULTI_HTTP=	CURL HTTP
+FLAGS_MULTI=		WEB
+FLAGS_MULTI_WEB=	CURL HTTP
+WEB_DESC=		HTTP backend
+
 FLAGS_DEFAULT=		CURL THREADED
 FLAGS_ENABLE=		library executable
 
@@ -50,6 +52,5 @@ MMAP_DESC=		Compile with mmap support
 MMAP_FLAG_ENABLE=	mmap
 MMAP_FLAG_CABAL=	mmap>=0.5
 
-.include "${.CURDIR}/../../lang/ghc/bsd.cabal.options.mk"
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
