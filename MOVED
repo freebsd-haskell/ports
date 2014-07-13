@@ -27,3 +27,4 @@ www/hs-shakespeare-js||2014-07-11|Removed: Deprecated in favor of shakespeare
 www/hs-shakespeare-text||2014-07-11|Removed: Deprecated in favor of shakespeare
 www/hs-wai-test||2014-07-11|Removed: Deprecated in favor of wai-extra
 devel/hs-Tensor||2014-07-13|Removed: Deprecated
+devel/hs-StateVar||2014-07-13|Removed: Deprecated
