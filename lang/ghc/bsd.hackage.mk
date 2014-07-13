@@ -163,6 +163,7 @@ enclosed-exceptions_port=	devel/hs-enclosed-exceptions
 enumerator_port=		devel/hs-enumerator
 entropy_port=			security/hs-entropy
 epic_port=			lang/hs-epic		# executable
+equivalence_port=		devel/hs-equivalence
 erf_port=			math/hs-erf
 errors_port=			devel/hs-errors
 esqueleto_port=			databases/hs-esqueleto
