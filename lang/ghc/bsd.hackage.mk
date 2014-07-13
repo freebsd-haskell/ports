@@ -481,7 +481,6 @@ transformers-compat_port=	devel/hs-transformers-compat
 traverse-with-class_port=	devel/hs-traverse-with-class
 trifecta_port=			textproc/hs-trifecta
 type-eq_port=			devel/hs-type-eq
-type-level_port=		devel/hs-type-level
 TypeCompose_port=		devel/hs-TypeCompose
 unamb_port=			devel/hs-unamb
 unbounded-delays_port=		devel/hs-unbounded-delays
