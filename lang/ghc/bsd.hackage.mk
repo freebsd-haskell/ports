@@ -451,7 +451,6 @@ tasty_port=			devel/hs-tasty
 tasty-hunit_port=		devel/hs-tasty-hunit
 tasty-th_port=			devel/hs-tasty-th
 temporary_port=			devel/hs-temporary
-Tensor_port=			devel/hs-Tensor
 test-framework_port=		devel/hs-test-framework
 test-framework-hunit_port=	devel/hs-test-framework-hunit
 test-framework-quickcheck2_port=	devel/hs-test-framework-quickcheck2
