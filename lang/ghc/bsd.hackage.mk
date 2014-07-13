@@ -442,6 +442,7 @@ streams_port=			math/hs-streams
 strict_port=			devel/hs-strict
 string-qq_port=			devel/hs-string-qq
 stringsearch_port=		textproc/hs-stringsearch
+STMonadTrans_port=		devel/hs-STMonadTrans
 svgcairo_port=			graphics/hs-svgcairo
 syb_port=			devel/hs-syb
 syb-with-class_port=		devel/hs-syb-with-class
