@@ -53,6 +53,7 @@ blaze-textual_port=		devel/hs-blaze-textual
 bloomfilter_port=		devel/hs-bloomfilter
 BNFC_port=			devel/hs-BNFC		# executable
 Boolean_port=			devel/hs-Boolean
+boxes_port=			devel/hs-boxes
 brainfuck_port=			lang/hs-brainfuck	# executable
 bsd-sysctl_port=		devel/hs-bsd-sysctl
 buildwrapper_port=      devel/hs-buildwrapper   #executable
