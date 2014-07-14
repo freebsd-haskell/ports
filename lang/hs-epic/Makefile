@@ -20,7 +20,9 @@ RUN_DEPENDS+=	boehm-gc>=7.1:${PORTSDIR}/devel/boehm-gc \
 
 EXECUTABLE=	epic
 
+# Force regeneration of the parser.
 post-patch::
+	@${RM} -rf ${WRKSRC}/dist
 	@${REINPLACE_CMD} 's|%%LOCALBASE%%|${LOCALBASE}|g' \
 		${WRKSRC}/evm/Makefile
 
