@@ -513,6 +513,7 @@ warp_port=			www/hs-warp
 warp-tls_port=			www/hs-warp-tls
 webdriver_port=			www/hs-webdriver
 webkit_port=			www/hs-webkit
+webkitgtk3_port=		www/hs-webkitgtk3
 wl-pprint_port=			devel/hs-wl-pprint
 wl-pprint-text_port=		textproc/hs-wl-pprint-text
 word8_port=			devel/hs-word8
