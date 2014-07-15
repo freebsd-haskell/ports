@@ -1,0 +1,6 @@
+This is a modified version of wl-pprint, which was based on Wadler's
+paper "A Prettier Printer".  This version allows the library user to
+annotate the text with semantic information, which can later be rendered
+in a variety of ways.
+
+WWW: https://github.com/david-christiansen/annotated-wl-pprint
