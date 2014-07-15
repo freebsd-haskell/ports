@@ -108,6 +108,9 @@ LIB_DEPENDS+=		${${f}_FLAG_LIB}
 .    if defined(${f}_FLAG_XORG)
 USE_XORG+=		${${f}_FLAG_XORG}
 .    endif
+.    if defined(${f}_BROKEN)
+BROKEN=			${${f}_BROKEN} with the ${f} flag enabled
+.    endif
 .    if defined(${f}_DYNAMIC_BROKEN) && ${PORT_OPTIONS:MDYNAMIC}
 BROKEN=			${${f}_DYNAMIC_BROKEN}
 .    endif
