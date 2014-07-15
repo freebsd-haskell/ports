@@ -282,7 +282,7 @@ do-install:
 
 .if defined(MAN1SRC)
 .for man in ${MAN1PAGES}
-	@${INSTALL_MAN} ${WRKSRC}/${MAN1SRC}/${man} ${STAGEDIR}${PREFIX}/man/man1
+	@${INSTALL_MAN} ${WRKSRC}/${MAN1SRC}/${man} ${STAGEDIR}${MANPREFIX}/man/man1
 .endfor
 .endif # MAN1SRC
 
