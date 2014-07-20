@@ -1,0 +1,33 @@
+--- ./fay.cabal.orig	2014-06-17 19:38:54.000000000 +0200
++++ ./fay.cabal	2014-07-20 21:11:04.000000000 +0200
+@@ -145,30 +145,3 @@
+     , fay
+     , optparse-applicative >= 0.6 && < 0.10
+     , split
+-
+-executable fay-tests
+-  ghc-options:       -O2 -Wall -threaded -with-rtsopts=-N
+-  ghc-prof-options:  -fprof-auto
+-  hs-source-dirs:    src/tests
+-  main-is:           Tests.hs
+-  other-modules:
+-    Test.CommandLine
+-    Test.Compile
+-    Test.Convert
+-    Test.Desugar
+-    Test.Util
+-  build-depends:
+-      base
+-    , aeson
+-    , attoparsec
+-    , bytestring
+-    , directory
+-    , fay
+-    , filepath
+-    , groom == 0.1.*
+-    , haskell-src-exts
+-    , tasty == 0.8.*
+-    , tasty-hunit == 0.8.*
+-    , tasty-th == 0.1.*
+-    , text
+-    , utf8-string
