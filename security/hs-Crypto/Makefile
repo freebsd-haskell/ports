@@ -10,7 +10,5 @@ COMMENT=	Collects together existing Haskell cryptographic functions
 
 USE_CABAL=	HUnit QuickCheck>=2.4.0.1 random
 
-EXECUTABLE=	HMACTest QuickTest RSATest SHA1Test SymmetricTest WordListTest
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
