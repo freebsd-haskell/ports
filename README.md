@@ -81,7 +81,7 @@ There are many different ways to report bugs.
 - Poke us interactively on `#haskell-FreeBSD` at
   [freenode](http://www.freenode.net/).
 
-**Note:** Please, do not use FreeBSD GNATS to report issues with these
+**Note:** Please, do not use FreeBSD Bugzilla to report issues with these
 ports because it is mainly for ports *in the Ports Collection*.
 
 
@@ -91,3 +91,7 @@ How to Contribute
 Do not forget to contribute your fixes if you already have a patch for a
 known problem!  You can use the same interface as for reporting bugs.
 Change requests and new ports are also welcome.
+
+For more information on the technical details, please see the
+[wiki](https://github.com/freebsd-haskell/ports/wiki) or simply get in touch
+by the one of the communication channels mentioned above.
