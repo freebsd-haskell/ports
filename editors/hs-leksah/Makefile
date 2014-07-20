@@ -20,8 +20,6 @@ USE_CABAL=	binary-shared>=0.8.2 conduit>=1.0.8 conduit-extra \
 
 EXECUTABLE=	leksah
 
-IGNORE_DYNAMIC=	yes
-
 FLAGS_DEFINE=		YI DYRE THREADED
 FLAGS_DEFAULT=		DYRE
 

@@ -17,7 +17,5 @@ USE_CABAL=	case-insensitive>=0.4 either>=4.1 errors http-client>=0.2 \
 
 EXECUTABLE=	hdav
 
-IGNORE_DYNAMIC=	yes
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

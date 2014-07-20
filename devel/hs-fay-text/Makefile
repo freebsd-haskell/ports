@@ -11,7 +11,5 @@ LICENSE=	MIT
 
 USE_CABAL=	fay>=0.19 fay-base text
 
-IGNORE_DYNAMIC=	yes
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

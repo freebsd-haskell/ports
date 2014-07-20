@@ -13,7 +13,5 @@ USE_CABAL=	async HUnit mtl QuickCheck random syb
 
 EXECUTABLE=	SBVUnitTests
 
-IGNORE_DYNAMIC=	yes
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

@@ -22,7 +22,5 @@ USE_CABAL=	attoparsec>=0.10 base64-bytestring blaze-builder>=0.2.1.4 \
 EXECUTABLE=	yesod-ghc-wrapper yesod-ld-wrapper yesod-ar-wrapper yesod
 STANDALONE=	yes
 
-IGNORE_DYNAMIC=	yes
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

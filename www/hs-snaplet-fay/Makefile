@@ -12,7 +12,5 @@ LICENSE=	BSD3CLAUSE
 USE_CABAL=	aeson>=0.6 configurator>=0.2 fay mtl snap>=0.11.1 \
 		snap-core>=0.9.3.1
 
-IGNORE_DYNAMIC=	yes
-
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

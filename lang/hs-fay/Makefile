@@ -16,7 +16,6 @@ USE_CABAL=	aeson attoparsec cpphs data-default ghc-paths groom \
 		text uniplate>=1.6.11 unordered-containers utf8-string vector
 
 EXECUTABLE=	fay fay-tests
-IGNORE_DYNAMIC=	yes
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
