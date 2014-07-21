@@ -23,4 +23,9 @@ post-patch::
 	    ${WRKSRC}/Setup.hs
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+
+.if ${OSVERSION} >= 900000
+EXTRA_PATCHES+=		${PATCHDIR}/nopatch-wxc.cabal
+.endif
+
 .include <bsd.port.mk>
