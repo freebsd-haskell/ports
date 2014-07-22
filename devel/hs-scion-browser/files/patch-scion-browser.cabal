@@ -1,5 +1,5 @@
 --- ./scion-browser.cabal.orig	2014-04-25 15:51:58.000000000 +0200
-+++ ./scion-browser.cabal	2014-07-12 23:39:24.000000000 +0200
++++ ./scion-browser.cabal	2014-07-22 22:54:26.000000000 +0200
 @@ -22,10 +22,10 @@
      base == 4.*,
      mtl >= 2,
@@ -13,7 +13,14 @@
      process >= 1 && < 2,
      tar >= 0.3 && < 0.5,
      zlib == 0.5.*,
-@@ -103,10 +103,10 @@
+@@ -97,16 +97,17 @@
+ executable scion-browser
+   hs-source-dirs:  src
+   main-is:         Main.hs
++  extensions: TemplateHaskell
+   build-depends:
+     haskeline >= 0.7,
+     attoparsec >= 0.10,
      base == 4.*,
      mtl >= 2,
      derive >= 2.5 && < 3,
