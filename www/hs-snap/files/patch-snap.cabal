@@ -1,0 +1,10 @@
+--- ./snap.cabal.orig	2014-07-03 21:45:03.000000000 +0200
++++ ./snap.cabal	2014-07-22 22:58:21.000000000 +0200
+@@ -236,6 +236,7 @@
+     text                >= 0.11    && < 1.2
+ 
+   extensions:
++    TemplateHaskell
+     OverloadedStrings
+ 
+   ghc-prof-options: -prof -auto-all
