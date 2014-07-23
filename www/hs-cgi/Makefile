@@ -3,6 +3,7 @@
 
 PORTNAME=	cgi
 PORTVERSION=	3001.1.8.5
+PORTEPOCH=	1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
