@@ -2,7 +2,7 @@
 
 PORTNAME=	http-date
 PORTVERSION=	0.0.4
-PORTREVISION=	6
+PORTREVISION=	7
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org

@@ -20,15 +20,15 @@ USE_CABAL=	aeson==0.7.0.6 \
 		asn1-parse==0.8.1 \
 		asn1-types==0.2.3 \
 		async==2.0.1.5 \
-		attoparsec==0.10.4.0_5 \
+		attoparsec==0.10.4.0_6 \
 		authenticate==1.3.2.8 \
 		base16-bytestring==0.1.1.6 \
-		base64-bytestring==1.0.0.1_5 \
+		base64-bytestring==1.0.0.1_6 \
 		blaze-builder==0.3.3.2 \
 		blaze-html==0.7.0.2 \
 		blaze-markup==0.6.1.0 \
 		byteable==0.1.1 \
-		byteorder==1.0.4_4 \
+		byteorder==1.0.4_5 \
 		case-insensitive==1.1.0.3 \
 		cereal==0.4.0.1 \
 		cipher-aes==0.2.7 \
@@ -49,12 +49,12 @@ USE_CABAL=	aeson==0.7.0.6 \
 		cryptohash==0.11.5 \
 		cryptohash-conduit==0.1.1 \
 		css-text==0.1.2.1 \
-		data-default==0.5.3_4 \
-		data-default-class==0.0.1_4 \
-		data-default-instances-base==0.0.1_4 \
-		data-default-instances-containers==0.0.1_4 \
-		data-default-instances-dlist==0.0.1_4 \
-		data-default-instances-old-locale==0.0.1_4 \
+		data-default==0.5.3_5 \
+		data-default-class==0.0.1_5 \
+		data-default-instances-base==0.0.1_5 \
+		data-default-instances-containers==0.0.1_5 \
+		data-default-instances-dlist==0.0.1_5 \
+		data-default-instances-old-locale==0.0.1_5 \
 		dlist==0.7.0.1 \
 		email-validate==2.0.1 \
 		entropy==0.3.2 \
@@ -69,7 +69,7 @@ USE_CABAL=	aeson==0.7.0.6 \
 		http-client==0.3.3 \
 		http-client-tls==0.2.1.1 \
 		http-conduit==2.1.2 \
-		http-date==0.0.4_6 \
+		http-date==0.0.4_7 \
 		http-reverse-proxy==0.3.1.8 \
 		http-types==0.8.5 \
 		language-javascript==0.5.13 \
@@ -87,7 +87,7 @@ USE_CABAL=	aeson==0.7.0.6 \
 		persistent==1.3.1.1 \
 		persistent-template==1.3.1.4 \
 		primitive==0.5.2.1 \
-		publicsuffixlist==0.1_4 \
+		publicsuffixlist==0.1_5 \
 		pwstore-fast==2.4.1 \
 		quickcheck-io==0.1.1 \
 		resource-pool==0.2.3.0 \
@@ -99,7 +99,7 @@ USE_CABAL=	aeson==0.7.0.6 \
 		setenv==0.1.1.1 \
 		SHA==1.6.4 \
 		shakespeare==2.0.0.3 \
-		silently==1.2.4.1_5 \
+		silently==1.2.4.1_6 \
 		simple-sendfile==0.2.14 \
 		skein==1.0.9 \
 		socks==0.5.4 \
@@ -114,7 +114,7 @@ USE_CABAL=	aeson==0.7.0.6 \
 		tf-random==0.5 \
 		tls==1.2.8 \
 		transformers-base==0.4.2 \
-		unix-compat==0.4.1.1_4 \
+		unix-compat==0.4.1.1_5 \
 		unordered-containers==0.2.4.0 \
 		utf8-string==0.3.8 \
 		vector==0.10.9.1 \

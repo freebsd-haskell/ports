@@ -2,7 +2,7 @@
 
 PORTNAME=	asn1-data
 PORTVERSION=	0.7.1
-PORTREVISION=	6
+PORTREVISION=	7
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org

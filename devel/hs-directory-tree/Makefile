@@ -2,7 +2,7 @@
 
 PORTNAME=	directory-tree
 PORTVERSION=	0.11.0
-PORTREVISION=	6
+PORTREVISION=	7
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
