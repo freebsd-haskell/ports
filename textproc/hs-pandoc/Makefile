@@ -25,8 +25,7 @@ USE_HAPPY=	yes
 EXECUTABLE=	pandoc
 
 # For PDF generation
-RUN_DEPENDS+=	latex-ifluatex>=1.3:${PORTSDIR}/print/latex-ifluatex \
-		ifxetex>=0:${PORTSDIR}/print/ifxetex
+USE_TEX=	texmf:run
 
 MAN1PAGES=	pandoc.1
 MAN5PAGES=	pandoc_markdown.5
