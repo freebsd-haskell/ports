@@ -51,12 +51,11 @@ INOTIFY_FLAG_CABAL=	kqueue
 
 WEBAPP_DESC=		Web application (requires assistant)
 WEBAPP_FLAG_DEPENDS=	ASSISTANT
-WEBAPP_DYNAMIC_BROKEN=	will not link with both WEBAPP and DYNAMIC enabled
 WEBAPP_FLAG_ENABLE=	Webapp
 WEBAPP_FLAG_CABAL=	yesod yesod-static yesod-static yesod-form yesod-core \
 			case-insensitive http-types wai wai-logger warp \
-			blaze-builder crypto-api hamlet clientsession \
-			data-default
+			blaze-builder crypto-api shakespeare clientsession \
+			data-default warp-tls
 
 PAIRING_DESC=		Enable pairing (requires web application)
 PAIRING_FLAG_DEPENDS=	WEBAPP
