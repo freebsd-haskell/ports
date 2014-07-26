@@ -19,7 +19,7 @@ STANDALONE=	yes
 
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/samples/xmobar.config ${STAGEDIR}${DATADIR}
 
-FLAGS_DEFINE=		XFT UTF8 MPD INOTIFY DATEZONE MPRIS DBUS THREADED
+FLAGS_DEFINE=		XFT UTF8 MPD INOTIFY DATEZONE THREADED
 FLAGS_DEFAULT=		UTF8
 
 XFT_DESC=		Use Xft to render text (UTF-8 support included)
@@ -42,19 +42,11 @@ DATEZONE_DESC=		Localized date support
 DATEZONE_FLAG_ENABLE=	with_datezone
 DATEZONE_FLAG_CABAL=	timezone-olson>=0.1 timezone-series>=0.1
 
-MPRIS_DESC=		MPRIS v1, v2 support
-MPRIS_FLAG_ENABLE=	with_mpris
-MPRIS_FLAG_CABAL=	dbus>=0.10
-
-DBUS_DESC=		Publish a service on the session bus
-DBUS_FLAG_ENABLE=	with_dbus
-DBUS_FLAG_CABAL=	dbus>=0.10
-
 THREADED_DESC=		Use threaded runtime
 THREADED_FLAG_ENABLE=	with_threaded
 
-# Disable Linux-only options
-FLAGS_DISABLE=		with_iwlib with_alsa
+# Disable unsupported options
+FLAGS_DISABLE=		with_mpris with_dbus with_iwlib with_alsa
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
