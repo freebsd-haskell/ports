@@ -27,7 +27,7 @@ GTKGLEXT_DESC=			Gtk+ OpenGL extension
 GTKGLEXT_FLAG_CABAL=		gtkglext
 
 GTKSOURCEVIEW2_DESC=		Source code editor
-GTKSOURCEVIEW2_FLAG_CABAL=	gsourceview2
+GTKSOURCEVIEW2_FLAG_CABAL=	gtksourceview2
 
 SVGCAIRO_DESC=			Cairo SVG loader
 SVGCAIRO_FLAG_CABAL=		svgcairo
