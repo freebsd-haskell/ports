@@ -1,46 +1,28 @@
---- ./libraries/Cabal/Cabal/Distribution/Simple/Program/Builtin.hs.orig	2014-01-23 01:06:05.000000000 +0100
-+++ ./libraries/Cabal/Cabal/Distribution/Simple/Program/Builtin.hs	2014-01-23 22:35:35.000000000 +0100
-@@ -46,7 +46,7 @@
-   ) where
- 
- import Distribution.Simple.Program.Types
--         ( Program(..), simpleProgram )
-+         ( Program(..), simpleProgram, simpleProgramFromEnvironment )
- import Distribution.Simple.Program.Find
-          ( findProgramOnSearchPath )
- import Distribution.Simple.Utils
-@@ -196,15 +196,15 @@
-   }
- 
+--- ./libraries/Cabal/Cabal/Distribution/Simple/Program/Builtin.hs.orig	2014-07-27 02:04:38.000000000 +0200
++++ ./libraries/Cabal/Cabal/Distribution/Simple/Program/Builtin.hs	2014-07-27 20:34:23.998805278 +0200
+@@ -233,10 +233,13 @@
  gccProgram :: Program
--gccProgram = (simpleProgram "gcc") {
-+gccProgram = (simpleProgramFromEnvironment "gcc" "CC") {
+ gccProgram = (simpleProgram "gcc") {
      programFindVersion = findProgramVersion "-dumpversion" id
++  , programFindLocation = \v p -> findProgramOnSearchPath v p "%%CC%%"
    }
- 
- ranlibProgram :: Program
--ranlibProgram = simpleProgram "ranlib"
-+ranlibProgram = simpleProgramFromEnvironment "ranlib" "RANLIB"
  
  arProgram :: Program
 -arProgram = simpleProgram "ar"
-+arProgram = simpleProgramFromEnvironment "ar" "AR"
++arProgram = (simpleProgram "ar") {
++    programFindLocation = \_v _p -> return (Just "%%AR%%")
++  }
  
  stripProgram :: Program
  stripProgram = simpleProgram "strip"
-@@ -257,13 +257,13 @@
+@@ -289,7 +292,9 @@
  greencardProgram = simpleProgram "greencard"
  
  ldProgram :: Program
 -ldProgram = simpleProgram "ld"
-+ldProgram = simpleProgramFromEnvironment "ld" "LD"
++ldProgram = (simpleProgram "ld") {
++    programFindLocation = \_v _p -> return (Just "%%LD%%")
++  }
  
  tarProgram :: Program
  tarProgram = simpleProgram "tar"
- 
- cppProgram :: Program
--cppProgram = simpleProgram "cpp"
-+cppProgram = simpleProgramFromEnvironment "cpp" "CPP"
- 
- pkgConfigProgram :: Program
- pkgConfigProgram = (simpleProgram "pkg-config") {

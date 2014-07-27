@@ -1,9 +1,9 @@
 # $FreeBSD$
 
 PORTNAME=	ghc
-PORTVERSION=	7.8.0.20140228
+PORTVERSION=	7.9.20140727
 CATEGORIES=	lang haskell
-MASTER_SITES=	http://www.haskell.org/ghc/dist/7.8.1-rc2/:source \
+MASTER_SITES=	http://haskell.inf.elte.hu/snapshots/:source \
 		${MASTER_SITE_LOCAL:S/$/:boot/}
 MASTER_SITE_SUBDIR=	pgj/:boot
 DISTFILES=	ghc-${PORTVERSION}-src${EXTRACT_SUFX}:source
@@ -23,13 +23,13 @@ HSCOLOUR_VERSION=	1.20.3
 DATADIR=	${PREFIX}/share/ghc-${GHC_VERSION}
 EXAMPLESDIR=	${PREFIX}/share/examples/ghc-${GHC_VERSION}
 
-CONFLICTS=	ghc-6.8.* ghc-6.10.* ghc-6.12.* ghc-7.0.* ghc-7.2.* ghc-7.4.* ghc-7.6.*
+CONFLICTS=	ghc-6.* ghc-7.0.* ghc-7.2.* ghc-7.4.* ghc-7.6.* ghc-7.7.* ghc-7.8.*
 
 LIB_DEPENDS+=	libgmp.so:${PORTSDIR}/math/gmp
 
 USE_AUTOTOOLS=		autoconf autoheader
 USE_PERL5=		build
-USES=			gmake iconv perl5 ncurses tar:bzip2
+USES=			gmake iconv:translit perl5 ncurses tar:bzip2
 USE_BINUTILS=		yes
 USE_GCC=		yes
 
@@ -46,13 +46,14 @@ TAR=		env LC_ALL=en_US.UTF-8 /usr/bin/tar
 # You can view below.
 GNU_CONFIGURE=	yes
 
-OPTIONS_DEFINE=		PROFILE DYNAMIC DOCS
+OPTIONS_DEFINE=		PROFILE DYNAMIC LLVM DOCS
 OPTIONS_DEFAULT=	PROFILE DYNAMIC DOCS
 
 BOOT_DESC=		Use installed GHC for bootstrapping
 BOOTH_DESC=		Use installed HsColour for bootstrapping
 PROFILE_DESC=		Add support for performance profiling
 DYNAMIC_DESC=		Add support for dynamic linking
+LLVM_DESC=		Add support for generating code via LLVM
 DOCS_DESC=		Install HTML documentation
 
 LOCALBASE?=	/usr/local
@@ -72,11 +73,12 @@ OPTIONS_DEFINE+=	BOOTH
 LIB_DEPENDS+=	libffi.so.6:${PORTSDIR}/devel/libffi
 .endif
 
+
 .if empty(PORT_OPTIONS:MBOOT)
 
 BOOT_GHC_VERSION=	7.6.3
 
-EXTRA_PATCHES=		${PATCHDIR}/nopatch-.._ghc-${BOOT_GHC_VERSION}-boot_rts_package.conf.in
+EXTRA_PATCHES+=		${PATCHDIR}/nopatch-.._ghc-${BOOT_GHC_VERSION}-boot_rts_package.conf.in
 
 .if ${ARCH} == "i386"
 
@@ -119,15 +121,21 @@ CONFIGURE_ARGS=		--with-gcc=${CC} \
 			--with-gmp-includes=${LOCALBASE}/include \
 			--with-gmp-libraries=${LOCALBASE}/lib
 
-.if ${OSVERSION} < 1000043
 CONFIGURE_ARGS+=	--with-iconv-includes=${LOCALBASE}/include \
 			--with-iconv-libraries=${LOCALBASE}/lib
-.endif
 
 .if ${PORT_OPTIONS:MDYNAMIC}
 CONFIGURE_ARGS+=	--with-system-libffi \
 			--with-ffi-includes=${LOCALBASE}/include \
 			--with-ffi-libraries=${LOCALBASE}/lib
+.endif
+
+.if ${PORT_OPTIONS:MLLVM}
+BUILD_DEPENDS+=		${LOCALBASE}/bin/opt34:${PORTSDIR}/devel/llvm34
+RUN_DEPENDS+=		${LOCALBASE}/bin/opt34:${PORTSDIR}/devel/llvm34
+
+CONFIGURE_ARGS+=	--with-opt=${LOCALBASE}/bin/opt34 \
+			--with-llc=${LOCALBASE}/bin/llc34
 .endif
 
 .if empty(PORT_OPTIONS:MBOOT)
@@ -224,6 +232,9 @@ post-extract:
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_CABAL_CONFIGURE_FLAGS += --extra-include-dirs=${LOCALBASE}/include"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_CABAL_CONFIGURE_FLAGS += --extra-lib-dirs=${LOCALBASE}/lib"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "libraries/terminfo_CONFIGURE_OPTS += --configure-option=--with-curses-includes=${NCURSESINC} --configure-option=--with-curses-libraries=${NCURSESLIB}"
+.if ${OSVERSION} >= 900000 && ${OSVERSION} < 902001
+	@${ECHO} >> ${WRKSRC}/mk/build.mk "DYNAMIC_GHC_PROGRAMS = NO"
+.endif
 
 post-install-script:
 	@${FIND} -ds ${GHC_LIBDIR} -type f -print | ${SED} -E -e \
@@ -251,25 +262,25 @@ post-install-script:
 		's,^${STAGEDIR}${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}
 
 post-patch:
-.if ${PORT_OPTIONS:MBOOT}
+.if !${PORT_OPTIONS:MBOOT}
 	@${REINPLACE_CMD} -e 's|%%LOCALBASE%%|${LOCALBASE}|g' \
-		${WRKSRC}/rts/package.conf.in \
-		${WRKSRC}/libraries/Makefile
-.else
-	@${REINPLACE_CMD} -e 's|%%LOCALBASE%%|${LOCALBASE}|g' \
-		${WRKSRC}/../ghc-${BOOT_GHC_VERSION}-boot/rts/package.conf.in \
-		${WRKSRC}/rts/package.conf.in \
-		${WRKSRC}/libraries/Makefile
+		${WRKSRC}/../ghc-${BOOT_GHC_VERSION}-boot/rts/package.conf.in
 .endif
-
+	@${REINPLACE_CMD} -e 's|%%LOCALBASE%%|${LOCALBASE}|g' \
+		${WRKSRC}/rts/package.conf.in
 	@${REINPLACE_CMD} -e 's|/usr/local|${LOCALBASE}|g' \
 		${WRKSRC}/configure
+	@${REINPLACE_CMD} -e 's|%%CC%%|${CC}|; \
+		s|%%AR%%|${AR}|; \
+		s|%%RANLIB%%|${RANLIB}|; \
+		s|%%LD%%|${LD}|' \
+		${WRKSRC}/libraries/Cabal/Cabal/Distribution/Simple/Program/Builtin.hs
 
 pre-configure:
 	@${MKDIR} ${TMPDIR}
 .if empty(PORT_OPTIONS:MBOOT)
 	@(cd ${BOOT_DIR} && ${CONFIGURE_ENV} ./${CONFIGURE_SCRIPT} ${CONFIGURE_ARGS_BOOT})
-	@(cd ${BOOT_DIR} && PACKAGES='' ${GMAKE} install)
+	@(cd ${BOOT_DIR} && PACKAGES='' ${MAKE_CMD} install)
 .endif
 
 # Defining with documentation:

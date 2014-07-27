@@ -81,8 +81,10 @@ BUILD_DEPENDS+=	${GHC_PACKAGE}>=${GHC_VERSION}:${PORTSDIR}/${GHC_PORT}
 USE_BINUTILS=	yes
 USE_GCC=	yes
 
-CONFIGURE_ARGS+=	--with-gcc=${CC} --with-ld=${LD} --with-ar=${AR} \
-			--with-ranlib=${RANLIB}
+CONFIGURE_ARGS+=	--with-gcc=${CC} --with-ld=${LD} --with-ar=${AR}
+.if !defined(I_WANT_GHC_HEAD)
+CONFIGURE_ARGS+=	--with-ranlib=${RANLIB}
+.endif
 
 .if ${PORT_OPTIONS:MLLVM}
 CONFIGURE_ARGS+=	--ghc-option=-fllvm \
