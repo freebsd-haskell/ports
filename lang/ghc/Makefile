@@ -71,6 +71,14 @@ OPTIONS_DEFINE+=	BOOTH
 LIB_DEPENDS+=	libffi.so.6:${PORTSDIR}/devel/libffi
 .endif
 
+# Earlier versions of FreeBSD 9 cannot do proper resolution for $ORIGIN (due
+# to a bug in rtld(1)), so disable it by default there.  This shall go away
+# once 9.2 becomes the latest supported release in that branch.
+.if ${OSVERSION} >= 900000 && ${OSVERSION} < 902001
+EXTRA_PATCHES+=		${PATCHDIR}/nopatch-rules__distdir-way-opts.mk
+
+BUILD_DEPENDS+=		chrpath:${PORTSDIR}/devel/chrpath
+.endif
 
 .if empty(PORT_OPTIONS:MBOOT)
 
@@ -231,12 +239,6 @@ post-extract:
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_CABAL_CONFIGURE_FLAGS += --extra-lib-dirs=${LOCALBASE}/lib"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "libraries/terminfo_CONFIGURE_OPTS += --configure-option=--with-curses-includes=${NCURSESINC} --configure-option=--with-curses-libraries=${NCURSESLIB}"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "V = 0"
-# Earlier versions of FreeBSD 9 cannot do proper resolution for $ORIGIN (due
-# to a bug in rtld(1)), so disable it by default there.  This shall go away
-# once 9.2 becomes the latest supported releases in that branch.
-.if ${OSVERSION} >= 900000 && ${OSVERSION} < 902001
-	@${ECHO} >> ${WRKSRC}/mk/build.mk "DYNAMIC_GHC_PROGRAMS = NO"
-.endif
 
 post-install-script:
 	@${FIND} -ds ${GHC_LIBDIR} -type f -print | ${SED} -E -e \
@@ -277,6 +279,11 @@ post-patch:
 		s|%%RANLIB%%|${RANLIB}|; \
 		s|%%LD%%|${LD}|' \
 		${WRKSRC}/libraries/Cabal/Cabal/Distribution/Simple/Program/Builtin.hs
+# FreeBSD 9.{0,1} oddity workaround, part 2 (see above)
+.if ${OSVERSION} >= 900000 && ${OSVERSION} < 902001
+	@${REINPLACE_CMD} -e 's|%%GHC_LIBDIR%%|${GHC_LIBDIR}|g' \
+		${WRKSRC}/rules/distdir-way-opts.mk
+.endif
 
 pre-configure:
 	@${MKDIR} ${TMPDIR}
@@ -319,5 +326,14 @@ post-install:
 .if ${PORT_OPTIONS:MDOCS}
 	@${LN} -sf haddock-ghc-${GHC_VERSION} ${STAGEDIR}${PREFIX}/bin/haddock
 .endif
+# FreeBSD 9.{0,1} oddity workaround, part 3 (see above)
+.if ${OSVERSION} >= 900000 && ${OSVERSION} < 902001
+	@(for f in $$(${FIND} ${GHC_LIBDIR}/bin -type f; ${FIND} ${GHC_LIBDIR} -name '*.so' | ${GREP} -v libHSrts); do \
+	    chrpath -r $$(chrpath $$f | ${CUT} -d '=' -f2 | ${SED} 's|${GHC_LIBDIR}|${PREFIX}/${GHC_LIBDIR_REL}|g') $$f; \
+	    done)
+.endif
+	@(for f in ${STAGEDIR}${PREFIX}/bin/hp2ps ${GHC_LIBDIR}/unlit ${GHC_LIBDIR}/mkGmpDerivedConstants \
+	    $$(${FIND} ${GHC_LIBDIR}/bin -type f; ${FIND} ${GHC_LIBDIR} -name '*.so'); do \
+	    ${STRIP_CMD} $$f; done)
 
 .include <bsd.port.mk>
