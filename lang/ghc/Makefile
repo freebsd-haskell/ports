@@ -71,12 +71,6 @@ OPTIONS_DEFINE+=	BOOTH
 LIB_DEPENDS+=	libffi.so.6:${PORTSDIR}/devel/libffi
 .endif
 
-# FreeBSD 9.1-RELEASE cannot do proper resolution for $ORIGIN (due to
-# a bug in rtld(1)), so disable it by default there.  This shall go away
-# once this version is not supported anymore.
-.if ${OSVERSION} >= 901000 && ${OSVERSION} < 902001
-EXTRA_PATCHES+=		${PATCHDIR}/nopatch-mk__config.mk.in
-.endif
 
 .if empty(PORT_OPTIONS:MBOOT)
 
@@ -135,11 +129,11 @@ CONFIGURE_ARGS+=	--with-system-libffi \
 .endif
 
 .if ${PORT_OPTIONS:MLLVM}
-BUILD_DEPENDS+=		${LOCALBASE}/bin/opt32:${PORTSDIR}/devel/llvm32
-RUN_DEPENDS+=		${LOCALBASE}/bin/opt32:${PORTSDIR}/devel/llvm32
+BUILD_DEPENDS+=		${LOCALBASE}/bin/opt34:${PORTSDIR}/devel/llvm34
+RUN_DEPENDS+=		${LOCALBASE}/bin/opt34:${PORTSDIR}/devel/llvm34
 
-CONFIGURE_ARGS+=	--with-opt=${LOCALBASE}/bin/opt32 \
-			--with-llc=${LOCALBASE}/bin/llc32
+CONFIGURE_ARGS+=	--with-opt=${LOCALBASE}/bin/opt34 \
+			--with-llc=${LOCALBASE}/bin/llc34
 .endif
 
 .if empty(PORT_OPTIONS:MBOOT)
@@ -236,8 +230,13 @@ post-extract:
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_CABAL_CONFIGURE_FLAGS += --extra-include-dirs=${LOCALBASE}/include"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_CABAL_CONFIGURE_FLAGS += --extra-lib-dirs=${LOCALBASE}/lib"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "libraries/terminfo_CONFIGURE_OPTS += --configure-option=--with-curses-includes=${NCURSESINC} --configure-option=--with-curses-libraries=${NCURSESLIB}"
-#	@${ECHO} >> ${WRKSRC}/mk/build.mk "BIN_DIST_NAME = ghc-\$$(ProjectVersion)-boot"
-#	@${ECHO} >> ${WRKSRC}/mk/build.mk "BIN_DIST_TAR  = ghc-\$$(ProjectVersion)-amd64-ash0-freebsd8-boot.tar"
+	@${ECHO} >> ${WRKSRC}/mk/build.mk "V = 0"
+# Earlier versions of FreeBSD 9 cannot do proper resolution for $ORIGIN (due
+# to a bug in rtld(1)), so disable it by default there.  This shall go away
+# once 9.2 becomes the latest supported releases in that branch.
+.if ${OSVERSION} >= 900000 && ${OSVERSION} < 902001
+	@${ECHO} >> ${WRKSRC}/mk/build.mk "DYNAMIC_GHC_PROGRAMS = NO"
+.endif
 
 post-install-script:
 	@${FIND} -ds ${GHC_LIBDIR} -type f -print | ${SED} -E -e \
@@ -264,12 +263,6 @@ post-install-script:
 	@${FIND} -ds ${GHC_LIBDIR} -type d -print | ${SED} -E -e \
 		's,^${STAGEDIR}${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}
 
-#post-build:
-#	@(cd ${WRKSRC} && ${MAKE_CMD} binary-dist)
-#
-#do-install:
-#	@${NONE}
-
 post-patch:
 .if !${PORT_OPTIONS:MBOOT}
 	@${REINPLACE_CMD} -e 's|%%LOCALBASE%%|${LOCALBASE}|g' \
@@ -279,6 +272,11 @@ post-patch:
 		${WRKSRC}/rts/package.conf.in
 	@${REINPLACE_CMD} -e 's|/usr/local|${LOCALBASE}|g' \
 		${WRKSRC}/configure
+	@${REINPLACE_CMD} -e 's|%%CC%%|${CC}|; \
+		s|%%AR%%|${AR}|; \
+		s|%%RANLIB%%|${RANLIB}|; \
+		s|%%LD%%|${LD}|' \
+		${WRKSRC}/libraries/Cabal/Cabal/Distribution/Simple/Program/Builtin.hs
 
 pre-configure:
 	@${MKDIR} ${TMPDIR}
@@ -313,7 +311,6 @@ pre-configure:
 .endif
 
 post-install:
-	# cabalised hs-foo-ghc ports
 	@${MKDIR} ${STAGEDIR}${PREFIX}/lib/cabal/ghc-${GHC_VERSION}
 	@${MKDIR} ${STAGEDIR}${PREFIX}/share/cabal/ghc-${GHC_VERSION}
 	@${MKDIR} ${STAGEDIR}${PREFIX}/share/doc/cabal/ghc-${GHC_VERSION}
