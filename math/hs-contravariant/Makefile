@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	contravariant
-PORTVERSION=	0.6
+PORTVERSION=	1.0
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
