@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	hslua
-PORTVERSION=	0.3.12
+PORTVERSION=	0.3.13
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
