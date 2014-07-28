@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	git-annex
-PORTVERSION=	5.20140709
+PORTVERSION=	5.20140717
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -33,8 +33,8 @@ RUN_DEPENDS+=	rsync:${PORTSDIR}/net/rsync \
 EXECUTABLE=	git-annex git-annex-shell
 STANDALONE=	yes
 
-FLAGS_DEFINE=	S3 ASSISTANT INOTIFY WEBDAV WEBAPP PAIRING XMPP DNS PRODUCTION \
-		TDFA FEED QUVI CRYPTOHASH EKG TAHOE
+FLAGS_DEFINE=	S3 ASSISTANT INOTIFY WEBDAV WEBAPP WEBAPP_SECURE PAIRING \
+		XMPP DNS PRODUCTION TDFA FEED QUVI CRYPTOHASH EKG TAHOE
 FLAGS_DEFAULT=	S3 ASSISTANT
 
 S3_DESC=		S3 support
@@ -55,7 +55,12 @@ WEBAPP_FLAG_ENABLE=	Webapp
 WEBAPP_FLAG_CABAL=	yesod yesod-static yesod-static yesod-form yesod-core \
 			case-insensitive http-types wai wai-logger warp \
 			blaze-builder crypto-api shakespeare clientsession \
-			data-default warp-tls
+			data-default warp-tls path-pieces
+
+WEBAPP_SECURE_DESC=		Secure webapp (requires webbapp)
+WEBAPP_SECURE_FLAG_DEPENDS=	WEBAPP
+WEBAPP_SECURE_FLAG_ENABLE=	Webapp-secure
+WEBAPP_SECURE_FLAG_CABAL=	warp-tls>=1.4 securemem byteable
 
 PAIRING_DESC=		Enable pairing (requires web application)
 PAIRING_FLAG_DEPENDS=	WEBAPP
