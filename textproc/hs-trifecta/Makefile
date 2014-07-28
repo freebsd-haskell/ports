@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	trifecta
-PORTVERSION=	1.4.2
+PORTVERSION=	1.4.3
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
