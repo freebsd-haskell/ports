@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	highlighting-kate
-PORTVERSION=	0.5.8.3
+PORTVERSION=	0.5.8.5
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
