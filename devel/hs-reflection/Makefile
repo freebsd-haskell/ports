@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	reflection
-PORTVERSION=	1.4
+PORTVERSION=	1.5.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
