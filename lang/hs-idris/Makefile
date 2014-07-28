@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	idris
-PORTVERSION=	0.9.13.1
+PORTVERSION=	0.9.14
 CATEGORIES=	lang haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -17,11 +17,11 @@ RUN_DEPENDS+=	boehm-gc>=7.1:${PORTSDIR}/devel/boehm-gc \
 		gmp>=5.0.2:${PORTSDIR}/math/gmp
 
 USE_CABAL=	annotated-wl-pprint>=0.5.3 ansi-terminal ansi-wl-pprint \
-		blaze-html>=0.6.1.3 blaze-markup>=0.5.2.1 cheapskate \
-		language-java>=0.2.6 lens>=4.1.1.1 mtl parsers>=0.9 split \
-		text trifecta>=1.1 unordered-containers utf8-string vector \
-		vector-binary-instances network xml zlib \
-		optparse-applicative>=0.8
+		base64-bytestring blaze-html>=0.6.1.3 blaze-markup>=0.5.2.1 \
+		cheapskate fingertree>=0.1 language-java>=0.2.6 lens>=4.1.1 \
+		mtl network optparse-applicative>=0.8 parsers>=0.9 split text \
+		trifecta>=1.1 unordered-containers utf8-string vector \
+		vector-binary-instances xml zlib
 
 FLAGS_DEFINE=	LLVM_BACKEND FFI GMP
 FLAGS_DEFAULT=	FFI GMP
