@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	adjunctions
-PORTVERSION=	4.1.0.1
+PORTVERSION=	4.2
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
