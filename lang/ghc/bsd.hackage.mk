@@ -36,6 +36,7 @@ attoparsec_port=                                textproc/hs-attoparsec
 attoparsec-enumerator_port=                     textproc/hs-attoparsec-enumerator
 attoparsec-iteratee_port=                       textproc/hs-attoparsec-iteratee
 authenticate_port=                              www/hs-authenticate
+auto-update_port=                               devel/hs-auto-update
 base-unicode-symbols_port=                      devel/hs-base-unicode-symbols
 base16-bytestring_port=                         devel/hs-base16-bytestring
 base64-bytestring_port=                         devel/hs-base64-bytestring
