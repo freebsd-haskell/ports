@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	unbounded-delays
-PORTVERSION=	0.1.0.7
+PORTVERSION=	0.1.0.8
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
