@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	idris
-PORTVERSION=	0.9.14
+PORTVERSION=	0.9.14.1
 CATEGORIES=	lang haskell
 
 MAINTAINER=	haskell@FreeBSD.org
