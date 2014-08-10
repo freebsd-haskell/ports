@@ -334,7 +334,7 @@ add-plist-cabal:
 .endif
 
 .if !defined(STANDALONE)
-	@${ECHO_CMD} '@exec ${SH} %D/${CABAL_LIBDIR_REL}/${CABAL_LIBSUBDIR}/register.sh' >> ${TMPPLIST}
+	@${ECHO_CMD} '@exec ${SH} %D/${CABAL_LIBDIR_REL}/${CABAL_LIBSUBDIR}/register.sh > /dev/null' >> ${TMPPLIST}
 .endif
 
 .if defined(HADDOCK_AVAILABLE) && ${PORT_OPTIONS:MDOCS}
