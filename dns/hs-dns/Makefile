@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	dns
-PORTVERSION=	1.4.1
+PORTVERSION=	1.4.2
 CATEGORIES=	dns haskell
 
 MAINTAINER=	haskell@FreeBSD.org
