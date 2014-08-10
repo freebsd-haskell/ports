@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	resourcet
-PORTVERSION=	1.1.2.2
+PORTVERSION=	1.1.2.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
