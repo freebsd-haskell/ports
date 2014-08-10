@@ -2,11 +2,11 @@
 # $FreeBSD$
 
 PORTNAME=	safe
-PORTVERSION=	0.3.4
+PORTVERSION=	0.3.7
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Library for safe (pattern match free) functions
+COMMENT=	Library for safe (exception free) functions
 
 LICENSE=	BSD3CLAUSE
 
