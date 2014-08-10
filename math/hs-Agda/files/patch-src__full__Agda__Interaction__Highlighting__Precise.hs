@@ -1,5 +1,5 @@
---- ./src/full/Agda/Interaction/Highlighting/Precise.hs.orig	2014-06-16 12:42:15.000000000 +0200
-+++ ./src/full/Agda/Interaction/Highlighting/Precise.hs	2014-07-14 07:00:15.000000000 +0200
+--- ./src/full/Agda/Interaction/Highlighting/Precise.hs.orig	2014-07-29 19:41:41.000000000 +0100
++++ ./src/full/Agda/Interaction/Highlighting/Precise.hs	2014-08-10 11:30:01.000000000 +0100
 @@ -40,7 +40,7 @@
  import Data.Monoid
  import Control.Applicative ((<$>), (<*>))

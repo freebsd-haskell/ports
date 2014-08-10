@@ -2,16 +2,16 @@
 # $FreeBSD$
 
 PORTNAME=	Agda
-PORTVERSION=	2.4.0.1
+PORTVERSION=	2.4.0.2
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Dependently typed functional programming language and proof assistant
 
-USE_CABAL=	boxes>=0.1.3 data-hash>=0.2.0.0 equivalence>=0.2.3 \
-		geniplate>=0.6.0.3 hashable>=1.1.2.3 hashtables>=1.0 \
-		haskell-src-exts>=1.9.6 mtl>=2.1.1 QuickCheck>=2.6 \
-		parallel STMonadTrans>=0.3.2 strict>=0.3.2 text>=0.11 \
+USE_CABAL=	boxes>=0.1.3 data-hash>=0.2.0.0 equivalence>=0.2.4 \
+		geniplate>=0.6.0.3 hashable hashtables>=1.0 \
+		haskell-src-exts>=1.9.6 mtl>=2.1.1 parallel QuickCheck>=2.6 \
+		STMonadTrans>=0.3.2 strict>=0.3.2 text>=0.11 \
 		unordered-containers>=0.2 zlib>=0.4.0.1
 USE_ALEX=	yes
 USE_HAPPY=	yes
