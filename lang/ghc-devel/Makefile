@@ -262,14 +262,6 @@ post-install-script:
 		's,^${STAGEDIR}${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}
 
 post-patch:
-.if !${PORT_OPTIONS:MBOOT}
-	@${REINPLACE_CMD} -e 's|%%LOCALBASE%%|${LOCALBASE}|g' \
-		${WRKSRC}/../ghc-${BOOT_GHC_VERSION}-boot/rts/package.conf.in
-.endif
-	@${REINPLACE_CMD} -e 's|%%LOCALBASE%%|${LOCALBASE}|g' \
-		${WRKSRC}/rts/package.conf.in
-	@${REINPLACE_CMD} -e 's|/usr/local|${LOCALBASE}|g' \
-		${WRKSRC}/configure
 	@${REINPLACE_CMD} -e 's|%%CC%%|${CC}|; \
 		s|%%AR%%|${AR}|; \
 		s|%%RANLIB%%|${RANLIB}|; \
