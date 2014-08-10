@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	hjsmin
-PORTVERSION=	0.1.4.6
+PORTVERSION=	0.1.4.7
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
