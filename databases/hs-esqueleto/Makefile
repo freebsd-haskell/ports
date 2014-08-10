@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	esqueleto
-PORTVERSION=	1.4.1.2
+PORTVERSION=	1.4.4
 CATEGORIES=	databases haskell
 
 MAINTAINER=	haskell@FreeBSD.org
