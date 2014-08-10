@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	fsnotify
-PORTVERSION=	0.1.0.2
+PORTVERSION=	0.1.0.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
