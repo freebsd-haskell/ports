@@ -1,0 +1,20 @@
+--- ./gitit.cabal.orig	2014-07-01 00:34:19.000000000 +0200
++++ ./gitit.cabal	2014-08-17 22:33:54.432253248 +0200
+@@ -118,7 +118,7 @@
+     exposed-modules: Network.Gitit.Interface
+     build-depends:   ghc, ghc-paths
+     cpp-options:     -D_PLUGINS
+-  build-depends:     base >= 3, pandoc >= 1.12.4 && < 1.13,
++  build-depends:     base >= 3, pandoc >= 1.12.4 && < 1.14,
+                      pandoc-types >= 1.12.3 && < 1.13, filepath, safe
+   extensions:        CPP
+   if impl(ghc >= 6.12)
+@@ -135,7 +135,7 @@
+                      pretty,
+                      xhtml,
+                      containers,
+-                     pandoc >= 1.12.4 && < 1.13,
++                     pandoc >= 1.12.4 && < 1.14,
+                      pandoc-types >= 1.12.3 && < 1.13,
+                      process,
+                      filepath,
