@@ -301,10 +301,6 @@ do-install:
 
 .if !target(post-install-script)
 post-install-script:
-	@for dir in ${CABAL_DIRS}; do if [ -d ${STAGEDIR}$${dir} ]; then ${FIND} -ds ${STAGEDIR}$${dir} \
-		-type f -print | ${SED} -E -e 's,^${STAGEDIR}${PREFIX}/?,,' >> ${TMPPLIST}; fi ; \
-		if [ -d ${STAGEDIR}$${dir} ]; then ${FIND} -ds ${STAGEDIR}$${dir} \
-		-type d -print | ${SED} -E -e 's,^${STAGEDIR}${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}; fi ; done
 .if defined(EXECUTABLE)
 .for exe in ${EXECUTABLE}
 	@${ECHO_CMD} 'bin/${exe}' >>${TMPPLIST}
@@ -316,8 +312,11 @@ post-install-script:
 		if [ -d ${STAGEDIR}${PREFIX}/$${dir}/cabal ]; then \
 		echo "@dirrmtry $${dir}/cabal" >> ${TMPPLIST}; fi ; done
 .endif
-.endif
-
+.endif # EXECUTABLE
+	@for dir in ${CABAL_DIRS}; do if [ -d ${STAGEDIR}$${dir} ]; then ${FIND} -ds ${STAGEDIR}$${dir} \
+		-type f -print | ${SED} -E -e 's,^${STAGEDIR}${PREFIX}/?,,' >> ${TMPPLIST}; fi ; \
+		if [ -d ${STAGEDIR}$${dir} ]; then ${FIND} -ds ${STAGEDIR}$${dir} \
+		-type d -print | ${SED} -E -e 's,^${STAGEDIR}${PREFIX}/?,@dirrm ,' >> ${TMPPLIST}; fi ; done
 .endif # target(post-install-script)
 
 .if !defined(METAPORT)
