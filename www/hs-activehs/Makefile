@@ -1,8 +1,8 @@
-# $FreeBSD: head/www/hs-activehs/Makefile 364579 2014-08-10 22:34:50Z pgj $
+# $FreeBSD$
 
 PORTNAME=	activehs
 PORTVERSION=	0.3.1
-PORTREVISION=	7
+PORTREVISION=	8
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org

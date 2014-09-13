@@ -1,5 +1,5 @@
 # Created by: Li-Wen Hsu <lwhsu@FreeBSD.org>
-# $FreeBSD: head/textproc/cgrep/Makefile 361506 2014-07-11 06:30:09Z lwhsu $
+# $FreeBSD$
 
 PORTNAME=	cgrep
 PORTVERSION=	6.4.3
