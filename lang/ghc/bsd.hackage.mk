@@ -241,6 +241,7 @@ haskell-xmpp_port=                              net-im/hs-haskell-xmpp
 hasktags_port=                                  devel/hs-hasktags                               # executable
 hastache_port=                                  devel/hs-hastache
 HaXml_port=                                     textproc/hs-HaXml                               # executable
+hedis_port=                                     databases/hs-hedis
 heist_port=                                     www/hs-heist
 hexpat_port=                                    textproc/hs-hexpat
 HGL_port=                                       graphics/hs-HGL
