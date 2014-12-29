@@ -299,6 +299,7 @@ language-java_port=                             devel/hs-language-java
 language-javascript_port=                       devel/hs-language-javascript
 largeword_port=                                 devel/hs-largeword
 lazysmallcheck_port=                            devel/hs-lazysmallcheck
+LDAP_port=                                      net/hs-LDAP
 leksah_port=                                    editors/hs-leksah                               # executable
 leksah-server_port=                             devel/hs-leksah-server                          # executable
 lens_port=                                      devel/hs-lens

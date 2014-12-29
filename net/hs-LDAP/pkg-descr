@@ -1,0 +1,4 @@
+This package provides LDAP interface code for Haskell programs, binding to the
+C LDAP API.
+
+WWW: https://github.com/ezyang/ldap-haskell
