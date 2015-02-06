@@ -426,6 +426,7 @@ setops_port=                                    devel/hs-setops
 SHA_port=                                       security/hs-SHA                                 # executable
 shake_port=                                     devel/hs-shake                                  # executable
 shakespeare_port=                               www/hs-shakespeare
+ShellCheck_port=                                devel/hs-ShellCheck                             # executable
 shelly_port=                                    shells/hs-shelly
 shelly-extra_port=                              shells/hs-shelly-extra
 show_port=                                      devel/hs-show
