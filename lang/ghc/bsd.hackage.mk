@@ -466,7 +466,6 @@ snap-loader-static_port=                        www/hs-snap-loader-static
 snap-server_port=                               www/hs-snap-server                              # lib_depends
 snaplet-fay_port=                               www/hs-snaplet-fay
 socks_port=                                     net/hs-socks
-soegtk_port=                                    graphics/hs-soegtk
 sourcemap_port=                                 devel/hs-sourcemap
 split_port=                                     devel/hs-split
 spoon_port=                                     devel/hs-spoon

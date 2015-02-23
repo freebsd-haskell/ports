@@ -1,4 +1,5 @@
 devel/hs-glade||2015-02-23|Removed: Upstream support is discontinued.
+graphics/hs-soegtk||2015-02-23|Removed: Upstream support is discontinued.
 multimedia/hs-gstreamer||2015-02-23|Removed: Upstream support is discontinued.
 x11-toolkits/hs-gtkglext||2015-02-23|Removed: Upstream support is discontinued.
 devel/hs-haskell-platform||2015-07-30|Removed: It is not tracked any more.
