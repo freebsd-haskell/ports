@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	vcswrapper
-PORTVERSION=	0.0.4
+PORTVERSION=	0.1.2
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
