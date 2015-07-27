@@ -4,8 +4,7 @@ PORTNAME=	ghc
 PORTVERSION=	7.9.20140727
 CATEGORIES=	lang haskell
 MASTER_SITES=	http://haskell.inf.elte.hu/snapshots/:source \
-		${MASTER_SITE_LOCAL:S/$/:boot/}
-MASTER_SITE_SUBDIR=	pgj/:boot
+		LOCAL/pgj/:boot
 DISTFILES=	ghc-${PORTVERSION}-src${EXTRACT_SUFX}:source
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -73,12 +72,9 @@ OPTIONS_DEFINE+=	BOOTH
 LIB_DEPENDS+=	libffi.so.6:${PORTSDIR}/devel/libffi
 .endif
 
-
 .if empty(PORT_OPTIONS:MBOOT)
 
 BOOT_GHC_VERSION=	7.6.3
-
-EXTRA_PATCHES+=		${PATCHDIR}/nopatch-.._ghc-${BOOT_GHC_VERSION}-boot_rts_package.conf.in
 
 .if ${ARCH} == "i386"
 
@@ -86,10 +82,8 @@ EXTRA_PATCHES+=		${PATCHDIR}/nopatch-.._ghc-${BOOT_GHC_VERSION}-boot_rts_package
 DISTFILES+=	ghc-${BOOT_GHC_VERSION}-i386-freebsd10-boot${EXTRACT_SUFX}:boot
 .elif ${OSVERSION} >= 900000
 DISTFILES+=	ghc-${BOOT_GHC_VERSION}-i386-freebsd9-boot${EXTRACT_SUFX}:boot
-.elif ${OSVERSION} >= 800000
-DISTFILES+=	ghc-${BOOT_GHC_VERSION}-i386-freebsd8-boot${EXTRACT_SUFX}:boot
 .else
-IGNORE=		unsupported
+DISTFILES+=	ghc-${BOOT_GHC_VERSION}-i386-freebsd8-boot${EXTRACT_SUFX}:boot
 .endif
 
 .elif ${ARCH} == "amd64"
@@ -98,10 +92,8 @@ IGNORE=		unsupported
 DISTFILES+=	ghc-${BOOT_GHC_VERSION}-amd64-freebsd10-boot${EXTRACT_SUFX}:boot
 .elif ${OSVERSION} >= 900000
 DISTFILES+=	ghc-${BOOT_GHC_VERSION}-amd64-freebsd9-boot${EXTRACT_SUFX}:boot
-.elif ${OSVERSION} >= 800000
-DISTFILES+=	ghc-${BOOT_GHC_VERSION}-amd64-freebsd8-boot${EXTRACT_SUFX}:boot
 .else
-IGNORE=		unsupported
+DISTFILES+=	ghc-${BOOT_GHC_VERSION}-amd64-freebsd8-boot${EXTRACT_SUFX}:boot
 .endif
 
 .endif
@@ -195,7 +187,7 @@ CONFIGURE_ENV+=	PATH=${SLAVES_PREFIX}/bin:${PATH}
 
 .endif # MBOOTH
 
-BUILD_DEPENDS+=	${LOCALBASE}/share/xsl/docbook/html:${PORTSDIR}/textproc/docbook-xsl \
+BUILD_DEPENDS+=	docbook-xsl>0:${PORTSDIR}/textproc/docbook-xsl \
 		${LOCALBASE}/bin/xsltproc:${PORTSDIR}/textproc/libxslt
 .endif
 
@@ -232,9 +224,6 @@ post-extract:
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_CABAL_CONFIGURE_FLAGS += --extra-include-dirs=${LOCALBASE}/include"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_CABAL_CONFIGURE_FLAGS += --extra-lib-dirs=${LOCALBASE}/lib"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "libraries/terminfo_CONFIGURE_OPTS += --configure-option=--with-curses-includes=${NCURSESINC} --configure-option=--with-curses-libraries=${NCURSESLIB}"
-.if ${OSVERSION} >= 900000 && ${OSVERSION} < 902001
-	@${ECHO} >> ${WRKSRC}/mk/build.mk "DYNAMIC_GHC_PROGRAMS = NO"
-.endif
 
 post-install-script:
 	@${FIND} -ds ${GHC_LIBDIR} -type f -print | ${SED} -E -e \
