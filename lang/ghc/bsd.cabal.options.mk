@@ -23,7 +23,7 @@ GHC_VERSION?=	7.9.20140727
 GHC_PORT?=	lang/ghc-devel
 GHC_PACKAGE?=	ghc-devel
 .else
-GHC_VERSION?=	7.8.3
+GHC_VERSION?=	7.10.2
 GHC_PORT?=	lang/ghc
 GHC_PACKAGE?=	ghc
 .endif
@@ -33,12 +33,12 @@ DYNAMIC_DESC?=	Add support for dynamic linking
 PROFILE_DESC?=	Add support for profiling
 LLVM_DESC?=	Use the LLVM backend for code generation
 
-.if (!exists(${GHC_CMD}) || exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.dyn_hi)) && !defined(IGNORE_DYNAMIC)
+.if (!exists(${GHC_CMD}) || exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/rts/libHSrts-ghc${GHC_VERSION}.so)) && !defined(IGNORE_DYNAMIC)
 OPTIONS_DEFINE+=	DYNAMIC
 OPTIONS_DEFAULT+=	DYNAMIC
 .endif
 
-.if (!exists(${GHC_CMD}) || exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/ghc-${GHC_VERSION}/GHC.p_hi)) && !defined(IGNORE_PROFILE)
+.if (!exists(${GHC_CMD}) || exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/rts/libHSrts_p.a)) && !defined(IGNORE_PROFILE)
 OPTIONS_DEFINE+=	PROFILE
 .endif
 

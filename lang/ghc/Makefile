@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	ghc
-PORTVERSION=	7.8.3
-PORTREVISION=	1
+PORTVERSION=	7.10.2
 CATEGORIES=	lang haskell
 MASTER_SITES=	http://www.haskell.org/ghc/dist/${PORTVERSION}/:source \
 		LOCAL/pgj/:boot
@@ -20,12 +19,12 @@ ONLY_FOR_ARCHS=	i386 amd64
 MAKE_JOBS_NUMBER_LIMIT=		4
 
 GHC_VERSION=		${PORTVERSION}
-HSCOLOUR_VERSION=	1.20.3
+HSCOLOUR_VERSION=	1.23
 
 DATADIR=	${PREFIX}/share/ghc-${GHC_VERSION}
 EXAMPLESDIR=	${PREFIX}/share/examples/ghc-${GHC_VERSION}
 
-CONFLICTS=	ghc-6.* ghc-7.0.* ghc-7.2.* ghc-7.4.* ghc-7.6.* ghc-7.7.*
+CONFLICTS=	ghc-7.4.* ghc-7.6.* ghc-7.8.*
 
 LIB_DEPENDS+=	libgmp.so:${PORTSDIR}/math/gmp
 
@@ -36,6 +35,8 @@ USE_BINUTILS=		yes
 USE_GCC=		yes
 
 MAKE_ENV=	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+# This is needed on FreeBSD 9.x due to the bootstrap tarball.
+TAR=		env LC_ALL=en_US.UTF-8 /usr/bin/tar
 
 # The configure process accepts,filters and canonicalises
 # the CONFIGURE_TARGET variable. You can read the files
@@ -122,11 +123,11 @@ CONFIGURE_ARGS+=	--with-system-libffi \
 .endif
 
 .if ${PORT_OPTIONS:MLLVM}
-BUILD_DEPENDS+=		${LOCALBASE}/bin/opt34:${PORTSDIR}/devel/llvm34
-RUN_DEPENDS+=		${LOCALBASE}/bin/opt34:${PORTSDIR}/devel/llvm34
+BUILD_DEPENDS+=		${LOCALBASE}/bin/opt35:${PORTSDIR}/devel/llvm35
+RUN_DEPENDS+=		${LOCALBASE}/bin/opt35:${PORTSDIR}/devel/llvm35
 
-CONFIGURE_ARGS+=	--with-opt=${LOCALBASE}/bin/opt34 \
-			--with-llc=${LOCALBASE}/bin/llc34
+CONFIGURE_ARGS+=	--with-opt=${LOCALBASE}/bin/opt35 \
+			--with-llc=${LOCALBASE}/bin/llc35
 .endif
 
 .if empty(PORT_OPTIONS:MBOOT)
@@ -249,7 +250,6 @@ post-install-script:
 post-patch:
 	@${REINPLACE_CMD} -e 's|%%CC%%|${CC}|; \
 		s|%%AR%%|${AR}|; \
-		s|%%RANLIB%%|${RANLIB}|; \
 		s|%%LD%%|${LD}|' \
 		${WRKSRC}/libraries/Cabal/Cabal/Distribution/Simple/Program/Builtin.hs
 
@@ -260,9 +260,6 @@ pre-configure:
 	@(cd ${BOOT_DIR} && PACKAGES='' ${MAKE_CMD} install)
 .endif
 
-# Defining with documentation:
-# Defining "SLAVE" in devel/hs-haddock and print/hs-hscolour flips the building process
-# functionally to this port.
 .if ${PORT_OPTIONS:MDOCS} && empty(PORT_OPTIONS:MBOOTH)
 	@${ECHO_MSG} -e "\a"
 	@${ECHO_MSG} "======================================================================"
@@ -290,7 +287,7 @@ post-install:
 .if ${PORT_OPTIONS:MDOCS}
 	@${LN} -sf haddock-ghc-${GHC_VERSION} ${STAGEDIR}${PREFIX}/bin/haddock
 .endif
-	@(for f in ${STAGEDIR}${PREFIX}/bin/hp2ps ${GHC_LIBDIR}/unlit ${GHC_LIBDIR}/mkGmpDerivedConstants \
+	@(for f in ${STAGEDIR}${PREFIX}/bin/hp2ps ${GHC_LIBDIR}/unlit \
 	    $$(${FIND} ${GHC_LIBDIR}/bin -type f; ${FIND} ${GHC_LIBDIR} -name '*.so'); do \
 	    ${STRIP_CMD} $$f; done)
 

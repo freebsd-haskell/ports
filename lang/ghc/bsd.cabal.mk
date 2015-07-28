@@ -78,16 +78,13 @@ USE_BINUTILS=	yes
 USE_GCC=	yes
 
 CONFIGURE_ARGS+=	--with-gcc=${CC} --with-ld=${LD} --with-ar=${AR}
-.if !defined(I_WANT_GHC_HEAD)
-CONFIGURE_ARGS+=	--with-ranlib=${RANLIB}
-.endif
 
 .if ${PORT_OPTIONS:MLLVM}
 CONFIGURE_ARGS+=	--ghc-option=-fllvm \
-			--ghc-option=-pgmlo --ghc-option=${LOCALBASE}/bin/opt34 \
-			--ghc-option=-pgmlc --ghc-option=${LOCALBASE}/bin/llc34
+			--ghc-option=-pgmlo --ghc-option=${LOCALBASE}/bin/opt35 \
+			--ghc-option=-pgmlc --ghc-option=${LOCALBASE}/bin/llc35
 
-BUILD_DEPENDS+=		${LOCALBASE}/bin/opt34:${PORTSDIR}/devel/llvm34
+BUILD_DEPENDS+=		${LOCALBASE}/bin/opt35:${PORTSDIR}/devel/llvm35
 .endif
 
 .if defined(USE_ALEX)
@@ -182,7 +179,6 @@ CONFIGURE_ARGS+=	--haddock-options=-w --with-haddock=${HADDOCK_CMD}
 
 .if ${PORT_OPTIONS:MDYNAMIC}
 CONFIGURE_ARGS+=	--enable-shared --enable-executable-dynamic
-CONFIGURE_ARGS+=	"--ghc-option=-optl -rpath" "--ghc-option=-optl ${CABAL_LIBDIR}/${DISTNAME}"
 .else
 CONFIGURE_ARGS+=	--disable-shared --disable-executable-dynamic
 .endif
@@ -262,6 +258,7 @@ do-install:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SETUP_CMD} copy --destdir=${STAGEDIR}
 
 .if !defined(STANDALONE)
+	@${MKDIR} ${STAGEDIR}${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}
 	cd ${WRKSRC} && ${INSTALL_SCRIPT} register.sh ${STAGEDIR}${CABAL_LIBDIR}/${CABAL_LIBSUBDIR}/register.sh
 .endif
 
