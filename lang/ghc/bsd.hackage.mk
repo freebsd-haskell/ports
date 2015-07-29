@@ -137,6 +137,7 @@ data-hash_port=                                 devel/hs-data-hash
 data-lens_port=                                 math/hs-data-lens
 data-lens-light_port=                           math/hs-data-lens-light
 data-lens-template_port=                        math/hs-data-lens-template
+data-ordlist_port=                              devel/hs-data-ordlist
 data-pprint_port=                               devel/hs-data-pprint
 dataenc_port=                                   converters/hs-dataenc
 date-cache_port=                                devel/hs-date-cache
