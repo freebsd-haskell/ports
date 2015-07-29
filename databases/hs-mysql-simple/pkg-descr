@@ -1,4 +1,4 @@
-This library is a mid-level Haskell binding to the
-MySQL mysqlclient client library. It is aimed at speed and ease of use.
+A mid-level client library for the MySQL database, intended to be fast and easy
+to use.
 
 WWW: https://github.com/bos/mysql-simple

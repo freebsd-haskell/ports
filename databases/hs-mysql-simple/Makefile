@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	mysql-simple
-PORTVERSION=	0.2.2.4
+PORTVERSION=	0.2.2.5
 CATEGORIES=	databases haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	A mid-level MySQL client library
+COMMENT=	Mid-level MySQL client library
 
 LICENSE=	BSD3CLAUSE
 
