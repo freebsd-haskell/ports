@@ -58,7 +58,6 @@ BoundedChan_port=                               devel/hs-BoundedChan
 boxes_port=                                     devel/hs-boxes
 brainfuck_port=                                 lang/hs-brainfuck                               # executable
 bsd-sysctl_port=                                devel/hs-bsd-sysctl
-buildwrapper_port=                              devel/hs-buildwrapper                           # executable
 byteable_port=                                  devel/hs-byteable
 byteorder_port=                                 devel/hs-byteorder
 bytestring-csv_port=                            textproc/hs-bytestring-csv
