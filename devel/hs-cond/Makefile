@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	cond
-PORTVERSION=	0.4.1
+PORTVERSION=	0.4.1.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Basic conditional and boolean operators with monadic variants
+COMMENT=	Basic conditional and Boolean operators with monadic variants
 
 LICENSE=	BSD3CLAUSE
 
