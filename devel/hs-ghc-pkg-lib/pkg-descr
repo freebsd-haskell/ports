@@ -1,0 +1,4 @@
+A library that lists the installed packages in a given sandbox and/or in
+the global and user package databases.
+
+WWW: https://github.com/JPMoresmau/ghc-pkg-lib

@@ -201,6 +201,7 @@ geniplate_port=                                 devel/hs-geniplate
 ghc-events_port=                                devel/hs-ghc-events                             # executable
 ghc-mtl_port=                                   devel/hs-ghc-mtl
 ghc-paths_port=                                 devel/hs-ghc-paths
+ghc-pkg-lib_port=                               devel/hs-ghc-pkg-lib
 ghc-syb-utils_port=                             devel/hs-ghc-syb-utils
 gio_port=                                       devel/hs-gio
 git-annex_port=                                 devel/hs-git-annex                              # executable
