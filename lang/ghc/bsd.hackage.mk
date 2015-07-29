@@ -353,6 +353,7 @@ network-fancy_port=                             net/hs-network-fancy
 network-info_port=                              net/hs-network-info
 network-multicast_port=                         net/hs-network-multicast
 network-protocol-xmpp_port=                     net/hs-network-protocol-xmpp
+network-uri_port=                               net/hs-network-uri
 NumInstances_port=                              math/hs-NumInstances
 ObjectName_port=                                devel/hs-ObjectName
 oeis_port=                                      www/hs-oeis
