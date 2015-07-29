@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	data-accessor-template
-PORTVERSION=	0.2.1.11
+PORTVERSION=	0.2.1.12
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
