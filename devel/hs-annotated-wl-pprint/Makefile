@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	annotated-wl-pprint
-PORTVERSION=	0.5.3
+PORTVERSION=	0.6.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	The Wadler/Leijen Pretty Printer, with annotation support
+COMMENT=	Wadler/Leijen Pretty Printer, with annotation support
 
 LICENSE=	BSD3CLAUSE
 
