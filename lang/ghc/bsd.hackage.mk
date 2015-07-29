@@ -255,6 +255,7 @@ hlint_port=                                     devel/hs-hlint                  
 hoauth2_port=                                   net/hs-hoauth2
 hoogle_port=                                    devel/hs-hoogle                                 # executable
 hostname_port=                                  net/hs-hostname
+hourglass_port=                                 devel/hs-hourglass
 hs-bibutils_port=                               textproc/hs-hs-bibutils
 hS3_port=                                       www/hs-hS3                                      # executable
 hscolour_port=                                  print/hs-hscolour                               # executable
