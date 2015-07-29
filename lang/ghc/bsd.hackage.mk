@@ -344,6 +344,7 @@ mono-traversable_port=                          devel/hs-mono-traversable
 mtl_port=                                       devel/hs-mtl
 mueval_port=                                    devel/hs-mueval                                 # executable
 murmur-hash_port=                               devel/hs-murmur-hash
+mutable-containers_port=                        devel/hs-mutable-containers
 mwc-random_port=                                math/hs-mwc-random
 mysql_port=                                     databases/hs-mysql
 mysql-simple_port=                              databases/hs-mysql-simple
