@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	iconv
-PORTVERSION=	0.4.1.2
+PORTVERSION=	0.4.1.3
 CATEGORIES=	converters haskell
 
 MAINTAINER=	haskell@FreeBSD.org
