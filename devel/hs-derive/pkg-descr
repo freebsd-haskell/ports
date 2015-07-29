@@ -3,4 +3,4 @@ programs. It is designed to work with custom derivations, SYB and Template
 Haskell mechanisms. The tool requires GHC, but the generated code is
 portable to all compilers. We see this tool as a competitor to DrIFT.
 
-WWW: http://community.haskell.org/~ndm/derive/
+WWW: https://github.com/ndmitchell/derive#readme
