@@ -491,6 +491,7 @@ tf-random_port=                                 devel/hs-tf-random
 threads_port=                                   devel/hs-threads
 threadscope_port=                               devel/hs-threadscope                            # executable
 time-compat_port=                               devel/hs-time-compat
+time-locale-compat_port=                        devel/hs-time-locale-compat
 timezone-olson_port=                            devel/hs-timezone-olson
 timezone-series_port=                           devel/hs-timezone-series
 tls_port=                                       security/hs-tls
