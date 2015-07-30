@@ -421,6 +421,7 @@ rosezipper_port=                                devel/hs-rosezipper
 RSA_port=                                       security/hs-RSA
 safe_port=                                      devel/hs-safe
 SafeSemaphore_port=                             devel/hs-SafeSemaphore
+sandi_port=                                     converters/hs-sandi
 sbv_port=                                       math/hs-sbv
 scgi_port=                                      www/hs-scgi
 scientific_port=                                devel/hs-scientific
