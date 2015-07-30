@@ -268,6 +268,7 @@ hslua_port=                                     devel/hs-hslua
 HsOpenSSL_port=                                 security/hs-HsOpenSSL
 hspec_port=                                     devel/hs-hspec                                  # executable
 hspec-core_port=                                devel/hs-hspec-core
+hspec-discover_port=                            devel/hs-hspec-discover                         # executable
 hspec-expectations_port=                        devel/hs-hspec-expectations
 HStringTemplate_port=                           textproc/hs-HStringTemplate
 html_port=                                      textproc/hs-html
