@@ -225,6 +225,7 @@ gtk3_port=                                      x11-toolkits/hs-gtk3
 gtksourceview2_port=                            x11-toolkits/hs-gtksourceview2
 gtksourceview3_port=                            x11-toolkits/hs-gtksourceview3
 haddock_port=                                   devel/hs-haddock                                # executable
+haddock-api_port=                               devel/hs-haddock-api
 haddock-library_port=                           devel/hs-haddock-library
 happstack_port=                                 www/hs-happstack                                # executable
 happstack-server_port=                          www/hs-happstack-server
