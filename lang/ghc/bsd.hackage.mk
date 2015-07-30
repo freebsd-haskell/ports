@@ -267,6 +267,7 @@ hslogger_port=                                  devel/hs-hslogger
 hslua_port=                                     devel/hs-hslua
 HsOpenSSL_port=                                 security/hs-HsOpenSSL
 hspec_port=                                     devel/hs-hspec                                  # executable
+hspec-core_port=                                devel/hs-hspec-core
 hspec-expectations_port=                        devel/hs-hspec-expectations
 HStringTemplate_port=                           textproc/hs-HStringTemplate
 html_port=                                      textproc/hs-html
