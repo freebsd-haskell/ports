@@ -297,6 +297,7 @@ irc_port=                                       irc/hs-irc
 iteratee_port=                                  devel/hs-iteratee
 json_port=                                      converters/hs-json
 JuicyPixels_port=                               graphics/hs-JuicyPixels
+kan-extensions_port=                            math/hs-kan-extensions
 keys_port=                                      devel/hs-keys
 kqueue_port=                                    devel/hs-kqueue
 language-c_port=                                devel/hs-language-c
