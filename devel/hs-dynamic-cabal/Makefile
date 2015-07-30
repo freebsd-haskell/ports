@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 PORTNAME=	dynamic-cabal
-PORTVERSION=	0.3.1
+PORTVERSION=	0.3.5
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
-COMMENT=	Dynamically load the Cabal library
+COMMENT=	Access the functions from the Cabal library without depending on it
 
 LICENSE=	BSD3CLAUSE
 
