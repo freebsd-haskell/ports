@@ -500,6 +500,7 @@ time-locale-compat_port=                        devel/hs-time-locale-compat
 timezone-olson_port=                            devel/hs-timezone-olson
 timezone-series_port=                           devel/hs-timezone-series
 tls_port=                                       security/hs-tls
+torrent_port=                                   net/hs-torrent
 transformers-base_port=                         devel/hs-transformers-base
 transformers-compat_port=                       devel/hs-transformers-compat
 traverse-with-class_port=                       devel/hs-traverse-with-class
