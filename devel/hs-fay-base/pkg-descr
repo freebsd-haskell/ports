@@ -1,4 +1,4 @@
 The base package for Fay.  This package exports Prelude and FFI which
 you probably want to use with Fay.
 
-WWW: https://github.com/faylang/fay-base
+WWW: https://github.com/faylang/fay/
