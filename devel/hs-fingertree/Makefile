@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	fingertree
-PORTVERSION=	0.1.0.0
+PORTVERSION=	0.1.1.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
