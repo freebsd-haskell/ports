@@ -42,6 +42,7 @@ base16-bytestring_port=                         devel/hs-base16-bytestring
 base64-bytestring_port=                         devel/hs-base64-bytestring
 base64-string_port=                             devel/hs-base64-string
 basic-prelude_port=                             devel/hs-basic-prelude
+bencode_port=                                   textproc/hs-bencode
 bifunctors_port=                                devel/hs-bifunctors
 binary-shared_port=                             devel/hs-binary-shared
 bio_port=                                       science/hs-bio                                  # executable
