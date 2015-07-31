@@ -102,6 +102,7 @@ conduit-extra_port=                             devel/hs-conduit-extra
 ConfigFile_port=                                devel/hs-ConfigFile
 configurator_port=                              devel/hs-configurator
 connection_port=                                net/hs-connection
+constraints_port=                               devel/hs-constraints
 contravariant_port=                             math/hs-contravariant
 control-monad-loop_port=                        devel/hs-control-monad-loop
 convertible_port=                               devel/hs-convertible
