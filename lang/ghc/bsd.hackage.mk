@@ -296,6 +296,7 @@ io-storage_port=                                devel/hs-io-storage
 iproute_port=                                   net/hs-iproute
 irc_port=                                       irc/hs-irc
 iteratee_port=                                  devel/hs-iteratee
+js-flot_port=                                   devel/hs-js-flot
 json_port=                                      converters/hs-json
 JuicyPixels_port=                               graphics/hs-JuicyPixels
 kan-extensions_port=                            math/hs-kan-extensions
