@@ -297,6 +297,7 @@ iproute_port=                                   net/hs-iproute
 irc_port=                                       irc/hs-irc
 iteratee_port=                                  devel/hs-iteratee
 js-flot_port=                                   devel/hs-js-flot
+js-jquery_port=                                 devel/hs-js-jquery
 json_port=                                      converters/hs-json
 JuicyPixels_port=                               graphics/hs-JuicyPixels
 kan-extensions_port=                            math/hs-kan-extensions
