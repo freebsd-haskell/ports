@@ -321,7 +321,6 @@ lifted-async_port=                              devel/hs-lifted-async
 lifted-base_port=                               devel/hs-lifted-base
 List_port=                                      devel/hs-List
 ListLike_port=                                  devel/hs-ListLike
-llvm-general-pure_port=                         devel/hs-llvm-general-pure
 logict_port=                                    devel/hs-logict
 ltk_port=                                       devel/hs-ltk
 maccatcher_port=                                net/hs-maccatcher
