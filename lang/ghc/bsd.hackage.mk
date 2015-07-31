@@ -528,6 +528,7 @@ uuagc_port=                                     devel/hs-uuagc                  
 uuagc-bootstrap_port=                           devel/hs-uuagc-bootstrap                        # executable
 uuagc-cabal_port=                               devel/hs-uuagc-cabal
 uuid_port=                                      devel/hs-uuid
+uuid-types_port=                                devel/hs-uuid-types
 uulib_port=                                     devel/hs-uulib
 vado_port=                                      sysutils/hs-vado                                # executable
 vault_port=                                     devel/hs-vault
