@@ -1,3 +1,3 @@
-A Haskell interface to setlocale().
+A Haskell interface to setlocale.
 
-WWW: http://hackage.haskell.org/package/setlocale
+WWW: https://bitbucket.org/IchUndNichtDu/haskell-setlocale
