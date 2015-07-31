@@ -406,7 +406,6 @@ QuickCheck_port=                                devel/hs-QuickCheck
 quickcheck-io_port=                             devel/hs-quickcheck-io
 random_port=                                    devel/hs-random
 random-shuffle_port=                            devel/hs-random-shuffle
-ranges_port=                                    devel/hs-ranges
 ReadArgs_port=                                  devel/hs-ReadArgs                               # executable
 readline_port=                                  devel/hs-readline
 recaptcha_port=                                 www/hs-recaptcha
