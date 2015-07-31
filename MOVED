@@ -3,3 +3,4 @@ multimedia/hs-gstreamer||2015-02-23|Removed: Upstream support is discontinued.
 x11-toolkits/hs-gtkglext||2015-02-23|Removed: Upstream support is discontinued.
 devel/hs-haskell-platform||2015-07-30|Removed: It is not tracked any more.
 devel/hs-ranges||2015-07-31|Removed: Deprecated.
+devel/hs-testpack||2015-07-31|Removed: Upstream is unmaintained.
