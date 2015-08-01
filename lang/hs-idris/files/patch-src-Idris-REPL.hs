@@ -1,6 +1,6 @@
---- ./src/Idris/REPL.hs.orig	2014-06-09 21:56:28.000000000 +0200
-+++ ./src/Idris/REPL.hs	2014-07-15 14:46:34.000000000 +0200
-@@ -1241,19 +1241,28 @@
+--- src/Idris/REPL.hs.orig	2015-05-23 11:49:05 UTC
++++ src/Idris/REPL.hs
+@@ -1679,14 +1679,22 @@ idrisMain opts =
           Nothing -> return ()
           Just expr -> execScript expr
  
@@ -24,16 +24,18 @@
 +                          unless exists $ iLOG ("Creating " ++ dir)
 +                          runIO $ createDirectoryIfMissing True (dir </> "repl"))
 +                      (\e -> return ())
-+
 +           historyFile <- fmap (</> "repl" </> "history") getIdrisUserDataDir
 +           return (Just historyFile)
 +         else return Nothing
  
+        when ok $ case opt getPkgIndex opts of
+                       (f : _) -> writePkgIndex f
+@@ -1695,7 +1703,7 @@ idrisMain opts =
         when (runrepl && not idesl) $ do
  --          clearOrigPats
-          startServer orig inputs
--         runInputT (replSettings (Just historyFile)) $ repl orig inputs
-+         runInputT (replSettings history) $ repl orig inputs
-        when (idesl) $ ideslaveStart orig inputs
+          startServer port orig mods
+-         runInputT (replSettings (Just historyFile)) $ repl orig mods efile
++         runInputT (replSettings history) $ repl orig mods efile
+        let idesock = IdemodeSocket `elem` opts
+        when (idesl) $ idemodeStart idesock orig inputs
         ok <- noErrors
-        when (not ok) $ runIO (exitWith (ExitFailure 1))
