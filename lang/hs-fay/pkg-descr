@@ -3,4 +3,4 @@ compiled to JavaScript.  It is lazy, pure, has a Fay monad, an FFI,
 tail-recursion optimization (experimental), and support for cabal
 packages.
 
-WWW: http://fay-lang.org/
+WWW: https://github.com/faylang/fay/wiki
