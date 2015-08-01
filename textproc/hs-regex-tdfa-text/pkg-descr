@@ -1,0 +1,4 @@
+This provides text interface for regex-tdfa.  This should be part of
+regex-tdfa package.
+
+WWW: http://hackage.haskell.org/package/regex-tdfa-text
