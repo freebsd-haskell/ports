@@ -209,6 +209,7 @@ ghc-paths_port=                                 devel/hs-ghc-paths
 ghc-pkg-lib_port=                               devel/hs-ghc-pkg-lib
 ghc-syb-utils_port=                             devel/hs-ghc-syb-utils
 ghcjs-codemirror_port=                          www/hs-ghcjs-codemirror
+ghcjs-dom_port=                                 www/hs-ghcjs-dom
 gio_port=                                       devel/hs-gio
 git-annex_port=                                 devel/hs-git-annex                              # executable
 gitit_port=                                     www/hs-gitit                                    # executable
