@@ -562,6 +562,7 @@ webkitgtk3_port=                                www/hs-webkitgtk3               
 webkitgtk3-javascriptcore_port=                 www/hs-webkitgtk3-javascriptcore                # lib_depends
 wl-pprint_port=                                 devel/hs-wl-pprint
 wl-pprint-text_port=                            textproc/hs-wl-pprint-text
+word-trie_port=                                 devel/hs-word-trie
 word8_port=                                     devel/hs-word8
 wx_port=                                        x11-toolkits/hs-wx
 wxc_port=                                       x11-toolkits/hs-wxc                             # lib_depends
