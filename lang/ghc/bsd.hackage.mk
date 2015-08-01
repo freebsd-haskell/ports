@@ -599,6 +599,7 @@ yesod-routes_port=                              www/hs-yesod-routes
 yesod-static_port=                              www/hs-yesod-static
 yesod-test_port=                                www/hs-yesod-test
 yi_port=                                        editors/hs-yi                                   # executable
+yi-language_port=                               devel/hs-yi-language
 zip-archive_port=                               archivers/hs-zip-archive
 zlib_port=                                      archivers/hs-zlib
 zlib-bindings_port=                             archivers/hs-zlib-bindings
