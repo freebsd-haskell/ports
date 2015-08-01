@@ -373,6 +373,7 @@ ObjectName_port=                                devel/hs-ObjectName
 oeis_port=                                      www/hs-oeis
 old-locale_port=                                devel/hs-old-locale
 old-time_port=                                  devel/hs-old-time
+oo-prototypes_port=                             devel/hs-oo-prototypes
 OpenAL_port=                                    audio/hs-OpenAL
 OpenGL_port=                                    x11-toolkits/hs-OpenGL
 OpenGLRaw_port=                                 x11-toolkits/hs-OpenGLRaw
