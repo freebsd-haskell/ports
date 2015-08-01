@@ -266,6 +266,7 @@ hourglass_port=                                 devel/hs-hourglass
 hs-bibutils_port=                               textproc/hs-hs-bibutils
 hS3_port=                                       www/hs-hS3                                      # executable
 hscolour_port=                                  print/hs-hscolour                               # executable
+hscurses_port=                                  devel/hs-hscurses
 hse-cpp_port=                                   devel/hs-hse-cpp
 hslogger_port=                                  devel/hs-hslogger
 hslua_port=                                     devel/hs-hslua
