@@ -78,6 +78,7 @@ cereal_port=                                    devel/hs-cereal
 certificate_port=                               security/hs-certificate
 cgi_port=                                       www/hs-cgi
 charset_port=                                   devel/hs-charset
+charsetdetect-ae_port=                          devel/hs-charsetdetect-ae
 cheapskate_port=                                textproc/hs-cheapskate                          # executable
 checkers_port=                                  devel/hs-checkers
 chunked-data_port=                              devel/hs-chunked-data
