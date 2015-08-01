@@ -163,6 +163,7 @@ double-conversion_port=                         textproc/hs-double-conversion
 DRBG_port=                                      security/hs-DRBG
 DrIFT_port=                                     devel/hs-DrIFT                                  # executable
 dynamic-cabal_port=                             devel/hs-dynamic-cabal
+dynamic-state_port=                             devel/hs-dynamic-state
 dyre_port=                                      devel/hs-dyre
 edit-distance_port=                             devel/hs-edit-distance
 either_port=                                    devel/hs-either
