@@ -300,6 +300,7 @@ irc_port=                                       irc/hs-irc
 iteratee_port=                                  devel/hs-iteratee
 js-flot_port=                                   devel/hs-js-flot
 js-jquery_port=                                 devel/hs-js-jquery
+jsaddle_port=                                   www/hs-jsaddle
 json_port=                                      converters/hs-json
 JuicyPixels_port=                               graphics/hs-JuicyPixels
 kan-extensions_port=                            math/hs-kan-extensions

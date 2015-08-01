@@ -1,0 +1,5 @@
+This package provides an EDSL for calling JavaScript code using the
+JavaScriptCore engine and low level Haskell bindings in the
+webkit-javascriptcore library.
+
+WWW: http://hackage.haskell.org/package/jsaddle
