@@ -174,7 +174,6 @@ email-validate_port=                            mail/hs-email-validate
 enclosed-exceptions_port=                       devel/hs-enclosed-exceptions
 entropy_port=                                   security/hs-entropy
 enumerator_port=                                devel/hs-enumerator
-epic_port=                                      lang/hs-epic                                    # executable
 equivalence_port=                               devel/hs-equivalence
 erf_port=                                       math/hs-erf
 errors_port=                                    devel/hs-errors
