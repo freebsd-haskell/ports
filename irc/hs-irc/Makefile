@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	irc
-PORTVERSION=	0.6.0.1
+PORTVERSION=	0.6.1.0
 CATEGORIES=	irc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
