@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	leksah
-PORTVERSION=	0.13.4.3
+PORTVERSION=	0.15.1.1
 CATEGORIES=	editors haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -9,23 +9,26 @@ COMMENT=	Haskell IDE written in Haskell
 
 LICENSE=	GPLv2
 
-USE_CABAL=	binary-shared>=0.8.2 conduit>=1.0.8 conduit-extra \
-		executable-path>=0.0.3 gio>=0.12.2 glib>=0.10 gtk3>=0.12.4 \
-		gtksourceview3>=0.10.0 haskell-src-exts>=1.13.5 hlint>=1.8.59 \
-		hslogger>=1.0.7 leksah-server>=0.13.1.0 ltk>=0.13.2.0 \
-		mtl>=1.1.0.2 network>=2.2 parsec>=2.1.0.1 QuickCheck>=2.4.2 \
-		regex-base regex-tdfa>=1.1 shakespeare>=2.0.0.1 strict>=0.3.2 \
-		text>=0.11.1.5 utf8-string>=0.3.1.1 vado>=0.0.1 vcsgui>=0.0.4 \
-		vcswrapper>=0.0.4 webkitgtk3 webkitgtk3-javascriptcore
+USE_CABAL=	binary-shared>=0.8 blaze-html conduit>=1.0.8 conduit-extra \
+		executable-path>=0.0.3 ghcjs-codemirror ghcjs-dom gio>=0.13.0 \
+		glib>=0.13.0.0 gtk3>=0.13.9 gtksourceview3>=0.13.1.5 \
+		haskell-src-exts>=1.13.5 hlint>=1.9.21 hslogger>=1.0.7 jsaddle \
+		leksah-server>=0.15.0.6 lens ltk>=0.13.2.0 mtl>=1.1.0.2 \
+		network>=2.6 network-uri>=2.6 parsec>=2.1.0.1 \
+		pretty-show>=1.6.3 QuickCheck>=2.4.2 regex-base \
+		regex-tdfa>=1.1 regex-tdfa-text shakespeare>=2.0.0.1 \
+		stm>=2.4.4 strict>=0.3.2 text>=0.11.1.5 utf8-string>=0.3.1.1 \
+		vado>=0.0.1 vcsgui>=0.1.0 vcswrapper>=0.1.0 webkitgtk3>=0.13 \
+		webkitgtk3-javascriptcore
 
-EXECUTABLE=	leksah
+EXECUTABLE=	bewleksah leksah
 
 FLAGS_DEFINE=		YI DYRE THREADED
 FLAGS_DEFAULT=		DYRE
 
 YI_DESC=		Yi support (experimental)
 YI_FLAG_ENABLE=		yi
-YI_FLAG_CABAL=		yi>=0.6.1
+YI_FLAG_CABAL=		yi>=0.11.2 yi-language>=0.1.0.8 yi-rope>=0.7.0.0
 
 DYRE_DESC=		Dyre support (experimental)
 DYRE_FLAG_ENABLE=	dyre
@@ -34,8 +37,8 @@ DYRE_FLAG_CABAL=	dyre>=0.8.3
 THREADED_DESC=		Multithreaded execution
 THREADED_FLAG_ENABLE=	threaded
 
-FLAGS_ENABLE=		gtk3
-FLAGS_DISABLE=		loc webkit
+FLAGS_ENABLE=		gtk3 network-uri
+FLAGS_DISABLE=		loc
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
