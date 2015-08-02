@@ -337,6 +337,7 @@ ListLike_port=                                  devel/hs-ListLike
 logict_port=                                    devel/hs-logict
 ltk_port=                                       devel/hs-ltk
 maccatcher_port=                                net/hs-maccatcher
+map-syntax_port=                                devel/hs-map-syntax
 math-functions_port=                            math/hs-math-functions
 MaybeT_port=                                    devel/hs-MaybeT
 memory_port=                                    devel/hs-memory
