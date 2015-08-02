@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	Agda-stdlib
-PORTVERSION=	0.8
+PORTVERSION=	0.9
 CATEGORIES=	math haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -13,8 +13,7 @@ USE_GITHUB=	yes
 
 GH_ACCOUNT=	agda
 GH_PROJECT=	agda-stdlib
-GH_COMMIT=	e2ee63a
-GH_TAGNAME=	v0.8
+GH_TAGNAME=	v0.9
 
 USE_CABAL=	Agda filemanip>=0.3
 
