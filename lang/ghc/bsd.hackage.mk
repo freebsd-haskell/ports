@@ -297,6 +297,7 @@ http-date_port=                                 www/hs-http-date
 http-reverse-proxy_port=                        www/hs-http-reverse-proxy
 http-server_port=                               www/hs-http-server
 http-types_port=                                www/hs-http-types
+http2_port=                                     www/hs-http2
 HUnit_port=                                     devel/hs-HUnit
 hxt_port=                                       textproc/hs-hxt
 hxt-charproperties_port=                        textproc/hs-hxt-charproperties
