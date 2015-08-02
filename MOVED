@@ -8,3 +8,4 @@ devel/hs-testpack||2015-07-31|Removed: Upstream is unmaintained.
 lang/hs-epic||2015-08-01|Removed: It is not needed any more.
 devel/hs-geniplate||2015-08-03|Removed: Upstream support is discontinued.
 www/hs-yesod-platform||2015-08-03|Removed: Upstream support is discontinued.
+www/hs-yesod-routes||2015-08-03|Removed: Upstream support is discontinued.
