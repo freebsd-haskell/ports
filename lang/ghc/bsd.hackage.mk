@@ -259,6 +259,7 @@ hastache_port=                                  devel/hs-hastache
 HaXml_port=                                     textproc/hs-HaXml                               # executable
 hedis_port=                                     databases/hs-hedis
 heist_port=                                     www/hs-heist
+hex_port=                                       devel/hs-hex
 hexpat_port=                                    textproc/hs-hexpat
 HGL_port=                                       graphics/hs-HGL
 highlighting-kate_port=                         textproc/hs-highlighting-kate
