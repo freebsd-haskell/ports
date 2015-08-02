@@ -132,6 +132,7 @@ darcs_port=                                     devel/hs-darcs                  
 data-accessor_port=                             devel/hs-data-accessor
 data-accessor-mtl_port=                         devel/hs-data-accessor-mtl
 data-accessor-template_port=                    devel/hs-data-accessor-template
+data-binary-ieee754_port=                       math/hs-data-binary-ieee754
 data-default_port=                              devel/hs-data-default
 data-default-class_port=                        devel/hs-data-default-class
 data-default-instances-base_port=               devel/hs-data-default-instances-base
