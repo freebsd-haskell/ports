@@ -405,6 +405,7 @@ polyparse_port=                                 textproc/hs-polyparse
 porte_port=                                     ports-mgmt/hs-porte                             # executable
 pqueue_port=                                    devel/hs-pqueue
 prelude-extras_port=                            devel/hs-prelude-extras
+preprocessor-tools_port=                        devel/hs-preprocessor-tools
 pretty-show_port=                               devel/hs-pretty-show                            # executable
 prettyclass_port=                               devel/hs-prettyclass
 primitive_port=                                 devel/hs-primitive
