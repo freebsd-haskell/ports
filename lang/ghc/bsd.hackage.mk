@@ -394,6 +394,7 @@ OpenGL_port=                                    x11-toolkits/hs-OpenGL
 OpenGLRaw_port=                                 x11-toolkits/hs-OpenGLRaw
 optparse-applicative_port=                      devel/hs-optparse-applicative
 pandoc_port=                                    textproc/hs-pandoc                              # executable
+pandoc-citeproc_port=                           textproc/hs-pandoc-citeproc                     # executable
 pandoc-types_port=                              textproc/hs-pandoc-types
 pango_port=                                     x11-toolkits/hs-pango
 parallel_port=                                  devel/hs-parallel
