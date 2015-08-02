@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	wl-pprint-text
-PORTVERSION=	1.1.0.2
+PORTVERSION=	1.1.0.4
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
