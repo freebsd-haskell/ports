@@ -173,6 +173,7 @@ edit-distance_port=                             devel/hs-edit-distance
 either_port=                                    devel/hs-either
 ekg_port=                                       sysutils/hs-ekg
 ekg-core_port=                                  sysutils/hs-ekg-core
+ekg-json_port=                                  sysutils/hs-ekg-json
 email-validate_port=                            mail/hs-email-validate
 enclosed-exceptions_port=                       devel/hs-enclosed-exceptions
 entropy_port=                                   security/hs-entropy
