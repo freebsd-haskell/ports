@@ -1,6 +1,9 @@
-Please see the shelly package. Shelly provides a single module for convenient
-systems programming in Haskell, similar in spirit to POSIX shells.
-shelly-extra is designed to be a grab bag for functionality that
+A background job implementation for performing tasks in parallel.
+
+Please see the shelly package.  Shelly provides a single module for
+convenient systems programming in Haskell, similar in spirit to POSIX
+shells.  shelly-extra is designed to be a grab bag for functionality
+that
 
   * requires extra dependencies
   * or is application specific and not generally applicable currently contains
