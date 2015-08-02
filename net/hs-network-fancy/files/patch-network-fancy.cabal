@@ -1,0 +1,16 @@
+--- network-fancy.cabal.orig	2015-06-20 06:00:21 UTC
++++ network-fancy.cabal
+@@ -34,10 +34,12 @@ library
+             exposed: True
+             buildable: True
+             extra-libraries: socket
+-        if os(linux) || os(darwin)
++        if os(linux) || os(darwin) || os(freebsd)
+             cpp-options: -DHAVE_STRERROR_R=1
+         if os(linux)
+             extra-libraries: pthread
++        if os(freebsd)
++            cpp-options: -DFREEBSD
+         exposed: True
+         buildable: True
+         cpp-options: -DCALLCONV=ccall -DSAFE_ON_WIN=unsafe
