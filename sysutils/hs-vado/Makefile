@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	vado
-PORTVERSION=	0.0.1
+PORTVERSION=	0.0.5
 CATEGORIES=	sysutils haskell
 
 MAINTAINER=	haskell@FreeBSD.org
