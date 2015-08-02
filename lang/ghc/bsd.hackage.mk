@@ -204,6 +204,7 @@ fsnotify_port=                                  devel/hs-fsnotify
 gconf_port=                                     devel/hs-gconf
 generic-deriving_port=                          devel/hs-generic-deriving
 geniplate_port=                                 devel/hs-geniplate
+geniplate-mirror_port=                          devel/hs-geniplate-mirror
 ghc-events_port=                                devel/hs-ghc-events                             # executable
 ghc-mtl_port=                                   devel/hs-ghc-mtl
 ghc-paths_port=                                 devel/hs-ghc-paths
