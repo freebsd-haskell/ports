@@ -270,6 +270,7 @@ hostname_port=                                  net/hs-hostname
 hourglass_port=                                 devel/hs-hourglass
 hs-bibutils_port=                               textproc/hs-hs-bibutils
 hS3_port=                                       www/hs-hS3                                      # executable
+hsb2hs_port=                                    devel/hs-hsb2hs
 hscolour_port=                                  print/hs-hscolour                               # executable
 hscurses_port=                                  devel/hs-hscurses
 hse-cpp_port=                                   devel/hs-hse-cpp
