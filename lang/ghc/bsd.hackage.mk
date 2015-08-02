@@ -446,6 +446,7 @@ regex-tdfa-rc_port=                             textproc/hs-regex-tdfa-rc
 regex-tdfa-text_port=                           textproc/hs-regex-tdfa-text
 resource-pool_port=                             devel/hs-resource-pool
 resourcet_port=                                 devel/hs-resourcet
+rfc5051_port=                                   textproc/hs-rfc5051
 rosezipper_port=                                devel/hs-rosezipper
 RSA_port=                                       security/hs-RSA
 safe_port=                                      devel/hs-safe
