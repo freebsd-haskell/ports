@@ -1,0 +1,15 @@
+--- cheapskate.cabal.orig	2015-05-28 19:18:41 UTC
++++ cheapskate.cabal
+@@ -68,10 +68,10 @@ executable cheapskate
+ executable cheapskate-dingus
+   main-is:           cheapskate-dingus.hs
+   hs-source-dirs:    bin
+-  build-depends:     base, aeson, cheapskate, blaze-html,
+-                     text, wai-extra, wai >= 0.3, http-types
+   default-language:  Haskell2010
+   if flag(dingus)
++    build-depends:   base, aeson, cheapskate, blaze-html,
++                     text, wai-extra, wai >= 0.3, http-types
+     Buildable:       True
+   else
+     Buildable:       False

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	cheapskate
-PORTVERSION=	0.1.0.1
+PORTVERSION=	0.1.0.4
 CATEGORIES=	textproc haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -17,6 +17,12 @@ MAN1PAGES=	cheapskate.1
 MANCOMPRESSED=	no
 
 EXECUTABLE=	cheapskate
+
+FLAGS_DEFINE=	DINGUS
+
+DINGUS_DESC=		Build cheapskate-dingus CGI script
+DINGUS_FLAG_ENABLE=	dingus
+DINGUS_FLAG_CABAL=	aeson blaze-html http-types text wai>=0.3 wai-extra
 
 INSTALL_PORTDATA=	${INSTALL_DATA} ${WRKSRC}/README.markdown ${STAGEDIR}${DATADIR}
 
