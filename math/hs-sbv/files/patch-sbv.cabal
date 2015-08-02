@@ -1,6 +1,6 @@
---- ./sbv.cabal.orig	2014-07-12 07:55:32.000000000 +0200
-+++ ./sbv.cabal	2014-07-20 21:13:17.000000000 +0200
-@@ -116,78 +116,6 @@
+--- sbv.cabal.orig	2015-04-13 04:54:01 UTC
++++ sbv.cabal
+@@ -125,79 +125,6 @@ Library
                    , Data.SBV.Utils.TDiff
                    , Data.SBV.Utils.Lib
  
@@ -38,6 +38,7 @@
 -                  , TestSuite.Basics.BasicTests
 -                  , TestSuite.Basics.Higher
 -                  , TestSuite.Basics.Index
+-                  , TestSuite.Basics.IteTest
 -                  , TestSuite.Basics.ProofTests
 -                  , TestSuite.Basics.QRem
 -                  , TestSuite.BitPrecise.BitTricks
