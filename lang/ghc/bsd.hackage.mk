@@ -609,7 +609,6 @@ yesod-bin_port=                                 www/hs-yesod-bin                
 yesod-core_port=                                www/hs-yesod-core
 yesod-form_port=                                www/hs-yesod-form
 yesod-persistent_port=                          www/hs-yesod-persistent
-yesod-platform_port=                            www/hs-yesod-platform
 yesod-routes_port=                              www/hs-yesod-routes
 yesod-static_port=                              www/hs-yesod-static
 yesod-test_port=                                www/hs-yesod-test
