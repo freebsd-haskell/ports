@@ -92,6 +92,7 @@ citeproc-hs_port=                               textproc/hs-citeproc-hs
 classy-prelude_port=                            devel/hs-classy-prelude
 classy-prelude-conduit_port=                    devel/hs-classy-prelude-conduit
 clientsession_port=                             security/hs-clientsession
+cmark_port=                                     textproc/hs-cmark
 cmdargs_port=                                   devel/hs-cmdargs
 colour_port=                                    graphics/hs-colour
 comonad_port=                                   math/hs-comonad
