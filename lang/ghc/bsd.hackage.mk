@@ -171,6 +171,7 @@ DrIFT_port=                                     devel/hs-DrIFT                  
 dynamic-cabal_port=                             devel/hs-dynamic-cabal
 dynamic-state_port=                             devel/hs-dynamic-state
 dyre_port=                                      devel/hs-dyre
+easy-file_port=                                 devel/hs-easy-file
 edit-distance_port=                             devel/hs-edit-distance
 either_port=                                    devel/hs-either
 ekg_port=                                       sysutils/hs-ekg
