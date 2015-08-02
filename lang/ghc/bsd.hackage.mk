@@ -362,6 +362,7 @@ monads-tf_port=                                 devel/hs-monads-tf
 mono-traversable_port=                          devel/hs-mono-traversable
 mtl_port=                                       devel/hs-mtl
 mueval_port=                                    devel/hs-mueval                                 # executable
+multipart_port=                                 www/hs-multipart
 murmur-hash_port=                               devel/hs-murmur-hash
 mutable-containers_port=                        devel/hs-mutable-containers
 mwc-random_port=                                math/hs-mwc-random
