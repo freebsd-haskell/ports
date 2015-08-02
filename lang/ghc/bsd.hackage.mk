@@ -382,6 +382,7 @@ network-multicast_port=                         net/hs-network-multicast
 network-protocol-xmpp_port=                     net/hs-network-protocol-xmpp
 network-uri_port=                               net/hs-network-uri
 newtype_port=                                   devel/hs-newtype
+nonce_port=                                     security/hs-nonce
 NumInstances_port=                              math/hs-NumInstances
 ObjectName_port=                                devel/hs-ObjectName
 oeis_port=                                      www/hs-oeis
