@@ -126,6 +126,7 @@ cryptocipher_port=                              security/hs-cryptocipher
 cryptohash_port=                                security/hs-cryptohash
 cryptohash-conduit_port=                        security/hs-cryptohash-conduit
 cryptohash-cryptoapi_port=                      security/hs-cryptohash-cryptoapi
+cryptonite_port=                                security/hs-cryptonite
 css-text_port=                                  www/hs-css-text
 csv_port=                                       textproc/hs-csv
 curl_port=                                      ftp/hs-curl                                     # lib_depends
