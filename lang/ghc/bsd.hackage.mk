@@ -410,6 +410,7 @@ reflection_port=                                devel/hs-reflection
 regex-applicative_port=                         textproc/hs-regex-applicative
 regex-base_port=                                textproc/hs-regex-base
 regex-compat_port=                              textproc/hs-regex-compat
+regex-compat-tdfa_port=                         textproc/hs-regex-compat-tdfa
 regex-pcre-builtin_port=                        textproc/hs-regex-pcre-builtin                  # lib_depends
 regex-posix_port=                               textproc/hs-regex-posix
 regex-tdfa_port=                                textproc/hs-regex-tdfa
