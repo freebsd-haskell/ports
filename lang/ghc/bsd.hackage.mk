@@ -553,6 +553,7 @@ warp_port=                                      www/hs-warp
 warp-tls_port=                                  www/hs-warp-tls
 webdriver_port=                                 www/hs-webdriver
 webkit_port=                                    www/hs-webkit                                   # lib_depends
+webkit-javascriptcore_port=                     www/hs-webkit-javascriptcore                    # lib_depends
 webkitgtk3_port=                                www/hs-webkitgtk3                               # lib_depends
 webkitgtk3-javascriptcore_port=                 www/hs-webkitgtk3-javascriptcore                # lib_depends
 wl-pprint_port=                                 devel/hs-wl-pprint
