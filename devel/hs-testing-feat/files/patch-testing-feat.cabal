@@ -1,0 +1,13 @@
+--- testing-feat.cabal.orig	2014-04-15 08:58:38 UTC
++++ testing-feat.cabal
+@@ -42,8 +42,8 @@ Library
+ 
+   
+   Build-depends: 
+-    base >= 4.5 && <= 4.8,
+-    template-haskell >= 2.5 && < 2.10,
++    base >= 4.5 && <= 4.9,
++    template-haskell >= 2.5 && < 2.11,
+     mtl >= 1 && < 3,
+     QuickCheck > 2 && < 3,
+     tagshare<0.1
