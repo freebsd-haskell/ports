@@ -453,7 +453,6 @@ safe_port=                                      devel/hs-safe
 SafeSemaphore_port=                             devel/hs-SafeSemaphore
 sandi_port=                                     converters/hs-sandi
 sbv_port=                                       math/hs-sbv
-scgi_port=                                      www/hs-scgi
 scientific_port=                                devel/hs-scientific
 scion-browser_port=                             devel/hs-scion-browser                          # executable
 securemem_port=                                 devel/hs-securemem
