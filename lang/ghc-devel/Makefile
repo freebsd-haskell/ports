@@ -5,6 +5,7 @@ PORTVERSION=	7.9.20140727
 CATEGORIES=	lang haskell
 MASTER_SITES=	http://haskell.inf.elte.hu/snapshots/:source \
 		LOCAL/pgj/:boot
+PKGNAMESUFFIX=	-devel
 DISTFILES=	ghc-${PORTVERSION}-src${EXTRACT_SUFX}:source
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -13,7 +14,6 @@ COMMENT=	Compiler for the functional language Haskell
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-PKGNAMESUFFIX=	-devel
 
 ONLY_FOR_ARCHS=	i386 amd64
 
