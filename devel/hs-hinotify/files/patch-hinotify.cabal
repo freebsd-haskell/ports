@@ -1,0 +1,8 @@
+--- hinotify.cabal.orig	2014-04-27 14:06:19 UTC
++++ hinotify.cabal
+@@ -40,3 +40,5 @@ library
+     ghc-options: -Wall
+ 
+     hs-source-dirs: src
++
++    extra-libraries: inotify
