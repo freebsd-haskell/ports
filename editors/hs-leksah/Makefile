@@ -23,12 +23,8 @@ USE_CABAL=	binary-shared>=0.8 blaze-html conduit>=1.0.8 conduit-extra \
 
 EXECUTABLE=	bewleksah leksah
 
-FLAGS_DEFINE=		YI DYRE THREADED
+FLAGS_DEFINE=		DYRE THREADED
 FLAGS_DEFAULT=		DYRE
-
-YI_DESC=		Yi support (experimental)
-YI_FLAG_ENABLE=		yi
-YI_FLAG_CABAL=		yi>=0.11.2 yi-language>=0.1.0.8 yi-rope>=0.7.0.0
 
 DYRE_DESC=		Dyre support (experimental)
 DYRE_FLAG_ENABLE=	dyre
@@ -38,7 +34,7 @@ THREADED_DESC=		Multithreaded execution
 THREADED_FLAG_ENABLE=	threaded
 
 FLAGS_ENABLE=		gtk3 network-uri
-FLAGS_DISABLE=		loc
+FLAGS_DISABLE=		loc yi
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>
