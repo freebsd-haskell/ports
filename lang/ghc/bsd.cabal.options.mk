@@ -18,6 +18,8 @@ GHC_CMD?=	${LOCALBASE}/bin/ghc
 HADDOCK_CMD?=	${LOCALBASE}/bin/haddock
 HSCOLOUR_CMD?=	${LOCALBASE}/bin/HsColour
 
+LLVM_VERSION=	35
+
 .if defined(I_WANT_GHC_HEAD)
 GHC_VERSION?=	7.9.20140727
 GHC_PORT?=	lang/ghc-devel
@@ -31,7 +33,10 @@ GHC_PACKAGE?=	ghc
 HSCOLOUR_DESC?=	Colorize generated documentation by HsColour
 DYNAMIC_DESC?=	Add support for dynamic linking
 PROFILE_DESC?=	Add support for profiling
+CLANG_DESC?=	Build with Clang
 LLVM_DESC?=	Use the LLVM backend for code generation
+
+OPTIONS_DEFINE+=	CLANG
 
 .if (!exists(${GHC_CMD}) || exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/rts/libHSrts-ghc${GHC_VERSION}.so)) && !defined(IGNORE_DYNAMIC)
 OPTIONS_DEFINE+=	DYNAMIC

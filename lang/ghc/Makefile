@@ -20,6 +20,7 @@ MAKE_JOBS_NUMBER_LIMIT=		4
 
 GHC_VERSION=		${PORTVERSION}
 HSCOLOUR_VERSION=	1.23
+LLVM_VERSION=		35
 
 DATADIR=	${PREFIX}/share/ghc-${GHC_VERSION}
 EXAMPLESDIR=	${PREFIX}/share/examples/ghc-${GHC_VERSION}
@@ -32,7 +33,6 @@ USE_AUTOTOOLS=		autoconf autoheader
 USE_PERL5=		build
 USES=			gmake iconv:translit ncurses perl5 tar:xz
 USE_BINUTILS=		yes
-USE_GCC=		yes
 
 MAKE_ENV+=	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 # This is needed on FreeBSD 9.x due to the bootstrap tarball.
@@ -45,11 +45,12 @@ TAR=		env LC_ALL=en_US.UTF-8 /usr/bin/tar
 # You can view below.
 GNU_CONFIGURE=	yes
 
-OPTIONS_DEFINE=		PROFILE DYNAMIC LLVM DOCS
+OPTIONS_DEFINE=		CLANG PROFILE DYNAMIC LLVM DOCS
 OPTIONS_DEFAULT=	PROFILE DYNAMIC DOCS
 
 BOOT_DESC=		Use installed GHC for bootstrapping
 BOOTH_DESC=		Use installed HsColour for bootstrapping
+CLANG_DESC=		Build with Clang
 PROFILE_DESC=		Add support for performance profiling
 DYNAMIC_DESC=		Add support for dynamic linking
 LLVM_DESC=		Add support for generating code via LLVM
@@ -80,6 +81,26 @@ LIB_DEPENDS+=		libutil.so.9:${PORTSDIR}/misc/compat9x
 
 .endif # MBOOT
 
+.if ${PORT_OPTIONS:MCLANG}
+BUILD_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
+RUN_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
+CC=		${LOCALBASE}/bin/clang${LLVM_VERSION}
+CXX=		${LOCALBASE}/bin/clang++${LLVM_VERSION}
+CPP=		${LOCALBASE}/bin/clang-cpp${LLVM_VERSION}
+LDFLAGS+=	-B${LOCALBASE}/bin
+CFLAGS+=	-Qunused-arguments
+CONFIGURE_ARGS+=	--with-clang=${CC}
+.if empty(PORT_OPTIONS:MBOOT)
+CONFIGURE_ARGS_BOOT+=	--with-clang=${CC}
+.endif
+.else # CLANG
+USE_GCC=	yes
+CONFIGURE_ARGS+=	--with-gcc=${CC}
+.if empty(PORT_OPTIONS:MBOOT)
+CONFIGURE_ARGS_BOOT+=	--with-gcc=${CC}
+.endif
+.endif # CLANG
+
 DOCSDIR=	${PREFIX}/share/doc/${DISTNAME}
 GHC_LIBDIR=	${STAGEDIR}${PREFIX}/lib/ghc-${GHC_VERSION}
 GHC_LIBDIR_REL=	lib/ghc-${GHC_VERSION}
@@ -88,8 +109,7 @@ PLIST_SUB+=	GHC_VERSION=${GHC_VERSION} GHC_LIBDIR=${GHC_LIBDIR_REL}
 
 HACKAGE_SITE?=		http://hackage.haskell.org/package/
 
-CONFIGURE_ARGS=		--with-gcc=${CC} \
-			--with-ld=${LD} \
+CONFIGURE_ARGS+=	--with-ld=${LD} \
 			--with-gmp-includes=${LOCALBASE}/include \
 			--with-gmp-libraries=${LOCALBASE}/lib
 
@@ -103,11 +123,11 @@ CONFIGURE_ARGS+=	--with-system-libffi \
 .endif
 
 .if ${PORT_OPTIONS:MLLVM}
-BUILD_DEPENDS+=		${LOCALBASE}/bin/opt35:${PORTSDIR}/devel/llvm35
-RUN_DEPENDS+=		${LOCALBASE}/bin/opt35:${PORTSDIR}/devel/llvm35
+BUILD_DEPENDS+=		${LOCALBASE}/bin/opt${LLVM_VERSION}:${PORTSDIR}/devel/llvm${LLVM_VERSION}
+RUN_DEPENDS+=		${LOCALBASE}/bin/opt${LLVM_VERSION}:${PORTSDIR}/devel/llvm${LLVM_VERSION}
 
-CONFIGURE_ARGS+=	--with-opt=${LOCALBASE}/bin/opt35 \
-			--with-llc=${LOCALBASE}/bin/llc35
+CONFIGURE_ARGS+=	--with-opt=${LOCALBASE}/bin/opt${LLVM_VERSION} \
+			--with-llc=${LOCALBASE}/bin/llc${LLVM_VERSION}
 .endif
 
 .if empty(PORT_OPTIONS:MBOOT)
@@ -119,7 +139,7 @@ BOOT_HSC2HS=	${BOOT_DIR}/bin/hsc2hs
 
 SLAVE_CMD=	${SETENV} PATH=${BOOT_DIR}/bin:${PATH}
 
-CONFIGURE_ARGS_BOOT=	--prefix=${BOOT_DIR} --with-gcc=${CC} --with-ld=${LD}
+CONFIGURE_ARGS_BOOT+=	--prefix=${BOOT_DIR} --with-ld=${LD}
 CONFIGURE_ARGS+=	--with-ghc=${BOOT_GHC}
 
 .else # MBOOT
@@ -196,6 +216,9 @@ post-extract:
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "BSD_PATH_TO_HSC2HS = ${BOOT_HSC2HS}"
 .endif
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "SRC_HC_OPTS += -I${NCURSESINC} -L${NCURSESLIB} -I${LOCALBASE}/include -L${LOCALBASE}/lib"
+.if ${PORT_OPTIONS:MCLANG}
+	@${ECHO} >> ${WRKSRC}/mk/build.mk "SRC_HC_OPTS += -optl=-B${LOCALBASE}/bin"
+.endif
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "SRC_CC_OPTS += ${CFLAGS}"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_HSC2HS_OPTS += -I${LOCALBASE}/include --lflag=-L${LOCALBASE}/lib"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_LD_OPTS += -L${LOCALBASE}/lib"

@@ -75,16 +75,29 @@ BUILD_DEPENDS+=	${GHC_PACKAGE}>=${GHC_VERSION}:${PORTSDIR}/${GHC_PORT}
 .endif
 
 USE_BINUTILS=	yes
+
+.if ${PORT_OPTIONS:MCLANG}
+BUILD_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
+RUN_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
+CC=		${LOCALBASE}/bin/clang${LLVM_VERSION}
+CXX=		${LOCALBASE}/bin/clang++${LLVM_VERSION}
+CPP=		${LOCALBASE}/bin/clang-cpp${LLVM_VERSION}
+CFLAGS+=	-Qunused-arguments
+LDFLAGS+=	-B${LOCALBASE}/bin
+
+CONFIGURE_ARGS+=	--ghc-option=-optl=-B${LOCALBASE}/bin
+.else
 USE_GCC=	yes
+.endif # CLANG
 
 CONFIGURE_ARGS+=	--with-gcc=${CC} --with-ld=${LD} --with-ar=${AR}
 
 .if ${PORT_OPTIONS:MLLVM}
 CONFIGURE_ARGS+=	--ghc-option=-fllvm \
-			--ghc-option=-pgmlo --ghc-option=${LOCALBASE}/bin/opt35 \
-			--ghc-option=-pgmlc --ghc-option=${LOCALBASE}/bin/llc35
+			--ghc-option=-pgmlo --ghc-option=${LOCALBASE}/bin/opt${LLVM_VERSION} \
+			--ghc-option=-pgmlc --ghc-option=${LOCALBASE}/bin/llc${LLVM_VERSION}
 
-BUILD_DEPENDS+=		${LOCALBASE}/bin/opt35:${PORTSDIR}/devel/llvm35
+BUILD_DEPENDS+=		${LOCALBASE}/bin/opt${LLVM_VERSION}:${PORTSDIR}/devel/llvm${LLVM_VERSION}
 .endif
 
 .if defined(USE_ALEX)
