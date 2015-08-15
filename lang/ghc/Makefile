@@ -34,7 +34,7 @@ USES=			gmake iconv:translit ncurses perl5 tar:xz
 USE_BINUTILS=		yes
 USE_GCC=		yes
 
-MAKE_ENV=	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+MAKE_ENV+=	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 # This is needed on FreeBSD 9.x due to the bootstrap tarball.
 TAR=		env LC_ALL=en_US.UTF-8 /usr/bin/tar
 
@@ -137,7 +137,6 @@ CFLAGS+=	-I${LOCALBASE}/include
 # override TMPDIR because /tmp often doesn't have enough space
 # to build some of the larger libraries.
 TMPDIR=		${WRKSRC}/tmp
-MAKE_ENV+=	TMPDIR=${TMPDIR}
 
 # Defining with documentation:
 # An in place installation and registration of hscolour will be
@@ -162,7 +161,6 @@ SLAVES_PREFIX=		${WRKDIR}/slaves_prefix
 SLAVES_WRKDIRPREFIX=	${WRKDIR}/slaves_wrkdirprefix
 
 MAKE_ENV+=	PATH=${SLAVES_PREFIX}/bin:${PATH}
-MAKE_ENV+=	LC_ALL=en_US.UTF-8
 CONFIGURE_ENV+=	PATH=${SLAVES_PREFIX}/bin:${PATH}
 
 .endif # MBOOTH
