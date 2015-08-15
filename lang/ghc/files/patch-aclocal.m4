@@ -1,15 +1,6 @@
 --- aclocal.m4.orig	2015-07-21 13:52:50 UTC
 +++ aclocal.m4
-@@ -47,6 +47,8 @@ AC_DEFUN([FPTOOLS_SET_PLATFORM_VARS],
-     # In bindists, we haven't called AC_CANONICAL_{BUILD,HOST,TARGET}
-     # so this justs uses $bootstrap_target.
- 
-+    bootstrap_target=`echo "$bootstrap_target" | sed -e 's/-unknown-/-portbld-/g'`
-+
-     if test "$build_alias" = ""
-     then
-         if test "$bootstrap_target" != ""
-@@ -1718,36 +1720,6 @@ int main(int argc, char *argv[])
+@@ -1718,36 +1718,6 @@ int main(int argc, char *argv[])
      }
      alarm(1);
  

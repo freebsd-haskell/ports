@@ -30,7 +30,7 @@ LIB_DEPENDS+=	libgmp.so:${PORTSDIR}/math/gmp
 
 USE_AUTOTOOLS=		autoconf autoheader
 USE_PERL5=		build
-USES=			gmake iconv:translit ncurses perl5 tar:bzip2
+USES=			gmake iconv:translit ncurses perl5 tar:xz
 USE_BINUTILS=		yes
 USE_GCC=		yes
 
@@ -74,29 +74,9 @@ LIB_DEPENDS+=	libffi.so.6:${PORTSDIR}/devel/libffi
 
 .if empty(PORT_OPTIONS:MBOOT)
 
-BOOT_GHC_VERSION=	7.6.3
-
-.if ${ARCH} == "i386"
-
-.if ${OSVERSION} >= 1000043
-DISTFILES+=	ghc-${BOOT_GHC_VERSION}-i386-freebsd10-boot${EXTRACT_SUFX}:boot
-.elif ${OSVERSION} >= 900000
-DISTFILES+=	ghc-${BOOT_GHC_VERSION}-i386-freebsd9-boot${EXTRACT_SUFX}:boot
-.else
-DISTFILES+=	ghc-${BOOT_GHC_VERSION}-i386-freebsd8-boot${EXTRACT_SUFX}:boot
-.endif
-
-.elif ${ARCH} == "amd64"
-
-.if ${OSVERSION} >= 1000043
-DISTFILES+=	ghc-${BOOT_GHC_VERSION}-amd64-freebsd10-boot${EXTRACT_SUFX}:boot
-.elif ${OSVERSION} >= 900000
-DISTFILES+=	ghc-${BOOT_GHC_VERSION}-amd64-freebsd9-boot${EXTRACT_SUFX}:boot
-.else
-DISTFILES+=	ghc-${BOOT_GHC_VERSION}-amd64-freebsd8-boot${EXTRACT_SUFX}:boot
-.endif
-
-.endif
+BOOT_GHC_VERSION=	7.10.2
+DISTFILES+=		ghc-${BOOT_GHC_VERSION}-boot-${ARCH}-freebsd${EXTRACT_SUFX}:boot
+LIB_DEPENDS+=		libutil.so.9:${PORTSDIR}/misc/compat9x
 
 .endif # MBOOT
 
