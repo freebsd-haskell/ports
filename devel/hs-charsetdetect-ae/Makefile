@@ -10,4 +10,9 @@ COMMENT=	Character set detection using Mozilla's Universal Character Set Detecto
 LICENSE=	LGPL21
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+
+.if ${PORT_OPTIONS:MCLANG}
+EXTRA_PATCHES+=	${PATCHDIR}/extra-patch-charsetdetect-ae.cabal
+.endif
+
 .include <bsd.port.mk>

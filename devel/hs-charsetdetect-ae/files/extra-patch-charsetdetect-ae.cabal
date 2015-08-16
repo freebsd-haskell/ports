@@ -1,0 +1,12 @@
+--- charsetdetect-ae.cabal.orig	2014-10-20 00:26:50 UTC
++++ charsetdetect-ae.cabal
+@@ -75,7 +75,8 @@ Library
+             c-sources: cbits/dso_handle.c
+ 
+         -- This is a bit dodgy since g++ might link in more stuff, but will probably work in practice:
+-        Extra-Libraries:        stdc++
++        cc-options:             -std=c++11 -stdlib=libc++
++        Extra-Libraries:        cxxrt
+         
+         Include-Dirs:           libcharsetdetect
+                                 libcharsetdetect/mozilla/extensions/universalchardet/src/base
