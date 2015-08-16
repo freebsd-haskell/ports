@@ -12,4 +12,9 @@ LICENSE=	BSD3CLAUSE
 USE_CABAL=	text>=0.11.0.8
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+
+.if ${PORT_OPTIONS:MCLANG}
+EXTRA_PATCHES+=	${PATCHDIR}/extra-patch-double-conversion.cabal
+.endif
+
 .include <bsd.port.mk>
