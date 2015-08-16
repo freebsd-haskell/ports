@@ -250,7 +250,6 @@ haskell-generate_port=                          devel/hs-haskell-generate
 haskell-lexer_port=                             devel/hs-haskell-lexer
 haskell-names_port=                             devel/hs-haskell-names
 haskell-packages_port=                          devel/hs-haskell-packages
-haskell-platform_port=                          devel/hs-haskell-platform                       # metaport
 haskell-src_port=                               devel/hs-haskell-src
 haskell-src-exts_port=                          devel/hs-haskell-src-exts
 haskell-xmpp_port=                              net-im/hs-haskell-xmpp
