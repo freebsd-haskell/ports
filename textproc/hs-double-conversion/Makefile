@@ -13,8 +13,10 @@ USE_CABAL=	text>=0.11.0.8
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 
-.if ${PORT_OPTIONS:MCLANG}
+.if ${PORT_OPTIONS:MPCLANG} || ${PORT_OPTIONS:MBCLANG}
 EXTRA_PATCHES+=	${PATCHDIR}/extra-patch-double-conversion.cabal
+LIB_DEPENDS+=	libcxxrt.so:${PORTSDIR}/devel/libcxxrt
 .endif
 
 .include <bsd.port.mk>
+

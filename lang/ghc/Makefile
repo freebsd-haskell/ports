@@ -32,7 +32,6 @@ LIB_DEPENDS+=	libgmp.so:${PORTSDIR}/math/gmp
 USE_AUTOTOOLS=		autoconf autoheader
 USE_PERL5=		build
 USES=			gmake iconv:translit ncurses perl5 tar:xz
-USE_BINUTILS=		yes
 
 MAKE_ENV+=	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 # This is needed on FreeBSD 9.x due to the bootstrap tarball.
@@ -45,12 +44,17 @@ TAR=		env LC_ALL=en_US.UTF-8 /usr/bin/tar
 # You can view below.
 GNU_CONFIGURE=	yes
 
-OPTIONS_DEFINE=		CLANG PROFILE DYNAMIC LLVM DOCS
-OPTIONS_DEFAULT=	PROFILE DYNAMIC DOCS
+OPTIONS_DEFINE=			PROFILE DYNAMIC LLVM DOCS
+OPTIONS_SINGLE=			C_Compiler
+OPTIONS_SINGLE_C_Compiler=	GCC PCLANG BCLANG
+
+OPTIONS_DEFAULT=	PROFILE DYNAMIC DOCS GCC
 
 BOOT_DESC=		Use installed GHC for bootstrapping
 BOOTH_DESC=		Use installed HsColour for bootstrapping
-CLANG_DESC=		Build with Clang
+GCC_DESC=		Build with GCC (from ports)
+PCLANG_DESC=		Build with Clang from ports
+BCLANG_DESC=		Build with Clang from base
 PROFILE_DESC=		Add support for performance profiling
 DYNAMIC_DESC=		Add support for dynamic linking
 LLVM_DESC=		Add support for generating code via LLVM
@@ -81,7 +85,7 @@ LIB_DEPENDS+=		libutil.so.9:${PORTSDIR}/misc/compat9x
 
 .endif # MBOOT
 
-.if ${PORT_OPTIONS:MCLANG}
+.if ${PORT_OPTIONS:MPCLANG}
 BUILD_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
 RUN_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
 CC=		${LOCALBASE}/bin/clang${LLVM_VERSION}
@@ -89,17 +93,24 @@ CXX=		${LOCALBASE}/bin/clang++${LLVM_VERSION}
 CPP=		${LOCALBASE}/bin/clang-cpp${LLVM_VERSION}
 LDFLAGS+=	-B${LOCALBASE}/bin
 CFLAGS+=	-Qunused-arguments
-CONFIGURE_ARGS+=	--with-clang=${CC}
+CONFIGURE_ARGS+=	--with-clang=${CC} --with-gcc=${CC}
+USE_BINUTILS=		yes
 .if empty(PORT_OPTIONS:MBOOT)
-CONFIGURE_ARGS_BOOT+=	--with-clang=${CC}
+CONFIGURE_ARGS_BOOT+=	--with-clang=${CC} --with-gcc=${CC}
 .endif
-.else # CLANG
+.elif ${PORT_OPTIONS:MBCLANG}
+CC=		/usr/bin/clang
+CXX=		/usr/bin/clang++
+CPP=		/usr/bin/clang-cpp
+CFLAGS+=	-Qunused-arguments
+CONFIGURE_ARGS+=	--with-clang=${CC} --with-gcc=${CC}
+.else # GCC
 USE_GCC=	yes
 CONFIGURE_ARGS+=	--with-gcc=${CC}
 .if empty(PORT_OPTIONS:MBOOT)
 CONFIGURE_ARGS_BOOT+=	--with-gcc=${CC}
 .endif
-.endif # CLANG
+.endif
 
 DOCSDIR=	${PREFIX}/share/doc/${DISTNAME}
 GHC_LIBDIR=	${STAGEDIR}${PREFIX}/lib/ghc-${GHC_VERSION}
@@ -216,7 +227,7 @@ post-extract:
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "BSD_PATH_TO_HSC2HS = ${BOOT_HSC2HS}"
 .endif
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "SRC_HC_OPTS += -I${NCURSESINC} -L${NCURSESLIB} -I${LOCALBASE}/include -L${LOCALBASE}/lib"
-.if ${PORT_OPTIONS:MCLANG}
+.if ${PORT_OPTIONS:MPCLANG}
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "SRC_HC_OPTS += -optl=-B${LOCALBASE}/bin"
 .endif
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "SRC_CC_OPTS += ${CFLAGS}"
@@ -226,6 +237,12 @@ post-extract:
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "EXTRA_CABAL_CONFIGURE_FLAGS += --extra-lib-dirs=${LOCALBASE}/lib"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "libraries/terminfo_CONFIGURE_OPTS += --configure-option=--with-curses-includes=${NCURSESINC} --configure-option=--with-curses-libraries=${NCURSESLIB}"
 	@${ECHO} >> ${WRKSRC}/mk/build.mk "V = 0"
+.if ${PORT_OPTIONS:MBCLANG} || ${PORT_OPTIONS:MPCLANG}
+	@${REINPLACE_CMD} -e 's|@SettingsCCompilerFlags@|& -Qunused-arguments|' ${WRKSRC}/settings.in
+.if empty(PORT_OPTIONS:MBOOT)
+	@${REINPLACE_CMD} -e 's|@SettingsCCompilerFlags@|& -Qunused-arguments|' ${BOOT_DIR}/settings.in
+.endif
+.endif
 
 post-install-script:
 	@${FIND} -ds ${GHC_LIBDIR} -type f -print | ${SED} -E -e \

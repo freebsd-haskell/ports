@@ -33,10 +33,14 @@ GHC_PACKAGE?=	ghc
 HSCOLOUR_DESC?=	Colorize generated documentation by HsColour
 DYNAMIC_DESC?=	Add support for dynamic linking
 PROFILE_DESC?=	Add support for profiling
-CLANG_DESC?=	Build with Clang
 LLVM_DESC?=	Use the LLVM backend for code generation
+GCC_DESC=		Build with GCC (from ports)
+PCLANG_DESC=		Build with Clang from ports
+BCLANG_DESC=		Build with Clang from base
 
-OPTIONS_DEFINE+=	CLANG
+OPTIONS_SINGLE+=		C_Compiler
+OPTIONS_SINGLE_C_Compiler=	GCC PCLANG BCLANG
+OPTIONS_DEFAULT+=		GCC
 
 .if (!exists(${GHC_CMD}) || exists(${LOCALBASE}/lib/ghc-${GHC_VERSION}/rts/libHSrts-ghc${GHC_VERSION}.so)) && !defined(IGNORE_DYNAMIC)
 OPTIONS_DEFINE+=	DYNAMIC

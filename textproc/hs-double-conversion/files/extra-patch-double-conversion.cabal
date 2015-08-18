@@ -6,7 +6,7 @@
  
 -  extra-libraries: stdc++
 +  cc-options:      -std=c++11 -stdlib=libc++
-+  extra-libraries: cxxrt
++  extra-libraries: cxxrt gcc_s
  
    include-dirs:
      double-conversion/src

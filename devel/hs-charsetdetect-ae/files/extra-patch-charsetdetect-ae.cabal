@@ -6,7 +6,7 @@
          -- This is a bit dodgy since g++ might link in more stuff, but will probably work in practice:
 -        Extra-Libraries:        stdc++
 +        cc-options:             -std=c++11 -stdlib=libc++
-+        Extra-Libraries:        cxxrt
++        Extra-Libraries:        cxxrt gcc_s
          
          Include-Dirs:           libcharsetdetect
                                  libcharsetdetect/mozilla/extensions/universalchardet/src/base

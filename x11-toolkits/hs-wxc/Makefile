@@ -23,4 +23,13 @@ post-patch::
 	    ${WRKSRC}/Setup.hs
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+
+.if ${PORT_OPTIONS:MPCLANG} || ${PORT_OPTIONS:MBCLANG}
+LIB_DEPENDS+=	libc++.so.1:${PORTSDIR}/devel/libc++
+
+.if ${OSVERSION} < 1000000
+CONFIGURE_ARGS+=	--extra-include-dirs=${LOCALBASE}/include/c++/v1
+.endif
+.endif
+
 .include <bsd.port.mk>

@@ -74,9 +74,8 @@ BUILD_DEPENDS+=	ghc:${PORTSDIR}/${GHC_PORT}
 BUILD_DEPENDS+=	${GHC_PACKAGE}>=${GHC_VERSION}:${PORTSDIR}/${GHC_PORT}
 .endif
 
-USE_BINUTILS=	yes
 
-.if ${PORT_OPTIONS:MCLANG}
+.if ${PORT_OPTIONS:MPCLANG}
 BUILD_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
 RUN_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
 CC=		${LOCALBASE}/bin/clang${LLVM_VERSION}
@@ -84,11 +83,16 @@ CXX=		${LOCALBASE}/bin/clang++${LLVM_VERSION}
 CPP=		${LOCALBASE}/bin/clang-cpp${LLVM_VERSION}
 CFLAGS+=	-Qunused-arguments
 LDFLAGS+=	-B${LOCALBASE}/bin
-
 CONFIGURE_ARGS+=	--ghc-option=-optl=-B${LOCALBASE}/bin
-.else
+USE_BINUTILS=	yes
+.elif ${PORT_OPTIONS:MBCLANG}
+CC=		/usr/bin/clang
+CXX=		/usr/bin/clang++
+CPP=		/usr/bin/clang-cpp
+CFLAGS+=	-Qunused-arguments
+.else # GCC
 USE_GCC=	yes
-.endif # CLANG
+.endif
 
 CONFIGURE_ARGS+=	--with-gcc=${CC} --with-ld=${LD} --with-ar=${AR}
 
