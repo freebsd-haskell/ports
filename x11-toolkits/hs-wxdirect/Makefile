@@ -9,6 +9,7 @@ COMMENT=	Helper tool for building wxHaskell
 
 LICENSE=	BSD3CLAUSE
 
+USES=		dos2unix
 USE_CABAL=	parsec>=2.1.0 strict
 
 EXECUTABLE=	wxdirect
