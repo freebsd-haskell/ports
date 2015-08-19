@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	http-client
-PORTVERSION=	0.4.18.1
+PORTVERSION=	0.4.20
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
