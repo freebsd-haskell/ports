@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	shake
-PORTVERSION=	0.15.4
+PORTVERSION=	0.15.5
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
