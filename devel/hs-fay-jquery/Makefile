@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	fay-jquery
-PORTVERSION=	0.6.0.3
+PORTVERSION=	0.6.1.0
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
