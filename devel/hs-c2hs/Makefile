@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	c2hs
-PORTVERSION=	0.25.2
+PORTVERSION=	0.26.1
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
