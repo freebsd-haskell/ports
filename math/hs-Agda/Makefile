@@ -21,9 +21,17 @@ USES=		iconv:translit
 
 EXECUTABLE=	agda-mode agda
 
-INSTALL_PORTDATA=	${INSTALL_DATA} ${FILESDIR}/Primitive.agdai ${STAGEDIR}${DATADIR}/lib/prim/Agda
+_PRIMITIVE=	Primitive.agdai
+
+INSTALL_PORTDATA=	${INSTALL_DATA} \
+			    ${DISTDIR}/${DIST_SUBDIR}/${_PRIMITIVE}.${PORTVERSION} \
+			    ${STAGEDIR}${DATADIR}/lib/prim/Agda/${_PRIMITIVE}
 
 FLAGS_ENABLE=		cpphs
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
+
+MASTER_SITES+=	LOCAL/pgj:primitive
+DISTFILES+=	${_PRIMITIVE}.${PORTVERSION}:primitive
+
 .include <bsd.port.mk>
