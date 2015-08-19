@@ -1,8 +1,12 @@
---- hinotify.cabal.orig	2014-04-27 14:06:19 UTC
+--- hinotify.cabal.orig	2015-08-08 07:35:44 UTC
 +++ hinotify.cabal
-@@ -40,3 +40,5 @@ library
-     ghc-options: -Wall
- 
+@@ -32,6 +32,9 @@ library
+     includes: sys/inotify.h
      hs-source-dirs: src
+ 
++    if os(freebsd)
++      extra-libraries: inotify
 +
-+    extra-libraries: inotify
+ test-suite test001
+     type: exitcode-stdio-1.0
+     build-depends: base, directory, hinotify
