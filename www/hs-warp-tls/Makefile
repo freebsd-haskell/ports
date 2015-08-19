@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	warp-tls
-PORTVERSION=	3.1.0
+PORTVERSION=	3.1.1
 CATEGORIES=	www haskell
 
 MAINTAINER=	haskell@FreeBSD.org
