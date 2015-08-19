@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	ansi-wl-pprint
-PORTVERSION=	0.6.7.2
+PORTVERSION=	0.6.7.3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
