@@ -10,8 +10,10 @@
 #
 
 .if !defined(METAPORT)
-MASTER_SITES?=	http://hackage.haskell.org/package/${PORTNAME}-${PORTVERSION}/
+MASTER_SITES?=	http://hackage.haskell.org/package/${PORTNAME}-${PORTVERSION}/:hackage
+DISTFILES?=	${DISTNAME}${EXTRACT_SUFX}:hackage
 DIST_SUBDIR?=	cabal
+EXTRACT_ONLY?=	${DISTNAME}${EXTRACT_SUFX}
 .else
 USES+=		metaport
 .endif # !METAPORT
