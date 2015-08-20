@@ -1,0 +1,12 @@
+--- yi.cabal.orig	2015-05-16 18:59:06 UTC
++++ yi.cabal
+@@ -348,7 +348,8 @@ library
+       Yi.UI.Vty.Conversions
+     build-depends:
+       unix-compat >=0.1 && <0.5,
+-      vty >= 5.2.4 && < 6
++      stm,
++      vty >= 5.4 && < 6
+     cpp-options: -DFRONTEND_VTY
+ 
+   other-modules:

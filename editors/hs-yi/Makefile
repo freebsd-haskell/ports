@@ -33,7 +33,7 @@ PANGO_FLAG_CABAL=	gtk>=0.13 glib>=0.13 pango>=0.13
 
 VTY_DESC=		Build with Vty
 VTY_FLAG_ENABLE=	vty
-VTY_FLAG_CABAL=		unix-compat>=0.1 vty>=5.2.4
+VTY_FLAG_CABAL=		unix-compat>=0.1 stm vty>=5.4
 
 FLAGS_DISABLE=		profiling eventlog testing
 
