@@ -5,6 +5,7 @@ PORTNAME=	ghc
 PORTVERSION=	7.10.2
 CATEGORIES=	lang haskell
 MASTER_SITES=	http://www.haskell.org/ghc/dist/${PORTVERSION}/:source \
+		http://leaf.dragonflybsd.org/~marino/dports-src/:dflyboot \
 		LOCAL/pgj/:boot
 DISTFILES=	ghc-${PORTVERSION}-src${EXTRACT_SUFX}:source
 
@@ -78,9 +79,22 @@ LIB_DEPENDS+=	libffi.so.6:${PORTSDIR}/devel/libffi
 
 .if empty(PORT_OPTIONS:MBOOT)
 
+.if ${OPSYS} == "FreeBSD"
+
 BOOT_GHC_VERSION=	7.10.2
 DISTFILES+=		ghc-${BOOT_GHC_VERSION}-boot-${ARCH}-freebsd${EXTRACT_SUFX}:boot
 LIB_DEPENDS+=		libutil.so.9:${PORTSDIR}/misc/compat9x
+
+.elif ${OPSYS} == "DragonFly"
+
+BOOT_GHC_VERSION=	7.10.2
+DISTFILES+=		ghc-${BOOT_GHC_VERSION}-boot-${ARCH}-dragonfly.tar.xz:dflyboot
+CONFIGURE_TARGET=	${ARCH}-portbld-dragonfly
+CONFIGURE_ENV+=		BOOTDIR=${BOOT_DIR} LBASE=${LOCALBASE}
+
+.else
+IGNORE=		unsupported ${OPSYS} Operating System
+.endif
 
 .endif # MBOOT
 
