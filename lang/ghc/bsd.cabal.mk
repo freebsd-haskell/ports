@@ -161,11 +161,6 @@ RUN_DEPENDS+=	${dependencies}
 
 .endif
 
-.if defined(USE_GHC_NATIVE)
-USES+=		perl5
-USE_PERL5=	build
-.endif
-
 .if ${PORT_OPTIONS:MDOCS}
 .if !defined(XMLDOCS)
 
