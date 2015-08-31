@@ -30,6 +30,8 @@ GHC_PORT?=	lang/ghc
 GHC_PACKAGE?=	ghc
 .endif
 
+HSCOLOUR_VERSION=	1.23
+
 HSCOLOUR_DESC?=	Colorize generated documentation by HsColour
 DYNAMIC_DESC?=	Add support for dynamic linking
 PROFILE_DESC?=	Add support for profiling
