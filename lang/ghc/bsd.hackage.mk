@@ -454,6 +454,7 @@ sandi_port=                                     converters/hs-sandi
 sbv_port=                                       math/hs-sbv
 scientific_port=                                devel/hs-scientific
 scion-browser_port=                             devel/hs-scion-browser                          # executable
+scroll_port=                                    games/hs-scroll                                 # executable
 securemem_port=                                 devel/hs-securemem
 semigroupoids_port=                             math/hs-semigroupoids
 semigroups_port=                                math/hs-semigroups
