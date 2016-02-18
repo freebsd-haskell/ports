@@ -372,6 +372,7 @@ mutable-containers_port=                        devel/hs-mutable-containers
 mwc-random_port=                                math/hs-mwc-random
 mysql_port=                                     databases/hs-mysql
 mysql-simple_port=                              databases/hs-mysql-simple
+ncurses_port=                                   devel/hs-ncurses                                # lib_depends
 network_port=                                   net/hs-network
 network-fancy_port=                             net/hs-network-fancy
 network-info_port=                              net/hs-network-info
