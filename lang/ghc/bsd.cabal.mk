@@ -171,10 +171,28 @@ RUN_DEPENDS+=	${dependencies}
 HADDOCK_OPTS=	# empty
 
 .if ${PORT_OPTIONS:MHSCOLOUR}
-BUILD_DEPENDS+=	HsColour:${PORTSDIR}/print/hs-hscolour
 
+HADDOCK_OPTS+=		--hyperlink-source
+
+.if ${PORTNAME} != hscolour
+BUILD_DEPENDS+=		HsColour:${PORTSDIR}/print/hs-hscolour
 HSCOLOUR_DATADIR=	${LOCALBASE}/share/cabal/ghc-${GHC_VERSION}/hscolour-${HSCOLOUR_VERSION}
-HADDOCK_OPTS+=		--hyperlink-source --hscolour-css=${HSCOLOUR_DATADIR}/hscolour.css
+HADDOCK_OPTS+=		--hscolour-css=${HSCOLOUR_DATADIR}/hscolour.css
+.else
+CONFIGURE_ARGS+=	--with-hscolour=${WRKSRC}/dist/build/HsColour/HsColour
+HADDOCK_OPTS+=		--hscolour-css=${WRKSRC}/hscolour.css
+
+# That is a bluff to make Cabal believe (at configure) that HsColour is installed.
+__HSCOLOUR_BOOTSTRAP_DIR=	${WRKSRC}/dist/build/HsColour
+__HSCOLOUR_BOOTSTRAP=		${__HSCOLOUR_BOOTSTRAP_DIR}/HsColour
+
+__hscolour_bootstrap__=		\
+	${MKDIR} ${__HSCOLOUR_BOOTSTRAP_DIR} && \
+	${ECHO_CMD} "echo HsColour ${HSCOLOUR_VERSION}" > ${__HSCOLOUR_BOOTSTRAP} && \
+	${CHMOD} +x ${__HSCOLOUR_BOOTSTRAP};
+
+.endif
+
 .endif # HSCOLOUR
 .endif # HADDOCK_AVAILABLE
 
@@ -227,6 +245,7 @@ do-configure:
 	@if [ -f ${WRKSRC}/Setup.lhs ]; then \
 	    cd ${WRKSRC} && ${_BUILD_SETUP} Setup.lhs; fi
 	@if [ -f ${WRKSRC}/${SETUP_CMD} ]; then \
+	    ${__hscolour_bootstrap__} \
 	    cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} \
 	    ${SETUP_CMD} configure --ghc --prefix=${PREFIX} \
 		--extra-include-dirs="${LOCALBASE}/include" --extra-lib-dirs="${LOCALBASE}/lib" \

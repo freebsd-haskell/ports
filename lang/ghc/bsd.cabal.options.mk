@@ -62,7 +62,7 @@ OPTIONS_DEFINE+=	DOCS
 OPTIONS_DEFAULT+=	DOCS
 HADDOCK_AVAILABLE=	yes
 
-.if (${PORTNAME} != hscolour || exists(${HSCOLOUR_CMD})) && !defined(IGNORE_HSCOLOUR)
+.if !defined(IGNORE_HSCOLOUR)
 OPTIONS_DEFINE+=	HSCOLOUR
 .endif
 .endif
