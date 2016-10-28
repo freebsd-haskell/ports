@@ -1,5 +1,5 @@
 # Created by: Volker Stolz <vs@FreeBSD.org>
-# $FreeBSD$
+# $FreeBSD: head/x11-toolkits/hs-GLUT/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	GLUT
 PORTVERSION=	2.7.0.1

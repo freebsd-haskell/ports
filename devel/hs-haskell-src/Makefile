@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-haskell-src/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	haskell-src
 PORTVERSION=	1.0.2.0

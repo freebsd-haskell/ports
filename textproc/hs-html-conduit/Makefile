@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-html-conduit/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	html-conduit
 PORTVERSION=	1.2.0

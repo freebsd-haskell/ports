@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-skein/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	skein
 PORTVERSION=	1.0.9.3

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/hs-hS3/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	hS3
 PORTVERSION=	0.5.9

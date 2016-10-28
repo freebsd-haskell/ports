@@ -1,5 +1,5 @@
 # Created by: jyyou@cs.nctu.edu.tw
-# $FreeBSD$
+# $FreeBSD: head/databases/hs-mysql/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	mysql
 PORTVERSION=	0.1.1.8

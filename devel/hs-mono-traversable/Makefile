@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-mono-traversable/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	mono-traversable
 PORTVERSION=	0.9.2.1

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/hs-wai-extra/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	wai-extra
 PORTVERSION=	3.0.10

@@ -1,5 +1,5 @@
 # Created by: Oliver Braun <obraun@FreeBSD.org>
-# $FreeBSD$
+# $FreeBSD: head/devel/cvs2darcs/Makefile 412346 2016-04-01 14:00:51Z mat $
 
 PORTNAME=	cvs2darcs
 PORTVERSION=	0.8
@@ -12,10 +12,10 @@ COMMENT=	Convert CVS module to darcs repository
 
 LICENSE=	GPLv2
 
-BUILD_DEPENDS=	cvs:${PORTSDIR}/devel/cvs \
-		darcs:${PORTSDIR}/devel/hs-darcs \
-		cvsps:${PORTSDIR}/devel/cvsps \
-		p5-libwww>=0:${PORTSDIR}/www/p5-libwww
+BUILD_DEPENDS=	cvs:devel/cvs \
+		darcs:devel/hs-darcs \
+		cvsps:devel/cvsps \
+		p5-libwww>=0:www/p5-libwww
 RUN_DEPENDS:=	${BUILD_DEPENDS}
 
 GNU_CONFIGURE=	yes

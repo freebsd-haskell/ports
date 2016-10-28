@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-strict/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	strict
 PORTVERSION=	0.3.2

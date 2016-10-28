@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-pandoc-citeproc/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	pandoc-citeproc
 PORTVERSION=	0.7.3.1

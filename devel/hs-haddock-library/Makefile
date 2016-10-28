@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-haddock-library/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	haddock-library
 PORTVERSION=	1.2.1

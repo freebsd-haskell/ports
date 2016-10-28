@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/net/hs-gsasl/Makefile 412348 2016-04-01 14:17:44Z mat $
 
 PORTNAME=	gsasl
 PORTVERSION=	0.3.6
@@ -10,7 +10,7 @@ COMMENT=	Bindings for GNU libgsasl
 LICENSE=	GPLv3
 
 USES=		pkgconfig
-LIB_DEPENDS=	libgsasl.so:${PORTSDIR}/security/gsasl
+LIB_DEPENDS=	libgsasl.so:security/gsasl
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

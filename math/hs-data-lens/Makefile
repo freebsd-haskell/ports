@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/math/hs-data-lens/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	data-lens
 PORTVERSION=	2.10.7

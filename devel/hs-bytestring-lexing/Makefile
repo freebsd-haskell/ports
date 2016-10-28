@@ -1,5 +1,5 @@
 # Created by:	martin@sugioarto.com
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-bytestring-lexing/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	bytestring-lexing
 PORTVERSION=	0.5.0.2

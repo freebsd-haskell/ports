@@ -1,5 +1,5 @@
 # Created by: Nikolai Lifanov <lifanov@mail.lifanov.com>
-# $FreeBSD$
+# $FreeBSD: head/games/hs-scroll/Makefile 415501 2016-05-19 10:57:35Z amdmi3 $
 
 PORTNAME=	scroll
 PORTVERSION=	1.20151219
@@ -10,7 +10,7 @@ COMMENT=	A roguelike game
 
 LICENSE=	GPLv2
 
-PKGNAMEPREFIX=	
+PKGNAMEPREFIX=
 
 USE_CABAL=	IfElse case-insensitive data-default monad-loops mtl \
 		optparse-applicative ncurses random text vector

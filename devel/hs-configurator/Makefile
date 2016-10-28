@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-configurator/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	configurator
 PORTVERSION=	0.3.0.0

@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/math/hs-statistics/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	statistics
 PORTVERSION=	0.13.2.3

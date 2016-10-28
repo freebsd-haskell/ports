@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/shells/hs-shelly/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	shelly
 PORTVERSION=	1.6.3.3

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/hs-xss-sanitize/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	xss-sanitize
 PORTVERSION=	0.3.5.6

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/x11-toolkits/hs-vte/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	vte
 PORTVERSION=	0.13.0.2

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-generic-deriving/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	generic-deriving
 PORTVERSION=	1.8.0

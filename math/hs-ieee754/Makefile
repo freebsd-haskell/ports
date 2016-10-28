@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/math/hs-ieee754/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	ieee754
 PORTVERSION=	0.7.6

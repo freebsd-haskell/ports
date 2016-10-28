@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/hs-snap/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	snap
 PORTVERSION=	0.14.0.6

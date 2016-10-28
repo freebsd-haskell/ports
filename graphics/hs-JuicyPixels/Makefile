@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/graphics/hs-JuicyPixels/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	JuicyPixels
 PORTVERSION=	3.2.6

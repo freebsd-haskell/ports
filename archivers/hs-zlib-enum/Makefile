@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/archivers/hs-zlib-enum/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	zlib-enum
 PORTVERSION=	0.2.3.1

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-equivalence/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	equivalence
 PORTVERSION=	0.3.1

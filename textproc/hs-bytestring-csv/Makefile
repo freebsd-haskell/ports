@@ -1,5 +1,5 @@
 # Created by: Samy Al Bahra <sbahra@kerneled.org>
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-bytestring-csv/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	bytestring-csv
 PORTVERSION=	0.1.2

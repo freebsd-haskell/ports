@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-DRBG/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	DRBG
 PORTVERSION=	0.5.4

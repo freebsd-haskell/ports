@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/www/hs-http-server/Makefile 415742 2016-05-23 20:35:01Z amdmi3 $
 
 PORTNAME=	http-server
 PORTVERSION=	1.0.6
@@ -17,7 +17,6 @@ INSTALL_PORTEXAMPLES=	cd ${WRKSRC}/example && \
 			  ${COPYTREE_SHARE} \* ${STAGEDIR}${EXAMPLESDIR}
 
 OPTIONS_DEFINE=		EXAMPLES
-OPTIONS_DEFAULT=	EXAMPLES
 
 FLAGS_ENABLE=	network-uri
 

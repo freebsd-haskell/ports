@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/hs-yesod-test/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	yesod-test
 PORTVERSION=	1.4.3.1

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/math/hs-contravariant/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	contravariant
 PORTVERSION=	1.3.2

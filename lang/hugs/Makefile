@@ -1,5 +1,5 @@
 # Created by: Torsten Teg Grust (Torsten.Grust@uni-konstanz.de)
-# $FreeBSD$
+# $FreeBSD: head/lang/hugs/Makefile 412347 2016-04-01 14:08:37Z mat $
 
 PORTNAME=	hugs98
 PORTVERSION=	200609
@@ -11,7 +11,7 @@ DISTNAME=	${PORTNAME}-plus-${HUGS_DATE}
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Interpreter for the functional programming language Haskell 98
 
-BUILD_DEPENDS=	bash:${PORTSDIR}/shells/bash
+BUILD_DEPENDS=	bash:shells/bash
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
 

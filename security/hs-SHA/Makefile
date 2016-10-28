@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-SHA/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	SHA
 PORTVERSION=	1.6.4.2

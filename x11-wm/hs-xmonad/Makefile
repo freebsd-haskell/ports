@@ -1,5 +1,5 @@
 # Created by: Matthieu Guegan <matt.guegan@free.fr>
-# $FreeBSD$
+# $FreeBSD: head/x11-wm/hs-xmonad/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	xmonad
 PORTVERSION=	0.11.1

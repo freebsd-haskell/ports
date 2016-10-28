@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-x509-store/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	x509-store
 PORTVERSION=	1.6.0

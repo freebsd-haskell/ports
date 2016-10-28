@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/hs-http-conduit/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	http-conduit
 PORTVERSION=	2.1.8

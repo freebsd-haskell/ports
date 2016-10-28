@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/databases/hs-persistent-template/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	persistent-template
 PORTVERSION=	2.1.3.4

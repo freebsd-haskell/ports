@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-cryptohash-conduit/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	cryptohash-conduit
 PORTVERSION=	0.1.1

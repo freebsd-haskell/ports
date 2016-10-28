@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-system-fileio/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	system-fileio
 PORTVERSION=	0.3.16.3

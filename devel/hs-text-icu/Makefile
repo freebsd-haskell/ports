@@ -1,7 +1,8 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-text-icu/Makefile 422711 2016-09-24 11:06:57Z tijl $
 
 PORTNAME=	text-icu
 PORTVERSION=	0.7.0.1
+PORTREVISION=	3
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
@@ -11,7 +12,7 @@ LICENSE=	BSD3CLAUSE
 
 USE_CABAL=	text>=0.9.1.0
 
-LIB_DEPENDS+=	libicui18n.so:${PORTSDIR}/devel/icu
+LIB_DEPENDS+=	libicui18n.so:devel/icu
 
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 .include <bsd.port.mk>

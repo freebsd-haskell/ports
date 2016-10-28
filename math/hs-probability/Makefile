@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/math/hs-probability/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	probability
 PORTVERSION=	0.2.4.1

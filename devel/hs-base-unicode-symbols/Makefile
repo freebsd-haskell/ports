@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-base-unicode-symbols/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	base-unicode-symbols
 PORTVERSION=	0.2.2.4

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-vector-th-unbox/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	vector-th-unbox
 PORTVERSION=	0.2.1.2

@@ -1,5 +1,5 @@
 # Created by: Oliver Braun <obraun@FreeBSD.org>
-# $FreeBSD$
+# $FreeBSD: head/x11-toolkits/hs-gtk2hs/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	gtk2hs
 PORTVERSION=	0.13

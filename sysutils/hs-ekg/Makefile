@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/sysutils/hs-ekg/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	ekg
 PORTVERSION=	0.4.0.8

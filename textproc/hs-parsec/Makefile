@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-parsec/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	parsec
 PORTVERSION=	3.1.9

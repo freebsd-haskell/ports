@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-profunctors/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	profunctors
 PORTVERSION=	5.1.1

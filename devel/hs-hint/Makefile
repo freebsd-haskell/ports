@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-hint/Makefile 398832 2015-10-08 15:11:28Z olgeni $
 
 PORTNAME=	hint
 PORTVERSION=	0.4.2.3

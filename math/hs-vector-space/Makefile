@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/math/hs-vector-space/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	vector-space
 PORTVERSION=	0.10.2

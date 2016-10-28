@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-cassava/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	cassava
 PORTVERSION=	0.4.3.1

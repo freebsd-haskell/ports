@@ -1,5 +1,5 @@
 # Created by: Samy Al Bahra <sbahra@kerneled.org>
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-stringsearch/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	stringsearch
 PORTVERSION=	0.3.6.6

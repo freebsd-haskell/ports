@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/x11-toolkits/hs-wxc/Makefile 412351 2016-04-01 14:33:55Z mat $
 
 PORTNAME=	wxc
 PORTVERSION=	0.91.0.0
@@ -25,7 +25,7 @@ post-patch::
 .include "${.CURDIR}/../../lang/ghc/bsd.cabal.mk"
 
 .if ${PORT_OPTIONS:MPCLANG} || ${PORT_OPTIONS:MBCLANG}
-LIB_DEPENDS+=	libc++.so.1:${PORTSDIR}/devel/libc++
+LIB_DEPENDS+=	libc++.so.1:devel/libc++
 
 .if ${OSVERSION} < 1000000
 CONFIGURE_ARGS+=	--extra-include-dirs=${LOCALBASE}/include/c++/v1

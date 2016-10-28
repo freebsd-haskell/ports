@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-cryptohash-cryptoapi/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	cryptohash-cryptoapi
 PORTVERSION=	0.1.3

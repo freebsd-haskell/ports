@@ -1,9 +1,9 @@
 # Created by: Oliver Braun <obraun@informatik.unibw-muenchen.de>
-# $FreeBSD$
+# $FreeBSD: head/lang/nhc98/Makefile 415742 2016-05-23 20:35:01Z amdmi3 $
 
 PORTNAME=	nhc98
 PORTVERSION=	1.22
-PORTREVISION=	2
+PORTREVISION=	1
 CATEGORIES=	lang haskell
 MASTER_SITES=	http://haskell.org/${PORTNAME}/
 DISTFILES=	${PORTNAME}src-${PORTVERSION}${EXTRACT_SUFX}
@@ -26,7 +26,6 @@ MAKE_ARGS+=		ARCH=
 MAKE_JOBS_UNSAFE=	yes
 
 OPTIONS_DEFINE=		DOCS
-OPTIONS_DEFAULT=	DOCS
 
 DOCS_CONFIGURE_ON=	--docdir=${DOCSDIR} +docs
 DOCS_CONFIGURE_OFF=	-docs

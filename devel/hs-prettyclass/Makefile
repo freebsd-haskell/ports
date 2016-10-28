@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-prettyclass/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	prettyclass
 PORTVERSION=	1.0.0.0

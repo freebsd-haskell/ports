@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-classy-prelude/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	classy-prelude
 PORTVERSION=	0.12.1.1

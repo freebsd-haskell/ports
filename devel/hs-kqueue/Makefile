@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-kqueue/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	kqueue
 PORTVERSION=	0.1.2.6

@@ -1,5 +1,5 @@
 # Created by: obraun@FreeBSD.org
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-cpphs/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	cpphs
 PORTVERSION=	1.19

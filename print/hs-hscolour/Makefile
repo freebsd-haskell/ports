@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/print/hs-hscolour/Makefile 409206 2016-02-19 20:49:11Z pgj $
 
 PORTNAME=	hscolour
 PORTVERSION=	${HSCOLOUR_VERSION}

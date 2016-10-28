@@ -1,5 +1,5 @@
 # Created by: hsu
-# $FreeBSD$
+# $FreeBSD: head/lang/Gofer/Makefile 364397 2014-08-09 04:02:59Z adamw $
 
 PORTNAME=	gofer
 PORTVERSION=	2.30b

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/x11/hs-X11-xft/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	X11-xft
 PORTVERSION=	0.3.1

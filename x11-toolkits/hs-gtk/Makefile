@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/x11-toolkits/hs-gtk/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	gtk
 PORTVERSION=	0.13.9

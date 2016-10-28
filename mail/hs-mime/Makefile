@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/mail/hs-mime/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	mime
 PORTVERSION=	0.4.0.2

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-digest/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	digest
 PORTVERSION=	0.0.1.2

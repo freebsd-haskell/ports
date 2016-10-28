@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/math/hs-mwc-random/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	mwc-random
 PORTVERSION=	0.13.3.2

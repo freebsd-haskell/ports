@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-StateVar/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	StateVar
 PORTVERSION=	1.1.0.1

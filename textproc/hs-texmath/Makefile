@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-texmath/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	texmath
 PORTVERSION=	0.8.3

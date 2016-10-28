@@ -1,5 +1,5 @@
 # Created by: Samy Al Bahra <sbahra@kerneled.org>
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-dlist/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	dlist
 PORTVERSION=	0.7.1.1

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/x11-toolkits/hs-gtksourceview2/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	gtksourceview2
 PORTVERSION=	0.13.1.3

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/graphics/hs-svgcairo/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	svgcairo
 PORTVERSION=	0.13.0.3

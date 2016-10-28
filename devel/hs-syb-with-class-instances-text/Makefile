@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-syb-with-class-instances-text/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	syb-with-class-instances-text
 PORTVERSION=	0.0.1

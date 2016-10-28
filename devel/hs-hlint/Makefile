@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-hlint/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	hlint
 PORTVERSION=	1.9.21

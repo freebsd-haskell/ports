@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/mail/hs-email-validate/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	email-validate
 PORTVERSION=	2.1.3

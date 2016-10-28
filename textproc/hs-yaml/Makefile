@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-yaml/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	yaml
 PORTVERSION=	0.8.13

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/net-p2p/hs-torrent/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	torrent
 PORTVERSION=	10000.0.0

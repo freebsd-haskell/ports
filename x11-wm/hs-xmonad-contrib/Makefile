@@ -1,5 +1,5 @@
 # Created by: Matthieu Guegan <matt.guegan@free.fr>
-# $FreeBSD$
+# $FreeBSD: head/x11-wm/hs-xmonad-contrib/Makefile 412351 2016-04-01 14:33:55Z mat $
 
 PORTNAME=	xmonad-contrib
 PORTVERSION=	0.11.4
@@ -14,7 +14,7 @@ USE_CABAL=	extensible-exceptions mtl>=1 old-time random utf8-string \
 		X11>=1.6.1 xmonad>=0.11
 USE_XORG=	x11
 
-RUN_DEPENDS+=	bash:${PORTSDIR}/shells/bash
+RUN_DEPENDS+=	bash:shells/bash
 
 FLAGS_DEFINE=		XFT
 FLAGS_DEFAULT=		XFT

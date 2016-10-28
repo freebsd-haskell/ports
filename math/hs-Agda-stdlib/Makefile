@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/math/hs-Agda-stdlib/Makefile 409208 2016-02-19 20:51:27Z pgj $
 
 PORTNAME=	Agda-stdlib
 PORTVERSION=	0.9

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/converters/hs-dataenc/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	dataenc
 PORTVERSION=	0.14.0.7

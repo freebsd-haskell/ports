@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-base-orphans/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	base-orphans
 PORTVERSION=	0.4.4

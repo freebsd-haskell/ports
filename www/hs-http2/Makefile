@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/hs-http2/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	http2
 PORTVERSION=	1.0.4

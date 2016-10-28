@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-streaming-commons/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	streaming-commons
 PORTVERSION=	0.1.12.1

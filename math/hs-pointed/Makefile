@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/math/hs-pointed/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	pointed
 PORTVERSION=	4.2.0.2

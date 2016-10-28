@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/math/hs-comonad/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	comonad
 PORTVERSION=	4.2.7.2

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/graphics/hs-dia-functions/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	dia-functions
 PORTVERSION=	0.2.1.4

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-uuagc-bootstrap/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	uuagc-bootstrap
 PORTVERSION=	0.9.40.2

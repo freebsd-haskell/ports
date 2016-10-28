@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-crypto-api/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	crypto-api
 PORTVERSION=	0.13.2

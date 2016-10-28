@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-vault/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	vault
 PORTVERSION=	0.3.0.4

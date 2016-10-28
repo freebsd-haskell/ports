@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/hs-happstack-server/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	happstack-server
 PORTVERSION=	7.4.4

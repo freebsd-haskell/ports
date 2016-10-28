@@ -1,5 +1,5 @@
 # Created by: Nikolai Lifanov <lifanov@mail.lifanov.com>
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-ncurses/Makefile 409201 2016-02-19 20:38:29Z pgj $
 
 PORTNAME=	ncurses
 PORTVERSION=	0.2.15

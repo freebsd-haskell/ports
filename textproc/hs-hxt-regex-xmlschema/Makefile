@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-hxt-regex-xmlschema/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	hxt-regex-xmlschema
 PORTVERSION=	9.2.0.2

@@ -1,5 +1,5 @@
 # Created by: Volker Stolz <vs@FreeBSD.org>
-# $FreeBSD$
+# $FreeBSD: head/x11/hs-X11/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	X11
 PORTVERSION=	1.6.1.2

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/hs-http-reverse-proxy/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	http-reverse-proxy
 PORTVERSION=	0.4.2

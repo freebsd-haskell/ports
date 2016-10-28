@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/net/hs-hoauth2/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	hoauth2
 PORTVERSION=	0.4.8

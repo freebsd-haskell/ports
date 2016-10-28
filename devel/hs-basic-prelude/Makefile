@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-basic-prelude/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	basic-prelude
 PORTVERSION=	0.5.0

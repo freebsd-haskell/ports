@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-HStringTemplate/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	HStringTemplate
 PORTVERSION=	0.8.3

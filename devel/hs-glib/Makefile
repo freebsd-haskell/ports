@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-glib/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	glib
 PORTVERSION=	0.13.1.1

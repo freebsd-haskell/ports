@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-fast-logger/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	fast-logger
 PORTVERSION=	2.4.1

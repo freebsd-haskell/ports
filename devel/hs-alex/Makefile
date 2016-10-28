@@ -1,5 +1,5 @@
 # Created by: Volker Stolz <stolz@i2.informatik.rwth-aachen.de>
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-alex/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	alex
 PORTVERSION=	3.1.4

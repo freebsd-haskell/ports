@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-stm-chans/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	stm-chans
 PORTVERSION=	3.0.0.4

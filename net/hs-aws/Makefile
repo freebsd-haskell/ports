@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/net/hs-aws/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	aws
 PORTVERSION=	0.12.1

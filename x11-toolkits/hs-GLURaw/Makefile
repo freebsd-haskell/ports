@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/x11-toolkits/hs-GLURaw/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	GLURaw
 PORTVERSION=	1.5.0.1

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-hspec/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	hspec
 PORTVERSION=	2.1.10

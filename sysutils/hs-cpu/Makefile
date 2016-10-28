@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/sysutils/hs-cpu/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	cpu
 PORTVERSION=	0.1.2

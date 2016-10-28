@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-timezone-olson/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	timezone-olson
 PORTVERSION=	0.1.7

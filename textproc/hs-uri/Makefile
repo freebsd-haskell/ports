@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-uri/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	uri
 PORTVERSION=	0.1.6.3

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-cipher-des/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	cipher-des
 PORTVERSION=	0.0.6

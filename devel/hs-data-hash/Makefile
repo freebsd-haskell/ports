@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-data-hash/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	data-hash
 PORTVERSION=	0.2.0.1

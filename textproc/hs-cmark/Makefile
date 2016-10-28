@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-cmark/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	cmark
 PORTVERSION=	0.4.0.1

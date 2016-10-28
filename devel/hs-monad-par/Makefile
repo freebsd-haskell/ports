@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-monad-par/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	monad-par
 PORTVERSION=	0.3.4.7

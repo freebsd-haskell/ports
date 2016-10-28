@@ -1,5 +1,5 @@
 # Created by: Samy Al Bahra <sbahra@kerneled.org>
-# $FreeBSD$
+# $FreeBSD: head/ports-mgmt/hs-porte/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	porte
 PORTVERSION=	0.0.4

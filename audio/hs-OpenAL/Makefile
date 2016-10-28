@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/audio/hs-OpenAL/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	OpenAL
 PORTVERSION=	1.7.0.0

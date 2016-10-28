@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/x11-toolkits/hs-wx/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	wx
 PORTVERSION=	0.91.0.0

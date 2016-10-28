@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-bytestring-mmap/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	bytestring-mmap
 PORTVERSION=	0.2.2

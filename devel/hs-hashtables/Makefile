@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-hashtables/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	hashtables
 PORTVERSION=	1.2.0.2

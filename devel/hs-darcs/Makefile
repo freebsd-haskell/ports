@@ -1,5 +1,5 @@
 # Created by: Oliver Braun <obraun@FreeBSD.org>
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-darcs/Makefile 412346 2016-04-01 14:00:51Z mat $
 
 PORTNAME=	darcs
 PORTVERSION=	2.10.1
@@ -31,7 +31,7 @@ FLAGS_ENABLE=		library executable
 
 CURL_DESC=		Use libcurl for HTTP support
 CURL_FLAG_ENABLE=	curl
-CURL_FLAG_LIB=		libcurl.so:${PORTSDIR}/ftp/curl
+CURL_FLAG_LIB=		libcurl.so:ftp/curl
 
 HTTP_DESC=		Use the pure HTTP package
 HTTP_FLAG_ENABLE=	http

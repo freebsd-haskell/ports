@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-haddock-api/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	haddock-api
 PORTVERSION=	2.16.1

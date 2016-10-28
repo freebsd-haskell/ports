@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/dns/hs-dns/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	dns
 PORTVERSION=	2.0.0

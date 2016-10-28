@@ -1,5 +1,5 @@
 # Created by: Li-Lun Wang <llwang@infor.org>
-# $FreeBSD$
+# $FreeBSD: head/lang/whitespace/Makefile 412347 2016-04-01 14:08:37Z mat $
 
 PORTNAME=	whitespace
 PORTVERSION=	0.3
@@ -13,9 +13,9 @@ COMMENT=	Interpreter for the Whitespace programming language
 
 LICENSE=	GPLv2
 
-BUILD_DEPENDS=	ghc:${PORTSDIR}/lang/ghc
-LIB_DEPENDS=	libgmp.so:${PORTSDIR}/math/gmp \
-		libffi.so.6:${PORTSDIR}/devel/libffi
+BUILD_DEPENDS=	ghc:lang/ghc
+LIB_DEPENDS=	libgmp.so:math/gmp \
+		libffi.so.6:devel/libffi
 
 USES=		perl5 gmake tar:tgz
 USE_PERL5=	build

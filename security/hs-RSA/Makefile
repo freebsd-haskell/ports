@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-RSA/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	RSA
 PORTVERSION=	2.1.0.1

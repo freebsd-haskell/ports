@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/www/hs-http-types/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	http-types
 PORTVERSION=	0.8.6

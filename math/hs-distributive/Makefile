@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/math/hs-distributive/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	distributive
 PORTVERSION=	0.4.4

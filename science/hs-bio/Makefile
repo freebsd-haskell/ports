@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/science/hs-bio/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	bio
 PORTVERSION=	0.5.3

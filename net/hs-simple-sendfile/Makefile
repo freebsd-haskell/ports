@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/net/hs-simple-sendfile/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	simple-sendfile
 PORTVERSION=	0.2.21

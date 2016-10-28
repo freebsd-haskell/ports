@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-MonadCatchIO-transformers/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	MonadCatchIO-transformers
 PORTVERSION=	0.3.1.3

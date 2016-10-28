@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/archivers/hs-tar/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	tar
 PORTVERSION=	0.4.2.1

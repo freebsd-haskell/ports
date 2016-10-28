@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-pureMD5/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	pureMD5
 PORTVERSION=	2.1.2.1

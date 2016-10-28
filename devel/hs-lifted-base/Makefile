@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-lifted-base/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	lifted-base
 PORTVERSION=	0.2.3.6

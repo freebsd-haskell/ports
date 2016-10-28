@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-language-c/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	language-c
 PORTVERSION=	0.4.7

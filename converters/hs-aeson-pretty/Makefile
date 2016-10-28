@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/converters/hs-aeson-pretty/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	aeson-pretty
 PORTVERSION=	0.7.2

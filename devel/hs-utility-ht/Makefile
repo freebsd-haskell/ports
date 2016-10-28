@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-utility-ht/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	utility-ht
 PORTVERSION=	0.0.10

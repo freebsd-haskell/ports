@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-pandoc-types/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	pandoc-types
 PORTVERSION=	1.12.4.5

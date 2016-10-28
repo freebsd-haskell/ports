@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-cipher-camellia/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	cipher-camellia
 PORTVERSION=	0.0.2

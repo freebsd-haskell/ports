@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-asn1-parse/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	asn1-parse
 PORTVERSION=	0.9.1

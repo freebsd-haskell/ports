@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-uuid/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	uuid
 PORTVERSION=	1.3.11

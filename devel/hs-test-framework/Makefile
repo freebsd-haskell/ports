@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-test-framework/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	test-framework
 PORTVERSION=	0.8.1.1

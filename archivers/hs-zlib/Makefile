@@ -1,5 +1,5 @@
 # Created by: Samy Al Bahra <sbahra@kerneled.org>
-# $FreeBSD$
+# $FreeBSD: head/archivers/hs-zlib/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	zlib
 PORTVERSION=	0.5.4.2

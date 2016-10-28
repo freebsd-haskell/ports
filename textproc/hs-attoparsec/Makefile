@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-attoparsec/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	attoparsec
 PORTVERSION=	0.12.1.6

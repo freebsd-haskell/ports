@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/security/hs-certificate/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	certificate
 PORTVERSION=	1.3.9

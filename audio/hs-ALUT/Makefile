@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/audio/hs-ALUT/Makefile 395642 2015-08-30 20:23:56Z pgj $
 
 PORTNAME=	ALUT
 PORTVERSION=	2.4.0.0

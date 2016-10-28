@@ -1,5 +1,5 @@
 # Created by: Giuseppe Pilichi aka Jacula Modyun <jacula@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-convertible/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	convertible
 PORTVERSION=	1.1.1.0

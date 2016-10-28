@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/databases/hs-esqueleto/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	esqueleto
 PORTVERSION=	2.4.1

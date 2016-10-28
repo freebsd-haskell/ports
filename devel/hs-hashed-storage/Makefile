@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-hashed-storage/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	hashed-storage
 PORTVERSION=	0.5.11

@@ -1,5 +1,5 @@
 # Created by: Kai Wang <kaiw27@gmail.com>
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-BNFC/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	BNFC
 PORTVERSION=	2.8

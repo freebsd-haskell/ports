@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/math/hs-kan-extensions/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	kan-extensions
 PORTVERSION=	4.2.2

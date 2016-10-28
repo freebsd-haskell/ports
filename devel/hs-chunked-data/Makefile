@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-chunked-data/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	chunked-data
 PORTVERSION=	0.2.0

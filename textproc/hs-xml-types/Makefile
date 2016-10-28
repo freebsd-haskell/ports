@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-xml-types/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	xml-types
 PORTVERSION=	0.3.6

@@ -1,5 +1,5 @@
 # Created by: Kaspars Bankovskis <kaspars@bankovskis.lv>
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-csv/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	csv
 PORTVERSION=	0.1.2

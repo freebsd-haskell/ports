@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/net/hs-network-info/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	network-info
 PORTVERSION=	0.2.0.7

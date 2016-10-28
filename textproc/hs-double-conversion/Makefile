@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-double-conversion/Makefile 412349 2016-04-01 14:25:16Z mat $
 
 PORTNAME=	double-conversion
 PORTVERSION=	2.0.1.0
@@ -15,7 +15,7 @@ USE_CABAL=	text>=0.11.0.8
 
 .if ${PORT_OPTIONS:MPCLANG} || ${PORT_OPTIONS:MBCLANG}
 EXTRA_PATCHES+=	${PATCHDIR}/extra-patch-double-conversion.cabal
-LIB_DEPENDS+=	libcxxrt.so:${PORTSDIR}/devel/libcxxrt
+LIB_DEPENDS+=	libcxxrt.so:devel/libcxxrt
 .endif
 
 .include <bsd.port.mk>

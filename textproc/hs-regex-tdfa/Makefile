@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/textproc/hs-regex-tdfa/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	regex-tdfa
 PORTVERSION=	1.2.0

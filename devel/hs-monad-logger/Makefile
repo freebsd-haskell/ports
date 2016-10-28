@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-monad-logger/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	monad-logger
 PORTVERSION=	0.3.13.2

@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-gconf/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	gconf
 PORTVERSION=	0.13.0.2

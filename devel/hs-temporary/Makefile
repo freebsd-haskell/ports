@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/devel/hs-temporary/Makefile 394918 2015-08-20 23:02:14Z pgj $
 
 PORTNAME=	temporary
 PORTVERSION=	1.2.0.3
