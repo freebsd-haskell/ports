@@ -1,11 +1,10 @@
 # Created by: Simon Marlow <simonmar@microsoft.com>
-# $FreeBSD$
+# $FreeBSD: head/lang/ghc/Makefile 415742 2016-05-23 20:35:01Z amdmi3 $
 
 PORTNAME=	ghc
 PORTVERSION=	7.10.2
 CATEGORIES=	lang haskell
 MASTER_SITES=	http://www.haskell.org/ghc/dist/${PORTVERSION}/:source \
-		http://leaf.dragonflybsd.org/~marino/dports-src/:dflyboot \
 		LOCAL/pgj/:boot
 DISTFILES=	ghc-${PORTVERSION}-src${EXTRACT_SUFX}:source
 
@@ -29,7 +28,7 @@ EXAMPLESDIR=	${PREFIX}/share/examples/ghc-${GHC_VERSION}
 
 CONFLICTS=	ghc-7.4.* ghc-7.6.* ghc-7.8.*
 
-LIB_DEPENDS+=	libgmp.so:${PORTSDIR}/math/gmp
+LIB_DEPENDS+=	libgmp.so:math/gmp
 
 USE_PERL5=		build
 USES=			autoreconf gmake iconv:translit ncurses perl5 tar:xz
@@ -49,11 +48,10 @@ OPTIONS_DEFINE=			PROFILE DYNAMIC LLVM DOCS
 OPTIONS_SINGLE=			C_Compiler
 OPTIONS_SINGLE_C_Compiler=	GCC PCLANG BCLANG
 
-OPTIONS_DEFAULT=	PROFILE DYNAMIC DOCS GCC
+OPTIONS_DEFAULT=	PROFILE DYNAMIC GCC
 
 BOOT_DESC=		Use installed GHC for bootstrapping
 BOOTH_DESC=		Use installed HsColour for bootstrapping
-GCC_DESC=		Build with GCC (from ports)
 PCLANG_DESC=		Build with Clang from ports
 BCLANG_DESC=		Build with Clang from base
 PROFILE_DESC=		Add support for performance profiling
@@ -75,32 +73,19 @@ OPTIONS_DEFINE+=	BOOTH
 
 .if ${PORT_OPTIONS:MDYNAMIC}
 # The version number is needed as lang/gcc installs a different version
-LIB_DEPENDS+=	libffi.so.6:${PORTSDIR}/devel/libffi
+LIB_DEPENDS+=	libffi.so.6:devel/libffi
 .endif
 
 .if empty(PORT_OPTIONS:MBOOT)
 
-.if ${OPSYS} == "FreeBSD"
-
 BOOT_GHC_VERSION=	7.10.2
 DISTFILES+=		ghc-${BOOT_GHC_VERSION}-boot-${ARCH}-freebsd${EXTRACT_SUFX}:boot
-
-.elif ${OPSYS} == "DragonFly"
-
-BOOT_GHC_VERSION=	7.10.2
-DISTFILES+=		ghc-${BOOT_GHC_VERSION}-boot-${ARCH}-dragonfly.tar.xz:dflyboot
-CONFIGURE_TARGET=	${ARCH}-portbld-dragonfly
-CONFIGURE_ENV+=		BOOTDIR=${BOOT_DIR} LBASE=${LOCALBASE}
-
-.else
-IGNORE=		unsupported ${OPSYS} Operating System
-.endif
 
 .endif # MBOOT
 
 .if ${PORT_OPTIONS:MPCLANG}
-BUILD_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
-RUN_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
+BUILD_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:lang/clang${LLVM_VERSION}
+RUN_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:lang/clang${LLVM_VERSION}
 CC=		${LOCALBASE}/bin/clang${LLVM_VERSION}
 CXX=		${LOCALBASE}/bin/clang++${LLVM_VERSION}
 CPP=		${LOCALBASE}/bin/clang-cpp${LLVM_VERSION}
@@ -147,8 +132,8 @@ CONFIGURE_ARGS+=	--with-system-libffi \
 .endif
 
 .if ${PORT_OPTIONS:MLLVM}
-BUILD_DEPENDS+=		${LOCALBASE}/bin/opt${LLVM_VERSION}:${PORTSDIR}/devel/llvm${LLVM_VERSION}
-RUN_DEPENDS+=		${LOCALBASE}/bin/opt${LLVM_VERSION}:${PORTSDIR}/devel/llvm${LLVM_VERSION}
+BUILD_DEPENDS+=		${LOCALBASE}/bin/opt${LLVM_VERSION}:devel/llvm${LLVM_VERSION}
+RUN_DEPENDS+=		${LOCALBASE}/bin/opt${LLVM_VERSION}:devel/llvm${LLVM_VERSION}
 
 CONFIGURE_ARGS+=	--with-opt=${LOCALBASE}/bin/opt${LLVM_VERSION} \
 			--with-llc=${LOCALBASE}/bin/llc${LLVM_VERSION}
@@ -209,8 +194,8 @@ CONFIGURE_ENV+=	PATH=${SLAVES_PREFIX}/bin:${PATH}
 
 .endif # MBOOTH
 
-BUILD_DEPENDS+=	docbook-xsl>0:${PORTSDIR}/textproc/docbook-xsl \
-		${LOCALBASE}/bin/xsltproc:${PORTSDIR}/textproc/libxslt
+BUILD_DEPENDS+=	docbook-xsl>0:textproc/docbook-xsl \
+		${LOCALBASE}/bin/xsltproc:textproc/libxslt
 .endif
 
 post-extract:
@@ -287,7 +272,7 @@ post-patch:
 pre-configure:
 	@${MKDIR} ${TMPDIR}
 .if empty(PORT_OPTIONS:MBOOT)
-	@(cd ${BOOT_DIR} && ${CONFIGURE_ENV} ./${CONFIGURE_SCRIPT} ${CONFIGURE_ARGS_BOOT})
+	@(cd ${BOOT_DIR} && ${CONFIGURE_ENV} ${CONFIGURE_CMD} ${CONFIGURE_ARGS_BOOT})
 	@(cd ${BOOT_DIR} && PACKAGES='' ${MAKE_CMD} install)
 .endif
 

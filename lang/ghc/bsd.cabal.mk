@@ -1,5 +1,5 @@
 #
-# $FreeBSD$
+# $FreeBSD: head/lang/ghc/bsd.cabal.mk 412347 2016-04-01 14:08:37Z mat $
 #
 # bsd.cabal.mk -- Support for ports based on Haskell Cabal.
 #
@@ -73,19 +73,19 @@ TMPDIR?=	${WRKDIR}/tmp
 .endif
 
 .if !defined(STANDALONE) || ${PORT_OPTIONS:MDYNAMIC}
-BUILD_DEPENDS+=	ghc:${PORTSDIR}/${GHC_PORT}
-BUILD_DEPENDS+=	${GHC_PACKAGE}>=${GHC_VERSION}:${PORTSDIR}/${GHC_PORT}
-RUN_DEPENDS+=	ghc:${PORTSDIR}/${GHC_PORT}
-RUN_DEPENDS+=	${GHC_PACKAGE}>=${GHC_VERSION}:${PORTSDIR}/${GHC_PORT}
+BUILD_DEPENDS+=	ghc:lang/ghc
+BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:lang/ghc
+RUN_DEPENDS+=	ghc:lang/ghc
+RUN_DEPENDS+=	ghc>=${GHC_VERSION}:lang/ghc
 .else
-BUILD_DEPENDS+=	ghc:${PORTSDIR}/${GHC_PORT}
-BUILD_DEPENDS+=	${GHC_PACKAGE}>=${GHC_VERSION}:${PORTSDIR}/${GHC_PORT}
+BUILD_DEPENDS+=	ghc:lang/ghc
+BUILD_DEPENDS+=	ghc>=${GHC_VERSION}:lang/ghc
 .endif
 
 
 .if ${PORT_OPTIONS:MPCLANG}
-BUILD_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
-RUN_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:${PORTSDIR}/lang/clang${LLVM_VERSION}
+BUILD_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:lang/clang${LLVM_VERSION}
+RUN_DEPENDS+=	${LOCALBASE}/bin/clang${LLVM_VERSION}:lang/clang${LLVM_VERSION}
 CC=		${LOCALBASE}/bin/clang${LLVM_VERSION}
 CXX=		${LOCALBASE}/bin/clang++${LLVM_VERSION}
 CPP=		${LOCALBASE}/bin/clang-cpp${LLVM_VERSION}
@@ -109,26 +109,26 @@ CONFIGURE_ARGS+=	--ghc-option=-fllvm \
 			--ghc-option=-pgmlo --ghc-option=${LOCALBASE}/bin/opt${LLVM_VERSION} \
 			--ghc-option=-pgmlc --ghc-option=${LOCALBASE}/bin/llc${LLVM_VERSION}
 
-BUILD_DEPENDS+=		${LOCALBASE}/bin/opt${LLVM_VERSION}:${PORTSDIR}/devel/llvm${LLVM_VERSION}
+BUILD_DEPENDS+=		${LOCALBASE}/bin/opt${LLVM_VERSION}:devel/llvm${LLVM_VERSION}
 .endif
 
 .if defined(USE_ALEX)
-BUILD_DEPENDS+=	${ALEX_CMD}:${PORTSDIR}/devel/hs-alex
+BUILD_DEPENDS+=	${ALEX_CMD}:devel/hs-alex
 CONFIGURE_ARGS+=	 --with-alex=${ALEX_CMD}
 .endif
 
 .if defined(USE_HAPPY)
-BUILD_DEPENDS+=	${HAPPY_CMD}:${PORTSDIR}/devel/hs-happy
+BUILD_DEPENDS+=	${HAPPY_CMD}:devel/hs-happy
 CONFIGURE_ARGS+=	 --with-happy=${HAPPY_CMD}
 .endif
 
 .if defined(USE_C2HS)
-BUILD_DEPENDS+=	${C2HS_CMD}:${PORTSDIR}/devel/hs-c2hs
+BUILD_DEPENDS+=	${C2HS_CMD}:devel/hs-c2hs
 CONFIGURE_ARGS+=	--with-c2hs=${C2HS_CMD}
 .endif
 
 .if defined(EXECUTABLE)
-LIB_DEPENDS+=	libgmp.so:${PORTSDIR}/math/gmp
+LIB_DEPENDS+=	libgmp.so:math/gmp
 USES+=		iconv
 
 CONFIGURE_ARGS+=	--enable-executable-stripping
@@ -153,7 +153,7 @@ __u_h_r_version:=	${cabal_package:C/^[^<=>]*//g}
 .endif
 
 dependencies:=	${dependencies} \
-${HSPREFIX}${__u_h_r_package}${__u_h_r_version}:${PORTSDIR}/${__u_h_r_port}
+${HSPREFIX}${__u_h_r_package}${__u_h_r_version}:${__u_h_r_port}
 .endfor
 
 BUILD_DEPENDS+=	${dependencies}
@@ -171,36 +171,18 @@ RUN_DEPENDS+=	${dependencies}
 HADDOCK_OPTS=	# empty
 
 .if ${PORT_OPTIONS:MHSCOLOUR}
+BUILD_DEPENDS+=	HsColour:print/hs-hscolour
 
-HADDOCK_OPTS+=		--hyperlink-source
-
-.if ${PORTNAME} != hscolour
-BUILD_DEPENDS+=		HsColour:${PORTSDIR}/print/hs-hscolour
 HSCOLOUR_DATADIR=	${LOCALBASE}/share/cabal/ghc-${GHC_VERSION}/hscolour-${HSCOLOUR_VERSION}
-HADDOCK_OPTS+=		--hscolour-css=${HSCOLOUR_DATADIR}/hscolour.css
-.else
-CONFIGURE_ARGS+=	--with-hscolour=${WRKSRC}/dist/build/HsColour/HsColour
-HADDOCK_OPTS+=		--hscolour-css=${WRKSRC}/hscolour.css
-
-# That is a bluff to make Cabal believe (at configure) that HsColour is installed.
-__HSCOLOUR_BOOTSTRAP_DIR=	${WRKSRC}/dist/build/HsColour
-__HSCOLOUR_BOOTSTRAP=		${__HSCOLOUR_BOOTSTRAP_DIR}/HsColour
-
-__hscolour_bootstrap__=		\
-	${MKDIR} ${__HSCOLOUR_BOOTSTRAP_DIR} && \
-	${ECHO_CMD} "echo HsColour ${HSCOLOUR_VERSION}" > ${__HSCOLOUR_BOOTSTRAP} && \
-	${CHMOD} +x ${__HSCOLOUR_BOOTSTRAP};
-
-.endif
-
+HADDOCK_OPTS+=		--hyperlink-source --hscolour-css=${HSCOLOUR_DATADIR}/hscolour.css
 .endif # HSCOLOUR
 .endif # HADDOCK_AVAILABLE
 
 .endif
 
 .if defined(XMLDOCS)
-BUILD_DEPENDS+=	docbook-xsl>0:${PORTSDIR}/textproc/docbook-xsl \
-		${LOCALBASE}/bin/xsltproc:${PORTSDIR}/textproc/libxslt
+BUILD_DEPENDS+=	docbook-xsl>0:textproc/docbook-xsl \
+		${LOCALBASE}/bin/xsltproc:textproc/libxslt
 
 USES+=		gmake
 
@@ -245,7 +227,6 @@ do-configure:
 	@if [ -f ${WRKSRC}/Setup.lhs ]; then \
 	    cd ${WRKSRC} && ${_BUILD_SETUP} Setup.lhs; fi
 	@if [ -f ${WRKSRC}/${SETUP_CMD} ]; then \
-	    ${__hscolour_bootstrap__} \
 	    cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} \
 	    ${SETUP_CMD} configure --ghc --prefix=${PREFIX} \
 		--extra-include-dirs="${LOCALBASE}/include" --extra-lib-dirs="${LOCALBASE}/lib" \
@@ -364,19 +345,3 @@ add-plist-cabal:
 .endif
 
 .endif # !METAPORT
-
-.if defined(USE_CABAL)
-.for cabal_package in ${USE_CABAL}
-__u_h_r_package=	${cabal_package:C/[<=>].*$//g}
-__u_h_r_port=		${${__u_h_r_package}_port}
-__u_h_r_name=		${__u_h_r_port:C/.*\///g}
-
-ports:=	${ports} ${__u_h_r_package}:../../${__u_h_r_port}
-.endfor
-
-show-deppkgvers:
-	@for p in ${ports}; do \
-	    echo -n "$${p%%:*}=="; \
-	    ${MAKE} -C $${p##*:} -V PKGVERSION; \
-	done
-.endif

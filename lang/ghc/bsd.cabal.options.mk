@@ -1,5 +1,5 @@
 #
-# $FreeBSD$
+# $FreeBSD: head/lang/ghc/bsd.cabal.options.mk 409206 2016-02-19 20:49:11Z pgj $
 #
 # bsd.cabal.options.mk -- Support options for ports based on Haskell Cabal.
 #
@@ -18,17 +18,8 @@ GHC_CMD?=	${LOCALBASE}/bin/ghc
 HADDOCK_CMD?=	${LOCALBASE}/bin/haddock
 HSCOLOUR_CMD?=	${LOCALBASE}/bin/HsColour
 
-LLVM_VERSION=	35
-
-.if defined(I_WANT_GHC_HEAD)
-GHC_VERSION?=	7.9.20140727
-GHC_PORT?=	lang/ghc-devel
-GHC_PACKAGE?=	ghc-devel
-.else
 GHC_VERSION?=	7.10.2
-GHC_PORT?=	lang/ghc
-GHC_PACKAGE?=	ghc
-.endif
+LLVM_VERSION=	35
 
 HSCOLOUR_VERSION=	1.23
 
@@ -36,7 +27,6 @@ HSCOLOUR_DESC?=	Colorize generated documentation by HsColour
 DYNAMIC_DESC?=	Add support for dynamic linking
 PROFILE_DESC?=	Add support for profiling
 LLVM_DESC?=	Use the LLVM backend for code generation
-GCC_DESC=		Build with GCC (from ports)
 PCLANG_DESC=		Build with Clang from ports
 BCLANG_DESC=		Build with Clang from base
 
@@ -62,7 +52,7 @@ OPTIONS_DEFINE+=	DOCS
 OPTIONS_DEFAULT+=	DOCS
 HADDOCK_AVAILABLE=	yes
 
-.if !defined(IGNORE_HSCOLOUR)
+.if (${PORTNAME} != hscolour || exists(${HSCOLOUR_CMD})) && !defined(IGNORE_HSCOLOUR)
 OPTIONS_DEFINE+=	HSCOLOUR
 .endif
 .endif
